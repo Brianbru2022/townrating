@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "historic-town-georeference.v1",
+  "projectId": "alloa-scotland",
+  "mapId": "replace-with-reviewed-map-id",
+  "title": "Replace with map title",
+  "sourceInstitution": "Replace with source institution",
+  "sourceUrl": "https://replace-with-original-map-record.example",
+  "licence": "Confirm licence before publishing tiles or imagery",
+  "attribution": "Copy the required attribution from the original map record",
+  "imagePath": "C:/replace-with-authorised-map-scan.tif",
+  "sourceCrs": "image pixels",
+  "targetCrs": "EPSG:3857",
+  "controlPoints": [
+    {
+      "image": [0, 0],
+      "wgs84": [-3.79, 56.12],
+      "feature": "Describe a stable, identifiable feature",
+      "evidence": "Explain why this point matches"
+    }
+  ],
+  "transformation": "polynomial1",
+  "reviewedBy": "",
+  "reviewedAt": "",
+  "notes": "Do not use current features whose historic position is uncertain."
+}

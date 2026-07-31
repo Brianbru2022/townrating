@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "historic-town-live-import.v1",
+  "projectId": "culross-scotland",
+  "queryEnvelope": {
+    "type": "technical_retrieval_bbox",
+    "bbox": [
+      -3.69,
+      56.048,
+      -3.595,
+      56.105
+    ],
+    "warning": "This is not the conservation-area, parish or historic settlement boundary."
+  },
+  "profiles": [
+    {
+      "id": "refresh-culross-listed-buildings",
+      "sourceId": "hes-listed-buildings",
+      "purpose": "Refresh current listed-building point records",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/0/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.69,56.048,-3.595,56.105",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "id": "import-culross-conservation-area",
+      "sourceId": "hes-conservation-areas",
+      "purpose": "Import the current official conservation-area polygon",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/2/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.69,56.048,-3.595,56.105",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "id": "import-culross-designed-landscapes",
+      "sourceId": "hes-gardens",
+      "purpose": "Import Culross Abbey House and Dunimarle designed-landscape polygons",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/4/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.69,56.048,-3.595,56.105",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "id": "import-culross-scheduled-monuments",
+      "sourceId": "hes-scheduled",
+      "purpose": "Import all scheduled-monument polygons within the wider study area",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/5/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.69,56.048,-3.595,56.105",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "id": "import-culross-listed-boundaries",
+      "sourceId": "hes-listed-boundaries",
+      "purpose": "Import available listed-building boundary polygons",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/7/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.69,56.048,-3.595,56.105",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    }
+  ],
+  "mergeRules": [
+    "Match statutory records by official designationReference.",
+    "Current HES status, category and geometry supersede snapshot values.",
+    "Retain manually researched date and narrative fields as local enrichment unless contradicted by the official record.",
+    "Preserve category conflicts for review instead of silently choosing an older snapshot."
+  ]
+}

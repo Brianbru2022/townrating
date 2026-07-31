@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "historic-town-source-registry.v1",
+  "projectId": "kincardine-on-forth-scotland",
+  "sources": [
+    {
+      "id": "hes-listed-buildings",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Listed Buildings by Category",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/0",
+      "geometryType": "Point",
+      "sourceCRS": "EPSG:27700",
+      "licence": "Open Government Licence v3.0",
+      "attribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+      "reliability": "official_statutory"
+    },
+    {
+      "id": "hes-conservation-areas",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Conservation Areas",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/2",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "licence": "Open Government Licence v3.0",
+      "attribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+      "reliability": "official_statutory"
+    },
+    {
+      "id": "hes-gardens",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Gardens and Designed Landscapes",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/4",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "licence": "Open Government Licence v3.0",
+      "attribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+      "reliability": "official_statutory"
+    },
+    {
+      "id": "hes-scheduled",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Scheduled Monuments",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/5",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "licence": "Open Government Licence v3.0",
+      "attribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+      "reliability": "official_statutory"
+    },
+    {
+      "id": "hes-listed-boundaries",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Listed Buildings boundaries",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/7",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "licence": "Open Government Licence v3.0",
+      "attribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+      "reliability": "official_statutory"
+    },
+    {
+      "id": "fife-kincardine-appraisal",
+      "organisation": "Fife Council",
+      "dataset": "Kincardine Conservation Area Appraisal and Management Plan (2009)",
+      "sourceUrl": "https://www.fife.gov.uk/planning/built-heritage-and-planning/conservation-areas",
+      "licence": "Confirm current council terms.",
+      "reliability": "local_authority"
+    },
+    {
+      "id": "kincardine-local-place-plan",
+      "organisation": "Kincardine community / Fife Council publication",
+      "dataset": "Kincardine Local Place Plan 2024",
+      "sourceUrl": "https://www.fife.gov.uk/__data/assets/pdf_file/0023/607217/Kincardine-Local-Place-Plan-20243.pdf",
+      "licence": "Confirm current document terms.",
+      "reliability": "local_authority"
+    },
+    {
+      "id": "nls-historic-maps",
+      "organisation": "National Library of Scotland",
+      "dataset": "Historic maps",
+      "sourceUrl": "https://maps.nls.uk/",
+      "licence": "Layer-specific.",
+      "reliability": "archival"
+    },
+    {
+      "id": "transport-scotland-kincardine-cultural-heritage",
+      "organisation": "Transport Scotland",
+      "dataset": "Chapter 10: Cultural Heritage",
+      "sourceUrl": "https://www.transport.gov.scot/media/48408/chapter-10-cultural-heritage.pdf",
+      "licence": "Check Transport Scotland publication terms.",
+      "reliability": "official_non_statutory",
+      "use": "Conservation-area designation date and contextual heritage assessment."
+    },
+    {
+      "id": "socantscot-kincardine-survey",
+      "organisation": "Society of Antiquaries of Scotland",
+      "dataset": "Published architectural survey of Kincardine-on-Forth",
+      "sourceUrl": "https://journals.socantscot.org/index.php/psas/article/download/8685/8653/8640",
+      "licence": "Check journal terms before reproducing text or imagery.",
+      "reliability": "academic",
+      "use": "Dated architectural evidence including the 1712 panel at 5 Excise Lane."
+    },
+    {
+      "id": "trove-kincardine",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Trove / Canmore place, archive and image records",
+      "sourceUrl": "https://www.trove.scot/",
+      "licence": "Record-specific; check Trove reuse terms.",
+      "reliability": "official_non_statutory",
+      "use": "Supporting building-period classifications and archival image evidence."
+    }
+  ],
+  "updatedAt": "2026-07-29"
+}

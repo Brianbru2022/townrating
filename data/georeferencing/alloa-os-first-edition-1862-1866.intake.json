@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "historic-town-georeference.intake.v1",
+  "status": "source-located-awaiting-sheet-assets-and-control-points",
+  "projectId": "alloa-scotland",
+  "mapId": "nls-os-six-inch-first-edition-alloa-1862-1866",
+  "title": "Ordnance Survey six-inch to the mile, First Edition: Perth and Clackmannan Sheet CXXXIII (includes Alloa and Alva)",
+  "date": "Surveyed 1862; published 1866",
+  "sourceInstitution": "National Library of Scotland / Ordnance Survey",
+  "sourceUrl": "https://maps.nls.uk/os/6inch/first-edition/",
+  "rightsStatement": "CC BY (National Library of Scotland) for the map service and digitised map images; retain the required NLS attribution.",
+  "publicationStatus": "not-yet-georeferenced-for-app-overlay",
+  "knownCoverage": "Alloa and Alva context. The detailed Alloa town/harbour extent requires the matching First Edition 25-inch sheets, including Clackmannanshire CXXXIX.8 (1863).",
+  "sourceReferences": [
+    {
+      "title": "National Library of Scotland: Zoom into Clackmannanshire",
+      "url": "https://blog.nls.uk/zoom-into-clackmannanshire/",
+      "notes": "Confirms the NLS collection has Alloa-specific historic mapping, including the 1825 town plan and later OS sheets."
+    },
+    {
+      "title": "Historic Environment Scotland reference to the First Edition six-inch sheet",
+      "url": "https://portal.historicenvironment.scot/designation/LB52529",
+      "notes": "Cites Perthshire Sheet CXXXIII, including Alloa and Alva, surveyed 1862 and published 1866."
+    }
+  ],
+  "nextActions": [
+    "Download the CC BY NLS source sheets for the Alloa town extent and record each catalogue URL, sheet title, survey date and publication date.",
+    "Use the six-inch sheet only for regional context; use the 25-inch First Edition sheets for the town, harbour and industrial waterfront.",
+    "Record at least six independently checked control points per sheet, spread across the four edges and centre, using stable road junctions, bridges or church towers.",
+    "Create a production manifest targeting EPSG:3857 and run the georeferencing validation command before warping or tiling.",
+    "Publish only the resulting validated COG/XYZ layer, with National Library of Scotland attribution and the actual sheet dates in the map label."
+  ],
+  "notes": "The current NLS/MapTiler key exposes later seamless overlays but not this First Edition series. This intake therefore prevents a non-working selector entry while documenting the approved route to a high-value, source-backed 1860s overlay."
+}

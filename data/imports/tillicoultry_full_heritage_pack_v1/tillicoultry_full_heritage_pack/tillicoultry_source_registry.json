@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "historic-town-source-registry.v1",
+  "projectId": "tillicoultry-scotland",
+  "sources": [
+    {
+      "id": "hes",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Designations MapServer",
+      "sourceUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer",
+      "licence": "Open Government Licence v3.0",
+      "reliability": "official_statutory"
+    },
+    {
+      "id": "appraisal",
+      "organisation": "Clackmannanshire Council",
+      "dataset": "Tillicoultry Conservation Area Character Appraisal",
+      "sourceUrl": "https://www.clacks.gov.uk/document/6454.pdf",
+      "reliability": "local_authority"
+    },
+    {
+      "id": "iwm",
+      "organisation": "Imperial War Museums",
+      "dataset": "War Memorials Register",
+      "sourceUrl": "https://www.iwm.org.uk/memorials",
+      "reliability": "official_non_statutory"
+    },
+    {
+      "id": "nls",
+      "organisation": "National Library of Scotland",
+      "dataset": "Historic maps",
+      "sourceUrl": "https://maps.nls.uk/",
+      "reliability": "archival"
+    }
+  ]
+}

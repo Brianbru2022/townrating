@@ -1,0 +1,27 @@
+{
+  "projectId": "tillicoultry-scotland",
+  "generatedAt": "2026-07-29T18:48:46.600Z",
+  "processed": {
+    "nrhe": 120,
+    "hes": 8
+  },
+  "enriched": {
+    "nrhe": 62,
+    "hes": 6
+  },
+  "discardedNonHistoricDates": 0,
+  "remainingUndated": 60,
+  "hesReviewRequired": [
+    {
+      "id": "hes-conservation-area:CA512",
+      "sourceUrl": "https://portal.historicenvironment.scot/designation/CA512",
+      "reason": "HTTP 404"
+    },
+    {
+      "id": "hes-scheduled-monument:SM4163",
+      "sourceUrl": "https://portal.historicenvironment.scot/designation/SM4163",
+      "reason": "No designation description paragraph found."
+    }
+  ],
+  "note": "NRHE records without an official period classification and HES records without a conservative opening-description date remain undated. No date has been inferred from generic feature type, modern mapping or place name."
+}

@@ -1,0 +1,28 @@
+{
+  "projectId": "culross-scotland",
+  "status": "requires_licensed_source_geometry_before_publication",
+  "targets": [
+    "curated:context-nts-royal-burgh-portfolio",
+    "curated:context-sandhaven-harbour",
+    "curated:context-coal-salt-industrial-landscape",
+    "curated:context-royal-burgh-street-system"
+  ],
+  "requiredFields": [
+    "targetFeatureId",
+    "geometry",
+    "sourceOrganisation",
+    "sourceUrl",
+    "licence",
+    "accessedAt",
+    "scaleOrPrecision",
+    "interpretationDateRange",
+    "coverageLimitation",
+    "reviewer"
+  ],
+  "rules": [
+    "Do not use the parish boundary as historic settlement geometry.",
+    "Do not publish approximate or four-corner geometry as an evidence area.",
+    "Keep contextual overlays separate from parish feature counts and heat scoring."
+  ],
+  "records": []
+}

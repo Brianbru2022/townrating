@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "historic-town-live-import.v1",
+  "projectId": "tillicoultry-scotland",
+  "queryEnvelope": {
+    "bbox": [
+      -3.78,
+      56.13,
+      -3.69,
+      56.18
+    ]
+  },
+  "profiles": [
+    {
+      "id": "listed",
+      "layer": 0,
+      "purpose": "Refresh listed buildings",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/0/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.78,56.13,-3.69,56.18",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "id": "conservation",
+      "layer": 2,
+      "purpose": "Import official conservation-area polygon",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/2/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.78,56.13,-3.69,56.18",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "id": "scheduled",
+      "layer": 5,
+      "purpose": "Import scheduled-monument polygons",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/5/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.78,56.13,-3.69,56.18",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "id": "boundaries",
+      "layer": 7,
+      "purpose": "Import listed-building boundaries",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/7/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.78,56.13,-3.69,56.18",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/historic-town-project.schema.json",
+  "project": {
+    "id": "alloa-scotland",
+    "name": "Alloa",
+    "countryCode": "GB-SCT",
+    "country": "Scotland",
+    "region": "Clackmannanshire",
+    "locality": "Alloa",
+    "centre": [-3.7903, 56.1178],
+    "boundary": null,
+    "boundarySource": "Replace with a cited settlement/study-area boundary",
+    "boundaryConfidence": "unknown",
+    "sourceLanguage": "en",
+    "preferredBasemap": "OpenStreetMap",
+    "createdAt": "2026-07-28T00:00:00.000Z",
+    "timelineStart": 1700,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": { "high": 1, "medium": 0.75, "low": 0.5, "unknown": 0.35 },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Populate only from source-backed, licensed records. Never infer construction years from a first-mapped date."
+  },
+  "sources": [
+    {
+      "id": "replace-with-source-id",
+      "name": "Dataset title",
+      "organisation": "Source organisation",
+      "coverage": "Geographic coverage",
+      "accessMethod": "WFS | OGC API Features | ArcGIS REST | GeoJSON | CSV | manual import",
+      "sourceUrl": "https://",
+      "licence": "Record the exact licence",
+      "reliability": "official_statutory",
+      "limitations": "Known coverage, date, geometry, or redistribution limits"
+    }
+  ],
+  "features": [
+    {
+      "id": "stable-source-prefixed-id",
+      "projectId": "alloa-scotland",
+      "name": "Record name from source",
+      "alternativeNames": [],
+      "countryCode": "GB-SCT",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "address": null,
+      "featureType": "other",
+      "designationType": null,
+      "designationCategory": null,
+      "significance": "national",
+      "statutoryStatus": null,
+      "geometry": { "type": "Point", "coordinates": [null, null] },
+      "locationType": "exact",
+      "documentedDateText": null,
+      "earliestPossibleYear": null,
+      "latestPossibleYear": null,
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "locationConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": null,
+      "fullDescription": null,
+      "sourceRecords": [
+        {
+          "sourceName": "Dataset title",
+          "sourceOrganisation": "Source organisation",
+          "sourceRecordId": "Official record identifier",
+          "sourceUrl": "https://",
+          "accessedAt": "YYYY-MM-DD",
+          "licence": "Exact licence",
+          "quotedDateText": "Copy or paraphrase source wording accurately",
+          "notes": "Conflicts or import notes",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "Exact licence",
+      "tags": [],
+      "createdAt": "YYYY-MM-DDTHH:MM:SS.000Z",
+      "updatedAt": "YYYY-MM-DDTHH:MM:SS.000Z",
+      "reviewed": false,
+      "reviewNotes": null
+    }
+  ],
+  "historicMaps": [
+    {
+      "id": "stable-map-id",
+      "projectId": "alloa-scotland",
+      "title": "Map title",
+      "displayDate": "Published/survey date as stated by source",
+      "surveyStartYear": null,
+      "surveyEndYear": null,
+      "revisionYear": null,
+      "publicationYear": null,
+      "sourceInstitution": "Institution",
+      "sourceUrl": "https://",
+      "licence": "Exact licence and display/export constraints",
+      "attribution": "Required attribution",
+      "notes": "Keep survey, revision, and publication dates distinct.",
+      "layerType": "wms",
+      "tileUrl": null,
+      "wmsParameters": {},
+      "bounds": null,
+      "opacity": 0.6,
+      "minZoom": null,
+      "maxZoom": null,
+      "georeferencingMethod": null,
+      "georeferencingAccuracy": "unknown",
+      "controlPointCount": null,
+      "residualError": null
+    }
+  ],
+  "settlementPolygons": [],
+  "validation": []
+}

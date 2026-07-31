@@ -1,0 +1,3 @@
+# Deployment
+
+OpenStreetMap raster tiles are the zero-configuration local-development fallback. Review the [OSM tile usage policy](https://operations.osmfoundation.org/policies/tiles/) before using public tiles; do not rely on them for production traffic. For production, copy `.env.example`, configure a permitted self-hosted style URL and legal OSM data, then run `docker compose up --build`. PostGIS initialises from `docker/init-db.sql`. Start `tiles` and `geocoder` profiles only after provisioning OSM tile packages and Photon index data. Put API and tile services behind TLS/reverse proxy in production; maintain rate limits and source access policies.

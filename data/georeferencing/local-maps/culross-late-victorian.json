@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "historic-town-local-map.v1",
+  "projectId": "culross-scotland",
+  "mapId": "nls-culross-os-25-inch-1896-local",
+  "title": "NLS — Ordnance Survey 25-inch, Culross sheet XXXVII.12",
+  "displayDate": "1896",
+  "surveyStartYear": 1895,
+  "surveyEndYear": 1895,
+  "publicationYear": 1896,
+  "sourceInstitution": "National Library of Scotland / Ordnance Survey",
+  "sourceUrl": "https://maps.nls.uk/view/82882002",
+  "sourceImageUrl": "https://map-view.nls.uk/iiif/2/8288%2F82882002/full/max/0/default.jpg",
+  "iiifServiceUrl": "https://map-view.nls.uk/iiif/2/8288%2F82882002",
+  "licence": "CC BY (National Library of Scotland); retain the required attribution.",
+  "attribution": "National Library of Scotland, Ordnance Survey 25-inch mapping, sheet XXXVII.12 (1896).",
+  "notes": "High-detail historic burgh coverage only, not a portrayal of the whole parish as historic settlement. The four points are source-footprint references, not independently checked neatline control points. A reviewed control-point set and residual report are still required before publication or digitisation.",
+  "bounds": [-3.6559, 56.0436, -3.6169, 56.0583],
+  "targetCrs": "EPSG:3857",
+  "tilePackageId": "nls-culross-os-25-inch-1896",
+  "renderWidth": 4096,
+  "sourceWidth": 16688,
+  "sourceHeight": 11438,
+  "approvedForPublication": false,
+  "reviewedBy": "Historic Town Explorer automated local-map preparation",
+  "reviewedAt": "2026-07-29",
+  "controlPoints": [
+    { "image": [0, 0], "wgs84": [-3.6559, 56.0583], "feature": "NLS published sheet footprint north-west corner", "evidence": "NLS GeoServer sheet footprint for 82882002" },
+    { "image": [16687, 0], "wgs84": [-3.6169, 56.0583], "feature": "NLS published sheet footprint north-east corner", "evidence": "NLS GeoServer sheet footprint for 82882002" },
+    { "image": [16687, 11437], "wgs84": [-3.6169, 56.0436], "feature": "NLS published sheet footprint south-east corner", "evidence": "NLS GeoServer sheet footprint for 82882002" },
+    { "image": [0, 11437], "wgs84": [-3.6559, 56.0436], "feature": "NLS published sheet footprint south-west corner", "evidence": "NLS GeoServer sheet footprint for 82882002" }
+  ]
+}

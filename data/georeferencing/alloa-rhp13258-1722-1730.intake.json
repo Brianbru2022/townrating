@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "historic-town-georeference.intake.v1",
+  "status": "source-located-awaiting-rights-and-control-points",
+  "projectId": "alloa-scotland",
+  "mapId": "nrs-rhp13258-alloa-plan-1722-1730",
+  "title": "Plan of Alloa, the seat of the Lord Mar",
+  "date": "1722–1730",
+  "sourceInstitution": "National Records of Scotland / University of Edinburgh",
+  "sourceUrl": "https://images-teaching.is.ed.ac.uk/luna/servlet/detail/UoEcha~1~1~326696~102160:Plan-of-Alloa-The-Seat-of-The-Lord-",
+  "sourceImageUrl": "https://images-teaching.is.ed.ac.uk/MediaManager/srvr?mediafile=/Size4/UoEcha-1-NA/1003/0044119c.jpg",
+  "rightsStatement": "Courtesy of the Keeper of the Records of Scotland",
+  "publicationStatus": "not-approved-for-app-overlay-or-export",
+  "knownCoverage": "Alloa estate, town and harbour",
+  "nextActions": [
+    "Obtain written confirmation of image and derived-data reuse terms.",
+    "Acquire an authorised source image for local processing; do not commit it to the repository until the licence permits this.",
+    "Record at least four independently checked, stable ground-control points in WGS84.",
+    "Create a validated historic-town footprint or street-corridor GeoJSON, retaining this source record and a low confidence level until a second source corroborates it.",
+    "Only then create a production georeferencing manifest and run npm run check-georeference."
+  ],
+  "notes": "The map is an especially valuable early-eighteenth-century source because the catalogue describes the town, harbour, old and new roads and streets. It must not be used as if it were a modern surveyed GIS layer."
+}

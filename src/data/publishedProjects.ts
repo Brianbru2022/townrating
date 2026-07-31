@@ -1,0 +1,22 @@
+import type { ProjectPackage } from '../domain/models';
+import { alloaPackage } from './alloa';
+import { alvaPackage } from './alva';
+import { biggarPackage } from './biggar';
+import { culrossPackage } from './culross';
+import { kincardinePackage } from './kincardine';
+import { killinPackage } from './killin';
+import { quarriersVillagePackage } from './quarriersVillage';
+import { tillicoultryPackage } from './tillicoultry';
+
+// Register only curated, published project packages here. The catalogue UI and API sort them
+// consistently by country, region and town.
+export const publishedProjectPackages: ProjectPackage[] = [
+  alloaPackage,
+  alvaPackage,
+  culrossPackage,
+  kincardinePackage,
+  tillicoultryPackage,
+  quarriersVillagePackage,
+  biggarPackage,
+  killinPackage,
+];

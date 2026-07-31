@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "historic-town-source-registry.v1",
+  "projectId": "alva-scotland",
+  "sources": [
+    {
+      "id": "hes-listed",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Listed Buildings",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/0",
+      "geometryType": "Point",
+      "sourceCRS": "EPSG:27700",
+      "licence": "Open Government Licence v3.0",
+      "attribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+      "reliability": "official_statutory"
+    },
+    {
+      "id": "hes-conservation",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Conservation Areas",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/2",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "licence": "Open Government Licence v3.0",
+      "attribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+      "reliability": "official_statutory",
+      "limitations": "No Alva appraisal/boundary was confirmed; query live."
+    },
+    {
+      "id": "hes-scheduled",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Scheduled Monuments",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/5",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "licence": "Open Government Licence v3.0",
+      "attribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+      "reliability": "official_statutory"
+    },
+    {
+      "id": "hes-boundaries",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Listed Building boundaries",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/7",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "licence": "Open Government Licence v3.0",
+      "attribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+      "reliability": "official_statutory"
+    },
+    {
+      "id": "iwm",
+      "organisation": "Imperial War Museums",
+      "dataset": "War Memorials Register",
+      "sourceUrl": "https://www.iwm.org.uk/memorials",
+      "licence": "Record-specific.",
+      "reliability": "official_non_statutory"
+    },
+    {
+      "id": "clacks-art",
+      "organisation": "Clackmannanshire Council",
+      "dataset": "Public art in Clackmannanshire",
+      "sourceUrl": "https://www.clacks.gov.uk/culture/publicart/",
+      "licence": "Confirm council terms.",
+      "reliability": "local_authority"
+    },
+    {
+      "id": "trove",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Trove / Canmore",
+      "sourceUrl": "https://www.trove.scot/",
+      "licence": "Record-specific.",
+      "reliability": "official_non_statutory"
+    },
+    {
+      "id": "nls",
+      "organisation": "National Library of Scotland",
+      "dataset": "Historic maps",
+      "sourceUrl": "https://maps.nls.uk/",
+      "licence": "Layer-specific.",
+      "reliability": "archival"
+    },
+    {
+      "id": "soane",
+      "organisation": "Sir John Soane’s Museum",
+      "dataset": "Alva House drawings",
+      "sourceUrl": "https://collections.soane.org/ARC11356",
+      "licence": "Collection-specific.",
+      "reliability": "archival"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "historic-town-local-map.v1",
+  "projectId": "kincardine-on-forth-scotland",
+  "mapId": "nls-kincardine-os-25-inch-1896-local",
+  "title": "NLS — Ordnance Survey 25-inch, Kincardine sheet XXXVII.6",
+  "displayDate": "1896",
+  "surveyStartYear": 1895,
+  "surveyEndYear": 1895,
+  "publicationYear": 1896,
+  "sourceInstitution": "National Library of Scotland / Ordnance Survey",
+  "sourceUrl": "https://maps.nls.uk/view/82881969",
+  "sourceImageUrl": "https://map-view.nls.uk/iiif/2/8288%2F82881969/full/max/0/default.jpg",
+  "iiifServiceUrl": "https://map-view.nls.uk/iiif/2/8288%2F82881969",
+  "licence": "CC BY (National Library of Scotland); retain the required attribution.",
+  "attribution": "National Library of Scotland, Ordnance Survey 25-inch mapping, sheet XXXVII.6 (1896).",
+  "notes": "High-detail Kincardine town coverage only; the Tulliallan parish boundary remains the project extent. The four points are source-footprint references, not independently checked neatline control points. A reviewed control-point set and residual report are still required before publication or digitisation.",
+  "bounds": [-3.7337, 56.0576, -3.6947, 56.0723],
+  "targetCrs": "EPSG:3857",
+  "tilePackageId": "nls-kincardine-os-25-inch-1896",
+  "renderWidth": 4096,
+  "sourceWidth": 16688,
+  "sourceHeight": 11484,
+  "approvedForPublication": false,
+  "reviewedBy": "Historic Town Explorer automated local-map preparation",
+  "reviewedAt": "2026-07-29",
+  "controlPoints": [
+    { "image": [0, 0], "wgs84": [-3.7337, 56.0723], "feature": "NLS published sheet footprint north-west corner", "evidence": "NLS GeoServer sheet footprint for 82881969" },
+    { "image": [16687, 0], "wgs84": [-3.6947, 56.0723], "feature": "NLS published sheet footprint north-east corner", "evidence": "NLS GeoServer sheet footprint for 82881969" },
+    { "image": [16687, 11483], "wgs84": [-3.6947, 56.0576], "feature": "NLS published sheet footprint south-east corner", "evidence": "NLS GeoServer sheet footprint for 82881969" },
+    { "image": [0, 11483], "wgs84": [-3.7337, 56.0576], "feature": "NLS published sheet footprint south-west corner", "evidence": "NLS GeoServer sheet footprint for 82881969" }
+  ]
+}

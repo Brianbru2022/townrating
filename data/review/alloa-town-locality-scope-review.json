@@ -1,0 +1,762 @@
+{
+  "projectId": "alloa-scotland",
+  "reviewedAt": "2026-07-30T11:53:19.661Z",
+  "boundary": {
+    "name": "Alloa",
+    "source": "National Records of Scotland 2022 Census Locality Boundaries",
+    "sourceUrl": "https://www.nrscotland.gov.uk/media/im2nqu55/censuslocality2022_mhw.zip"
+  },
+  "policy": "Features outside the current NRS Alloa locality are not public Alloa features. They remain in this audit report for migration into a dedicated town project; the civil-parish study boundary is not changed.",
+  "excluded": [
+    {
+      "id": "nrhe:47178",
+      "name": "ALLOA"
+    },
+    {
+      "id": "nrhe:47189",
+      "name": "ALLOA"
+    },
+    {
+      "id": "nrhe:280999",
+      "name": "ALLOA"
+    },
+    {
+      "id": "nrhe:117453",
+      "name": "ALLOA, BRAEHEAD"
+    },
+    {
+      "id": "nrhe:308914",
+      "name": "ALLOA, CAMBUS, BRAEHEAD GOLF COURSE",
+      "targetLocality": "Cambus"
+    },
+    {
+      "id": "nrhe:298581",
+      "name": "ALLOA, CARSEBRIDGE ROAD, BONDED WAREHOUSES"
+    },
+    {
+      "id": "nrhe:80302",
+      "name": "ALLOA, FORTH RAIL BRIDGE"
+    },
+    {
+      "id": "nrhe:303288",
+      "name": "ALLOA, FORTHBANK, CAUDRON AERODROME AND AIRCRAFT FACTORY"
+    },
+    {
+      "id": "nrhe:270274",
+      "name": "ALLOA, HALLPARK MILLS"
+    },
+    {
+      "id": "nrhe:374932",
+      "name": "ALLOA, HILTON FIRECLAY WORKS"
+    },
+    {
+      "id": "nrhe:349039",
+      "name": "ALLOA, INCH"
+    },
+    {
+      "id": "nrhe:332103",
+      "name": "ALLOA, LORNSHILL"
+    },
+    {
+      "id": "nrhe:310430",
+      "name": "ALLOA, NEW SAUCHIE, FAIRFIELD, GENERAL",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:310429",
+      "name": "ALLOA, NEW SAUCHIE, GENERAL",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:267295",
+      "name": "ALLOA, PARKHEAD ROAD, SAUCHIE HOSPITAL",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:47224",
+      "name": "ALLOA, PIERS"
+    },
+    {
+      "id": "nrhe:381500",
+      "name": "ALLOA, SAUCHIE AND FISHCROSS UNITED FREE CHURCH",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:307846",
+      "name": "ALLOA, SAUCHIE, SCHAWPARK, ALLOA GOLF COURSE",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:111980",
+      "name": "ALVA",
+      "targetLocality": "Alva"
+    },
+    {
+      "id": "nrhe:167141",
+      "name": "ALVA, SAUCHIE TOWER, BRICKWORKS",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "osm-park:way-94830992",
+      "name": "Arnsbrae"
+    },
+    {
+      "id": "hes-listed-building:LB1969",
+      "name": "Arnsbrae House Lodge"
+    },
+    {
+      "id": "hes-listed-building:LB1968",
+      "name": "Arnsbrae House Stable Block"
+    },
+    {
+      "id": "hes-listed-building:LB1967",
+      "name": "Arnsbrae House, including terrace"
+    },
+    {
+      "id": "nrhe:111946",
+      "name": "BAILIESDUB"
+    },
+    {
+      "id": "nrhe:111953",
+      "name": "BANKHEAD"
+    },
+    {
+      "id": "nrhe:111954",
+      "name": "BANKHEAD"
+    },
+    {
+      "id": "nrhe:111950",
+      "name": "BLACKFAULDS"
+    },
+    {
+      "id": "nrhe:111951",
+      "name": "BLACKFAULDS"
+    },
+    {
+      "id": "nrhe:276262",
+      "name": "BLACKMUIR WOOD"
+    },
+    {
+      "id": "hes-conservation-area:CA203",
+      "name": "BLAIRLOGIE"
+    },
+    {
+      "id": "nrhe:47180",
+      "name": "CAMBUS",
+      "targetLocality": "Cambus"
+    },
+    {
+      "id": "nrhe:47231",
+      "name": "CAMBUS DISTILLERY",
+      "targetLocality": "Cambus"
+    },
+    {
+      "id": "nrhe:47218",
+      "name": "CAMBUS HARBOUR",
+      "targetLocality": "Cambus"
+    },
+    {
+      "id": "nrhe:289827",
+      "name": "CAMBUS, 19 MAIN STREET",
+      "targetLocality": "Cambus"
+    },
+    {
+      "id": "nrhe:289826",
+      "name": "CAMBUS, 25 MAIN STREET",
+      "targetLocality": "Cambus"
+    },
+    {
+      "id": "nrhe:139425",
+      "name": "CAMBUS, BLACKGRANGE, BRICK AND TILE WORKS",
+      "targetLocality": "Cambus"
+    },
+    {
+      "id": "nrhe:139430",
+      "name": "CAMBUS, DEVON PLACE, GENERAL",
+      "targetLocality": "Cambus"
+    },
+    {
+      "id": "nrhe:289828",
+      "name": "CAMBUS, GENERAL",
+      "targetLocality": "Cambus"
+    },
+    {
+      "id": "nrhe:47215",
+      "name": "CAMBUS, IRON BRIDGE",
+      "targetLocality": "Cambus"
+    },
+    {
+      "id": "nrhe:373106",
+      "name": "CAMBUS, MIDTOWN BUSINESS PARK",
+      "targetLocality": "Cambus"
+    },
+    {
+      "id": "nrhe:83397",
+      "name": "CAMBUS, STATION ROAD, COTTAGES",
+      "targetLocality": "Cambus"
+    },
+    {
+      "id": "nrhe:47233",
+      "name": "CAMBUS, STRATHMORE DISTILLERY",
+      "targetLocality": "Cambus"
+    },
+    {
+      "id": "hes-listed-building:LB21022",
+      "name": "Carsebridge House"
+    },
+    {
+      "id": "hes-listed-building:LB21023",
+      "name": "Carsebridge House walled garden, garden house and walls"
+    },
+    {
+      "id": "hes-conservation-area:CA510",
+      "name": "CLACKMANNAN",
+      "targetLocality": "Clackmannan"
+    },
+    {
+      "id": "hes-scheduled-monument:SM90073",
+      "name": "Clackmannan Tower",
+      "targetLocality": "Clackmannan"
+    },
+    {
+      "id": "nrhe:111965",
+      "name": "COLLYLAND"
+    },
+    {
+      "id": "nrhe:111966",
+      "name": "COLLYLAND"
+    },
+    {
+      "id": "hes-listed-building:LB1984",
+      "name": "Cross at Hawk Hill, west of former east lodge to Alloa House"
+    },
+    {
+      "id": "nrhe:130814",
+      "name": "DEVON COLLIERY"
+    },
+    {
+      "id": "nrhe:47088",
+      "name": "DEVON COLLIERY, ENGINE HOUSE"
+    },
+    {
+      "id": "nrhe:111972",
+      "name": "DEVON IRON WORKS"
+    },
+    {
+      "id": "nrhe:111949",
+      "name": "DEVON VILLAGE"
+    },
+    {
+      "id": "nrhe:345577",
+      "name": "DIAGEO GLOBAL SUPPLY, BLACKGRANGE BOND"
+    },
+    {
+      "id": "nrhe:111976",
+      "name": "EASTFIELD HOUSE"
+    },
+    {
+      "id": "nrhe:111975",
+      "name": "EASTFIELD HOUSE"
+    },
+    {
+      "id": "nrhe:111963",
+      "name": "FIDDLEDUFF"
+    },
+    {
+      "id": "nrhe:219325",
+      "name": "FIDDLEDUFF"
+    },
+    {
+      "id": "nrhe:253785",
+      "name": "FISH CROSS, META BRICKWORKS",
+      "targetLocality": "Fishcross"
+    },
+    {
+      "id": "nrhe:297296",
+      "name": "FISHCROSS, ALLOA ROAD, MINERS WELFARE INSTITUTE",
+      "targetLocality": "Fishcross"
+    },
+    {
+      "id": "nrhe:111947",
+      "name": "FISHCROSS, DEVONBANK HOUSE",
+      "targetLocality": "Fishcross"
+    },
+    {
+      "id": "nrhe:374692",
+      "name": "FISHCROSS, PARK AT LAWSWELL",
+      "targetLocality": "Fishcross"
+    },
+    {
+      "id": "nrhe:130817",
+      "name": "FORTHBANK 1 AND 2, COLLIERY"
+    },
+    {
+      "id": "nrhe:346643",
+      "name": "FORTHBANK, UNIDENTIFIED BUILDING"
+    },
+    {
+      "id": "nrhe:111943",
+      "name": "GARTENSTARS PLANTATION"
+    },
+    {
+      "id": "nrhe:278989",
+      "name": "GARTMORN DAM, DAM"
+    },
+    {
+      "id": "nrhe:278985",
+      "name": "GARTMORN DAM, WATERWORKS AND FILTER BEDS"
+    },
+    {
+      "id": "nrhe:279002",
+      "name": "GARTMORN HILL FARM"
+    },
+    {
+      "id": "nrhe:108934",
+      "name": "GARVEL"
+    },
+    {
+      "id": "nrhe:387506",
+      "name": "GARVEL FARM"
+    },
+    {
+      "id": "nrhe:130821",
+      "name": "GLENOCHIL COLLIERY"
+    },
+    {
+      "id": "nrhe:298568",
+      "name": "GLENOCHIL, HM PRISON AND YOUNG OFFENDERS INSTITUTE GLENOCHIL"
+    },
+    {
+      "id": "nrhe:111948",
+      "name": "HAMILTON WOOD"
+    },
+    {
+      "id": "nrhe:47270",
+      "name": "HAUGH"
+    },
+    {
+      "id": "nrhe:108932",
+      "name": "HAUGH OF BLACKGRANGE"
+    },
+    {
+      "id": "nrhe:112977",
+      "name": "HAUGH OF BLACKGRANGE"
+    },
+    {
+      "id": "nrhe:108933",
+      "name": "HAUGH OF BLACKGRANGE, HAUGH COTTAGE"
+    },
+    {
+      "id": "nrhe:219331",
+      "name": "HILTON FIRECLAY WORKS"
+    },
+    {
+      "id": "nrhe:111974",
+      "name": "HOMETOWN"
+    },
+    {
+      "id": "hes-listed-building:LB21019",
+      "name": "Inglewood"
+    },
+    {
+      "id": "nrhe:279001",
+      "name": "JELLYHOLM"
+    },
+    {
+      "id": "nrhe:279000",
+      "name": "JELLYHOLM PIT"
+    },
+    {
+      "id": "hes-listed-building:LB1983",
+      "name": "Keilarsbrae House"
+    },
+    {
+      "id": "hes-conservation-area:CA511",
+      "name": "KENNET VILLAGE"
+    },
+    {
+      "id": "nrhe:47069",
+      "name": "KING O' MUIRS"
+    },
+    {
+      "id": "nrhe:111964",
+      "name": "KING O' MUIRS"
+    },
+    {
+      "id": "nrhe:130823",
+      "name": "KING O' MUIRS NO. 1 COLLIERY"
+    },
+    {
+      "id": "nrhe:133242",
+      "name": "KING O' MUIRS, NO. 2 AND 3 COLLIERY"
+    },
+    {
+      "id": "hes-listed-building:LB49983",
+      "name": "Lodge, Sauchie Hospital, Parkhead Road, Alloa",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "hes-listed-building:LB1975",
+      "name": "Lornshill Farmhouse"
+    },
+    {
+      "id": "nrhe:94079",
+      "name": "LORNSHILL, STEADING"
+    },
+    {
+      "id": "nrhe:48324",
+      "name": "MARY WOOD"
+    },
+    {
+      "id": "nrhe:133239",
+      "name": "META COLLIERY"
+    },
+    {
+      "id": "nrhe:374979",
+      "name": "MIDTOWN FARM"
+    },
+    {
+      "id": "nrhe:47172",
+      "name": "NEW MILLS CROSSING, DOVECOT"
+    },
+    {
+      "id": "nrhe:47177",
+      "name": "NEW SAUCHIE",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:183450",
+      "name": "NEW SAUCHIE",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:186085",
+      "name": "NEW SAUCHIE, BRANSHILL PARK",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:339992",
+      "name": "NEW SAUCHIE, FAIRFIELD ROAD, SCHOOL",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:219579",
+      "name": "NEW SAUCHIE, MAIN STREET, GENERAL",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:253888",
+      "name": "NEW SAUCHIE, MAIN STREET, GREYCRAIGS",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:47208",
+      "name": "NEW SAUCHIE, WINDMILL",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:111973",
+      "name": "OLD SAUCHIE, COAL MINE",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:253889",
+      "name": "OLD SAUCHIE, DEVON TOWER HOUSE",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:219418",
+      "name": "OLD SAUCHIE, HOUSE",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:256336",
+      "name": "ORCHARD FARM"
+    },
+    {
+      "id": "hes-scheduled-monument:SM3016",
+      "name": "Parkmill, cross slab 150m NE of 2 Carnach"
+    },
+    {
+      "id": "nrhe:111970",
+      "name": "RED ROW"
+    },
+    {
+      "id": "nrhe:47200",
+      "name": "RIVER DEVON"
+    },
+    {
+      "id": "hes-listed-building:LB1982",
+      "name": "Sauchie Parish Church, Main Street, New Sauchie",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "hes-listed-building:LB49530",
+      "name": "Sauchie Public Hall, Fairfield Road, Sauchie, Alloa",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:47053",
+      "name": "SAUCHIE TOWER",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "hes-scheduled-monument:SM629",
+      "name": "Sauchie Tower, tower and house",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "hes-listed-building:LB49529",
+      "name": "Sauchie War Memorial, Fairfield Road, Sauchie, Alloa",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:111971",
+      "name": "SAUCHIE, COAL MINES",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:256308",
+      "name": "SAUCHIE, OLD SPROUTWELL PIT",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:333296",
+      "name": "SAUCHIE, POMPEE ROAD, FORMER FAIRFIELD SCHOOL",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:331535",
+      "name": "SAUCHIE, ROSEBANK, SCHOOL",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:219652",
+      "name": "SCHAWPARK HOUSE"
+    },
+    {
+      "id": "nrhe:47232",
+      "name": "STIRLING TO ALLOA TO DUNFERMLINE RAILWAY, CAMBUS STATION",
+      "targetLocality": "Cambus"
+    },
+    {
+      "id": "nrhe:320524",
+      "name": "THE ORCHARD, TULLIBODY",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "osm-park:way-128225782",
+      "name": "The Public Park"
+    },
+    {
+      "id": "nrhe:220180",
+      "name": "TULLIBODY",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:362538",
+      "name": "TULLIBODY",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:346618",
+      "name": "TULLIBODY",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:47086",
+      "name": "TULLIBODY BRIDGE",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:47062",
+      "name": "TULLIBODY CHURCH, 'MAIDEN STONE'",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:220184",
+      "name": "TULLIBODY HOUSE",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:256300",
+      "name": "TULLIBODY HOUSE, STABLES",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:363475",
+      "name": "TULLIBODY SOUTH CAMPUS",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:339156",
+      "name": "TULLIBODY,  ALLOA ROAD, BANCHORY PRIMARY SCHOOL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:47081",
+      "name": "TULLIBODY,  ALLOA ROAD, TANNERY",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:220186",
+      "name": "TULLIBODY, 25-35 MAIN STREET",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:166397",
+      "name": "TULLIBODY, ABERCROMBY SCHOOL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:339155",
+      "name": "TULLIBODY, ABERCROMBY SCHOOL, WAR MEMORIAL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:139072",
+      "name": "TULLIBODY, BAINGLE BRAE HOUSE",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:47173",
+      "name": "TULLIBODY, CASTLE",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:310394",
+      "name": "TULLIBODY, DELPH WOOD, GENERAL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:47212",
+      "name": "TULLIBODY, HAER STANE",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:47055",
+      "name": "TULLIBODY, LADY'S WELL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:339149",
+      "name": "TULLIBODY, LYCHGATE ROAD, LYCHGATE,  WAR MEMORIAL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:339148",
+      "name": "TULLIBODY, LYCHGATE ROAD, PARK, WAR MEMORIAL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:220185",
+      "name": "TULLIBODY, MAIN STREET, GENERAL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:310388",
+      "name": "TULLIBODY, MUIRSIDE, GENERAL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:310393",
+      "name": "TULLIBODY, NORTH WOOD, GENERAL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:47057",
+      "name": "TULLIBODY, OLD CHURCH",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:47056",
+      "name": "TULLIBODY, PRIEST'S WELL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:220187",
+      "name": "TULLIBODY, SCHOOL WYND, GENERAL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:47103",
+      "name": "TULLIBODY, ST SERF'S CHURCH",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:220169",
+      "name": "TULLIBODY, ST SERF'S CHURCH, HALL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:339151",
+      "name": "TULLIBODY, ST SERF'S CHURCH, HALL, WAR MEMORIAL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:339152",
+      "name": "TULLIBODY, ST SERF'S CHURCH, WAR MEMORIAL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:339153",
+      "name": "TULLIBODY, ST SERF'S ROAD, ST SERF'S SCHOOL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:47153",
+      "name": "TULLIBODY, STIRLING ROAD, NEW BRIDGE",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:47145",
+      "name": "TULLIBODY, STIRLING ROAD, OLD BRIDGE",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:281550",
+      "name": "TULLIBODY, STIRLING ROAD, PRESENT BRIDGE",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:386414",
+      "name": "TULLIBODY, STIRLING ROAD, ST BERNADETTE'S ROMAN CATHOLIC CHURCH",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:339154",
+      "name": "TULLIBODY, THE ORCHARD, ST BERNADETTE'S PRIMARY SCHOOL",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "hes-scheduled-monument:SM626",
+      "name": "Tullibody,old parish church",
+      "targetLocality": "Tullibody"
+    },
+    {
+      "id": "nrhe:389055",
+      "name": "WESTHAGUH CARAVAN SITE"
+    },
+    {
+      "id": "nrhe:111968",
+      "name": "WESTHAUGH"
+    },
+    {
+      "id": "nrhe:111969",
+      "name": "WESTHAUGH"
+    },
+    {
+      "id": "nrhe:111941",
+      "name": "WHITELEYS"
+    },
+    {
+      "id": "hes-scheduled-monument:SM4163",
+      "name": "Windmill,dovecot,New Sauchie",
+      "targetLocality": "Sauchie"
+    },
+    {
+      "id": "nrhe:111967",
+      "name": "WOODSIDE COTTAGE"
+    }
+  ]
+}

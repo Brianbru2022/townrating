@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "historic-town-data-dictionary.v1",
+  "recordFields": {
+    "coverageLevel": "detailed, statutory_index or contextual_evidence.",
+    "designationReference": "Official HES identifier such as LB50078, SM736 or GDL00379.",
+    "legacyCategoryLabel": "Older category notation such as C(S), retained while normalising the app category to C.",
+    "geometry": "WGS84 GeoJSON geometry; null means the geometry must be imported or digitised.",
+    "locationType": "How the geometry represents the asset.",
+    "dateBasis": "The evidential basis for the displayed date.",
+    "sourceRecords": "Provenance and reliability information.",
+    "liveRefreshRecommended": "Whether current authoritative data should be fetched.",
+    "heatmapScoring": "Transparent provisional historic-character weight."
+  },
+  "mergeRules": [
+    "Match statutory records by official designationReference.",
+    "Current HES status, category and geometry supersede snapshot values.",
+    "Retain manually researched date and narrative fields as local enrichment unless contradicted by the official record.",
+    "Preserve unknown dates rather than estimating an exact construction year from map appearance."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "historic-town-nls-acquisition.v1",
+  "projectId": "kincardine-on-forth-scotland",
+  "town": "Kincardine-on-Forth",
+  "purpose": "High-detail Kincardine town comparison map; the Tulliallan parish boundary remains the project extent.",
+  "status": "source_verified_georeferencing_pending",
+  "primarySheet": {
+    "recordId": "82881969",
+    "recordUrl": "https://maps.nls.uk/view/82881969",
+    "iiifServiceUrl": "https://map-view.nls.uk/iiif/2/8288%2F82881969",
+    "wfsTitle": "Fifeshire, XXXVII.6, Surveyed: 1895, Published: 1896",
+    "sheetBoundsWgs84": [-3.7337, 56.0576, -3.6947, 56.0723],
+    "licence": "CC-BY (NLS), verified on the NLS map record on 2026-07-30.",
+    "attribution": "National Library of Scotland, Ordnance Survey 25-inch mapping, sheet XXXVII.6 (1896)."
+  },
+  "companionSheetsForTownMosaic": [
+    {
+      "recordId": "82906008",
+      "recordUrl": "https://maps.nls.uk/view/82906008",
+      "wfsTitle": "Stirlingshire, XXV.1 & XVIIIA.13, Revised: 1895 to 1896, Published: 1897",
+      "licence": "CC-BY (NLS), verified on the NLS map record on 2026-07-30.",
+      "attribution": "National Library of Scotland, Ordnance Survey 25-inch mapping, sheet XXV.1 & XVIIIA.13 (1897).",
+      "reason": "NLS WFS returns an adjoining Kincardine/Tulliallan sheet footprint; validate its exact panel and neatline before use."
+    }
+  ],
+  "coverage": "The primary sheet covers Kincardine's town focus only. It is not evidence that the full parish was settled or mapped to the same precision.",
+  "georeferencing": {
+    "targetCrs": "EPSG:3857",
+    "requiredBeforePublication": ["crop to the verified map neatline", "at least four independently checked control points per source sheet", "record residual error", "curator review"],
+    "output": "data/runtime/tiles/nls-kincardine-os-25-inch-1896.mbtiles"
+  }
+}

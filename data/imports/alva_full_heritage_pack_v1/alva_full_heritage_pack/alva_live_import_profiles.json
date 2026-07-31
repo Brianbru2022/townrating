@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "historic-town-live-import.v1",
+  "projectId": "alva-scotland",
+  "queryEnvelope": {
+    "type": "technical_retrieval_bbox",
+    "bbox": [
+      -3.865,
+      56.14,
+      -3.75,
+      56.18
+    ],
+    "warning": "Not an administrative, conservation-area or historic-settlement boundary."
+  },
+  "profiles": [
+    {
+      "id": "refresh-alva-listed",
+      "sourceId": "hes-listed",
+      "purpose": "Refresh current Alva listed buildings",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/0/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.865,56.14,-3.75,56.18",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "id": "check-alva-conservation",
+      "sourceId": "hes-conservation",
+      "purpose": "Check for an official current conservation-area polygon",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/2/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.865,56.14,-3.75,56.18",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "id": "import-alva-scheduled",
+      "sourceId": "hes-scheduled",
+      "purpose": "Import scheduled-monument polygons",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/5/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.865,56.14,-3.75,56.18",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "id": "import-alva-listed-boundaries",
+      "sourceId": "hes-boundaries",
+      "purpose": "Import available listed-building boundaries",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/7/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.865,56.14,-3.75,56.18",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    }
+  ],
+  "mergeRules": [
+    "Match statutory records by designation reference.",
+    "Current HES status, category and geometry supersede snapshot values.",
+    "Do not create a conservation-area boundary unless returned by an official source.",
+    "Keep memorial/public-art records as a separate toggled layer."
+  ]
+}

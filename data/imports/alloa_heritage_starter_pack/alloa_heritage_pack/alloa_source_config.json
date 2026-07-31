@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "historic-town-source-config.v1",
+  "projectId": "alloa-scotland",
+  "sources": [
+    {
+      "name": "HES Listed Buildings point layer",
+      "organisation": "Historic Environment Scotland",
+      "type": "ArcGIS REST Feature Layer",
+      "url": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/0",
+      "geometryType": "Point",
+      "sourceCRS": "EPSG:27700",
+      "supports": [
+        "JSON",
+        "GeoJSON",
+        "query"
+      ],
+      "licence": "Open Government Licence v3.0"
+    },
+    {
+      "name": "HES Conservation Areas layer",
+      "organisation": "Historic Environment Scotland",
+      "type": "ArcGIS REST Feature Layer",
+      "url": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/2",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "supports": [
+        "JSON",
+        "GeoJSON",
+        "query"
+      ],
+      "licence": "Open Government Licence v3.0"
+    },
+    {
+      "name": "HES Scheduled Monuments layer",
+      "organisation": "Historic Environment Scotland",
+      "type": "ArcGIS REST Feature Layer",
+      "url": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/5",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "supports": [
+        "JSON",
+        "GeoJSON",
+        "query"
+      ],
+      "licence": "Open Government Licence v3.0"
+    }
+  ],
+  "recommendedQueries": [
+    {
+      "purpose": "Import current listed-building points intersecting the selected project boundary",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/0/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "<project boundary envelope or polygon>",
+        "geometryType": "esriGeometryEnvelope or esriGeometryPolygon",
+        "inSR": "4326",
+        "outSR": "4326",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "purpose": "Import official conservation-area polygons intersecting the project boundary",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/2/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "<project boundary envelope or polygon>",
+        "geometryType": "esriGeometryEnvelope or esriGeometryPolygon",
+        "inSR": "4326",
+        "outSR": "4326",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "purpose": "Import scheduled-monument polygons intersecting the project boundary",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/5/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "<project boundary envelope or polygon>",
+        "geometryType": "esriGeometryEnvelope or esriGeometryPolygon",
+        "inSR": "4326",
+        "outSR": "4326",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    }
+  ],
+  "notes": [
+    "Query live layers when the app creates or refreshes an Alloa project so designations remain current.",
+    "Use the curated JSON to enrich official spatial features with dates, descriptions and historical context.",
+    "Match records primarily by designationReference (for example LB20959), not by name alone.",
+    "Do not draw conservation-area polygons from the prose descriptions."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "historic-town-nls-acquisition.v1",
+  "projectId": "alloa-scotland",
+  "town": "Alloa",
+  "purpose": "High-detail town-focused late-Victorian base map; not a parish-wide historic footprint.",
+  "status": "source_verified_georeferencing_pending",
+  "primarySheet": {
+    "recordId": "82875201",
+    "recordUrl": "https://maps.nls.uk/view/82875201",
+    "iiifServiceUrl": "https://map-view.nls.uk/iiif/2/8287%2F82875201",
+    "wfsTitle": "Clackmannanshire, CXXXIX.4, Revised: 1899, Published: 1900",
+    "sheetBoundsWgs84": [-3.8074, 56.1136, -3.7686, 56.1281],
+    "licence": "CC-BY (NLS), verified on the NLS map record on 2026-07-30.",
+    "attribution": "National Library of Scotland, Ordnance Survey 25-inch mapping, sheet CXXXIX.4 (1900)."
+  },
+  "coverage": "Primary sheet covers the Alloa town focus only. Adjacent sheets must be selected through the NLS WFS before any larger mosaic is prepared.",
+  "georeferencing": {
+    "targetCrs": "EPSG:3857",
+    "requiredBeforePublication": ["crop to the verified map neatline", "at least four independently checked control points", "record residual error", "curator review"],
+    "output": "data/runtime/tiles/nls-alloa-os-25-inch-1900.mbtiles"
+  }
+}

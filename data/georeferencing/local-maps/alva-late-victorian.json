@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "historic-town-local-map.v1",
+  "projectId": "alva-scotland",
+  "mapId": "nls-alva-os-25-inch-1900-local",
+  "title": "NLS — Ordnance Survey 25-inch, Alva sheet CXXXIII.12",
+  "displayDate": "1900",
+  "surveyStartYear": 1899,
+  "surveyEndYear": 1899,
+  "publicationYear": 1900,
+  "sourceInstitution": "National Library of Scotland / Ordnance Survey",
+  "sourceUrl": "https://maps.nls.uk/view/83546229",
+  "sourceImageUrl": "https://map-view.nls.uk/iiif/2/8354%2F83546229/full/max/0/default.jpg",
+  "iiifServiceUrl": "https://map-view.nls.uk/iiif/2/8354%2F83546229",
+  "licence": "CC-BY (National Library of Scotland); retain the required attribution.",
+  "attribution": "National Library of Scotland, Ordnance Survey 25-inch mapping, sheet CXXXIII.12 (1900).",
+  "notes": "High-detail Alva town coverage only; it does not extend the project into Menstrie. The four points are source-footprint references, not independently checked neatline control points. A reviewed control-point set and residual report are still required before publication or digitisation.",
+  "bounds": [-3.8075, 56.1426, -3.7686, 56.157],
+  "targetCrs": "EPSG:3857",
+  "tilePackageId": "nls-alva-os-25-inch-1900",
+  "renderWidth": 4096,
+  "sourceWidth": 16688,
+  "sourceHeight": 11706,
+  "approvedForPublication": false,
+  "reviewedBy": "Historic Town Explorer automated local-map preparation",
+  "reviewedAt": "2026-07-30",
+  "controlPoints": [
+    { "image": [0, 0], "wgs84": [-3.8075, 56.157], "feature": "NLS published sheet footprint north-west corner", "evidence": "NLS GeoServer sheet footprint for 83546229" },
+    { "image": [16687, 0], "wgs84": [-3.7686, 56.157], "feature": "NLS published sheet footprint north-east corner", "evidence": "NLS GeoServer sheet footprint for 83546229" },
+    { "image": [16687, 11705], "wgs84": [-3.7686, 56.1426], "feature": "NLS published sheet footprint south-east corner", "evidence": "NLS GeoServer sheet footprint for 83546229" },
+    { "image": [0, 11705], "wgs84": [-3.8075, 56.1426], "feature": "NLS published sheet footprint south-west corner", "evidence": "NLS GeoServer sheet footprint for 83546229" }
+  ]
+}

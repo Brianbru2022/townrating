@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "historic-town-data-dictionary.v1",
+  "projectId": "alva-scotland",
+  "recordFields": {
+    "documentedDateText": "Human-readable date wording.",
+    "earliestPossibleYear": "Lower numeric bound; negative values are BC.",
+    "latestPossibleYear": "Upper numeric bound.",
+    "dateBasis": "Evidential date basis.",
+    "dateConfidence": "High, medium or low.",
+    "locationType": "Exact, representative or pending geometry.",
+    "scope": "Within Alva or nearby.",
+    "registerIds": "External memorial/designation references.",
+    "sourceRecords": "Provenance and licensing.",
+    "heatmapScoring": "Provisional interpretive weight."
+  },
+  "mergeRules": [
+    "Match statutory records by designation reference.",
+    "Current HES status, category and geometry supersede snapshot values.",
+    "Do not create a conservation-area boundary unless returned by an official source.",
+    "Keep memorial/public-art records as a separate toggled layer."
+  ]
+}

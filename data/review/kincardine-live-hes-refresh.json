@@ -1,0 +1,11 @@
+{
+  "projectId": "kincardine-on-forth-scotland",
+  "reviewedAt": "2026-07-29T00:00:00.000Z",
+  "status": "deferred_upstream_unavailable",
+  "attemptedSources": [
+    "Historic Environment Scotland Listed Buildings by Category ArcGIS REST",
+    "Historic Environment Scotland Designations ArcGIS REST"
+  ],
+  "result": "The live HES ArcGIS endpoint refused the connection during project import. The supplied all-dated pack retains its cited HES snapshot geometry and provenance. Run refresh-kincardine-hes-geometry when the upstream service is available before publishing newly retrieved designation polygons.",
+  "publicationRule": "Do not create or approximate missing statutory polygons from the technical query envelope or descriptive text."
+}

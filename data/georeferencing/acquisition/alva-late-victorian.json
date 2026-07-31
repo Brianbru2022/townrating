@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "historic-town-nls-acquisition.v1",
+  "projectId": "alva-scotland",
+  "town": "Alva",
+  "purpose": "High-detail town-focused late-Victorian base map; not a parish-wide historic footprint.",
+  "status": "source_verified_georeferencing_pending",
+  "primarySheet": {
+    "recordId": "83546229",
+    "recordUrl": "https://maps.nls.uk/view/83546229",
+    "iiifServiceUrl": "https://map-view.nls.uk/iiif/2/8354%2F83546229",
+    "wfsTitle": "Clackmannanshire, CXXXIII.12, Revised: 1899, Published: 1900",
+    "sheetBoundsWgs84": [-3.8075, 56.1426, -3.7686, 56.157],
+    "licence": "CC-BY (NLS), verified on the NLS map record on 2026-07-30.",
+    "attribution": "National Library of Scotland, Ordnance Survey 25-inch mapping, sheet CXXXIII.12 (1900)."
+  },
+  "coverage": "Primary sheet covers central/northern Alva only. It replaces the incorrect Fossoway/Saline sheet 82881153; it does not expand the project into Menstrie.",
+  "georeferencing": {
+    "targetCrs": "EPSG:3857",
+    "requiredBeforePublication": ["crop to the verified map neatline", "at least four independently checked control points", "record residual error", "curator review"],
+    "output": "data/runtime/tiles/nls-alva-os-25-inch-1900.mbtiles"
+  }
+}

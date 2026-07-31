@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "historic-town-source-registry.v1",
+  "projectId": "culross-scotland",
+  "sources": [
+    {
+      "id": "hes-listed-buildings",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Listed Buildings by Category",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/0",
+      "geometryType": "Point",
+      "sourceCRS": "EPSG:27700",
+      "licence": "Open Government Licence v3.0",
+      "attribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+      "reliability": "official_statutory"
+    },
+    {
+      "id": "hes-conservation-areas",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Conservation Areas",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/2",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "licence": "Open Government Licence v3.0",
+      "attribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+      "reliability": "official_statutory"
+    },
+    {
+      "id": "hes-gardens",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Gardens and Designed Landscapes",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/4",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "licence": "Open Government Licence v3.0",
+      "attribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+      "reliability": "official_statutory"
+    },
+    {
+      "id": "hes-scheduled",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Scheduled Monuments",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/5",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "licence": "Open Government Licence v3.0",
+      "attribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+      "reliability": "official_statutory"
+    },
+    {
+      "id": "hes-listed-boundaries",
+      "organisation": "Historic Environment Scotland",
+      "dataset": "Listed Buildings boundaries",
+      "layerUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/7",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "licence": "Open Government Licence v3.0",
+      "attribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+      "reliability": "official_statutory",
+      "limitations": "Boundary availability and legal interpretation must be checked against HES guidance."
+    },
+    {
+      "id": "fife-conservation",
+      "organisation": "Fife Council",
+      "dataset": "Culross Conservation Area Appraisal and Management Plan",
+      "sourceUrl": "https://www.fife.gov.uk/planning/built-heritage-and-planning/conservation-areas",
+      "licence": "Confirm current council terms.",
+      "reliability": "local_authority"
+    },
+    {
+      "id": "nts-culross",
+      "organisation": "National Trust for Scotland",
+      "dataset": "Royal Burgh of Culross and Culross Palace records",
+      "sourceUrl": "https://www.nts.org.uk/visit/places/culross",
+      "licence": "Link and paraphrase; confirm reuse terms for text and imagery.",
+      "reliability": "official_non_statutory"
+    },
+    {
+      "id": "nls-maps",
+      "organisation": "National Library of Scotland",
+      "dataset": "Historic maps",
+      "sourceUrl": "https://maps.nls.uk/",
+      "licence": "Layer-specific.",
+      "reliability": "archival"
+    }
+  ]
+}

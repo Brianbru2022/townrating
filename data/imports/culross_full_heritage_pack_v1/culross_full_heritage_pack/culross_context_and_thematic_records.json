@@ -1,0 +1,348 @@
+{
+  "schemaVersion": "historic-town-context.v1",
+  "projectId": "culross-scotland",
+  "records": [
+    {
+      "id": "area-culross-conservation",
+      "projectId": "culross-scotland",
+      "name": "Culross Outstanding Conservation Area",
+      "alternativeNames": [
+        "Culross Conservation Area"
+      ],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Fife",
+      "locality": "Culross",
+      "featureType": "conservation_area",
+      "designationType": "Conservation Area",
+      "designationCategory": null,
+      "statutoryStatus": "Designated — official polygon to import",
+      "geometry": null,
+      "locationType": "official_polygon_to_import",
+      "locationConfidence": "unknown",
+      "documentedDateText": "Originally designated in 1972; subsequently extended and redesignated",
+      "earliestPossibleYear": 1972,
+      "latestPossibleYear": 2003,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "medium",
+      "shortDescription": "The conservation area protects the exceptional historic burgh, its street pattern, buildings, open spaces and setting.",
+      "fullDescription": "Use the current official HES or Fife Council polygon. Do not infer the boundary from the concentration of listed buildings.",
+      "sourceRecords": [
+        {
+          "sourceName": "Culross Conservation Area Appraisal and Management Plan",
+          "sourceOrganisation": "Fife Council",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.fife.gov.uk/planning/built-heritage-and-planning/conservation-areas",
+          "accessedAt": "2026-07-29",
+          "licence": "Confirm the current Fife Council document terms before redistributing the appraisal.",
+          "reliability": "local_authority"
+        },
+        {
+          "sourceName": "HES Conservation Areas spatial layer",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": null,
+          "sourceUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/2",
+          "accessedAt": "2026-07-29",
+          "licence": "Open Government Licence v3.0.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See source records.",
+      "tags": [
+        "conservation area",
+        "Royal Burgh",
+        "official polygon required"
+      ],
+      "createdAt": "2026-07-29",
+      "updatedAt": "2026-07-29",
+      "reviewed": false,
+      "reviewNotes": "Import and retain the current official polygon and designation attributes.",
+      "coverageLevel": "contextual_evidence",
+      "liveRefreshRecommended": true,
+      "extantStatus": "not_applicable",
+      "heatmapScoring": {
+        "ageFactor": 0.12,
+        "significanceFactor": 0.55,
+        "confidenceFactor": 0.75,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.0297,
+        "warning": "The survival factor is provisional until a reviewed condition and integrity survey is completed."
+      }
+    },
+    {
+      "id": "context-sandhaven-harbour",
+      "projectId": "culross-scotland",
+      "name": "Former Sandhaven harbour",
+      "alternativeNames": [
+        "Sandhaven"
+      ],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Fife",
+      "locality": "Culross",
+      "featureType": "harbour",
+      "designationType": "Historic harbour area",
+      "designationCategory": null,
+      "statutoryStatus": "Historic site — period geometry to digitise",
+      "geometry": null,
+      "locationType": "historic_site_polygon_to_digitise",
+      "locationConfidence": "unknown",
+      "documentedDateText": "Historic port in use during the burgh's 16th- and 17th-century prosperity; filled in during the late 19th century",
+      "earliestPossibleYear": 1500,
+      "latestPossibleYear": 1899,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "medium",
+      "shortDescription": "The harbour at the foot of the burgh connected Culross's coal, salt, iron and later shoe trades to the Forth.",
+      "fullDescription": "Digitise separate harbour-edge and reclamation polygons from georeferenced maps; the modern Sandhaven must not be treated as the original shoreline.",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB24045",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB24045",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB24045",
+          "accessedAt": "2026-07-29",
+          "licence": "Official designation record; HES spatial data is available under the Open Government Licence v3.0.",
+          "reliability": "official_statutory",
+          "notes": "Manually enriched for this pack."
+        },
+        {
+          "sourceName": "Royal Burgh of Culross",
+          "sourceOrganisation": "National Trust for Scotland",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.nts.org.uk/visit/places/culross",
+          "accessedAt": "2026-07-29",
+          "licence": "Link to the source; confirm reuse terms before reproducing text or imagery.",
+          "reliability": "official_non_statutory"
+        }
+      ],
+      "licence": "See source records.",
+      "tags": [
+        "harbour",
+        "port",
+        "Sandhaven",
+        "reclamation",
+        "Forth"
+      ],
+      "createdAt": "2026-07-29",
+      "updatedAt": "2026-07-29",
+      "reviewed": false,
+      "reviewNotes": "Requires georeferenced map comparison and shoreline digitisation.",
+      "coverageLevel": "contextual_evidence",
+      "liveRefreshRecommended": false,
+      "extantStatus": "filled_and_reclaimed",
+      "heatmapScoring": {
+        "ageFactor": 0.9,
+        "significanceFactor": 0.35,
+        "confidenceFactor": 0.75,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.1418,
+        "warning": "The survival factor is provisional until a reviewed condition and integrity survey is completed."
+      }
+    },
+    {
+      "id": "context-coal-salt-industrial-landscape",
+      "projectId": "culross-scotland",
+      "name": "Culross coal-mining and salt-panning landscape",
+      "alternativeNames": [
+        "Sir George Bruce industrial landscape"
+      ],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Fife",
+      "locality": "Culross",
+      "featureType": "industrial_landscape",
+      "designationType": "Historic industrial and archaeological landscape",
+      "designationCategory": null,
+      "statutoryStatus": "Multiple archaeological records and scheduled sites",
+      "geometry": null,
+      "locationType": "multiple_period_geometries_to_import",
+      "locationConfidence": "unknown",
+      "documentedDateText": "Major expansion from 1575; the Moat Pit flooded in 1625",
+      "earliestPossibleYear": 1575,
+      "latestPossibleYear": 1625,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "shortDescription": "The coal, salt and metalworking enterprise that drove Culross's late-16th- and early-17th-century prosperity.",
+      "fullDescription": "Use scheduled-monument and NRHE records for individual shafts, pits, saltpans, industrial features and offshore remains. Do not represent this as one undifferentiated heat point.",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation SM5288",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "SM5288",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/SM5288",
+          "accessedAt": "2026-07-29",
+          "licence": "Official designation record; HES spatial data is available under the Open Government Licence v3.0.",
+          "reliability": "official_statutory",
+          "notes": "Manually enriched for this pack."
+        },
+        {
+          "sourceName": "The Moat, coal shaft, 650m SE of Cuvey Hall (SM13797)",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "SM13797",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/SM13797",
+          "accessedAt": "2026-07-29",
+          "licence": "Official designation record.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See source records.",
+      "tags": [
+        "coal",
+        "saltpans",
+        "Moat Pit",
+        "Sir George Bruce",
+        "industrial archaeology"
+      ],
+      "createdAt": "2026-07-29",
+      "updatedAt": "2026-07-29",
+      "reviewed": false,
+      "reviewNotes": "Import the broader scheduled and NRHE inventory around Culross before finalising this thematic layer.",
+      "coverageLevel": "contextual_evidence",
+      "liveRefreshRecommended": true,
+      "extantStatus": "archaeological",
+      "heatmapScoring": {
+        "ageFactor": 0.9,
+        "significanceFactor": 0.35,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.55,
+        "provisionalWeight": 0.1733,
+        "warning": "The survival factor is provisional until a reviewed condition and integrity survey is completed."
+      }
+    },
+    {
+      "id": "context-royal-burgh-street-system",
+      "projectId": "culross-scotland",
+      "name": "Royal Burgh causeway and toft pattern",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Fife",
+      "locality": "Culross",
+      "featureType": "historic_urban_pattern",
+      "designationType": "Historic street, close, causeway and property pattern",
+      "designationCategory": null,
+      "statutoryStatus": "Mixed listed and conservation-area fabric",
+      "geometry": null,
+      "locationType": "street_and_plot_geometry_to_import",
+      "locationConfidence": "unknown",
+      "documentedDateText": "Medieval and early-modern urban pattern substantially rebuilt in the 16th and 17th centuries",
+      "earliestPossibleYear": 1490,
+      "latestPossibleYear": 1700,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "medium",
+      "shortDescription": "The steep causeways, closes, forestairs and narrow rear tofts are fundamental to the character and historical legibility of Culross.",
+      "fullDescription": "Import current street centre lines and property or building geometries, then compare them with georeferenced maps. The listed Causeways and Steps record should remain a separate statutory feature.",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB24045",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB24045",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB24045",
+          "accessedAt": "2026-07-29",
+          "licence": "Official designation record; HES spatial data is available under the Open Government Licence v3.0.",
+          "reliability": "official_statutory",
+          "notes": "Manually enriched for this pack."
+        },
+        {
+          "sourceName": "Historic Environment Scotland designation LB24061",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB24061",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB24061",
+          "accessedAt": "2026-07-29",
+          "licence": "Official designation record; HES spatial data is available under the Open Government Licence v3.0.",
+          "reliability": "official_statutory",
+          "notes": "Manually enriched for this pack."
+        },
+        {
+          "sourceName": "Culross Conservation Area Appraisal and Management Plan",
+          "sourceOrganisation": "Fife Council",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.fife.gov.uk/planning/built-heritage-and-planning/conservation-areas",
+          "accessedAt": "2026-07-29",
+          "licence": "Confirm the current Fife Council document terms before redistributing the appraisal.",
+          "reliability": "local_authority"
+        }
+      ],
+      "licence": "See source records.",
+      "tags": [
+        "causeways",
+        "tofts",
+        "closes",
+        "street pattern",
+        "Royal Burgh"
+      ],
+      "createdAt": "2026-07-29",
+      "updatedAt": "2026-07-29",
+      "reviewed": false,
+      "reviewNotes": "Requires reviewed vector geometry rather than a hand-drawn broad polygon.",
+      "coverageLevel": "contextual_evidence",
+      "liveRefreshRecommended": false,
+      "extantStatus": "extant_and_altered",
+      "heatmapScoring": {
+        "ageFactor": 0.95,
+        "significanceFactor": 0.35,
+        "confidenceFactor": 0.75,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.1496,
+        "warning": "The survival factor is provisional until a reviewed condition and integrity survey is completed."
+      }
+    },
+    {
+      "id": "context-nts-royal-burgh-portfolio",
+      "projectId": "culross-scotland",
+      "name": "National Trust for Scotland Royal Burgh properties",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Fife",
+      "locality": "Culross",
+      "featureType": "property_portfolio",
+      "designationType": "Conservation ownership and management group",
+      "designationCategory": null,
+      "statutoryStatus": "Individual statutory statuses vary",
+      "geometry": null,
+      "locationType": "linked_asset_group",
+      "locationConfidence": "unknown",
+      "documentedDateText": "Restoration programme began in the 20th century; portfolio contains numerous 16th- and 17th-century buildings",
+      "earliestPossibleYear": null,
+      "latestPossibleYear": null,
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "shortDescription": "A linked group of Palace, Town House, Study and residential properties cared for by the National Trust for Scotland.",
+      "fullDescription": "Link individual NTS property records to their corresponding statutory assets rather than creating duplicate map points.",
+      "sourceRecords": [
+        {
+          "sourceName": "Royal Burgh of Culross",
+          "sourceOrganisation": "National Trust for Scotland",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.nts.org.uk/visit/places/culross",
+          "accessedAt": "2026-07-29",
+          "licence": "Link to the source; confirm reuse terms before reproducing text or imagery.",
+          "reliability": "official_non_statutory"
+        }
+      ],
+      "licence": "See source records.",
+      "tags": [
+        "National Trust for Scotland",
+        "conservation",
+        "restoration",
+        "property group"
+      ],
+      "createdAt": "2026-07-29",
+      "updatedAt": "2026-07-29",
+      "reviewed": false,
+      "reviewNotes": "Add NTS ownership or management identifiers only where confirmed.",
+      "coverageLevel": "contextual_evidence",
+      "liveRefreshRecommended": false,
+      "extantStatus": "mixed",
+      "heatmapScoring": {
+        "ageFactor": 0.2,
+        "significanceFactor": 0.35,
+        "confidenceFactor": 0.35,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.0147,
+        "warning": "The survival factor is provisional until a reviewed condition and integrity survey is completed."
+      }
+    }
+  ]
+}

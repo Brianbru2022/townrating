@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "historic-town-settlement-evidence.v1",
+  "projectId": "culross-scotland",
+  "records": [
+    {
+      "id": "culross-evidence-1217-abbey",
+      "title": "Cistercian abbey founded",
+      "period": {
+        "earliest": 1217,
+        "latest": 1299
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "high",
+      "features": [
+        "Culross Abbey",
+        "medieval ecclesiastical precinct"
+      ],
+      "geometryStatus": "use_official_scheduled_monument_polygon_and_archaeological_evidence",
+      "sourceRecordIds": [
+        "SM13334",
+        "LB23960"
+      ],
+      "notes": "The date establishes the abbey foundation, not the date of every surviving wall."
+    },
+    {
+      "id": "culross-evidence-burgh-1490-1588",
+      "title": "Burgh formation and Royal Burgh status",
+      "period": {
+        "earliest": 1490,
+        "latest": 1588
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "high",
+      "features": [
+        "historic burgh framework",
+        "The Cross",
+        "routes between harbour and abbey"
+      ],
+      "geometryStatus": "research_and_digitise_from_archival_and_early_map_evidence",
+      "sourceRecordIds": [
+        "LB24045",
+        "LB24000"
+      ],
+      "notes": "Culross became a Burgh of Barony in 1490 and a Royal Burgh in the late 16th century."
+    },
+    {
+      "id": "culross-evidence-industrial-1575-1625",
+      "title": "Coal, salt and mercantile expansion",
+      "period": {
+        "earliest": 1575,
+        "latest": 1625
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "high",
+      "features": [
+        "coal workings",
+        "saltpans",
+        "harbour",
+        "merchant houses"
+      ],
+      "geometryStatus": "combine_scheduled_NRHE_and_historic_shoreline_evidence",
+      "sourceRecordIds": [
+        "SM5288",
+        "SM13797",
+        "LB24045"
+      ],
+      "notes": "Build separate industrial, harbour and urban-expansion geometries rather than one broad polygon."
+    },
+    {
+      "id": "culross-evidence-palace-1597-1611",
+      "title": "Culross Palace complex",
+      "period": {
+        "earliest": 1597,
+        "latest": 1611
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "high",
+      "features": [
+        "Culross Palace west range",
+        "north range",
+        "courtyards and gardens"
+      ],
+      "geometryStatus": "use_official_SM5288_polygon",
+      "sourceRecordIds": [
+        "SM5288"
+      ]
+    },
+    {
+      "id": "culross-evidence-townhouse-1626",
+      "title": "Town House built",
+      "period": {
+        "earliest": 1626,
+        "latest": 1626
+      },
+      "dateBasis": "documented_construction",
+      "confidence": "high",
+      "features": [
+        "Culross Town House"
+      ],
+      "geometryStatus": "import_current_building_polygon_and_link_LB23994",
+      "sourceRecordIds": [
+        "LB23994"
+      ]
+    },
+    {
+      "id": "culross-evidence-abbey-house-1608-1693",
+      "title": "Abbey House and terraced designed landscape",
+      "period": {
+        "earliest": 1608,
+        "latest": 1693
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "high",
+      "features": [
+        "Culross Abbey House",
+        "terraced gardens",
+        "lime avenues"
+      ],
+      "geometryStatus": "use_official_GDL00123_polygon_and_review_internal_components",
+      "sourceRecordIds": [
+        "LB23964",
+        "GDL00123"
+      ]
+    },
+    {
+      "id": "culross-evidence-harbour-reclamation",
+      "title": "Sandhaven harbour reclaimed",
+      "period": {
+        "earliest": 1850,
+        "latest": 1899
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "medium",
+      "features": [
+        "former harbour",
+        "sea wall",
+        "Sandhaven"
+      ],
+      "geometryStatus": "digitise_period_shorelines_from_georeferenced_OS_maps",
+      "sourceRecordIds": [
+        "LB24044",
+        "LB24045"
+      ],
+      "notes": "Treat the date as a range until each historic map has verified survey and publication dates."
+    },
+    {
+      "id": "culross-evidence-restoration-1930s-onward",
+      "title": "20th-century conservation and restoration",
+      "period": {
+        "earliest": 1930,
+        "latest": 1999
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "medium",
+      "features": [
+        "Palace",
+        "Town House",
+        "Study",
+        "NTS residential portfolio"
+      ],
+      "geometryStatus": "link_restoration_events_to_individual_asset_records",
+      "sourceRecordIds": [
+        "SM5288",
+        "LB23994",
+        "LB24045"
+      ],
+      "notes": "This is a conservation phase, not settlement-age evidence."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "countryCode": "GB-SCT",
+  "lastReviewed": "2026-07-28",
+  "sources": [
+    {
+      "id": "hes-listed-buildings",
+      "name": "Listed Buildings in Scotland",
+      "organisation": "Historic Environment Scotland",
+      "coverage": "Scotland",
+      "accessMethod": ["download", "WFS", "Atom feed"],
+      "sourceUrl": "https://portal.historicenvironment.scot/apex/f?p=PORTAL:downloads:::::DATASET:LB",
+      "reliability": "official_statutory",
+      "intendedUse": "Primary statutory designation, address, and spatial-reference source.",
+      "curatorAction": "Inspect current download licence and fields; filter to the reviewed project boundary; retain official identifier and access date."
+    },
+    {
+      "id": "hes-conservation-areas",
+      "name": "Conservation Areas in Scotland",
+      "organisation": "Historic Environment Scotland",
+      "coverage": "Scotland",
+      "accessMethod": ["download", "WFS", "Atom feed"],
+      "sourceUrl": "https://portal.historicenvironment.scot/apex/f?p=PORTAL:downloads::::",
+      "reliability": "official_non_statutory",
+      "intendedUse": "Conservation-area polygon and designation context.",
+      "curatorAction": "Verify current dataset entry, licence, and whether a local-authority source is more current for the project."
+    },
+    {
+      "id": "nrhe-mapping-layer",
+      "name": "NRHE Mapping Layer",
+      "organisation": "Historic Environment Scotland / Canmore",
+      "coverage": "Scotland",
+      "accessMethod": ["zipped shapefile"],
+      "sourceUrl": "https://canmore.org.uk/content/data-downloads",
+      "licence": "Open Government Licence (confirm at import)",
+      "reliability": "official_non_statutory",
+      "intendedUse": "Archaeological and historic-environment site extents; supporting evidence, not a substitute for statutory designations.",
+      "curatorAction": "Import only current released data, preserve the source record ID, and distinguish site extent from exact building location."
+    },
+    {
+      "id": "clacks-conservation-areas",
+      "name": "Clackmannanshire conservation areas and appraisals",
+      "organisation": "Clackmannanshire Council",
+      "coverage": "Clackmannanshire",
+      "accessMethod": ["council map", "PDF appraisal", "manual digitisation with review"],
+      "sourceUrl": "https://www.clacks.gov.uk/environment/builtheritage/",
+      "reliability": "local_authority",
+      "intendedUse": "Alloa local conservation-area boundary/context and historic-character evidence.",
+      "curatorAction": "Request or identify a machine-readable boundary where possible. A PDF/map must not be treated as a georeferenced polygon until manually digitised, reviewed, and labelled with its method/confidence."
+    },
+    {
+      "id": "nls-historic-maps",
+      "name": "National Library of Scotland historic maps",
+      "organisation": "National Library of Scotland",
+      "coverage": "Scotland and wider historic map collections",
+      "accessMethod": ["online map viewer", "WMS/WMTS where offered", "download where licensed"],
+      "sourceUrl": "https://maps.nls.uk/",
+      "reliability": "archival",
+      "intendedUse": "Historic-map layers and evidence for reviewed settlement-age polygons.",
+      "curatorAction": "Record the specific map, survey/revision/publication dates, service URL, attribution, and redistribution terms. Do not export imagery unless the map licence permits it."
+    },
+    {
+      "id": "openstreetmap-basemap",
+      "name": "OpenStreetMap standard raster tiles",
+      "organisation": "OpenStreetMap Foundation",
+      "coverage": "Global",
+      "accessMethod": ["XYZ raster tiles"],
+      "sourceUrl": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "reliability": "discovery_only",
+      "intendedUse": "Current contextual basemap only; never the sole authority for historic facts or statutory designations.",
+      "curatorAction": "Keep visible attribution. Use only for normal interactive development/low-volume use; self-host or use a permitted provider for production traffic."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "historic-town-live-import.v1",
+  "projectId": "kincardine-on-forth-scotland",
+  "queryEnvelope": {
+    "type": "technical_retrieval_bbox",
+    "bbox": [
+      -3.75,
+      56.052,
+      -3.68,
+      56.095
+    ],
+    "warning": "This is not the conservation-area, parish or historic settlement boundary."
+  },
+  "profiles": [
+    {
+      "id": "refresh-kincardine-listed-buildings",
+      "sourceId": "hes-listed-buildings",
+      "purpose": "Refresh current listed-building point records",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/0/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.75,56.052,-3.68,56.095",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "id": "import-kincardine-conservation-area",
+      "sourceId": "hes-conservation-areas",
+      "purpose": "Import the current official conservation-area polygon",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/2/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.75,56.052,-3.68,56.095",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "id": "import-tulliallan-designed-landscape",
+      "sourceId": "hes-gardens",
+      "purpose": "Import the Tulliallan inventory designed-landscape polygon",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/4/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.75,56.052,-3.68,56.095",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "id": "import-kincardine-scheduled-monuments",
+      "sourceId": "hes-scheduled",
+      "purpose": "Import Old Tulliallan Castle, the hogback stone and other scheduled-monument polygons",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/5/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.75,56.052,-3.68,56.095",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    },
+    {
+      "id": "import-kincardine-listed-boundaries",
+      "sourceId": "hes-listed-boundaries",
+      "purpose": "Import available listed-building boundary polygons",
+      "queryUrl": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/7/query",
+      "parameters": {
+        "where": "1=1",
+        "geometry": "-3.75,56.052,-3.68,56.095",
+        "geometryType": "esriGeometryEnvelope",
+        "inSR": "4326",
+        "outSR": "4326",
+        "spatialRel": "esriSpatialRelIntersects",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "geojson"
+      }
+    }
+  ],
+  "mergeRules": [
+    "Match statutory records by official designationReference.",
+    "Current HES status, category and geometry supersede snapshot values.",
+    "Retain manually researched date and narrative fields as local enrichment unless contradicted by the official record.",
+    "Preserve unknown dates rather than estimating an exact construction year from map appearance."
+  ]
+}

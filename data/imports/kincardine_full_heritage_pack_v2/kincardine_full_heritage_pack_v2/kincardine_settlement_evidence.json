@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "historic-town-settlement-evidence.v1",
+  "projectId": "kincardine-on-forth-scotland",
+  "records": [
+    {
+      "id": "kincardine-evidence-early-medieval-tulliallan",
+      "title": "Early-medieval ecclesiastical evidence at Tulliallan",
+      "period": {
+        "earliest": 1000,
+        "latest": 1099
+      },
+      "dateBasis": "estimated_from_authoritative_source",
+      "confidence": "high",
+      "features": [
+        "Windyhill hogback tombstone",
+        "early chapel site"
+      ],
+      "geometryStatus": "use_SM2246_and_LB17130_official_geometries",
+      "sourceRecordIds": [
+        "SM2246",
+        "LB17130"
+      ]
+    },
+    {
+      "id": "kincardine-evidence-old-castle-1304",
+      "title": "Old Tulliallan Castle established",
+      "period": {
+        "earliest": 1304,
+        "latest": 1599
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "medium",
+      "features": [
+        "Old Tulliallan Castle"
+      ],
+      "geometryStatus": "use_official_SM736_polygon",
+      "sourceRecordIds": [
+        "SM736"
+      ]
+    },
+    {
+      "id": "kincardine-evidence-burgh-1663",
+      "title": "Kincardine burgh of barony and market-centred settlement",
+      "period": {
+        "earliest": 1663,
+        "latest": 1720
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "medium",
+      "features": [
+        "Market Cross",
+        "Kincardine House",
+        "High Street core"
+      ],
+      "geometryStatus": "digitise_from_conservation_appraisal_and_early_map_evidence",
+      "sourceRecordIds": [
+        "LB16623",
+        "LB16581"
+      ]
+    },
+    {
+      "id": "kincardine-evidence-ferry-port",
+      "title": "Ferry, drovers' route and minor port",
+      "period": {
+        "earliest": 1700,
+        "latest": 1827
+      },
+      "dateBasis": "present_by",
+      "confidence": "medium",
+      "features": [
+        "Forth ferry",
+        "shoreline landing",
+        "possible early inn"
+      ],
+      "geometryStatus": "digitise_period_shoreline_and_landing_points",
+      "sourceRecordIds": [
+        "LB51130"
+      ]
+    },
+    {
+      "id": "kincardine-evidence-townscape-1750-1850",
+      "title": "Traditional High Street, Kirk Street, Forth Street and Elphinstone Street expansion",
+      "period": {
+        "earliest": 1750,
+        "latest": 1850
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "medium",
+      "features": [
+        "High Street",
+        "Kirk Street",
+        "Forth Street",
+        "Elphinstone Street",
+        "Station Road"
+      ],
+      "geometryStatus": "digitise_from_georeferenced_historic_maps_and_current_building_footprints",
+      "sourceRecordIds": [
+        "LB17132",
+        "LB16601",
+        "LB15046",
+        "LB51130"
+      ]
+    },
+    {
+      "id": "kincardine-evidence-railway-1893",
+      "title": "Railway terminal and rail-side expansion",
+      "period": {
+        "earliest": 1893,
+        "latest": 1906
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "high",
+      "features": [
+        "Kincardine station",
+        "rail corridor",
+        "goods and industrial sidings"
+      ],
+      "geometryStatus": "digitise_from_OS_1890s_and_early_20th_century_maps",
+      "sourceRecordIds": [
+        "LB51130"
+      ]
+    },
+    {
+      "id": "kincardine-evidence-bridge-1933-1936",
+      "title": "Kincardine Bridge and road-led town alteration",
+      "period": {
+        "earliest": 1933,
+        "latest": 1936
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "high",
+      "features": [
+        "Kincardine Bridge",
+        "approach roads",
+        "demolished and altered townscape"
+      ],
+      "geometryStatus": "create_before_and_after_change_polygons",
+      "sourceRecordIds": [
+        "LB50078"
+      ]
+    },
+    {
+      "id": "kincardine-evidence-power-1952-1997",
+      "title": "Power-station and reclaimed-shore industrial phase",
+      "period": {
+        "earliest": 1952,
+        "latest": 1997
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "medium",
+      "features": [
+        "Kincardine Power Station",
+        "rail sidings",
+        "industrial shoreline"
+      ],
+      "geometryStatus": "digitise_from_OS_aerial_and_industrial_archive_sources",
+      "sourceRecordIds": []
+    }
+  ]
+}

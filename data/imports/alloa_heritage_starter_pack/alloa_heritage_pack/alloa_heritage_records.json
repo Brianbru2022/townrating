@@ -1,0 +1,2624 @@
+{
+  "schemaVersion": "historic-town-heritage.v1",
+  "datasetId": "alloa-heritage-starter-pack-2026-07-28",
+  "title": "Alloa Heritage Starter Pack",
+  "description": "A curated, source-linked starter dataset for the Historic Town Explorer app. It contains detailed records for major Alloa heritage assets and non-spatial historical-development records requiring official geometry import or map digitisation.",
+  "createdAt": "2026-07-28",
+  "project": {
+    "id": "alloa-scotland",
+    "name": "Alloa",
+    "countryCode": "GB",
+    "nation": "Scotland",
+    "localAuthority": "Clackmannanshire",
+    "suggestedCentre": {
+      "longitude": -3.792,
+      "latitude": 56.115
+    },
+    "suggestedZoom": 14,
+    "studyAreaNote": "The app should obtain or let the user draw a project boundary; none is fabricated in this pack."
+  },
+  "recordCounts": {
+    "total": 37,
+    "mappedPointRecords": 28,
+    "recordsRequiringGeometry": 9,
+    "reviewed": 28,
+    "requiresReview": 9
+  },
+  "licensingAndAttribution": {
+    "hesSpatialAttribution": "Contains Historic Environment Scotland and OS data © Historic Environment Scotland and Crown Copyright and database right 2026, licensed under the Open Government Licence v3.0.",
+    "warning": "The records paraphrase source descriptions and link to source pages. Before commercial publication, confirm the terms for all council documents, historic-map imagery and any non-spatial descriptive text."
+  },
+  "authoritativeLiveSources": [
+    {
+      "name": "HES Listed Buildings point layer",
+      "organisation": "Historic Environment Scotland",
+      "type": "ArcGIS REST Feature Layer",
+      "url": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/0",
+      "geometryType": "Point",
+      "sourceCRS": "EPSG:27700",
+      "supports": [
+        "JSON",
+        "GeoJSON",
+        "query"
+      ],
+      "licence": "Open Government Licence v3.0"
+    },
+    {
+      "name": "HES Conservation Areas layer",
+      "organisation": "Historic Environment Scotland",
+      "type": "ArcGIS REST Feature Layer",
+      "url": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/2",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "supports": [
+        "JSON",
+        "GeoJSON",
+        "query"
+      ],
+      "licence": "Open Government Licence v3.0"
+    },
+    {
+      "name": "HES Scheduled Monuments layer",
+      "organisation": "Historic Environment Scotland",
+      "type": "ArcGIS REST Feature Layer",
+      "url": "https://inspire.hes.scot/arcgis/rest/services/HES/HES_Designations/MapServer/5",
+      "geometryType": "Polygon",
+      "sourceCRS": "EPSG:27700",
+      "supports": [
+        "JSON",
+        "GeoJSON",
+        "query"
+      ],
+      "licence": "Open Government Licence v3.0"
+    }
+  ],
+  "methodology": {
+    "dateRule": "A feature first appearing on a dated map must be described as 'present by' or 'first mapped', not as having been constructed in that year.",
+    "geometryRule": "Null geometry is intentional where an official polygon/line has not yet been imported or a historic feature has not yet been digitised from a georeferenced map.",
+    "heatmapRule": "Settlement age and surviving historic character must remain separate layers. The provisionalWeight field is suitable only for an initial interpretive heat map."
+  },
+  "records": [
+    {
+      "id": "hes-lb20959",
+      "projectId": "alloa-scotland",
+      "name": "Alloa Tower",
+      "alternativeNames": [
+        "Erskine Tower"
+      ],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "tower",
+      "designationType": "Listed Building",
+      "designationCategory": "A",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20959",
+      "designationAdded": "1960-06-09",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7883118,
+          56.1124483
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "15th century, altered in the 16th, 17th and late 18th centuries",
+      "earliestPossibleYear": 1400,
+      "latestPossibleYear": 1499,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "A major late-medieval tower house and the principal surviving element of the Erskine family's Alloa estate.",
+      "fullDescription": "Historic Environment Scotland describes a 15th-century tower altered in the 16th, 17th and late 18th centuries. The tower is four storeys with an attic and is one of Alloa's most important surviving medieval structures.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20959",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20959",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20959",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "medieval",
+        "Erskine",
+        "Earl of Mar",
+        "Old Alloa",
+        "national significance"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288893,
+        "northing": 692518,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 1.0,
+        "significanceFactor": 1.0,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.6,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20955",
+      "projectId": "alloa-scotland",
+      "name": "Star House, 25 Kirkgate",
+      "alternativeNames": [
+        "Tobias Bauchop's House"
+      ],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "house",
+      "designationType": "Listed Building",
+      "designationCategory": "A",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20955",
+      "designationAdded": "1960-06-09",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7931072,
+          56.1131965
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "1695",
+      "earliestPossibleYear": 1695,
+      "latestPossibleYear": 1695,
+      "dateBasis": "documented_construction",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "A highly decorated late-17th-century town house associated with the master mason Tobias Bauchop.",
+      "fullDescription": "A highly decorated late-17th-century town house associated with the master mason Tobias Bauchop.",
+      "architectOrDesigner": "Tobias Bauchop",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20955",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20955",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20955",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "17th century",
+        "domestic",
+        "masonry",
+        "Old Alloa"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288597,
+        "northing": 692609,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 1.0,
+        "significanceFactor": 1.0,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.6,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20956",
+      "projectId": "alloa-scotland",
+      "name": "Kilncraigs",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "factory",
+      "designationType": "Listed Building",
+      "designationCategory": "A",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20956",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7899257,
+          56.1132606
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "1903–1904; converted 2003–2004",
+      "earliestPossibleYear": 1903,
+      "latestPossibleYear": 1904,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "The English Baroque office and factory building of Patons & Baldwins, reflecting Alloa's textile-industrial importance.",
+      "fullDescription": "A four-storey and attic office and factory building designed by William Kerr in 1903–04. It formed part of the Patons & Baldwins complex, whose Alloa roots extended back to the early 19th century.",
+      "architectOrDesigner": "William Kerr",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20956",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20956",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20956",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "textile industry",
+        "Patons and Baldwins",
+        "Edwardian",
+        "industrial heritage"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288795,
+        "northing": 692611,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.5,
+        "significanceFactor": 1.0,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.3,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb49975",
+      "projectId": "alloa-scotland",
+      "name": "Kilncraigs Despatch Warehouse",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "warehouse",
+      "designationType": "Listed Building",
+      "designationCategory": "A",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB49975",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7901286,
+          56.1127814
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "1936, incorporating fabric of 1924",
+      "earliestPossibleYear": 1924,
+      "latestPossibleYear": 1936,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "A six-storey International Modern warehouse and major surviving component of the former Patons & Baldwins complex.",
+      "fullDescription": "A six-storey International Modern warehouse and major surviving component of the former Patons & Baldwins complex.",
+      "architectOrDesigner": "William Kerr / John Melvin & Son",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB49975",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB49975",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB49975",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "textile industry",
+        "modern movement",
+        "warehouse",
+        "industrial heritage"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288781,
+        "northing": 692558,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.4,
+        "significanceFactor": 1.0,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.24,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20952",
+      "projectId": "alloa-scotland",
+      "name": "Old Parish Church of St Mungo",
+      "alternativeNames": [
+        "Old St Mungo's Church"
+      ],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "church",
+      "designationType": "Scheduled Monument; former Listed Building",
+      "designationCategory": null,
+      "statutoryStatus": "Scheduled; listing removed because of dual designation",
+      "designationReference": "LB20952",
+      "designationAdded": "1960-06-02",
+      "designationRemoved": "2018-06-06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7925033,
+          56.1130075
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "Earlier fabric remodelled in 1680–1683",
+      "earliestPossibleYear": 1680,
+      "latestPossibleYear": 1683,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "Ruined parish church incorporating earlier fabric and an important late-17th-century remodelling.",
+      "fullDescription": "Ruined parish church incorporating earlier fabric and an important late-17th-century remodelling.",
+      "architectOrDesigner": "Tobias Bauchop and Pat Maine",
+      "extantStatus": "ruin",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20952",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20952",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20952",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory",
+          "notes": "The listing was removed in 2018 because the site remains protected as a scheduled monument."
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "church",
+        "ruin",
+        "scheduled monument",
+        "Old Alloa",
+        "17th century"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288634,
+        "northing": 692587,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 1.0,
+        "significanceFactor": 1.0,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.6,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20954",
+      "projectId": "alloa-scotland",
+      "name": "Alloa Old Kirkyard",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "burial_ground",
+      "designationType": "Listed Building",
+      "designationCategory": "B",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20954",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7909159,
+          56.1131114
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "Primarily 18th- and early-19th-century monuments",
+      "earliestPossibleYear": 1700,
+      "latestPossibleYear": 1825,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "medium",
+      "locationConfidence": "high",
+      "shortDescription": "Historic kirkyard with a high rubble enclosure and significant 18th- and early-19th-century monuments.",
+      "fullDescription": "Historic kirkyard with a high rubble enclosure and significant 18th- and early-19th-century monuments.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20954",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20954",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20954",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "burial ground",
+        "memorials",
+        "Old Alloa"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288733,
+        "northing": 692596,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.9,
+        "significanceFactor": 0.75,
+        "confidenceFactor": 0.75,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.3038,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb21008",
+      "projectId": "alloa-scotland",
+      "name": "Northern Glass Cone, Alloa Glass Works",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "factory",
+      "designationType": "Scheduled Monument; former Listed Building",
+      "designationCategory": null,
+      "statutoryStatus": "Scheduled; listing removed because of dual designation",
+      "designationReference": "LB21008",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": "2016-07-12",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8025716,
+          56.1112884
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "Circa 1825",
+      "earliestPossibleYear": 1820,
+      "latestPossibleYear": 1830,
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "The sole surviving glass cone in Scotland, associated with Alloa's glassmaking industry.",
+      "fullDescription": "Historic Environment Scotland dates the cone to around 1825. The Alloa glassworks was founded in 1750, and this approximately 79-foot structure survives from its 19th-century expansion.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB21008",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB21008",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB21008",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory",
+          "notes": "Former listing; protection continues as a scheduled monument."
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "glassmaking",
+        "industrial archaeology",
+        "scheduled monument",
+        "1820s"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288003,
+        "northing": 692412,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.8,
+        "significanceFactor": 1.0,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.48,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20987",
+      "projectId": "alloa-scotland",
+      "name": "Mercat Cross at 16 Bank Street",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "monument",
+      "designationType": "Listed Building",
+      "designationCategory": "B",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20987",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7937671,
+          56.1138968
+        ]
+      },
+      "locationType": "exact_current_location",
+      "documentedDateText": "Possibly 17th century; reconstructed and not on its original site",
+      "earliestPossibleYear": 1600,
+      "latestPossibleYear": 1699,
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "low",
+      "locationConfidence": "high",
+      "shortDescription": "A reconstructed mercat cross with a scroll-ornamented capital, now standing away from its original location.",
+      "fullDescription": "A reconstructed mercat cross with a scroll-ornamented capital, now standing away from its original location.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20987",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20987",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20987",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "mercat cross",
+        "civic",
+        "relocated",
+        "Bank Street"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288558,
+        "northing": 692688,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 1.0,
+        "significanceFactor": 0.75,
+        "confidenceFactor": 0.5,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.225,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20976",
+      "projectId": "alloa-scotland",
+      "name": "Alloa Town Hall",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "civic_building",
+      "designationType": "Listed Building",
+      "designationCategory": "C",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20976",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7954804,
+          56.1164958
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "1888",
+      "earliestPossibleYear": 1888,
+      "latestPossibleYear": 1888,
+      "dateBasis": "documented_construction",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "An Early Renaissance civic building with a prominent gabled frontage and hall block.",
+      "fullDescription": "An Early Renaissance civic building with a prominent gabled frontage and hall block.",
+      "architectOrDesigner": "Paul Waterhouse",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20976",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20976",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20976",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "town hall",
+        "Victorian",
+        "civic",
+        "Marshill"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288459,
+        "northing": 692980,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.65,
+        "significanceFactor": 0.5,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.195,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20989",
+      "projectId": "alloa-scotland",
+      "name": "Alloa War Memorial",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "war_memorial",
+      "designationType": "Listed Building",
+      "designationCategory": "B",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20989",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7949406,
+          56.1135382
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "1923–1924; unveiled 29 September 1924",
+      "earliestPossibleYear": 1923,
+      "latestPossibleYear": 1924,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "A bronze and stone First World War memorial at the junction of Bank Street and Church Street.",
+      "fullDescription": "A bronze and stone First World War memorial at the junction of Bank Street and Church Street.",
+      "architectOrDesigner": "Sir Robert Lorimer; sculpture by Charles d'Orville Pilkington Jackson",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20989",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20989",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20989",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "war memorial",
+        "Lorimer",
+        "Pilkington Jackson",
+        "1920s"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288484,
+        "northing": 692650,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.4,
+        "significanceFactor": 0.75,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.18,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb21009",
+      "projectId": "alloa-scotland",
+      "name": "The Speirs Centre",
+      "alternativeNames": [
+        "Former Public Baths and Gymnasium"
+      ],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "public_baths",
+      "designationType": "Listed Building",
+      "designationCategory": "A",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB21009",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.791911,
+          56.1168712
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "Dated 1895 and 1897",
+      "earliestPossibleYear": 1895,
+      "latestPossibleYear": 1897,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "An exceptionally detailed late-Victorian public baths and gymnasium with important surviving interiors.",
+      "fullDescription": "An exceptionally detailed late-Victorian public baths and gymnasium with important surviving interiors.",
+      "architectOrDesigner": "Burnet Son and Campbell",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB21009",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB21009",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB21009",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "public baths",
+        "gymnasium",
+        "Victorian",
+        "leisure",
+        "Category A"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288682,
+        "northing": 693016,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.65,
+        "significanceFactor": 1.0,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.39,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb21010",
+      "projectId": "alloa-scotland",
+      "name": "Greenfield House",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "house",
+      "designationType": "Listed Building",
+      "designationCategory": "B",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB21010",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7946888,
+          56.1191852
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "1892–1894; altered 1914",
+      "earliestPossibleYear": 1892,
+      "latestPossibleYear": 1894,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "A richly detailed late-Victorian mansion with a four-storey entrance tower.",
+      "fullDescription": "A richly detailed late-Victorian mansion with a four-storey entrance tower.",
+      "architectOrDesigner": "A. G. Sydney Mitchell and Wilson",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB21010",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB21010",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB21010",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "mansion",
+        "Victorian",
+        "Greenfield",
+        "domestic"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288516,
+        "northing": 693278,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.65,
+        "significanceFactor": 0.75,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.2925,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb21016",
+      "projectId": "alloa-scotland",
+      "name": "The Gean House",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "country_house",
+      "designationType": "Listed Building",
+      "designationCategory": "A",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB21016",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8118055,
+          56.1253694
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "Completed in 1912",
+      "earliestPossibleYear": 1912,
+      "latestPossibleYear": 1912,
+      "dateBasis": "documented_construction",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "An Arts and Crafts country house built as a wedding gift for Alexander Forrester-Paton and his bride.",
+      "fullDescription": "An Arts and Crafts country house built as a wedding gift for Alexander Forrester-Paton and his bride.",
+      "architectOrDesigner": "William Kerr, John Melvin & Son",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB21016",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB21016",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB21016",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        },
+        {
+          "sourceName": "The Paton Dynasty: a Family and their Houses",
+          "sourceOrganisation": "Clackmannanshire Council",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.clacks.gov.uk/council/press/?release=1766",
+          "accessedAt": "2026-07-28",
+          "licence": "Check council terms before redistribution.",
+          "reliability": "local_authority",
+          "notes": "Council source states that Gean House was constructed in 1912."
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "Arts and Crafts",
+        "Paton family",
+        "country house",
+        "1912"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 287470,
+        "northing": 693994,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.5,
+        "significanceFactor": 1.0,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.3,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb21019",
+      "projectId": "alloa-scotland",
+      "name": "Inglewood",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "country_house",
+      "designationType": "Listed Building",
+      "designationCategory": "A",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB21019",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8037665,
+          56.1265115
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "Circa 1900",
+      "earliestPossibleYear": 1895,
+      "latestPossibleYear": 1905,
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "A large Jacobean-style mansion with a tower, elaborate interiors and Art Nouveau glasswork.",
+      "fullDescription": "A large Jacobean-style mansion with a tower, elaborate interiors and Art Nouveau glasswork.",
+      "architectOrDesigner": "Sydney Mitchell & Wilson",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB21019",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB21019",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB21019",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "Jacobean revival",
+        "mansion",
+        "Art Nouveau",
+        "Paton family"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 287973,
+        "northing": 694108,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.65,
+        "significanceFactor": 1.0,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.39,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb21026",
+      "projectId": "alloa-scotland",
+      "name": "Thistle Brewery",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "brewery",
+      "designationType": "Listed Building",
+      "designationCategory": "B",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB21026",
+      "designationAdded": "1990-01-25",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.789526,
+          56.1150456
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "Main brewery erected 1870–1871; earlier maltings and 17th/18th-century fabric survive",
+      "earliestPossibleYear": 1668,
+      "latestPossibleYear": 1896,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "A nationally important traditional brewery complex retaining early maltings, historic plant and an 1896 office.",
+      "fullDescription": "James MacLay began brewing in Alloa in 1830 and erected the Thistle Brewery in 1870–71. The complex includes early-19th-century maltings, earlier domestic fabric and historic brewing equipment.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB21026",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB21026",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB21026",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "brewery",
+        "industrial heritage",
+        "MacLay",
+        "Victorian industry"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288825,
+        "northing": 692809,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 1.0,
+        "significanceFactor": 0.75,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.45,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20997",
+      "projectId": "alloa-scotland",
+      "name": "St Mungo's Parish Church, Bedford Place",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "church",
+      "designationType": "Listed Building",
+      "designationCategory": "B",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20997",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7971108,
+          56.1135157
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "1817–1819",
+      "earliestPossibleYear": 1817,
+      "latestPossibleYear": 1819,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "A neo-Perpendicular parish church with a prominent 207-foot spire.",
+      "fullDescription": "A neo-Perpendicular parish church with a prominent 207-foot spire.",
+      "architectOrDesigner": "James Gillespie Graham",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20997",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20997",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20997",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "church",
+        "Gothic revival",
+        "Bedford Place",
+        "1810s"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288349,
+        "northing": 692651,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.8,
+        "significanceFactor": 0.75,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.36,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20966",
+      "projectId": "alloa-scotland",
+      "name": "Former British Linen Bank, 1–3 Mar Street and 31 Mill Street",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "bank",
+      "designationType": "Listed Building",
+      "designationCategory": "B",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20966",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7921788,
+          56.1146747
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "1906",
+      "earliestPossibleYear": 1906,
+      "latestPossibleYear": 1906,
+      "dateBasis": "documented_construction",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "A finely detailed Jacobean bank building occupying a prominent corner of Mill Street and Mar Street.",
+      "fullDescription": "A finely detailed Jacobean bank building occupying a prominent corner of Mill Street and Mar Street.",
+      "architectOrDesigner": "J. M. Dick Peddie and George Washington Browne",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20966",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20966",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20966",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "bank",
+        "Edwardian",
+        "Mar Street",
+        "Mill Street"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288659,
+        "northing": 692772,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.5,
+        "significanceFactor": 0.75,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.225,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20988",
+      "projectId": "alloa-scotland",
+      "name": "18–22 Bank Street",
+      "alternativeNames": [
+        "Former Commercial Bank"
+      ],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "bank",
+      "designationType": "Listed Building",
+      "designationCategory": "C",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20988",
+      "designationAdded": "1977-06-17",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7940539,
+          56.1138387
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "1840s; council appraisal identifies 1848",
+      "earliestPossibleYear": 1840,
+      "latestPossibleYear": 1849,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "A severe late-classical former Commercial Bank on Bank Street.",
+      "fullDescription": "A severe late-classical former Commercial Bank on Bank Street.",
+      "architectOrDesigner": "Possibly David Rhind",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20988",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20988",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20988",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        },
+        {
+          "sourceName": "Alloa Glebe Conservation Area Character Appraisal",
+          "sourceOrganisation": "Clackmannanshire Council",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.clacks.gov.uk/document/6450.pdf",
+          "accessedAt": "2026-07-28",
+          "licence": "Check the council document terms before redistributing the document itself.",
+          "reliability": "local_authority",
+          "notes": "The appraisal gives a construction date of 1848."
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "bank",
+        "classical",
+        "Bank Street",
+        "1840s"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288540,
+        "northing": 692682,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.8,
+        "significanceFactor": 0.5,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.24,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb21030",
+      "projectId": "alloa-scotland",
+      "name": "Hope Bakers, 6–10 Mar Street, with ovens",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "bakery",
+      "designationType": "Listed Building",
+      "designationCategory": "B",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB21030",
+      "designationAdded": "1994-07-01",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7919638,
+          56.1148935
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "Premises circa 1830; earlier oven; establishment dated 1810",
+      "earliestPossibleYear": 1810,
+      "latestPossibleYear": 1830,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "Historic commercial premises with an early-19th-century baking oven and a circa-1840 steam-powered oven.",
+      "fullDescription": "The street block is dated to around 1830 and incorporates earlier fabric. The rear brick oven may pre-date the shopfront, while the business fascia records the establishment of Hope Bakers in 1810.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB21030",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB21030",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB21030",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "bakery",
+        "industrial archaeology",
+        "Mar Street",
+        "historic shop"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288673,
+        "northing": 692796,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.8,
+        "significanceFactor": 0.75,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.36,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20985",
+      "projectId": "alloa-scotland",
+      "name": "Old Post Office and Savings Bank, Bank Street",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "post_office",
+      "designationType": "Listed Building",
+      "designationCategory": "C",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20985",
+      "designationAdded": "1977-06-17",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7935644,
+          56.1140345
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "1882",
+      "earliestPossibleYear": 1882,
+      "latestPossibleYear": 1882,
+      "dateBasis": "documented_construction",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "A three-storey Victorian Renaissance post office and savings bank.",
+      "fullDescription": "A three-storey Victorian Renaissance post office and savings bank.",
+      "architectOrDesigner": "Adam Frame",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20985",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20985",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20985",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "post office",
+        "savings bank",
+        "Victorian",
+        "Bank Street"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288571,
+        "northing": 692703,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.65,
+        "significanceFactor": 0.5,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.195,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20982",
+      "projectId": "alloa-scotland",
+      "name": "Former Gas Showroom, Bank Street, Coalgate and Stripehead",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "commercial_building",
+      "designationType": "Listed Building",
+      "designationCategory": "B",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20982",
+      "designationAdded": "1992-10-01",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7942914,
+          56.1134129
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "1935–1938",
+      "earliestPossibleYear": 1935,
+      "latestPossibleYear": 1938,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "A classical and Moderne former municipal gas showroom with surviving Art Deco details.",
+      "fullDescription": "A classical and Moderne former municipal gas showroom with surviving Art Deco details.",
+      "architectOrDesigner": "William Kerr of Kerr and Gray",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20982",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20982",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20982",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "Art Deco",
+        "Moderne",
+        "municipal",
+        "gas industry",
+        "Bank Street"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288524,
+        "northing": 692635,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.4,
+        "significanceFactor": 0.75,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.18,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20991",
+      "projectId": "alloa-scotland",
+      "name": "Royal Oak Hotel and 3–5 Bedford Place",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "hotel",
+      "designationType": "Listed Building",
+      "designationCategory": "C",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20991",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7958279,
+          56.1135972
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "Later 1820s",
+      "earliestPossibleYear": 1825,
+      "latestPossibleYear": 1829,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "An early Bedford Place building forming part of Alloa's Georgian westward expansion.",
+      "fullDescription": "An early Bedford Place building forming part of Alloa's Georgian westward expansion.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20991",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20991",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20991",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "hotel",
+        "Georgian",
+        "Bedford Place",
+        "1820s"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288429,
+        "northing": 692658,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.8,
+        "significanceFactor": 0.5,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.24,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20975",
+      "projectId": "alloa-scotland",
+      "name": "Ochil House",
+      "alternativeNames": [
+        "Tontine Inn"
+      ],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "house",
+      "designationType": "Listed Building",
+      "designationCategory": "B",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20975",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7939494,
+          56.1160868
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "Built 1806; opened as the Tontine Inn in 1807",
+      "earliestPossibleYear": 1806,
+      "latestPossibleYear": 1806,
+      "dateBasis": "documented_construction",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "A plain classical former inn, later used as county offices, courthouse and drill-hall offices.",
+      "fullDescription": "A plain classical former inn, later used as county offices, courthouse and drill-hall offices.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20975",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20975",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20975",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "inn",
+        "court house",
+        "county offices",
+        "Marshill",
+        "1806"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288553,
+        "northing": 692932,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.8,
+        "significanceFactor": 0.75,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.36,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20977",
+      "projectId": "alloa-scotland",
+      "name": "Marshill House",
+      "alternativeNames": [
+        "Marchill House"
+      ],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "house",
+      "designationType": "Listed Building",
+      "designationCategory": "C",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20977",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7961069,
+          56.1164777
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "Early 19th century, with Victorian alterations",
+      "earliestPossibleYear": 1800,
+      "latestPossibleYear": 1825,
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "locationConfidence": "high",
+      "shortDescription": "An early-19th-century house altered and extended during the Victorian period.",
+      "fullDescription": "An early-19th-century house altered and extended during the Victorian period.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20977",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20977",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20977",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "house",
+        "Marshill",
+        "early 19th century"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288420,
+        "northing": 692979,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.8,
+        "significanceFactor": 0.5,
+        "confidenceFactor": 0.75,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.18,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20981",
+      "projectId": "alloa-scotland",
+      "name": "Former Meadow Brewery and Union Club",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "brewery",
+      "designationType": "Listed Building",
+      "designationCategory": "B",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20981",
+      "designationAdded": "1977-06-14",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7936005,
+          56.1137734
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "Established on this site 1764–1766; late-18th- and 19th-century fabric; remodelled 1901",
+      "earliestPossibleYear": 1764,
+      "latestPossibleYear": 1901,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "The surviving courtyard complex of George Younger & Sons' Meadow Brewery, later partly remodelled as the Union Club.",
+      "fullDescription": "The surviving courtyard complex of George Younger & Sons' Meadow Brewery, later partly remodelled as the Union Club.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20981",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20981",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20981",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "brewery",
+        "George Younger",
+        "industrial heritage",
+        "Coalgate",
+        "Bank Street"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288568,
+        "northing": 692674,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.9,
+        "significanceFactor": 0.75,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.405,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20957",
+      "projectId": "alloa-scotland",
+      "name": "St John's Episcopal Church, Lime Tree Walk",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "church",
+      "designationType": "Listed Building",
+      "designationCategory": "B",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20957",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7935038,
+          56.1127324
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "1867–1869 and 1872",
+      "earliestPossibleYear": 1867,
+      "latestPossibleYear": 1872,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "An Early Geometrical Gothic Episcopal church with a broach spire and notable interior artwork.",
+      "fullDescription": "An Early Geometrical Gothic Episcopal church with a broach spire and notable interior artwork.",
+      "architectOrDesigner": "Sir Robert Rowand Anderson",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20957",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20957",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20957",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "church",
+        "Gothic revival",
+        "Lime Tree Walk",
+        "Rowand Anderson"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288571,
+        "northing": 692558,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.65,
+        "significanceFactor": 0.75,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.2925,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20953",
+      "projectId": "alloa-scotland",
+      "name": "Mar and Kellie Mausoleum",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "mausoleum",
+      "designationType": "Listed Building",
+      "designationCategory": "B",
+      "statutoryStatus": "Designated",
+      "designationReference": "LB20953",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7920867,
+          56.1130405
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "1819, incorporating earlier memorials dated 1572, 1582 and 1709",
+      "earliestPossibleYear": 1572,
+      "latestPossibleYear": 1819,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "high",
+      "shortDescription": "A Gothic mausoleum in the Old Kirkyard containing important earlier Erskine family memorials.",
+      "fullDescription": "A Gothic mausoleum in the Old Kirkyard containing important earlier Erskine family memorials.",
+      "architectOrDesigner": "Possibly James Gillespie Graham",
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20953",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20953",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20953",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "mausoleum",
+        "Erskine",
+        "Old Kirkyard",
+        "memorial"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288660,
+        "northing": 692590,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 1.0,
+        "significanceFactor": 0.75,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.45,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "hes-lb20958",
+      "projectId": "alloa-scotland",
+      "name": "Gatepiers formerly of Alloa House, Lime Tree Walk",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "gatepiers",
+      "designationType": "Listed Building",
+      "designationCategory": "B",
+      "statutoryStatus": "Designated; de-scheduled in 2000",
+      "designationReference": "LB20958",
+      "designationAdded": "1972-06-12",
+      "designationRemoved": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7942919,
+          56.1110046
+        ]
+      },
+      "locationType": "exact",
+      "documentedDateText": "Outer piers possibly 1714; inner piers 19th century",
+      "earliestPossibleYear": 1714,
+      "latestPossibleYear": 1899,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "medium",
+      "locationConfidence": "high",
+      "shortDescription": "Surviving entrance features from the former Alloa House estate.",
+      "fullDescription": "Surviving entrance features from the former Alloa House estate.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20958",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20958",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20958",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "Alloa House",
+        "gatepiers",
+        "Lime Tree Walk",
+        "estate"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": true,
+      "reviewNotes": null,
+      "britishNationalGrid": {
+        "easting": 288517,
+        "northing": 692367,
+        "epsg": 27700
+      },
+      "heatmapScoring": {
+        "ageFactor": 0.9,
+        "significanceFactor": 0.75,
+        "confidenceFactor": 0.75,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.3038,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "area-old-alloa-conservation",
+      "projectId": "alloa-scotland",
+      "name": "Old Alloa Conservation Area",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "conservation_area",
+      "designationType": "Conservation Area",
+      "designationCategory": null,
+      "statutoryStatus": "Designated",
+      "designationReference": null,
+      "designationAdded": null,
+      "designationRemoved": null,
+      "geometry": null,
+      "locationType": "official_polygon_to_import",
+      "documentedDateText": "Designated 2001, incorporating an original 1972 conservation area",
+      "earliestPossibleYear": 1972,
+      "latestPossibleYear": 2001,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "unknown",
+      "shortDescription": "Covers Alloa Tower, Kilncraigs, adjoining graveyards and land extending south along Lime Tree Walk towards the former harbour.",
+      "fullDescription": "Covers Alloa Tower, Kilncraigs, adjoining graveyards and land extending south along Lime Tree Walk towards the former harbour.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Old Alloa Conservation Area",
+          "sourceOrganisation": "Clackmannanshire Council",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.clacks.gov.uk/property/oldalloaconservationarea/",
+          "accessedAt": "2026-07-28",
+          "licence": "Use the official HES/council polygon and verify current council terms.",
+          "reliability": "local_authority"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "conservation area",
+        "Old Alloa",
+        "official polygon required"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": false,
+      "reviewNotes": "Import the current official polygon from the HES Conservation Areas feature layer or Clackmannanshire Council GIS. Do not draw an approximate boundary.",
+      "heatmapScoring": {
+        "ageFactor": 0.15,
+        "significanceFactor": 0.55,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.0495,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "area-alloa-glebe-conservation",
+      "projectId": "alloa-scotland",
+      "name": "Alloa Glebe Conservation Area",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "conservation_area",
+      "designationType": "Conservation Area",
+      "designationCategory": null,
+      "statutoryStatus": "Designated",
+      "designationReference": null,
+      "designationAdded": null,
+      "designationRemoved": null,
+      "geometry": null,
+      "locationType": "official_polygon_to_import",
+      "documentedDateText": "Designated 2005, extending an earlier 1970s conservation area",
+      "earliestPossibleYear": 1970,
+      "latestPossibleYear": 2005,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "unknown",
+      "shortDescription": "Includes the western commercial centre around Bank Street, Mar Street, Mill Street and Drysdale Street, adjoining Georgian and Victorian suburbs, and West End Park.",
+      "fullDescription": "Includes the western commercial centre around Bank Street, Mar Street, Mill Street and Drysdale Street, adjoining Georgian and Victorian suburbs, and West End Park.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Alloa Glebe Conservation Area",
+          "sourceOrganisation": "Clackmannanshire Council",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.clacks.gov.uk/environment/alloaglebeconservationarea/",
+          "accessedAt": "2026-07-28",
+          "licence": "Use the official HES/council polygon and verify current council terms.",
+          "reliability": "local_authority"
+        },
+        {
+          "sourceName": "Alloa Glebe Conservation Area Character Appraisal",
+          "sourceOrganisation": "Clackmannanshire Council",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.clacks.gov.uk/document/6450.pdf",
+          "accessedAt": "2026-07-28",
+          "licence": "Check the council document terms before redistributing the document itself.",
+          "reliability": "local_authority"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "conservation area",
+        "Glebe",
+        "official polygon required"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": false,
+      "reviewNotes": "Import the current official polygon from the HES Conservation Areas feature layer or Clackmannanshire Council GIS.",
+      "heatmapScoring": {
+        "ageFactor": 0.15,
+        "significanceFactor": 0.55,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.0495,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "context-early-street-core-1702",
+      "projectId": "alloa-scotland",
+      "name": "Early Alloa street core: Mill Street, Coalgate and Candleriggs",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "historic_street_group",
+      "designationType": null,
+      "designationCategory": null,
+      "statutoryStatus": null,
+      "designationReference": null,
+      "designationAdded": null,
+      "designationRemoved": null,
+      "geometry": null,
+      "locationType": "geometry_to_digitise",
+      "documentedDateText": "Present by 1702",
+      "earliestPossibleYear": 1702,
+      "latestPossibleYear": 1702,
+      "dateBasis": "present_by",
+      "dateConfidence": "high",
+      "locationConfidence": "unknown",
+      "shortDescription": "These streets are shown on the 1702 estate map and form part of Alloa's early urban core.",
+      "fullDescription": "These streets are shown on the 1702 estate map and form part of Alloa's early urban core.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Alloa Glebe Conservation Area Character Appraisal",
+          "sourceOrganisation": "Clackmannanshire Council",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.clacks.gov.uk/document/6450.pdf",
+          "accessedAt": "2026-07-28",
+          "licence": "Check the council document terms before redistributing the document itself.",
+          "reliability": "local_authority"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "street pattern",
+        "1702",
+        "early core",
+        "settlement age"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": false,
+      "reviewNotes": "Digitise street-centre lines from current OSM geometry and link them to the 1702 evidence record.",
+      "heatmapScoring": {
+        "ageFactor": 0.9,
+        "significanceFactor": 0.35,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.189,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "context-mar-street-1785",
+      "projectId": "alloa-scotland",
+      "name": "Mar Street",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "historic_street",
+      "designationType": null,
+      "designationCategory": null,
+      "statutoryStatus": null,
+      "designationReference": null,
+      "designationAdded": null,
+      "designationRemoved": null,
+      "geometry": null,
+      "locationType": "geometry_to_import_from_osm",
+      "documentedDateText": "Laid out in 1785",
+      "earliestPossibleYear": 1785,
+      "latestPossibleYear": 1785,
+      "dateBasis": "documented_construction",
+      "dateConfidence": "high",
+      "locationConfidence": "unknown",
+      "shortDescription": "A planned late-18th-century street forming a major part of Alloa's northward town-centre development.",
+      "fullDescription": "A planned late-18th-century street forming a major part of Alloa's northward town-centre development.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Alloa Glebe Conservation Area Character Appraisal",
+          "sourceOrganisation": "Clackmannanshire Council",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.clacks.gov.uk/document/6450.pdf",
+          "accessedAt": "2026-07-28",
+          "licence": "Check the council document terms before redistributing the document itself.",
+          "reliability": "local_authority"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "street",
+        "1785",
+        "town planning",
+        "settlement age"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": false,
+      "reviewNotes": "Import the current street geometry from OpenStreetMap and retain the council appraisal as the date source.",
+      "heatmapScoring": {
+        "ageFactor": 0.9,
+        "significanceFactor": 0.35,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.189,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "context-bedford-place-expansion",
+      "projectId": "alloa-scotland",
+      "name": "Bedford Place Georgian expansion",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "historic_area",
+      "designationType": null,
+      "designationCategory": null,
+      "statutoryStatus": null,
+      "designationReference": null,
+      "designationAdded": null,
+      "designationRemoved": null,
+      "geometry": null,
+      "locationType": "geometry_to_digitise",
+      "documentedDateText": "Development began in the early 1820s and extended westward during the 1830s",
+      "earliestPossibleYear": 1820,
+      "latestPossibleYear": 1839,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "unknown",
+      "shortDescription": "A key phase of Alloa's westward Georgian expansion, including villas and terraces along Bedford Place.",
+      "fullDescription": "A key phase of Alloa's westward Georgian expansion, including villas and terraces along Bedford Place.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Alloa Glebe Conservation Area Character Appraisal",
+          "sourceOrganisation": "Clackmannanshire Council",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.clacks.gov.uk/document/6450.pdf",
+          "accessedAt": "2026-07-28",
+          "licence": "Check the council document terms before redistributing the document itself.",
+          "reliability": "local_authority"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "Georgian",
+        "Bedford Place",
+        "urban expansion",
+        "1820s",
+        "1830s"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": false,
+      "reviewNotes": "Digitise as a settlement-age polygon from georeferenced historic mapping rather than drawing a broad interpretive shape.",
+      "heatmapScoring": {
+        "ageFactor": 0.8,
+        "significanceFactor": 0.35,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.168,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "context-railway-arrival",
+      "projectId": "alloa-scotland",
+      "name": "Alloa railway and harbour branch",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "railway",
+      "designationType": null,
+      "designationCategory": null,
+      "statutoryStatus": null,
+      "designationReference": null,
+      "designationAdded": null,
+      "designationRemoved": null,
+      "geometry": null,
+      "locationType": "historic_geometry_to_digitise",
+      "documentedDateText": "Railway reached Alloa in 1850; harbour branch operating by 1862",
+      "earliestPossibleYear": 1850,
+      "latestPossibleYear": 1862,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "unknown",
+      "shortDescription": "The railway and its harbour connection materially influenced Alloa's industrial and urban development.",
+      "fullDescription": "The railway and its harbour connection materially influenced Alloa's industrial and urban development.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Alloa Glebe Conservation Area Character Appraisal",
+          "sourceOrganisation": "Clackmannanshire Council",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.clacks.gov.uk/document/6450.pdf",
+          "accessedAt": "2026-07-28",
+          "licence": "Check the council document terms before redistributing the document itself.",
+          "reliability": "local_authority"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "railway",
+        "harbour",
+        "industrial development",
+        "1850",
+        "1862"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": false,
+      "reviewNotes": "Digitise the historic alignment from a georeferenced map; do not substitute the present railway alignment where it differs.",
+      "heatmapScoring": {
+        "ageFactor": 0.65,
+        "significanceFactor": 0.35,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.1365,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "context-glebe-victorian-expansion",
+      "projectId": "alloa-scotland",
+      "name": "Glebe Fields Victorian expansion",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "historic_area",
+      "designationType": null,
+      "designationCategory": null,
+      "statutoryStatus": null,
+      "designationReference": null,
+      "designationAdded": null,
+      "designationRemoved": null,
+      "geometry": null,
+      "locationType": "geometry_to_digitise",
+      "documentedDateText": "Primarily developed between about 1870 and 1900",
+      "earliestPossibleYear": 1870,
+      "latestPossibleYear": 1900,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "unknown",
+      "shortDescription": "Victorian villas, public buildings and streets developed across the former Glebe fields west of the earlier centre.",
+      "fullDescription": "Victorian villas, public buildings and streets developed across the former Glebe fields west of the earlier centre.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Alloa Glebe Conservation Area Character Appraisal",
+          "sourceOrganisation": "Clackmannanshire Council",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.clacks.gov.uk/document/6450.pdf",
+          "accessedAt": "2026-07-28",
+          "licence": "Check the council document terms before redistributing the document itself.",
+          "reliability": "local_authority"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "Victorian",
+        "Glebe",
+        "urban expansion",
+        "settlement age"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": false,
+      "reviewNotes": "Use the council character-area map and georeferenced OS mapping to create reviewed settlement-age polygons.",
+      "heatmapScoring": {
+        "ageFactor": 0.65,
+        "significanceFactor": 0.35,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.1365,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "context-west-end-park",
+      "projectId": "alloa-scotland",
+      "name": "West End Park",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "park",
+      "designationType": null,
+      "designationCategory": null,
+      "statutoryStatus": null,
+      "designationReference": null,
+      "designationAdded": null,
+      "designationRemoved": null,
+      "geometry": null,
+      "locationType": "geometry_to_import",
+      "documentedDateText": "Laid out in 1878",
+      "earliestPossibleYear": 1878,
+      "latestPossibleYear": 1878,
+      "dateBasis": "documented_construction",
+      "dateConfidence": "high",
+      "locationConfidence": "unknown",
+      "shortDescription": "A late-Victorian public park forming a significant green-space component of the Alloa Glebe Conservation Area.",
+      "fullDescription": "A late-Victorian public park forming a significant green-space component of the Alloa Glebe Conservation Area.",
+      "architectOrDesigner": null,
+      "extantStatus": "extant",
+      "sourceRecords": [
+        {
+          "sourceName": "Alloa Glebe Conservation Area Character Appraisal",
+          "sourceOrganisation": "Clackmannanshire Council",
+          "sourceRecordId": null,
+          "sourceUrl": "https://www.clacks.gov.uk/document/6450.pdf",
+          "accessedAt": "2026-07-28",
+          "licence": "Check the council document terms before redistributing the document itself.",
+          "reliability": "local_authority"
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "park",
+        "Victorian",
+        "1878",
+        "designed landscape"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": false,
+      "reviewNotes": "Import the current park polygon from a reliable current GIS source and retain 1878 as the historical date.",
+      "heatmapScoring": {
+        "ageFactor": 0.65,
+        "significanceFactor": 0.35,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.6,
+        "provisionalWeight": 0.1365,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    },
+    {
+      "id": "context-alloa-house",
+      "projectId": "alloa-scotland",
+      "name": "Site of Alloa House",
+      "alternativeNames": [],
+      "countryCode": "GB",
+      "nation": "Scotland",
+      "region": "Clackmannanshire",
+      "locality": "Alloa",
+      "featureType": "demolished_site",
+      "designationType": null,
+      "designationCategory": null,
+      "statutoryStatus": null,
+      "designationReference": null,
+      "designationAdded": null,
+      "designationRemoved": null,
+      "geometry": null,
+      "locationType": "historic_site_polygon_to_digitise",
+      "documentedDateText": "Main house built 1834–1838; altered 1868; later demolished",
+      "earliestPossibleYear": 1834,
+      "latestPossibleYear": 1868,
+      "dateBasis": "documented_date_range",
+      "dateConfidence": "high",
+      "locationConfidence": "unknown",
+      "shortDescription": "The former great house adjoining Alloa Tower; surviving estate features include the stable block and gatepiers.",
+      "fullDescription": "The former great house adjoining Alloa Tower; surviving estate features include the stable block and gatepiers.",
+      "architectOrDesigner": null,
+      "extantStatus": "demolished",
+      "sourceRecords": [
+        {
+          "sourceName": "Historic Environment Scotland designation LB20959",
+          "sourceOrganisation": "Historic Environment Scotland",
+          "sourceRecordId": "LB20959",
+          "sourceUrl": "https://portal.historicenvironment.scot/designation/LB20959",
+          "accessedAt": "2026-07-28",
+          "licence": "HES spatial data: Open Government Licence v3.0; retain attribution and source link.",
+          "reliability": "official_statutory",
+          "notes": "The Alloa Tower record discusses the former Alloa House and surviving estate fabric."
+        }
+      ],
+      "licence": "See individual source records and dataset metadata.",
+      "tags": [
+        "Alloa House",
+        "demolished",
+        "estate",
+        "1830s",
+        "Alloa Tower"
+      ],
+      "createdAt": "2026-07-28",
+      "updatedAt": "2026-07-28",
+      "reviewed": false,
+      "reviewNotes": "Digitise the former house footprint from a georeferenced historic map and cross-check against archaeological/NRHE records.",
+      "heatmapScoring": {
+        "ageFactor": 0.8,
+        "significanceFactor": 0.35,
+        "confidenceFactor": 1.0,
+        "survivalFactor": 0.2,
+        "provisionalWeight": 0.056,
+        "warning": "Survival factor is provisional until a building-by-building condition/survival survey is completed."
+      }
+    }
+  ]
+}

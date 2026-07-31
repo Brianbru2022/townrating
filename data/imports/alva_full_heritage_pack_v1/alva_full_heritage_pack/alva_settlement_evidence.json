@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "historic-town-settlement-evidence.v1",
+  "projectId": "alva-scotland",
+  "records": [
+    {
+      "id": "alva-evidence-myerton-dun",
+      "title": "Later-prehistoric and early-medieval upland settlement",
+      "period": {
+        "earliest": -800,
+        "latest": 1000
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "high",
+      "features": [
+        "Myreton Hill dun"
+      ],
+      "geometryStatus": "use_official_SM13758_polygon",
+      "sourceRecordIds": [
+        "SM13758"
+      ]
+    },
+    {
+      "id": "alva-evidence-medieval-church",
+      "title": "Medieval parish and church site",
+      "period": {
+        "earliest": 1170,
+        "latest": 1173
+      },
+      "dateBasis": "present_by",
+      "confidence": "high",
+      "features": [
+        "St Serf’s church site",
+        "old kirkyard"
+      ],
+      "geometryStatus": "use_archaeological_and_churchyard_geometries",
+      "sourceRecordIds": []
+    },
+    {
+      "id": "alva-evidence-house-estate",
+      "title": "Alva House and estate development",
+      "period": {
+        "earliest": 1542,
+        "latest": 1790
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "high",
+      "features": [
+        "Alva House",
+        "estate policies",
+        "mausoleum"
+      ],
+      "geometryStatus": "digitise_from_georeferenced_maps",
+      "sourceRecordIds": [
+        "LB21031",
+        "LB1995"
+      ]
+    },
+    {
+      "id": "alva-evidence-silver-glen",
+      "title": "Silver and cobalt mining in Silver Glen",
+      "period": {
+        "earliest": 1714,
+        "latest": 1768
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "high",
+      "features": [
+        "mine workings",
+        "processing areas",
+        "routes"
+      ],
+      "geometryStatus": "import_NRHE_and_digitise",
+      "sourceRecordIds": []
+    },
+    {
+      "id": "alva-evidence-lord-alva",
+      "title": "Late-18th-century estate-led town development",
+      "period": {
+        "earliest": 1767,
+        "latest": 1796
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "medium",
+      "features": [
+        "Island House",
+        "pre-industrial street development"
+      ],
+      "geometryStatus": "compare_estate_and_early_maps",
+      "sourceRecordIds": [
+        "LB49221"
+      ]
+    },
+    {
+      "id": "alva-evidence-industrial",
+      "title": "Textile-industrial town expansion",
+      "period": {
+        "earliest": 1798,
+        "latest": 1887
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "high",
+      "features": [
+        "first woollen mill",
+        "Strude Mill",
+        "handloom factory",
+        "Dalmore Works",
+        "Glentana Mill"
+      ],
+      "geometryStatus": "period_specific_mill_and_built_up_polygons",
+      "sourceRecordIds": [
+        "LB21032",
+        "LB21034",
+        "LB51577"
+      ]
+    },
+    {
+      "id": "alva-evidence-railway",
+      "title": "Railway-connected phase",
+      "period": {
+        "earliest": 1863,
+        "latest": 1954
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "high",
+      "features": [
+        "station",
+        "branch line",
+        "goods facilities"
+      ],
+      "geometryStatus": "digitise_from_OS_maps",
+      "sourceRecordIds": []
+    },
+    {
+      "id": "alva-evidence-civic",
+      "title": "Late-Victorian and interwar civic development",
+      "period": {
+        "earliest": 1885,
+        "latest": 1929
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "high",
+      "features": [
+        "Dalmore School",
+        "war memorial",
+        "Cochrane Park Hall"
+      ],
+      "geometryStatus": "link_assets_and_historic_park_extent",
+      "sourceRecordIds": [
+        "LB51577",
+        "LB21033"
+      ]
+    },
+    {
+      "id": "alva-evidence-mid20c",
+      "title": "Mid-20th-century loss and change",
+      "period": {
+        "earliest": 1940,
+        "latest": 1964
+      },
+      "dateBasis": "documented_date_range",
+      "confidence": "medium",
+      "features": [
+        "Alva House demolition",
+        "railway closure",
+        "Dalmore Works closure"
+      ],
+      "geometryStatus": "change_polygons_from_pre_and_postwar_maps",
+      "sourceRecordIds": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "historic-town-nls-acquisition.v1",
+  "projectId": "culross-scotland",
+  "town": "Culross",
+  "purpose": "High-detail historic-burgh comparison map; not a whole-parish historic footprint.",
+  "status": "source_verified_georeferencing_pending",
+  "primarySheet": {
+    "recordId": "82882002",
+    "recordUrl": "https://maps.nls.uk/view/82882002",
+    "iiifServiceUrl": "https://map-view.nls.uk/iiif/2/8288%2F82882002",
+    "wfsTitle": "Fifeshire, XXXVII.12, Surveyed: 1895, Published: 1896",
+    "sheetBoundsWgs84": [-3.6559, 56.0436, -3.6169, 56.0583],
+    "licence": "CC-BY (NLS), verified on the NLS map record on 2026-07-30.",
+    "attribution": "National Library of Scotland, Ordnance Survey 25-inch mapping, sheet XXXVII.12 (1896)."
+  },
+  "companionSheetsForTownMosaic": [
+    {
+      "recordId": "82881984",
+      "recordUrl": "https://maps.nls.uk/view/82881984",
+      "wfsTitle": "Fifeshire, XXXVII.8, Surveyed: 1895, Published: 1896",
+      "licence": "CC-BY (NLS), verified on the NLS map record on 2026-07-30.",
+      "attribution": "National Library of Scotland, Ordnance Survey 25-inch mapping, sheet XXXVII.8 (1896).",
+      "reason": "Covers the adjoining north-east part of the historic burgh focus."
+    }
+  ],
+  "coverage": "The primary sheet covers the southern historic burgh focus. Do not publish a larger mosaic until every companion sheet has passed the same licence and georeferencing review.",
+  "georeferencing": {
+    "targetCrs": "EPSG:3857",
+    "requiredBeforePublication": ["crop to the verified map neatline", "at least four independently checked control points per source sheet", "record residual error", "curator review"],
+    "output": "data/runtime/tiles/nls-culross-os-25-inch-1896.mbtiles"
+  }
+}

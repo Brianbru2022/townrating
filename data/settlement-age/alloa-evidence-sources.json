@@ -1,0 +1,79 @@
+{
+  "projectId": "alloa-scotland",
+  "purpose": "Source register for reviewed settlement-age polygons; this is not a published polygon dataset.",
+  "sources": [
+    {
+      "id": "clacks-alloa-glebe-appraisal",
+      "title": "Alloa Glebe Conservation Area Character Appraisal",
+      "organisation": "Clackmannanshire Council",
+      "url": "https://www.clacks.gov.uk/document/6450.pdf",
+      "reliability": "local_authority",
+      "usableEvidence": [
+        "Mill Street, Coalgate and Candleriggs shown on a 1702 estate map",
+        "Mar Street laid out in 1785; later-18th-century northern streets",
+        "Glebe Fields Victorian villas, 1870–1900",
+        "West End Park laid out in 1878"
+      ],
+      "limits": "The appraisal establishes development phases but does not supply GIS polygons for each phase. Its figures must be georeferenced or traced against an authorised historic-map layer before any polygon is published."
+    },
+    {
+      "id": "nrs-rhp13258-alloa-plan-1722-1730",
+      "title": "Plan of Alloa, the seat of the Lord Mar (RHP13258)",
+      "organisation": "National Records of Scotland / University of Edinburgh",
+      "url": "https://images-teaching.is.ed.ac.uk/luna/servlet/detail/UoEcha~1~1~326696~102160:Plan-of-Alloa-The-Seat-of-The-Lord-",
+      "reliability": "archival",
+      "usableEvidence": [
+        "Early-eighteenth-century town, harbour, old and new roads and streets",
+        "Potential primary source for a reviewed early town footprint after a licensed georeferencing process"
+      ],
+      "limits": "The image has a courtesy rights statement rather than a stated open publication licence, and no CORS-enabled tile service. It is recorded for research and curator digitisation only until reuse permission and independently checked control points are held."
+    },
+    {
+      "id": "nls-pont-maps-1583-1614",
+      "title": "Pont maps of Scotland, c. 1583–1614",
+      "organisation": "National Library of Scotland",
+      "url": "https://maps.nls.uk/pont/",
+      "reliability": "archival",
+      "usableEvidence": [
+        "Early modern regional context and place-name evidence where an Alloa-area sheet can be identified and reviewed"
+      ],
+      "limits": "No Alloa-specific public GIS tile endpoint or survey-grade georeferencing has been verified. These manuscript maps are not precise enough on their own for a settlement boundary or a development date."
+    },
+    {
+      "id": "nrs-rhp1230-alloa-c1790",
+      "title": "Plan of the town of Alloa (RHP1230)",
+      "organisation": "National Records of Scotland",
+      "url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=RHP1230",
+      "reliability": "archival",
+      "usableEvidence": [
+        "Detailed c. 1790 town plan by John Ainslie, suitable as a potential control source for the late eighteenth-century town footprint"
+      ],
+      "limits": "The catalogue records digitised images in NRS Search Rooms Virtual Volumes, but no public reusable GIS or XYZ tile service has been verified. Obtain the image under archive terms, document control points, then review a derived polygon before publication."
+    },
+    {
+      "id": "nls-historic-maps-api",
+      "title": "National Library of Scotland Historic Maps API",
+      "organisation": "National Library of Scotland",
+      "url": "https://maps.nls.uk/projects/api/index.html",
+      "reliability": "archival",
+      "usableEvidence": [
+        "1888–1913 six-inch mapping for detailed comparison",
+        "1885–1903 one-inch overview",
+        "1920s–1940s, 1937–1961 and 1955–1961 change comparison"
+      ],
+      "limits": "Publisher georeferencing is suitable for comparison but not guaranteed at individual-feature precision. Every resulting polygon needs human review and a cited map layer."
+    },
+    {
+      "id": "nrs-census-settlements-gis",
+      "title": "National Records of Scotland Census Settlements GIS",
+      "organisation": "National Records of Scotland",
+      "url": "https://services-eu1.arcgis.com/cECIr59LclpO818r/ArcGIS/rest/services/census_settlements/FeatureServer/layers",
+      "reliability": "official_non_statutory",
+      "usableEvidence": [
+        "Modern census settlement boundary context, where an Alloa feature is available in the published service"
+      ],
+      "limits": "This is a current statistical settlement boundary, not historic settlement-age GIS. It must not be labelled as a historic footprint or used to assign a development date."
+    }
+  ],
+  "publicationRule": "Publish a settlement-age polygon only when its boundary is traced from a cited historic source, its period is explicit, and a curator has reviewed the geometry and attribution."
+}

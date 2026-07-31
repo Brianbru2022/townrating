@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "historic-town-local-map.v1",
+  "projectId": "alloa-scotland",
+  "mapId": "nls-alloa-os-25-inch-1900-local",
+  "title": "NLS — Ordnance Survey 25-inch, Alloa sheet CXXXIX.4",
+  "displayDate": "1900",
+  "surveyStartYear": 1899,
+  "surveyEndYear": 1899,
+  "publicationYear": 1900,
+  "sourceInstitution": "National Library of Scotland / Ordnance Survey",
+  "sourceUrl": "https://maps.nls.uk/view/82875201",
+  "sourceImageUrl": "https://map-view.nls.uk/iiif/2/8287%2F82875201/full/max/0/default.jpg",
+  "iiifServiceUrl": "https://map-view.nls.uk/iiif/2/8287%2F82875201",
+  "licence": "CC BY (National Library of Scotland); retain the required attribution.",
+  "attribution": "National Library of Scotland, Ordnance Survey 25-inch mapping, sheet CXXXIX.4 (1900).",
+  "notes": "High-detail Alloa town coverage only. The four points are source-footprint references, not independently checked neatline control points. A reviewed control-point set and residual report are still required before publication or digitisation.",
+  "bounds": [-3.8074, 56.1136, -3.7686, 56.1281],
+  "targetCrs": "EPSG:3857",
+  "tilePackageId": "nls-alloa-os-25-inch-1900",
+  "renderWidth": 4096,
+  "sourceWidth": 16688,
+  "sourceHeight": 11806,
+  "sourceCrop": {
+    "x": 635,
+    "y": 538,
+    "width": 15250,
+    "height": 10235
+  },
+  "approvedForPublication": false,
+  "reviewedBy": "Historic Town Explorer automated local-map preparation",
+  "reviewedAt": "2026-07-29",
+  "controlPoints": [
+    { "image": [635, 538], "wgs84": [-3.8074, 56.1281], "feature": "NLS map neatline north-west corner", "evidence": "NLS GeoServer sheet footprint for 82875201, cropped to the visible neatline for draft alignment review" },
+    { "image": [15884, 538], "wgs84": [-3.7686, 56.1281], "feature": "NLS map neatline north-east corner", "evidence": "NLS GeoServer sheet footprint for 82875201, cropped to the visible neatline for draft alignment review" },
+    { "image": [15884, 10772], "wgs84": [-3.7686, 56.1136], "feature": "NLS map neatline south-east corner", "evidence": "NLS GeoServer sheet footprint for 82875201, cropped to the visible neatline for draft alignment review" },
+    { "image": [635, 10772], "wgs84": [-3.8074, 56.1136], "feature": "NLS map neatline south-west corner", "evidence": "NLS GeoServer sheet footprint for 82875201, cropped to the visible neatline for draft alignment review" }
+  ]
+}
