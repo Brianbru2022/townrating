@@ -9,7 +9,7 @@ export function Timeline() {
   return (
     <section className="timeline" aria-label="Timeline">
       <label>
-        <span>Selected year</span>
+        <span>Historic age view</span>
         <output>{year}</output>
         <input
           type="range"
@@ -19,10 +19,7 @@ export function Timeline() {
           onChange={(event) => setYear(Number(event.target.value))}
         />
       </label>
-      <p>
-        Features with uncertain dates are labelled as possibly present. Historic-map survey,
-        revision, and publication dates are kept distinct.
-      </p>
+      <p>Move through time to see which mapped historic places were likely visible by that year.</p>
     </section>
   );
 }

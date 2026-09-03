@@ -1,0 +1,625 @@
+{
+  "project": {
+    "id": "buerton-cheshire-england",
+    "name": "Buerton Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Cheshire East",
+    "locality": "Buerton",
+    "centre": [
+      -2.4707627,
+      52.9879075
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Buerton",
+        "osmType": "node",
+        "osmId": 292384167,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [
+          "OSM way 26657461"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.4767626999999997,
+              52.9834075
+            ],
+            [
+              -2.4647627,
+              52.9834075
+            ],
+            [
+              -2.4647627,
+              52.9924075
+            ],
+            [
+              -2.4767626999999997,
+              52.9924075
+            ],
+            [
+              -2.4767626999999997,
+              52.9834075
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-12T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-12. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 1 directly adjoining public green-space geometries were included in the active visitor boundary. Historic England official list-entry date enrichment reviewed 2026-08-12: 2 of 4 statutory records now carry defensible date evidence; uncaptured or unresolved entries are retained as unknown and listed in the county audit.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Buerton has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Buerton",
+      "intro": "Buerton has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "BUERTON OLD WINDMILL",
+        "summary": "Start with BUERTON OLD WINDMILL, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "BUERTON OLD WINDMILL"
+      ],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/292384167",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-12"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "historic-england:nhle:1138498",
+        "name": "BUERTON OLD WINDMILL",
+        "reason": "BUERTON OLD WINDMILL is a nationally recorded historic landmark within Buerton. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "mill",
+        "visitorScore": 54,
+        "timeToSpend": "Allow 45-90 minutes",
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "mill",
+          "intro": "BUERTON OLD WINDMILL is a nationally recorded historic landmark within Buerton. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "mill",
+            "Historic England designation"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See BUERTON OLD WINDMILL"
+            }
+          ]
+        },
+        "sourceName": "National Heritage List for England",
+        "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1138498",
+        "verifiedInBoundaryAt": "2026-08-12"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Buerton",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/292384167",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-12",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.4767626999999997,
+          52.9834075,
+          -2.4647627,
+          52.9924075
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Buerton",
+          "osmType": "node",
+          "osmId": 292384167,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.4767626999999997,
+                52.9834075
+              ],
+              [
+                -2.4647627,
+                52.9834075
+              ],
+              [
+                -2.4647627,
+                52.9924075
+              ],
+              [
+                -2.4767626999999997,
+                52.9924075
+              ],
+              [
+                -2.4767626999999997,
+                52.9834075
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.4767626999999997,
+          52.9834075,
+          -2.4647627,
+          52.9924075
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Buerton",
+          "osmType": "node",
+          "osmId": 292384167,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.4767626999999997,
+                52.9834075
+              ],
+              [
+                -2.4647627,
+                52.9834075
+              ],
+              [
+                -2.4647627,
+                52.9924075
+              ],
+              [
+                -2.4767626999999997,
+                52.9924075
+              ],
+              [
+                -2.4767626999999997,
+                52.9834075
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Buerton",
+          "osmType": "node",
+          "osmId": 292384167,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [
+            "OSM way 26657461"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.4767626999999997,
+                52.9834075
+              ],
+              [
+                -2.4647627,
+                52.9834075
+              ],
+              [
+                -2.4647627,
+                52.9924075
+              ],
+              [
+                -2.4767626999999997,
+                52.9924075
+              ],
+              [
+                -2.4767626999999997,
+                52.9834075
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes only directly adjoining mapped public green spaces: OSM way 26657461."
+    }
+  },
+  "features": [
+    {
+      "id": "historic-england:nhle:1136803",
+      "projectId": "buerton-cheshire-england",
+      "name": "DAIRY HOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Cheshire East",
+      "locality": "Buerton",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.47069883767751,
+          52.9867852629779
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1136803",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1136803",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1136803",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1136803?section=official-list-entry",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: C17"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Buerton visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-12; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "C17",
+      "earliestPossibleYear": 1600,
+      "latestPossibleYear": 1699,
+      "datePrecision": "century"
+    },
+    {
+      "id": "historic-england:nhle:1138498",
+      "projectId": "buerton-cheshire-england",
+      "name": "BUERTON OLD WINDMILL",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Cheshire East",
+      "locality": "Buerton",
+      "featureType": "mill",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.46977518319033,
+          52.9922544076274
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "BUERTON OLD WINDMILL is a nationally recorded historic landmark within Buerton. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1138498",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1138498",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Buerton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "attractionGuide": {
+        "headline": "mill",
+        "intro": "BUERTON OLD WINDMILL is a nationally recorded historic landmark within Buerton. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "mill",
+          "Historic England designation"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See BUERTON OLD WINDMILL"
+          }
+        ]
+      }
+    },
+    {
+      "id": "historic-england:nhle:1138502",
+      "projectId": "buerton-cheshire-england",
+      "name": "BARN AT DAIRY HOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Cheshire East",
+      "locality": "Buerton",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4711177686787,
+          52.9869543975818
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1138502",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1138502",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Buerton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1330163",
+      "projectId": "buerton-cheshire-england",
+      "name": "FARM BUILDING AT MALT KILN FARM",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Cheshire East",
+      "locality": "Buerton",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.47199237126178,
+          52.9865643837579
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1330163",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1330163",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1330163",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1330163?section=official-list-entry",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: Early C19"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Buerton visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-12; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "Early C19",
+      "earliestPossibleYear": 1800,
+      "latestPossibleYear": 1839,
+      "datePrecision": "part century"
+    },
+    {
+      "id": "osm-community:node-9456785485",
+      "projectId": "buerton-cheshire-england",
+      "name": "Buerton Village Sign picnic rest point",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Cheshire East",
+      "locality": "Buerton",
+      "featureType": "bench",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4712807,
+          52.9871401
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Buerton Village Sign picnic rest point is a mapped public bench or outdoor rest point used only because fewer than five genuine picnic places are mapped in Buerton.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "node/9456785485",
+          "sourceUrl": "https://www.openstreetmap.org/node/9456785485",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "amenity=bench; picnic_rest_fallback=yes"
+        }
+      ],
+      "tags": [
+        "service-context-picnic",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-12.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    }
+  ],
+  "sources": [
+    {
+      "id": "buerton-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Buerton settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/292384167",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Buerton designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "buerton-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Buerton visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

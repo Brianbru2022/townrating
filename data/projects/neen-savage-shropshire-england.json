@@ -1,0 +1,796 @@
+{
+  "project": {
+    "id": "neen-savage-shropshire-england",
+    "name": "Neen Savage Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Shropshire",
+    "locality": "Neen Savage",
+    "centre": [
+      -2.4794813,
+      52.3933743
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Neen Savage",
+        "osmType": "node",
+        "osmId": 29750282,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [
+          "OSM way 543097302",
+          "OSM way 543097305",
+          "OSM way 660980836",
+          "OSM way 907492457"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.4854813,
+              52.3888743
+            ],
+            [
+              -2.4734813000000004,
+              52.3888743
+            ],
+            [
+              -2.4734813000000004,
+              52.3978743
+            ],
+            [
+              -2.4854813,
+              52.3978743
+            ],
+            [
+              -2.4854813,
+              52.3888743
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-12T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-12. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 4 directly adjoining public green-space geometries were included in the active visitor boundary. Historic England official list-entry date enrichment reviewed 2026-08-12: 0 of 5 statutory records now carry defensible date evidence; uncaptured or unresolved entries are retained as unknown and listed in the county audit.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Neen Savage has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Neen Savage",
+      "intro": "Neen Savage has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "Church of St Mary",
+        "summary": "Start with Church of St Mary and St Mary's, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "Church of St Mary",
+        "St Mary's"
+      ],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/29750282",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-12"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "historic-england:nhle:1053802",
+        "name": "Church of St Mary",
+        "reason": "Church of St Mary is a nationally recorded historic landmark within Neen Savage. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "church",
+        "visitorScore": 60,
+        "timeToSpend": "Allow 20-45 minutes",
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "church",
+          "intro": "Church of St Mary is a nationally recorded historic landmark within Neen Savage. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "church",
+            "Historic England designation"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See Church of St Mary"
+            }
+          ]
+        },
+        "sourceName": "National Heritage List for England",
+        "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1053802",
+        "verifiedInBoundaryAt": "2026-08-12"
+      },
+      {
+        "rank": 2,
+        "featureId": "osm-community:way-360891247",
+        "name": "St Mary's",
+        "reason": "St Mary's is a curated place of worship within the active Neen Savage visitor boundary.",
+        "tagline": "place of worship",
+        "visitorScore": 52,
+        "timeToSpend": "Allow 45-90 minutes",
+        "freeAdmission": false,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "place of worship",
+          "intro": "St Mary's is a curated place of worship within the active Neen Savage visitor boundary.",
+          "motifs": [
+            "place of worship",
+            "Neen Savage"
+          ],
+          "bestFor": [
+            "Local heritage"
+          ],
+          "thingsToDo": [
+            {
+              "name": "Explore St Mary's"
+            },
+            {
+              "name": "Notice its place of worship character"
+            }
+          ]
+        },
+        "sourceName": "OpenStreetMap current community places",
+        "sourceUrl": "https://www.openstreetmap.org/way/360891247",
+        "verifiedInBoundaryAt": "2026-08-12"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Neen Savage",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/29750282",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-12",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.4854813,
+          52.3888743,
+          -2.4734813000000004,
+          52.3978743
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Neen Savage",
+          "osmType": "node",
+          "osmId": 29750282,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.4854813,
+                52.3888743
+              ],
+              [
+                -2.4734813000000004,
+                52.3888743
+              ],
+              [
+                -2.4734813000000004,
+                52.3978743
+              ],
+              [
+                -2.4854813,
+                52.3978743
+              ],
+              [
+                -2.4854813,
+                52.3888743
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.4854813,
+          52.3888743,
+          -2.4734813000000004,
+          52.3978743
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Neen Savage",
+          "osmType": "node",
+          "osmId": 29750282,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.4854813,
+                52.3888743
+              ],
+              [
+                -2.4734813000000004,
+                52.3888743
+              ],
+              [
+                -2.4734813000000004,
+                52.3978743
+              ],
+              [
+                -2.4854813,
+                52.3978743
+              ],
+              [
+                -2.4854813,
+                52.3888743
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Neen Savage",
+          "osmType": "node",
+          "osmId": 29750282,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [
+            "OSM way 543097302",
+            "OSM way 543097305",
+            "OSM way 660980836",
+            "OSM way 907492457"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.4854813,
+                52.3888743
+              ],
+              [
+                -2.4734813000000004,
+                52.3888743
+              ],
+              [
+                -2.4734813000000004,
+                52.3978743
+              ],
+              [
+                -2.4854813,
+                52.3978743
+              ],
+              [
+                -2.4854813,
+                52.3888743
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes only directly adjoining mapped public green spaces: OSM way 543097302, OSM way 543097305, OSM way 660980836, OSM way 907492457."
+    }
+  },
+  "features": [
+    {
+      "id": "historic-england:nhle:1053802",
+      "projectId": "neen-savage-shropshire-england",
+      "name": "Church of St Mary",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Neen Savage",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II*",
+      "significance": "national",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.47994210434679,
+          52.3930561023153
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "Church of St Mary is a nationally recorded historic landmark within Neen Savage. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1053802",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1053802",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Neen Savage visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "attractionGuide": {
+        "headline": "church",
+        "intro": "Church of St Mary is a nationally recorded historic landmark within Neen Savage. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "church",
+          "Historic England designation"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See Church of St Mary"
+          }
+        ]
+      }
+    },
+    {
+      "id": "historic-england:nhle:1254458",
+      "projectId": "neen-savage-shropshire-england",
+      "name": "MUSBATCH FARMHOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Neen Savage",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.48351190792445,
+          52.3902635583293
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1254458",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1254458",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Neen Savage visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1294277",
+      "projectId": "neen-savage-shropshire-england",
+      "name": "THE VICARAGE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Neen Savage",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.47865345037492,
+          52.393474882594
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1294277",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1294277",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Neen Savage visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1367550",
+      "projectId": "neen-savage-shropshire-england",
+      "name": "LOWER NEEN FARM HOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Neen Savage",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.47887288275064,
+          52.3920265650451
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1367550",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1367550",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Neen Savage visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1437265",
+      "projectId": "neen-savage-shropshire-england",
+      "name": "Neen Savage War Memorial",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Neen Savage",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.47956411232307,
+          52.3930433528054
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1437265",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1437265",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Neen Savage visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "osm-community:way-360891247",
+      "projectId": "neen-savage-shropshire-england",
+      "name": "St Mary's",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Neen Savage",
+      "featureType": "place_of_worship",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4800209,
+          52.3930588
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "St Mary's is a curated place of worship within the active Neen Savage visitor boundary.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/360891247",
+          "sourceUrl": "https://www.openstreetmap.org/way/360891247",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "amenity=place_of_worship; building=church; denomination=anglican; heritage=2; heritage:operator=Historic England; name=St Mary's; religion=christian; wikidata=Q17539026; visit_score=52"
+        }
+      ],
+      "tags": [
+        "service-context-visitor",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-12.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "attractionGuide": {
+        "headline": "place of worship",
+        "intro": "St Mary's is a curated place of worship within the active Neen Savage visitor boundary.",
+        "motifs": [
+          "place of worship",
+          "Neen Savage"
+        ],
+        "bestFor": [
+          "Local heritage"
+        ],
+        "thingsToDo": [
+          {
+            "name": "Explore St Mary's"
+          },
+          {
+            "name": "Notice its place of worship character"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osm-community:node-5250015010",
+      "projectId": "neen-savage-shropshire-england",
+      "name": "St Mary's picnic rest point",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Neen Savage",
+      "featureType": "bench",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4791854,
+          52.3946976
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "St Mary's picnic rest point is a mapped public bench or outdoor rest point used only because fewer than five genuine picnic places are mapped in Neen Savage.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "node/5250015010",
+          "sourceUrl": "https://www.openstreetmap.org/node/5250015010",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "amenity=bench; source=survey; picnic_rest_fallback=yes"
+        }
+      ],
+      "tags": [
+        "service-context-picnic",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-12.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    },
+    {
+      "id": "osm-community:node-11123068805",
+      "projectId": "neen-savage-shropshire-england",
+      "name": "Neen Savage War Memorial picnic rest point",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Neen Savage",
+      "featureType": "bench",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4797192,
+          52.3930781
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Neen Savage War Memorial picnic rest point is a mapped public bench or outdoor rest point used only because fewer than five genuine picnic places are mapped in Neen Savage.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "node/11123068805",
+          "sourceUrl": "https://www.openstreetmap.org/node/11123068805",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "amenity=bench; picnic_rest_fallback=yes"
+        }
+      ],
+      "tags": [
+        "service-context-picnic",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-12.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    }
+  ],
+  "sources": [
+    {
+      "id": "neen-savage-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Neen Savage settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/29750282",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Neen Savage designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "neen-savage-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Neen Savage visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

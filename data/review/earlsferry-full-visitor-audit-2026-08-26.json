@@ -1,0 +1,86 @@
+{
+  "reviewedAt": "2026-08-26T23:45:00.000Z",
+  "townScore": 78,
+  "dogOwnerScore": 71,
+  "publicationRule": "visitor score > 60 with a complete current visitor contract",
+  "attractions": [
+    {
+      "name": "Elie Links and Golf House Club",
+      "score": 84,
+      "published": true
+    },
+    {
+      "name": "Earlsferry Beach and Historic Waterfront",
+      "score": 80,
+      "published": true
+    },
+    {
+      "name": "Earlsferry Old Burgh and Town Hall",
+      "score": 69,
+      "published": true
+    }
+  ],
+  "trails": [
+    {
+      "name": "Fife Coastal Path: Lower Largo to Earlsferry",
+      "score": 86
+    },
+    {
+      "name": "Elie Chain Walk from Earlsferry",
+      "score": 85
+    },
+    {
+      "name": "Elie & Earlsferry – Ruby Bay & Back Treasure Trail",
+      "score": 84
+    }
+  ],
+  "facilities": {
+    "eat": [
+      {
+        "name": "The 19th Hole",
+        "score": 84,
+        "published": true
+      },
+      {
+        "name": "The Pavilion",
+        "score": 64,
+        "published": false,
+        "reason": "No reliable first-party current hours or dog policy"
+      }
+    ],
+    "parking": [
+      {
+        "name": "Earlsferry West End Beach Parking",
+        "capacity": "Not published",
+        "price": "Free in current OSM data",
+        "payment": "None"
+      },
+      {
+        "name": "Golf House Club Visitor Parking",
+        "capacity": "Not published",
+        "price": "No separate tariff published",
+        "payment": "Customer parking"
+      },
+      {
+        "name": "Pavilion and Sports Club Parking",
+        "capacity": "Not published",
+        "price": "Not published",
+        "payment": "Check signs"
+      }
+    ],
+    "toilets": [
+      {
+        "name": "Nearest public toilets – Stenton Row, Elie",
+        "hours": "Daily 09:00–17:00",
+        "accessible": "Level access; Radar key",
+        "location": "Outside Earlsferry, roughly 1 km east"
+      }
+    ]
+  },
+  "exclusions": [
+    "Fixed-chain section kept in Trails because it lies beyond the audited town boundary",
+    "No in-boundary public toilet invented",
+    "Parking capacities and payment methods left unpublished where no authoritative evidence exists",
+    "Pavilion retained as researched map context but not published in Eats because current opening hours and dog policy are unconfirmed"
+  ]
+}

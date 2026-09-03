@@ -1,0 +1,918 @@
+{
+  "project": {
+    "id": "kilby-leicestershire-england",
+    "name": "Kilby Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Leicestershire",
+    "locality": "Kilby",
+    "centre": [
+      -1.0859945,
+      52.5520867
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Kilby",
+        "osmType": "relation",
+        "osmId": 6624638,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [
+          "OSM way 579834484"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.0929944999999999,
+              52.547086699999994
+            ],
+            [
+              -1.0789945,
+              52.547086699999994
+            ],
+            [
+              -1.0789945,
+              52.5570867
+            ],
+            [
+              -1.0929944999999999,
+              52.5570867
+            ],
+            [
+              -1.0929944999999999,
+              52.547086699999994
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-11T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-11. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 1 directly adjoining public green-space geometries were included in the active visitor boundary. Historic England official list-entry date enrichment completed 2026-08-11: 8 of 9 statutory records now carry defensible date evidence; unresolved entries were individually checked and retained as unknown.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Kilby has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Kilby",
+      "intro": "Kilby has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "CHURCH OF ST MARY MAGDALENE",
+        "summary": "Start with CHURCH OF ST MARY MAGDALENE, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "CHURCH OF ST MARY MAGDALENE"
+      ],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/relation/6624638",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-11"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "historic-england:nhle:1361070",
+        "name": "CHURCH OF ST MARY MAGDALENE",
+        "reason": "CHURCH OF ST MARY MAGDALENE is a nationally recorded historic landmark within Kilby. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "church",
+        "visitorScore": 52,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "church",
+          "intro": "CHURCH OF ST MARY MAGDALENE is a nationally recorded historic landmark within Kilby. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "church",
+            "Historic England designation"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See CHURCH OF ST MARY MAGDALENE"
+            }
+          ]
+        },
+        "sourceName": "National Heritage List for England",
+        "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1361070",
+        "verifiedInBoundaryAt": "2026-08-11"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Kilby",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/relation/6624638",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-11",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -1.0929944999999999,
+          52.547086699999994,
+          -1.0789945,
+          52.5570867
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Kilby",
+          "osmType": "relation",
+          "osmId": 6624638,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -1.0929944999999999,
+                52.547086699999994
+              ],
+              [
+                -1.0789945,
+                52.547086699999994
+              ],
+              [
+                -1.0789945,
+                52.5570867
+              ],
+              [
+                -1.0929944999999999,
+                52.5570867
+              ],
+              [
+                -1.0929944999999999,
+                52.547086699999994
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -1.0929944999999999,
+          52.547086699999994,
+          -1.0789945,
+          52.5570867
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Kilby",
+          "osmType": "relation",
+          "osmId": 6624638,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -1.0929944999999999,
+                52.547086699999994
+              ],
+              [
+                -1.0789945,
+                52.547086699999994
+              ],
+              [
+                -1.0789945,
+                52.5570867
+              ],
+              [
+                -1.0929944999999999,
+                52.5570867
+              ],
+              [
+                -1.0929944999999999,
+                52.547086699999994
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Kilby",
+          "osmType": "relation",
+          "osmId": 6624638,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [
+            "OSM way 579834484"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -1.0929944999999999,
+                52.547086699999994
+              ],
+              [
+                -1.0789945,
+                52.547086699999994
+              ],
+              [
+                -1.0789945,
+                52.5570867
+              ],
+              [
+                -1.0929944999999999,
+                52.5570867
+              ],
+              [
+                -1.0929944999999999,
+                52.547086699999994
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes only directly adjoining mapped public green spaces: OSM way 579834484."
+    }
+  },
+  "features": [
+    {
+      "id": "historic-england:nhle:1074734",
+      "projectId": "kilby-leicestershire-england",
+      "name": "2 AND 4, MAIN STREET",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Leicestershire",
+      "locality": "Kilby",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.08943170805996,
+          52.5539919834862
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1074734",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1074734",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1074734",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1074734?section=official-list-entry",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: Early C18"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Kilby visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-11; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "Early C18",
+      "earliestPossibleYear": 1700,
+      "latestPossibleYear": 1739,
+      "datePrecision": "part century"
+    },
+    {
+      "id": "historic-england:nhle:1074735",
+      "projectId": "kilby-leicestershire-england",
+      "name": "THE BAKEHOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Leicestershire",
+      "locality": "Kilby",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.08608857401803,
+          52.5530402084017
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1074735",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1074735",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1074735",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1074735?section=official-list-entry",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: late C18 to early C19"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Kilby visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-11; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "late C18 to early C19",
+      "earliestPossibleYear": 1760,
+      "latestPossibleYear": 1839,
+      "datePrecision": "century range"
+    },
+    {
+      "id": "historic-england:nhle:1074736",
+      "projectId": "kilby-leicestershire-england",
+      "name": "LIMES FARMHOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Leicestershire",
+      "locality": "Kilby",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0885888357826,
+          52.5533831440211
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1074736",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1074736",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1074736",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1074736?section=official-list-entry",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: Late C18"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Kilby visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-11; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "Late C18",
+      "earliestPossibleYear": 1760,
+      "latestPossibleYear": 1799,
+      "datePrecision": "part century"
+    },
+    {
+      "id": "historic-england:nhle:1074737",
+      "projectId": "kilby-leicestershire-england",
+      "name": "17 AND 19, MAIN STREET",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Leicestershire",
+      "locality": "Kilby",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0882824992598,
+          52.5532189585993
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1074737",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1074737",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1074737",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1074737?section=official-list-entry",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: Early C19"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Kilby visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-11; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "Early C19",
+      "earliestPossibleYear": 1800,
+      "latestPossibleYear": 1839,
+      "datePrecision": "part century"
+    },
+    {
+      "id": "historic-england:nhle:1177174",
+      "projectId": "kilby-leicestershire-england",
+      "name": "BARN BEHIND CHURCH",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Leicestershire",
+      "locality": "Kilby",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.08881212880257,
+          52.5561358960783
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1177174",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1177174",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1177174",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1177174?section=official-list-entry",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: C16"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Kilby visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-11; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "C16",
+      "earliestPossibleYear": 1500,
+      "latestPossibleYear": 1599,
+      "datePrecision": "century"
+    },
+    {
+      "id": "historic-england:nhle:1177193",
+      "projectId": "kilby-leicestershire-england",
+      "name": "FORMER BAKEHOUSE AT NUMBER 30",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Leicestershire",
+      "locality": "Kilby",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.08697993111724,
+          52.5534426630196
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1177193",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1177193",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1177193",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1177193?section=official-list-entry",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: Early C19"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Kilby visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-11; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "Early C19",
+      "earliestPossibleYear": 1800,
+      "latestPossibleYear": 1839,
+      "datePrecision": "part century"
+    },
+    {
+      "id": "historic-england:nhle:1307535",
+      "projectId": "kilby-leicestershire-england",
+      "name": "THE DOG AND GUN PUBLIC HOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Leicestershire",
+      "locality": "Kilby",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.08625712847287,
+          52.5527358396782
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1307535",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1307535",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1307535",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1307535?section=official-list-entry",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: early C17"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Kilby visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-11; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "early C17",
+      "earliestPossibleYear": 1600,
+      "latestPossibleYear": 1639,
+      "datePrecision": "part century"
+    },
+    {
+      "id": "historic-england:nhle:1307566",
+      "projectId": "kilby-leicestershire-england",
+      "name": "SCHOOL",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Leicestershire",
+      "locality": "Kilby",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.08853808514693,
+          52.5536974137445
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1307566",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1307566",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Kilby visitor boundary. Official Historic England list-entry text checked on 2026-08-11; no defensible historic date expression was found.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1361070",
+      "projectId": "kilby-leicestershire-england",
+      "name": "CHURCH OF ST MARY MAGDALENE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Leicestershire",
+      "locality": "Kilby",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0883659223501,
+          52.555602031608
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "documented_construction",
+      "dateConfidence": "high",
+      "survival": "unknown",
+      "shortDescription": "CHURCH OF ST MARY MAGDALENE is a nationally recorded historic landmark within Kilby. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1361070",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1361070",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1361070",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1361070?section=official-list-entry",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: . 1858 by"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "service-context-visitor",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Kilby visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-11; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "attractionGuide": {
+        "headline": "church",
+        "intro": "CHURCH OF ST MARY MAGDALENE is a nationally recorded historic landmark within Kilby. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "church",
+          "Historic England designation"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See CHURCH OF ST MARY MAGDALENE"
+          }
+        ]
+      },
+      "documentedDateText": ". 1858 by",
+      "earliestPossibleYear": 1858,
+      "latestPossibleYear": 1858,
+      "datePrecision": "exact year"
+    }
+  ],
+  "sources": [
+    {
+      "id": "kilby-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Kilby settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/relation/6624638",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Kilby designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "kilby-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Kilby visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

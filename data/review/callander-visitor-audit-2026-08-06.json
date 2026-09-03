@@ -1,0 +1,111 @@
+{
+  "projectId": "callander-scotland",
+  "reviewedAt": "2026-08-06T00:00:00Z",
+  "townRating": {
+    "previous": 3,
+    "rating": 3,
+    "rationale": "Three stars are retained. Callander has a nationally credible waterfall, a high-quality crag walk, six further signed or interpreted routes, a seasonal indoor museum and a strong independent food cluster. It can sustain a full visitor day or walking weekend without relying on attractions outside the active visitor boundary."
+  },
+  "boundary": {
+    "original": "OpenStreetMap Callander place polygon way 369986773, preserved unchanged.",
+    "active": "A proper Turf union of the original OSM polygon and narrow visitor corridors to Callander Meadows, Lower Woods, Callander Crags and the Bracklinn Falls circuit.",
+    "correction": "The prior extension rings were encoded as additional Polygon rings and therefore behaved as holes. The audited boundary uses a true geometric union and validates every public marker.",
+    "rule": "Attractions, food and practical facilities must be inside the active visitor boundary. Trail cards use an in-boundary start marker; the walked route may continue beyond it."
+  },
+  "published": {
+    "attractions": [
+      {
+        "name": "Bracklinn Falls and Bridge",
+        "score": 88,
+        "featureId": "curated-attraction:callander-bracklinn-falls-and-bridge"
+      },
+      {
+        "name": "Hamilton Toy Museum and Collectors Shop",
+        "score": 78,
+        "featureId": "curated-attraction:callander-hamilton-toy-museum"
+      },
+      {
+        "name": "Ancaster Square and historic Main Street",
+        "score": 64,
+        "featureId": "curated-attraction:callander-ancaster-square-main-street"
+      },
+      {
+        "name": "Old Kirkyard, Watch House and Tom na Chisaig",
+        "score": 57,
+        "featureId": "curated-attraction:callander-old-kirkyard-tom-na-chisaig"
+      },
+      {
+        "name": "Red Bridge and River Teith",
+        "score": 52,
+        "featureId": "curated-attraction:callander-red-bridge-river-teith"
+      }
+    ],
+    "eat": [
+      "curated-food:callander-grace-restaurant",
+      "curated-food:callander-puddingstone-place",
+      "curated-food:callander-deli-ecosse",
+      "curated-food:callander-pips-coffee-house",
+      "curated-food:callander-atrium-cafe",
+      "curated-food:callander-waverley-hotel",
+      "curated-food:callander-riverside-inn",
+      "curated-food:callander-ben-ledi-coffee-company"
+    ],
+    "trails": [
+      "curated-attraction:callander-bracklinn-falls-circuit",
+      "curated-attraction:callander-callander-crags",
+      "curated-attraction:callander-callander-heritage-trail",
+      "curated-attraction:callander-callander-meadows",
+      "curated-attraction:callander-three-bridges-walk",
+      "curated-attraction:callander-lower-woods",
+      "curated-trail:callander-glacier-trail"
+    ],
+    "parking": [
+      "curated-parking:callander-station-road",
+      "curated-parking:callander-riverside-meadows",
+      "curated-parking:callander-north-ancaster-square",
+      "curated-parking:callander-glenartney-road",
+      "curated-parking:callander-bracklinn-falls"
+    ],
+    "toilets": [
+      "curated-toilets:callander-station-road-car-park",
+      "curated-toilets:callander-mclaren-leisure-centre",
+      "curated-toilets:callander-library"
+    ],
+    "picnic": [
+      "osm-community:node-8373012594"
+    ]
+  },
+  "excluded": [
+    {
+      "name": "Duplicate Riverside Car Park record",
+      "reason": "The current council dataset publishes one Riverside - The Meadows Car Park. The older second Riverside record was removed from public curation."
+    },
+    {
+      "name": "Tesco and other customer-only, private or unnamed parking",
+      "reason": "Only named public council or National Park visitor car parks are published."
+    },
+    {
+      "name": "Mhor Bread tearoom",
+      "reason": "The visitor directory states that the tearoom is closed until further notice. The bakery remains useful but was not ranked as a sit-in Eat card."
+    },
+    {
+      "name": "Kilmahog picnic table and attractions farther into the Trossachs",
+      "reason": "Outside Callander's active visitor boundary. Only the accurately mapped bench on the Bracklinn circuit is published as a Callander picnic stop."
+    }
+  ],
+  "practicalCorrections": {
+    "parking": "Current Stirling Council tariff is £2.60 for two hours, £3.10 for four hours and £4.10 all day. Glenartney Road and North Ancaster Square are free. Bracklinn Falls is mapped as free.",
+    "toilets": "Station Road is the council public toilet, open daily 08:00-19:00 with disabled access and baby changing. Library and leisure-centre facilities are explicitly labelled as available only during building hours."
+  },
+  "sourceUrls": [
+    "https://www.lochlomond-trossachs.org/discover-the-park/towns-villages/callander/",
+    "https://www.lochlomond-trossachs.org/things-to-do/walking/short-moderate-walks/bracklinn-falls-circuit/",
+    "https://www.lochlomond-trossachs.org/things-to-do/walking/hillwalking/callander-crags/",
+    "https://www.lochlomond-trossachs.org/discover-the-park/our-heritage-culture/heritage-walks/callander-heritage-trail/",
+    "https://thehamiltontoycollection.co.uk/",
+    "https://www.visitcallander.uk/cafes-coffee-shops",
+    "https://www.visitcallander.uk/restaurants",
+    "https://www.stirling.gov.uk/roads-transport-and-parking/parking-and-permits/parking-in-stirling/",
+    "https://www.stirling.gov.uk/community-life-and-leisure/public-toilets/list-of-the-public-toilets-in-stirling/callander-station-square/"
+  ]
+}

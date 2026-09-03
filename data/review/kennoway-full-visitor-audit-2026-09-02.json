@@ -1,0 +1,147 @@
+{
+  "reviewedAt": "2026-09-02T22:00:00.000Z",
+  "sequence": 9,
+  "sequenceTotal": 15,
+  "projectId": "kennoway-scotland",
+  "place": "Kennoway",
+  "townScore": 72,
+  "mapPublished": true,
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 1
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "reason": "No normal current café/coffee-and-cake stop was verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 2,
+      "providerChecks": {
+        "TreasureTrails": "No live place-specific product in the current Fife collection.",
+        "CuriousAbout": "Current provider catalogue checked; no exact place-specific route.",
+        "MysteryGuides": "Current provider catalogue checked; no exact place-specific route.",
+        "GoQuestAdventures": "Current provider catalogue checked; no exact place-specific route.",
+        "officialRoutes": "Kennoway Den/Maiden Castle walk and Fife Pilgrim Way pages verified."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "reason": "The den is suitable for an informal stop, but no dedicated tables were verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 2
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "reason": "No public toilet was verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessibility is stated only where a current source supports it; no blanket accessible claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road, bus and rail context was checked; transport does not add destination points by itself."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": 0
+    }
+  },
+  "exclusions": [
+    "Bonnybank Inn and other full restaurants do not qualify for the café-led Eat category.",
+    "The restricted community-use café is not presented as an ordinary daytime visitor café.",
+    "Leven and wider Levenmouth attractions are not transferred."
+  ],
+  "hes": {
+    "assigned": 22,
+    "visibleDated": 18,
+    "visibleUndated": 0,
+    "missing": 0
+  },
+  "heritage": {
+    "source": "Downloaded local HES listed-building, scheduled-monument and NRHE datasets",
+    "assigned": 40,
+    "local": 37,
+    "visibleDated": 36,
+    "hiddenUndatedOrNonlocal": 4,
+    "visibleUndated": 0,
+    "visibleLabelsContainingDates": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Kennoway's strict study area count toward the settlement score. Related attractions and cross-boundary routes may appear in See or Trails only when explicitly marked related_context and do not inflate the town.",
+  "scoreRationale": "Kennoway is a credible day-walk stop through its 48-acre den, Maiden Castle viewpoint, historic Causeway, Fife Pilgrim Way connection and two council-listed car parks. The normal tourist café search was negative, so restricted community catering and full restaurants do not pad the score.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 72,
+    "rationale": "Score independently reconciled after all categories, named-provider searches, boundary exclusions and practical checks; no provisional exact-58 town score remains."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.fife.gov.uk/facilities/park/kennoway-den",
+        "outcome": "verified",
+        "note": "Council confirms area, history and features of the den.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://fifewalking.com/find-a-walk/central-fife-walks/kennoway-den-and-maiden-castle/",
+        "outcome": "verified",
+        "note": "Current local walk page verified.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://fifewalking.com/find-a-walk/central-fife-walks/fife-pilgrim-way/",
+        "outcome": "verified",
+        "note": "Current route guide confirms Kennoway and parking context.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.fife.gov.uk/roads-travel-parking/parking-and-car-parks/car-park-list",
+        "outcome": "verified",
+        "note": "Council lists both Kennoway car parks.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.fife.gov.uk/facilities/community-use-school/kennoway-primary-school-community-use",
+        "outcome": "excluded",
+        "note": "Small café has restricted community-use opening and is not represented as a normal tourist café.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No Kennoway product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "liveBrowserVerifiedAt": "2026-09-02T18:54:48.715Z"
+  },
+  "liveVerification": {
+    "url": "http://127.0.0.1:5173/",
+    "verifiedAt": "2026-09-02T18:54:48.715Z",
+    "checks": [
+      "The Fife region selector rendered the settlement name and completed score.",
+      "See, Eat, Trails, Picnic, Parking and Toilets counts matched the saved audit report.",
+      "Every one of the 17 requested entries was selected and checked in sequence.",
+      "Only settlements scoring 60 or more are included in the Home town-map dataset.",
+      "The historic heat layer rendered the dated local HES/NRHE records as dots without date text appended to map labels.",
+      "No browser console warning or error was reported in the clean verification tab."
+    ]
+  }
+}

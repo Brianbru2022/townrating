@@ -1,0 +1,114 @@
+{
+  "projectId": "livingston-scotland",
+  "reviewedAt": "2026-08-07T00:00:00Z",
+  "townRating": {
+    "previous": 1,
+    "rating": 1,
+    "rationale": "One star is retained. Almond Valley, outlet shopping, public art, the listed skatepark, parks and Livingston Village provide a worthwhile specialist visit, but the offer is dispersed and does not make Livingston a coherent destination town."
+  },
+  "boundary": {
+    "active": "Original NRS 2022 Livingston locality, unchanged and including Livingston Village.",
+    "rule": "Every public town-planner marker is a point inside the active locality polygon."
+  },
+  "published": {
+    "attractions": [
+      {
+        "name": "Almond Valley Heritage Centre",
+        "score": 86,
+        "featureId": "osm-community:way-244075641"
+      },
+      {
+        "name": "Livingston Designer Outlet",
+        "score": 81,
+        "featureId": "visitor-context:livingston-designer-outlet"
+      },
+      {
+        "name": "Almondvale Park and Livingston Public Art",
+        "score": 78,
+        "featureId": "visitor-context:livingston-almondvale-public-art"
+      },
+      {
+        "name": "Livingston 'Livi' Skatepark",
+        "score": 72,
+        "featureId": "hes-listed-building:LB52626"
+      },
+      {
+        "name": "Livingston Village historic core",
+        "score": 66,
+        "featureId": "visitor-context:livingston-village-historic-core"
+      },
+      {
+        "name": "The Wee Museum of Memory",
+        "score": 64,
+        "featureId": "osm-community:node-10090364864"
+      },
+      {
+        "name": "Eliburn Park and Reservoir",
+        "score": 62,
+        "featureId": "visitor-context:livingston-eliburn-park"
+      }
+    ],
+    "eat": [
+      "hes-listed-building:LB7413",
+      "curated-food:livingston-cafebar-1962",
+      "osm-community:node-7147338914",
+      "curated-food:livingston-kitchen-reconnect",
+      "osm-community:way-214810944"
+    ],
+    "trails": [
+      "visitor-context:livingston-public-art-walk",
+      "visitor-context:livingston-howden-heritage-walk",
+      "visitor-context:livingston-murieston-trail"
+    ],
+    "picnic": [
+      "osm-community:node-943038192",
+      "osm-community:node-9162440017"
+    ],
+    "parking": [
+      "osm-community:way-176819736",
+      "osm-community:way-44000111",
+      "osm-community:way-543190593"
+    ],
+    "toilets": [
+      "osm-community:node-251319369",
+      "osm-community:node-2280121671",
+      "osm-community:node-2466788799",
+      "visitor-context:livingston-designer-outlet-toilets",
+      "visitor-context:livingston-centre-toilets"
+    ]
+  },
+  "excluded": [
+    {
+      "name": "Five Sisters Zoo, Almondell and Calderwood Country Park, Jupiter Artland and Dechmont Law summit",
+      "reason": "These are valid wider-area attractions or walks but lie outside the active Livingston locality and do not count in the town planner or rating."
+    },
+    {
+      "name": "Scottish Shale Oil Museum as a separate attraction",
+      "reason": "The museum is included within the Almond Valley visit and was removed as a duplicate ranked place."
+    },
+    {
+      "name": "Raw mall toilet and parking nodes",
+      "reason": "Consolidated into named destination-level records so the public planner does not expose duplicate or anonymous OSM points."
+    }
+  ],
+  "practicalCorrections": {
+    "parking": "Three genuinely public visitor car parks are named and marked free or paid. Customer-only Almond Valley and Howden Park Centre parking remain in the evidence but are excluded from the public parking category.",
+    "toilets": "Five location-led facilities replace generic and duplicate OSM toilet names.",
+    "picnic": "Individual table nodes are consolidated into Eliburn Reservoir and Howden Park areas."
+  },
+  "artwork": {
+    "path": "/town-guides/livingston-river-almond-watercolour-guide.png",
+    "method": "Generated as a text-free editorial ink-and-watercolour guide illustration in the established Townscape Guides style."
+  },
+  "sourceUrls": [
+    "https://www.visitwestlothian.co.uk/explore/livingston/",
+    "https://www.almondvalley.co.uk/plan-your-visit/prices-and-times/",
+    "https://livingston-designer-outlet.co.uk/plan-your-visit-to-livingston",
+    "https://www.westlothian.gov.uk/almondvalepark",
+    "https://www.westlothian.gov.uk/media/5349/Livingston-Public-Art-Walk-Map/pdf/Livingston_Public_Art_Walk_Map.pdf",
+    "https://portal.historicenvironment.scot/designation/LB52626",
+    "https://www.livingmemory.org.uk/westLothian.php",
+    "https://www.westlothian.gov.uk/article/34238/Eliburn-Park",
+    "https://www.westlothian.gov.uk/toilets"
+  ]
+}

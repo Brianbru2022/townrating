@@ -1,0 +1,661 @@
+{
+  "project": {
+    "id": "neenton-shropshire-england",
+    "name": "Neenton Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Shropshire",
+    "locality": "Neenton",
+    "centre": [
+      -2.5344653,
+      52.4868767
+    ],
+    "boundary": {
+      "type": "Feature",
+      "bbox": [
+        -2.5404652999999997,
+        52.4823767,
+        -2.5284653,
+        52.4913767
+      ],
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Neenton",
+        "osmType": "node",
+        "osmId": 29748467,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.5404652999999997,
+              52.4823767
+            ],
+            [
+              -2.5284653,
+              52.4823767
+            ],
+            [
+              -2.5284653,
+              52.4913767
+            ],
+            [
+              -2.5404652999999997,
+              52.4913767
+            ],
+            [
+              -2.5404652999999997,
+              52.4823767
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-12T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-12. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 0 directly adjoining public green-space geometries were included in the active visitor boundary. Historic England official list-entry date enrichment reviewed 2026-08-12: 0 of 6 statutory records now carry defensible date evidence; uncaptured or unresolved entries are retained as unknown and listed in the county audit.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Neenton has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Neenton",
+      "intro": "Neenton has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "Church of All Saints, Neenton",
+        "summary": "Start with Church of All Saints, Neenton, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "Church of All Saints, Neenton"
+      ],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/29748467",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-12"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "historic-england:nhle:1449487",
+        "name": "Church of All Saints, Neenton",
+        "reason": "Church of All Saints, Neenton is a nationally recorded historic landmark within Neenton. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "church",
+        "visitorScore": 52,
+        "timeToSpend": "Allow 20-45 minutes",
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "church",
+          "intro": "Church of All Saints, Neenton is a nationally recorded historic landmark within Neenton. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "church",
+            "Historic England designation"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See Church of All Saints, Neenton"
+            }
+          ]
+        },
+        "sourceName": "National Heritage List for England",
+        "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1449487",
+        "verifiedInBoundaryAt": "2026-08-12"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Neenton",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/29748467",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-12",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.5404652999999997,
+          52.4823767,
+          -2.5284653,
+          52.4913767
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Neenton",
+          "osmType": "node",
+          "osmId": 29748467,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.5404652999999997,
+                52.4823767
+              ],
+              [
+                -2.5284653,
+                52.4823767
+              ],
+              [
+                -2.5284653,
+                52.4913767
+              ],
+              [
+                -2.5404652999999997,
+                52.4913767
+              ],
+              [
+                -2.5404652999999997,
+                52.4823767
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.5404652999999997,
+          52.4823767,
+          -2.5284653,
+          52.4913767
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Neenton",
+          "osmType": "node",
+          "osmId": 29748467,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.5404652999999997,
+                52.4823767
+              ],
+              [
+                -2.5284653,
+                52.4823767
+              ],
+              [
+                -2.5284653,
+                52.4913767
+              ],
+              [
+                -2.5404652999999997,
+                52.4913767
+              ],
+              [
+                -2.5404652999999997,
+                52.4823767
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.5404652999999997,
+          52.4823767,
+          -2.5284653,
+          52.4913767
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Neenton",
+          "osmType": "node",
+          "osmId": 29748467,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.5404652999999997,
+                52.4823767
+              ],
+              [
+                -2.5284653,
+                52.4823767
+              ],
+              [
+                -2.5284653,
+                52.4913767
+              ],
+              [
+                -2.5404652999999997,
+                52.4913767
+              ],
+              [
+                -2.5404652999999997,
+                52.4823767
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes only directly adjoining mapped public green spaces: none."
+    }
+  },
+  "features": [
+    {
+      "id": "historic-england:nhle:1053803",
+      "projectId": "neenton-shropshire-england",
+      "name": "Churchyard Farmhouse, formerly listed as Church Farm House",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Neenton",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II*",
+      "significance": "national",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.53582375840156,
+          52.4859542428369
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II*.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1053803",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1053803",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Neenton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1053804",
+      "projectId": "neenton-shropshire-england",
+      "name": "BROOK COTTAGE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Neenton",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.53303555023572,
+          52.489194304013
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1053804",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1053804",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Neenton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1189409",
+      "projectId": "neenton-shropshire-england",
+      "name": "HALL FARM HOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Neenton",
+      "featureType": "country_house",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.53497956168285,
+          52.4879808535241
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1189409",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1189409",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Neenton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1189426",
+      "projectId": "neenton-shropshire-england",
+      "name": "BANK FARM HOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Neenton",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.53114448859986,
+          52.4899220204722
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1189426",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1189426",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Neenton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1261362",
+      "projectId": "neenton-shropshire-england",
+      "name": "BARN IMMEDIATELY NORTH EAST OF NEWHOUSE FARMHOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Neenton",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.53292393412879,
+          52.4897072414295
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1261362",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1261362",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Neenton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1449487",
+      "projectId": "neenton-shropshire-england",
+      "name": "Church of All Saints, Neenton",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Neenton",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.53571164076073,
+          52.4862775528634
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "Church of All Saints, Neenton is a nationally recorded historic landmark within Neenton. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1449487",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1449487",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Neenton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "attractionGuide": {
+        "headline": "church",
+        "intro": "Church of All Saints, Neenton is a nationally recorded historic landmark within Neenton. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "church",
+          "Historic England designation"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See Church of All Saints, Neenton"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "neenton-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Neenton settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/29748467",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Neenton designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "neenton-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Neenton visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

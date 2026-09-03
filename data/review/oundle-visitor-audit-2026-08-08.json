@@ -1,0 +1,55 @@
+{
+  "projectId": "oundle-england",
+  "reviewedAt": "2026-08-08T00:00:00Z",
+  "boundary": {
+    "source": "ONS Built-up Areas (December 2024)",
+    "localityCode": "E63009999",
+    "visitorExtensions": []
+  },
+  "counts": {
+    "historicEnglandRecords": 170,
+    "attractions": 8,
+    "food": 9,
+    "trails": 2,
+    "parking": 4,
+    "toilets": 2,
+    "picnic": 0
+  },
+  "touristAppeal": {
+    "rating": 2,
+    "label": "Worth a planned stop",
+    "summary": "Oundle earns two stars for an unusually coherent limestone townscape, a landmark medieval church, a compact museum, excellent self-guided heritage walking and a strong cluster of daytime cafés. It rewards a planned half-day but lacks the heavyweight single attraction needed for a destination-draw rating."
+  },
+  "validation": {
+    "allPublicMarkersInsideActiveBoundary": true,
+    "customerOnlyParkingExcluded": true,
+    "practicalPlacesNamedByLocation": true,
+    "duplicatePicnicNodesGrouped": true,
+    "unknownHistoricDatesNotInvented": true,
+    "treasureTrailsChecked": true
+  },
+  "excludedNearbyPlaces": [
+    {
+      "name": "Barnwell Country Park and Kingfisher Cafe",
+      "reason": "South of the unchanged ONS Oundle built-up-area boundary."
+    },
+    {
+      "name": "Oundle Treasure Trail",
+      "reason": "Exact town match found, but the official route starts at Barnwell Country Park outside the active boundary and is therefore not counted in the strict town planner.",
+      "sourceUrl": "https://www.treasuretrails.co.uk/products/things-to-do-oundle-northants"
+    },
+    {
+      "name": "Boxwood Cafe",
+      "reason": "Outside the active Oundle boundary."
+    },
+    {
+      "name": "Oundle Recreation Ground picnic tables",
+      "reason": "The two adjacent OSM picnic-table nodes form one real facility, but both sit outside the unchanged ONS boundary and are excluded."
+    }
+  ],
+  "notes": [
+    "The ONS statistical boundary is retained unchanged as the active visitor boundary.",
+    "NHLE designation dates are not treated as construction dates; official list-entry text enrichment follows this creation step.",
+    "Opening times, prices, exhibitions and access policies should be rechecked before a special journey."
+  ]
+}

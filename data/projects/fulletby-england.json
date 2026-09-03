@@ -1,0 +1,558 @@
+{
+  "project": {
+    "id": "fulletby-england",
+    "name": "Fulletby Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Lincolnshire",
+    "locality": "Fulletby",
+    "centre": [
+      -0.0558112,
+      53.2412151
+    ],
+    "boundary": {
+      "type": "Feature",
+      "bbox": [
+        -0.0628112,
+        53.236215099999995,
+        -0.0488112,
+        53.2462151
+      ],
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Fulletby",
+        "osmType": "node",
+        "osmId": 29282066,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.0628112,
+              53.236215099999995
+            ],
+            [
+              -0.0488112,
+              53.236215099999995
+            ],
+            [
+              -0.0488112,
+              53.2462151
+            ],
+            [
+              -0.0628112,
+              53.2462151
+            ],
+            [
+              -0.0628112,
+              53.236215099999995
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-10T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-10. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 0 directly adjoining public green-space geometries were included in the active visitor boundary.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Fulletby has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Fulletby",
+      "intro": "Fulletby has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "CHURCH OF ST ANDREW",
+        "summary": "Start with CHURCH OF ST ANDREW and Saint Andrew's Church, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "CHURCH OF ST ANDREW",
+        "Saint Andrew's Church"
+      ],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/29282066",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-10"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "historic-england:nhle:1063663",
+        "name": "CHURCH OF ST ANDREW",
+        "reason": "CHURCH OF ST ANDREW is a nationally recorded historic landmark within Fulletby. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "church",
+        "visitorScore": 52,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "church",
+          "intro": "CHURCH OF ST ANDREW is a nationally recorded historic landmark within Fulletby. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "church",
+            "Historic England designation"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See CHURCH OF ST ANDREW"
+            }
+          ]
+        },
+        "sourceName": "National Heritage List for England",
+        "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1063663",
+        "verifiedInBoundaryAt": "2026-08-10"
+      },
+      {
+        "rank": 2,
+        "featureId": "osm-community:way-211301914",
+        "name": "Saint Andrew's Church",
+        "reason": "Saint Andrew's Church is a curated place of worship within the active Fulletby visitor boundary.",
+        "tagline": "place of worship",
+        "visitorScore": 52,
+        "freeAdmission": false,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "place of worship",
+          "intro": "Saint Andrew's Church is a curated place of worship within the active Fulletby visitor boundary.",
+          "motifs": [
+            "place of worship",
+            "Fulletby"
+          ],
+          "bestFor": [
+            "Local heritage"
+          ],
+          "thingsToDo": [
+            {
+              "name": "Explore Saint Andrew's Church"
+            },
+            {
+              "name": "Notice its place of worship character"
+            }
+          ]
+        },
+        "sourceName": "OpenStreetMap current community places",
+        "sourceUrl": "https://www.openstreetmap.org/way/211301914",
+        "verifiedInBoundaryAt": "2026-08-10"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Fulletby",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/29282066",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-10",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -0.0628112,
+          53.236215099999995,
+          -0.0488112,
+          53.2462151
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Fulletby",
+          "osmType": "node",
+          "osmId": 29282066,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.0628112,
+                53.236215099999995
+              ],
+              [
+                -0.0488112,
+                53.236215099999995
+              ],
+              [
+                -0.0488112,
+                53.2462151
+              ],
+              [
+                -0.0628112,
+                53.2462151
+              ],
+              [
+                -0.0628112,
+                53.236215099999995
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -0.0628112,
+          53.236215099999995,
+          -0.0488112,
+          53.2462151
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Fulletby",
+          "osmType": "node",
+          "osmId": 29282066,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.0628112,
+                53.236215099999995
+              ],
+              [
+                -0.0488112,
+                53.236215099999995
+              ],
+              [
+                -0.0488112,
+                53.2462151
+              ],
+              [
+                -0.0628112,
+                53.2462151
+              ],
+              [
+                -0.0628112,
+                53.236215099999995
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -0.0628112,
+          53.236215099999995,
+          -0.0488112,
+          53.2462151
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Fulletby",
+          "osmType": "node",
+          "osmId": 29282066,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.0628112,
+                53.236215099999995
+              ],
+              [
+                -0.0488112,
+                53.236215099999995
+              ],
+              [
+                -0.0488112,
+                53.2462151
+              ],
+              [
+                -0.0628112,
+                53.2462151
+              ],
+              [
+                -0.0628112,
+                53.236215099999995
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes only directly adjoining mapped public green spaces: none."
+    }
+  },
+  "features": [
+    {
+      "id": "historic-england:nhle:1063663",
+      "projectId": "fulletby-england",
+      "name": "CHURCH OF ST ANDREW",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Fulletby",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0560441251167586,
+          53.241702508487
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "CHURCH OF ST ANDREW is a nationally recorded historic landmark within Fulletby. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1063663",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1063663",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Fulletby visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "attractionGuide": {
+        "headline": "church",
+        "intro": "CHURCH OF ST ANDREW is a nationally recorded historic landmark within Fulletby. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "church",
+          "Historic England designation"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See CHURCH OF ST ANDREW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "historic-england:nhle:1359690",
+      "projectId": "fulletby-england",
+      "name": "LIZZIE'S HOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Fulletby",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0558846013790899,
+          53.2419156707109
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1359690",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1359690",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Fulletby visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "osm-community:way-211301914",
+      "projectId": "fulletby-england",
+      "name": "Saint Andrew's Church",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Fulletby",
+      "featureType": "place_of_worship",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0560998,
+          53.2416683
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Saint Andrew's Church is a curated place of worship within the active Fulletby visitor boundary.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/211301914",
+          "sourceUrl": "https://www.openstreetmap.org/way/211301914",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "amenity=place_of_worship; building=church; denomination=anglican; listed_status=Grade II; name=Saint Andrew's Church; religion=christian; source=Bing; start_date=C14; wikidata=Q26316969; visit_score=52"
+        }
+      ],
+      "tags": [
+        "service-context-visitor",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-10.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "attractionGuide": {
+        "headline": "place of worship",
+        "intro": "Saint Andrew's Church is a curated place of worship within the active Fulletby visitor boundary.",
+        "motifs": [
+          "place of worship",
+          "Fulletby"
+        ],
+        "bestFor": [
+          "Local heritage"
+        ],
+        "thingsToDo": [
+          {
+            "name": "Explore Saint Andrew's Church"
+          },
+          {
+            "name": "Notice its place of worship character"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "fulletby-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Fulletby settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/29282066",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Fulletby designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "fulletby-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Fulletby visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

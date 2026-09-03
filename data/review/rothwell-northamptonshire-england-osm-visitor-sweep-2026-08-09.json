@@ -1,0 +1,1427 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T11:17:48.270Z",
+  "boundaryRule": "Exact active project boundary; no nearby places are counted.",
+  "curationRule": "OSM is discovery evidence. See and Eat require names; private, permit-only, customer-only, inactive and no-access places are excluded. Publication still requires editorial review.",
+  "towns": [
+    {
+      "projectId": "rothwell-northamptonshire-england",
+      "locality": "Rothwell",
+      "projectFile": "rothwell-northamptonshire-england.json",
+      "counts": {
+        "see": {
+          "osm": 4,
+          "eligible": 1,
+          "curated": 0,
+          "uncurated": 1
+        },
+        "eat": {
+          "osm": 25,
+          "eligible": 23,
+          "curated": 6,
+          "uncurated": 18
+        },
+        "picnic": {
+          "osm": 0,
+          "eligible": 0,
+          "curated": 0,
+          "uncurated": 0
+        },
+        "parking": {
+          "osm": 37,
+          "eligible": 21,
+          "curated": 3,
+          "uncurated": 18
+        },
+        "toilets": {
+          "osm": 0,
+          "eligible": 0,
+          "curated": 0,
+          "uncurated": 0
+        }
+      },
+      "candidates": {
+        "see": [
+          {
+            "osmId": "way/1185685714",
+            "name": "Rothwell Arts and Heritage centre",
+            "coordinates": [
+              -0.8015766,
+              52.4230501
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-1185685714",
+            "curated": false,
+            "tags": {
+              "amenity_1": "cafe",
+              "building": "public",
+              "building:levels": "2",
+              "fee": "no",
+              "name": "Rothwell Arts and Heritage centre",
+              "opening_hours": "Mo-Th 10:00-15:00; Fr,Sa 10:00-12:30",
+              "roof:levels": "0",
+              "roof:shape": "gabled",
+              "tourism": "museum",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1185685714"
+          },
+          {
+            "osmId": "node/2620009320",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.8029468,
+              52.4219533
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "description": "War Memorial",
+              "historic": "monument"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2620009320"
+          },
+          {
+            "osmId": "way/1264801599",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.8003125,
+              52.4219323
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "garden:type": "private",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1264801599"
+          },
+          {
+            "osmId": "way/1264801600",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.8002083,
+              52.4215131
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "garden:type": "vegetable_garden",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1264801600"
+          }
+        ],
+        "eat": [
+          {
+            "osmId": "node/8616863016",
+            "name": "9th Kitchen",
+            "coordinates": [
+              -0.7997167,
+              52.4228337
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "21",
+              "addr:postcode": "NN14 6BW",
+              "addr:street": "Market Hill",
+              "addr:town": "Rothwell",
+              "amenity": "fast_food",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "937462",
+              "fhrs:local_authority_id": "20930",
+              "name": "9th Kitchen",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/8616863016"
+          },
+          {
+            "osmId": "node/4579791931",
+            "name": "Bewiched",
+            "coordinates": [
+              -0.8003435,
+              52.4230295
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4579791931",
+            "curated": true,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "4",
+              "addr:postcode": "NN14 6EP",
+              "addr:street": "Market Hill",
+              "addr:town": "Rothwell",
+              "amenity": "cafe",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "979817",
+              "fhrs:local_authority_id": "21184",
+              "name": "Bewiched",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4579791931"
+          },
+          {
+            "osmId": "node/678290896",
+            "name": "Danny's Pizza Burgers & Kebabs",
+            "coordinates": [
+              -0.7986016,
+              52.4230234
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "7",
+              "addr:postcode": "NN14 6ET",
+              "addr:street": "Bell Hill",
+              "addr:town": "Rothwell",
+              "amenity": "fast_food",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1257054",
+              "fhrs:local_authority_id": "22854",
+              "name": "Danny's Pizza Burgers & Kebabs",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/678290896"
+          },
+          {
+            "osmId": "node/4579791927",
+            "name": "Istanbul BBQ",
+            "coordinates": [
+              -0.8022561,
+              52.4230226
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "10",
+              "addr:postcode": "NN14 6EW",
+              "addr:street": "Bridge Street",
+              "addr:town": "Rothwell",
+              "amenity": "fast_food",
+              "cuisine": "kebab",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1771603",
+              "fhrs:local_authority_id": "25495",
+              "indoor_seating": "no",
+              "name": "Istanbul BBQ",
+              "outdoor_seating": "no",
+              "takeaway": "only",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4579791927"
+          },
+          {
+            "osmId": "node/9025908172",
+            "name": "Italian Market Kitchen",
+            "coordinates": [
+              -0.7996435,
+              52.4226703
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "24",
+              "addr:postcode": "NN14 6BW",
+              "addr:street": "Market Hill",
+              "addr:town": "Rothwell",
+              "amenity": "restaurant",
+              "name": "Italian Market Kitchen"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/9025908172"
+          },
+          {
+            "osmId": "node/678290895",
+            "name": "Jess's",
+            "coordinates": [
+              -0.7992145,
+              52.4228656
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "16",
+              "addr:postcode": "NN14 6BW",
+              "addr:street": "Market Hill",
+              "addr:town": "Rothwell",
+              "amenity": "fast_food",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1828190",
+              "fhrs:local_authority_id": "25694",
+              "name": "Jess's"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/678290895"
+          },
+          {
+            "osmId": "node/4579791936",
+            "name": "Ken Sing",
+            "coordinates": [
+              -0.8036676,
+              52.4214973
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "7",
+              "addr:postcode": "NN14 6AD",
+              "addr:street": "High Street",
+              "addr:town": "Rothwell",
+              "amenity": "restaurant",
+              "check_date": "2024-09-02",
+              "cuisine": "chinese",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "74887",
+              "fhrs:local_authority_id": "17364",
+              "indoor_seating": "no",
+              "name": "Ken Sing",
+              "outdoor_seating": "no",
+              "takeaway": "only",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4579791936"
+          },
+          {
+            "osmId": "node/678290888",
+            "name": "Olivers",
+            "coordinates": [
+              -0.8002313,
+              52.4230327
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-678290888",
+            "curated": true,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "6",
+              "addr:postcode": "NN14 6EP",
+              "addr:street": "Market Hill",
+              "addr:town": "Rothwell",
+              "amenity": "cafe",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1635726",
+              "fhrs:local_authority_id": "24903",
+              "name": "Olivers",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/678290888"
+          },
+          {
+            "osmId": "way/254334369",
+            "name": "Rothwell Conservative Club",
+            "coordinates": [
+              -0.8000499,
+              52.4231812
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housename": "Conservative Club",
+              "addr:postcode": "NN14 6EP",
+              "addr:street": "Market Hill",
+              "addr:town": "Rothwell",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "71722",
+              "fhrs:local_authority_id": "163",
+              "name": "Rothwell Conservative Club",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/254334369"
+          },
+          {
+            "osmId": "node/678290907",
+            "name": "Rothwell Hotel & Restaurant",
+            "coordinates": [
+              -0.8017885,
+              52.4231937
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "12a",
+              "addr:postcode": "NN14 6JW",
+              "addr:street": "Bridge Street",
+              "addr:town": "Rothwell",
+              "amenity": "restaurant",
+              "email": "reservations@therothwellhousehotel.co.uk",
+              "fax": "+44 1536 711666",
+              "fhrs:id": "1363195",
+              "fhrs:local_authority_id": "23487",
+              "indoor_seating": "yes",
+              "internet_access": "wlan",
+              "internet_access:fee": "no",
+              "name": "Rothwell Hotel & Restaurant",
+              "outdoor_seating": "yes",
+              "phone": "+44 1536 713000",
+              "tourism": "hotel",
+              "website": "http://www.therothwellhousehotel.co.uk"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/678290907"
+          },
+          {
+            "osmId": "node/678290890",
+            "name": "Rothwell Town Friar",
+            "coordinates": [
+              -0.8033275,
+              52.4222597
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "19",
+              "addr:postcode": "NN14 6AD",
+              "addr:street": "High Street",
+              "addr:town": "Rothwell",
+              "amenity": "fast_food",
+              "check_date": "2024-09-02",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1744588",
+              "fhrs:local_authority_id": "25358",
+              "indoor_seating": "no",
+              "name": "Rothwell Town Friar",
+              "outdoor_seating": "no",
+              "source:addr:postcode": "FSA Food Hygiene Ratings Database",
+              "takeaway": "only",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/678290890"
+          },
+          {
+            "osmId": "way/254479886",
+            "name": "Rowell Charter Inn",
+            "coordinates": [
+              -0.8035388,
+              52.4217959
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "1",
+              "addr:postcode": "NN14 6AB",
+              "addr:street": "Sun Hill",
+              "addr:town": "Rothwell",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1839684",
+              "fhrs:local_authority_id": "25721",
+              "name": "Rowell Charter Inn",
+              "wheelchair": "no",
+              "wikidata": "Q26577082"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/254479886"
+          },
+          {
+            "osmId": "node/678290885",
+            "name": "Taste of India",
+            "coordinates": [
+              -0.8018136,
+              52.4228933
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "13",
+              "addr:postcode": "NN14 6JW",
+              "addr:street": "Bridge Street",
+              "addr:town": "Rothwell",
+              "amenity": "restaurant",
+              "check_date": "2024-09-02",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "446101",
+              "fhrs:local_authority_id": "18494",
+              "indoor_seating": "yes",
+              "name": "Taste of India",
+              "outdoor_seating": "no",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/678290885"
+          },
+          {
+            "osmId": "node/4579791930",
+            "name": "Thai Garden Cuisine",
+            "coordinates": [
+              -0.8004285,
+              52.4230313
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "3",
+              "addr:postcode": "NN14 6EP",
+              "addr:street": "Market Hill",
+              "addr:town": "Rothwell",
+              "amenity": "fast_food",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1801024",
+              "fhrs:local_authority_id": "25613",
+              "name": "Thai Garden Cuisine",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4579791930"
+          },
+          {
+            "osmId": "node/2482973769",
+            "name": "The Blue Bell",
+            "coordinates": [
+              -0.7982952,
+              52.4228727
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:postcode": "NN14 6BP",
+              "addr:street": "Bell Hill",
+              "addr:town": "Rothwell",
+              "amenity": "pub",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1860713",
+              "fhrs:local_authority_id": "25823",
+              "internet_access": "no",
+              "name": "The Blue Bell",
+              "smoking": "no",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2482973769"
+          },
+          {
+            "osmId": "way/255614705",
+            "name": "The Old Bank",
+            "coordinates": [
+              -0.8032979,
+              52.4230646
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "36",
+              "addr:postcode": "NN14 6BQ",
+              "addr:street": "High Street",
+              "addr:town": "Rothwell",
+              "amenity": "restaurant",
+              "building": "yes",
+              "check_date": "2024-09-02",
+              "cuisine": "turkish",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "552329",
+              "fhrs:local_authority_id": "18465",
+              "indoor_seating": "yes",
+              "name": "The Old Bank",
+              "outdoor_seating": "yes",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/255614705"
+          },
+          {
+            "osmId": "node/678290897",
+            "name": "The Red Lion",
+            "coordinates": [
+              -0.8009691,
+              52.4228328
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "23",
+              "addr:postcode": "NN14 6BW",
+              "addr:street": "Market Hill",
+              "addr:town": "Rothwell",
+              "amenity": "pub",
+              "check_date": "2024-09-02",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "696156",
+              "fhrs:local_authority_id": "19480",
+              "name": "The Red Lion",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/678290897"
+          },
+          {
+            "osmId": "node/678290892",
+            "name": "The T Room",
+            "coordinates": [
+              -0.803083,
+              52.4226148
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-678290892",
+            "curated": true,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "26",
+              "addr:postcode": "NN14 6BQ",
+              "addr:street": "High Street",
+              "addr:town": "Rothwell",
+              "amenity": "cafe",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1672967",
+              "fhrs:local_authority_id": "25065",
+              "name": "The T Room",
+              "opening_hours": "Tu-Sa 09:00-15:00",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/678290892"
+          },
+          {
+            "osmId": "node/9026506408",
+            "name": "The Tea Room",
+            "coordinates": [
+              -0.8016344,
+              52.4230173
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-9026506408",
+            "curated": true,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "14",
+              "addr:postcode": "NN14 6JW",
+              "addr:street": "Bridge Street",
+              "addr:town": "Rothwell",
+              "amenity": "cafe",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1380065",
+              "fhrs:local_authority_id": "23569",
+              "name": "The Tea Room",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/9026506408"
+          },
+          {
+            "osmId": "node/678290900",
+            "name": "The Woolpack",
+            "coordinates": [
+              -0.7988416,
+              52.4229049
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:postcode": "NN14 6BW",
+              "addr:street": "Market Hill",
+              "addr:town": "Rothwell",
+              "amenity": "pub",
+              "name": "The Woolpack"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/678290900"
+          },
+          {
+            "osmId": "node/4579791934",
+            "name": "Tilly-Mae's",
+            "coordinates": [
+              -0.7994603,
+              52.4228669
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "19",
+              "addr:postcode": "NN14 6FE",
+              "addr:street": "Market Hill",
+              "addr:town": "Rothwell",
+              "amenity": "fast_food",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1681548",
+              "fhrs:local_authority_id": "25117",
+              "name": "Tilly-Mae's"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4579791934"
+          },
+          {
+            "osmId": "node/12151615662",
+            "name": "Toro Steakhouse",
+            "coordinates": [
+              -0.8029939,
+              52.422452
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-12151615662",
+            "curated": true,
+            "tags": {
+              "addr:city": "Rothwell",
+              "addr:country": "GB",
+              "addr:housenumber": "22",
+              "addr:postcode": "NN14 6BQ",
+              "addr:street": "High Street",
+              "amenity": "restaurant",
+              "cuisine": "steak_house",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1635715",
+              "fhrs:local_authority_id": "24878",
+              "name": "Toro Steakhouse",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/12151615662"
+          },
+          {
+            "osmId": "node/678290894",
+            "name": "Williams Fish and Chips",
+            "coordinates": [
+              -0.7993225,
+              52.4228664
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "17-18",
+              "addr:postcode": "NN14 6BW",
+              "addr:street": "Market Hill",
+              "addr:town": "Rothwell",
+              "amenity": "restaurant",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1435777",
+              "fhrs:local_authority_id": "23788",
+              "name": "Williams Fish and Chips"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/678290894"
+          },
+          {
+            "osmId": "way/1264760035",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.8002307,
+              52.4230592
+            ],
+            "category": "eat",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "amenity": "cafe",
+              "building": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1264760035"
+          },
+          {
+            "osmId": "way/1264760037",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.8003425,
+              52.4230712
+            ],
+            "category": "eat",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "amenity": "cafe",
+              "building": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1264760037"
+          }
+        ],
+        "picnic": [],
+        "parking": [
+          {
+            "osmId": "way/28904138",
+            "name": "Market Square",
+            "coordinates": [
+              -0.80012,
+              52.4225093
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "name": "Market Square"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/28904138"
+          },
+          {
+            "osmId": "way/256347579",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8031611,
+              52.4189248
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/256347579"
+          },
+          {
+            "osmId": "way/254322518",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7980238,
+              52.4188499
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/254322518"
+          },
+          {
+            "osmId": "way/159542168",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8111766,
+              52.4245954
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/159542168"
+          },
+          {
+            "osmId": "way/33412773",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8048581,
+              52.4194771
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/33412773"
+          },
+          {
+            "osmId": "way/255267950",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8003264,
+              52.4241563
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/255267950"
+          },
+          {
+            "osmId": "way/256347578",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8034155,
+              52.4192095
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/256347578"
+          },
+          {
+            "osmId": "way/417742920",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7998134,
+              52.4202593
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/417742920"
+          },
+          {
+            "osmId": "way/1092621027",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8037247,
+              52.4215904
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-1092621027",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "lane",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1092621027"
+          },
+          {
+            "osmId": "way/1092643317",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8026384,
+              52.4233111
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-1092643317",
+            "curated": true,
+            "tags": {
+              "access": "permissive",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1092643317"
+          },
+          {
+            "osmId": "way/1264558109",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8029499,
+              52.4218573
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "capacity": "4",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1264558109"
+          },
+          {
+            "osmId": "way/255301920",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8051925,
+              52.4260291
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/255301920"
+          },
+          {
+            "osmId": "way/255259116",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7935949,
+              52.4214054
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/255259116"
+          },
+          {
+            "osmId": "way/255259117",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7933154,
+              52.4212843
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/255259117"
+          },
+          {
+            "osmId": "way/255259119",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7937,
+              52.4209551
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/255259119"
+          },
+          {
+            "osmId": "way/255263215",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7953239,
+              52.4208443
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/255263215"
+          },
+          {
+            "osmId": "way/255263216",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7955013,
+              52.4207673
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/255263216"
+          },
+          {
+            "osmId": "way/255267942",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7969753,
+              52.4218216
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-255267942",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/255267942"
+          },
+          {
+            "osmId": "way/255312552",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7945775,
+              52.4234122
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/255312552"
+          },
+          {
+            "osmId": "way/407503350",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7961619,
+              52.422319
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/407503350"
+          },
+          {
+            "osmId": "way/417742917",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7993333,
+              52.4203438
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/417742917"
+          },
+          {
+            "osmId": "way/376633953",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8096203,
+              52.4186329
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/376633953"
+          },
+          {
+            "osmId": "way/376633954",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8093376,
+              52.4178323
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/376633954"
+          },
+          {
+            "osmId": "way/376633955",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8116097,
+              52.4179239
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/376633955"
+          },
+          {
+            "osmId": "way/376633956",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8104497,
+              52.4176779
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/376633956"
+          },
+          {
+            "osmId": "way/1033228114",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8119653,
+              52.4174016
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1033228114"
+          },
+          {
+            "osmId": "way/376678330",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8002058,
+              52.4185244
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/376678330"
+          },
+          {
+            "osmId": "way/417749242",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8015055,
+              52.4182849
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/417749242"
+          },
+          {
+            "osmId": "way/255371030",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8030345,
+              52.4214849
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "area": "yes",
+              "parking": "surface",
+              "parking_space": "normal"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/255371030"
+          },
+          {
+            "osmId": "way/255371031",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8025396,
+              52.4209293
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "area": "yes",
+              "parking": "surface",
+              "parking_space": "normal"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/255371031"
+          },
+          {
+            "osmId": "way/255371032",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8027503,
+              52.4206403
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/255371032"
+          },
+          {
+            "osmId": "way/255371035",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.80212,
+              52.4198675
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/255371035"
+          },
+          {
+            "osmId": "way/818090439",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.802704,
+              52.4213142
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "area": "yes",
+              "parking": "surface",
+              "parking_space": "normal"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/818090439"
+          },
+          {
+            "osmId": "way/1185685709",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8019445,
+              52.4232453
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1185685709"
+          },
+          {
+            "osmId": "way/1257950308",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.8006977,
+              52.4227954
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "capacity": "15",
+              "capacity:disabled": "4",
+              "fee": "no",
+              "operator": "The Red Lion",
+              "operator:type": "private",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1257950308"
+          },
+          {
+            "osmId": "way/256347604",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7988763,
+              52.4194538
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/256347604"
+          },
+          {
+            "osmId": "way/256347605",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7985583,
+              52.4194278
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/256347605"
+          }
+        ],
+        "toilets": []
+      }
+    }
+  ]
+}

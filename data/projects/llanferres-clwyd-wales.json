@@ -1,0 +1,1177 @@
+{
+  "project": {
+    "id": "llanferres-clwyd-wales",
+    "name": "Llanferres Townscape Guide",
+    "countryCode": "GB-WLS",
+    "country": "Wales",
+    "region": "Clwyd",
+    "locality": "Llanferres",
+    "centre": [
+      -3.2147508,
+      53.1361273
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Llanferres",
+        "osmType": "node",
+        "osmId": 287054574,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [
+          "OSM way 1349213706"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.2217508,
+              53.131127299999996
+            ],
+            [
+              -3.2077508,
+              53.131127299999996
+            ],
+            [
+              -3.2077508,
+              53.1411273
+            ],
+            [
+              -3.2217508,
+              53.1411273
+            ],
+            [
+              -3.2217508,
+              53.131127299999996
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English and Welsh",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-11T00:00:00Z",
+    "timelineStart": -12000,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-11. Local Cadw and National Monuments Record of Wales data and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 1 directly adjoining public green-space geometries and 0 reviewed visitor extensions were included in the active visitor boundary.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Llanferres has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Llanferres",
+      "intro": "Llanferres has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "Parish Church of St Berres",
+        "summary": "Start with Parish Church of St Berres, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "Parish Church of St Berres"
+      ],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/287054574",
+        "https://cadw.gov.wales/advice-support/cof-cymru",
+        "https://coflein.gov.uk/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-11"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "welsh-heritage:cadw-listed:1329",
+        "name": "Parish Church of St Berres",
+        "reason": "Parish Church of St Berres is a nationally recorded historic landmark within Llanferres. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "church",
+        "visitorScore": 50,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "church",
+          "intro": "Parish Church of St Berres is a nationally recorded historic landmark within Llanferres. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "church",
+            "Welsh historic environment"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See Parish Church of St Berres"
+            }
+          ]
+        },
+        "sourceName": "Cof Cymru - National Historic Assets of Wales",
+        "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=1329",
+        "verifiedInBoundaryAt": "2026-08-11"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Llanferres",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/287054574",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-11",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -3.2217508,
+          53.131127299999996,
+          -3.2077508,
+          53.1411273
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Llanferres",
+          "osmType": "node",
+          "osmId": 287054574,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.2217508,
+                53.131127299999996
+              ],
+              [
+                -3.2077508,
+                53.131127299999996
+              ],
+              [
+                -3.2077508,
+                53.1411273
+              ],
+              [
+                -3.2217508,
+                53.1411273
+              ],
+              [
+                -3.2217508,
+                53.131127299999996
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -3.2217508,
+          53.131127299999996,
+          -3.2077508,
+          53.1411273
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Llanferres",
+          "osmType": "node",
+          "osmId": 287054574,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.2217508,
+                53.131127299999996
+              ],
+              [
+                -3.2077508,
+                53.131127299999996
+              ],
+              [
+                -3.2077508,
+                53.1411273
+              ],
+              [
+                -3.2217508,
+                53.1411273
+              ],
+              [
+                -3.2217508,
+                53.131127299999996
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Llanferres",
+          "osmType": "node",
+          "osmId": 287054574,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [
+            "OSM way 1349213706"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.2217508,
+                53.131127299999996
+              ],
+              [
+                -3.2077508,
+                53.131127299999996
+              ],
+              [
+                -3.2077508,
+                53.1411273
+              ],
+              [
+                -3.2217508,
+                53.1411273
+              ],
+              [
+                -3.2217508,
+                53.131127299999996
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes directly adjoining mapped public green spaces (OSM way 1349213706) and reviewed visitor extensions (none)."
+    }
+  },
+  "features": [
+    {
+      "id": "welsh-heritage:nmrw:27119",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Druid Inn;Druid Hotel, Llanferres",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2147495,
+          53.13563
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "27119",
+          "sourceUrl": "https://coflein.gov.uk/en/site/27119",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llanferres visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:1327",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Former Barn at Tyn Llan Farm",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.21436427392446,
+          53.136281244277264
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "1327",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=1327",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llanferres visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:1328",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Former Stable Range at Tyn Llan Farm",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2142343392552806,
+          53.13644438107524
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "1328",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=1328",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llanferres visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:410556",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Free School;National School, Llanferres",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2147853,
+          53.139019
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "410556",
+          "sourceUrl": "https://coflein.gov.uk/en/site/410556",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llanferres visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:784",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Gatepiers to St Berres Church",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2140739993721086,
+          53.13605946702494
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "784",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=784",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llanferres visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "osm-picnic-rest:node-12463588459",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Llanferres town-centre barbecue and picnic spot",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "barbecue",
+      "significance": "recognised",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2178108,
+          53.1371954
+        ]
+      },
+      "locationType": "exact",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "A mapped public barbecue within the active Llanferres visitor boundary.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current picnic and rest facilities",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "node/12463588459",
+          "sourceUrl": "https://www.openstreetmap.org/node/12463588459",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "licence": "Open Database Licence (ODbL) v1.0; (c) OpenStreetMap contributors.",
+          "notes": "Curated from great-britain-latest.osm.pbf. Current OSM tags: access=yes, amenity=bbq, covered=no.",
+          "reliability": "discovery_only"
+        }
+      ],
+      "licence": "Open Database Licence (ODbL) v1.0; (c) OpenStreetMap contributors.",
+      "tags": [
+        "current-context",
+        "osm-community-place",
+        "service-context-picnic",
+        "verified-picnic-facility"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Public OSM picnic facility checked inside the active visitor boundary and curated for the visitor planner.",
+      "evidenceScope": "parish_evidence"
+    },
+    {
+      "id": "osm-picnic-rest:node-12645430215",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Llanferres town-centre rest bench",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "bench",
+      "significance": "recognised",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2151503,
+          53.1360791
+        ]
+      },
+      "locationType": "exact",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "A public rest bench included because Llanferres has fewer than five mapped picnic locations. It is useful for a pause, not presented as a formal picnic area.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current picnic and rest facilities",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "node/12645430215",
+          "sourceUrl": "https://www.openstreetmap.org/node/12645430215",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "licence": "Open Database Licence (ODbL) v1.0; (c) OpenStreetMap contributors.",
+          "notes": "Curated from great-britain-latest.osm.pbf. Current OSM tags: amenity=bench, backrest=yes.",
+          "reliability": "discovery_only"
+        }
+      ],
+      "licence": "Open Database Licence (ODbL) v1.0; (c) OpenStreetMap contributors.",
+      "tags": [
+        "current-context",
+        "osm-community-place",
+        "service-context-picnic",
+        "picnic-rest-fallback"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Public OSM bench checked inside the active visitor boundary and curated as a sparse-town rest fallback. It is not counted as a formal picnic facility.",
+      "evidenceScope": "parish_evidence"
+    },
+    {
+      "id": "welsh-heritage:nmrw:409943",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Llanferres, Village",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2146482,
+          53.137339
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Multiperiod",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Multiperiod.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "409943",
+          "sourceUrl": "https://coflein.gov.uk/en/site/409943",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Multiperiod."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llanferres visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:1329",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Parish Church of St Berres",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2144156845874083,
+          53.13598406559684
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "Parish Church of St Berres is a nationally recorded historic landmark within Llanferres. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "1329",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=1329",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llanferres visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+      "attractionGuide": {
+        "headline": "church",
+        "intro": "Parish Church of St Berres is a nationally recorded historic landmark within Llanferres. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "church",
+          "Welsh historic environment"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See Parish Church of St Berres"
+          }
+        ]
+      }
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:16446",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Pont-y-Mwynwr",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2080056072166894,
+          53.1408766544145
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "16446",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=16446",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llanferres visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:27811",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Pont-y-Mwynwr;Pont-y-Mwynwr",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2078721,
+          53.140914
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "27811",
+          "sourceUrl": "https://coflein.gov.uk/en/site/27811",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llanferres visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:400646",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "St Berres's Church, Llanferres",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "church",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2144608,
+          53.135993
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "400646",
+          "sourceUrl": "https://coflein.gov.uk/en/site/400646",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llanferres visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:1326",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Tyn Llan Farmhouse",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2141396050055664,
+          53.13626555690693
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "1326",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=1326",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llanferres visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:35473",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Tyn Llan Farmhouse, Llanferres",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2143189,
+          53.136264
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "35473",
+          "sourceUrl": "https://coflein.gov.uk/en/site/35473",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llanferres visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:37278",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Tyn Llan, Former Barn, Llanferres",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2146203,
+          53.136351
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "37278",
+          "sourceUrl": "https://coflein.gov.uk/en/site/37278",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llanferres visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:37277",
+      "projectId": "llanferres-clwyd-wales",
+      "name": "Tyn Llan, Former Stable Range, Llanferres",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Llanferres",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2141746,
+          53.136445
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "37277",
+          "sourceUrl": "https://coflein.gov.uk/en/site/37277",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llanferres visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    }
+  ],
+  "sources": [
+    {
+      "id": "llanferres-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Llanferres settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/287054574",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "cadw-cof-cymru-local",
+      "name": "Cof Cymru - National Historic Assets of Wales",
+      "organisation": "Cadw",
+      "coverage": "Llanferres statutory designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://cadw.gov.wales/advice-support/cof-cymru",
+      "reliability": "official_statutory",
+      "limitations": "Period fields are retained where supplied; many listed-building records do not include construction dates in the national export."
+    },
+    {
+      "id": "rcahmw-nmrw-local",
+      "name": "National Monuments Record of Wales",
+      "organisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+      "coverage": "Llanferres terrestrial historic records inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://coflein.gov.uk/",
+      "reliability": "official_non_statutory",
+      "limitations": "Records may overlap statutory designations and period classifications can be broad."
+    },
+    {
+      "id": "llanferres-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Llanferres visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

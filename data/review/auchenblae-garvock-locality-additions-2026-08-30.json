@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-30",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers.",
+  "namingDecisions": [
+    "Monboddo House is retained as an estate, not used to inflate Auchenblae.",
+    "Mondynes is the wider recognised locality.",
+    "Parkneuk resolves to the Arbuthnott-area hamlet.",
+    "Scotston resolves to the Laurencekirk locality.",
+    "Redford resolves to Redford Farm near Garvock and remains separate from Redford near Carmyllie.",
+    "Tulloch represents the Nether and Easter Tulloch cluster."
+  ],
+  "additions": [
+    {
+      "name": "Auchenblae",
+      "projectId": "auchenblae-scotland",
+      "region": "Aberdeenshire",
+      "score": 58,
+      "dogOwnerScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "Auchenblae has a coherent village identity and local services, but remains below the map gate until a full visitor audit verifies its complete offer.",
+      "sourceUrl": "https://www.openstreetmap.org/node/60481123"
+    },
+    {
+      "name": "Monboddo House",
+      "projectId": "monboddo-house-scotland",
+      "region": "Aberdeenshire",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "Monboddo House is retained as a heritage estate reference. Its historical importance is not treated as public access and does not inflate Auchenblae.",
+      "sourceUrl": "https://www.trove.scot/place/36440"
+    },
+    {
+      "name": "Mondynes",
+      "projectId": "mondynes-scotland",
+      "region": "Aberdeenshire",
+      "score": 30,
+      "dogOwnerScore": 28,
+      "publishOnTownMap": false,
+      "rationale": "Mondynes is the wider named locality around its farms, bridge and traditional King Duncan association, without a destination-scale visitor offer.",
+      "sourceUrl": "https://mapcarta.com/38910862"
+    },
+    {
+      "name": "Brownmuir",
+      "projectId": "brownmuir-fordoun-scotland",
+      "region": "Aberdeenshire",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "Brownmuir is retained separately from Fordoun and the former airfield records; neither nearby history nor housing development makes it a tourist settlement.",
+      "sourceUrl": "https://www.trove.scot/place/276655"
+    },
+    {
+      "name": "Fordoun",
+      "projectId": "fordoun-scotland",
+      "region": "Aberdeenshire",
+      "score": 54,
+      "dogOwnerScore": 53,
+      "publishOnTownMap": false,
+      "rationale": "Fordoun has genuine village character and services, but remains below 60 pending a full destination audit and does not inherit nearby estate value.",
+      "sourceUrl": "https://www.openstreetmap.org/node/785388763"
+    },
+    {
+      "name": "Parkneuk",
+      "projectId": "parkneuk-arbuthnott-scotland",
+      "region": "Aberdeenshire",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "This resolves to Parkneuk beside Arbuthnott, distinct from the Glendavan place of the same name.",
+      "sourceUrl": "https://www.openstreetmap.org/node/8312876496"
+    },
+    {
+      "name": "Arbuthnott",
+      "projectId": "arbuthnott-scotland",
+      "region": "Aberdeenshire",
+      "score": 46,
+      "dogOwnerScore": 45,
+      "publishOnTownMap": false,
+      "rationale": "Arbuthnott has a distinct historic village identity, while private estate and church heritage remain independently assessed.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5503607524"
+    },
+    {
+      "name": "Scotston",
+      "projectId": "scotston-laurencekirk-scotland",
+      "region": "Aberdeenshire",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "This resolves to Scotston near Laurencekirk, not Scotston of Kirkside or the Aberdeen locality.",
+      "sourceUrl": "https://britishlistedbuildings.co.uk/200397473-scotston-laurencekirk"
+    },
+    {
+      "name": "Garvock",
+      "projectId": "garvock-laurencekirk-scotland",
+      "region": "Aberdeenshire",
+      "score": 38,
+      "dogOwnerScore": 37,
+      "publishOnTownMap": false,
+      "rationale": "Garvock has a distinct church-and-hamlet identity but insufficient verified visitor infrastructure for a town marker.",
+      "sourceUrl": "https://www.openstreetmap.org/node/11279257006"
+    },
+    {
+      "name": "Redford",
+      "projectId": "redford-garvock-scotland",
+      "region": "Aberdeenshire",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "This is the Redford Farm locality near Garvock, retained separately from Redford near Carmyllie.",
+      "sourceUrl": "https://www.openstreetmap.org/node/11279256144"
+    },
+    {
+      "name": "Tulloch",
+      "projectId": "tulloch-garvock-scotland",
+      "region": "Aberdeenshire",
+      "score": 26,
+      "dogOwnerScore": 24,
+      "publishOnTownMap": false,
+      "rationale": "Tulloch represents the Garvock-area Nether and Easter Tulloch cluster rather than inventing separate tourist settlements for each farm.",
+      "sourceUrl": "https://www.openstreetmap.org/node/10751686579"
+    }
+  ]
+}

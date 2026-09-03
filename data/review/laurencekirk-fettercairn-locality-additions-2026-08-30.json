@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-30",
+  "threshold": 60,
+  "reused": [
+    {
+      "requestedName": "Clatterin bridge",
+      "projectId": "clatterin-brig-scotland"
+    },
+    {
+      "requestedName": "glensaugh",
+      "projectId": "glensaugh-scotland"
+    },
+    {
+      "requestedName": "Fettercvairn",
+      "projectId": "fettercairn-scotland"
+    }
+  ],
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers.",
+  "namingDecisions": [
+    "Clatterin bridge reuses Clatterin Brig.",
+    "Fettercvairn reuses Fettercairn.",
+    "Thinston is treated as a spelling duplicate of Thainston.",
+    "Meilke Strath resolves to Meikle Strath.",
+    "Mains of Thornton resolves to the Laurencekirk-area hamlet."
+  ],
+  "additions": [
+    {
+      "requestedName": "East Cairnbeg",
+      "resolvedName": "East Cairnbeg",
+      "projectId": "east-cairnbeg-scotland",
+      "region": "Aberdeenshire",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "East Cairnbeg is retained as a named farm-and-cottage locality without borrowing wider Fordoun or Auchenblae interest.",
+      "sourceUrl": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=RHP9285"
+    },
+    {
+      "requestedName": "Thainston / Thinston",
+      "resolvedName": "Thainston",
+      "projectId": "thainston-scotland",
+      "region": "Aberdeenshire",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "Thinston resolves as a spelling duplicate of the Upper and Nether Thainston cluster; it is stored once as Thainston.",
+      "sourceUrl": "https://www.openstreetmap.org/way/932382525"
+    },
+    {
+      "requestedName": "Mains of Balnakettle",
+      "resolvedName": "Mains of Balnakettle",
+      "projectId": "mains-of-balnakettle-scotland",
+      "region": "Aberdeenshire",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "Mains of Balnakettle is a working rural locality rather than an independently visitable settlement.",
+      "sourceUrl": "https://www.openstreetmap.org/way/932382536"
+    },
+    {
+      "requestedName": "Bent",
+      "resolvedName": "Bent",
+      "projectId": "bent-laurencekirk-scotland",
+      "region": "Aberdeenshire",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "This resolves to Bent near Thornton and Laurencekirk, not another Scottish Bent locality.",
+      "sourceUrl": "https://www.openstreetmap.org/way/932382611"
+    },
+    {
+      "requestedName": "Laurencekirk",
+      "resolvedName": "Laurencekirk",
+      "projectId": "laurencekirk-scotland",
+      "region": "Aberdeenshire",
+      "score": 58,
+      "dogOwnerScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "Laurencekirk has genuine town identity and services, but remains below the tourist-map gate until a complete destination audit verifies the visitor offer.",
+      "sourceUrl": "https://www.openstreetmap.org/node/408773481"
+    },
+    {
+      "requestedName": "Mains of Thornton",
+      "resolvedName": "Mains of Thornton",
+      "projectId": "mains-of-thornton-laurencekirk-scotland",
+      "region": "Aberdeenshire",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "This resolves to Mains of Thornton west of Laurencekirk, distinct from the previously catalogued Glamis-area Thornton.",
+      "sourceUrl": "https://www.openstreetmap.org/node/14029905319"
+    },
+    {
+      "requestedName": "Meilke Strath",
+      "resolvedName": "Meikle Strath",
+      "projectId": "meikle-strath-scotland",
+      "region": "Aberdeenshire",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling resolves to Meikle Strath, a farm locality without an independent visitor-town offer.",
+      "sourceUrl": "https://www.openstreetmap.org/way/494506902"
+    },
+    {
+      "requestedName": "Inch of Arnhall",
+      "resolvedName": "Inch of Arnhall",
+      "projectId": "inch-of-arnhall-scotland",
+      "region": "Aberdeenshire",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "Inch of Arnhall is retained as an OS-recorded hamlet; historical or nearby estate interest does not inflate its settlement score.",
+      "sourceUrl": "https://britishplacenames.uk/inch-of-arnhall-aberdeenshire-no624710"
+    }
+  ]
+}

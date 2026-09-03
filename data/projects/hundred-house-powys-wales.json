@@ -1,0 +1,1320 @@
+{
+  "project": {
+    "id": "hundred-house-powys-wales",
+    "name": "Hundred House Townscape Guide",
+    "countryCode": "GB-WLS",
+    "country": "Wales",
+    "region": "Powys",
+    "locality": "Hundred House",
+    "centre": [
+      -3.2991897,
+      52.1816017
+    ],
+    "boundary": {
+      "type": "Feature",
+      "bbox": [
+        -3.3061897,
+        52.1766017,
+        -3.2921896999999998,
+        52.186601700000004
+      ],
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Hundred House",
+        "osmType": "node",
+        "osmId": 1875054370,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.3061897,
+              52.1766017
+            ],
+            [
+              -3.2921896999999998,
+              52.1766017
+            ],
+            [
+              -3.2921896999999998,
+              52.186601700000004
+            ],
+            [
+              -3.3061897,
+              52.186601700000004
+            ],
+            [
+              -3.3061897,
+              52.1766017
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English and Welsh",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-12T00:00:00Z",
+    "timelineStart": -12000,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-12. Local Cadw and National Monuments Record of Wales data and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 0 directly adjoining public green-space geometries and 0 reviewed visitor extensions were included in the active visitor boundary.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Hundred House has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Hundred House",
+      "intro": "Hundred House has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "The Mount Mound & Bailey Castle, Hundred House",
+        "summary": "Start with The Mount Mound & Bailey Castle, Hundred House, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "The Mount Mound & Bailey Castle, Hundred House"
+      ],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/1875054370",
+        "https://cadw.gov.wales/advice-support/cof-cymru",
+        "https://coflein.gov.uk/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-12"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "welsh-heritage:cadw-scheduled:1920",
+        "name": "The Mount Mound & Bailey Castle, Hundred House",
+        "reason": "The Mount Mound & Bailey Castle, Hundred House is a nationally recorded historic landmark within Hundred House. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "castle",
+        "visitorScore": 59,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "castle",
+          "intro": "The Mount Mound & Bailey Castle, Hundred House is a nationally recorded historic landmark within Hundred House. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "castle",
+            "Welsh historic environment"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See The Mount Mound & Bailey Castle, Hundred House"
+            }
+          ]
+        },
+        "sourceName": "Cof Cymru - National Historic Assets of Wales",
+        "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/sam/FullReport?lang=en&id=1920",
+        "verifiedInBoundaryAt": "2026-08-12"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Hundred House",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/1875054370",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-12",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -3.3061897,
+          52.1766017,
+          -3.2921896999999998,
+          52.186601700000004
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Hundred House",
+          "osmType": "node",
+          "osmId": 1875054370,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.3061897,
+                52.1766017
+              ],
+              [
+                -3.2921896999999998,
+                52.1766017
+              ],
+              [
+                -3.2921896999999998,
+                52.186601700000004
+              ],
+              [
+                -3.3061897,
+                52.186601700000004
+              ],
+              [
+                -3.3061897,
+                52.1766017
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -3.3061897,
+          52.1766017,
+          -3.2921896999999998,
+          52.186601700000004
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Hundred House",
+          "osmType": "node",
+          "osmId": 1875054370,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.3061897,
+                52.1766017
+              ],
+              [
+                -3.2921896999999998,
+                52.1766017
+              ],
+              [
+                -3.2921896999999998,
+                52.186601700000004
+              ],
+              [
+                -3.3061897,
+                52.186601700000004
+              ],
+              [
+                -3.3061897,
+                52.1766017
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -3.3061897,
+          52.1766017,
+          -3.2921896999999998,
+          52.186601700000004
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Hundred House",
+          "osmType": "node",
+          "osmId": 1875054370,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.3061897,
+                52.1766017
+              ],
+              [
+                -3.2921896999999998,
+                52.1766017
+              ],
+              [
+                -3.2921896999999998,
+                52.186601700000004
+              ],
+              [
+                -3.3061897,
+                52.186601700000004
+              ],
+              [
+                -3.3061897,
+                52.1766017
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes directly adjoining mapped public green spaces (none) and reviewed visitor extensions (none)."
+    }
+  },
+  "features": [
+    {
+      "id": "welsh-heritage:cadw-listed:8811",
+      "projectId": "hundred-house-powys-wales",
+      "name": "The Old Mill",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "mill",
+      "designationType": "listed_building",
+      "designationCategory": "II*",
+      "significance": "national",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.297575779851321,
+          52.18220753537466
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II*.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "8811",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=8811",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-scheduled:1920",
+      "projectId": "hundred-house-powys-wales",
+      "name": "The Mount Mound & Bailey Castle, Hundred House",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "castle",
+      "designationType": "scheduled_monument",
+      "significance": "highest_national",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.293541021198534,
+          52.17925785675852
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Medieval",
+      "earliestPossibleYear": 1066,
+      "latestPossibleYear": 1539,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "The Mount Mound & Bailey Castle, Hundred House is a nationally recorded historic landmark within Hundred House. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "1920",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/sam/FullReport?lang=en&id=1920",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-scheduled",
+        "cadw-scheduled-monument",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+      "attractionGuide": {
+        "headline": "castle",
+        "intro": "The Mount Mound & Bailey Castle, Hundred House is a nationally recorded historic landmark within Hundred House. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "castle",
+          "Welsh historic environment"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See The Mount Mound & Bailey Castle, Hundred House"
+          }
+        ]
+      }
+    },
+    {
+      "id": "welsh-heritage:cadw-scheduled:4132",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Hundred House round barrow",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "other",
+      "designationType": "scheduled_monument",
+      "significance": "highest_national",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.298616849360759,
+          52.179786493095094
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Prehistoric",
+      "earliestPossibleYear": -12000,
+      "latestPossibleYear": 42,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "scheduled monument recorded by Cadw; recorded period Prehistoric.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "4132",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/sam/FullReport?lang=en&id=4132",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Prehistoric."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-scheduled",
+        "cadw-scheduled-monument"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:81053",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Bryn-Crach Farmhouse",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3014266,
+          52.18435
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval; Medieval",
+      "earliestPossibleYear": 1066,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval; Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "81053",
+          "sourceUrl": "https://coflein.gov.uk/en/site/81053",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval; Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:98360",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Corn Drying Kiln, Hundred House Mill;Cadwgan Mill",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "mill",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2975593,
+          52.182145
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "98360",
+          "sourceUrl": "https://coflein.gov.uk/en/site/98360",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:30508",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Bryn-Crach Farmstead",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3014266,
+          52.18435
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval; Medieval",
+      "earliestPossibleYear": 1066,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval; Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "30508",
+          "sourceUrl": "https://coflein.gov.uk/en/site/30508",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval; Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:276081",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Standing Stone, Hundred House",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2928386,
+          52.180758
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Prehistoric",
+      "earliestPossibleYear": -12000,
+      "latestPossibleYear": 42,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Prehistoric.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "276081",
+          "sourceUrl": "https://coflein.gov.uk/en/site/276081",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Prehistoric."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:306119",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Hundred House Common, Barrow II",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2986584,
+          52.179705
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Bronze Age",
+      "earliestPossibleYear": -2500,
+      "latestPossibleYear": -800,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Bronze Age.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "306119",
+          "sourceUrl": "https://coflein.gov.uk/en/site/306119",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Bronze Age."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:306120",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Hundred House Common, Barrow I",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2976326,
+          52.184661
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Bronze Age",
+      "earliestPossibleYear": -2500,
+      "latestPossibleYear": -800,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Bronze Age.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "306120",
+          "sourceUrl": "https://coflein.gov.uk/en/site/306120",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Bronze Age."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:81988",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Hundred House Mill Cottage;Cadwgan Mill Cottage, Hundred House",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "mill",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2977055,
+          52.182143
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "81988",
+          "sourceUrl": "https://coflein.gov.uk/en/site/81988",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:306117",
+      "projectId": "hundred-house-powys-wales",
+      "name": "The Mount, Motte and Bailey",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2936716,
+          52.17922
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Medieval",
+      "earliestPossibleYear": 1066,
+      "latestPossibleYear": 1539,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "306117",
+          "sourceUrl": "https://coflein.gov.uk/en/site/306117",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:40298",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Hundred House Corn Mill;Hundred House Mill;Cadwgan Mill, Hundred House",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "mill",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2975619,
+          52.182235
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "40298",
+          "sourceUrl": "https://coflein.gov.uk/en/site/40298",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:306118",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Glascwm Mill Cottages, Barrow",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "mill",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2940866,
+          52.183442
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Bronze Age",
+      "earliestPossibleYear": -2500,
+      "latestPossibleYear": -800,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Bronze Age.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "306118",
+          "sourceUrl": "https://coflein.gov.uk/en/site/306118",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Bronze Age."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:41094",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Hundred House Fulling Mill",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "mill",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3024624,
+          52.179753
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "41094",
+          "sourceUrl": "https://coflein.gov.uk/en/site/41094",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:43178",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Hundred House Bridge",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "bridge",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2966559,
+          52.181256
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "43178",
+          "sourceUrl": "https://coflein.gov.uk/en/site/43178",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:81482",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Pen-y-Bont",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2935036,
+          52.182504
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Medieval; Post Medieval",
+      "earliestPossibleYear": 1066,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Medieval; Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "81482",
+          "sourceUrl": "https://coflein.gov.uk/en/site/81482",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Medieval; Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:402435",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Earthworks [Modern?], Hundred House",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2928647,
+          52.181657
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Unknown",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Unknown.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "402435",
+          "sourceUrl": "https://coflein.gov.uk/en/site/402435",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Unknown."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:81087",
+      "projectId": "hundred-house-powys-wales",
+      "name": "Catwlws",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Hundred House",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3011315,
+          52.180253
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "81087",
+          "sourceUrl": "https://coflein.gov.uk/en/site/81087",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Hundred House visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    }
+  ],
+  "sources": [
+    {
+      "id": "hundred-house-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Hundred House settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1875054370",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "cadw-cof-cymru-local",
+      "name": "Cof Cymru - National Historic Assets of Wales",
+      "organisation": "Cadw",
+      "coverage": "Hundred House statutory designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://cadw.gov.wales/advice-support/cof-cymru",
+      "reliability": "official_statutory",
+      "limitations": "Period fields are retained where supplied; many listed-building records do not include construction dates in the national export."
+    },
+    {
+      "id": "rcahmw-nmrw-local",
+      "name": "National Monuments Record of Wales",
+      "organisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+      "coverage": "Hundred House terrestrial historic records inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://coflein.gov.uk/",
+      "reliability": "official_non_statutory",
+      "limitations": "Records may overlap statutory designations and period classifications can be broad."
+    },
+    {
+      "id": "hundred-house-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Hundred House visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

@@ -1,0 +1,1616 @@
+{
+  "project": {
+    "id": "llangunllo-powys-wales",
+    "name": "Llangunllo Townscape Guide",
+    "countryCode": "GB-WLS",
+    "country": "Wales",
+    "region": "Powys",
+    "locality": "Llangunllo",
+    "centre": [
+      -3.158487,
+      52.3344442
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Llangunllo",
+        "osmType": "node",
+        "osmId": 29276036,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [
+          "OSM way 1052938350",
+          "OSM way 1071248171"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.165487,
+              52.3294442
+            ],
+            [
+              -3.151487,
+              52.3294442
+            ],
+            [
+              -3.151487,
+              52.3394442
+            ],
+            [
+              -3.165487,
+              52.3394442
+            ],
+            [
+              -3.165487,
+              52.3294442
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English and Welsh",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-12T00:00:00Z",
+    "timelineStart": -12000,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-12. Local Cadw and National Monuments Record of Wales data and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 2 directly adjoining public green-space geometries and 0 reviewed visitor extensions were included in the active visitor boundary.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Llangunllo has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Llangunllo",
+      "intro": "Llangunllo has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "Church of St. Cynllo",
+        "summary": "Start with Church of St. Cynllo and Buddha, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "Church of St. Cynllo",
+        "Buddha"
+      ],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/29276036",
+        "https://cadw.gov.wales/advice-support/cof-cymru",
+        "https://coflein.gov.uk/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-12"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "welsh-heritage:cadw-listed:9114",
+        "name": "Church of St. Cynllo",
+        "reason": "Church of St. Cynllo is a nationally recorded historic landmark within Llangunllo. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "church",
+        "visitorScore": 50,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "church",
+          "intro": "Church of St. Cynllo is a nationally recorded historic landmark within Llangunllo. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "church",
+            "Welsh historic environment"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See Church of St. Cynllo"
+            }
+          ]
+        },
+        "sourceName": "Cof Cymru - National Historic Assets of Wales",
+        "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=9114",
+        "verifiedInBoundaryAt": "2026-08-12"
+      },
+      {
+        "rank": 2,
+        "featureId": "osm-community:node-9813335484",
+        "name": "Buddha",
+        "reason": "Buddha is a curated artwork within the active Llangunllo visitor boundary.",
+        "tagline": "artwork",
+        "visitorScore": 46,
+        "freeAdmission": false,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "artwork",
+          "intro": "Buddha is a curated artwork within the active Llangunllo visitor boundary.",
+          "motifs": [
+            "artwork",
+            "Llangunllo"
+          ],
+          "bestFor": [
+            "Local heritage"
+          ],
+          "thingsToDo": [
+            {
+              "name": "Explore Buddha"
+            },
+            {
+              "name": "Notice its artwork character"
+            }
+          ]
+        },
+        "sourceName": "OpenStreetMap current community places",
+        "sourceUrl": "https://www.openstreetmap.org/node/9813335484",
+        "verifiedInBoundaryAt": "2026-08-12"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Llangunllo",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/29276036",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-12",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -3.165487,
+          52.3294442,
+          -3.151487,
+          52.3394442
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Llangunllo",
+          "osmType": "node",
+          "osmId": 29276036,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.165487,
+                52.3294442
+              ],
+              [
+                -3.151487,
+                52.3294442
+              ],
+              [
+                -3.151487,
+                52.3394442
+              ],
+              [
+                -3.165487,
+                52.3394442
+              ],
+              [
+                -3.165487,
+                52.3294442
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -3.165487,
+          52.3294442,
+          -3.151487,
+          52.3394442
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Llangunllo",
+          "osmType": "node",
+          "osmId": 29276036,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.165487,
+                52.3294442
+              ],
+              [
+                -3.151487,
+                52.3294442
+              ],
+              [
+                -3.151487,
+                52.3394442
+              ],
+              [
+                -3.165487,
+                52.3394442
+              ],
+              [
+                -3.165487,
+                52.3294442
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Llangunllo",
+          "osmType": "node",
+          "osmId": 29276036,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [
+            "OSM way 1052938350",
+            "OSM way 1071248171"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.165487,
+                52.3294442
+              ],
+              [
+                -3.151487,
+                52.3294442
+              ],
+              [
+                -3.151487,
+                52.3394442
+              ],
+              [
+                -3.165487,
+                52.3394442
+              ],
+              [
+                -3.165487,
+                52.3294442
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes directly adjoining mapped public green spaces (OSM way 1052938350, OSM way 1071248171) and reviewed visitor extensions (none)."
+    }
+  },
+  "features": [
+    {
+      "id": "welsh-heritage:cadw-listed:9114",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Church of St. Cynllo",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.158213688334543,
+          52.333938835781126
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "Church of St. Cynllo is a nationally recorded historic landmark within Llangunllo. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "9114",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=9114",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+      "attractionGuide": {
+        "headline": "church",
+        "intro": "Church of St. Cynllo is a nationally recorded historic landmark within Llangunllo. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "church",
+          "Welsh historic environment"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See Church of St. Cynllo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:9115",
+      "projectId": "llangunllo-powys-wales",
+      "name": "The Great House",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1574091660341703,
+          52.33347920868583
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "9115",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=9115",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:9116",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Barn to SW of The Great House",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.157739353333052,
+          52.333197262610234
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "9116",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=9116",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:9117",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Farm Range to south of The Great House",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.157432408470799,
+          52.33324522414252
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "9117",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=9117",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:9118",
+      "projectId": "llangunllo-powys-wales",
+      "name": "The Post Office",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1579752916328987,
+          52.33436373357171
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "9118",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=9118",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:9119",
+      "projectId": "llangunllo-powys-wales",
+      "name": "House adjoing Post Office",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.157871408803508,
+          52.334319798770096
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "9119",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=9119",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:9120",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Outbuildings adjoining Post Office",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1577966367108536,
+          52.334266587879306
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "9120",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=9120",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:9121",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Telephone Call-box in Llangunllo Village",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.158304432785389,
+          52.33460325361921
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "9121",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=9121",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:304540",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Greyhound Inn, Llangunllo",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1586258,
+          52.334546
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "304540",
+          "sourceUrl": "https://coflein.gov.uk/en/site/304540",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:81939",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Rockhouse Farm Farmhouse",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1529298,
+          52.335051
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "81939",
+          "sourceUrl": "https://coflein.gov.uk/en/site/81939",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:81848",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Cottage",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1588152,
+          52.33449
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "81848",
+          "sourceUrl": "https://coflein.gov.uk/en/site/81848",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:98206",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Great House Farm Barn",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1577687,
+          52.333197
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "98206",
+          "sourceUrl": "https://coflein.gov.uk/en/site/98206",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:81975",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Bryntirion",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1590779,
+          52.334434
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "81975",
+          "sourceUrl": "https://coflein.gov.uk/en/site/81975",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:81846",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Great House Farm Farmhouse",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1574532,
+          52.333479
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "81846",
+          "sourceUrl": "https://coflein.gov.uk/en/site/81846",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:545010",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Church of St. Cynllo, Llangunllo",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "church",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1583183,
+          52.33401
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Multiperiod",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "Church of St. Cynllo, Llangunllo is a nationally recorded historic landmark within Llangunllo. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "545010",
+          "sourceUrl": "https://coflein.gov.uk/en/site/545010",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Multiperiod."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+      "attractionGuide": {
+        "headline": "church",
+        "intro": "Church of St. Cynllo, Llangunllo is a nationally recorded historic landmark within Llangunllo. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "church",
+          "Welsh historic environment"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See Church of St. Cynllo, Llangunllo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "welsh-heritage:nmrw:153667",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Llangunllo Stores and Post Office;West's Shop; Adjacent House and Outbuildings, Llangunllo",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1579003,
+          52.334302
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "153667",
+          "sourceUrl": "https://coflein.gov.uk/en/site/153667",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:81902",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Great House Farmstead",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1573053,
+          52.333435
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "81902",
+          "sourceUrl": "https://coflein.gov.uk/en/site/81902",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:8287",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Ty Capel (Primitive Methodist Chapel), Llangynllo",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "church",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.159688,
+          52.334194
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "8287",
+          "sourceUrl": "https://coflein.gov.uk/en/site/8287",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:40303",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Llangunllo Mill",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "mill",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1592559,
+          52.33507
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "40303",
+          "sourceUrl": "https://coflein.gov.uk/en/site/40303",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:98310",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Rockhouse Farm Hay Barn",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1527174,
+          52.33535
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "98310",
+          "sourceUrl": "https://coflein.gov.uk/en/site/98310",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:405147",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Rockhouse Farmstead",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1529151,
+          52.335052
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "405147",
+          "sourceUrl": "https://coflein.gov.uk/en/site/405147",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:98207",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Great House Farm Cowhouse Range",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1574471,
+          52.333245
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "98207",
+          "sourceUrl": "https://coflein.gov.uk/en/site/98207",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Llangunllo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "osm-community:node-9813335484",
+      "projectId": "llangunllo-powys-wales",
+      "name": "Buddha",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Llangunllo",
+      "featureType": "artwork",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1644611,
+          52.3343123
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Buddha is a curated artwork within the active Llangunllo visitor boundary.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "node/9813335484",
+          "sourceUrl": "https://www.openstreetmap.org/node/9813335484",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "artwork_type=statue; name=Buddha; religion=buddhist; tourism=artwork; visit_score=46"
+        }
+      ],
+      "tags": [
+        "service-context-visitor",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-12.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "attractionGuide": {
+        "headline": "artwork",
+        "intro": "Buddha is a curated artwork within the active Llangunllo visitor boundary.",
+        "motifs": [
+          "artwork",
+          "Llangunllo"
+        ],
+        "bestFor": [
+          "Local heritage"
+        ],
+        "thingsToDo": [
+          {
+            "name": "Explore Buddha"
+          },
+          {
+            "name": "Notice its artwork character"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "llangunllo-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Llangunllo settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/29276036",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "cadw-cof-cymru-local",
+      "name": "Cof Cymru - National Historic Assets of Wales",
+      "organisation": "Cadw",
+      "coverage": "Llangunllo statutory designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://cadw.gov.wales/advice-support/cof-cymru",
+      "reliability": "official_statutory",
+      "limitations": "Period fields are retained where supplied; many listed-building records do not include construction dates in the national export."
+    },
+    {
+      "id": "rcahmw-nmrw-local",
+      "name": "National Monuments Record of Wales",
+      "organisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+      "coverage": "Llangunllo terrestrial historic records inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://coflein.gov.uk/",
+      "reliability": "official_non_statutory",
+      "limitations": "Records may overlap statutory designations and period classifications can be broad."
+    },
+    {
+      "id": "llangunllo-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Llangunllo visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

@@ -1,0 +1,91 @@
+{
+  "projectId": "tillicoultry-scotland",
+  "reviewedAt": "2026-08-06T00:00:00Z",
+  "boundaryRule": "Every public town-planner point was tested against the curated Tillicoultry visitor boundary and the retained Tillicoultry parish study boundary. The visitor boundary preserves the NRS locality and adds only a narrow extension for the current east-side route into lower Tillicoultry Glen.",
+  "published": {
+    "attractions": [
+      {
+        "name": "Firpark Ski Centre",
+        "score": 78,
+        "featureId": "curated-attraction:tillicoultry-firpark-ski-centre"
+      },
+      {
+        "name": "Tillicoultry Glen east-side route",
+        "score": 70,
+        "featureId": "curated-attraction:tillicoultry-tillicoultry-glen"
+      },
+      {
+        "name": "Affinity Sterling Mills Outlet Shopping",
+        "score": 64,
+        "featureId": "visitor-context:sterling-mills"
+      },
+      {
+        "name": "Clock Mill and Upper Mill Street",
+        "score": 56,
+        "featureId": "curated:hes-lb42054"
+      },
+      {
+        "name": "Tillicoultry Old Churchyard and medieval stones",
+        "score": 50,
+        "featureId": "curated-attraction:tillicoultry-tillicoultry-old-churchyard"
+      }
+    ],
+    "eat": [
+      "osm-community:way-993045924",
+      "osm-community:way-320099376",
+      "osm-community:way-1022597762",
+      "osm-community:way-389616952",
+      "osm-community:node-9431156493",
+      "osm-community:way-926391362"
+    ],
+    "trails": [
+      "visitor-context:devon-way",
+      "curated-trail:tillicoultry-glen-east-side",
+      "curated-trail:tillicoultry-textile-town"
+    ],
+    "parking": [
+      "curated-parking:tillicoultry-upper-mill-street",
+      "curated-parking:tillicoultry-park-street",
+      "curated-parking:tillicoultry-bank-street",
+      "curated-parking:tillicoultry-murray-place",
+      "curated-parking:tillicoultry-stirling-street"
+    ],
+    "toilets": [
+      "curated-toilets:tillicoultry-murray-square",
+      "curated-toilets:tillicoultry-cemetery-dollar-road"
+    ],
+    "picnic": [
+      "curated-picnic:tillicoultry-upper-mill-recreation-ground"
+    ]
+  },
+  "excluded": [
+    {
+      "name": "Tillicoultry Golf Club visitor round",
+      "reason": "Mapped outside the active NRS Tillicoultry locality and specialist in appeal."
+    },
+    {
+      "name": "Tillicoultry Cemetery and war memorials",
+      "reason": "Retained as evidence but not promoted as a main general attraction."
+    },
+    {
+      "name": "Customer-only and private OSM parking",
+      "reason": "The public planner uses the five council-listed free public car parks only."
+    },
+    {
+      "name": "Generic OSM benches and picnic-table pins",
+      "reason": "Grouped into one named recreation-ground picnic stop instead of publishing duplicates."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.clacks.gov.uk/visiting/tillicoultryglen/",
+    "https://www.clacks.gov.uk/culture/firparkskicentre/",
+    "https://www.clacks.gov.uk/culture/firparkprices/",
+    "https://www.clacks.gov.uk/culture/firparkactivities/",
+    "https://www.sterlingmills.com/sterling-mills-introduction",
+    "https://www.sterlingmills.com/find-us",
+    "https://www.clacks.gov.uk/property/tillicoultryconservationarea/",
+    "https://www.clacks.gov.uk/transport/cycling/",
+    "https://www.clacks.gov.uk/transport/parking/",
+    "https://www.clacks.gov.uk/form/1128.pdf"
+  ]
+}

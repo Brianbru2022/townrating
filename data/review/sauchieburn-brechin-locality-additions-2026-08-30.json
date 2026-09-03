@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-30",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers.",
+  "namingDecisions": [
+    "Marky Kirk is normalised to Marykirk.",
+    "Logie resolves to the Craigo-area locality and remains distinct from Logie Coldstone and Logie Pert.",
+    "Hillside resolves to the village north of Montrose and remains distinct from Hillside near Portlethen.",
+    "Dun resolves to the settlement at Bridge of Dun; House of Dun remains a separate attraction.",
+    "Keithock resolves to the locality north of Brechin."
+  ],
+  "additions": [
+    {
+      "requestedName": "sauchieburn",
+      "name": "Sauchieburn",
+      "projectId": "sauchieburn-scotland",
+      "region": "Aberdeenshire",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "A small rural locality retained separately from Luthermuir; neighbouring village services are not borrowed.",
+      "sourceUrl": "https://www.openstreetmap.org/node/14029905314"
+    },
+    {
+      "requestedName": "luthermuir",
+      "name": "Luthermuir",
+      "projectId": "luthermuir-scotland",
+      "region": "Aberdeenshire",
+      "score": 48,
+      "dogOwnerScore": 47,
+      "publishOnTownMap": false,
+      "rationale": "Luthermuir has a coherent village identity but remains below the tourist-town gate until a full audit verifies its independent visitor offer.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4224197191"
+    },
+    {
+      "requestedName": "north water bridge",
+      "name": "North Water Bridge",
+      "projectId": "north-water-bridge-scotland",
+      "region": "Angus",
+      "score": 34,
+      "dogOwnerScore": 33,
+      "publishOnTownMap": false,
+      "rationale": "The bridge and roadside cluster form a recognised locality, but transport geography alone does not establish a destination-scale visit.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5329907969"
+    },
+    {
+      "requestedName": "edzell",
+      "name": "Edzell",
+      "projectId": "edzell-scotland",
+      "region": "Angus",
+      "score": 58,
+      "dogOwnerScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "Edzell has strong village character and services but remains just below 60 pending a complete visitor audit; Edzell Castle must be assessed as a separate See place rather than automatically inflating the settlement.",
+      "sourceUrl": "https://www.openstreetmap.org/node/408767284"
+    },
+    {
+      "requestedName": "pert",
+      "name": "Pert",
+      "projectId": "pert-angus-scotland",
+      "region": "Angus",
+      "score": 22,
+      "dogOwnerScore": 20,
+      "publishOnTownMap": false,
+      "rationale": "Pert is retained as a distinct rural locality near North Water Bridge without borrowing the bridge or neighbouring attractions.",
+      "sourceUrl": "https://www.openstreetmap.org/node/8604177563"
+    },
+    {
+      "requestedName": "marky kirk",
+      "name": "Marykirk",
+      "projectId": "marykirk-scotland",
+      "region": "Aberdeenshire",
+      "score": 44,
+      "dogOwnerScore": 43,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling resolves to Marykirk. The village has a distinct identity but insufficient verified visitor depth for the main map pending a full audit.",
+      "sourceUrl": "https://www.openstreetmap.org/node/370779196"
+    },
+    {
+      "requestedName": "craigo",
+      "name": "Craigo",
+      "projectId": "craigo-angus-scotland",
+      "region": "Angus",
+      "score": 30,
+      "dogOwnerScore": 28,
+      "publishOnTownMap": false,
+      "rationale": "Craigo is a recognised settlement, but industrial history and nearby rural heritage do not alone create a complete visitor destination.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5000008571"
+    },
+    {
+      "requestedName": "logie",
+      "name": "Logie",
+      "projectId": "logie-craigo-scotland",
+      "region": "Angus",
+      "score": 22,
+      "dogOwnerScore": 20,
+      "publishOnTownMap": false,
+      "rationale": "This resolves to Logie near Craigo, not the existing Logie Coldstone or the separately requested Logie Pert.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5357384741"
+    },
+    {
+      "requestedName": "hillside",
+      "name": "Hillside",
+      "projectId": "hillside-montrose-scotland",
+      "region": "Angus",
+      "score": 42,
+      "dogOwnerScore": 41,
+      "publishOnTownMap": false,
+      "rationale": "This is Hillside beside Montrose, distinct from Hillside near Portlethen. It has village services but no verified destination-scale offer yet.",
+      "sourceUrl": "https://www.openstreetmap.org/node/408888140"
+    },
+    {
+      "requestedName": "kirkhill",
+      "name": "Kirkhill",
+      "projectId": "kirkhill-montrose-scotland",
+      "region": "Angus",
+      "score": 22,
+      "dogOwnerScore": 20,
+      "publishOnTownMap": false,
+      "rationale": "Kirkhill is retained as a named rural locality and does not inherit Montrose or House of Dun attractions.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4422991739"
+    },
+    {
+      "requestedName": "dun",
+      "name": "Dun",
+      "projectId": "dun-angus-scotland",
+      "region": "Angus",
+      "score": 38,
+      "dogOwnerScore": 37,
+      "publishOnTownMap": false,
+      "rationale": "Dun has a recognisable parish identity, but House of Dun is a separately assessed attraction and cannot create a tourist-town score for the settlement.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5326445161"
+    },
+    {
+      "requestedName": "brechin",
+      "name": "Brechin",
+      "projectId": "brechin-scotland",
+      "region": "Angus",
+      "score": 58,
+      "dogOwnerScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "Brechin clearly warrants a full audit, but remains immediately below the map threshold until its See, Eat, trail and practical visitor evidence is fully checked.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5312776000"
+    },
+    {
+      "requestedName": "keithock",
+      "name": "Keithock",
+      "projectId": "keithock-scotland",
+      "region": "Angus",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "Keithock is a dispersed rural locality and does not inherit Brechin attractions or private estate value.",
+      "sourceUrl": "https://www.openstreetmap.org/node/8604143226"
+    },
+    {
+      "requestedName": "logie pert",
+      "name": "Logie Pert",
+      "projectId": "logie-pert-scotland",
+      "region": "Angus",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "Logie Pert is retained separately from Logie near Craigo; parish history does not imply a complete current visitor experience.",
+      "sourceUrl": "https://www.openstreetmap.org/node/8604177547"
+    },
+    {
+      "requestedName": "muirton of ballochy",
+      "name": "Muirton of Ballochy",
+      "projectId": "muirton-of-ballochy-scotland",
+      "region": "Angus",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "A mapped rural locality rather than an independently visitable settlement; nearby river and estate features remain separate.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3998615885"
+    }
+  ]
+}

@@ -1,0 +1,1543 @@
+{
+  "project": {
+    "id": "bleddfa-powys-wales",
+    "name": "Bleddfa Townscape Guide",
+    "countryCode": "GB-WLS",
+    "country": "Wales",
+    "region": "Powys",
+    "locality": "Bleddfa",
+    "centre": [
+      -3.16454,
+      52.3081358
+    ],
+    "boundary": {
+      "type": "Feature",
+      "bbox": [
+        -3.1715400000000002,
+        52.3031358,
+        -3.15754,
+        52.313135800000005
+      ],
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Bleddfa",
+        "osmType": "node",
+        "osmId": 29274761,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.1715400000000002,
+              52.3031358
+            ],
+            [
+              -3.15754,
+              52.3031358
+            ],
+            [
+              -3.15754,
+              52.313135800000005
+            ],
+            [
+              -3.1715400000000002,
+              52.313135800000005
+            ],
+            [
+              -3.1715400000000002,
+              52.3031358
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English and Welsh",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-12T00:00:00Z",
+    "timelineStart": -12000,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-12. Local Cadw and National Monuments Record of Wales data and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 0 directly adjoining public green-space geometries and 0 reviewed visitor extensions were included in the active visitor boundary.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Bleddfa has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Bleddfa",
+      "intro": "Bleddfa has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "Mound & Bailey Castle, Bleddfa",
+        "summary": "Start with Mound & Bailey Castle, Bleddfa and Church of St. Mary Magdalene, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "Mound & Bailey Castle, Bleddfa",
+        "Church of St. Mary Magdalene",
+        "The Bleddfa Centre"
+      ],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/29274761",
+        "https://cadw.gov.wales/advice-support/cof-cymru",
+        "https://coflein.gov.uk/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-12"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "welsh-heritage:cadw-scheduled:1928",
+        "name": "Mound & Bailey Castle, Bleddfa",
+        "reason": "Mound & Bailey Castle, Bleddfa is a nationally recorded historic landmark within Bleddfa. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "castle",
+        "visitorScore": 59,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "castle",
+          "intro": "Mound & Bailey Castle, Bleddfa is a nationally recorded historic landmark within Bleddfa. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "castle",
+            "Welsh historic environment"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See Mound & Bailey Castle, Bleddfa"
+            }
+          ]
+        },
+        "sourceName": "Cof Cymru - National Historic Assets of Wales",
+        "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/sam/FullReport?lang=en&id=1928",
+        "verifiedInBoundaryAt": "2026-08-12"
+      },
+      {
+        "rank": 2,
+        "featureId": "welsh-heritage:cadw-listed:9122",
+        "name": "Church of St. Mary Magdalene",
+        "reason": "Church of St. Mary Magdalene is a nationally recorded historic landmark within Bleddfa. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "church",
+        "visitorScore": 57,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "church",
+          "intro": "Church of St. Mary Magdalene is a nationally recorded historic landmark within Bleddfa. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "church",
+            "Welsh historic environment"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See Church of St. Mary Magdalene"
+            }
+          ]
+        },
+        "sourceName": "Cof Cymru - National Historic Assets of Wales",
+        "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=9122",
+        "verifiedInBoundaryAt": "2026-08-12"
+      },
+      {
+        "rank": 3,
+        "featureId": "osm-community:way-969838920",
+        "name": "The Bleddfa Centre",
+        "reason": "The Bleddfa Centre is a curated gallery within the active Bleddfa visitor boundary.",
+        "tagline": "gallery",
+        "visitorScore": 50,
+        "freeAdmission": false,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "gallery",
+          "intro": "The Bleddfa Centre is a curated gallery within the active Bleddfa visitor boundary.",
+          "motifs": [
+            "gallery",
+            "Bleddfa"
+          ],
+          "bestFor": [
+            "Local heritage"
+          ],
+          "thingsToDo": [
+            {
+              "name": "Explore The Bleddfa Centre"
+            },
+            {
+              "name": "Notice its gallery character"
+            }
+          ]
+        },
+        "sourceName": "OpenStreetMap current community places",
+        "sourceUrl": "https://bleddfacentre.org/",
+        "verifiedInBoundaryAt": "2026-08-12"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Bleddfa",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/29274761",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-12",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -3.1715400000000002,
+          52.3031358,
+          -3.15754,
+          52.313135800000005
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Bleddfa",
+          "osmType": "node",
+          "osmId": 29274761,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.1715400000000002,
+                52.3031358
+              ],
+              [
+                -3.15754,
+                52.3031358
+              ],
+              [
+                -3.15754,
+                52.313135800000005
+              ],
+              [
+                -3.1715400000000002,
+                52.313135800000005
+              ],
+              [
+                -3.1715400000000002,
+                52.3031358
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -3.1715400000000002,
+          52.3031358,
+          -3.15754,
+          52.313135800000005
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Bleddfa",
+          "osmType": "node",
+          "osmId": 29274761,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.1715400000000002,
+                52.3031358
+              ],
+              [
+                -3.15754,
+                52.3031358
+              ],
+              [
+                -3.15754,
+                52.313135800000005
+              ],
+              [
+                -3.1715400000000002,
+                52.313135800000005
+              ],
+              [
+                -3.1715400000000002,
+                52.3031358
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -3.1715400000000002,
+          52.3031358,
+          -3.15754,
+          52.313135800000005
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Bleddfa",
+          "osmType": "node",
+          "osmId": 29274761,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.1715400000000002,
+                52.3031358
+              ],
+              [
+                -3.15754,
+                52.3031358
+              ],
+              [
+                -3.15754,
+                52.313135800000005
+              ],
+              [
+                -3.1715400000000002,
+                52.313135800000005
+              ],
+              [
+                -3.1715400000000002,
+                52.3031358
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes directly adjoining mapped public green spaces (none) and reviewed visitor extensions (none)."
+    }
+  },
+  "features": [
+    {
+      "id": "welsh-heritage:cadw-listed:9122",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Church of St. Mary Magdalene",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "I",
+      "significance": "highest_national",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1652027794137183,
+          52.30781513169033
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "Church of St. Mary Magdalene is a nationally recorded historic landmark within Bleddfa. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "9122",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=9122",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+      "attractionGuide": {
+        "headline": "church",
+        "intro": "Church of St. Mary Magdalene is a nationally recorded historic landmark within Bleddfa. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "church",
+          "Welsh historic environment"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See Church of St. Mary Magdalene"
+          }
+        ]
+      }
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:9123",
+      "projectId": "bleddfa-powys-wales",
+      "name": "L-Plan range of outbuildings at Dolassey Farm",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1680994405677265,
+          52.31254258707483
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "9123",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=9123",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:26025",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Bleddfa Old Rectory",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1650939659408324,
+          52.308139870168795
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "26025",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=26025",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-scheduled:1928",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Mound & Bailey Castle, Bleddfa",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "castle",
+      "designationType": "scheduled_monument",
+      "significance": "highest_national",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1622227799783182,
+          52.307161207290044
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Medieval",
+      "earliestPossibleYear": 1066,
+      "latestPossibleYear": 1539,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "Mound & Bailey Castle, Bleddfa is a nationally recorded historic landmark within Bleddfa. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "1928",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/sam/FullReport?lang=en&id=1928",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-scheduled",
+        "cadw-scheduled-monument",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+      "attractionGuide": {
+        "headline": "castle",
+        "intro": "Mound & Bailey Castle, Bleddfa is a nationally recorded historic landmark within Bleddfa. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "castle",
+          "Welsh historic environment"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See Mound & Bailey Castle, Bleddfa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "welsh-heritage:nmrw:40273",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Bleddfa Corn and Saw Mill, Bleddfa",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "mill",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1631863,
+          52.30699
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "40273",
+          "sourceUrl": "https://coflein.gov.uk/en/site/40273",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:81893",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Church Barn, Bleddfa",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "church",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1661356,
+          52.30759
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "81893",
+          "sourceUrl": "https://coflein.gov.uk/en/site/81893",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:30754",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Hundred House Inn",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1640803,
+          52.307521
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "30754",
+          "sourceUrl": "https://coflein.gov.uk/en/site/30754",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:98299",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Dolassey Cowhouse",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1683211,
+          52.312603
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "98299",
+          "sourceUrl": "https://coflein.gov.uk/en/site/98299",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:8227",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Primitive Methodist Chapel, Bleddfa",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "church",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1691889,
+          52.306571
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "8227",
+          "sourceUrl": "https://coflein.gov.uk/en/site/8227",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:81925",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Dolassey",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1678764,
+          52.312428
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "81925",
+          "sourceUrl": "https://coflein.gov.uk/en/site/81925",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:22766",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Dolassey Farm",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1678764,
+          52.312428
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "22766",
+          "sourceUrl": "https://coflein.gov.uk/en/site/22766",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:96537",
+      "projectId": "bleddfa-powys-wales",
+      "name": "St Mary's Church, Bleddfa",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "church",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1652605,
+          52.307779
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval; Medieval",
+      "earliestPossibleYear": 1066,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval; Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "96537",
+          "sourceUrl": "https://coflein.gov.uk/en/site/96537",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval; Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:413075",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Elan Aqueduct: Dolau Tunnel Bleddfa Shaft",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1627461,
+          52.305861
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "19th Century; Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period 19th Century; Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "413075",
+          "sourceUrl": "https://coflein.gov.uk/en/site/413075",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: 19th Century; Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:96576",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Old Rectory, Bleddfa",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1651233,
+          52.30814
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "96576",
+          "sourceUrl": "https://coflein.gov.uk/en/site/96576",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:81492",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Post Office",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1643783,
+          52.307697
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "81492",
+          "sourceUrl": "https://coflein.gov.uk/en/site/81492",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:418096",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Former School, Bleddfa",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1649443,
+          52.307467
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "19th Century",
+      "earliestPossibleYear": 1801,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period 19th Century.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "418096",
+          "sourceUrl": "https://coflein.gov.uk/en/site/418096",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: 19th Century."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:307265",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Pen-y-Bryn, Bleddfa",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1633212,
+          52.306539
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "307265",
+          "sourceUrl": "https://coflein.gov.uk/en/site/307265",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:306354",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Bleddfa Castle;Bledeach Castle;Bledvach Castle",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "castle",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1623089,
+          52.307088
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Medieval",
+      "earliestPossibleYear": 1066,
+      "latestPossibleYear": 1539,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "Bleddfa Castle;Bledeach Castle;Bledvach Castle is a nationally recorded historic landmark within Bleddfa. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "306354",
+          "sourceUrl": "https://coflein.gov.uk/en/site/306354",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Bleddfa visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+      "attractionGuide": {
+        "headline": "castle",
+        "intro": "Bleddfa Castle;Bledeach Castle;Bledvach Castle is a nationally recorded historic landmark within Bleddfa. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "castle",
+          "Welsh historic environment"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See Bleddfa Castle;Bledeach Castle;Bledvach Castle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osm-community:node-5012701845",
+      "projectId": "bleddfa-powys-wales",
+      "name": "Bleddfa Castle",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "archaeological_site",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1624291,
+          52.3072305
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Bleddfa Castle is a curated archaeological site within the active Bleddfa visitor boundary.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "node/5012701845",
+          "sourceUrl": "https://www.openstreetmap.org/node/5012701845",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "historic=archaeological_site; name=Bleddfa Castle; name:cy=Castell Bleddfa; wikidata=Q4925839; wikipedia=en:Bleddfa Castle; visit_score=46"
+        }
+      ],
+      "tags": [
+        "service-context-visitor",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-12.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "attractionGuide": {
+        "headline": "archaeological site",
+        "intro": "Bleddfa Castle is a curated archaeological site within the active Bleddfa visitor boundary.",
+        "motifs": [
+          "archaeological site",
+          "Bleddfa"
+        ],
+        "bestFor": [
+          "Local heritage"
+        ],
+        "thingsToDo": [
+          {
+            "name": "Explore Bleddfa Castle"
+          },
+          {
+            "name": "Notice its archaeological site character"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osm-community:way-969838920",
+      "projectId": "bleddfa-powys-wales",
+      "name": "The Bleddfa Centre",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Powys",
+      "locality": "Bleddfa",
+      "featureType": "gallery",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1649782,
+          52.3074734
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "The Bleddfa Centre is a curated gallery within the active Bleddfa visitor boundary.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/969838920",
+          "sourceUrl": "https://bleddfacentre.org/",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "addr:city=Knighton; addr:country=GB; addr:postcode=LD7 1PA; addr:suburb=Bleddfa; alt_name=Bleddfa Centre for the Creative Spirit; amenity=cafe; building=yes; cuisine=coffee_shop; name=The Bleddfa Centre; phone=+44 1547 550377; ref:GB:uprn=10090729310; shop=art; source=Bing; tourism=gallery; website=https://bleddfacentre.org/; visit_score=50"
+        }
+      ],
+      "tags": [
+        "service-context-visitor",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-12.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "attractionGuide": {
+        "headline": "gallery",
+        "intro": "The Bleddfa Centre is a curated gallery within the active Bleddfa visitor boundary.",
+        "motifs": [
+          "gallery",
+          "Bleddfa"
+        ],
+        "bestFor": [
+          "Local heritage"
+        ],
+        "thingsToDo": [
+          {
+            "name": "Explore The Bleddfa Centre"
+          },
+          {
+            "name": "Notice its gallery character"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "bleddfa-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Bleddfa settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/29274761",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "cadw-cof-cymru-local",
+      "name": "Cof Cymru - National Historic Assets of Wales",
+      "organisation": "Cadw",
+      "coverage": "Bleddfa statutory designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://cadw.gov.wales/advice-support/cof-cymru",
+      "reliability": "official_statutory",
+      "limitations": "Period fields are retained where supplied; many listed-building records do not include construction dates in the national export."
+    },
+    {
+      "id": "rcahmw-nmrw-local",
+      "name": "National Monuments Record of Wales",
+      "organisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+      "coverage": "Bleddfa terrestrial historic records inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://coflein.gov.uk/",
+      "reliability": "official_non_statutory",
+      "limitations": "Records may overlap statutory designations and period classifications can be broad."
+    },
+    {
+      "id": "bleddfa-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Bleddfa visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

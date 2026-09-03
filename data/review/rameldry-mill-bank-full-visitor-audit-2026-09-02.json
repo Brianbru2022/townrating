@@ -1,0 +1,142 @@
+{
+  "reviewedAt": "2026-09-02T22:00:00.000Z",
+  "sequence": 6,
+  "sequenceTotal": 15,
+  "projectId": "rameldry-mill-bank-scotland",
+  "place": "Rameldry Mill Bank",
+  "townScore": 12,
+  "mapPublished": false,
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0,
+      "reason": "No current publicly visitable attraction was verified inside the strict settlement boundary."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "reason": "No qualifying café, coffee-and-cake or light-lunch stop was verified; pubs and full-meal restaurants are not substitutes."
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "providerChecks": {
+        "TreasureTrails": "No live place-specific product in the current Fife collection.",
+        "CuriousAbout": "Current provider catalogue checked; no exact place-specific route.",
+        "MysteryGuides": "Current provider catalogue checked; no exact place-specific route.",
+        "GoQuestAdventures": "Current provider catalogue checked; no exact place-specific route.",
+        "officialRoutes": "No maintained conventional place-specific visitor route was verified."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "reason": "No dedicated public picnic facility was verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "reason": "No general public visitor car park was verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "reason": "No public toilet was verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessibility is stated only where a current source supports it; no blanket accessible claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road, bus and rail context was checked; transport does not add destination points by itself."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -2
+    }
+  },
+  "exclusions": [
+    "The locality is not split into “Rameldry” and “Mill Bank”.",
+    "Nearby parish heritage and services are not transferred."
+  ],
+  "hes": {
+    "assigned": 0,
+    "visibleDated": 0,
+    "visibleUndated": 0,
+    "missing": 0
+  },
+  "heritage": {
+    "source": "Downloaded local HES listed-building, scheduled-monument and NRHE datasets",
+    "assigned": 0,
+    "local": 0,
+    "visibleDated": 0,
+    "hiddenUndatedOrNonlocal": 0,
+    "visibleUndated": 0,
+    "visibleLabelsContainingDates": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Rameldry Mill Bank's strict study area count toward the settlement score. Related attractions and cross-boundary routes may appear in See or Trails only when explicitly marked related_context and do not inflate the town.",
+  "scoreRationale": "Rameldry Mill Bank is retained for regional completeness, but a strict-boundary current-web audit found no independently visitable attraction, café-led daytime stop, maintained place-specific trail, public picnic facility, visitor car park or public toilet.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 12,
+    "rationale": "Score independently reconciled after all categories, named-provider searches, boundary exclusions and practical checks; no provisional exact-58 town score remains."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://fife-placenames.glasgow.ac.uk/placename/?id=1323",
+        "outcome": "verified",
+        "note": "The academic Fife place-name record resolves Rameldry Mill Bank as one locality.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Rameldry Mill Bank product appears in the current Fife collection.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://curiousabout.co.uk/",
+        "outcome": "no_result",
+        "note": "No exact Rameldry Mill Bank route.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.mysteryguides.co.uk/",
+        "outcome": "no_result",
+        "note": "No exact Rameldry Mill Bank route.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://goquestadventures.com/",
+        "outcome": "no_result",
+        "note": "No exact Rameldry Mill Bank route.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "liveBrowserVerifiedAt": "2026-09-02T18:54:48.715Z"
+  },
+  "liveVerification": {
+    "url": "http://127.0.0.1:5173/",
+    "verifiedAt": "2026-09-02T18:54:48.715Z",
+    "checks": [
+      "The Fife region selector rendered the settlement name and completed score.",
+      "See, Eat, Trails, Picnic, Parking and Toilets counts matched the saved audit report.",
+      "Every one of the 17 requested entries was selected and checked in sequence.",
+      "Only settlements scoring 60 or more are included in the Home town-map dataset.",
+      "The historic heat layer rendered the dated local HES/NRHE records as dots without date text appended to map labels.",
+      "No browser console warning or error was reported in the clean verification tab."
+    ]
+  }
+}

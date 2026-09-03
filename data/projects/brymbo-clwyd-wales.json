@@ -1,0 +1,1668 @@
+{
+  "project": {
+    "id": "brymbo-clwyd-wales",
+    "name": "Brymbo Townscape Guide",
+    "countryCode": "GB-WLS",
+    "country": "Wales",
+    "region": "Clwyd",
+    "locality": "Brymbo",
+    "centre": [
+      -3.0607814,
+      53.0766362
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Brymbo",
+        "osmType": "node",
+        "osmId": 340368123,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [
+          "OSM way 575642966",
+          "OSM way 575642982",
+          "OSM way 575619639"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.0677814000000003,
+              53.0716362
+            ],
+            [
+              -3.0537814,
+              53.0716362
+            ],
+            [
+              -3.0537814,
+              53.081636200000005
+            ],
+            [
+              -3.0677814000000003,
+              53.081636200000005
+            ],
+            [
+              -3.0677814000000003,
+              53.0716362
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English and Welsh",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-11T00:00:00Z",
+    "timelineStart": -12000,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-11. Local Cadw and National Monuments Record of Wales data and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 3 directly adjoining public green-space geometries and 0 reviewed visitor extensions were included in the active visitor boundary.",
+    "touristAppeal": {
+      "rating": 1,
+      "label": "Local detour",
+      "summary": "Brymbo qualifies as a local detour through Stori Brymbo and Church of Saint Mary. It is best treated as a shorter stop rather than a half-day destination."
+    },
+    "townGuide": {
+      "headline": "Brymbo: local heritage, daytime stops and an easy settlement wander",
+      "intro": "Brymbo offers Stori Brymbo, Church of Saint Mary within a compact settlement visit, supported by curated daytime food and practical facilities where mapped.",
+      "bestFor": [
+        "Local heritage",
+        "Short settlement walks",
+        "Daytime stops"
+      ],
+      "perfectFor": [
+        "A short local detour",
+        "Visitors exploring Clwyd"
+      ],
+      "suggestedFirstVisit": {
+        "title": "Stori Brymbo",
+        "summary": "Start with Stori Brymbo and Church of Saint Mary, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "Stori Brymbo",
+        "Church of Saint Mary"
+      ],
+      "suggestedTime": "One to three hours",
+      "visitorMood": "A low-key, evidence-led local visit.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/340368123",
+        "https://cadw.gov.wales/advice-support/cof-cymru",
+        "https://coflein.gov.uk/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-11"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "osm-community:node-13478071097",
+        "name": "Stori Brymbo",
+        "reason": "Stori Brymbo is a curated museum within the active Brymbo visitor boundary.",
+        "tagline": "Recommended",
+        "visitorScore": 76,
+        "freeAdmission": false,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "Recommended",
+          "intro": "Stori Brymbo is a curated museum within the active Brymbo visitor boundary.",
+          "motifs": [
+            "museum",
+            "Brymbo"
+          ],
+          "bestFor": [
+            "Local heritage"
+          ],
+          "thingsToDo": [
+            {
+              "name": "Explore Stori Brymbo"
+            },
+            {
+              "name": "Notice its museum character"
+            }
+          ]
+        },
+        "sourceName": "OpenStreetMap current community places",
+        "sourceUrl": "https://storibrymbo.co.uk/",
+        "verifiedInBoundaryAt": "2026-08-11"
+      },
+      {
+        "rank": 2,
+        "featureId": "welsh-heritage:cadw-listed:13389",
+        "name": "Church of Saint Mary",
+        "reason": "Church of Saint Mary is a nationally recorded historic landmark within Brymbo. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "church",
+        "visitorScore": 50,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "church",
+          "intro": "Church of Saint Mary is a nationally recorded historic landmark within Brymbo. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "church",
+            "Welsh historic environment"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See Church of Saint Mary"
+            }
+          ]
+        },
+        "sourceName": "Cof Cymru - National Historic Assets of Wales",
+        "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=13389",
+        "verifiedInBoundaryAt": "2026-08-11"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Brymbo",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/340368123",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-11",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -3.0677814000000003,
+          53.0716362,
+          -3.0537814,
+          53.081636200000005
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Brymbo",
+          "osmType": "node",
+          "osmId": 340368123,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.0677814000000003,
+                53.0716362
+              ],
+              [
+                -3.0537814,
+                53.0716362
+              ],
+              [
+                -3.0537814,
+                53.081636200000005
+              ],
+              [
+                -3.0677814000000003,
+                53.081636200000005
+              ],
+              [
+                -3.0677814000000003,
+                53.0716362
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -3.0677814000000003,
+          53.0716362,
+          -3.0537814,
+          53.081636200000005
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Brymbo",
+          "osmType": "node",
+          "osmId": 340368123,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.0677814000000003,
+                53.0716362
+              ],
+              [
+                -3.0537814,
+                53.0716362
+              ],
+              [
+                -3.0537814,
+                53.081636200000005
+              ],
+              [
+                -3.0677814000000003,
+                53.081636200000005
+              ],
+              [
+                -3.0677814000000003,
+                53.0716362
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Brymbo",
+          "osmType": "node",
+          "osmId": 340368123,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [
+            "OSM way 575642966",
+            "OSM way 575642982",
+            "OSM way 575619639"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.0677814000000003,
+                53.0716362
+              ],
+              [
+                -3.0537814,
+                53.0716362
+              ],
+              [
+                -3.0537814,
+                53.081636200000005
+              ],
+              [
+                -3.0677814000000003,
+                53.081636200000005
+              ],
+              [
+                -3.0677814000000003,
+                53.0716362
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes directly adjoining mapped public green spaces (OSM way 575642966, OSM way 575642982, OSM way 575619639) and reviewed visitor extensions (none)."
+    }
+  },
+  "features": [
+    {
+      "id": "welsh-heritage:cadw-listed:1731",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Former Agent's House at site of Brymbo Ironworks",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II*",
+      "significance": "national",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0541891780434,
+          53.073829685472795
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Cadw, Grade II*.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "1731",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=1731",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-listed:13389",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Church of Saint Mary",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0538198674257333,
+          53.08132118465756
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "Church of Saint Mary is a nationally recorded historic landmark within Brymbo. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "13389",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/listedbuilding/FullReport?lang=en&id=13389",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official Welsh historic-environment record; no defensible construction period was supplied in this export."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-listed",
+        "cadw-listed-building",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+      "attractionGuide": {
+        "headline": "church",
+        "intro": "Church of Saint Mary is a nationally recorded historic landmark within Brymbo. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "church",
+          "Welsh historic environment"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See Church of Saint Mary"
+          }
+        ]
+      }
+    },
+    {
+      "id": "welsh-heritage:cadw-scheduled:1016",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Offa's Dyke: Mountain View Section",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "scheduled_monument",
+      "significance": "highest_national",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0627641069143077,
+          53.08078316197186
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Early Medieval",
+      "earliestPossibleYear": 411,
+      "latestPossibleYear": 1065,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "scheduled monument recorded by Cadw; recorded period Early Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "1016",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/sam/FullReport?lang=en&id=1016",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Early Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-scheduled",
+        "cadw-scheduled-monument"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-scheduled:3799",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Offa's Dyke: Section South of Brymbo Colliery",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "scheduled_monument",
+      "significance": "highest_national",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0600544274799413,
+          53.07197068178917
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Early Medieval",
+      "earliestPossibleYear": 411,
+      "latestPossibleYear": 1065,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "scheduled monument recorded by Cadw; recorded period Early Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "3799",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/sam/FullReport?lang=en&id=3799",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Early Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-scheduled",
+        "cadw-scheduled-monument"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-scheduled:3811",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Brymbo Ironworks: Early Blast Furnace, Cast House & Foundry",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "scheduled_monument",
+      "significance": "highest_national",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.054424228932896,
+          53.07428606557016
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval/Modern",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 2026,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "scheduled monument recorded by Cadw; recorded period Post Medieval/Modern.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "3811",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/sam/FullReport?lang=en&id=3811",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval/Modern."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-scheduled",
+        "cadw-scheduled-monument"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:cadw-scheduled:3818",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Offa's Dyke: Brymbo Hill Section",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "scheduled_monument",
+      "significance": "highest_national",
+      "statutoryStatus": "Cadw designated historic asset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0619185019356503,
+          53.07796801821068
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Early Medieval",
+      "earliestPossibleYear": 411,
+      "latestPossibleYear": 1065,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "scheduled monument recorded by Cadw; recorded period Early Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "Cof Cymru - National Historic Assets of Wales",
+          "sourceOrganisation": "Cadw",
+          "sourceRecordId": "3818",
+          "sourceUrl": "http://cadwpublic-api.azurewebsites.net/reports/sam/FullReport?lang=en&id=3818",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Early Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "cadw-scheduled",
+        "cadw-scheduled-monument"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:418128",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Brymbo Iron Works, Patternmaker & Carpenters Workshop; Brymbo Ironworks",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0541527,
+          53.074172
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "18th Century",
+      "earliestPossibleYear": 1701,
+      "latestPossibleYear": 1800,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period 18th Century.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "418128",
+          "sourceUrl": "https://coflein.gov.uk/en/site/418128",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: 18th Century."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:275795",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Offa's Dyke: Mountain View Section",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0630207,
+          53.080898
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Early Medieval",
+      "earliestPossibleYear": 411,
+      "latestPossibleYear": 1065,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Early Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "275795",
+          "sourceUrl": "https://coflein.gov.uk/en/site/275795",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Early Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:26839",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Brymbo Iron Works, Agent's House; Brymbo Ironworks",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.054174,
+          53.073821
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "19th Century",
+      "earliestPossibleYear": 1801,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period 19th Century.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "26839",
+          "sourceUrl": "https://coflein.gov.uk/en/site/26839",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: 19th Century."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:34054",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Brymbo Iron Works; Brymbo Ironworks",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0546533,
+          53.0745
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "18th Century; 19th Century; 20th Century; Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 2000,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period 18th Century; 19th Century; 20th Century; Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "34054",
+          "sourceUrl": "https://coflein.gov.uk/en/site/34054",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: 18th Century; 19th Century; 20th Century; Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:410986",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Brymbo Council School;St Mary's Aided School, Brymbo",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0544845,
+          53.079194
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "20th Century",
+      "earliestPossibleYear": 1901,
+      "latestPossibleYear": 2000,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period 20th Century.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "410986",
+          "sourceUrl": "https://coflein.gov.uk/en/site/410986",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: 20th Century."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:7517",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Engedi Calvinistic Methodist Chapel, High Street, Brymbo;Harewood;Harwt",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "church",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0548707,
+          53.077285
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "7517",
+          "sourceUrl": "https://coflein.gov.uk/en/site/7517",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:26817",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Brake Row Nos 2-4",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0604846,
+          53.074897
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "26817",
+          "sourceUrl": "https://coflein.gov.uk/en/site/26817",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:7522",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Brymbo English Wesleyan Methodist Chapel, High Street, Brymbo;Bethel;Mount",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "church",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0550156,
+          53.077104
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "7522",
+          "sourceUrl": "https://coflein.gov.uk/en/site/7522",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:85316",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Bandstand, Mount Zion, Brymbo",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.066387,
+          53.078171
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "85316",
+          "sourceUrl": "https://coflein.gov.uk/en/site/85316",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:34056",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Brymbo Iron Works,Cast House & Foundry; Brymbo Ironworks",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0544997,
+          53.074321
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval; 18th Century; 19th Century",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval; 18th Century; 19th Century.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "34056",
+          "sourceUrl": "https://coflein.gov.uk/en/site/34056",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval; 18th Century; 19th Century."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:418127",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Brymbo Iron Works, Charging Wall; Brymbo Ironworks",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0543037,
+          53.074853
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval; 18th Century; 19th Century",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval; 18th Century; 19th Century.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "418127",
+          "sourceUrl": "https://coflein.gov.uk/en/site/418127",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval; 18th Century; 19th Century."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:34055",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Brymbo Iron Works, 'Old Number on e' Blast Furnace; Brymbo Ironworks",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0545063,
+          53.074591
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "19th Century",
+      "earliestPossibleYear": 1801,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period 19th Century.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "34055",
+          "sourceUrl": "https://coflein.gov.uk/en/site/34055",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: 19th Century."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:40769",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Caello Brickworks",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0658411,
+          53.080243
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "40769",
+          "sourceUrl": "https://coflein.gov.uk/en/site/40769",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:423979",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Brymbo, Wrexham",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0581026,
+          53.076375
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Multiperiod",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Multiperiod.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "423979",
+          "sourceUrl": "https://coflein.gov.uk/en/site/423979",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Multiperiod."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:275755",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Offa's Dyke: Brymbo Hill Section",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "other",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0620544,
+          53.07803
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "Early Medieval",
+      "earliestPossibleYear": 411,
+      "latestPossibleYear": 1065,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period Early Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "275755",
+          "sourceUrl": "https://coflein.gov.uk/en/site/275755",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: Early Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "welsh-heritage:nmrw:7515",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Tabernacl Welsh Baptist Chapel, High Street, Brymbo;Pen-y-Graig;Harwt",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "church",
+      "designationType": "national_monuments_record",
+      "significance": "regional",
+      "statutoryStatus": "National Monuments Record of Wales",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0541464,
+          53.07819
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "documentedDateText": "19th Century; Post Medieval",
+      "earliestPossibleYear": 1540,
+      "latestPossibleYear": 1900,
+      "datePrecision": "period_range",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "national monuments record recorded by Royal Commission on the Ancient and Historical Monuments of Wales; recorded period 19th Century; Post Medieval.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Monuments Record of Wales",
+          "sourceOrganisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+          "sourceRecordId": "7515",
+          "sourceUrl": "https://coflein.gov.uk/en/site/7515",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "official_non_statutory",
+          "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data.",
+          "notes": "Official record with period classification: 19th Century; Post Medieval."
+        }
+      ],
+      "tags": [
+        "welsh-heritage",
+        "nmrw",
+        "nmrw-site"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Welsh national heritage downloads and filtered against the active Brymbo visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Cadw or RCAHMW data."
+    },
+    {
+      "id": "osm-community:node-13478071097",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Stori Brymbo",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "museum",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0539497,
+          53.0743969
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Stori Brymbo is a curated museum within the active Brymbo visitor boundary.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "node/13478071097",
+          "sourceUrl": "https://storibrymbo.co.uk/",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "addr:postcode=LL11 5AX; museum=history; name=Stori Brymbo; name:cy=Stori Brymbo; name:en=Stori Brymbo; operator=Brymbo Heritage Trust; operator:type=charitable; phone=+44 800 772 0981; tourism=museum; website=https://storibrymbo.co.uk/; visit_score=76"
+        }
+      ],
+      "tags": [
+        "service-context-visitor",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-11.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "attractionGuide": {
+        "headline": "Recommended",
+        "intro": "Stori Brymbo is a curated museum within the active Brymbo visitor boundary.",
+        "motifs": [
+          "museum",
+          "Brymbo"
+        ],
+        "bestFor": [
+          "Local heritage"
+        ],
+        "thingsToDo": [
+          {
+            "name": "Explore Stori Brymbo"
+          },
+          {
+            "name": "Notice its museum character"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osm-community:node-13604511848",
+      "projectId": "brymbo-clwyd-wales",
+      "name": "Eat with Kev",
+      "alternativeNames": [],
+      "countryCode": "GB-WLS",
+      "region": "Clwyd",
+      "locality": "Brymbo",
+      "featureType": "cafe",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0542329,
+          53.0754236
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Eat with Kev is a curated daytime coffee, cake or lunch stop within Brymbo.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "node/13604511848",
+          "sourceUrl": "https://www.openstreetmap.org/node/13604511848",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "amenity=cafe; name=Eat with Kev; visit_score=70; price_band=Check current menu"
+        }
+      ],
+      "tags": [
+        "service-context-food",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-11.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    }
+  ],
+  "sources": [
+    {
+      "id": "brymbo-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Brymbo settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/340368123",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "cadw-cof-cymru-local",
+      "name": "Cof Cymru - National Historic Assets of Wales",
+      "organisation": "Cadw",
+      "coverage": "Brymbo statutory designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://cadw.gov.wales/advice-support/cof-cymru",
+      "reliability": "official_statutory",
+      "limitations": "Period fields are retained where supplied; many listed-building records do not include construction dates in the national export."
+    },
+    {
+      "id": "rcahmw-nmrw-local",
+      "name": "National Monuments Record of Wales",
+      "organisation": "Royal Commission on the Ancient and Historical Monuments of Wales",
+      "coverage": "Brymbo terrestrial historic records inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://coflein.gov.uk/",
+      "reliability": "official_non_statutory",
+      "limitations": "Records may overlap statutory designations and period classifications can be broad."
+    },
+    {
+      "id": "brymbo-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Brymbo visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

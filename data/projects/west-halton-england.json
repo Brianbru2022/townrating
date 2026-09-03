@@ -1,0 +1,803 @@
+{
+  "project": {
+    "id": "west-halton-england",
+    "name": "West Halton Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "North Lincolnshire",
+    "locality": "West Halton",
+    "centre": [
+      -0.6307715,
+      53.6777943
+    ],
+    "boundary": {
+      "type": "Feature",
+      "bbox": [
+        -0.6377715,
+        53.6727943,
+        -0.6237715,
+        53.682794300000005
+      ],
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "West Halton",
+        "osmType": "relation",
+        "osmId": 1281652,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.6377715,
+              53.6727943
+            ],
+            [
+              -0.6237715,
+              53.6727943
+            ],
+            [
+              -0.6237715,
+              53.682794300000005
+            ],
+            [
+              -0.6377715,
+              53.682794300000005
+            ],
+            [
+              -0.6377715,
+              53.6727943
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-10T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-10. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 0 directly adjoining public green-space geometries were included in the active visitor boundary.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "West Halton has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to West Halton",
+      "intro": "West Halton has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "CHURCH OF ST ETHELDREDA",
+        "summary": "Start with CHURCH OF ST ETHELDREDA, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "CHURCH OF ST ETHELDREDA"
+      ],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/relation/1281652",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-10"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "historic-england:nhle:1260344",
+        "name": "CHURCH OF ST ETHELDREDA",
+        "reason": "CHURCH OF ST ETHELDREDA is a nationally recorded historic landmark within West Halton. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "church",
+        "visitorScore": 60,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "church",
+          "intro": "CHURCH OF ST ETHELDREDA is a nationally recorded historic landmark within West Halton. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "church",
+            "Historic England designation"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See CHURCH OF ST ETHELDREDA"
+            }
+          ]
+        },
+        "sourceName": "National Heritage List for England",
+        "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1260344",
+        "verifiedInBoundaryAt": "2026-08-10"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "West Halton",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/relation/1281652",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-10",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -0.6377715,
+          53.6727943,
+          -0.6237715,
+          53.682794300000005
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "West Halton",
+          "osmType": "relation",
+          "osmId": 1281652,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.6377715,
+                53.6727943
+              ],
+              [
+                -0.6237715,
+                53.6727943
+              ],
+              [
+                -0.6237715,
+                53.682794300000005
+              ],
+              [
+                -0.6377715,
+                53.682794300000005
+              ],
+              [
+                -0.6377715,
+                53.6727943
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -0.6377715,
+          53.6727943,
+          -0.6237715,
+          53.682794300000005
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "West Halton",
+          "osmType": "relation",
+          "osmId": 1281652,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.6377715,
+                53.6727943
+              ],
+              [
+                -0.6237715,
+                53.6727943
+              ],
+              [
+                -0.6237715,
+                53.682794300000005
+              ],
+              [
+                -0.6377715,
+                53.682794300000005
+              ],
+              [
+                -0.6377715,
+                53.6727943
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -0.6377715,
+          53.6727943,
+          -0.6237715,
+          53.682794300000005
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "West Halton",
+          "osmType": "relation",
+          "osmId": 1281652,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.6377715,
+                53.6727943
+              ],
+              [
+                -0.6237715,
+                53.6727943
+              ],
+              [
+                -0.6237715,
+                53.682794300000005
+              ],
+              [
+                -0.6377715,
+                53.682794300000005
+              ],
+              [
+                -0.6377715,
+                53.6727943
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes only directly adjoining mapped public green spaces: none."
+    }
+  },
+  "features": [
+    {
+      "id": "historic-england:nhle:1435726",
+      "projectId": "west-halton-england",
+      "name": "Bronze Age bowl barrow, Anglo-Saxon settlement and medieval manorial settlement",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "North Lincolnshire",
+      "locality": "West Halton",
+      "featureType": "country_house",
+      "designationType": "scheduled_monument",
+      "significance": "highest_national",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6315625237791216,
+          53.67696305741811
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "scheduled monument recorded by Historic England.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1435726",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1435726",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "scheduled-monument"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active West Halton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1260344",
+      "projectId": "west-halton-england",
+      "name": "CHURCH OF ST ETHELDREDA",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "North Lincolnshire",
+      "locality": "West Halton",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II*",
+      "significance": "national",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.631277417657553,
+          53.6762017950761
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "CHURCH OF ST ETHELDREDA is a nationally recorded historic landmark within West Halton. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1260344",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1260344",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active West Halton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "attractionGuide": {
+        "headline": "church",
+        "intro": "CHURCH OF ST ETHELDREDA is a nationally recorded historic landmark within West Halton. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "church",
+          "Historic England designation"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See CHURCH OF ST ETHELDREDA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "historic-england:nhle:1241769",
+      "projectId": "west-halton-england",
+      "name": "GLEBE FARMHOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "North Lincolnshire",
+      "locality": "West Halton",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.632078628901506,
+          53.6748356777094
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1241769",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1241769",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active West Halton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1242501",
+      "projectId": "west-halton-england",
+      "name": "MANOR COTTAGE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "North Lincolnshire",
+      "locality": "West Halton",
+      "featureType": "country_house",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.630011968234982,
+          53.6769423709242
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1242501",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1242501",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active West Halton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "osm-community:node-2225125274",
+      "projectId": "west-halton-england",
+      "name": "The Blue Dog",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "North Lincolnshire",
+      "locality": "West Halton",
+      "featureType": "pub",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6277252,
+          53.6778096
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "The Blue Dog is a curated daytime coffee, cake or lunch stop within West Halton.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "node/2225125274",
+          "sourceUrl": "https://www.openstreetmap.org/node/2225125274",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "addr:city=West Halton; addr:housename=The Blue Dog; addr:street=White House Lane; amenity=pub; brewery=guiness;carlin;worthingtons;various; cuisine=regional;burger;sandwich;steak_house;fish_and_chips; name=The Blue Dog; smoking=isolated; visit_score=65; price_band=Check current menu"
+        }
+      ],
+      "tags": [
+        "service-context-food",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-10.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    },
+    {
+      "id": "historic-england:nhle:1117352",
+      "projectId": "west-halton-england",
+      "name": "THE HOLLIES FARMHOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "North Lincolnshire",
+      "locality": "West Halton",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.627717145221966,
+          53.6767452953438
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1117352",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1117352",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active West Halton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1241768",
+      "projectId": "west-halton-england",
+      "name": "THE MANOR HOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "North Lincolnshire",
+      "locality": "West Halton",
+      "featureType": "country_house",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.629643238054272,
+          53.6766415213058
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1241768",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1241768",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active West Halton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1242533",
+      "projectId": "west-halton-england",
+      "name": "THE OLD RECTORY",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "North Lincolnshire",
+      "locality": "West Halton",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.632218905364709,
+          53.6751788532056
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1242533",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1242533",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active West Halton visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "osm-picnic-rest:node-12344310618",
+      "projectId": "west-halton-england",
+      "name": "West Halton & Coleby Village Hall rest bench",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "North Lincolnshire",
+      "locality": "West Halton",
+      "featureType": "bench",
+      "significance": "recognised",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6325166,
+          53.6772765
+        ]
+      },
+      "locationType": "exact",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "A public rest bench included because West Halton has fewer than five mapped picnic locations. It is useful for a pause, not presented as a formal picnic area.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current picnic and rest facilities",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "node/12344310618",
+          "sourceUrl": "https://www.openstreetmap.org/node/12344310618",
+          "accessedAt": "2026-08-11T00:00:00Z",
+          "licence": "Open Database Licence (ODbL) v1.0; (c) OpenStreetMap contributors.",
+          "notes": "Curated from great-britain-latest.osm.pbf. Current OSM tags: amenity=bench.",
+          "reliability": "discovery_only"
+        }
+      ],
+      "licence": "Open Database Licence (ODbL) v1.0; (c) OpenStreetMap contributors.",
+      "tags": [
+        "current-context",
+        "osm-community-place",
+        "service-context-picnic",
+        "picnic-rest-fallback"
+      ],
+      "createdAt": "2026-08-11T00:00:00Z",
+      "updatedAt": "2026-08-11T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Public OSM bench checked inside the active visitor boundary and curated as a sparse-town rest fallback. It is not counted as a formal picnic facility.",
+      "evidenceScope": "parish_evidence"
+    }
+  ],
+  "sources": [
+    {
+      "id": "west-halton-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "West Halton settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/relation/1281652",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "West Halton designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "west-halton-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "West Halton visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

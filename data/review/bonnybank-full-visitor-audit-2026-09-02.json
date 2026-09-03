@@ -1,0 +1,130 @@
+{
+  "reviewedAt": "2026-09-02T22:00:00.000Z",
+  "sequence": 10,
+  "sequenceTotal": 15,
+  "projectId": "bonnybank-scotland",
+  "place": "Bonnybank",
+  "townScore": 44,
+  "mapPublished": false,
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0,
+      "reason": "No independent visitable attraction was verified."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "reason": "No qualifying café was verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 2,
+      "providerChecks": {
+        "TreasureTrails": "No live place-specific product in the current Fife collection.",
+        "CuriousAbout": "Current provider catalogue checked; no exact place-specific route.",
+        "MysteryGuides": "Current provider catalogue checked; no exact place-specific route.",
+        "GoQuestAdventures": "Current provider catalogue checked; no exact place-specific route.",
+        "officialRoutes": "Fife Pilgrim Way and Walk Fife routes genuinely pass through the hamlet."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "reason": "No dedicated public picnic facility was verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "reason": "No general visitor car park was verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "reason": "No public toilet was verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessibility is stated only where a current source supports it; no blanket accessible claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road, bus and rail context was checked; transport does not add destination points by itself."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -1
+    }
+  },
+  "exclusions": [
+    "Bonnybank Inn is a full pub/restaurant and is excluded from the café-focused Eat list.",
+    "Kennoway Den is a Kennoway attraction and does not support this hamlet score."
+  ],
+  "hes": {
+    "assigned": 4,
+    "visibleDated": 1,
+    "visibleUndated": 0,
+    "missing": 0
+  },
+  "heritage": {
+    "source": "Downloaded local HES listed-building, scheduled-monument and NRHE datasets",
+    "assigned": 4,
+    "local": 1,
+    "visibleDated": 1,
+    "hiddenUndatedOrNonlocal": 3,
+    "visibleUndated": 0,
+    "visibleLabelsContainingDates": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Bonnybank's strict study area count toward the settlement score. Related attractions and cross-boundary routes may appear in See or Trails only when explicitly marked related_context and do not inflate the town.",
+  "scoreRationale": "Bonnybank is genuinely served by the Fife Pilgrim Way and Kingskettle walking network, but it has no independent visitor attraction or café-led daytime offer and its inn is a full pub/restaurant.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 44,
+    "rationale": "Score independently reconciled after all categories, named-provider searches, boundary exclusions and practical checks; no provisional exact-58 town score remains."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://fifewalking.com/find-a-walk/central-fife-walks/fife-pilgrim-way/",
+        "outcome": "verified",
+        "note": "Current pilgrim route checked.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.walkfife.org/fife-walking-routes-a-to-z/",
+        "outcome": "verified",
+        "note": "Current Bonnybank loop index checked.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No Bonnybank product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "liveBrowserVerifiedAt": "2026-09-02T18:54:48.715Z"
+  },
+  "liveVerification": {
+    "url": "http://127.0.0.1:5173/",
+    "verifiedAt": "2026-09-02T18:54:48.715Z",
+    "checks": [
+      "The Fife region selector rendered the settlement name and completed score.",
+      "See, Eat, Trails, Picnic, Parking and Toilets counts matched the saved audit report.",
+      "Every one of the 17 requested entries was selected and checked in sequence.",
+      "Only settlements scoring 60 or more are included in the Home town-map dataset.",
+      "The historic heat layer rendered the dated local HES/NRHE records as dots without date text appended to map labels.",
+      "No browser console warning or error was reported in the clean verification tab."
+    ]
+  }
+}

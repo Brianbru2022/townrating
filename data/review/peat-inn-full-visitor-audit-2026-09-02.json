@@ -1,0 +1,135 @@
+{
+  "reviewedAt": "2026-09-02T19:15:00.000Z",
+  "sequence": 2,
+  "sequenceTotal": 13,
+  "projectId": "peat-inn-scotland",
+  "place": "Peat Inn",
+  "townScore": 45,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "Peat Inn is a recognisable hamlet centred on a celebrated destination restaurant and crossed by St Margaret’s Way, but the restaurant is full fine dining rather than the required café/light-lunch offer and there are no independent public facilities. It remains selector-only."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0,
+      "note": "No separate visitor attraction verified."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "note": "Restaurant-led fine dining excluded under the agreed food brief."
+    },
+    "trails": {
+      "audited": true,
+      "published": 1,
+      "note": "St Margaret’s Way retained as a documented through-route.",
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue searched for the exact locality.",
+        "CuriousAbout": "Current catalogue searched for the exact locality.",
+        "MysteryGuides": "Current catalogue searched for the exact locality.",
+        "GoQuestAdventures": "Current catalogue searched for the exact locality.",
+        "officialRoutes": "St Margaret’s Way directly passes the hamlet."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "note": "No public picnic facility verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "note": "No general public visitor car park verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "note": "No public toilet verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Venue and route access is stated only when a current source supports it; no blanket claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road and available public-transport context checked; volatile timetables are not copied."
+    },
+    "dogs": {
+      "audited": true,
+      "note": "Town adjustment and venue-specific evidence retained; no unsupported dog-friendly claim added."
+    }
+  },
+  "exclusions": [
+    "The Michelin-starred restaurant is not published as an Eat because this guide prioritises coffee, cake and light daytime food.",
+    "Customer parking and toilets are not general public facilities."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets with locally cached official descriptions",
+    "projectId": "peat-inn-scotland",
+    "totalHesAndNrheRetained": 17,
+    "localRecords": 17,
+    "listedBuildings": 4,
+    "scheduledMonuments": 0,
+    "nrhe": 13,
+    "relatedBufferRecords": 0,
+    "removedOutOfScope": 0,
+    "enriched": 5,
+    "datedLocalRecords": 9,
+    "undatedLocalRecordsRetainedHidden": 8,
+    "visibleHeritagePins": 9,
+    "visiblePinsWithoutDates": 0,
+    "visiblePinNamesContainingDate": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Peat Inn's strict study area count toward the settlement score. Explicit related context may be shown but cannot inflate the town.",
+  "scoreRationale": "Peat Inn is a recognisable hamlet centred on a celebrated destination restaurant and crossed by St Margaret’s Way, but the restaurant is full fine dining rather than the required café/light-lunch offer and there are no independent public facilities. It remains selector-only.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 45,
+    "rationale": "Score reconciled after all categories, boundary exclusions and source checks."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.thepeatinn.co.uk/about/",
+        "outcome": "verified",
+        "note": "The operator confirms the historic inn and its current restaurant-led offer.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.thewayofstandrews.com/route/routes-and-photos/st-margarets-way/earlsferry-to-st-andrews/",
+        "outcome": "verified",
+        "note": "The 26 km St Margaret’s Way section explicitly passes Peat Inn.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Peat Inn product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "visibleHeritageLabelsClean": true,
+    "liveBrowserVerifiedAt": "2026-09-02T21:07:29.331Z",
+    "liveChecks": {
+      "fifeSelectorContainsAllRequestedPlaces": true,
+      "auditedScoresRendered": true,
+      "stAndrewsCategoryCountsRendered": true,
+      "kingsbarnsCategoryCountsRendered": true,
+      "exact58SecondPassTownsRendered": true,
+      "heritageDateTextAbsentFromMapLabels": true,
+      "browserConsoleErrors": 0
+    }
+  }
+}

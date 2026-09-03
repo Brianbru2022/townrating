@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-29",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers.",
+  "existingEntries": [
+    {
+      "requestedName": "kirriemuir",
+      "resolvedName": "Kirriemuir",
+      "projectId": "kirriemuir-scotland",
+      "score": 73
+    }
+  ],
+  "namingDecisions": [
+    "Pearsire resolves to Pearsie.",
+    "cortacvhy resolves to Cortachy.",
+    "kirton of kingoldrum resolves to Kirkton of Kingoldrum.",
+    "kiirkton of airlie resolves to Kirkton of Airlie.",
+    "Balloch resolves to the locality beside Rottal.",
+    "Westmuir is distinct from West Muir near Little Brechin.",
+    "Kirriemuir already exists and is not duplicated."
+  ],
+  "additions": [
+    {
+      "requestedName": "Pearsire",
+      "resolvedName": "Pearsie",
+      "projectId": "pearsie-scotland",
+      "region": "Angus",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling resolves to Pearsie. Estate and glen scenery remain separate visitor propositions.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4899982235"
+    },
+    {
+      "requestedName": "cortacvhy",
+      "resolvedName": "Cortachy",
+      "projectId": "cortachy-scotland",
+      "region": "Angus",
+      "score": 48,
+      "dogOwnerScore": 47,
+      "publishOnTownMap": false,
+      "rationale": "Cortachy has genuine village and heritage character, while the castle and wider estate must be assessed separately and do not lift the settlement above 60.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5000008584"
+    },
+    {
+      "requestedName": "balloch",
+      "resolvedName": "Balloch",
+      "projectId": "balloch-rottal-scotland",
+      "region": "Angus",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "This is the mapped Balloch beside Rottal, not Ballochan or the East and West Balloch farms near Kirriemuir.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4898875874"
+    },
+    {
+      "requestedName": "kirton of kingoldrum",
+      "resolvedName": "Kirkton of Kingoldrum",
+      "projectId": "kirkton-of-kingoldrum-scotland",
+      "region": "Angus",
+      "score": 42,
+      "dogOwnerScore": 41,
+      "publishOnTownMap": false,
+      "rationale": "The kirkton has recognisable settlement character but too little independent visitor depth for a 60+ town marker.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5000008580"
+    },
+    {
+      "requestedName": "kinnordy",
+      "resolvedName": "Kinnordy",
+      "projectId": "kinnordy-scotland",
+      "region": "Angus",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "Kinnordy is retained as a locality; Loch of Kinnordy and estate heritage remain separate See propositions.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3922437885"
+    },
+    {
+      "requestedName": "northmuir",
+      "resolvedName": "Northmuir",
+      "projectId": "northmuir-scotland",
+      "region": "Angus",
+      "score": 30,
+      "dogOwnerScore": 28,
+      "publishOnTownMap": false,
+      "rationale": "Northmuir is retained independently without inheriting Kirriemuir attractions or score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3922238334"
+    },
+    {
+      "requestedName": "mains of ballindarg",
+      "resolvedName": "Mains of Ballindarg",
+      "projectId": "mains-of-ballindarg-scotland",
+      "region": "Angus",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "A named farm locality rather than an independent visitor destination.",
+      "sourceUrl": "https://www.openstreetmap.org/node/562695220"
+    },
+    {
+      "requestedName": "westmuir",
+      "resolvedName": "Westmuir",
+      "projectId": "westmuir-kirriemuir-scotland",
+      "region": "Angus",
+      "score": 40,
+      "dogOwnerScore": 39,
+      "publishOnTownMap": false,
+      "rationale": "Westmuir has modest village identity but must not inherit Kirriemuir attractions or the score of the larger town.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3922238336"
+    },
+    {
+      "requestedName": "kiirkton of airlie",
+      "resolvedName": "Kirkton of Airlie",
+      "projectId": "kirkton-of-airlie-scotland",
+      "region": "Angus",
+      "score": 40,
+      "dogOwnerScore": 39,
+      "publishOnTownMap": false,
+      "rationale": "Historic character supports a modest score, while Airlie Castle and wider estate interest remain separate visitor propositions.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5286188121"
+    }
+  ]
+}

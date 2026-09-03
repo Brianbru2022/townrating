@@ -1,0 +1,455 @@
+{
+  "project": {
+    "id": "wilcott-shropshire-england",
+    "name": "Wilcott Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Shropshire",
+    "locality": "Wilcott",
+    "centre": [
+      -2.9237366,
+      52.7617296
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Wilcott",
+        "osmType": "node",
+        "osmId": 8081339735,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [
+          "OSM way 317813146",
+          "OSM way 949522841",
+          "OSM way 1159698502"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.9297365999999996,
+              52.7572296
+            ],
+            [
+              -2.9177366,
+              52.7572296
+            ],
+            [
+              -2.9177366,
+              52.7662296
+            ],
+            [
+              -2.9297365999999996,
+              52.7662296
+            ],
+            [
+              -2.9297365999999996,
+              52.7572296
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-12T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-12. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 3 directly adjoining public green-space geometries were included in the active visitor boundary. Historic England official list-entry date enrichment reviewed 2026-08-12: 0 of 2 statutory records now carry defensible date evidence; uncaptured or unresolved entries are retained as unknown and listed in the county audit.",
+    "touristAppeal": {
+      "rating": 1,
+      "label": "Local detour",
+      "summary": "Wilcott qualifies as a local detour through Motte castle 140m south east of Wilcot Hall. It is best treated as a shorter stop rather than a half-day destination."
+    },
+    "townGuide": {
+      "headline": "Wilcott: local heritage, daytime stops and an easy settlement wander",
+      "intro": "Wilcott offers Motte castle 140m south east of Wilcot Hall within a compact settlement visit, supported by curated daytime food and practical facilities where mapped.",
+      "bestFor": [
+        "Local heritage",
+        "Short settlement walks",
+        "Daytime stops"
+      ],
+      "perfectFor": [
+        "A short local detour",
+        "Visitors exploring Shropshire"
+      ],
+      "suggestedFirstVisit": {
+        "title": "Motte castle 140m south east of Wilcot Hall",
+        "summary": "Start with Motte castle 140m south east of Wilcot Hall, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "Motte castle 140m south east of Wilcot Hall"
+      ],
+      "suggestedTime": "One to three hours",
+      "visitorMood": "A low-key, evidence-led local visit.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/8081339735",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-12"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "historic-england:nhle:1013498",
+        "name": "Motte castle 140m south east of Wilcot Hall",
+        "reason": "Motte castle 140m south east of Wilcot Hall is a nationally recorded historic landmark within Wilcott. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "Recommended",
+        "visitorScore": 76,
+        "timeToSpend": "Allow 60-120 minutes",
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "Recommended",
+          "intro": "Motte castle 140m south east of Wilcot Hall is a nationally recorded historic landmark within Wilcott. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "castle",
+            "Historic England designation"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See Motte castle 140m south east of Wilcot Hall"
+            }
+          ]
+        },
+        "sourceName": "National Heritage List for England",
+        "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1013498",
+        "verifiedInBoundaryAt": "2026-08-12"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Wilcott",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/8081339735",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-12",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.9297365999999996,
+          52.7572296,
+          -2.9177366,
+          52.7662296
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Wilcott",
+          "osmType": "node",
+          "osmId": 8081339735,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.9297365999999996,
+                52.7572296
+              ],
+              [
+                -2.9177366,
+                52.7572296
+              ],
+              [
+                -2.9177366,
+                52.7662296
+              ],
+              [
+                -2.9297365999999996,
+                52.7662296
+              ],
+              [
+                -2.9297365999999996,
+                52.7572296
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.9297365999999996,
+          52.7572296,
+          -2.9177366,
+          52.7662296
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Wilcott",
+          "osmType": "node",
+          "osmId": 8081339735,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.9297365999999996,
+                52.7572296
+              ],
+              [
+                -2.9177366,
+                52.7572296
+              ],
+              [
+                -2.9177366,
+                52.7662296
+              ],
+              [
+                -2.9297365999999996,
+                52.7662296
+              ],
+              [
+                -2.9297365999999996,
+                52.7572296
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Wilcott",
+          "osmType": "node",
+          "osmId": 8081339735,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [
+            "OSM way 317813146",
+            "OSM way 949522841",
+            "OSM way 1159698502"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.9297365999999996,
+                52.7572296
+              ],
+              [
+                -2.9177366,
+                52.7572296
+              ],
+              [
+                -2.9177366,
+                52.7662296
+              ],
+              [
+                -2.9297365999999996,
+                52.7662296
+              ],
+              [
+                -2.9297365999999996,
+                52.7572296
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes only directly adjoining mapped public green spaces: OSM way 317813146, OSM way 949522841, OSM way 1159698502."
+    }
+  },
+  "features": [
+    {
+      "id": "historic-england:nhle:1055112",
+      "projectId": "wilcott-shropshire-england",
+      "name": "WILCOTT HALL",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Wilcott",
+      "featureType": "country_house",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.92238529259029,
+          52.761732303811
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1055112",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1055112",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Wilcott visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1013498",
+      "projectId": "wilcott-shropshire-england",
+      "name": "Motte castle 140m south east of Wilcot Hall",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Wilcott",
+      "featureType": "castle",
+      "designationType": "scheduled_monument",
+      "significance": "highest_national",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.92074099858565,
+          52.7607732457871
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "Motte castle 140m south east of Wilcot Hall is a nationally recorded historic landmark within Wilcott. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1013498",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1013498",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "scheduled-monument",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Wilcott visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "attractionGuide": {
+        "headline": "Recommended",
+        "intro": "Motte castle 140m south east of Wilcot Hall is a nationally recorded historic landmark within Wilcott. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "castle",
+          "Historic England designation"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See Motte castle 140m south east of Wilcot Hall"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "wilcott-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Wilcott settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/8081339735",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Wilcott designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "wilcott-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Wilcott visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

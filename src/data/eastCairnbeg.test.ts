@@ -1,0 +1,13 @@
+import { describe, expect, it } from 'vitest';
+import pkg from '../../data/projects/east-cairnbeg.json';
+import planner from '../../data/cairn-o-mount-visitor-planner-curation.json';
+import report from '../../data/review/east-cairnbeg-full-visitor-audit-2026-08-30.json';
+import { visitorNeedPlaces } from '../domain/visitorExperience';
+import { topVisitPlaces } from '../domain/visiting';
+import { homeTownOverviews } from '../map/homeOverview';
+describe('East Cairnbeg full visitor audit', () => { const c = (planner as any).projects['east-cairnbeg-scotland'];
+  it('keeps the locality selectable but below the map threshold', () => { expect((pkg.project as any).touristAppeal).toMatchObject({ score: 20, rating: 0 }); expect(homeTownOverviews([pkg as any])).toHaveLength(0); expect(report.publishOnTownMap).toBe(false); });
+  it('publishes verified zero results for every visitor category', () => { expect(topVisitPlaces(pkg as any, 20)).toHaveLength(0); for (const category of ['eat', 'trails', 'picnic', 'parking', 'toilets'] as const) expect(visitorNeedPlaces(pkg as any, category, 20, { curatedFeatureIds: c[category] })).toHaveLength(0); expect(report.publication).toEqual({ see: 0, eat: 0, trails: 0, picnic: 0, parking: 0, toilets: 0 }); });
+  it('retains all local NRHE records and only shows the dated enclosure', () => { const h = (pkg.features as any[]).filter((feature) => feature.tags.includes('nrhe') || feature.tags.includes('hes-listed-building') || feature.tags.includes('hes-scheduled-monument')), visible = h.filter((feature) => !feature.tags.includes('map-hidden')); expect(h).toHaveLength(3); expect(h.filter((feature) => feature.tags.includes('hes-listed-building') || feature.tags.includes('hes-scheduled-monument'))).toHaveLength(0); expect(visible.map((feature) => feature.id)).toEqual(['nrhe:36451']); expect(visible[0].documentedDateText).toBe('Prehistoric palisaded enclosure'); expect(visible.every((feature) => !feature.name.includes(feature.documentedDateText))).toBe(true); });
+  it('records practical and trail exclusions', () => { expect(report.practicalAudit.parking).toContain('No dedicated public visitor parking'); expect(report.namedTrailSearch.retained).toEqual([]); expect(report.verification).toMatchObject({ statutoryDatasetComplete: true, allVisibleHeritagePinsDated: true, datesStoredWithoutChangingMapNames: true }); });
+});

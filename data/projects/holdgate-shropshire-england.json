@@ -1,0 +1,999 @@
+{
+  "project": {
+    "id": "holdgate-shropshire-england",
+    "name": "Holdgate Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Shropshire",
+    "locality": "Holdgate",
+    "centre": [
+      -2.6458848,
+      52.5022991
+    ],
+    "boundary": {
+      "type": "Feature",
+      "bbox": [
+        -2.6518848,
+        52.4977991,
+        -2.6398848000000004,
+        52.5067991
+      ],
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Holdgate",
+        "osmType": "node",
+        "osmId": 1707527631,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.6518848,
+              52.4977991
+            ],
+            [
+              -2.6398848000000004,
+              52.4977991
+            ],
+            [
+              -2.6398848000000004,
+              52.5067991
+            ],
+            [
+              -2.6518848,
+              52.5067991
+            ],
+            [
+              -2.6518848,
+              52.4977991
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-12T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-12. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 0 directly adjoining public green-space geometries were included in the active visitor boundary. Historic England official list-entry date enrichment reviewed 2026-08-12: 6 of 9 statutory records now carry defensible date evidence; uncaptured or unresolved entries are retained as unknown and listed in the county audit.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Holdgate has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Holdgate",
+      "intro": "Holdgate has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "CHURCH OF THE HOLY TRINITY",
+        "summary": "Start with CHURCH OF THE HOLY TRINITY and Holdgate Castle, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "CHURCH OF THE HOLY TRINITY",
+        "Holdgate Castle"
+      ],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/1707527631",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-12"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "historic-england:nhle:1383399",
+        "name": "CHURCH OF THE HOLY TRINITY",
+        "reason": "CHURCH OF THE HOLY TRINITY is a nationally recorded historic landmark within Holdgate. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "church",
+        "visitorScore": 66,
+        "timeToSpend": "Allow 20-45 minutes",
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "church",
+          "intro": "CHURCH OF THE HOLY TRINITY is a nationally recorded historic landmark within Holdgate. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "church",
+            "Historic England designation"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See CHURCH OF THE HOLY TRINITY"
+            }
+          ]
+        },
+        "sourceName": "National Heritage List for England",
+        "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1383399",
+        "verifiedInBoundaryAt": "2026-08-12"
+      },
+      {
+        "rank": 2,
+        "featureId": "osm-community:way-1064531613",
+        "name": "Holdgate Castle",
+        "reason": "Holdgate Castle is a curated archaeological site within the active Holdgate visitor boundary.",
+        "tagline": "archaeological site",
+        "visitorScore": 46,
+        "timeToSpend": "Allow 60-120 minutes",
+        "freeAdmission": false,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "archaeological site",
+          "intro": "Holdgate Castle is a curated archaeological site within the active Holdgate visitor boundary.",
+          "motifs": [
+            "archaeological site",
+            "Holdgate"
+          ],
+          "bestFor": [
+            "Local heritage"
+          ],
+          "thingsToDo": [
+            {
+              "name": "Explore Holdgate Castle"
+            },
+            {
+              "name": "Notice its archaeological site character"
+            }
+          ]
+        },
+        "sourceName": "OpenStreetMap current community places",
+        "sourceUrl": "https://www.openstreetmap.org/way/1064531613",
+        "verifiedInBoundaryAt": "2026-08-12"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Holdgate",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/1707527631",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-12",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.6518848,
+          52.4977991,
+          -2.6398848000000004,
+          52.5067991
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Holdgate",
+          "osmType": "node",
+          "osmId": 1707527631,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.6518848,
+                52.4977991
+              ],
+              [
+                -2.6398848000000004,
+                52.4977991
+              ],
+              [
+                -2.6398848000000004,
+                52.5067991
+              ],
+              [
+                -2.6518848,
+                52.5067991
+              ],
+              [
+                -2.6518848,
+                52.4977991
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.6518848,
+          52.4977991,
+          -2.6398848000000004,
+          52.5067991
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Holdgate",
+          "osmType": "node",
+          "osmId": 1707527631,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.6518848,
+                52.4977991
+              ],
+              [
+                -2.6398848000000004,
+                52.4977991
+              ],
+              [
+                -2.6398848000000004,
+                52.5067991
+              ],
+              [
+                -2.6518848,
+                52.5067991
+              ],
+              [
+                -2.6518848,
+                52.4977991
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.6518848,
+          52.4977991,
+          -2.6398848000000004,
+          52.5067991
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Holdgate",
+          "osmType": "node",
+          "osmId": 1707527631,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.6518848,
+                52.4977991
+              ],
+              [
+                -2.6398848000000004,
+                52.4977991
+              ],
+              [
+                -2.6398848000000004,
+                52.5067991
+              ],
+              [
+                -2.6518848,
+                52.5067991
+              ],
+              [
+                -2.6518848,
+                52.4977991
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes only directly adjoining mapped public green spaces: none."
+    }
+  },
+  "features": [
+    {
+      "id": "historic-england:nhle:1383399",
+      "projectId": "holdgate-shropshire-england",
+      "name": "CHURCH OF THE HOLY TRINITY",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Holdgate",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "I",
+      "significance": "highest_national",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.64719825093853,
+          52.5024584890154
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "CHURCH OF THE HOLY TRINITY is a nationally recorded historic landmark within Holdgate. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1383399",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1383399",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1383399",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1383399?section=official-list-entry",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: C12"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "service-context-visitor",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Holdgate visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-12; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "attractionGuide": {
+        "headline": "church",
+        "intro": "CHURCH OF THE HOLY TRINITY is a nationally recorded historic landmark within Holdgate. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "church",
+          "Historic England designation"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See CHURCH OF THE HOLY TRINITY"
+          }
+        ]
+      },
+      "documentedDateText": "C12",
+      "earliestPossibleYear": 1100,
+      "latestPossibleYear": 1199,
+      "datePrecision": "century"
+    },
+    {
+      "id": "historic-england:nhle:1383400",
+      "projectId": "holdgate-shropshire-england",
+      "name": "BARN APPROXIMATELY 20 METRES SOUTH OF CHURCHYARD OF CHURCH OF HOLY TRINITY",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Holdgate",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.64659303344476,
+          52.502175420841
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1383400",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1383400",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Holdgate visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1383401",
+      "projectId": "holdgate-shropshire-england",
+      "name": "MEMORIAL 2 METRES SOUTH OF CHANCEL OF CHURCH OF HOLY TRINITY",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Holdgate",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.64702890815786,
+          52.5024434517545
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1383401",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1383401",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Holdgate visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1383402",
+      "projectId": "holdgate-shropshire-england",
+      "name": "MEMORIAL 3 METRES SOUTH EAST OF CHANCEL OF CHURCH OF HOLY TRINITY",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Holdgate",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.64688212977966,
+          52.5024802142718
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1383402",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1383402",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1383402",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1383402?section=official-list-entry",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: Mid C18"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Holdgate visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-12; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "Mid C18",
+      "earliestPossibleYear": 1730,
+      "latestPossibleYear": 1769,
+      "datePrecision": "part century"
+    },
+    {
+      "id": "historic-england:nhle:1383403",
+      "projectId": "holdgate-shropshire-england",
+      "name": "MEMORIAL 14 METRES SOUTH OF NAVE OF CHURCH OF HOLY TRINITY",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Holdgate",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.64729181332746,
+          52.5022891830689
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1383403",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1383403",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1383403",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1383403?section=official-list-entry",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: Early C19"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Holdgate visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-12; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "Early C19",
+      "earliestPossibleYear": 1800,
+      "latestPossibleYear": 1839,
+      "datePrecision": "part century"
+    },
+    {
+      "id": "historic-england:nhle:1383404",
+      "projectId": "holdgate-shropshire-england",
+      "name": "K6 TELEPHONE KIOSK 5 METRES SOUTH OF CHURCHYARD OF CHURCH OF HOLY TRINITY",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Holdgate",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.64712155424585,
+          52.5020754668152
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "documented_construction",
+      "dateConfidence": "high",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1383404",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1383404",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1383404",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1383404?section=official-list-entry",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: Designed in 1935"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Holdgate visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-12; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "Designed in 1935",
+      "earliestPossibleYear": 1935,
+      "latestPossibleYear": 1935,
+      "datePrecision": "exact year"
+    },
+    {
+      "id": "historic-england:nhle:1383405",
+      "projectId": "holdgate-shropshire-england",
+      "name": "HOLDGATE FARMHOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Holdgate",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.64941159930975,
+          52.4991849822841
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1383405",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1383405",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Holdgate visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1383406",
+      "projectId": "holdgate-shropshire-england",
+      "name": "HOLDGATE HALL",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Holdgate",
+      "featureType": "country_house",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.64647475066868,
+          52.5032678130709
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1383406",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1383406",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1383406",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1383406?section=official-list-entry",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: late C13"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Holdgate visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-12; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "late C13",
+      "earliestPossibleYear": 1260,
+      "latestPossibleYear": 1299,
+      "datePrecision": "part century"
+    },
+    {
+      "id": "historic-england:nhle:1012859",
+      "projectId": "holdgate-shropshire-england",
+      "name": "Holdgate Castle motte and bailey castle and garden remains at Hall Farm",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Holdgate",
+      "featureType": "castle",
+      "designationType": "scheduled_monument",
+      "significance": "highest_national",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.64532592797682,
+          52.502270277358946
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "scheduled monument recorded by Historic England.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1012859",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1012859",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1012859",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1012859?section=official-list-entry",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: 13th century"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "scheduled-monument",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Holdgate visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-12; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "13th century",
+      "earliestPossibleYear": 1200,
+      "latestPossibleYear": 1299,
+      "datePrecision": "century"
+    },
+    {
+      "id": "osm-community:way-1064531613",
+      "projectId": "holdgate-shropshire-england",
+      "name": "Holdgate Castle",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Holdgate",
+      "featureType": "archaeological_site",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6453858,
+          52.5023432
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Holdgate Castle is a curated archaeological site within the active Holdgate visitor boundary.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/1064531613",
+          "sourceUrl": "https://www.openstreetmap.org/way/1064531613",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "historic=archaeological_site; name=Holdgate Castle; wikidata=Q5879676; wikipedia=en:Holdgate Castle; visit_score=46"
+        }
+      ],
+      "tags": [
+        "service-context-visitor",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-12.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "attractionGuide": {
+        "headline": "archaeological site",
+        "intro": "Holdgate Castle is a curated archaeological site within the active Holdgate visitor boundary.",
+        "motifs": [
+          "archaeological site",
+          "Holdgate"
+        ],
+        "bestFor": [
+          "Local heritage"
+        ],
+        "thingsToDo": [
+          {
+            "name": "Explore Holdgate Castle"
+          },
+          {
+            "name": "Notice its archaeological site character"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "holdgate-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Holdgate settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1707527631",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Holdgate designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "holdgate-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Holdgate visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

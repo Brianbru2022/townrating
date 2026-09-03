@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-29",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers. Attractions never inflate settlement scores.",
+  "namingDecisions": [
+    "Milgvie is normalised to Migvie.",
+    "Glendavan Ho is expanded to Glendavan House.",
+    "Ordie resolves to the hamlet near Dinnet and Milton of Logie, not the separate Finzean locality."
+  ],
+  "additions": [
+    {
+      "requestedName": "Milgvie",
+      "resolvedName": "Migvie",
+      "projectId": "migvie-scotland",
+      "score": 38,
+      "dogOwnerScore": 37,
+      "publishOnTownMap": false,
+      "rationale": "The spelling is normalised to Migvie. Parish heritage and the wider Cromar landscape are not treated as a complete settlement visit.",
+      "sourceUrl": "https://www.openstreetmap.org/node/12060249506",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Easter Davoch",
+      "resolvedName": "Easter Davoch",
+      "projectId": "easter-davoch-scotland",
+      "score": 16,
+      "dogOwnerScore": 14,
+      "publishOnTownMap": false,
+      "rationale": "The farm and steading establish the locality, but private businesses and open-day activity do not create a general tourist destination.",
+      "sourceUrl": "https://www.openstreetmap.org/node/12187097914",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Douneside",
+      "resolvedName": "Douneside",
+      "projectId": "douneside-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "Douneside House, its hotel and gardens belong in attraction or Eat coverage when independently audited; they do not support a town rating.",
+      "sourceUrl": "https://www.openstreetmap.org/way/691519456",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Tarland",
+      "resolvedName": "Tarland",
+      "projectId": "tarland-scotland",
+      "score": 58,
+      "dogOwnerScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "Tarland is likely to merit destination publication, but the 60+ gate requires a complete attraction, trail, café, practical-facility and dated-heritage audit rather than a guessed promotion.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4966528174",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Coynach",
+      "resolvedName": "Coynach",
+      "projectId": "coynach-scotland",
+      "score": 14,
+      "dogOwnerScore": 12,
+      "publishOnTownMap": false,
+      "rationale": "Coynach and Mains of Coynach provide geographic identity only; no public access or independent visitor offer is assumed.",
+      "sourceUrl": "https://www.openstreetmap.org/way/1198102028",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Logie Coldstone",
+      "resolvedName": "Logie Coldstone",
+      "projectId": "logie-coldstone-scotland",
+      "score": 46,
+      "dogOwnerScore": 45,
+      "publishOnTownMap": false,
+      "rationale": "The village is assessed independently; surrounding estates, hill routes and scattered parish heritage are not borrowed into its score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/2433705844",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Milton of Logie",
+      "resolvedName": "Milton of Logie",
+      "projectId": "milton-of-logie-scotland",
+      "score": 34,
+      "dogOwnerScore": 33,
+      "publishOnTownMap": false,
+      "rationale": "Milton of Logie remains separate from Logie Coldstone, Ordie and nearby properties, whose features are not transferred into this score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5333589208",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Glendavan Ho",
+      "resolvedName": "Glendavan House",
+      "projectId": "glendavan-house-scotland",
+      "score": 12,
+      "dogOwnerScore": 10,
+      "publishOnTownMap": false,
+      "rationale": "The abbreviated request is expanded to Glendavan House. Accommodation history or nearby scenery does not create a town-level destination.",
+      "sourceUrl": "https://www.openstreetmap.org/way/1171794717",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Ordie",
+      "resolvedName": "Ordie",
+      "projectId": "ordie-scotland",
+      "score": 36,
+      "dogOwnerScore": 35,
+      "publishOnTownMap": false,
+      "rationale": "Resolved to Ordie near Dinnet and Milton of Logie, not the separate Ordie locality near Finzean. Nearby houses and attractions remain separately assessed.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1025198326",
+      "boundaryConfidence": "medium"
+    }
+  ]
+}

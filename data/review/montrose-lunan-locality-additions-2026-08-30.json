@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-30",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers.",
+  "namingDecisions": [
+    "Fistown of Usan is normalised to Fishtown of Usan.",
+    "Inchbraoch represents the Rossie Island fringe locality and remains separate from Ferryden and Montrose.",
+    "Dunninald is an estate locality; Dunninald Castle and Gardens must be separately assessed under See.",
+    "Braehead of Lunan does not inherit Lunan Bay visitor value."
+  ],
+  "additions": [
+    {
+      "requestedName": "Montrose",
+      "name": "Montrose",
+      "projectId": "montrose-scotland",
+      "region": "Angus",
+      "score": 58,
+      "dogOwnerScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "Montrose clearly warrants a full town audit, but remains immediately below 60 until its complete attractions, daytime cafés, clue trails, parking, toilets and picnic provision are verified.",
+      "sourceUrl": "https://www.openstreetmap.org/node/26669166"
+    },
+    {
+      "requestedName": "Inchbraoch",
+      "name": "Inchbraoch",
+      "projectId": "inchbraoch-scotland",
+      "region": "Angus",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "Inchbraoch is the former Rossie Island locality south of Montrose. Port activity and neighbouring Montrose or Ferryden attractions are not borrowed into its score.",
+      "sourceUrl": "https://mapcarta.com/38883474"
+    },
+    {
+      "requestedName": "Ferryden",
+      "name": "Ferryden",
+      "projectId": "ferryden-scotland",
+      "region": "Angus",
+      "score": 54,
+      "dogOwnerScore": 53,
+      "publishOnTownMap": false,
+      "rationale": "Ferryden has coherent fishing-village character but remains below the map gate until a full audit verifies its independent visitor depth and practical facilities.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4001592817"
+    },
+    {
+      "requestedName": "Kirkton of Craig",
+      "name": "Kirkton of Craig",
+      "projectId": "kirkton-of-craig-scotland",
+      "region": "Angus",
+      "score": 36,
+      "dogOwnerScore": 35,
+      "publishOnTownMap": false,
+      "rationale": "Kirkton of Craig has a distinct historic identity, but nearby Ferryden, Montrose and estate evidence do not create a complete visitor experience.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4159783315"
+    },
+    {
+      "requestedName": "Dunninald",
+      "name": "Dunninald",
+      "projectId": "dunninald-scotland",
+      "region": "Angus",
+      "score": 30,
+      "dogOwnerScore": 28,
+      "publishOnTownMap": false,
+      "rationale": "The locality remains below the town threshold. Dunninald Castle and Gardens has seasonal public access and must be separately assessed and published under See rather than inflating a settlement score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/6052637913"
+    },
+    {
+      "requestedName": "Fistown of Usan",
+      "name": "Fishtown of Usan",
+      "projectId": "fishtown-of-usan-scotland",
+      "region": "Angus",
+      "score": 46,
+      "dogOwnerScore": 45,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling is normalised to Fishtown of Usan. Its historic fisher settlement character is genuine, but the current visitor offer remains below the main-map gate pending a full audit.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4159783349"
+    },
+    {
+      "requestedName": "Braehead of Lunan",
+      "name": "Braehead of Lunan",
+      "projectId": "braehead-of-lunan-scotland",
+      "region": "Angus",
+      "score": 36,
+      "dogOwnerScore": 35,
+      "publishOnTownMap": false,
+      "rationale": "Braehead of Lunan is a recognised settlement, but Lunan Bay and neighbouring heritage must remain separately assessed rather than automatically creating a tourist-town score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4115295760"
+    }
+  ]
+}

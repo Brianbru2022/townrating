@@ -1,0 +1,736 @@
+{
+  "project": {
+    "id": "ingoldmells-england",
+    "name": "Ingoldmells Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Lincolnshire",
+    "locality": "Ingoldmells",
+    "centre": [
+      0.3346566,
+      53.1932406
+    ],
+    "boundary": {
+      "type": "Feature",
+      "bbox": [
+        0.3276566,
+        53.1882406,
+        0.34165660000000003,
+        53.198240600000005
+      ],
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Ingoldmells",
+        "osmType": "node",
+        "osmId": 244452688,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.3276566,
+              53.1882406
+            ],
+            [
+              0.34165660000000003,
+              53.1882406
+            ],
+            [
+              0.34165660000000003,
+              53.198240600000005
+            ],
+            [
+              0.3276566,
+              53.198240600000005
+            ],
+            [
+              0.3276566,
+              53.1882406
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-10T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-10. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 0 directly adjoining public green-space geometries were included in the active visitor boundary.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Ingoldmells has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Ingoldmells",
+      "intro": "Ingoldmells has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "CHURCH OF ST PETER AND ST PAUL",
+        "summary": "Start with CHURCH OF ST PETER AND ST PAUL, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "CHURCH OF ST PETER AND ST PAUL"
+      ],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/244452688",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-10"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "historic-england:nhle:1204941",
+        "name": "CHURCH OF ST PETER AND ST PAUL",
+        "reason": "CHURCH OF ST PETER AND ST PAUL is a nationally recorded historic landmark within Ingoldmells. Access should be checked where it is not a public church or outdoor monument.",
+        "tagline": "church",
+        "visitorScore": 66,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "church",
+          "intro": "CHURCH OF ST PETER AND ST PAUL is a nationally recorded historic landmark within Ingoldmells. Access should be checked where it is not a public church or outdoor monument.",
+          "motifs": [
+            "church",
+            "Historic England designation"
+          ],
+          "bestFor": [
+            "Historic interest"
+          ],
+          "thingsToDo": [
+            {
+              "name": "See CHURCH OF ST PETER AND ST PAUL"
+            }
+          ]
+        },
+        "sourceName": "National Heritage List for England",
+        "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1204941",
+        "verifiedInBoundaryAt": "2026-08-10"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Ingoldmells",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/244452688",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-10",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          0.3276566,
+          53.1882406,
+          0.34165660000000003,
+          53.198240600000005
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Ingoldmells",
+          "osmType": "node",
+          "osmId": 244452688,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                0.3276566,
+                53.1882406
+              ],
+              [
+                0.34165660000000003,
+                53.1882406
+              ],
+              [
+                0.34165660000000003,
+                53.198240600000005
+              ],
+              [
+                0.3276566,
+                53.198240600000005
+              ],
+              [
+                0.3276566,
+                53.1882406
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          0.3276566,
+          53.1882406,
+          0.34165660000000003,
+          53.198240600000005
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Ingoldmells",
+          "osmType": "node",
+          "osmId": 244452688,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                0.3276566,
+                53.1882406
+              ],
+              [
+                0.34165660000000003,
+                53.1882406
+              ],
+              [
+                0.34165660000000003,
+                53.198240600000005
+              ],
+              [
+                0.3276566,
+                53.198240600000005
+              ],
+              [
+                0.3276566,
+                53.1882406
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "bbox": [
+          0.3276566,
+          53.1882406,
+          0.34165660000000003,
+          53.198240600000005
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Ingoldmells",
+          "osmType": "node",
+          "osmId": 244452688,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                0.3276566,
+                53.1882406
+              ],
+              [
+                0.34165660000000003,
+                53.1882406
+              ],
+              [
+                0.34165660000000003,
+                53.198240600000005
+              ],
+              [
+                0.3276566,
+                53.198240600000005
+              ],
+              [
+                0.3276566,
+                53.1882406
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes only directly adjoining mapped public green spaces: none."
+    }
+  },
+  "features": [
+    {
+      "id": "historic-england:nhle:1204941",
+      "projectId": "ingoldmells-england",
+      "name": "CHURCH OF ST PETER AND ST PAUL",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Ingoldmells",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "I",
+      "significance": "highest_national",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.332855073172186,
+          53.1937349848951
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "CHURCH OF ST PETER AND ST PAUL is a nationally recorded historic landmark within Ingoldmells. Access should be checked where it is not a public church or outdoor monument.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1204941",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1204941",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "service-context-visitor"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Ingoldmells visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "attractionGuide": {
+        "headline": "church",
+        "intro": "CHURCH OF ST PETER AND ST PAUL is a nationally recorded historic landmark within Ingoldmells. Access should be checked where it is not a public church or outdoor monument.",
+        "motifs": [
+          "church",
+          "Historic England designation"
+        ],
+        "bestFor": [
+          "Historic interest"
+        ],
+        "thingsToDo": [
+          {
+            "name": "See CHURCH OF ST PETER AND ST PAUL"
+          }
+        ]
+      }
+    },
+    {
+      "id": "historic-england:nhle:1359709",
+      "projectId": "ingoldmells-england",
+      "name": "WAR MEMORIAL IN CHURCHYARD TO CHURCH OF ST PETER AND ST PAUL",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Ingoldmells",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.332956467020122,
+          53.1936447189343
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1359709",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1359709",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Ingoldmells visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "osm-community:node-9048327820",
+      "projectId": "ingoldmells-england",
+      "name": "Classic Coffee Shop",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Ingoldmells",
+      "featureType": "cafe",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3350099,
+          53.1938056
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Classic Coffee Shop is a curated daytime coffee, cake or lunch stop within Ingoldmells.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "node/9048327820",
+          "sourceUrl": "https://www.openstreetmap.org/node/9048327820",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "addr:city=Skegness; addr:country=GB; addr:postcode=PE25 1NU; addr:street=Sea Lane; addr:village=Ingoldmells; amenity=cafe; fhrs:authority=East Lindsey; fhrs:id=572169; fhrs:local_authority_id=EHFDI/10653/13; name=Classic Coffee Shop; visit_score=70; price_band=Check current menu"
+        }
+      ],
+      "tags": [
+        "service-context-food",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-10.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    },
+    {
+      "id": "osm-community:way-223406876",
+      "projectId": "ingoldmells-england",
+      "name": "Vincent'S car park",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Ingoldmells",
+      "featureType": "parking",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3353687,
+          53.1925732
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Vincent'S car park is a curated public parking option for a Ingoldmells visit.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/223406876",
+          "sourceUrl": "https://www.openstreetmap.org/way/223406876",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "amenity=parking; source=Bing; payment_required=unknown; price_display=Check signs"
+        }
+      ],
+      "tags": [
+        "service-context-parking",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-10.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    },
+    {
+      "id": "osm-community:way-223407357",
+      "projectId": "ingoldmells-england",
+      "name": "Ye Olde Copper Kettle car park",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Ingoldmells",
+      "featureType": "parking",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3388477,
+          53.1931826
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Ye Olde Copper Kettle car park is a curated public parking option for a Ingoldmells visit.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/223407357",
+          "sourceUrl": "https://www.openstreetmap.org/way/223407357",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "amenity=parking; source=Bing; payment_required=unknown; price_display=Check signs"
+        }
+      ],
+      "tags": [
+        "service-context-parking",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-10.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    },
+    {
+      "id": "osm-community:way-230900105",
+      "projectId": "ingoldmells-england",
+      "name": "Candles Restaurant car park",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Ingoldmells",
+      "featureType": "parking",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3340392,
+          53.1942646
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Candles Restaurant car park is a curated public parking option for a Ingoldmells visit.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/230900105",
+          "sourceUrl": "https://www.openstreetmap.org/way/230900105",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "amenity=parking; parking=surface; payment_required=unknown; price_display=Check signs"
+        }
+      ],
+      "tags": [
+        "service-context-parking",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-10.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    },
+    {
+      "id": "osm-community:way-230900458",
+      "projectId": "ingoldmells-england",
+      "name": "The Windsor Restaurant car park",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Ingoldmells",
+      "featureType": "parking",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3340727,
+          53.193385
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "The Windsor Restaurant car park is a curated public parking option for a Ingoldmells visit.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/230900458",
+          "sourceUrl": "https://www.openstreetmap.org/way/230900458",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "amenity=parking; parking=surface; payment_required=unknown; price_display=Check signs"
+        }
+      ],
+      "tags": [
+        "service-context-parking",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-10.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    },
+    {
+      "id": "osm-community:way-343204744",
+      "projectId": "ingoldmells-england",
+      "name": "The Moody Cow car park",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Ingoldmells",
+      "featureType": "parking",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3399798,
+          53.1934788
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "The Moody Cow car park is a curated public parking option for a Ingoldmells visit.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/343204744",
+          "sourceUrl": "https://www.openstreetmap.org/way/343204744",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "amenity=parking; payment_required=unknown; price_display=Check signs"
+        }
+      ],
+      "tags": [
+        "service-context-parking",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-10.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ingoldmells-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Ingoldmells settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/244452688",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Ingoldmells designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "ingoldmells-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Ingoldmells visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

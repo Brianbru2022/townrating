@@ -1,0 +1,110 @@
+{
+  "reviewedAt": "2026-09-01T12:20:00.000Z",
+  "place": "Tayport",
+  "townScore": 76,
+  "mapPublished": true,
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 2,
+      "rejected": [
+        "Tentsmuir Forest and other out-of-boundary attractions",
+        "Individual heritage records below the independent 60-point attraction threshold"
+      ]
+    },
+    "eat": {
+      "audited": true,
+      "published": 2,
+      "rejected": [
+        "Dinner-led pubs and restaurants",
+        "Unverified or closed café listings"
+      ]
+    },
+    "trails": {
+      "audited": true,
+      "published": 3,
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue checked; no live Tayport product found",
+        "CuriousAbout": "Checked; no Tayport route found",
+        "MysteryGuides": "Checked; no Tayport route found",
+        "GoQuestAdventures": "Checked; no Tayport route found",
+        "WalkFife": "Tayport Loop verified with working route page, distance, duration and route downloads",
+        "officialRoutes": "Tayport Heritage Trail and Fife Coastal Path checked on responsible provider pages"
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 2
+    },
+    "parking": {
+      "audited": true,
+      "published": 1,
+      "rejected": "Unnamed, residential, golf-club or otherwise unverified OSM parking geometries were withheld; the retained East Common/Larick parking is tied to park and venue access."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 1,
+      "withheldDetails": [
+        "Opening hours",
+        "Charge",
+        "Baby changing",
+        "RADAR access"
+      ]
+    },
+    "accessibility": {
+      "audited": true,
+      "notes": "Only sourced level, wheelchair or venue access is stated; no route-wide accessibility grade is invented."
+    },
+    "transport": {
+      "audited": true,
+      "notes": "Bus and long-distance path context checked; volatile timetables are not copied into static data."
+    },
+    "dogs": {
+      "audited": true,
+      "townAdjustment": -4
+    }
+  },
+  "hes": {
+    "assigned": 39,
+    "visibleDated": 39,
+    "hiddenUndated": 1,
+    "visibleUndated": 0,
+    "missing": 0,
+    "designationDatesUsedAsConstructionDates": 0
+  },
+  "boundaryRule": "No attraction, service or score has been borrowed from outside Tayport’s strict settlement study area; the cross-boundary routes start or pass through Tayport and are labelled accordingly.",
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://tayportct.org.uk/harbourcafe/",
+        "checkedAt": "2026-09-01",
+        "outcome": "verified",
+        "note": "Operator page confirms daily opening, coffee, cakes and light lunches."
+      },
+      {
+        "url": "https://tayportct.org.uk/communityhub/larickcafe/",
+        "checkedAt": "2026-09-01",
+        "outcome": "verified",
+        "note": "Operator page confirms daily opening and the daytime menu."
+      },
+      {
+        "url": "https://www.fife.gov.uk/facilities/public-toilet/public-toilets",
+        "checkedAt": "2026-09-01",
+        "outcome": "verified",
+        "note": "Current Fife Council directory lists Tayport Public Toilets."
+      },
+      {
+        "url": "https://www.walkfife.org/maps-routes/tayport-loop/",
+        "checkedAt": "2026-09-01",
+        "outcome": "verified",
+        "note": "Walk Fife route page works and confirms Tayport start/end, distance and duration."
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "liveBrowserVerifiedAt": "2026-09-01T08:14:40.8330879+01:00"
+  }
+}

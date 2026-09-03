@@ -1,0 +1,210 @@
+{
+  "reviewedAt": "2026-08-27T22:15:00Z",
+  "townScore": 68,
+  "dogOwnerScore": 67,
+  "dogAccessRating": 2,
+  "publicationRule": "Only independently assessed 60+ visitor places are published; private, cross-river and buffer-only places do not inflate the town score.",
+  "categoryCounts": {
+    "see": 2,
+    "eat": 2,
+    "trails": 3,
+    "picnic": 0,
+    "parking": 2,
+    "toilets": 0,
+    "heritage": 9
+  },
+  "attractions": [
+    {
+      "name": "St Peter’s Heritage Centre, Church and Churchyard",
+      "score": 76,
+      "published": true
+    },
+    {
+      "name": "Rob Roy Statue and Culter Burn",
+      "score": 70,
+      "published": true
+    }
+  ],
+  "food": [
+    {
+      "name": "Neil Selbie Coffee Shop",
+      "score": 76,
+      "dogPolicy": "Operator explicitly says dog friendly"
+    },
+    {
+      "name": "Crust",
+      "score": 70,
+      "dogPolicy": "No reliable policy found"
+    }
+  ],
+  "trails": [
+    {
+      "name": "Culter Explorer Heritage Walks",
+      "score": 72,
+      "url": "https://www.cultercc.org.uk/wp-content/uploads/2021/02/Culter-Explorer-Leaflet-12-Feb-2021.pdf",
+      "linkCheck": "HTTP 200 on 2026-08-27"
+    },
+    {
+      "name": "Peterculter Community Paths",
+      "score": 68,
+      "url": "https://www.cultercc.org.uk/wp-content/uploads/2021/02/202101-Revised-map-of-Culter-paths.pdf",
+      "linkCheck": "HTTP 200 on 2026-08-27"
+    },
+    {
+      "name": "Deeside Way at Peterculter",
+      "score": 66,
+      "url": "https://visitabdn.com/businesses/the-deeside-way",
+      "linkCheck": "HTTP 200 on 2026-08-27"
+    }
+  ],
+  "trailProviderSearches": [
+    {
+      "provider": "TreasureTrails.co.uk",
+      "result": "No exact Peterculter or Culter trail found; Aberdeenshire collection page checked and returned HTTP 200."
+    },
+    {
+      "provider": "Curious About",
+      "result": "No exact Peterculter or Culter route found; provider returned HTTP 200."
+    },
+    {
+      "provider": "Mystery Guides",
+      "result": "No exact Peterculter or Culter guide found; provider returned HTTP 200."
+    },
+    {
+      "provider": "Go Quest Adventures",
+      "result": "No exact Peterculter or Culter quest found; provider returned HTTP 200."
+    },
+    {
+      "provider": "Culter Community Council",
+      "result": "Exact-town Culter Explorer and community-path PDFs found; both returned HTTP 200."
+    },
+    {
+      "provider": "VisitAberdeenshire",
+      "result": "Deeside Way page found and returned HTTP 200; current Peterculter fallen-tree closure warning retained."
+    }
+  ],
+  "facilities": {
+    "parking": [
+      {
+        "name": "St Mary’s Place Car Park",
+        "capacity": "Not published",
+        "disabledSpaces": "Not published",
+        "price": "Free",
+        "paymentMethods": "Not applicable",
+        "chargeableHours": "None",
+        "maxStay": "Not published",
+        "overnight": "Not published",
+        "surface": "Not published by council",
+        "source": "https://tro.transportappeals.scot/TRO/Aberdeen%20City%20Council/1.pdf"
+      },
+      {
+        "name": "Millside Car Park",
+        "capacity": "Not published",
+        "disabledSpaces": "Not published",
+        "price": "Free",
+        "paymentMethods": "Not applicable",
+        "chargeableHours": "None",
+        "maxStay": "Not published",
+        "overnight": "Not published",
+        "surface": "Not published by council",
+        "source": "https://tro.transportappeals.scot/TRO/Aberdeen%20City%20Council/1.pdf"
+      }
+    ],
+    "toilets": {
+      "result": "No verified council public toilet or Changing Places facility found inside the audited Peterculter settlement. Customer toilets are not presented as public facilities."
+    },
+    "picnic": {
+      "result": "No formal in-boundary picnic site or verified picnic-table count found. Crombie Park and path edges are not labelled as formal picnic facilities."
+    },
+    "transport": {
+      "result": "North Deeside Road bus corridor retained as context; current journey details must be checked before travel."
+    }
+  },
+  "heritageDateAudit": {
+    "importedCandidates": 14,
+    "visiblePins": 9,
+    "dated": 9,
+    "undated": [],
+    "mergedDuplicates": [
+      "LB15712 churchyard and LB19753 church presented as one visitor pin"
+    ],
+    "excludedCrossRiver": [
+      "LB16496 Maryculter House Hotel",
+      "LB16499 Maryculter Old Manse"
+    ],
+    "excludedBuffer": [
+      "LB3078 Belskavie Tower",
+      "LB15720 Waulkmill Bridge"
+    ],
+    "dateRule": "Construction dates and periods come from HES descriptions; statutory designation dates are excluded."
+  },
+  "exclusions": [
+    "Maryculter House Hotel and Maryculter Old Manse are south of the River Dee and outside Peterculter.",
+    "Belskavie Tower and Waulkmill Bridge are outside the strict compact-settlement polygon.",
+    "Culter House, its garden structures and Kennerty private buildings remain dated context pins but are not scored attractions.",
+    "Easter Anguston Farm and Blossom Café use a Peterculter postal address but are outside the audited settlement and do not inflate its score.",
+    "No capacity, accessible-bay count, maximum stay, overnight rule, toilet, picnic-table count or unverified dog policy is invented."
+  ],
+  "linksChecked": [
+    {
+      "url": "https://www.robroyontherock.com/",
+      "status": 200,
+      "checkedAt": "2026-08-27T22:15:00Z"
+    },
+    {
+      "url": "https://www.cultercc.org.uk/wp-content/uploads/2021/02/Culter-Explorer-Leaflet-12-Feb-2021.pdf",
+      "status": 200,
+      "checkedAt": "2026-08-27T22:15:00Z"
+    },
+    {
+      "url": "https://www.cultercc.org.uk/wp-content/uploads/2021/02/202101-Revised-map-of-Culter-paths.pdf",
+      "status": 200,
+      "checkedAt": "2026-08-27T22:15:00Z"
+    },
+    {
+      "url": "https://visitabdn.com/businesses/the-deeside-way",
+      "status": 200,
+      "checkedAt": "2026-08-27T22:15:00Z"
+    },
+    {
+      "url": "https://www.neilselbie.com/385-2/",
+      "status": 200,
+      "checkedAt": "2026-08-27T22:15:00Z"
+    },
+    {
+      "url": "https://crustaberdeen.co.uk/",
+      "status": 200,
+      "checkedAt": "2026-08-27T22:15:00Z"
+    },
+    {
+      "url": "https://www.treasuretrails.co.uk/collections/aberdeenshire",
+      "status": 200,
+      "checkedAt": "2026-08-27T22:15:00Z"
+    },
+    {
+      "url": "https://curiousabout.co.uk/",
+      "status": 200,
+      "checkedAt": "2026-08-27T22:15:00Z"
+    },
+    {
+      "url": "https://www.mysteryguides.co.uk/",
+      "status": 200,
+      "checkedAt": "2026-08-27T22:15:00Z"
+    },
+    {
+      "url": "https://goquestadventures.com/",
+      "status": 200,
+      "checkedAt": "2026-08-27T22:15:00Z"
+    }
+  ],
+  "linkExceptions": [
+    {
+      "url": "https://www.stpetersheritagecentre.org/the-heritage-centre",
+      "result": "Current page was browser-indexed and content reviewed; direct PowerShell TLS check failed, so current hours should be rechecked with the operator before travel."
+    }
+  ],
+  "verification": {
+    "heritagePinsDated": "9/9",
+    "undatedHistoricPins": 0
+  }
+}

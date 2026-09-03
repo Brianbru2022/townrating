@@ -1,0 +1,71 @@
+{
+  "projectId": "northampton-england",
+  "reviewedAt": "2026-08-09",
+  "purpose": "Correct Northampton’s visitor map extent while preserving the official ONS statistical geometry.",
+  "officialBoundary": {
+    "source": "ONS Built-up Areas (December 2024)",
+    "localityCode": "E63010463",
+    "geometryType": "MultiPolygon",
+    "parts": 45,
+    "areaHectares": 6040.88,
+    "preservedUnchanged": true
+  },
+  "activeVisitorBoundary": {
+    "source": "Curated Northampton visitor boundary",
+    "geometryType": "Polygon",
+    "parts": 1,
+    "areaHectares": 7342.55,
+    "method": "Morphological closing of the official ONS 2024 built-up-area geometry using a 500 metre outward and inward buffer. This retains the outer urban envelope while filling internal omissions for parks, river corridors and other connected visitor green spaces.",
+    "notAdministrativeBoundary": true
+  },
+  "visitorGreenSpaceChecks": [
+    {
+      "name": "Abington Park",
+      "coordinates": [
+        -0.8478,
+        52.2428
+      ],
+      "inside": true
+    },
+    {
+      "name": "The Racecourse",
+      "coordinates": [
+        -0.8928,
+        52.2497
+      ],
+      "inside": true
+    },
+    {
+      "name": "Delapre Park",
+      "coordinates": [
+        -0.889,
+        52.2252
+      ],
+      "inside": true
+    },
+    {
+      "name": "Becket's Park",
+      "coordinates": [
+        -0.8901,
+        52.2332
+      ],
+      "inside": true
+    },
+    {
+      "name": "Hunsbury Hill Country Park",
+      "coordinates": [
+        -0.9195,
+        52.2133
+      ],
+      "inside": true
+    },
+    {
+      "name": "Kingsthorpe Recreation Ground",
+      "coordinates": [
+        -0.8976,
+        52.2687
+      ],
+      "inside": true
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "reviewedAt": "2026-08-31T23:59:50.000Z",
+  "place": "Kingsbarns",
+  "previousScore": 58,
+  "townScore": 72,
+  "mapPublished": true,
+  "scoreReanalysis": {
+    "trigger": "Mandatory second pass because the previous score was exactly 58.",
+    "finding": "The earlier score was not defensible: it wrongly rejected a verified village daytime Eat and treated the named beach visitor cluster as wholly irrelevant.",
+    "decision": "72 is an evidence-led Worth a Visit score, not a cap or threshold placeholder.",
+    "independentSettlementInterest": "Attractive historic core, community-owned historic inn and five route downloads starting from the village.",
+    "relatedDestinationInterest": "Kingsbarns Beach is explicitly named and promoted as a Kingsbarns destination a ten-minute walk away; it reinforces rather than substitutes for village interest.",
+    "exclusionsStillApplied": [
+      "Kingsbarns Distillery, Cambo Gardens and Kingsbarns Golf Links remain separate attractions and do not transfer their scores or customer facilities to the village."
+    ]
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 1,
+      "included": [
+        "Kingsbarns Beach (Cambo Sands)"
+      ],
+      "rejected": [
+        "Parish church interior lacks dependable general visitor opening.",
+        "Distillery, Cambo and golf remain separate attractions."
+      ]
+    },
+    "eat": {
+      "audited": true,
+      "published": 2,
+      "included": [
+        "The Inn at Kingsbarns",
+        "Harbour Burger Kingsbarns"
+      ],
+      "rejected": [
+        "The Cheesy Toast Shack has conflicting current-status evidence and is not published as an additional Eat.",
+        "Distillery and Cambo cafes remain with their separate attractions."
+      ]
+    },
+    "trails": {
+      "audited": true,
+      "published": 5,
+      "directLinksVerified": true,
+      "providerChecks": {
+        "TreasureTrails": "Fife catalogue checked; no Kingsbarns product",
+        "CuriousAbout": "No Kingsbarns route",
+        "MysteryGuides": "No Kingsbarns route",
+        "GoQuestAdventures": "No Kingsbarns route",
+        "localProvider": "Five Inn at Kingsbarns direct PDF links verified and published"
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 1,
+      "note": "Exact beach picnic-area geometry checked."
+    },
+    "parking": {
+      "audited": true,
+      "published": 1,
+      "note": "Exact beach car-park geometry and current official tariffs recorded."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 1,
+      "note": "Exact beach toilet-building geometry, free use, wheelchair access and overnight provision recorded."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessible beach parking and toilet are explicit; no blanket claim is made for sand, dunes or rural routes."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Beach is about a ten-minute walk from the village; volatile timetable detail is not copied."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -1
+    }
+  },
+  "hes": {
+    "assigned": 56,
+    "visibleDated": 54,
+    "hiddenUndated": 2,
+    "visibleUndated": 0,
+    "missing": 0
+  },
+  "coordinateChecks": {
+    "inn": {
+      "type": "Point",
+      "coordinates": [
+        -2.65953452938703,
+        56.2997966052175
+      ]
+    },
+    "harbourBurger": {
+      "type": "Point",
+      "coordinates": [
+        -2.6455117,
+        56.3032791
+      ]
+    },
+    "beach": {
+      "type": "Point",
+      "coordinates": [
+        -2.642405,
+        56.3023368
+      ]
+    },
+    "parking": {
+      "type": "Point",
+      "coordinates": [
+        -2.6450102,
+        56.3030079
+      ]
+    },
+    "toilets": {
+      "type": "Point",
+      "coordinates": [
+        -2.6458606,
+        56.3035483
+      ]
+    },
+    "picnic": {
+      "type": "Point",
+      "coordinates": [
+        -2.6454869,
+        56.3034361
+      ]
+    }
+  },
+  "boundaryRule": "The historic village must have independent interest. Its explicitly named, walkable beach cluster may reinforce the destination score, while Cambo, the distillery and golf remain separately assessed."
+}

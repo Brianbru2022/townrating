@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-29",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers. Attractions and private properties never inflate locality scores.",
+  "existingEntries": [
+    {
+      "requestedName": "Glendyne Lodge",
+      "resolvedName": "Glendye Lodge",
+      "projectId": "glendye-lodge-scotland"
+    },
+    {
+      "requestedName": "Bridge of Dye",
+      "resolvedName": "Bridge of Dye",
+      "projectId": "bridge-of-dye-scotland"
+    }
+  ],
+  "namingDecisions": [
+    "Glendyne Lodge resolves to the existing Glendye Lodge record.",
+    "Bridge of Dye already exists and is not duplicated.",
+    "Auchronie resolves to the Angus dwelling beside Invermark, distinct from East Auchronie in Aberdeenshire.",
+    "Cairncross resolves to the Glen Esk locality in Angus."
+  ],
+  "additions": [
+    {
+      "requestedName": "Invermark lodge",
+      "resolvedName": "Invermark Lodge",
+      "projectId": "invermark-lodge-scotland",
+      "region": "Angus",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "The 1852 lodge is retained as a named property. Invermark Castle, Loch Lee and Glen Esk walks are separate See or trail propositions and do not create a town score.",
+      "sourceUrl": "https://her.aberdeenshire.gov.uk/Monument/MAB35618/",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Auchronie",
+      "resolvedName": "Auchronie",
+      "projectId": "auchronie-glenesk-scotland",
+      "region": "Angus",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "This is the Angus Auchronie beside Invermark, not East Auchronie near Skene. Nearby Invermark Castle and Loch Lee remain separately assessed.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4899830265",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Cairncross",
+      "resolvedName": "Cairncross",
+      "projectId": "cairncross-glenesk-scotland",
+      "region": "Angus",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "Cairncross is retained as the Glen Esk locality. The glen’s long-distance walking and estate landscape are not transferred into the settlement score.",
+      "sourceUrl": "https://her.aberdeenshire.gov.uk/Monument/MAB35517/",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Drumtochty Castle",
+      "resolvedName": "Drumtochty Castle",
+      "projectId": "drumtochty-castle-scotland",
+      "region": "Aberdeenshire",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "The castle is retained as a named place, but architectural interest and event use do not imply general public access or justify a town marker.",
+      "sourceUrl": "https://www.openstreetmap.org/way/306426048",
+      "boundaryConfidence": "medium"
+    }
+  ]
+}

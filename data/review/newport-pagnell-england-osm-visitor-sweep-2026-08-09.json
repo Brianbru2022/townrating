@@ -1,0 +1,2155 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T11:15:17.757Z",
+  "boundaryRule": "Exact active project boundary; no nearby places are counted.",
+  "curationRule": "OSM is discovery evidence. See and Eat require names; private, permit-only, customer-only, inactive and no-access places are excluded. Publication still requires editorial review.",
+  "towns": [
+    {
+      "projectId": "newport-pagnell-england",
+      "locality": "Newport Pagnell",
+      "projectFile": "newport-pagnell-england.json",
+      "counts": {
+        "see": {
+          "osm": 2,
+          "eligible": 0,
+          "curated": 0,
+          "uncurated": 0
+        },
+        "eat": {
+          "osm": 49,
+          "eligible": 48,
+          "curated": 12,
+          "uncurated": 36
+        },
+        "picnic": {
+          "osm": 3,
+          "eligible": 3,
+          "curated": 0,
+          "uncurated": 3
+        },
+        "parking": {
+          "osm": 43,
+          "eligible": 30,
+          "curated": 6,
+          "uncurated": 24
+        },
+        "toilets": {
+          "osm": 1,
+          "eligible": 1,
+          "curated": 1,
+          "uncurated": 0
+        }
+      },
+      "candidates": {
+        "see": [
+          {
+            "osmId": "way/130450406",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7352571,
+              52.0801901
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/130450406"
+          },
+          {
+            "osmId": "way/591408836",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7291463,
+              52.0847331
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "building": "yes",
+              "man_made": "tower",
+              "tower:type": "firefighter_training"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/591408836"
+          }
+        ],
+        "eat": [
+          {
+            "osmId": "node/2359477592",
+            "name": "Cafe Latte",
+            "coordinates": [
+              -0.7226352,
+              52.086842
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-2359477592",
+            "curated": true,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "54",
+              "addr:postcode": "MK16 8AQ",
+              "addr:street": "High Street",
+              "amenity": "cafe",
+              "cuisine": "sandwich;burger",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "139379",
+              "fhrs:local_authority_id": "75008",
+              "name": "Cafe Latte",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2359477592"
+          },
+          {
+            "osmId": "node/2303848919",
+            "name": "Capadocia",
+            "coordinates": [
+              -0.7222771,
+              52.0864952
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "8",
+              "addr:postcode": "MK16 8HN",
+              "addr:street": "St John Street",
+              "amenity": "restaurant",
+              "cuisine": "turkish",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "134062",
+              "fhrs:local_authority_id": "67181",
+              "name": "Capadocia",
+              "source:addr": "FHRS Open Data",
+              "wikidata": "Q26418473"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2303848919"
+          },
+          {
+            "osmId": "node/5924315954",
+            "name": "Coffee Crowd",
+            "coordinates": [
+              -0.7217542,
+              52.0868453
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-5924315954",
+            "curated": true,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "45",
+              "addr:postcode": "MK16 8AR",
+              "addr:street": "High Street",
+              "amenity": "cafe",
+              "cuisine": "coffee_shop",
+              "fhrs:authority": "Milton Keynes",
+              "indoor_seating": "yes",
+              "internet_access": "wlan",
+              "internet_access:fee": "no",
+              "level": "0",
+              "name": "Coffee Crowd",
+              "opening_hours": "Mo-Fr 08:00-16:00; Sa 09:00-16:00; Su 09:00-12:30",
+              "outdoor_seating": "yes",
+              "smoking": "no",
+              "source:addr": "FHRS Open Data",
+              "takeaway": "yes",
+              "toilets": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5924315954"
+          },
+          {
+            "osmId": "node/2303849557",
+            "name": "Costa",
+            "coordinates": [
+              -0.7221235,
+              52.0869423
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-2303849557",
+            "curated": true,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "44",
+              "addr:postcode": "MK16 8AQ",
+              "addr:street": "High Street",
+              "amenity": "cafe",
+              "brand": "Costa",
+              "brand:wikidata": "Q608845",
+              "brand:wikipedia": "en:Costa Coffee",
+              "cuisine": "coffee_shop",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "139035",
+              "fhrs:local_authority_id": "74395",
+              "name": "Costa",
+              "source:addr": "FHRS Open Data",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2303849557"
+          },
+          {
+            "osmId": "node/5924315951",
+            "name": "D.E. Turneys Bakery",
+            "coordinates": [
+              -0.7214962,
+              52.0868812
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-5924315951",
+            "curated": true,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "35",
+              "addr:postcode": "MK16 8AR",
+              "addr:street": "High Street",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "1002458",
+              "fhrs:local_authority_id": "88481",
+              "name": "D.E. Turneys Bakery",
+              "shop": "bakery",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5924315951"
+          },
+          {
+            "osmId": "way/651032672",
+            "name": "Domino's",
+            "coordinates": [
+              -0.728632,
+              52.0841688
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "2",
+              "addr:postcode": "MK16 0JW",
+              "addr:street": "The Green",
+              "amenity": "fast_food",
+              "brand": "Domino's",
+              "brand:wikidata": "Q839466",
+              "brand:wikipedia": "en:Domino's Pizza",
+              "building": "commercial",
+              "contact:website": "https://www.dominos.co.uk/pizza-near-me/milton-keynes/2-the-green",
+              "cuisine": "pizza",
+              "fhrs:id": "127415",
+              "name": "Domino's",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/651032672"
+          },
+          {
+            "osmId": "node/2359477536",
+            "name": "East Ocean Chinese Take Away",
+            "coordinates": [
+              -0.7248172,
+              52.0862157
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "89a",
+              "addr:postcode": "MK16 8AB",
+              "addr:street": "High Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "fast_food",
+              "cuisine": "chinese",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "112913",
+              "fhrs:local_authority_id": "42037",
+              "name": "East Ocean Chinese Take Away"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2359477536"
+          },
+          {
+            "osmId": "node/12899264974",
+            "name": "Farthing Brothers",
+            "coordinates": [
+              -0.7258785,
+              52.085709
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-12899264974",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "indoor_seating": "no",
+              "level": "0",
+              "name": "Farthing Brothers",
+              "outdoor_seating": "yes",
+              "shop": "coffee",
+              "smoking": "outside",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/12899264974"
+          },
+          {
+            "osmId": "node/2359477538",
+            "name": "Kakori Restaurant",
+            "coordinates": [
+              -0.7254609,
+              52.0858885
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "101",
+              "addr:postcode": "MK16 8EN",
+              "addr:street": "High Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "restaurant",
+              "cuisine": "indian",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "112925",
+              "fhrs:local_authority_id": "42045",
+              "name": "Kakori Restaurant"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2359477538"
+          },
+          {
+            "osmId": "node/6173044105",
+            "name": "Kolkata",
+            "coordinates": [
+              -0.7272059,
+              52.0855618
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "118-120",
+              "addr:postcode": "MK16 8EH",
+              "addr:street": "High Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "fast_food",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "140998",
+              "fhrs:local_authority_id": "77215",
+              "name": "Kolkata"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6173044105"
+          },
+          {
+            "osmId": "node/5924315958",
+            "name": "Moza",
+            "coordinates": [
+              -0.7224291,
+              52.0867181
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "53",
+              "addr:postcode": "MK16 8AU",
+              "addr:street": "High Street",
+              "amenity": "restaurant",
+              "contact:website": "https://mozaonline.co.uk/",
+              "cuisine": "indian",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "1024704",
+              "fhrs:local_authority_id": "41998",
+              "name": "Moza",
+              "source": "https://data.food.gov.uk/catalog/datasets/38dd8d6a-5ab1-4f50-b753-ab33288e3200"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5924315958"
+          },
+          {
+            "osmId": "node/6173229603",
+            "name": "Muratis Pizzeria",
+            "coordinates": [
+              -0.7213734,
+              52.0861181
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "28",
+              "addr:postcode": "MK16 8HJ",
+              "addr:street": "St John Street",
+              "amenity": "restaurant",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "142300",
+              "fhrs:local_authority_id": "78936",
+              "name": "Muratis Pizzeria"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6173229603"
+          },
+          {
+            "osmId": "node/6173044106",
+            "name": "Nevaeh lounge",
+            "coordinates": [
+              -0.7273722,
+              52.0855354
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "122",
+              "addr:postcode": "MK16 8EH",
+              "addr:street": "High Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "restaurant",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "134216",
+              "fhrs:local_authority_id": "67473",
+              "name": "Nevaeh lounge"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6173044106"
+          },
+          {
+            "osmId": "node/5924315947",
+            "name": "Newport Kebab & Pizza",
+            "coordinates": [
+              -0.7208898,
+              52.087011
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "25",
+              "addr:postcode": "MK16 8AR",
+              "addr:street": "High Street",
+              "amenity": "fast_food",
+              "cuisine": "burger;kebab;pizza",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "132250",
+              "fhrs:local_authority_id": "64030",
+              "fhrs:name": "Newport Pagnell Kebab",
+              "name": "Newport Kebab & Pizza",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5924315947"
+          },
+          {
+            "osmId": "node/6173613010",
+            "name": "Newport Pagnell Bowling Club",
+            "coordinates": [
+              -0.7186496,
+              52.0858502
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:postcode": "MK16 9AB",
+              "addr:street": "Tickford Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "bar",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "113726",
+              "fhrs:local_authority_id": "42721",
+              "name": "Newport Pagnell Bowling Club"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6173613010"
+          },
+          {
+            "osmId": "way/591051192",
+            "name": "Newport Pagnell Royal British Legion",
+            "coordinates": [
+              -0.7199425,
+              52.0877445
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "1",
+              "addr:postcode": "MK16 8AN",
+              "addr:street": "Ousebank Street",
+              "amenity": "bar",
+              "building": "yes",
+              "club": "yes",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "113286",
+              "fhrs:local_authority_id": "42346",
+              "name": "Newport Pagnell Royal British Legion",
+              "operator": "Royal British Legion"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/591051192"
+          },
+          {
+            "osmId": "way/672040718",
+            "name": "Newport Pagnell Town Football and Social Club",
+            "coordinates": [
+              -0.7219008,
+              52.0776103
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:postcode": "MK16 0DF",
+              "addr:street": "Willen Road",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "bar",
+              "building": "yes",
+              "club": "sport",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "113907",
+              "fhrs:local_authority_id": "42902",
+              "name": "Newport Pagnell Town Football and Social Club",
+              "sport": "soccer"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/672040718"
+          },
+          {
+            "osmId": "node/6172767884",
+            "name": "Newport Pagnell Working Mens Club",
+            "coordinates": [
+              -0.7228392,
+              52.0853805
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "28-30",
+              "addr:postcode": "MK16 0EN",
+              "addr:street": "Silver Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "pub",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "113502",
+              "fhrs:local_authority_id": "42538",
+              "name": "Newport Pagnell Working Mens Club"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6172767884"
+          },
+          {
+            "osmId": "node/2359477569",
+            "name": "Olivier Adams",
+            "coordinates": [
+              -0.7256071,
+              52.0857386
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-2359477569",
+            "curated": true,
+            "tags": {
+              "name": "Olivier Adams",
+              "shop": "bakery"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2359477569"
+          },
+          {
+            "osmId": "node/2359477551",
+            "name": "Papa John's",
+            "coordinates": [
+              -0.7252517,
+              52.0860435
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "93",
+              "addr:postcode": "MK16 8EN",
+              "addr:street": "High Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "fast_food",
+              "brand": "Papa John's",
+              "brand:wikidata": "Q2759586",
+              "brand:wikipedia": "en:Papa John's Pizza",
+              "check_date": "2024-10-15",
+              "check_date:opening_hours": "2024-10-15",
+              "cuisine": "pizza",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "136293",
+              "fhrs:local_authority_id": "70562",
+              "name": "Papa John's",
+              "opening_hours": "Mo-Su 11:00-23:00",
+              "phone": "+44 1908 210333",
+              "takeaway": "yes",
+              "website": "https://www.papajohns.co.uk/stores/milton-keynes-newport-pagnell"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2359477551"
+          },
+          {
+            "osmId": "node/2305580318",
+            "name": "Picnic's",
+            "coordinates": [
+              -0.7229175,
+              52.0866375
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-2305580318",
+            "curated": true,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "63",
+              "addr:postcode": "MK16 8AT",
+              "addr:street": "High Street",
+              "amenity": "cafe",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "432892",
+              "fhrs:local_authority_id": "81284",
+              "name": "Picnic's",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2305580318"
+          },
+          {
+            "osmId": "node/6173229610",
+            "name": "Picture House Cafe",
+            "coordinates": [
+              -0.7220922,
+              52.0864024
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-6173229610",
+            "curated": true,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:postcode": "MK16 8AY",
+              "addr:street": "St John Street",
+              "amenity": "cafe",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "113667",
+              "fhrs:local_authority_id": "42684",
+              "name": "Picture House Cafe"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6173229610"
+          },
+          {
+            "osmId": "node/2359477560",
+            "name": "Quality Fish n Chips",
+            "coordinates": [
+              -0.7253322,
+              52.0859999
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "95",
+              "addr:postcode": "MK16 8EN",
+              "addr:street": "High Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "129381",
+              "fhrs:local_authority_id": "60047",
+              "name": "Quality Fish n Chips"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2359477560"
+          },
+          {
+            "osmId": "node/2303849250",
+            "name": "Robinsons",
+            "coordinates": [
+              -0.721689,
+              52.0862323
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "18-20",
+              "addr:postcode": "MK16 8HJ",
+              "addr:street": "St John Street",
+              "amenity": "pub",
+              "brand": "Robinsons",
+              "brand:wikidata": "Q7353116",
+              "brewery": "Robinsons",
+              "name": "Robinsons",
+              "operator": "Robinsons",
+              "operator:wikidata": "Q7353116"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2303849250"
+          },
+          {
+            "osmId": "way/671997548",
+            "name": "Rose & Crown",
+            "coordinates": [
+              -0.7241108,
+              52.0841463
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "74-76",
+              "addr:postcode": "MK16 0EG",
+              "addr:street": "Silver Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "77104",
+              "fhrs:local_authority_id": "1804",
+              "name": "Rose & Crown"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/671997548"
+          },
+          {
+            "osmId": "node/4804491997",
+            "name": "Seacourt Fish Bar",
+            "coordinates": [
+              -0.7436064,
+              52.0874077
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "46",
+              "addr:postcode": "MK16 8SB",
+              "addr:street": "Wordsworth Avenue",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "delivery": "no",
+              "drive_through": "no",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "113979",
+              "fhrs:local_authority_id": "42973",
+              "name": "Seacourt Fish Bar",
+              "outdoor_seating": "no",
+              "takeaway": "only"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4804491997"
+          },
+          {
+            "osmId": "node/2359477537",
+            "name": "Simply Sweets",
+            "coordinates": [
+              -0.722304,
+              52.0869014
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-2359477537",
+            "curated": true,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "48",
+              "addr:postcode": "MK16 8AQ",
+              "addr:street": "High Street",
+              "addr:suburb": "Newport Pagnell",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "199309",
+              "fhrs:local_authority_id": "64128",
+              "name": "Simply Sweets",
+              "shop": "confectionery"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2359477537"
+          },
+          {
+            "osmId": "node/308206422",
+            "name": "Snacks 2 Go",
+            "coordinates": [
+              -0.7072083,
+              52.0803971
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-308206422",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "fryup": "yes",
+              "name": "Snacks 2 Go"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/308206422"
+          },
+          {
+            "osmId": "node/10737767679",
+            "name": "Subway",
+            "coordinates": [
+              -0.7484278,
+              52.0835793
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:postcode": "MK16 8DS",
+              "addr:street": "M1 Junction 14 - Service Station",
+              "amenity": "fast_food",
+              "brand": "Subway",
+              "brand:wikidata": "Q244457",
+              "cuisine": "sandwich",
+              "fhrs:id": "680463",
+              "name": "Subway",
+              "opening_hours": "Mo-Su 07:00-19:00",
+              "phone": "+44 1908 217722",
+              "takeaway": "yes",
+              "website": "https://restaurants.subway.com/united-kingdom/en/milton-keynes/m1-junction-14-service-station-newport-pagnell"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10737767679"
+          },
+          {
+            "osmId": "node/6172768501",
+            "name": "Subway",
+            "coordinates": [
+              -0.7273132,
+              52.0852173
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "1",
+              "addr:postcode": "MK16 0AG",
+              "addr:street": "Station Road",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "fast_food",
+              "brand": "Subway",
+              "brand:wikidata": "Q244457",
+              "brand:wikipedia": "en:Subway (restaurant)",
+              "contact:website": "https://restaurants.subway.com/united-kingdom/en/newport-pagnell/1-station-road",
+              "cuisine": "sandwich",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "199234",
+              "fhrs:local_authority_id": "15510",
+              "name": "Subway",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6172768501"
+          },
+          {
+            "osmId": "node/6173041583",
+            "name": "Sunats Kebab House",
+            "coordinates": [
+              -0.727226,
+              52.0853195
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "127",
+              "addr:postcode": "MK16 8EH",
+              "addr:street": "High Street",
+              "amenity": "fast_food",
+              "name": "Sunats Kebab House"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6173041583"
+          },
+          {
+            "osmId": "node/6172767883",
+            "name": "Takeaway 4 U",
+            "coordinates": [
+              -0.7294482,
+              52.0784741
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "18",
+              "addr:postcode": "MK16 0JR",
+              "addr:street": "Elthorne Way",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "fast_food",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "137143",
+              "fhrs:local_authority_id": "71858",
+              "name": "Takeaway 4 U"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6172767883"
+          },
+          {
+            "osmId": "node/6173041582",
+            "name": "The Brooklands Centre",
+            "coordinates": [
+              -0.7192639,
+              52.0876195
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:postcode": "MK16 8AN",
+              "addr:street": "Ousebank Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "restaurant",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "680437",
+              "fhrs:local_authority_id": "78129",
+              "name": "The Brooklands Centre"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6173041582"
+          },
+          {
+            "osmId": "node/404403722",
+            "name": "The Bull Inn",
+            "coordinates": [
+              -0.7181195,
+              52.0851573
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "33",
+              "addr:postcode": "MK16 9AE",
+              "addr:street": "Tickford Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "pub",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "113760",
+              "fhrs:local_authority_id": "42760",
+              "name": "The Bull Inn",
+              "operator": "free_house",
+              "wikidata": "Q26596378"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/404403722"
+          },
+          {
+            "osmId": "node/1375986599",
+            "name": "The Cannon",
+            "coordinates": [
+              -0.7224475,
+              52.0868783
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "50",
+              "addr:postcode": "MK16 8AQ",
+              "addr:street": "High Street",
+              "amenity": "pub",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "112847",
+              "fhrs:local_authority_id": "41996",
+              "name": "The Cannon",
+              "source:addr:postcode": "FHRS Open Data",
+              "wikidata": "Q26617036"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1375986599"
+          },
+          {
+            "osmId": "node/2303848231",
+            "name": "The Cheeky Bhaji",
+            "coordinates": [
+              -0.7219796,
+              52.0865815
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "5",
+              "addr:postcode": "MK16 8HE",
+              "addr:street": "St John Street",
+              "amenity": "restaurant",
+              "cuisine": "indian",
+              "fhrs:authority": "Milton Keynes",
+              "name": "The Cheeky Bhaji",
+              "opening_hours": "Mo off; Tu-Su 17:00-22:30",
+              "phone": "+44 1908617877"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2303848231"
+          },
+          {
+            "osmId": "node/2359477539",
+            "name": "The Cinnamon Kitchen and Bat",
+            "coordinates": [
+              -0.7244564,
+              52.0863171
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "85",
+              "addr:postcode": "MK16 8AB",
+              "addr:street": "High Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "restaurant",
+              "cuisine": "indian",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "93294",
+              "fhrs:local_authority_id": "2674",
+              "name": "The Cinnamon Kitchen and Bat"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2359477539"
+          },
+          {
+            "osmId": "node/583018359",
+            "name": "The Coachmakers Arms",
+            "coordinates": [
+              -0.7260892,
+              52.0854976
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "117",
+              "addr:postcode": "MK16 8EN",
+              "addr:street": "High Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "pub",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "129471",
+              "fhrs:local_authority_id": "60270",
+              "name": "The Coachmakers Arms",
+              "wikidata": "Q26617034"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/583018359"
+          },
+          {
+            "osmId": "node/502533521",
+            "name": "The Dolphin",
+            "coordinates": [
+              -0.7247006,
+              52.0865724
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "82",
+              "addr:postcode": "MK16 8AQ",
+              "addr:street": "High Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "pub",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "75893",
+              "fhrs:local_authority_id": "1781",
+              "name": "The Dolphin",
+              "wikidata": "Q26617038"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/502533521"
+          },
+          {
+            "osmId": "node/1375986604",
+            "name": "The Dove",
+            "coordinates": [
+              -0.7432514,
+              52.0866916
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "6",
+              "addr:postcode": "MK16 8SB",
+              "addr:street": "Wordsworth Avenue",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "pub",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "77551",
+              "fhrs:local_authority_id": "1824",
+              "name": "The Dove"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1375986604"
+          },
+          {
+            "osmId": "node/2303847981",
+            "name": "The Golden Fry",
+            "coordinates": [
+              -0.7220629,
+              52.0867117
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "1",
+              "addr:postcode": "MK16 8HE",
+              "addr:street": "St John Street",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "93338",
+              "fhrs:local_authority_id": "2677",
+              "name": "The Golden Fry",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2303847981"
+          },
+          {
+            "osmId": "node/502492729",
+            "name": "The Kingfisher",
+            "coordinates": [
+              -0.7292476,
+              52.078578
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "16",
+              "addr:postcode": "MK16 0JR",
+              "addr:street": "Elthorne Way",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "pub",
+              "brand": "Hive Pubs",
+              "brand:wikidata": "Q115594794",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "112648",
+              "fhrs:local_authority_id": "41810",
+              "name": "The Kingfisher",
+              "website": "https://www.kingfishernewportpagnell.co.uk/index"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/502492729"
+          },
+          {
+            "osmId": "way/435768559",
+            "name": "The Kings Arms",
+            "coordinates": [
+              -0.7180045,
+              52.0844711
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:postcode": "MK16 9BY",
+              "addr:street": "Severn Drive",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "pub",
+              "beer_garden": "yes",
+              "building": "yes",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "113738",
+              "fhrs:local_authority_id": "42732",
+              "food": "yes",
+              "name": "The Kings Arms",
+              "phone": "+44 1908 610033",
+              "smoking": "outside",
+              "website": "https://www.kingsarmsnewportpagnell.co.uk/",
+              "wikidata": "Q26418471"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/435768559"
+          },
+          {
+            "osmId": "node/6173613008",
+            "name": "The Magic Wok",
+            "coordinates": [
+              -0.7145968,
+              52.084357
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "87",
+              "addr:postcode": "MK16 9AW",
+              "addr:street": "Tickford Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "restaurant",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "113766",
+              "fhrs:local_authority_id": "42770",
+              "name": "The Magic Wok"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6173613008"
+          },
+          {
+            "osmId": "node/2305584377",
+            "name": "The Pin Petch Thai Restaurant",
+            "coordinates": [
+              -0.7204696,
+              52.0871836
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-2305584377",
+            "curated": true,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "13",
+              "addr:postcode": "MK16 8AR",
+              "addr:street": "High Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "restaurant",
+              "cuisine": "thai",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "88933",
+              "fhrs:local_authority_id": "23565",
+              "name": "The Pin Petch Thai Restaurant",
+              "opening_hours": "Mo-Sa 16:30-22:00; Su 12:00-20:00",
+              "phone": "+44 1908 211211"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2305584377"
+          },
+          {
+            "osmId": "node/2305580265",
+            "name": "The Plough",
+            "coordinates": [
+              -0.7226327,
+              52.0866924
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "57",
+              "addr:postcode": "MK16 8AT",
+              "addr:street": "High Street",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "pub",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "75480",
+              "fhrs:local_authority_id": "1764",
+              "name": "The Plough"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2305580265"
+          },
+          {
+            "osmId": "node/1375986595",
+            "name": "The Red House",
+            "coordinates": [
+              -0.741406,
+              52.0823676
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Milton Keynes",
+              "addr:country": "GB",
+              "addr:housenumber": "1",
+              "addr:postcode": "MK16 8BG",
+              "addr:street": "Wolverton Road",
+              "addr:suburb": "Newport Pagnell",
+              "amenity": "pub",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "77493",
+              "fhrs:local_authority_id": "1822",
+              "name": "The Red House"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1375986595"
+          },
+          {
+            "osmId": "node/5924315948",
+            "name": "The Sandwich Shack",
+            "coordinates": [
+              -0.7209372,
+              52.0870024
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-5924315948",
+            "curated": true,
+            "tags": {
+              "addr:city": "Newport Pagnell",
+              "addr:country": "GB",
+              "addr:housenumber": "27",
+              "addr:postcode": "MK16 8AR",
+              "addr:street": "High Street",
+              "amenity": "cafe",
+              "cuisine": "sandwich;coffee_shop",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "137721",
+              "fhrs:local_authority_id": "72741",
+              "name": "The Sandwich Shack",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5924315948"
+          },
+          {
+            "osmId": "node/10283933033",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.702799,
+              52.0794016
+            ],
+            "category": "eat",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "amenity": "cafe"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10283933033"
+          }
+        ],
+        "picnic": [
+          {
+            "osmId": "node/2344589370",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.7199105,
+              52.0863595
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "leisure": "picnic_table"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2344589370"
+          },
+          {
+            "osmId": "node/2360034795",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.7197853,
+              52.0881895
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "leisure": "picnic_table"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2360034795"
+          },
+          {
+            "osmId": "node/2360034831",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.7189136,
+              52.0880857
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "leisure": "picnic_table"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2360034831"
+          }
+        ],
+        "parking": [
+          {
+            "osmId": "node/1061855941",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7498139,
+              52.0854522
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1061855941"
+          },
+          {
+            "osmId": "node/7172099457",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7477198,
+              52.0906205
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7172099457"
+          },
+          {
+            "osmId": "node/8452131641",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7493997,
+              52.0851602
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/8452131641"
+          },
+          {
+            "osmId": "node/8452131647",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7486914,
+              52.0855189
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/8452131647"
+          },
+          {
+            "osmId": "node/11040063466",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7425095,
+              52.0853067
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/11040063466"
+          },
+          {
+            "osmId": "node/11028093378",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7323536,
+              52.0776834
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/11028093378"
+          },
+          {
+            "osmId": "node/502492733",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7290076,
+              52.0783226
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/502492733"
+          },
+          {
+            "osmId": "node/11027569439",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7293829,
+              52.0822787
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/11027569439"
+          },
+          {
+            "osmId": "node/7169904843",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7266396,
+              52.0787304
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7169904843"
+          },
+          {
+            "osmId": "node/11030045322",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7270246,
+              52.0791075
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/11030045322"
+          },
+          {
+            "osmId": "way/54948796",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7476887,
+              52.0838533
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-54948796",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/54948796"
+          },
+          {
+            "osmId": "way/61483623",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7472025,
+              52.0834862
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "access": "hgv",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/61483623"
+          },
+          {
+            "osmId": "way/1146841152",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7346299,
+              52.0803635
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-1146841152",
+            "curated": true,
+            "tags": {
+              "access": "permissive",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1146841152"
+          },
+          {
+            "osmId": "way/1159489146",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7284913,
+              52.0836159
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1159489146"
+          },
+          {
+            "osmId": "way/1381067581",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7322928,
+              52.0817177
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1381067581"
+          },
+          {
+            "osmId": "way/225999395",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7237659,
+              52.0834245
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/225999395"
+          },
+          {
+            "osmId": "way/689906899",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.72315,
+              52.0816786
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/689906899"
+          },
+          {
+            "osmId": "way/689906902",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7227097,
+              52.0814635
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/689906902"
+          },
+          {
+            "osmId": "way/227061173",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7207915,
+              52.0874669
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/227061173"
+          },
+          {
+            "osmId": "way/227326093",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7280587,
+              52.0848067
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/227326093"
+          },
+          {
+            "osmId": "way/591407953",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7277851,
+              52.0858888
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-591407953",
+            "curated": true,
+            "tags": {
+              "access": "permissive",
+              "amenity": "parking",
+              "operator": "Thames Valley Police",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/591407953"
+          },
+          {
+            "osmId": "way/227061170",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7214675,
+              52.0856182
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/227061170"
+          },
+          {
+            "osmId": "way/227326090",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7251233,
+              52.0869472
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-227326090",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/227326090"
+          },
+          {
+            "osmId": "way/1188044294",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7235023,
+              52.085644
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1188044294"
+          },
+          {
+            "osmId": "way/591103326",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7160212,
+              52.0843572
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-591103326",
+            "curated": true,
+            "tags": {
+              "access": "permissive",
+              "amenity": "parking",
+              "park_ride": "no",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/591103326"
+          },
+          {
+            "osmId": "way/26436701",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7112679,
+              52.0806062
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/26436701"
+          },
+          {
+            "osmId": "way/26436708",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7083415,
+              52.0806378
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/26436708"
+          },
+          {
+            "osmId": "way/435768838",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7205606,
+              52.0865443
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-435768838",
+            "curated": true,
+            "tags": {
+              "amenity": "parking",
+              "fee": "yes",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/435768838"
+          },
+          {
+            "osmId": "way/26436709",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7075664,
+              52.0803298
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/26436709"
+          },
+          {
+            "osmId": "way/535644144",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7076591,
+              52.0806108
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/535644144"
+          },
+          {
+            "osmId": "way/1381913148",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7338813,
+              52.0781388
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1381913148"
+          },
+          {
+            "osmId": "way/487505320",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.748369,
+              52.0842939
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "capacity": "12",
+              "capacity:charging": "12",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/487505320"
+          },
+          {
+            "osmId": "way/1188959869",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7417074,
+              52.0824879
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "capacity": "19",
+              "capacity:disabled": "1",
+              "operator": "The Red House",
+              "operator:type": "business"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1188959869"
+          },
+          {
+            "osmId": "way/130450395",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7368097,
+              52.0800919
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/130450395"
+          },
+          {
+            "osmId": "way/130450424",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7350534,
+              52.0807891
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/130450424"
+          },
+          {
+            "osmId": "way/1146841151",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7344504,
+              52.0792761
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1146841151"
+          },
+          {
+            "osmId": "way/130450360",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7342568,
+              52.0797039
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/130450360"
+          },
+          {
+            "osmId": "way/487507661",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7432768,
+              52.0875683
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "check_date:fee": "2021-06-23",
+              "fee": "no",
+              "parking": "surface",
+              "surface": "paved"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/487507661"
+          },
+          {
+            "osmId": "way/487508609",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7432639,
+              52.0870701
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/487508609"
+          },
+          {
+            "osmId": "way/1159489145",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.728326,
+              52.0835161
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1159489145"
+          },
+          {
+            "osmId": "way/435768561",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7182232,
+              52.0841921
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/435768561"
+          },
+          {
+            "osmId": "way/591104628",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7161135,
+              52.0841741
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/591104628"
+          },
+          {
+            "osmId": "way/1124564575",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7027841,
+              52.0795287
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "note": "Enter registration details in the iCentre foyer"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1124564575"
+          }
+        ],
+        "toilets": [
+          {
+            "osmId": "node/2344589371",
+            "name": "Unnamed public toilets",
+            "coordinates": [
+              -0.725106,
+              52.0863378
+            ],
+            "category": "toilets",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-2344589371",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "toilets",
+              "fee": "no",
+              "toilets:handwashing": "yes",
+              "toilets:paper_supplied": "yes",
+              "toilets:position": "seated;urinal"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2344589371"
+          }
+        ]
+      }
+    }
+  ]
+}

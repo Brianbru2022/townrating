@@ -1,0 +1,411 @@
+{
+  "project": {
+    "id": "hook-a-gate-shropshire-england",
+    "name": "Hook-a-Gate Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Shropshire",
+    "locality": "Hook-a-Gate",
+    "centre": [
+      -2.7926777,
+      52.6773982
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Hook-a-Gate",
+        "osmType": "node",
+        "osmId": 492118104,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [
+          "OSM way 1242468980"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.7986777,
+              52.6728982
+            ],
+            [
+              -2.7866777000000003,
+              52.6728982
+            ],
+            [
+              -2.7866777000000003,
+              52.6818982
+            ],
+            [
+              -2.7986777,
+              52.6818982
+            ],
+            [
+              -2.7986777,
+              52.6728982
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-12T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-12. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 1 directly adjoining public green-space geometries were included in the active visitor boundary. Historic England official list-entry date enrichment reviewed 2026-08-12: 1 of 1 statutory records now carry defensible date evidence; uncaptured or unresolved entries are retained as unknown and listed in the county audit.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Hook-a-Gate has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Hook-a-Gate",
+      "intro": "Hook-a-Gate has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "Hook-a-Gate centre",
+        "summary": "Use the map to understand the settlement and its currently curated public facilities."
+      },
+      "dontMiss": [],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/492118104",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-12"
+    },
+    "visitorHighlights": [],
+    "townStudyArea": {
+      "localityName": "Hook-a-Gate",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/492118104",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-12",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.7986777,
+          52.6728982,
+          -2.7866777000000003,
+          52.6818982
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Hook-a-Gate",
+          "osmType": "node",
+          "osmId": 492118104,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.7986777,
+                52.6728982
+              ],
+              [
+                -2.7866777000000003,
+                52.6728982
+              ],
+              [
+                -2.7866777000000003,
+                52.6818982
+              ],
+              [
+                -2.7986777,
+                52.6818982
+              ],
+              [
+                -2.7986777,
+                52.6728982
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.7986777,
+          52.6728982,
+          -2.7866777000000003,
+          52.6818982
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Hook-a-Gate",
+          "osmType": "node",
+          "osmId": 492118104,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.7986777,
+                52.6728982
+              ],
+              [
+                -2.7866777000000003,
+                52.6728982
+              ],
+              [
+                -2.7866777000000003,
+                52.6818982
+              ],
+              [
+                -2.7986777,
+                52.6818982
+              ],
+              [
+                -2.7986777,
+                52.6728982
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Hook-a-Gate",
+          "osmType": "node",
+          "osmId": 492118104,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [
+            "OSM way 1242468980"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.7986777,
+                52.6728982
+              ],
+              [
+                -2.7866777000000003,
+                52.6728982
+              ],
+              [
+                -2.7866777000000003,
+                52.6818982
+              ],
+              [
+                -2.7986777,
+                52.6818982
+              ],
+              [
+                -2.7986777,
+                52.6728982
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes only directly adjoining mapped public green spaces: OSM way 1242468980."
+    }
+  },
+  "features": [
+    {
+      "id": "historic-england:nhle:1055074",
+      "projectId": "hook-a-gate-shropshire-england",
+      "name": "CHERRY COTTAGE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Hook-a-Gate",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.79426525421462,
+          52.6760011945618
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1055074",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1055074",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1055074",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1055074?section=official-list-entry",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: C18"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Hook-a-Gate visitor boundary. Earliest dated fabric or historic component normalised from the official Historic England list-entry text on 2026-08-12; later restoration and administrative listing dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "C18",
+      "earliestPossibleYear": 1700,
+      "latestPossibleYear": 1799,
+      "datePrecision": "century"
+    },
+    {
+      "id": "osm-community:node-10285454956",
+      "projectId": "hook-a-gate-shropshire-england",
+      "name": "The New Inn picnic rest point",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Hook-a-Gate",
+      "featureType": "bench",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7930826,
+          52.6766301
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "The New Inn picnic rest point is a mapped public bench or outdoor rest point used only because fewer than five genuine picnic places are mapped in Hook-a-Gate.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "node/10285454956",
+          "sourceUrl": "https://www.openstreetmap.org/node/10285454956",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "amenity=bench; picnic_rest_fallback=yes"
+        }
+      ],
+      "tags": [
+        "service-context-picnic",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-12.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    }
+  ],
+  "sources": [
+    {
+      "id": "hook-a-gate-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Hook-a-Gate settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/492118104",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Hook-a-Gate designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "hook-a-gate-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Hook-a-Gate visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

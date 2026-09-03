@@ -11,7 +11,8 @@ import type {
 import { validateFeatures } from '../src/domain/validation';
 import { localHesDatasetFiles } from './lib/reference-data';
 
-const projectPath = resolve(process.argv[2] ?? 'data/projects/alloa.json');
+const requestedProjectPaths = process.argv.slice(2).filter((item) => !item.startsWith('--'));
+const projectPaths = (requestedProjectPaths.length ? requestedProjectPaths : ['data/projects/alloa.json']).map((item) => resolve(item));
 const serviceUrl =
   'https://inspire.hes.scot/arcgis/rest/services/CANMORE/Canmore_Points/MapServer/0/query';
 const serviceRoot =
@@ -39,31 +40,40 @@ interface EsriResponse {
 }
 type ShapeCollection = { features: Array<Feature<Geometry, Record<string, unknown>>> };
 
+let localCollectionsPromise: Promise<ShapeCollection[] | undefined> | undefined;
+
+function localCollections(): Promise<ShapeCollection[] | undefined> {
+  localCollectionsPromise ??= (async () => {
+    const files = await localHesDatasetFiles('canmorePoints');
+    if (!files) return undefined;
+    Object.assign(globalThis, { self: globalThis });
+    const { default: shp } = await import('shpjs');
+    const bundle = {
+      shp: await readFile(files.shp),
+      dbf: await readFile(files.dbf),
+      prj: await readFile(files.prj, 'utf8'),
+      cpg: await readFile(files.cpg, 'utf8'),
+    };
+    const parsed = (await shp(bundle as unknown as Buffer)) as ShapeCollection | ShapeCollection[];
+    return Array.isArray(parsed) ? parsed : [parsed];
+  })();
+  return localCollectionsPromise;
+}
+
 function isProjectPoint(
   feature: Feature<Geometry, Record<string, unknown>>,
   project: ProjectPackage,
 ): feature is Feature<Point, Record<string, unknown>> {
+  const activeBoundary = project.project.townStudyArea?.localityBoundary ?? project.project.boundary;
   return (
     feature.geometry.type === 'Point' &&
-    booleanPointInPolygon(turfPoint(feature.geometry.coordinates), project.project.boundary)
+    booleanPointInPolygon(turfPoint(feature.geometry.coordinates), activeBoundary)
   );
 }
 
 async function localNrheRecords(project: ProjectPackage): Promise<EsriFeature[] | undefined> {
-  const files = await localHesDatasetFiles('canmorePoints');
-  if (!files) return undefined;
-  Object.assign(globalThis, { self: globalThis });
-  const { default: shp } = await import('shpjs');
-  // @types/shpjs only models ZIP input; the package supports this documented
-  // Shapefile sidecar bundle at runtime.
-  const bundle = {
-    shp: await readFile(files.shp),
-    dbf: await readFile(files.dbf),
-    prj: await readFile(files.prj, 'utf8'),
-    cpg: await readFile(files.cpg, 'utf8'),
-  };
-  const parsed = (await shp(bundle as unknown as Buffer)) as ShapeCollection | ShapeCollection[];
-  const collections = Array.isArray(parsed) ? parsed : [parsed];
+  const collections = await localCollections();
+  if (!collections) return undefined;
   return collections
     .flatMap((collection) => collection.features)
     .filter((feature) => isProjectPoint(feature, project))
@@ -151,7 +161,9 @@ function candidateFor(point: number[], features: HeritageFeature[]): HeritageFea
   return nearestDistance <= matchDistanceMetres ? nearest : undefined;
 }
 
+async function importProject(projectPath: string): Promise<{ added: number; linked: number; outsideBoundary: number }> {
 const packageJson = JSON.parse(await readFile(projectPath, 'utf8')) as ProjectPackage;
+const activeBoundary = packageJson.project.townStudyArea?.localityBoundary ?? packageJson.project.boundary;
 const localRecords = await localNrheRecords(packageJson);
 const usedLocalSource = localRecords !== undefined;
 let records: EsriFeature[];
@@ -192,7 +204,7 @@ for (const record of records) {
   const id = String(record.attributes.CANMOREID);
   const point = record.geometry.points?.[0];
   if (!point) throw new Error(`NRHE ${id} has no usable representative point.`);
-  if (!booleanPointInPolygon(turfPoint([point[0], point[1]]), packageJson.project.boundary)) {
+  if (!booleanPointInPolygon(turfPoint([point[0], point[1]]), activeBoundary)) {
     outsideBoundary += 1;
     continue;
   }
@@ -279,5 +291,22 @@ const errors = packageJson.validation.filter((result) => result.severity === 'er
 if (errors.length) throw new Error(`Refusing to write ${errors.length} validation error(s).`);
 await writeFile(projectPath, `${JSON.stringify(packageJson, null, 2)}\n`, 'utf8');
 console.log(
-  `Imported NRHE records: ${added} new sites and ${linked} linked to existing point features; ${outsideBoundary} envelope candidates excluded by parish containment.`,
+  `Imported NRHE records for ${packageJson.project.locality}: ${added} new sites and ${linked} linked to existing point features; ${outsideBoundary} envelope candidates excluded by boundary containment.`,
 );
+return { added, linked, outsideBoundary };
+}
+
+let totalAdded = 0;
+let totalLinked = 0;
+let totalOutsideBoundary = 0;
+for (const projectPath of projectPaths) {
+  const result = await importProject(projectPath);
+  totalAdded += result.added;
+  totalLinked += result.linked;
+  totalOutsideBoundary += result.outsideBoundary;
+}
+if (projectPaths.length > 1) {
+  console.log(
+    `Completed ${projectPaths.length} NRHE imports: ${totalAdded} new sites and ${totalLinked} linked records; ${totalOutsideBoundary} candidates excluded by strict boundary containment.`,
+  );
+}

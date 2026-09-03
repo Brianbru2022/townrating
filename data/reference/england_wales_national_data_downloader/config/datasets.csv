@@ -1,0 +1,27 @@
+country,category,dataset,provider,delivery,automated_script,licence_expected,notes
+England,Statutory heritage,National Heritage List for England,Historic England,ArcGIS Feature Service,01_download_england_heritage.ps1,OGL,Core HES Designations equivalent
+England,Risk,Heritage at Risk,Historic England,ArcGIS Feature Service discovery,01_download_england_heritage.ps1,OGL,Latest discoverable annual service
+England,Conservation,Conservation Areas,Historic England,ArcGIS Feature Service discovery,01_download_england_heritage.ps1,OGL,Local authorities remain authoritative
+England,Archaeology,Aerial Investigation and Mapping,Historic England,ArcGIS Feature Service discovery,04_download_optional_historic_england.ps1,OGL,Potentially very large
+England,Research,Historic England Research Reports,Historic England,ArcGIS Feature Service discovery,04_download_optional_historic_england.ps1,OGL,Index/locations rather than every report PDF
+England,Local records,Historic Environment Records,Local authorities / Heritage Gateway,Portal and local services,05_open_nonbulk_and_large_portals.ps1,Varies,No single unrestricted national bulk Canmore equivalent
+Wales,Statutory heritage,Listed Buildings,Cadw / Welsh Government,DataMapWales WFS,02_download_wales_heritage.ps1,OGL,Core Cof Cymru layer
+Wales,Statutory heritage,Scheduled Monuments,Cadw / Welsh Government,DataMapWales WFS,02_download_wales_heritage.ps1,OGL,Core Cof Cymru layer
+Wales,Maritime heritage,Protected Wrecks,Cadw / Welsh Government,DataMapWales WFS,02_download_wales_heritage.ps1,OGL,National layer
+Wales,Landscape,Register of Historic Landscapes,Cadw / Welsh Government,DataMapWales WFS,02_download_wales_heritage.ps1,OGL,National layer
+Wales,Parks and gardens,Registered Historic Parks and Gardens,Cadw / Welsh Government,DataMapWales WFS,02_download_wales_heritage.ps1,OGL,Includes component layers where discoverable
+Wales,Conservation,Conservation Areas,Welsh Government / local authorities,DataMapWales WFS,02_download_wales_heritage.ps1,OGL,National aggregation; local authority authoritative
+Wales,World heritage,World Heritage Site layers,Cadw / Welsh Government,DataMapWales WFS discovery,02_download_wales_heritage.ps1,OGL,Boundary and related setting/view layers where discoverable
+Wales,Historic geography,Historic Counties,RCAHMW / DataMapWales,DataMapWales WFS,03_download_wales_historical_boundaries.ps1,OGL,Useful for historic place search
+Wales,Historic geography,Historic Hundreds,RCAHMW / DataMapWales,DataMapWales WFS,03_download_wales_historical_boundaries.ps1,OGL,Useful for historical context
+Wales,Historic geography,Historic Municipal Boundaries,RCAHMW / DataMapWales,DataMapWales WFS,03_download_wales_historical_boundaries.ps1,OGL,Useful for historical context
+Wales,Historic geography,Historic Parliamentary Boundaries,RCAHMW / DataMapWales,DataMapWales WFS,03_download_wales_historical_boundaries.ps1,OGL,Useful for historical context
+Wales,National monuments record,NMRW Heritage Assets - Terrestrial,RCAHMW / DataMapWales,DataMapWales WFS,02_download_wales_heritage.ps1,OGL,Quarterly open site layer and closest broad Canmore equivalent
+Wales,National monuments record,NMRW Heritage Assets - Maritime,RCAHMW / DataMapWales,DataMapWales WFS,02_download_wales_heritage.ps1,OGL,Quarterly open maritime site layer
+Wales,National monuments record,Coflein full record and archive portal,RCAHMW,Search portal,05_open_nonbulk_and_large_portals.ps1,Check per resource,Use for fuller descriptions archive references and media
+Wales,Local records,Archwilio,Welsh Archaeological Trusts,Search portal / HER access,05_open_nonbulk_and_large_portals.ps1,Check terms,Essential undesignated archaeology source
+Wales,Place names,List of Historic Place Names,RCAHMW,Search/export/WFS subject to current limits,05_open_nonbulk_and_large_portals.ps1,Check current export and reuse terms
+England and Wales,Base mapping,OS OpenData,Ordnance Survey,Downloads/APIs,05_open_nonbulk_and_large_portals.ps1,OS terms,Large supporting datasets
+England,Elevation,National LiDAR Programme,Environment Agency,Tile/download services,05_open_nonbulk_and_large_portals.ps1,OGL commonly,Large tiled dataset
+Wales,Elevation,LiDAR and terrain data,Natural Resources Wales / DataMapWales,Tile/download services,05_open_nonbulk_and_large_portals.ps1,Dataset-specific,Large tiled dataset
+England and Wales,Administrative geography,ONS Open Geography,Office for National Statistics,ArcGIS/download portal,05_open_nonbulk_and_large_portals.ps1,OGL,Boundaries and built-up areas

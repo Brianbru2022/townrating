@@ -1,0 +1,114 @@
+{
+  "reviewedAt": "2026-09-02T12:00:00.000Z",
+  "sequence": 2,
+  "sequenceTotal": 8,
+  "projectId": "lathones-scotland",
+  "place": "Lathones",
+  "townScore": 42,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "Lathones is a roadside village centred on an inn, but the inn is meal-and-accommodation-led rather than the agreed café offer. Customer facilities and nearby attractions do not create a rounded visitor destination."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0,
+      "note": "No independently visitable attraction verified."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, bakeries, sweet treats and light lunches; meal-led restaurants, pubs and takeaways excluded.",
+      "note": "No café, tearoom or coffee-and-cake-led stop verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "note": "No maintained exact-locality visitor trail verified.",
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue searched; no exact Lathones product found.",
+        "CuriousAbout": "Current catalogue searched; no exact Lathones product found.",
+        "MysteryGuides": "Current Scotland catalogue searched; no exact Lathones product found.",
+        "GoQuestAdventures": "Current catalogue searched; no exact Lathones product found.",
+        "localAndOfficial": []
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "note": "No public picnic facility verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "note": "No general public visitor car park verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "note": "No public toilet verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Access is stated only where a current source supports it; no blanket accessibility claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road and available public-transport context checked; volatile timetables are not copied into the permanent record."
+    },
+    "dogs": {
+      "audited": true,
+      "note": "Town-level adjustment and venue-specific evidence retained; no unsupported dog-friendly claim added."
+    }
+  },
+  "exclusions": [
+    "Inn dining, parking and toilets are customer facilities and do not count as general town provision.",
+    "Nearby St Andrews and Peat Inn attractions are not transferred."
+  ],
+  "heritage": {
+    "sourceMode": "Local HES designation extracts and local NRHE/Canmore records first; web used only to resolve construction periods and current visitor context.",
+    "retainedRecords": 7,
+    "localRecords": 7,
+    "visibleDatedPins": 3,
+    "hiddenUndatedOrContextRecords": 4,
+    "visiblePinsWithoutDates": 0,
+    "administrativeDatesUsedAsConstructionDates": 0,
+    "visiblePinNamesContainingDate": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Lathones's strict study area count toward the settlement score. A separate attraction or through-route may be listed without inflating the town score.",
+  "scoreRationale": "Lathones is a roadside village centred on an inn, but the inn is meal-and-accommodation-led rather than the agreed café offer. Customer facilities and nearby attractions do not create a rounded visitor destination.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 42,
+    "rationale": "Score reconciled after all categories, boundary exclusions and current source checks."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.theinnatlathones.com/",
+        "note": "Operator offer checked as inn, restaurant, accommodation and events.",
+        "outcome": "verified",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://fife-placenames.glasgow.ac.uk/volume/?id=3",
+        "note": "The requested “Lahtones” spelling was normalised to Lathones.",
+        "outcome": "verified",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "administrativeDateLeakageAbsent": true,
+    "visibleHeritageLabelsClean": true,
+    "liveBrowserVerifiedAt": "2026-09-03T08:58:00+01:00"
+  }
+}

@@ -1,0 +1,2321 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T11:14:40.098Z",
+  "boundaryRule": "Exact active project boundary; no nearby places are counted.",
+  "curationRule": "OSM is discovery evidence. See and Eat require names; private, permit-only, customer-only, inactive and no-access places are excluded. Publication still requires editorial review.",
+  "towns": [
+    {
+      "projectId": "olney-england",
+      "locality": "Olney",
+      "projectFile": "olney-england.json",
+      "counts": {
+        "see": {
+          "osm": 11,
+          "eligible": 3,
+          "curated": 0,
+          "uncurated": 3
+        },
+        "eat": {
+          "osm": 30,
+          "eligible": 30,
+          "curated": 16,
+          "uncurated": 15
+        },
+        "picnic": {
+          "osm": 3,
+          "eligible": 3,
+          "curated": 0,
+          "uncurated": 3
+        },
+        "parking": {
+          "osm": 61,
+          "eligible": 23,
+          "curated": 10,
+          "uncurated": 13
+        },
+        "toilets": {
+          "osm": 2,
+          "eligible": 2,
+          "curated": 2,
+          "uncurated": 0
+        }
+      },
+      "candidates": {
+        "see": [
+          {
+            "osmId": "way/143124495",
+            "name": "Cowper and Newton Museum",
+            "coordinates": [
+              -0.7009097,
+              52.1525192
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-143124495",
+            "curated": false,
+            "tags": {
+              "building": "yes",
+              "name": "Cowper and Newton Museum",
+              "tourism": "museum",
+              "website": "https://cowperandnewtonmuseum.org.uk/",
+              "wikidata": "Q5179804",
+              "wikipedia": "en:Cowper and Newton Museum"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/143124495"
+          },
+          {
+            "osmId": "way/591668663",
+            "name": "Flower and Summer Gardens",
+            "coordinates": [
+              -0.7005957,
+              52.1520146
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-591668663",
+            "curated": false,
+            "tags": {
+              "access": "permissive",
+              "leisure": "garden",
+              "name": "Flower and Summer Gardens",
+              "operator": "Cowper & Newton Museum"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/591668663"
+          },
+          {
+            "osmId": "way/591668662",
+            "name": "Walled Flower Garden",
+            "coordinates": [
+              -0.700799,
+              52.1522569
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-591668662",
+            "curated": false,
+            "tags": {
+              "access": "permissive",
+              "leisure": "garden",
+              "name": "Walled Flower Garden",
+              "operator": "Cowper & Newton Museum"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/591668662"
+          },
+          {
+            "osmId": "node/5732872873",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.6996995,
+              52.1489441
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "man_made": "watermill"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5732872873"
+          },
+          {
+            "osmId": "way/422885358",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7009327,
+              52.1550148
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/422885358"
+          },
+          {
+            "osmId": "way/591689603",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.703767,
+              52.1518014
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/591689603"
+          },
+          {
+            "osmId": "way/1213438053",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7025986,
+              52.1560911
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "leisure": "garden",
+              "level": "-1"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1213438053"
+          },
+          {
+            "osmId": "way/422885658",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7002818,
+              52.1550319
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/422885658"
+          },
+          {
+            "osmId": "way/589349643",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7003459,
+              52.1553197
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/589349643"
+          },
+          {
+            "osmId": "way/591668674",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7006139,
+              52.1517016
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/591668674"
+          },
+          {
+            "osmId": "way/508006926",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7019935,
+              52.1572677
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "access": "yes",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/508006926"
+          }
+        ],
+        "eat": [
+          {
+            "osmId": "node/5627604994",
+            "name": "4 Pillars",
+            "coordinates": [
+              -0.7012721,
+              52.1558355
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "60",
+              "addr:postcode": "MK46 4BE",
+              "addr:street": "High Street",
+              "alt_name": "The Four Pillars Tandoori",
+              "amenity": "restaurant",
+              "cuisine": "indian",
+              "fhrs:id": "129080",
+              "fhrs:local_authority_id": "59483",
+              "name": "4 Pillars"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5627604994"
+          },
+          {
+            "osmId": "way/143124535",
+            "name": "Amphawan",
+            "coordinates": [
+              -0.7014526,
+              52.152121
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "5-11",
+              "addr:postcode": "MK46 4LA",
+              "addr:street": "Osborn's Court",
+              "amenity": "restaurant",
+              "building": "yes",
+              "cuisine": "thai",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "74408",
+              "fhrs:local_authority_id": "17149",
+              "name": "Amphawan",
+              "phone": "+44 1234 714355"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/143124535"
+          },
+          {
+            "osmId": "way/143124490",
+            "name": "Bewiched Coffee",
+            "coordinates": [
+              -0.7018927,
+              52.1524827
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-143124490",
+            "curated": true,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "38",
+              "addr:postcode": "MK46 4AJ",
+              "addr:street": "Market Place",
+              "amenity": "cafe",
+              "building": "yes",
+              "cuisine": "coffee_shop;cake;sandwich",
+              "fhrs:authority": "Milton Keynes",
+              "internet_access": "wlan",
+              "internet_access:fee": "no",
+              "name": "Bewiched Coffee",
+              "opening_hours": "Mo-Sa 08:00-18:00; Su 09:00-17:00",
+              "outdoor_seating": "no",
+              "phone": "+44 1234 711140",
+              "website": "https://www.bewiched.co.uk"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/143124490"
+          },
+          {
+            "osmId": "node/618869132",
+            "name": "Blue Bay Taverna",
+            "coordinates": [
+              -0.7023712,
+              52.1525287
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-618869132",
+            "curated": true,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housename": "Galleries",
+              "addr:housenumber": "2-4",
+              "addr:postcode": "MK46 4EA",
+              "addr:street": "Market Place",
+              "amenity": "restaurant",
+              "cuisine": "mediterranean",
+              "delivery": "yes",
+              "email": "info@bluebaytaverna.co.uk",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:local_authority_id": "61786",
+              "name": "Blue Bay Taverna",
+              "opening_hours": "Tu-Sa 12:00-22:00; Su 12:00-21:00",
+              "phone": "+44 1234 240842",
+              "website": "https://www.bluebaytaverna.co.uk"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/618869132"
+          },
+          {
+            "osmId": "way/96693341",
+            "name": "Carlton House Club",
+            "coordinates": [
+              -0.7009564,
+              52.1551498
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "38",
+              "addr:postcode": "MK46 4BB",
+              "addr:street": "High Street",
+              "amenity": "bar",
+              "building": "yes",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "114799",
+              "fhrs:local_authority_id": "43959",
+              "name": "Carlton House Club",
+              "opening_hours": "Mo 16:00-23:00; Tu,We,Su 12:00-23:00; Th 11:00-23:00; Fr,Sa 11:00-24:00",
+              "operator": "The Carlton House Club",
+              "smoking": "outside"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/96693341"
+          },
+          {
+            "osmId": "way/143124501",
+            "name": "Costa",
+            "coordinates": [
+              -0.7012942,
+              52.1524998
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-143124501",
+            "curated": true,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "33",
+              "addr:postcode": "MK46 4AJ",
+              "addr:street": "Market Place",
+              "amenity": "cafe",
+              "brand": "Costa",
+              "brand:wikidata": "Q608845",
+              "brand:wikipedia": "en:Costa Coffee",
+              "building": "yes",
+              "cuisine": "coffee_shop",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "485427",
+              "fhrs:local_authority_id": "44092",
+              "name": "Costa",
+              "source": "Bing",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/143124501"
+          },
+          {
+            "osmId": "node/4002847248",
+            "name": "Enzo's Fish Bar",
+            "coordinates": [
+              -0.7016243,
+              52.1538839
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "12",
+              "addr:postcode": "MK46 4BB",
+              "addr:street": "High Street",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "delivery": "no",
+              "drive_through": "no",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "131883",
+              "fhrs:local_authority_id": "63484",
+              "name": "Enzo's Fish Bar",
+              "outdoor_seating": "no",
+              "smoking": "no",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4002847248"
+          },
+          {
+            "osmId": "way/96693361",
+            "name": "Harvest Deli and Greencrocer",
+            "coordinates": [
+              -0.7009966,
+              52.1540177
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-96693361",
+            "curated": true,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housename": "Fountain Court",
+              "addr:postcode": "MK46 4BB",
+              "addr:street": "High Street",
+              "building": "retail",
+              "name": "Harvest Deli and Greencrocer",
+              "opening_hours": "Tu-Sa 07:00-16:00",
+              "payment:cash": "yes",
+              "payment:contactless": "yes",
+              "payment:credit_cards": "yes",
+              "payment:debit_cards": "yes",
+              "phone": "+44 1234 240661",
+              "shop": "deli"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/96693361"
+          },
+          {
+            "osmId": "node/5627613312",
+            "name": "Jade Garden",
+            "coordinates": [
+              -0.7013163,
+              52.1555236
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "48-50",
+              "addr:postcode": "MK46 4BE",
+              "addr:street": "High Street",
+              "amenity": "restaurant",
+              "cuisine": "chinese",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "93269",
+              "fhrs:local_authority_id": "2672",
+              "name": "Jade Garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5627613312"
+          },
+          {
+            "osmId": "node/4783493963",
+            "name": "Jasmine Cottage",
+            "coordinates": [
+              -0.7011956,
+              52.1540848
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:postcode": "MK46 4BB",
+              "addr:street": "High Street",
+              "addr:unit": "Unit 3 Fountain Court",
+              "amenity": "fast_food",
+              "cuisine": "chinese",
+              "fhrs:id": "128022",
+              "name": "Jasmine Cottage"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4783493963"
+          },
+          {
+            "osmId": "node/12379135166",
+            "name": "JJ's At Eleven",
+            "coordinates": [
+              -0.701962,
+              52.1531277
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-12379135166",
+            "curated": true,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:housenumber": "11",
+              "addr:postcode": "MK46 4EA",
+              "addr:street": "Market Place",
+              "amenity": "cafe",
+              "bar": "yes",
+              "cuisine": "coffee_shop;bar;sandwich",
+              "fhrs:id": "114975",
+              "name": "JJ's At Eleven",
+              "opening_hours": "Tu-Sa 10:00-16:00",
+              "outdoor_seating": "yes",
+              "payment:cash": "yes",
+              "payment:contactless": "yes",
+              "payment:credit_cards": "yes",
+              "payment:debit_cards": "yes",
+              "phone": "+44 1234 910544",
+              "website": "https://jjsateleven.co.uk"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/12379135166"
+          },
+          {
+            "osmId": "node/4783493962",
+            "name": "Krust Pizza",
+            "coordinates": [
+              -0.7011983,
+              52.154019
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housename": "Unit 4",
+              "addr:housenumber": "16-18",
+              "addr:postcode": "MK46 4BB",
+              "addr:street": "High Street",
+              "amenity": "fast_food",
+              "cuisine": "pizza",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "131737",
+              "fhrs:local_authority_id": "63273",
+              "name": "Krust Pizza"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4783493962"
+          },
+          {
+            "osmId": "way/592403586",
+            "name": "Little Hermitage",
+            "coordinates": [
+              -0.7000787,
+              52.1534912
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-592403586",
+            "curated": true,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:housenumber": "17",
+              "addr:postcode": "MK46 4DH",
+              "addr:street": "East Street",
+              "amenity": "cafe",
+              "building": "yes",
+              "cuisine": "coffee_shop",
+              "fhrs:id": "765165",
+              "name": "Little Hermitage",
+              "opening_hours": "Mo-Su 09:00-15:00",
+              "outdoor_seating": "no",
+              "phone": "+44 7398 619006"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/592403586"
+          },
+          {
+            "osmId": "node/618869116",
+            "name": "Locanda Gabriella",
+            "coordinates": [
+              -0.7028966,
+              52.1523058
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "2-3",
+              "addr:postcode": "MK46 5NH",
+              "addr:street": "Stanley Court",
+              "amenity": "restaurant",
+              "cuisine": "italian",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "115106",
+              "fhrs:local_authority_id": "44230",
+              "name": "Locanda Gabriella",
+              "opening_hours:covid19": "Th-Sa evening; Su-lunch",
+              "phone": "+44 1234 713179"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/618869116"
+          },
+          {
+            "osmId": "node/430015924",
+            "name": "Madiera's",
+            "coordinates": [
+              -0.7014575,
+              52.1533069
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "15",
+              "addr:postcode": "MK46 4BA",
+              "addr:street": "Market Place",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "drive_through": "no",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "135870",
+              "fhrs:local_authority_id": "69781",
+              "name": "Madiera's",
+              "opening_hours": "Mo-Su 12:00-22:00",
+              "outdoor_seating": "no",
+              "phone": "+44 1234 714444",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/430015924"
+          },
+          {
+            "osmId": "node/253879305",
+            "name": "Maya",
+            "coordinates": [
+              -0.702574,
+              52.1584642
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:postcode": "MK46 5DX",
+              "addr:street": "Yardley Road",
+              "amenity": "restaurant",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "115229",
+              "fhrs:local_authority_id": "44380",
+              "name": "Maya"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/253879305"
+          },
+          {
+            "osmId": "way/587164459",
+            "name": "Naga Tandoori",
+            "coordinates": [
+              -0.7030763,
+              52.1530947
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-587164459",
+            "curated": true,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "Unit 3",
+              "addr:postcode": "MK46 5NH",
+              "addr:street": "Stanley Court",
+              "addr:unit": "Unit 2",
+              "amenity": "restaurant",
+              "building": "yes",
+              "cuisine": "indian",
+              "delivery": "yes",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "115103",
+              "fhrs:local_authority_id": "44225",
+              "name": "Naga Tandoori",
+              "opening_hours": "We-Fr 17:00-23:00; Sa 15:00-23:00; Su 15:00-22:00",
+              "outdoor_seating": "no",
+              "phone": "+44 1234 240630",
+              "smoking": "no",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/587164459"
+          },
+          {
+            "osmId": "way/143124526",
+            "name": "Olney Bakery",
+            "coordinates": [
+              -0.70169,
+              52.152533
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-143124526",
+            "curated": true,
+            "tags": {
+              "building": "yes",
+              "name": "Olney Bakery",
+              "shop": "bakery",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/143124526"
+          },
+          {
+            "osmId": "way/143124493",
+            "name": "Olney Kitchen",
+            "coordinates": [
+              -0.7015881,
+              52.152414
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "36A",
+              "addr:postcode": "MK46 4AJ",
+              "addr:street": "Market Place",
+              "amenity": "restaurant",
+              "building": "yes",
+              "cuisine": "pizza;pasta;burger",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "127063",
+              "fhrs:local_authority_id": "56129",
+              "name": "Olney Kitchen",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/143124493"
+          },
+          {
+            "osmId": "way/399554244",
+            "name": "Olney Pancake Parlour",
+            "coordinates": [
+              -0.700564,
+              52.1527697
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-399554244",
+            "curated": true,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "24/25",
+              "addr:postcode": "MK46 4BA",
+              "addr:street": "Market Place",
+              "amenity": "cafe",
+              "building": "yes",
+              "contact:phone": "+44 1234 713 152",
+              "contact:website": "https://www.olneypancakeparlour.co.uk/",
+              "cuisine": "coffee_shop;pancake",
+              "delivery": "no",
+              "diet:gluten_free": "yes",
+              "diet:meat": "yes",
+              "diet:vegan": "yes",
+              "diet:vegetarian": "yes",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "138423",
+              "fhrs:local_authority_id": "73713",
+              "internet_access": "wlan",
+              "internet_access:fee": "no",
+              "name": "Olney Pancake Parlour",
+              "opening_hours": "Mo-We 08:30-15:00; Th-Sa 08:30-17:00; Su 08:30-16:00",
+              "outdoor_seating": "yes",
+              "smoking": "outside",
+              "takeaway": "yes",
+              "website": "https://www.olneypancakeparlour.co.uk/"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/399554244"
+          },
+          {
+            "osmId": "way/96765771",
+            "name": "Olney Rugby Football Club",
+            "coordinates": [
+              -0.6980093,
+              52.1562674
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:postcode": "MK46 4DW",
+              "addr:street": "East Street",
+              "amenity": "bar",
+              "building": "yes",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "114759",
+              "fhrs:local_authority_id": "43901",
+              "name": "Olney Rugby Football Club"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/96765771"
+          },
+          {
+            "osmId": "way/398751280",
+            "name": "Rasso's Pizzeria",
+            "coordinates": [
+              -0.7005017,
+              52.1526633
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "26a",
+              "addr:postcode": "MK46 4BA",
+              "addr:street": "Market Place",
+              "amenity": "restaurant",
+              "building": "yes",
+              "cuisine": "pizza",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "967095",
+              "fhrs:local_authority_id": "10527",
+              "name": "Rasso's Pizzeria",
+              "outdoor_seating": "no",
+              "website": "https://rassos.co.uk/"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/398751280"
+          },
+          {
+            "osmId": "node/4738548349",
+            "name": "Sandwich Land",
+            "coordinates": [
+              -0.7017517,
+              52.1566247
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4738548349",
+            "curated": true,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "84-87",
+              "addr:postcode": "MK46 4EF",
+              "addr:street": "High Street",
+              "amenity": "cafe",
+              "cuisine": "sandwich",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "114861",
+              "fhrs:local_authority_id": "44006",
+              "internet_access": "no",
+              "name": "Sandwich Land"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4738548349"
+          },
+          {
+            "osmId": "node/618869103",
+            "name": "Simona’s Traditional Tearooms",
+            "coordinates": [
+              -0.7021909,
+              52.152339
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-618869103",
+            "curated": true,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "31",
+              "addr:postcode": "MK46 4AA",
+              "addr:street": "High Street South",
+              "amenity": "cafe",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:local_authority_id": "44033",
+              "name": "Simona’s Traditional Tearooms",
+              "note": "Opening 7-10-25"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/618869103"
+          },
+          {
+            "osmId": "relation/7511096",
+            "name": "The Bull Hotel",
+            "coordinates": [
+              -0.702286,
+              52.1529676
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housename": "The Bull",
+              "addr:housenumber": "9",
+              "addr:postcode": "MK46 4EA",
+              "addr:street": "Market Place",
+              "amenity": "pub",
+              "brewery": "Charles Wells",
+              "building": "yes",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "85139",
+              "fhrs:local_authority_id": "2129",
+              "name": "The Bull Hotel",
+              "outdoor_seating": "yes",
+              "smoking": "outside",
+              "type": "multipolygon",
+              "website": "https://www.bullhotelolney.co.uk",
+              "wikidata": "Q26598018"
+            },
+            "osmUrl": "https://www.openstreetmap.org/relation/7511096"
+          },
+          {
+            "osmId": "way/96712309",
+            "name": "The Cherry Tree",
+            "coordinates": [
+              -0.7022508,
+              52.1534472
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-96712309",
+            "curated": true,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "3",
+              "addr:postcode": "MK46 4EB",
+              "addr:street": "High Street",
+              "amenity": "restaurant",
+              "building": "yes",
+              "cuisine": "burger;greek;international;italian;pizza;steak_house",
+              "delivery": "no",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "1030518",
+              "fhrs:local_authority_id": "88220",
+              "name": "The Cherry Tree",
+              "smoking": "no",
+              "takeaway": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/96712309"
+          },
+          {
+            "osmId": "way/588229585",
+            "name": "The Courtyard Brasserie",
+            "coordinates": [
+              -0.7006449,
+              52.1529661
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-588229585",
+            "curated": true,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "8-9",
+              "addr:postcode": "MK46 4BY",
+              "addr:street": "Rose Court",
+              "amenity": "restaurant",
+              "building": "yes",
+              "contact:phone": "+44 1234 713925",
+              "contact:website": "http://courtyardbrasserie.co.uk/",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "127210",
+              "fhrs:local_authority_id": "56378",
+              "name": "The Courtyard Brasserie",
+              "opening_hours": "Mo-Sa 09:00-16:30; Su,PH 10:00-16:30",
+              "outdoor_seating": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/588229585"
+          },
+          {
+            "osmId": "node/5629409862",
+            "name": "The Little Coffee Pot",
+            "coordinates": [
+              -0.7020585,
+              52.1527186
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-5629409862",
+            "curated": true,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "7a",
+              "addr:postcode": "MK46 4EA",
+              "addr:street": "Market Place",
+              "amenity": "restaurant",
+              "cuisine": "coffee_shop",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "1413226",
+              "fhrs:local_authority_id": "1176",
+              "name": "The Little Coffee Pot",
+              "website": "https://www.facebook.com/The-Little-Coffee-Pot-104584411984770/"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5629409862"
+          },
+          {
+            "osmId": "way/143124544",
+            "name": "The Swan Inn & Bistro",
+            "coordinates": [
+              -0.7018007,
+              52.1518216
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "12",
+              "addr:postcode": "MK46 4AA",
+              "addr:street": "High Street South",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "76022",
+              "fhrs:local_authority_id": "1787",
+              "food": "yes",
+              "name": "The Swan Inn & Bistro",
+              "outdoor_seating": "yes",
+              "phone": "+44 1234 711111",
+              "wikidata": "Q26452109"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/143124544"
+          },
+          {
+            "osmId": "way/589348195",
+            "name": "The Two Brewers",
+            "coordinates": [
+              -0.7011967,
+              52.1548665
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-589348195",
+            "curated": true,
+            "tags": {
+              "addr:city": "Olney",
+              "addr:country": "GB",
+              "addr:housenumber": "34",
+              "addr:postcode": "MK46 4BB",
+              "addr:street": "High Street",
+              "amenity": "pub",
+              "brewery": "yes",
+              "building": "yes",
+              "fhrs:authority": "Milton Keynes",
+              "fhrs:id": "114816",
+              "fhrs:local_authority_id": "43985",
+              "food": "yes",
+              "name": "The Two Brewers",
+              "opening_hours": "Mo-Th 11:30-23:45; Fr 11:30-24:00; Sa 00:00-00:30,11:30-24:00; Su 00:00-00:30,12:00-23:00",
+              "outdoor_seating": "yes",
+              "smoking": "outside",
+              "wikidata": "Q26617136"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/589348195"
+          }
+        ],
+        "picnic": [
+          {
+            "osmId": "node/5644858689",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.7020257,
+              52.1530445
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "leisure": "picnic_table",
+              "operator": "The Bull Hotel"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5644858689"
+          },
+          {
+            "osmId": "node/5644858690",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.7019929,
+              52.1534687
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "leisure": "picnic_table",
+              "operator": "The Cherry Tree"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5644858690"
+          },
+          {
+            "osmId": "node/5644858688",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.7006875,
+              52.1530245
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "leisure": "picnic_table",
+              "operator": "The Courtyard Barsserie"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5644858688"
+          }
+        ],
+        "parking": [
+          {
+            "osmId": "way/143053746",
+            "name": "Fountain Court Car Park",
+            "coordinates": [
+              -0.7004291,
+              52.1541555
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-143053746",
+            "curated": true,
+            "tags": {
+              "access": "permissive",
+              "amenity": "parking",
+              "capacity": "35",
+              "capacity:disabled": "3",
+              "fee": "no",
+              "name": "Fountain Court Car Park",
+              "park_ride": "no",
+              "parking": "surface",
+              "supervised": "no",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/143053746"
+          },
+          {
+            "osmId": "way/96238828",
+            "name": "Long Stay Car Park",
+            "coordinates": [
+              -0.6989013,
+              52.1562049
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-96238828",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "capacity": "100",
+              "fee": "no",
+              "lit": "yes",
+              "maxstay": "no",
+              "name": "Long Stay Car Park",
+              "operator": "Olney Town Council",
+              "operator:type": "council",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/96238828"
+          },
+          {
+            "osmId": "way/116328208",
+            "name": "Market Place",
+            "coordinates": [
+              -0.7014003,
+              52.1528978
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-116328208",
+            "curated": true,
+            "tags": {
+              "access": "permissive",
+              "amenity": "parking",
+              "fee": "no",
+              "maxstay": "3 hours",
+              "name": "Market Place",
+              "opening_hours": "Mo-We,Fr-Su 07:00-18:00, excluding 1st Su of month",
+              "operator": "Olney Town Council",
+              "operator:type": "council",
+              "park_ride": "no",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/116328208"
+          },
+          {
+            "osmId": "way/96209400",
+            "name": "Silver End Car Park",
+            "coordinates": [
+              -0.7005416,
+              52.1523159
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-96209400",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "maxstay": "no",
+              "name": "Silver End Car Park",
+              "operator": "Milton Keynes Council",
+              "park_ride": "no",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/96209400"
+          },
+          {
+            "osmId": "node/11077650845",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.696214,
+              52.1520136
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-11077650845",
+            "curated": true,
+            "tags": {
+              "access": "permissive",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface",
+              "surface": "compacted"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/11077650845"
+          },
+          {
+            "osmId": "way/542351957",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7017292,
+              52.1535642
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-542351957",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "capacity": "5",
+              "fee": "no",
+              "maxstay": "1 hour",
+              "operator": "Olney Town Council",
+              "operator:type": "council",
+              "park_ride": "no",
+              "parking": "lane",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/542351957"
+          },
+          {
+            "osmId": "way/1321720708",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7057973,
+              52.152166
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-1321720708",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "street_side",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1321720708"
+          },
+          {
+            "osmId": "way/508231757",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6996933,
+              52.15233
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/508231757"
+          },
+          {
+            "osmId": "way/592361324",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6976633,
+              52.1529655
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/592361324"
+          },
+          {
+            "osmId": "way/88139936",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7133736,
+              52.1573698
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-88139936",
+            "curated": true,
+            "tags": {
+              "access": "permissive",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/88139936"
+          },
+          {
+            "osmId": "way/1204339561",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7121012,
+              52.1619342
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1204339561"
+          },
+          {
+            "osmId": "way/1211711925",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7104978,
+              52.15719
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "capacity": "4",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1211711925"
+          },
+          {
+            "osmId": "way/1226048751",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7095029,
+              52.1575586
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "capacity": "4",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1226048751"
+          },
+          {
+            "osmId": "way/1204500147",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7110767,
+              52.1653833
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "street_side",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1204500147"
+          },
+          {
+            "osmId": "way/1204500148",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7110037,
+              52.1653284
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "street_side",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1204500148"
+          },
+          {
+            "osmId": "way/379890320",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7025246,
+              52.1582989
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-379890320",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "capacity": "7",
+              "capacity:disabled": "1",
+              "fee": "no",
+              "maxstay": "unlimited",
+              "supervised": "no",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/379890320"
+          },
+          {
+            "osmId": "way/383291146",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7022309,
+              52.1595294
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface",
+              "supervised": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/383291146"
+          },
+          {
+            "osmId": "way/484291886",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7016004,
+              52.1632281
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/484291886"
+          },
+          {
+            "osmId": "way/484291888",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7020482,
+              52.1631499
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/484291888"
+          },
+          {
+            "osmId": "way/589100058",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7027945,
+              52.1573631
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-589100058",
+            "curated": true,
+            "tags": {
+              "access": "permissive",
+              "amenity": "parking",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/589100058"
+          },
+          {
+            "osmId": "way/1207583058",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7047488,
+              52.1587255
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "capacity": "6",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1207583058"
+          },
+          {
+            "osmId": "way/484291887",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7012531,
+              52.1630201
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/484291887"
+          },
+          {
+            "osmId": "way/1428892354",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7018237,
+              52.1641183
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1428892354"
+          },
+          {
+            "osmId": "way/31786749",
+            "name": "Co-Op Car Park",
+            "coordinates": [
+              -0.7031466,
+              52.1527435
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "capacity:disabled": "yes",
+              "fee": "no",
+              "maxstay": "2 hours",
+              "name": "Co-Op Car Park",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/31786749"
+          },
+          {
+            "osmId": "way/397493810",
+            "name": "Cobbs Garden",
+            "coordinates": [
+              -0.703035,
+              52.1566216
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "name": "Cobbs Garden",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/397493810"
+          },
+          {
+            "osmId": "way/592411162",
+            "name": "Francis Jackson Homes",
+            "coordinates": [
+              -0.7009194,
+              52.1536582
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "name": "Francis Jackson Homes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/592411162"
+          },
+          {
+            "osmId": "way/591671226",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7011538,
+              52.1522549
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/591671226"
+          },
+          {
+            "osmId": "way/592435086",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7035674,
+              52.1568052
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/592435086"
+          },
+          {
+            "osmId": "way/592435087",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7040346,
+              52.1568745
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/592435087"
+          },
+          {
+            "osmId": "way/1151101533",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6992592,
+              52.1568213
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1151101533"
+          },
+          {
+            "osmId": "way/1151101534",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6981864,
+              52.1568171
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1151101534"
+          },
+          {
+            "osmId": "way/411084951",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7024518,
+              52.1536471
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "operator": "Willows Veterinary Surgery"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/411084951"
+          },
+          {
+            "osmId": "way/563910425",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7026824,
+              52.1528614
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "operator": "Bull Hotel",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/563910425"
+          },
+          {
+            "osmId": "way/589521308",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7025668,
+              52.1523574
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/589521308"
+          },
+          {
+            "osmId": "way/591691400",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7050287,
+              52.1516436
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/591691400"
+          },
+          {
+            "osmId": "way/591691593",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7047372,
+              52.1521724
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/591691593"
+          },
+          {
+            "osmId": "way/486802726",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7006511,
+              52.1548778
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/486802726"
+          },
+          {
+            "osmId": "way/588710691",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7007631,
+              52.1555861
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/588710691"
+          },
+          {
+            "osmId": "way/589349642",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.700385,
+              52.1551629
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/589349642"
+          },
+          {
+            "osmId": "way/591289206",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.699913,
+              52.1529948
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/591289206"
+          },
+          {
+            "osmId": "way/592411161",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7006753,
+              52.1535332
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/592411161"
+          },
+          {
+            "osmId": "way/1151101535",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6981317,
+              52.1565817
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1151101535"
+          },
+          {
+            "osmId": "way/1213929787",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6999806,
+              52.1543349
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1213929787"
+          },
+          {
+            "osmId": "way/1190487794",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7109247,
+              52.1618962
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1190487794"
+          },
+          {
+            "osmId": "way/1190487785",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7099385,
+              52.1633742
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1190487785"
+          },
+          {
+            "osmId": "way/1190487790",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7102572,
+              52.1638982
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1190487790"
+          },
+          {
+            "osmId": "way/1190487793",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7110591,
+              52.1636037
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "capacity": "11"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1190487793"
+          },
+          {
+            "osmId": "way/482330283",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.701719,
+              52.1600277
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/482330283"
+          },
+          {
+            "osmId": "way/592475546",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7034552,
+              52.1572125
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/592475546"
+          },
+          {
+            "osmId": "way/1132333396",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7026568,
+              52.1586168
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1132333396"
+          },
+          {
+            "osmId": "way/1213298154",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7030097,
+              52.1595912
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "capacity": "10",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1213298154"
+          },
+          {
+            "osmId": "way/708514725",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6997171,
+              52.1625523
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "capacity": "115",
+              "construction": "yes",
+              "fee": "no",
+              "operator": "Sainsbury’s",
+              "operator:type": "business",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/708514725"
+          },
+          {
+            "osmId": "way/1021455281",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7000178,
+              52.1616253
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1021455281"
+          },
+          {
+            "osmId": "way/1021455282",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6988099,
+              52.1609609
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1021455282"
+          },
+          {
+            "osmId": "way/1199626908",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6999393,
+              52.1617756
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1199626908"
+          },
+          {
+            "osmId": "way/1214221397",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6995,
+              52.1570299
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1214221397"
+          },
+          {
+            "osmId": "way/1151101532",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7010731,
+              52.1573918
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1151101532"
+          },
+          {
+            "osmId": "way/1308926742",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7008896,
+              52.1633302
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1308926742"
+          },
+          {
+            "osmId": "way/1428892353",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.70133,
+              52.1642707
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1428892353"
+          },
+          {
+            "osmId": "way/1190483599",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7018307,
+              52.1647611
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1190483599"
+          },
+          {
+            "osmId": "way/1308926743",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7015072,
+              52.1636
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1308926743"
+          }
+        ],
+        "toilets": [
+          {
+            "osmId": "way/116328210",
+            "name": "Unnamed public toilets",
+            "coordinates": [
+              -0.7017469,
+              52.15283
+            ],
+            "category": "toilets",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-116328210",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "toilets",
+              "building": "yes",
+              "changing_table": "no",
+              "source": "Bing",
+              "unisex": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/116328210"
+          },
+          {
+            "osmId": "way/97499261",
+            "name": "Unnamed public toilets",
+            "coordinates": [
+              -0.6972831,
+              52.1553831
+            ],
+            "category": "toilets",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-97499261",
+            "curated": true,
+            "tags": {
+              "amenity": "toilets",
+              "building": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/97499261"
+          }
+        ]
+      }
+    }
+  ]
+}

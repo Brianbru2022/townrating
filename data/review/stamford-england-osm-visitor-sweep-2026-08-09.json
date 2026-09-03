@@ -1,0 +1,3978 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T11:19:40.053Z",
+  "boundaryRule": "Exact active project boundary; no nearby places are counted.",
+  "curationRule": "OSM is discovery evidence. See and Eat require names; private, permit-only, customer-only, inactive and no-access places are excluded. Publication still requires editorial review.",
+  "towns": [
+    {
+      "projectId": "stamford-england",
+      "locality": "Stamford",
+      "projectFile": "stamford-england.json",
+      "counts": {
+        "see": {
+          "osm": 34,
+          "eligible": 8,
+          "curated": 0,
+          "uncurated": 8
+        },
+        "eat": {
+          "osm": 89,
+          "eligible": 89,
+          "curated": 20,
+          "uncurated": 69
+        },
+        "picnic": {
+          "osm": 6,
+          "eligible": 6,
+          "curated": 0,
+          "uncurated": 6
+        },
+        "parking": {
+          "osm": 53,
+          "eligible": 38,
+          "curated": 6,
+          "uncurated": 32
+        },
+        "toilets": {
+          "osm": 2,
+          "eligible": 2,
+          "curated": 2,
+          "uncurated": 0
+        }
+      },
+      "candidates": {
+        "see": [
+          {
+            "osmId": "node/5838281802",
+            "name": "Brazenose Knocker",
+            "coordinates": [
+              -0.4731972,
+              52.6541232
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-5838281802",
+            "curated": false,
+            "tags": {
+              "historic": "monument",
+              "inscription": "Located on the site of Brazenose College",
+              "name": "Brazenose Knocker"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5838281802"
+          },
+          {
+            "osmId": "way/194785011",
+            "name": "Castle Wall",
+            "coordinates": [
+              -0.4813936,
+              52.6507991
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-194785011",
+            "curated": false,
+            "tags": {
+              "building": "yes",
+              "historic": "archaeological_site",
+              "name": "Castle Wall",
+              "note": "Remains of."
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/194785011"
+          },
+          {
+            "osmId": "node/10262609032",
+            "name": "Scot Gate (site of)",
+            "coordinates": [
+              -0.483872,
+              52.6527988
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-10262609032",
+            "curated": false,
+            "tags": {
+              "historic": "ruins",
+              "name": "Scot Gate (site of)"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10262609032"
+          },
+          {
+            "osmId": "way/42359500",
+            "name": "Site of Stamford Castle",
+            "coordinates": [
+              -0.4819896,
+              52.651325
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-42359500",
+            "curated": false,
+            "tags": {
+              "area": "yes",
+              "historic": "archaeological_site",
+              "name": "Site of Stamford Castle",
+              "note": "Now a Bus Station"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/42359500"
+          },
+          {
+            "osmId": "node/2368330100",
+            "name": "St Leonard's Priory (remains of)",
+            "coordinates": [
+              -0.4656027,
+              52.6541322
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-2368330100",
+            "curated": false,
+            "tags": {
+              "historic": "ruins",
+              "name": "St Leonard's Priory (remains of)",
+              "source": "OS_OpenData_StreetView"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2368330100"
+          },
+          {
+            "osmId": "way/521224149",
+            "name": "Stamford Arts Centre",
+            "coordinates": [
+              -0.476876,
+              52.6515278
+            ],
+            "category": "see",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "building": "yes",
+              "name": "Stamford Arts Centre",
+              "source": "Bing;survey",
+              "tourism": "gallery",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/521224149"
+          },
+          {
+            "osmId": "node/1915796390",
+            "name": "Stamford East railway sheds (now residential)",
+            "coordinates": [
+              -0.4713897,
+              52.6501983
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-1915796390",
+            "curated": false,
+            "tags": {
+              "historic": "archaeological_site",
+              "name": "Stamford East railway sheds (now residential)"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1915796390"
+          },
+          {
+            "osmId": "node/1915796004",
+            "name": "Stamford East railway station",
+            "coordinates": [
+              -0.4723767,
+              52.6501723
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-1915796004",
+            "curated": false,
+            "tags": {
+              "historic": "archaeological_site",
+              "name": "Stamford East railway station"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1915796004"
+          },
+          {
+            "osmId": "way/771106817",
+            "name": "Barn Hill House",
+            "coordinates": [
+              -0.4823938,
+              52.6527868
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housename": "Barnhill House",
+              "addr:housenumber": "2,4,6",
+              "addr:street": "Barn Hill",
+              "building": "yes",
+              "description": "Barnhill or Barn Hill House was built in 1671, and later rebuilt in the late seventeenth century, with further additions later.",
+              "historic": "manor",
+              "image": "https://commons.wikimedia.org/wiki/File:House_on_Barn_Hill,_Stamford_(geograph_2958248).jpg",
+              "name": "Barn Hill House",
+              "note": "house number may be incorrect",
+              "start_date": "1671-1-1",
+              "wikidata": "Q17550450"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/771106817"
+          },
+          {
+            "osmId": "way/1257994984",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.505479,
+              52.6533831
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "garden:type": "community",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1257994984"
+          },
+          {
+            "osmId": "way/1002701325",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.5020328,
+              52.6490977
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "garden:type": "residential",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1002701325"
+          },
+          {
+            "osmId": "way/1425522149",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.50128,
+              52.648965
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "garden:type": "residential",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1425522149"
+          },
+          {
+            "osmId": "way/1425522150",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.5015629,
+              52.6489543
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "garden:type": "residential",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1425522150"
+          },
+          {
+            "osmId": "way/1425522152",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.5017903,
+              52.6490166
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "garden:type": "residential",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1425522152"
+          },
+          {
+            "osmId": "way/973105105",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4783874,
+              52.6509291
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "building": "yes",
+              "description": "This Norman arch is believed to be one of the [??] gates of the original city walls. (or similar wording)",
+              "historic": "city_gate",
+              "historic:civilization": "medieval"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/973105105"
+          },
+          {
+            "osmId": "way/1493945440",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4784293,
+              52.6514193
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "building:part": "tower",
+              "man_made": "tower",
+              "ref:dove": "12004",
+              "tower:type": "bell_tower"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1493945440"
+          },
+          {
+            "osmId": "way/783121107",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4820917,
+              52.651473
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "access": "yes",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/783121107"
+          },
+          {
+            "osmId": "way/1122064076",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4826535,
+              52.65288
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1122064076"
+          },
+          {
+            "osmId": "way/1493945439",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4811918,
+              52.6524144
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "building:part": "tower",
+              "man_made": "tower",
+              "ref:dove": "13596",
+              "tower:type": "bell_tower"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1493945439"
+          },
+          {
+            "osmId": "way/1222745538",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4761292,
+              52.6500489
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1222745538"
+          },
+          {
+            "osmId": "way/1493945441",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4775175,
+              52.6490261
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "building:part": "tower",
+              "man_made": "tower",
+              "ref:dove": "12129",
+              "tower:type": "bell_tower"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1493945441"
+          },
+          {
+            "osmId": "way/1195603276",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4603567,
+              52.6541953
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1195603276"
+          },
+          {
+            "osmId": "way/1349170912",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4607716,
+              52.6545561
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1349170912"
+          },
+          {
+            "osmId": "way/1455253589",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4971784,
+              52.6553307
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1455253589"
+          },
+          {
+            "osmId": "way/1455253590",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.496978,
+              52.6552886
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1455253590"
+          },
+          {
+            "osmId": "way/1455253592",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4967811,
+              52.6552615
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1455253592"
+          },
+          {
+            "osmId": "way/1455253594",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4975799,
+              52.655374
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1455253594"
+          },
+          {
+            "osmId": "way/1455253597",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4965875,
+              52.6552375
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1455253597"
+          },
+          {
+            "osmId": "way/1455253598",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.497376,
+              52.6553557
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1455253598"
+          },
+          {
+            "osmId": "way/1455253600",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4963898,
+              52.6552004
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1455253600"
+          },
+          {
+            "osmId": "way/1455253602",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4961954,
+              52.6551668
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1455253602"
+          },
+          {
+            "osmId": "way/1455253604",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4959982,
+              52.6551355
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1455253604"
+          },
+          {
+            "osmId": "way/1455254606",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4957883,
+              52.6551125
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1455254606"
+          },
+          {
+            "osmId": "way/1455254608",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4979264,
+              52.6553701
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1455254608"
+          }
+        ],
+        "eat": [
+          {
+            "osmId": "way/440859285",
+            "name": "Aloha Foods Co",
+            "coordinates": [
+              -0.4802948,
+              52.6516468
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "12",
+              "addr:postcode": "PE9 2DB",
+              "addr:street": "Saint John's Street",
+              "amenity": "restaurant",
+              "building": "yes",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "944523",
+              "fhrs:local_authority_id": "87275",
+              "name": "Aloha Foods Co",
+              "source": "Bing",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/440859285"
+          },
+          {
+            "osmId": "node/6088664622",
+            "name": "Arts Centre Coffee Shop",
+            "coordinates": [
+              -0.4768041,
+              52.6515235
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-6088664622",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housename": "Stamford Arts Centre",
+              "addr:housenumber": "27",
+              "addr:postcode": "PE9 2DL",
+              "addr:street": "St Marys Street",
+              "amenity": "cafe",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238347",
+              "fhrs:local_authority_id": "2762",
+              "name": "Arts Centre Coffee Shop",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6088664622"
+          },
+          {
+            "osmId": "way/440859280",
+            "name": "ASK Italian",
+            "coordinates": [
+              -0.4804023,
+              52.6515206
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "9-10",
+              "addr:postcode": "PE9 2DB",
+              "addr:street": "Saint John's Street",
+              "amenity": "restaurant",
+              "brand": "ASK Italian",
+              "brand:wikidata": "Q4807056",
+              "building": "yes",
+              "cuisine": "italian",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238604",
+              "fhrs:local_authority_id": "6611",
+              "name": "ASK Italian",
+              "phone": "+44 1780765485",
+              "source": "Bing",
+              "website": "https://www.askitalian.co.uk/italian/restaurants/stamford",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/440859280"
+          },
+          {
+            "osmId": "way/771103787",
+            "name": "Asker",
+            "coordinates": [
+              -0.4797786,
+              52.6525149
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "5A",
+              "addr:postcode": "PE9 1PA",
+              "addr:street": "Red Lion Street",
+              "building": "yes",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238615",
+              "fhrs:local_authority_id": "2599",
+              "name": "Asker",
+              "shop": "bakery",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/771103787"
+          },
+          {
+            "osmId": "node/10052093413",
+            "name": "Askers Bakery",
+            "coordinates": [
+              -0.4844056,
+              52.6508333
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:postcode": "PE9 2QS",
+              "addr:street": "Kings Mill Lane",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "237772",
+              "fhrs:local_authority_id": "2447",
+              "name": "Askers Bakery",
+              "shop": "bakery",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10052093413"
+          },
+          {
+            "osmId": "node/4713179623",
+            "name": "Birdy's Fish & Chips",
+            "coordinates": [
+              -0.4684204,
+              52.6610576
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:postcode": "PE9 1UU",
+              "addr:street": "Lincoln Road",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238327",
+              "fhrs:local_authority_id": "2452",
+              "name": "Birdy's Fish & Chips"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4713179623"
+          },
+          {
+            "osmId": "node/5023198423",
+            "name": "Cafe au Chocolat",
+            "coordinates": [
+              -0.4785094,
+              52.6531434
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-5023198423",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "2",
+              "addr:postcode": "PE9 1PL",
+              "addr:street": "Ironmonger Street",
+              "amenity": "cafe",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "669731",
+              "fhrs:local_authority_id": "86015",
+              "name": "Cafe au Chocolat",
+              "name:en": "Cafe au Chocolat",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5023198423"
+          },
+          {
+            "osmId": "node/5023203221",
+            "name": "Cafe Black",
+            "coordinates": [
+              -0.4782466,
+              52.6525841
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-5023203221",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "21",
+              "addr:postcode": "PE9 2AL",
+              "addr:street": "High Street",
+              "amenity": "cafe",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238569",
+              "fhrs:local_authority_id": "72616",
+              "name": "Cafe Black",
+              "name:en": "Cafe Black",
+              "source:addr": "FHRS Open Data",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5023203221"
+          },
+          {
+            "osmId": "way/1456452194",
+            "name": "Caffè Nero",
+            "coordinates": [
+              -0.4785815,
+              52.6524847
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-1456452194",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "brand": "Caffè Nero",
+              "brand:wikidata": "Q675808",
+              "building": "yes",
+              "cuisine": "coffee_shop",
+              "name": "Caffè Nero",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1456452194"
+          },
+          {
+            "osmId": "node/7855023895",
+            "name": "Cake + Co",
+            "coordinates": [
+              -0.4782405,
+              52.6521527
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-7855023895",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:postcode": "PE9 2JE",
+              "addr:street": "St Marys Street",
+              "addr:unit": "14 Stamford Walk",
+              "amenity": "cafe",
+              "diet:vegan": "yes",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "1156809",
+              "fhrs:local_authority_id": "88341",
+              "internet_access": "yes",
+              "name": "Cake + Co",
+              "opening_hours:covid19": "Fr-Su 09:30-15:00",
+              "outdoor_seating": "yes",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7855023895"
+          },
+          {
+            "osmId": "node/10048135366",
+            "name": "Cambridge Road Chippy",
+            "coordinates": [
+              -0.4880977,
+              52.6607021
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "41",
+              "addr:postcode": "PE9 1BY",
+              "addr:street": "Cambridge Road",
+              "amenity": "fast_food",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "1061276",
+              "fhrs:local_authority_id": "87830",
+              "name": "Cambridge Road Chippy"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10048135366"
+          },
+          {
+            "osmId": "way/440859278",
+            "name": "Central Tearooms",
+            "coordinates": [
+              -0.4804512,
+              52.6517984
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "7",
+              "addr:postcode": "PE9 2AJ",
+              "addr:street": "Red Lion Square",
+              "amenity": "restaurant",
+              "building": "yes",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238496",
+              "fhrs:local_authority_id": "2585",
+              "name": "Central Tearooms",
+              "source": "survey",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/440859278"
+          },
+          {
+            "osmId": "node/10052144584",
+            "name": "Chilli Hut / Delightful Desserts",
+            "coordinates": [
+              -0.4835795,
+              52.6530479
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "66",
+              "addr:postcode": "PE9 2YN",
+              "addr:street": "North Street",
+              "amenity": "fast_food",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "237770",
+              "fhrs:local_authority_id": "2528",
+              "name": "Chilli Hut / Delightful Desserts"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10052144584"
+          },
+          {
+            "osmId": "node/5077796967",
+            "name": "Cloisters",
+            "coordinates": [
+              -0.479157,
+              52.6514662
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "9",
+              "addr:postcode": "PE9 2DE",
+              "addr:street": "St Marys Street",
+              "amenity": "restaurant",
+              "cuisine": "italian",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238172",
+              "fhrs:local_authority_id": "71350",
+              "name": "Cloisters",
+              "source": "survey",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5077796967"
+          },
+          {
+            "osmId": "node/5077796964",
+            "name": "Cloisters Deli",
+            "coordinates": [
+              -0.479098,
+              52.6514679
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "9a",
+              "addr:postcode": "PE9 2DE",
+              "addr:street": "St Mary's Street",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "1423202",
+              "fhrs:local_authority_id": "89557",
+              "name": "Cloisters Deli",
+              "shop": "deli",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5077796964"
+          },
+          {
+            "osmId": "node/10049987730",
+            "name": "Cornish Bakery",
+            "coordinates": [
+              -0.4783546,
+              52.6523669
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "56",
+              "addr:postcode": "PE9 2AW",
+              "addr:street": "High Street",
+              "brand": "Cornish Bakery",
+              "brand:wikidata": "Q124030035",
+              "name": "Cornish Bakery",
+              "shop": "bakery"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10049987730"
+          },
+          {
+            "osmId": "node/12914167769",
+            "name": "Cornish Bakery",
+            "coordinates": [
+              -0.4784028,
+              52.6523463
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "55",
+              "addr:postcode": "PE9 2AW",
+              "addr:street": "High Street",
+              "brand": "Cornish Bakery",
+              "brand:wikidata": "Q124030035",
+              "name": "Cornish Bakery",
+              "shop": "bakery"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/12914167769"
+          },
+          {
+            "osmId": "node/5023203222",
+            "name": "Costa",
+            "coordinates": [
+              -0.4769386,
+              52.6528785
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-5023203222",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "31",
+              "addr:postcode": "PE9 2BB",
+              "addr:street": "High Street",
+              "amenity": "cafe",
+              "brand": "Costa",
+              "brand:wikidata": "Q608845",
+              "brand:wikipedia": "en:Costa Coffee",
+              "cuisine": "coffee_shop",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238727",
+              "fhrs:local_authority_id": "71293",
+              "name": "Costa",
+              "source:addr": "FHRS Open Data",
+              "takeaway": "yes",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5023203222"
+          },
+          {
+            "osmId": "way/440862506",
+            "name": "Cosy Club",
+            "coordinates": [
+              -0.480846,
+              52.6517624
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:postcode": "PE9 2RB",
+              "addr:street": "Horseshoe Lane",
+              "addr:unit": "The Old Delivery Office",
+              "amenity": "restaurant",
+              "branch": "Stamford",
+              "brand": "Cosy Club",
+              "brand:wikidata": "Q108443521",
+              "building": "yes",
+              "cuisine": "british",
+              "email": "stamfordbookings@cosyclub.co.uk",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238836",
+              "fhrs:local_authority_id": "73922",
+              "name": "Cosy Club",
+              "phone": "+44 1780 767710",
+              "source": "Bing",
+              "website": "https://cosyclub.co.uk/location/stamford/",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/440862506"
+          },
+          {
+            "osmId": "way/547500895",
+            "name": "Crown Hotel",
+            "coordinates": [
+              -0.4805086,
+              52.6525478
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "6",
+              "addr:postcode": "PE9 2AG",
+              "addr:street": "All Saints Place",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238413",
+              "fhrs:local_authority_id": "2001",
+              "name": "Crown Hotel",
+              "source:addr": "FHRS Open Data",
+              "tourism": "hotel",
+              "wheelchair": "no",
+              "wikidata": "Q26642477"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/547500895"
+          },
+          {
+            "osmId": "node/5079049197",
+            "name": "Domino's",
+            "coordinates": [
+              -0.475949,
+              52.653474
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "6",
+              "addr:postcode": "PE9 2BE",
+              "addr:street": "St Paul's Street",
+              "amenity": "fast_food",
+              "brand": "Domino's",
+              "brand:wikidata": "Q839466",
+              "brand:wikipedia": "en:Domino's Pizza",
+              "contact:website": "https://www.dominos.co.uk/pizza-near-me/stamford/6-st-pauls-street",
+              "cuisine": "pizza",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238737",
+              "fhrs:local_authority_id": "2811",
+              "name": "Domino's",
+              "source:addr": "FHRS Open Data",
+              "takeaway": "yes",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5079049197"
+          },
+          {
+            "osmId": "way/1152236084",
+            "name": "Eastern Toppings",
+            "coordinates": [
+              -0.4816076,
+              52.6602506
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "12A",
+              "addr:postcode": "PE9 1HE",
+              "addr:street": "Green Lane",
+              "amenity": "fast_food",
+              "building": "yes",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "237956",
+              "fhrs:local_authority_id": "74100",
+              "name": "Eastern Toppings"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1152236084"
+          },
+          {
+            "osmId": "node/5079021531",
+            "name": "Fika",
+            "coordinates": [
+              -0.4768474,
+              52.652894
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-5079021531",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "internet_access": "wlan",
+              "internet_access:fee": "customers",
+              "name": "Fika",
+              "outdoor_seating": "yes",
+              "source": "survey",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5079021531"
+          },
+          {
+            "osmId": "way/771103788",
+            "name": "Freckleface Coffee Company",
+            "coordinates": [
+              -0.4797033,
+              52.6525122
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-771103788",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "building": "yes",
+              "name": "Freckleface Coffee Company",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/771103788"
+          },
+          {
+            "osmId": "node/2377812286",
+            "name": "Frothy's Coffee Shop",
+            "coordinates": [
+              -0.4785989,
+              52.6530112
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-2377812286",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "12",
+              "addr:postcode": "PE9 1PL",
+              "addr:street": "Ironmonger Street",
+              "amenity": "cafe",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238574",
+              "fhrs:local_authority_id": "2437",
+              "name": "Frothy's Coffee Shop",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2377812286"
+          },
+          {
+            "osmId": "node/544528204",
+            "name": "Gooch's Coffee Bar",
+            "coordinates": [
+              -0.4803467,
+              52.6512619
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-544528204",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:postcode": "PE9 2RA",
+              "addr:street": "Castle Street",
+              "amenity": "cafe",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238828",
+              "fhrs:local_authority_id": "2154",
+              "name": "Gooch's Coffee Bar",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/544528204"
+          },
+          {
+            "osmId": "node/5078822424",
+            "name": "Hambledon Bakery",
+            "coordinates": [
+              -0.4785266,
+              52.6531707
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "1",
+              "addr:postcode": "PE9 1PL",
+              "addr:street": "Ironmonger Street",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "237660",
+              "fhrs:local_authority_id": "72264",
+              "name": "Hambledon Bakery",
+              "shop": "bakery",
+              "source": "survey",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5078822424"
+          },
+          {
+            "osmId": "way/241918837",
+            "name": "Hong Kong",
+            "coordinates": [
+              -0.481707,
+              52.6517077
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "5-6",
+              "addr:postcode": "PE9 2PA",
+              "addr:street": "All Saints' Street",
+              "amenity": "fast_food",
+              "building": "yes",
+              "cuisine": "chinese",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238336",
+              "fhrs:local_authority_id": "2013",
+              "name": "Hong Kong",
+              "source": "survey"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/241918837"
+          },
+          {
+            "osmId": "way/440862497",
+            "name": "Hoppi Dorri and Orbis",
+            "coordinates": [
+              -0.4811293,
+              52.6518865
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "11",
+              "addr:postcode": "PE9 2AR",
+              "addr:street": "All Saints' Place",
+              "amenity": "restaurant",
+              "building": "yes",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "1128455",
+              "fhrs:local_authority_id": "88189",
+              "name": "Hoppi Dorri and Orbis",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/440862497"
+          },
+          {
+            "osmId": "way/771121573",
+            "name": "Hotel Chocolat",
+            "coordinates": [
+              -0.479508,
+              52.6519307
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "68",
+              "addr:postcode": "PE9 2AW",
+              "addr:street": "High Street",
+              "brand": "Hotel Chocolat",
+              "brand:wikidata": "Q5911369",
+              "building": "yes",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "1110732",
+              "fhrs:local_authority_id": "88028",
+              "name": "Hotel Chocolat",
+              "shop": "confectionery",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/771121573"
+          },
+          {
+            "osmId": "node/5077796961",
+            "name": "Just So Italian",
+            "coordinates": [
+              -0.4791326,
+              52.6513474
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-5077796961",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "name": "Just So Italian",
+              "shop": "deli",
+              "source": "survey",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5077796961"
+          },
+          {
+            "osmId": "node/686451403",
+            "name": "Kings Head Inn",
+            "coordinates": [
+              -0.4771409,
+              52.6523637
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:postcode": "PE9 2AZ",
+              "addr:street": "Maiden Lane",
+              "amenity": "pub",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238272",
+              "fhrs:local_authority_id": "2485",
+              "name": "Kings Head Inn",
+              "operator": "Free House",
+              "source:addr": "FHRS Open Data",
+              "wheelchair": "no",
+              "wikidata": "Q26315616"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/686451403"
+          },
+          {
+            "osmId": "node/733985730",
+            "name": "Mama Liz's",
+            "coordinates": [
+              -0.4779055,
+              52.6539883
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "9a",
+              "addr:postcode": "PE9 2YN",
+              "addr:street": "North Street",
+              "amenity": "pub",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238575",
+              "fhrs:local_authority_id": "6092",
+              "name": "Mama Liz's"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/733985730"
+          },
+          {
+            "osmId": "way/398332025",
+            "name": "McDonald's",
+            "coordinates": [
+              -0.4654949,
+              52.658544
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:postcode": "PE9 1TX",
+              "addr:street": "Ryhall Road",
+              "addr:unit": "Unit 4, Stamford Retail Park",
+              "amenity": "fast_food",
+              "brand": "McDonald's",
+              "brand:wikidata": "Q38076",
+              "brand:wikipedia": "en:McDonald's",
+              "building": "yes",
+              "check_date": "2024-08-31",
+              "check_date:opening_hours": "2024-08-31",
+              "contact:website": "https://www.mcdonalds.com/gb/en-gb/location/stamford/stamford/stamford-retail-park/8261295.html",
+              "cuisine": "burger",
+              "drive_through": "yes",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238144",
+              "fhrs:local_authority_id": "7945",
+              "indoor_seating": "yes",
+              "internet_access": "wlan",
+              "name": "McDonald's",
+              "opening_hours": "Mo-Sa 06:00-23:00; Su 06:00-22:00",
+              "phone": "+44 1780 765031",
+              "self_service": "yes",
+              "takeaway": "yes",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/398332025"
+          },
+          {
+            "osmId": "node/5078880566",
+            "name": "Melbourn Brothers",
+            "coordinates": [
+              -0.4815465,
+              52.6520626
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "pub",
+              "name": "Melbourn Brothers",
+              "source": "survey",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5078880566"
+          },
+          {
+            "osmId": "node/5078849489",
+            "name": "Mind Space Stamford",
+            "coordinates": [
+              -0.4790867,
+              52.6530821
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-5078849489",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "39",
+              "addr:postcode": "PE9 1PX",
+              "addr:street": "Broad Street",
+              "amenity": "cafe",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "1243316",
+              "fhrs:local_authority_id": "88539",
+              "name": "Mind Space Stamford",
+              "source": "survey",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5078849489"
+          },
+          {
+            "osmId": "node/5078849506",
+            "name": "Model Fish Bar & Restaurant",
+            "coordinates": [
+              -0.4799046,
+              52.6526272
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "52",
+              "addr:postcode": "PE9 1PB",
+              "addr:street": "Broad Street",
+              "amenity": "restaurant",
+              "cuisine": "fish_and_chips",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238502",
+              "fhrs:local_authority_id": "2118",
+              "name": "Model Fish Bar & Restaurant",
+              "source": "survey",
+              "takeaway": "yes",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5078849506"
+          },
+          {
+            "osmId": "node/5077546307",
+            "name": "Mollied",
+            "coordinates": [
+              -0.4805183,
+              52.6507541
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "ice_cream",
+              "name": "Mollied",
+              "outdoor_seating": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5077546307"
+          },
+          {
+            "osmId": "node/5077546309",
+            "name": "Mollied",
+            "coordinates": [
+              -0.4806175,
+              52.6512521
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "ice_cream",
+              "name": "Mollied",
+              "outdoor_seating": "no",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5077546309"
+          },
+          {
+            "osmId": "node/12903503421",
+            "name": "Morrisons Cafe",
+            "coordinates": [
+              -0.4650918,
+              52.656609
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-12903503421",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:postcode": "PE9 2FT",
+              "addr:street": "Uffington Road",
+              "amenity": "cafe",
+              "brand": "Morrisons",
+              "brand:wikidata": "Q922344",
+              "cuisine": "coffee_shop",
+              "name": "Morrisons Cafe",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/12903503421"
+          },
+          {
+            "osmId": "node/10048640907",
+            "name": "Nepalese Vansa Ghar",
+            "coordinates": [
+              -0.4768203,
+              52.6536068
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "26",
+              "addr:postcode": "PE9 1PJ",
+              "addr:street": "Broad Street",
+              "amenity": "restaurant",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238332",
+              "fhrs:local_authority_id": "11750",
+              "name": "Nepalese Vansa Ghar",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10048640907"
+          },
+          {
+            "osmId": "node/10045904626",
+            "name": "No 1 Kitchen",
+            "coordinates": [
+              -0.4801986,
+              52.6512669
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "1",
+              "addr:postcode": "PE9 2RA",
+              "addr:street": "Castle Street",
+              "amenity": "restaurant",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "237861",
+              "fhrs:local_authority_id": "7682",
+              "name": "No 1 Kitchen",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10045904626"
+          },
+          {
+            "osmId": "way/547497917",
+            "name": "Paten & Co",
+            "coordinates": [
+              -0.480354,
+              52.6523843
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "7",
+              "addr:postcode": "PE9 2AG",
+              "addr:street": "All Saints' Place",
+              "amenity": "bar",
+              "building": "yes",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "237590",
+              "fhrs:local_authority_id": "2002",
+              "fitting_out": "pub",
+              "name": "Paten & Co",
+              "operator": "Kneads",
+              "source": "Bing",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/547497917"
+          },
+          {
+            "osmId": "node/10049987725",
+            "name": "Pennies From Heaven",
+            "coordinates": [
+              -0.4769424,
+              52.6521611
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-10049987725",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "7",
+              "addr:postcode": "PE9 2AZ",
+              "addr:street": "Maiden Lane",
+              "amenity": "cafe",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "237830",
+              "fhrs:local_authority_id": "2484",
+              "name": "Pennies From Heaven",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10049987725"
+          },
+          {
+            "osmId": "node/10876078858",
+            "name": "Pizza da Mario",
+            "coordinates": [
+              -0.4816572,
+              52.6514052
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "restaurant",
+              "name": "Pizza da Mario",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10876078858"
+          },
+          {
+            "osmId": "way/170663777",
+            "name": "PizzaExpress",
+            "coordinates": [
+              -0.4778235,
+              52.6501437
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "1",
+              "addr:postcode": "PE9 2LE",
+              "addr:street": "High Street",
+              "addr:suburb": "St Martins",
+              "amenity": "restaurant",
+              "brand": "PizzaExpress",
+              "brand:wikidata": "Q662845",
+              "brand:wikipedia": "en:PizzaExpress",
+              "building": "yes",
+              "cuisine": "pizza",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "237973",
+              "fhrs:local_authority_id": "7478",
+              "name": "PizzaExpress",
+              "source": "Bing",
+              "website": "https://www.pizzaexpress.com/stamford-high-street",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/170663777"
+          },
+          {
+            "osmId": "way/440862504",
+            "name": "Raj of India",
+            "coordinates": [
+              -0.481423,
+              52.6518169
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "2",
+              "addr:postcode": "PE9 2PA",
+              "addr:street": "All Saints' Street",
+              "amenity": "restaurant",
+              "building": "yes",
+              "cuisine": "indian",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238777",
+              "fhrs:local_authority_id": "2010",
+              "name": "Raj of India",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/440862504"
+          },
+          {
+            "osmId": "node/5077546308",
+            "name": "Riverside Fish Bar",
+            "coordinates": [
+              -0.4804964,
+              52.6511693
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "3",
+              "addr:postcode": "PE9 2RA",
+              "addr:street": "Castle Street",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238612",
+              "fhrs:local_authority_id": "2150",
+              "name": "Riverside Fish Bar",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5077546308"
+          },
+          {
+            "osmId": "node/10049987724",
+            "name": "Scandi Coffee House",
+            "coordinates": [
+              -0.4771194,
+              52.6528469
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-10049987724",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "29",
+              "addr:postcode": "PE9 2BB",
+              "addr:street": "High Street",
+              "amenity": "cafe",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "1170950",
+              "fhrs:local_authority_id": "88439",
+              "name": "Scandi Coffee House",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10049987724"
+          },
+          {
+            "osmId": "node/10052093406",
+            "name": "Sid's Golden Chippy",
+            "coordinates": [
+              -0.4993415,
+              52.6558749
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "2",
+              "addr:postcode": "PE9 2XG",
+              "addr:street": "Stirling Road",
+              "amenity": "fast_food",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238648",
+              "fhrs:local_authority_id": "2939",
+              "name": "Sid's Golden Chippy"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10052093406"
+          },
+          {
+            "osmId": "node/5078774051",
+            "name": "St Mary's Vaults",
+            "coordinates": [
+              -0.4776144,
+              52.6517909
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "19",
+              "addr:postcode": "PE9 2DG",
+              "addr:street": "St Mary's Street",
+              "amenity": "pub",
+              "fhrs:id": "238372",
+              "name": "St Mary's Vaults",
+              "source": "survey",
+              "source:addr": "FHRS Open Data",
+              "wheelchair": "no",
+              "wikidata": "Q26462925"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5078774051"
+          },
+          {
+            "osmId": "way/547497914",
+            "name": "Stamford Delight",
+            "coordinates": [
+              -0.4801358,
+              52.6524948
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "2",
+              "addr:postcode": "PE9 1PA",
+              "addr:street": "Red Lion Street",
+              "amenity": "fast_food",
+              "building": "yes",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238832",
+              "fhrs:local_authority_id": "2595",
+              "name": "Stamford Delight",
+              "source": "Bing",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/547497914"
+          },
+          {
+            "osmId": "way/547497913",
+            "name": "Stamford Kebab & Pizza House",
+            "coordinates": [
+              -0.4802139,
+              52.6524481
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "1",
+              "addr:postcode": "PE9 1PA",
+              "addr:street": "Red Lion Street",
+              "amenity": "fast_food",
+              "building": "yes",
+              "cuisine": "kebab;pizza",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238248",
+              "fhrs:local_authority_id": "2594",
+              "name": "Stamford Kebab & Pizza House",
+              "source": "survey",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/547497913"
+          },
+          {
+            "osmId": "way/228211916",
+            "name": "Starbucks",
+            "coordinates": [
+              -0.4771768,
+              52.6526668
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-228211916",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:postcode": "PE9 2BD",
+              "addr:street": "High Street",
+              "amenity": "cafe",
+              "brand": "Starbucks",
+              "brand:wikidata": "Q37158",
+              "brand:wikipedia": "en:NatWest",
+              "building": "yes",
+              "cuisine": "coffee_shop",
+              "name": "Starbucks",
+              "official_name": "Starbucks Coffee",
+              "takeaway": "yes",
+              "website": "https://www.starbucks.com/store-locator/store/1033877/stamford-high-street-52-52-high-street-high-street-stamford-eng-pe-9-2-yh-",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/228211916"
+          },
+          {
+            "osmId": "node/10045904628",
+            "name": "Street Food Station",
+            "coordinates": [
+              -0.4806814,
+              52.6512645
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "5",
+              "addr:postcode": "PE9 2RA",
+              "addr:street": "Castle Street",
+              "amenity": "fast_food",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "1082025",
+              "fhrs:local_authority_id": "87898",
+              "name": "Street Food Station",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10045904628"
+          },
+          {
+            "osmId": "node/5079021536",
+            "name": "Subway",
+            "coordinates": [
+              -0.4765767,
+              52.6529842
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "37",
+              "addr:postcode": "PE9 2BB",
+              "addr:street": "High Street",
+              "amenity": "fast_food",
+              "brand": "Subway",
+              "brand:wikidata": "Q244457",
+              "brand:wikipedia": "en:Subway (restaurant)",
+              "contact:website": "https://restaurants.subway.com/united-kingdom/en/stamford/37-high-street",
+              "cuisine": "sandwich",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238119",
+              "fhrs:local_authority_id": "71857",
+              "name": "Subway",
+              "source": "survye",
+              "source:addr": "FHRS Open Data",
+              "takeaway": "yes",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5079021536"
+          },
+          {
+            "osmId": "way/771120076",
+            "name": "Sushi and Salad",
+            "coordinates": [
+              -0.4798937,
+              52.6519113
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-771120076",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "72",
+              "addr:postcode": "PE9 2AW",
+              "addr:street": "High Street",
+              "amenity": "cafe",
+              "building": "yes",
+              "internet_access": "yes",
+              "name": "Sushi and Salad",
+              "note": "Takeaway available",
+              "outdoor_seating": "yes",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/771120076"
+          },
+          {
+            "osmId": "node/1914179885",
+            "name": "The Black Bull",
+            "coordinates": [
+              -0.478348,
+              52.6518956
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housename": "The Black Bull",
+              "addr:postcode": "PE9 2JE",
+              "addr:street": "Stamford Walk",
+              "amenity": "pub",
+              "name": "The Black Bull",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1914179885"
+          },
+          {
+            "osmId": "node/11341582349",
+            "name": "The Blonde Beet",
+            "coordinates": [
+              -0.4758304,
+              52.6535466
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-11341582349",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "7",
+              "addr:street": "St Paul’s Street",
+              "amenity": "cafe",
+              "diet:halal": "yes",
+              "diet:vegan": "yes",
+              "diet:vegetarian": "yes",
+              "internet_access": "yes",
+              "internet_access:fee": "no",
+              "name": "The Blonde Beet",
+              "opening_hours": "Tu-Fr 09:30-16:00; Sa 10:30-16:30",
+              "outdoor_seating": "yes",
+              "toilets": "yes",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/11341582349"
+          },
+          {
+            "osmId": "node/10052144573",
+            "name": "The Bombay Cottage",
+            "coordinates": [
+              -0.4844525,
+              52.6530593
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:postcode": "PE9 2YQ",
+              "addr:street": "Scotgate",
+              "amenity": "restaurant",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238096",
+              "fhrs:local_authority_id": "2889",
+              "name": "The Bombay Cottage"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10052144573"
+          },
+          {
+            "osmId": "node/18375437",
+            "name": "The Bull and Swan",
+            "coordinates": [
+              -0.4768053,
+              52.6481021
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:postcode": "PE9 2LJ",
+              "addr:street": "High Street St Martin's",
+              "amenity": "pub",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238239",
+              "fhrs:local_authority_id": "2399",
+              "name": "The Bull and Swan",
+              "wheelchair": "limited",
+              "wikidata": "Q17549507"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/18375437"
+          },
+          {
+            "osmId": "node/10050419887",
+            "name": "The Cellar Bar (Stamford Arts Centre)",
+            "coordinates": [
+              -0.4767653,
+              52.6515509
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "27-27a",
+              "addr:postcode": "PE9 2DL",
+              "addr:street": "St Marys Street",
+              "amenity": "bar",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238313",
+              "fhrs:local_authority_id": "2761",
+              "name": "The Cellar Bar (Stamford Arts Centre)",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10050419887"
+          },
+          {
+            "osmId": "node/5077807786",
+            "name": "The Copper Room",
+            "coordinates": [
+              -0.478638,
+              52.6513068
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "16",
+              "addr:postcode": "PE9 2DP",
+              "addr:street": "St Mary's Hill",
+              "amenity": "bar",
+              "bar": "whisky_bar",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238296",
+              "fhrs:local_authority_id": "2725",
+              "name": "The Copper Room",
+              "source": "survey"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5077807786"
+          },
+          {
+            "osmId": "node/5077833033",
+            "name": "The Danish Invader",
+            "coordinates": [
+              -0.5010083,
+              52.6534806
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:postcode": "PE9 2SX",
+              "addr:street": "Empingham Road",
+              "amenity": "pub",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238417",
+              "fhrs:local_authority_id": "2230",
+              "name": "The Danish Invader",
+              "source": "survey",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5077833033"
+          },
+          {
+            "osmId": "node/5077796962",
+            "name": "The Fine Food Store",
+            "coordinates": [
+              -0.4793501,
+              52.6513458
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-5077796962",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "37",
+              "addr:postcode": "PE9 2DS",
+              "addr:street": "St Marys Street",
+              "amenity": "cafe",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238094",
+              "fhrs:local_authority_id": "7929",
+              "name": "The Fine Food Store",
+              "source": "survey",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5077796962"
+          },
+          {
+            "osmId": "relation/2621508",
+            "name": "The George",
+            "coordinates": [
+              -0.4784826,
+              52.64956
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housename": "The George Hotel",
+              "addr:housenumber": "71",
+              "addr:postcode": "PE9 2LB",
+              "addr:street": "St Martins",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238761",
+              "fhrs:local_authority_id": "2414",
+              "name": "The George",
+              "phone": "+44 1780 750750",
+              "tourism": "hotel",
+              "type": "multipolygon",
+              "wheelchair": "limited",
+              "wikidata": "Q5540759"
+            },
+            "osmUrl": "https://www.openstreetmap.org/relation/2621508"
+          },
+          {
+            "osmId": "way/440862500",
+            "name": "The Golden Fleece",
+            "coordinates": [
+              -0.481022,
+              52.6516869
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "18",
+              "addr:postcode": "PE9 2RB",
+              "addr:street": "Sheep Market",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238639",
+              "fhrs:local_authority_id": "2912",
+              "name": "The Golden Fleece",
+              "source": "Bing",
+              "source:addr": "FHRS Open Data",
+              "wheelchair": "limited",
+              "wikidata": "Q26316289"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/440862500"
+          },
+          {
+            "osmId": "node/667851428",
+            "name": "The Green Man",
+            "coordinates": [
+              -0.4855943,
+              52.6530665
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-667851428",
+            "curated": true,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "29",
+              "addr:postcode": "PE9 2YQ",
+              "addr:street": "Scotgate",
+              "amenity": "pub",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "237554",
+              "fhrs:local_authority_id": "2882",
+              "name": "The Green Man",
+              "opening_hours": "Mo-Sa 11:00-23:00; Su 12:00-22:30",
+              "operator": "Free House",
+              "wheelchair": "limited",
+              "wikidata": "Q26316281"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/667851428"
+          },
+          {
+            "osmId": "node/10048135369",
+            "name": "The Hurdler Inn",
+            "coordinates": [
+              -0.484702,
+              52.6552811
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "93",
+              "addr:postcode": "PE9 1AL",
+              "addr:street": "New Cross Road",
+              "amenity": "pub",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "237525",
+              "fhrs:local_authority_id": "2496",
+              "name": "The Hurdler Inn"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10048135369"
+          },
+          {
+            "osmId": "node/544536347",
+            "name": "The Jolly Brewer",
+            "coordinates": [
+              -0.4858917,
+              52.6515467
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "30",
+              "addr:postcode": "PE9 2PP",
+              "addr:street": "Foundry Road",
+              "amenity": "pub",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238879",
+              "fhrs:local_authority_id": "2251",
+              "name": "The Jolly Brewer",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/544536347"
+          },
+          {
+            "osmId": "way/171556419",
+            "name": "The London Inn",
+            "coordinates": [
+              -0.4803702,
+              52.6514337
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "4",
+              "addr:postcode": "PE9 2DB",
+              "addr:street": "Saint John's Street",
+              "amenity": "pub",
+              "building": "retail",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238240",
+              "fhrs:local_authority_id": "2673",
+              "name": "The London Inn",
+              "outdoor_seating": "yes",
+              "source": "Bing",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/171556419"
+          },
+          {
+            "osmId": "node/10048640906",
+            "name": "The Lord Burghley",
+            "coordinates": [
+              -0.4767855,
+              52.6537727
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "17-18",
+              "addr:postcode": "PE9 1PG",
+              "addr:street": "Broad Street",
+              "amenity": "pub",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "237855",
+              "fhrs:local_authority_id": "2087",
+              "name": "The Lord Burghley",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10048640906"
+          },
+          {
+            "osmId": "node/5079049194",
+            "name": "The Mad Turk",
+            "coordinates": [
+              -0.4756405,
+              52.653513
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "8-9",
+              "addr:postcode": "PE9 2BE",
+              "addr:street": "St Pauls Street",
+              "amenity": "restaurant",
+              "cuisine": "turkish",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "499599",
+              "fhrs:local_authority_id": "2816",
+              "name": "The Mad Turk",
+              "source": "survey",
+              "source:addr": "FHRS Open Data",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5079049194"
+          },
+          {
+            "osmId": "way/194706206",
+            "name": "The Millstone",
+            "coordinates": [
+              -0.481333,
+              52.6519106
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "1",
+              "addr:postcode": "PE9 2PA",
+              "addr:street": "All Saints' Street",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238074",
+              "fhrs:local_authority_id": "2009",
+              "name": "The Millstone",
+              "source": "Bing",
+              "wheelchair": "limited",
+              "wikidata": "Q26315658"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/194706206"
+          },
+          {
+            "osmId": "node/10048135352",
+            "name": "The Shack",
+            "coordinates": [
+              -0.4787005,
+              52.655495
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:postcode": "PE9 1EW",
+              "addr:street": "Recreation Ground Road",
+              "amenity": "cafe",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "1197251",
+              "fhrs:local_authority_id": "88390",
+              "name": "The Shack"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10048135352"
+          },
+          {
+            "osmId": "node/10045904624",
+            "name": "The Slanted Door",
+            "coordinates": [
+              -0.4799974,
+              52.6512767
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "43",
+              "addr:postcode": "PE9 2DS",
+              "addr:street": "St Mary's Street",
+              "amenity": "restaurant",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "1261270",
+              "fhrs:local_authority_id": "88715",
+              "name": "The Slanted Door",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10045904624"
+          },
+          {
+            "osmId": "node/5077620226",
+            "name": "The Stamford Post",
+            "coordinates": [
+              -0.4807921,
+              52.6511009
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "7",
+              "addr:postcode": "PE9 2QZ",
+              "addr:street": "Sheep Market",
+              "amenity": "pub",
+              "brand": "Wetherspoon",
+              "brand:wikidata": "Q6109362",
+              "dog": "no",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "637986",
+              "fhrs:local_authority_id": "85794",
+              "name": "The Stamford Post",
+              "operator": "JD Weatherspoon",
+              "website": "https://www.jdwetherspoon.com/pubs/all-pubs/england/lincolnshire/the-stamford-post-stamford",
+              "website:menu": "https://order.jdwetherspoon.com/venue/jdw/6911/menus",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5077620226"
+          },
+          {
+            "osmId": "node/10049987809",
+            "name": "The Wine Bar",
+            "coordinates": [
+              -0.475557,
+              52.6535409
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "10",
+              "addr:postcode": "PE9 2BE",
+              "addr:street": "St Pauls Street",
+              "amenity": "bar",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "578632",
+              "fhrs:local_authority_id": "2817",
+              "name": "The Wine Bar",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10049987809"
+          },
+          {
+            "osmId": "node/10048267176",
+            "name": "Theatre Lounge Restaurant",
+            "coordinates": [
+              -0.4789734,
+              52.6531593
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housename": "Corn Exchange Theatre",
+              "addr:postcode": "PE9 1PX",
+              "addr:street": "Broad Street",
+              "amenity": "bar",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238323",
+              "fhrs:local_authority_id": "12240",
+              "name": "Theatre Lounge Restaurant",
+              "operator": "Corn Exchange Theatre Company",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10048267176"
+          },
+          {
+            "osmId": "node/1380230973",
+            "name": "Tobie Norris",
+            "coordinates": [
+              -0.4753094,
+              52.653685
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "12",
+              "addr:postcode": "PE9 2BE",
+              "addr:street": "St Paul's Street",
+              "amenity": "pub",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238900",
+              "fhrs:local_authority_id": "2819",
+              "name": "Tobie Norris",
+              "phone": "+44 1780 753800",
+              "website": "http://www.tobienorris.com/",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1380230973"
+          },
+          {
+            "osmId": "node/5078866366",
+            "name": "Twelve All Saints",
+            "coordinates": [
+              -0.4813483,
+              52.652126
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:country": "GB",
+              "addr:housenumber": "12",
+              "addr:postcode": "PE9 2AB",
+              "addr:street": "All Saints Place",
+              "amenity": "bar",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "944519",
+              "fhrs:local_authority_id": "87168",
+              "name": "Twelve All Saints",
+              "source:addr": "FHRS Open Data",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5078866366"
+          },
+          {
+            "osmId": "node/10048135365",
+            "name": "Umami’s Chinese Takeaway",
+            "coordinates": [
+              -0.4880735,
+              52.6606484
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "43",
+              "addr:postcode": "PE9 1BY",
+              "addr:street": "Cambridge Road",
+              "amenity": "fast_food",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238042",
+              "fhrs:local_authority_id": "84680",
+              "name": "Umami’s Chinese Takeaway"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10048135365"
+          },
+          {
+            "osmId": "node/5079027081",
+            "name": "vomFASS",
+            "coordinates": [
+              -0.476271,
+              52.6531453
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "1-2",
+              "addr:postcode": "PE9 2BB",
+              "addr:street": "St Paul's Street",
+              "brand": "vomFASS",
+              "brand:wikidata": "Q2533008",
+              "check_date": "2023-11-11",
+              "name": "vomFASS",
+              "shop": "deli",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5079027081"
+          },
+          {
+            "osmId": "node/10052093407",
+            "name": "Welcome Wok-In",
+            "coordinates": [
+              -0.4992208,
+              52.6558489
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "4",
+              "addr:postcode": "PE9 2XG",
+              "addr:street": "Stirling Road",
+              "amenity": "fast_food",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238834",
+              "fhrs:local_authority_id": "6880",
+              "name": "Welcome Wok-In"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10052093407"
+          },
+          {
+            "osmId": "node/10048267181",
+            "name": "Willoughby's Bar and Restaurant",
+            "coordinates": [
+              -0.4793376,
+              52.6529356
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "9",
+              "addr:postcode": "PE9 2BT",
+              "addr:street": "Silver Lane",
+              "amenity": "bar",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "237762",
+              "fhrs:local_authority_id": "2922",
+              "name": "Willoughby's Bar and Restaurant",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10048267181"
+          },
+          {
+            "osmId": "node/10048135360",
+            "name": "Wok This Way",
+            "coordinates": [
+              -0.4783773,
+              52.6540811
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "9",
+              "addr:postcode": "PE9 1EL",
+              "addr:street": "North Street",
+              "amenity": "fast_food",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238290",
+              "fhrs:local_authority_id": "2518",
+              "name": "Wok This Way"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10048135360"
+          },
+          {
+            "osmId": "node/1260058899",
+            "name": "Zada",
+            "coordinates": [
+              -0.4784902,
+              52.651107
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "13",
+              "addr:postcode": "PE9 2DP",
+              "addr:street": "St Mary's Hill",
+              "amenity": "restaurant",
+              "cuisine": "turkish",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "238259",
+              "fhrs:local_authority_id": "2722",
+              "name": "Zada",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1260058899"
+          },
+          {
+            "osmId": "node/10050419883",
+            "name": "Zen Chinese Takeaway",
+            "coordinates": [
+              -0.4730907,
+              52.6528754
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "39",
+              "addr:postcode": "PE9 2HN",
+              "addr:street": "Saint Leonards Street",
+              "amenity": "fast_food",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "237639",
+              "fhrs:local_authority_id": "2695",
+              "name": "Zen Chinese Takeaway",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10050419883"
+          },
+          {
+            "osmId": "node/5078849500",
+            "name": "Zorbas 4 Pizza",
+            "coordinates": [
+              -0.4791543,
+              52.6530453
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Stamford",
+              "addr:housenumber": "40",
+              "addr:postcode": "PE9 1PX",
+              "addr:street": "Broad Street",
+              "amenity": "fast_food",
+              "cuisine": "pizza",
+              "fhrs:authority": "South Kesteven",
+              "fhrs:id": "237715",
+              "fhrs:local_authority_id": "2112",
+              "name": "Zorbas 4 Pizza",
+              "source": "survey",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5078849500"
+          }
+        ],
+        "picnic": [
+          {
+            "osmId": "node/9062100780",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.4806082,
+              52.6504506
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "leisure": "picnic_table",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/9062100780"
+          },
+          {
+            "osmId": "node/9062100781",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.4803762,
+              52.6504404
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "leisure": "picnic_table",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/9062100781"
+          },
+          {
+            "osmId": "node/9062100782",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.4800351,
+              52.650417
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "leisure": "picnic_table",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/9062100782"
+          },
+          {
+            "osmId": "node/9062100783",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.4794108,
+              52.6502474
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "leisure": "picnic_table",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/9062100783"
+          },
+          {
+            "osmId": "node/9062100787",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.4806209,
+              52.6501625
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "leisure": "picnic_table",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/9062100787"
+          },
+          {
+            "osmId": "node/9062100788",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.4803891,
+              52.6499362
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "leisure": "picnic_table",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/9062100788"
+          }
+        ],
+        "parking": [
+          {
+            "osmId": "relation/3360897",
+            "name": "Cattlemarket Car Park",
+            "coordinates": [
+              -0.4815654,
+              52.6488232
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:relation-3360897",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "capacity": "195",
+              "fee": "yes",
+              "name": "Cattlemarket Car Park",
+              "note": "Phone and Pay Ref: 6005",
+              "operator": "South Kesteven District Council",
+              "parking": "surface",
+              "payment:Phone_and_Pay": "yes",
+              "payment:cash": "yes",
+              "payment:contactless": "yes",
+              "payment:debit_cards": "yes",
+              "source": "Bing",
+              "surface": "asphalt",
+              "type": "multipolygon"
+            },
+            "osmUrl": "https://www.openstreetmap.org/relation/3360897"
+          },
+          {
+            "osmId": "way/238798708",
+            "name": "Short Stay Car Park",
+            "coordinates": [
+              -0.480559,
+              52.6507357
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-238798708",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "charge": "1 GBP/30min;2 GBP/2hr",
+              "fee": "yes",
+              "name": "Short Stay Car Park",
+              "parking": "surface",
+              "payment:app": "yes",
+              "payment:cash": "yes",
+              "payment:credit_cards": "yes",
+              "payment:debit_cards": "yes",
+              "source": "Bing",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/238798708"
+          },
+          {
+            "osmId": "way/521232722",
+            "name": "The Crown Car Park",
+            "coordinates": [
+              -0.4802933,
+              52.6527293
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "name": "The Crown Car Park",
+              "source": "survey"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/521232722"
+          },
+          {
+            "osmId": "node/11341582347",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4762965,
+              52.6529217
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-11341582347",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "capacity": "4",
+              "capacity:disabled": "4",
+              "parking": "lane",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/11341582347"
+          },
+          {
+            "osmId": "way/943951977",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5015734,
+              52.6480793
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943951977"
+          },
+          {
+            "osmId": "way/256187509",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4872019,
+              52.652213
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/256187509"
+          },
+          {
+            "osmId": "way/234385929",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4819932,
+              52.6470664
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/234385929"
+          },
+          {
+            "osmId": "way/234385933",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4819053,
+              52.6463982
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/234385933"
+          },
+          {
+            "osmId": "way/389063375",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4808382,
+              52.647696
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/389063375"
+          },
+          {
+            "osmId": "way/1493061932",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4770845,
+              52.6469945
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1493061932"
+          },
+          {
+            "osmId": "way/234387149",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4788046,
+              52.6488267
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/234387149"
+          },
+          {
+            "osmId": "way/754870710",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4779713,
+              52.6535131
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/754870710"
+          },
+          {
+            "osmId": "way/1251739635",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4822851,
+              52.6480795
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "fixme": "This is a carpark, but no idea what are the details. It might be for scool, it doesn't look like a general public access thou"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1251739635"
+          },
+          {
+            "osmId": "way/1309799682",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4794377,
+              52.6482712
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1309799682"
+          },
+          {
+            "osmId": "way/229149474",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4793213,
+              52.6540546
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/229149474"
+          },
+          {
+            "osmId": "way/234387152",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4793652,
+              52.649087
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/234387152"
+          },
+          {
+            "osmId": "way/238799053",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4825825,
+              52.6504061
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-238799053",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "parking": "surface",
+              "source": "Bing",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/238799053"
+          },
+          {
+            "osmId": "way/238799126",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4830038,
+              52.6502585
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "parking": "surface",
+              "source": "Bing",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/238799126"
+          },
+          {
+            "osmId": "way/238799127",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4833594,
+              52.6503277
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "parking": "surface",
+              "source": "Bing",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/238799127"
+          },
+          {
+            "osmId": "way/238799128",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4825056,
+              52.6503286
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "parking": "surface",
+              "source": "Bing",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/238799128"
+          },
+          {
+            "osmId": "way/521200375",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4831507,
+              52.6523313
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/521200375"
+          },
+          {
+            "osmId": "way/754870709",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4803891,
+              52.6538983
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/754870709"
+          },
+          {
+            "osmId": "way/754870711",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.479308,
+              52.653075
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/754870711"
+          },
+          {
+            "osmId": "way/229146418",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4751355,
+              52.6522763
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-229146418",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "fee:conditional": "yes @ (Mo-Sa 08:00-18:00)",
+              "parking": "surface",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/229146418"
+          },
+          {
+            "osmId": "way/531078097",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4740058,
+              52.654591
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/531078097"
+          },
+          {
+            "osmId": "way/101214257",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4659534,
+              52.6578177
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/101214257"
+          },
+          {
+            "osmId": "way/234385014",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4672964,
+              52.6552789
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/234385014"
+          },
+          {
+            "osmId": "way/234385019",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.467158,
+              52.6565501
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/234385019"
+          },
+          {
+            "osmId": "way/690152962",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4664859,
+              52.6571494
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/690152962"
+          },
+          {
+            "osmId": "way/690163459",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.469838,
+              52.6581069
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/690163459"
+          },
+          {
+            "osmId": "way/690163461",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4700391,
+              52.6586903
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/690163461"
+          },
+          {
+            "osmId": "way/1466312789",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4614732,
+              52.6559814
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1466312789"
+          },
+          {
+            "osmId": "way/1466312790",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.462053,
+              52.656276
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1466312790"
+          },
+          {
+            "osmId": "way/101214254",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4656257,
+              52.6624446
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/101214254"
+          },
+          {
+            "osmId": "way/478075584",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4691003,
+              52.6616457
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/478075584"
+          },
+          {
+            "osmId": "way/696251741",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4689907,
+              52.6662707
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "source": "EsriWorldImagery"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/696251741"
+          },
+          {
+            "osmId": "way/294643250",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4550326,
+              52.6567305
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/294643250"
+          },
+          {
+            "osmId": "way/239093508",
+            "name": "Wharf Road Car Park",
+            "coordinates": [
+              -0.4738794,
+              52.6510586
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-239093508",
+            "curated": true,
+            "tags": {
+              "amenity": "parking",
+              "name": "Wharf Road Car Park",
+              "parking": "surface",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/239093508"
+          },
+          {
+            "osmId": "way/1392296971",
+            "name": "Brazenose car park (staff)",
+            "coordinates": [
+              -0.4732541,
+              52.6539183
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "name": "Brazenose car park (staff)"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1392296971"
+          },
+          {
+            "osmId": "way/234385031",
+            "name": "Cherryholt House overflow car park",
+            "coordinates": [
+              -0.4693369,
+              52.6515437
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "name": "Cherryholt House overflow car park"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/234385031"
+          },
+          {
+            "osmId": "way/1382826542",
+            "name": "LMS Car Park",
+            "coordinates": [
+              -0.4722737,
+              52.6549696
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "name": "LMS Car Park",
+              "operator": "Stamford Endowed Schools",
+              "operator:type": "private_non_profit"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1382826542"
+          },
+          {
+            "osmId": "way/1382826541",
+            "name": "Southfields car park (visitor parking)",
+            "coordinates": [
+              -0.4713671,
+              52.6550678
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "name": "Southfields car park (visitor parking)",
+              "operator": "Stamford Endowed Schools",
+              "operator:type": "private_non_profit"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1382826541"
+          },
+          {
+            "osmId": "way/234387745",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4858626,
+              52.6524314
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "fee": "no",
+              "maxstay": "2 hours",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/234387745"
+          },
+          {
+            "osmId": "way/234387748",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4854707,
+              52.6518792
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "fee": "no",
+              "maxstay": "120 minutes",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/234387748"
+          },
+          {
+            "osmId": "way/1354587981",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4750929,
+              52.646481
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1354587981"
+          },
+          {
+            "osmId": "way/238951276",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4770857,
+              52.6507591
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface",
+              "source": "Bing",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/238951276"
+          },
+          {
+            "osmId": "way/238951279",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4771591,
+              52.6506602
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface",
+              "source": "Bing",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/238951279"
+          },
+          {
+            "osmId": "way/238951349",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4774008,
+              52.6507521
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface",
+              "source": "Bing",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/238951349"
+          },
+          {
+            "osmId": "way/1389856563",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.474922,
+              52.6561224
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1389856563"
+          },
+          {
+            "osmId": "way/718296517",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4680484,
+              52.658295
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/718296517"
+          },
+          {
+            "osmId": "way/1349176047",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4600443,
+              52.6560628
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1349176047"
+          },
+          {
+            "osmId": "way/101214250",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4649093,
+              52.6556178
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/101214250"
+          },
+          {
+            "osmId": "way/1446519508",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4655185,
+              52.6587221
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1446519508"
+          }
+        ],
+        "toilets": [
+          {
+            "osmId": "way/440862505",
+            "name": "Unnamed public toilets",
+            "coordinates": [
+              -0.4806801,
+              52.6518542
+            ],
+            "category": "toilets",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-440862505",
+            "curated": true,
+            "tags": {
+              "amenity": "toilets",
+              "building": "yes",
+              "source": "Bing",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/440862505"
+          },
+          {
+            "osmId": "way/1097376433",
+            "name": "Unnamed public toilets",
+            "coordinates": [
+              -0.4786298,
+              52.6555026
+            ],
+            "category": "toilets",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-1097376433",
+            "curated": true,
+            "tags": {
+              "amenity": "toilets",
+              "building": "toilets"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1097376433"
+          }
+        ]
+      }
+    }
+  ]
+}

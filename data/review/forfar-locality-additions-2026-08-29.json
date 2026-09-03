@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-29",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers.",
+  "namingDecisions": [
+    "inverquharrity resolves to Inverquharity.",
+    "murthil resolves to Murthill.",
+    "Shielhill resolves to the hamlet by Memus, not Shielhill near Newbigging.",
+    "Mosside resolves to Mosside of Ballinshoe in this Forfar-area batch.",
+    "Drumgley represents the Nether, Upper and Easter Drumgley cluster."
+  ],
+  "additions": [
+    {
+      "requestedName": "memus",
+      "resolvedName": "Memus",
+      "projectId": "memus-scotland",
+      "region": "Angus",
+      "score": 44,
+      "dogOwnerScore": 43,
+      "publishOnTownMap": false,
+      "rationale": "Memus has a recognisable village identity but insufficient independent visitor depth for a town marker.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/4947003539"
+      ]
+    },
+    {
+      "requestedName": "tannadice",
+      "resolvedName": "Tannadice",
+      "projectId": "tannadice-scotland",
+      "region": "Angus",
+      "score": 48,
+      "dogOwnerScore": 47,
+      "publishOnTownMap": false,
+      "rationale": "Tannadice has genuine village character, while surrounding estates and countryside remain separate visitor propositions.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/4166648489"
+      ]
+    },
+    {
+      "requestedName": "inverquharrity",
+      "resolvedName": "Inverquharity",
+      "projectId": "inverquharity-scotland",
+      "region": "Angus",
+      "score": 38,
+      "dogOwnerScore": 36,
+      "publishOnTownMap": false,
+      "rationale": "The hamlet is retained independently; Inverquharity Castle and the Roman site do not inflate the settlement score.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/5649554444"
+      ]
+    },
+    {
+      "requestedName": "murthil",
+      "resolvedName": "Murthill",
+      "projectId": "murthill-scotland",
+      "region": "Angus",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling resolves to Murthill, a named hamlet rather than an independent visitor destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/5750380975"
+      ]
+    },
+    {
+      "requestedName": "finavon",
+      "resolvedName": "Finavon",
+      "projectId": "finavon-scotland",
+      "region": "Angus",
+      "score": 42,
+      "dogOwnerScore": 41,
+      "publishOnTownMap": false,
+      "rationale": "Finavon has local historic character, while Finavon Hill and nearby attractions remain separately assessed.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/5312046009"
+      ]
+    },
+    {
+      "requestedName": "oathlaw",
+      "resolvedName": "Oathlaw",
+      "projectId": "oathlaw-scotland",
+      "region": "Angus",
+      "score": 44,
+      "dogOwnerScore": 43,
+      "publishOnTownMap": false,
+      "rationale": "Oathlaw has a distinct village centre but limited visitor depth beyond its local character.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/5000008587"
+      ]
+    },
+    {
+      "requestedName": "shielhill",
+      "resolvedName": "Shielhill",
+      "projectId": "shielhill-memus-scotland",
+      "region": "Angus",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "This resolves to Shielhill by Memus, not the separate Shielhill near Newbigging.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/6258057004"
+      ]
+    },
+    {
+      "requestedName": "carse gray",
+      "resolvedName": "Carse Gray",
+      "projectId": "carse-gray-scotland",
+      "region": "Angus",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "Carse Gray is retained as a regional reference rather than a visitor destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/5248843256"
+      ]
+    },
+    {
+      "requestedName": "mosside",
+      "resolvedName": "Mosside",
+      "projectId": "mosside-ballinshoe-scotland",
+      "region": "Angus",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "The requested Mosside resolves to Mosside of Ballinshoe in this Forfar-area batch.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/5726917923"
+      ]
+    },
+    {
+      "requestedName": "lunanhead",
+      "resolvedName": "Lunanhead",
+      "projectId": "lunanhead-scotland",
+      "region": "Angus",
+      "score": 38,
+      "dogOwnerScore": 37,
+      "publishOnTownMap": false,
+      "rationale": "Lunanhead remains independently scored and does not inherit Forfar attractions.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/408608619"
+      ]
+    },
+    {
+      "requestedName": "forfar",
+      "resolvedName": "Forfar",
+      "projectId": "forfar-scotland",
+      "region": "Angus",
+      "score": 72,
+      "dogOwnerScore": 71,
+      "publishOnTownMap": true,
+      "rationale": "Forfar has independent visitor depth through the Meffan Museum, town heritage, Forfar Loch and Balmashanner, supporting a preliminary 70–79 town score.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/relation/8489414",
+        "https://visitangus.com/plan-your-trip/explore-our-towns/forfar/",
+        "https://visitangus.com/get-inspired/heritage-trails/forfar-heritage-trail/",
+        "https://angusalive.scot/museums-galleries/visit-a-museum-gallery/meffan-museum-and-art-gallery/"
+      ]
+    },
+    {
+      "requestedName": "padanaram",
+      "resolvedName": "Padanaram",
+      "projectId": "padanaram-scotland",
+      "region": "Angus",
+      "score": 34,
+      "dogOwnerScore": 32,
+      "publishOnTownMap": false,
+      "rationale": "Padanaram is retained separately without inheriting Forfar or Glamis visitor interest.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/3922238274"
+      ]
+    },
+    {
+      "requestedName": "drumgley",
+      "resolvedName": "Drumgley",
+      "projectId": "drumgley-scotland",
+      "region": "Angus",
+      "score": 22,
+      "dogOwnerScore": 21,
+      "publishOnTownMap": false,
+      "rationale": "Drumgley represents the Nether, Upper and Easter Drumgley cluster; its core paths and dog park do not make the settlement a tourist town.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/5716366883"
+      ]
+    }
+  ]
+}

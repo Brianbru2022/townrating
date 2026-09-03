@@ -1,0 +1,497 @@
+{
+  "project": {
+    "id": "lyveden-england",
+    "name": "Lyveden Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Northamptonshire",
+    "locality": "Lyveden",
+    "centre": [
+      -0.8670788,
+      52.218956
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated Lyveden visitor boundary",
+        "localityName": "Lyveden",
+        "osmType": "way",
+        "osmId": 129832487,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [],
+        "name": "Lyveden curated visitor boundary",
+        "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+        "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+        "notAdministrativeBoundary": true,
+        "reviewedAt": "2026-08-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.87107879999958,
+              52.21613360296824
+            ],
+            [
+              -0.8710175409765456,
+              52.21599353462965
+            ],
+            [
+              -0.8707889244637305,
+              52.21595600944444
+            ],
+            [
+              -0.8633686755362697,
+              52.21595600944444
+            ],
+            [
+              -0.8631400590234545,
+              52.21599353462965
+            ],
+            [
+              -0.8630788000004199,
+              52.21613360296824
+            ],
+            [
+              -0.86307880000042,
+              52.22177840965231
+            ],
+            [
+              -0.8631400607167384,
+              52.22191847344973
+            ],
+            [
+              -0.8633686940985079,
+              52.22195600944401
+            ],
+            [
+              -0.870788905901492,
+              52.22195600944401
+            ],
+            [
+              -0.8710175392832616,
+              52.22191847344973
+            ],
+            [
+              -0.87107879999958,
+              52.22177840965231
+            ],
+            [
+              -0.87107879999958,
+              52.21613360296824
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated Lyveden visitor boundary derived from Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "high",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-09T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-09. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 0 directly adjoining public green-space geometries were included in the active visitor boundary.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Useful as a mapped local settlement, but not currently recommended as a tourist destination."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Lyveden",
+      "intro": "Lyveden has a modest visitor offer within its active settlement boundary. The guide records only defensible visitor interest without presenting the place as a destination.",
+      "bestFor": [
+        "Daytime stops"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "A short Lyveden wander",
+        "summary": "Use the planner to find the strongest in-boundary daytime stops."
+      },
+      "dontMiss": [],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/way/129832487",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-09"
+    },
+    "visitorHighlights": [],
+    "townStudyArea": {
+      "localityName": "Lyveden",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/way/129832487",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-09",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -0.8710788,
+          52.215956,
+          -0.8630788,
+          52.221956
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Lyveden",
+          "osmType": "way",
+          "osmId": 129832487,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.8710788,
+                52.215956
+              ],
+              [
+                -0.8630788,
+                52.215956
+              ],
+              [
+                -0.8630788,
+                52.221956
+              ],
+              [
+                -0.8710788,
+                52.221956
+              ],
+              [
+                -0.8710788,
+                52.215956
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated Lyveden visitor boundary",
+          "localityName": "Lyveden",
+          "osmType": "way",
+          "osmId": 129832487,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [],
+          "name": "Lyveden curated visitor boundary",
+          "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+          "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+          "notAdministrativeBoundary": true,
+          "reviewedAt": "2026-08-09"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.87107879999958,
+                52.21613360296824
+              ],
+              [
+                -0.8710175409765456,
+                52.21599353462965
+              ],
+              [
+                -0.8707889244637305,
+                52.21595600944444
+              ],
+              [
+                -0.8633686755362697,
+                52.21595600944444
+              ],
+              [
+                -0.8631400590234545,
+                52.21599353462965
+              ],
+              [
+                -0.8630788000004199,
+                52.21613360296824
+              ],
+              [
+                -0.86307880000042,
+                52.22177840965231
+              ],
+              [
+                -0.8631400607167384,
+                52.22191847344973
+              ],
+              [
+                -0.8633686940985079,
+                52.22195600944401
+              ],
+              [
+                -0.870788905901492,
+                52.22195600944401
+              ],
+              [
+                -0.8710175392832616,
+                52.22191847344973
+              ],
+              [
+                -0.87107879999958,
+                52.22177840965231
+              ],
+              [
+                -0.87107879999958,
+                52.21613360296824
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated Lyveden visitor boundary",
+          "localityName": "Lyveden",
+          "osmType": "way",
+          "osmId": 129832487,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [],
+          "name": "Lyveden curated visitor boundary",
+          "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+          "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+          "notAdministrativeBoundary": true,
+          "reviewedAt": "2026-08-09"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.87107879999958,
+                52.21613360296824
+              ],
+              [
+                -0.8710175409765456,
+                52.21599353462965
+              ],
+              [
+                -0.8707889244637305,
+                52.21595600944444
+              ],
+              [
+                -0.8633686755362697,
+                52.21595600944444
+              ],
+              [
+                -0.8631400590234545,
+                52.21599353462965
+              ],
+              [
+                -0.8630788000004199,
+                52.21613360296824
+              ],
+              [
+                -0.86307880000042,
+                52.22177840965231
+              ],
+              [
+                -0.8631400607167384,
+                52.22191847344973
+              ],
+              [
+                -0.8633686940985079,
+                52.22195600944401
+              ],
+              [
+                -0.870788905901492,
+                52.22195600944401
+              ],
+              [
+                -0.8710175392832616,
+                52.22191847344973
+              ],
+              [
+                -0.87107879999958,
+                52.22177840965231
+              ],
+              [
+                -0.87107879999958,
+                52.21613360296824
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The official locality geometry is preserved unchanged. The active visitor boundary uses a transparent 150 metre morphological closing to include connected parks, river corridors and green spaces omitted by the statistical built-up-area geometry. This is a visitor extent, not an administrative replacement."
+    }
+  },
+  "features": [
+    {
+      "id": "osm-community:way-591680494",
+      "projectId": "lyveden-england",
+      "name": "Costa",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Northamptonshire",
+      "locality": "Lyveden",
+      "featureType": "cafe",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8703139,
+          52.2165506
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Costa is a curated daytime coffee, cake or lunch stop within Lyveden.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/591680494",
+          "sourceUrl": "https://www.openstreetmap.org/way/591680494",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "addr:city=Northampton; addr:country=GB; addr:housename=Tungsten Business Park; addr:postcode=NN4 7PX; addr:street=Caswell Road; addr:unit=1; amenity=cafe; brand=Costa; brand:wikidata=Q608845; brand:wikipedia=en:Costa Coffee; building=yes; cuisine=coffee_shop; fhrs:authority=Northampton; fhrs:id=1091036; fhrs:local_authority_id=PI/000088224; name=Costa; not:addr:postcode=NN4 7PW; source:addr:postcode=ons_uprn_lookup; takeaway=yes; visit_score=73; price_band=Check current menu"
+        }
+      ],
+      "tags": [
+        "service-context-food",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-09T00:00:00Z",
+      "updatedAt": "2026-08-09T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-09.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    },
+    {
+      "id": "osm-community:way-591680498",
+      "projectId": "lyveden-england",
+      "name": "Pizza Hut",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Northamptonshire",
+      "locality": "Lyveden",
+      "featureType": "restaurant",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8706608,
+          52.2164877
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Pizza Hut is a curated daytime coffee, cake or lunch stop within Lyveden.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/591680498",
+          "sourceUrl": "https://www.pizzahut.co.uk/huts/uk-1/8210-northampton-south/",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "addr:city=Northampton; addr:country=GB; addr:housename=Tungsten Park; addr:postcode=NN4 7PX; addr:street=Caswell Road; addr:unit=4; amenity=restaurant; brand=Pizza Hut Delivery; brand:wikidata=Q107293079; brand:wikipedia=en:Pizza Hut; building=yes; check_date=2024-09-19; check_date:opening_hours=2024-09-19; cuisine=pizza; fhrs:authority=Northampton; fhrs:id=1029547; fhrs:local_authority_id=PI/000088276; name=Pizza Hut; not:addr:postcode=NN4 7PY; opening_hours=Mo-We 11:30-22:30; Th 11:30-23:00; Fr 11:00-23:00; Sa 11:30-23:00; Su 11:30-22:30; phone=+44 1604 962646; source:addr:postcode=ons_uprn_lookup; website=https://www.pizzahut.co.uk/huts/uk-1/8210-northampton-south/; visit_score=71; price_band=Check current menu"
+        }
+      ],
+      "tags": [
+        "service-context-food",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-09T00:00:00Z",
+      "updatedAt": "2026-08-09T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-09.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    }
+  ],
+  "sources": [
+    {
+      "id": "lyveden-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Lyveden settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/way/129832487",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Lyveden designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "lyveden-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Lyveden visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

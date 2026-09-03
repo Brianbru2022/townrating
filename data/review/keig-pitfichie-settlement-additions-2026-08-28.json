@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-28",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers. Attractions never inflate settlement scores.",
+  "namingDecisions": [
+    "Kirkton of Touch is normalised to the official settlement name Kirkton of Tough.",
+    "Wakehouse could not be substantiated in this cluster and is resolved to the official connected settlement Whitehouse.",
+    "Gateside resolves to the AB33 8DR Keig/Alford-area locality, not similarly named places elsewhere in Aberdeenshire.",
+    "Castle Forbes is catalogued as a private estate locality; no public access is assumed."
+  ],
+  "attractionSeparation": [
+    "Pitfichie Forest and its recreation trails remain See/Trails material and do not inflate Pitfichie, Rorandle, Pitmunie or Tillyfourie.",
+    "Castle Forbes architectural interest does not convert the private estate locality or Keig into a tourist-town marker."
+  ],
+  "additions": [
+    {
+      "requestedName": "Keig",
+      "resolvedName": "Keig",
+      "projectId": "keig-scotland",
+      "score": 48,
+      "dogOwnerScore": 47,
+      "publishOnTownMap": false,
+      "rationale": "Keig remains independently selectable, but Castle Forbes, Pitfichie Forest and wider Donside attractions are not borrowed into its score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1279051928",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Castle Forbes",
+      "resolvedName": "Castle Forbes",
+      "projectId": "castle-forbes-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "The castle is retained as a selector locality. Architectural significance alone does not make a town, and no assumed public access is scored.",
+      "sourceUrl": "https://www.openstreetmap.org/way/390958280",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Upper Woodend",
+      "resolvedName": "Upper Woodend",
+      "projectId": "upper-woodend-scotland",
+      "score": 14,
+      "dogOwnerScore": 12,
+      "publishOnTownMap": false,
+      "rationale": "Nearby forest routes and historic sites remain separate attractions and do not inflate Upper Woodend.",
+      "sourceUrl": "https://www.openstreetmap.org/way/655247186",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Rorandle",
+      "resolvedName": "Rorandle",
+      "projectId": "rorandle-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "Pitfichie Forest is treated as a separate See attraction rather than as evidence that Rorandle is a tourist town.",
+      "sourceUrl": "https://www.geograph.org.uk/photo/283788",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Pitfichie",
+      "resolvedName": "Pitfichie",
+      "projectId": "pitfichie-scotland",
+      "score": 30,
+      "dogOwnerScore": 29,
+      "publishOnTownMap": false,
+      "rationale": "Pitfichie Forest and its trails belong under See and Trails. They are not used to turn the hamlet into a 60+ town.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1333897161",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Gateside",
+      "resolvedName": "Gateside",
+      "projectId": "gateside-keig-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "Resolved to the AB33 8DR Gateside in the requested Donside cluster, not similarly named places elsewhere. The postcode centre warrants a cautious boundary.",
+      "sourceUrl": "https://api.postcodes.io/postcodes/AB338DR",
+      "boundaryConfidence": "low"
+    },
+    {
+      "requestedName": "Pitmunie",
+      "resolvedName": "Pitmunie",
+      "projectId": "pitmunie-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "The settlement is resolved from OS grid reference NJ665155. Adjacent Pitfichie recreation and heritage remain separate.",
+      "sourceUrl": "https://britishplacenames.uk/pitmunie-aberdeenshire-nj665155",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Todlachie",
+      "resolvedName": "Todlachie",
+      "projectId": "todlachie-scotland",
+      "score": 16,
+      "dogOwnerScore": 14,
+      "publishOnTownMap": false,
+      "rationale": "The coordinate uses the AB51 7SS postcode centroid and therefore remains deliberately conservative. Forest and neighbouring-village attractions are not borrowed.",
+      "sourceUrl": "https://api.postcodes.io/postcodes/AB517SS",
+      "boundaryConfidence": "low"
+    },
+    {
+      "requestedName": "Ordhead",
+      "resolvedName": "Ordhead",
+      "projectId": "ordhead-scotland",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "Resolved from OS grid reference NJ669107. Nearby Tillyfourie and forest heritage remain distinct.",
+      "sourceUrl": "https://britishplacenames.uk/ordhead-aberdeenshire-nj669107",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Tillyfourie",
+      "resolvedName": "Tillyfourie",
+      "projectId": "tillyfourie-scotland",
+      "score": 45,
+      "dogOwnerScore": 44,
+      "publishOnTownMap": false,
+      "rationale": "Its own historic fabric is recognised while Pitfichie Forest and other regional attractions remain separate. A full audit would be required before any 60+ publication.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1333930602",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Kirkton of Touch",
+      "resolvedName": "Kirkton of Tough",
+      "projectId": "kirkton-of-tough-scotland",
+      "score": 52,
+      "dogOwnerScore": 51,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling is normalised to official Kirkton of Tough. Village history counts, but private properties and neighbouring attractions do not.",
+      "sourceUrl": "https://publications.aberdeenshire.gov.uk/acblobstorage/26828a67-468f-453a-bb40-fb1704051708/marr-kirkton-of-tough--to-whitehouse.pdf",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Wakehouse",
+      "resolvedName": "Whitehouse",
+      "projectId": "whitehouse-tough-scotland",
+      "score": 38,
+      "dogOwnerScore": 37,
+      "publishOnTownMap": false,
+      "rationale": "No Wakehouse was found in this requested cluster; the official connected settlement is Whitehouse. It remains below the map threshold pending a full audit.",
+      "sourceUrl": "https://publications.aberdeenshire.gov.uk/acblobstorage/26828a67-468f-453a-bb40-fb1704051708/marr-kirkton-of-tough--to-whitehouse.pdf",
+      "boundaryConfidence": "medium"
+    }
+  ]
+}

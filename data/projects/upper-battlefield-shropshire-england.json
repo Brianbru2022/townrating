@@ -1,0 +1,561 @@
+{
+  "project": {
+    "id": "upper-battlefield-shropshire-england",
+    "name": "Upper Battlefield Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Shropshire",
+    "locality": "Upper Battlefield",
+    "centre": [
+      -2.7163351,
+      52.7561744
+    ],
+    "boundary": {
+      "type": "Feature",
+      "bbox": [
+        -2.7223350999999996,
+        52.7516744,
+        -2.7103351,
+        52.7606744
+      ],
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Upper Battlefield",
+        "osmType": "node",
+        "osmId": 611886739,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.7223350999999996,
+              52.7516744
+            ],
+            [
+              -2.7103351,
+              52.7516744
+            ],
+            [
+              -2.7103351,
+              52.7606744
+            ],
+            [
+              -2.7223350999999996,
+              52.7606744
+            ],
+            [
+              -2.7223350999999996,
+              52.7516744
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-12T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-12. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 0 directly adjoining public green-space geometries were included in the active visitor boundary. Historic England official list-entry date enrichment reviewed 2026-08-12: 0 of 0 statutory records now carry defensible date evidence; uncaptured or unresolved entries are retained as unknown and listed in the county audit.",
+    "touristAppeal": {
+      "rating": 1,
+      "label": "Local detour",
+      "summary": "Upper Battlefield qualifies as a local detour through Battle of Shrewsbury Exhibition and Battlefield Farm. It is best treated as a shorter stop rather than a half-day destination."
+    },
+    "townGuide": {
+      "headline": "Upper Battlefield: local heritage, daytime stops and an easy settlement wander",
+      "intro": "Upper Battlefield offers Battle of Shrewsbury Exhibition, Battlefield Farm within a compact settlement visit, supported by curated daytime food and practical facilities where mapped.",
+      "bestFor": [
+        "Local heritage",
+        "Short settlement walks",
+        "Daytime stops"
+      ],
+      "perfectFor": [
+        "A short local detour",
+        "Visitors exploring Shropshire"
+      ],
+      "suggestedFirstVisit": {
+        "title": "Battle of Shrewsbury Exhibition",
+        "summary": "Start with Battle of Shrewsbury Exhibition and Battlefield Farm, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "Battle of Shrewsbury Exhibition",
+        "Battlefield Farm"
+      ],
+      "suggestedTime": "One to three hours",
+      "visitorMood": "A low-key, evidence-led local visit.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/611886739",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-12"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "osm-community:way-651223471",
+        "name": "Battle of Shrewsbury Exhibition",
+        "reason": "Battle of Shrewsbury Exhibition is a curated museum within the active Upper Battlefield visitor boundary.",
+        "tagline": "museum",
+        "visitorScore": 72,
+        "timeToSpend": "Allow 60-120 minutes",
+        "freeAdmission": false,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "museum",
+          "intro": "Battle of Shrewsbury Exhibition is a curated museum within the active Upper Battlefield visitor boundary.",
+          "motifs": [
+            "museum",
+            "Upper Battlefield"
+          ],
+          "bestFor": [
+            "Local heritage"
+          ],
+          "thingsToDo": [
+            {
+              "name": "Explore Battle of Shrewsbury Exhibition"
+            },
+            {
+              "name": "Notice its museum character"
+            }
+          ]
+        },
+        "sourceName": "OpenStreetMap current community places",
+        "sourceUrl": "https://www.openstreetmap.org/way/651223471",
+        "verifiedInBoundaryAt": "2026-08-12"
+      },
+      {
+        "rank": 2,
+        "featureId": "osm-community:way-651223472",
+        "name": "Battlefield Farm",
+        "reason": "Battlefield Farm is a curated attraction within the active Upper Battlefield visitor boundary.",
+        "tagline": "attraction",
+        "visitorScore": 70,
+        "timeToSpend": "Allow 45-90 minutes",
+        "freeAdmission": false,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "attraction",
+          "intro": "Battlefield Farm is a curated attraction within the active Upper Battlefield visitor boundary.",
+          "motifs": [
+            "attraction",
+            "Upper Battlefield"
+          ],
+          "bestFor": [
+            "Local heritage"
+          ],
+          "thingsToDo": [
+            {
+              "name": "Explore Battlefield Farm"
+            },
+            {
+              "name": "Notice its attraction character"
+            }
+          ]
+        },
+        "sourceName": "OpenStreetMap current community places",
+        "sourceUrl": "https://www.battlefield1403.com/",
+        "verifiedInBoundaryAt": "2026-08-12"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Upper Battlefield",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/611886739",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-12",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.7223350999999996,
+          52.7516744,
+          -2.7103351,
+          52.7606744
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Upper Battlefield",
+          "osmType": "node",
+          "osmId": 611886739,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.7223350999999996,
+                52.7516744
+              ],
+              [
+                -2.7103351,
+                52.7516744
+              ],
+              [
+                -2.7103351,
+                52.7606744
+              ],
+              [
+                -2.7223350999999996,
+                52.7606744
+              ],
+              [
+                -2.7223350999999996,
+                52.7516744
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.7223350999999996,
+          52.7516744,
+          -2.7103351,
+          52.7606744
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Upper Battlefield",
+          "osmType": "node",
+          "osmId": 611886739,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.7223350999999996,
+                52.7516744
+              ],
+              [
+                -2.7103351,
+                52.7516744
+              ],
+              [
+                -2.7103351,
+                52.7606744
+              ],
+              [
+                -2.7223350999999996,
+                52.7606744
+              ],
+              [
+                -2.7223350999999996,
+                52.7516744
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.7223350999999996,
+          52.7516744,
+          -2.7103351,
+          52.7606744
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Upper Battlefield",
+          "osmType": "node",
+          "osmId": 611886739,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.7223350999999996,
+                52.7516744
+              ],
+              [
+                -2.7103351,
+                52.7516744
+              ],
+              [
+                -2.7103351,
+                52.7606744
+              ],
+              [
+                -2.7223350999999996,
+                52.7606744
+              ],
+              [
+                -2.7223350999999996,
+                52.7516744
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes only directly adjoining mapped public green spaces: none."
+    }
+  },
+  "features": [
+    {
+      "id": "osm-community:way-651223471",
+      "projectId": "upper-battlefield-shropshire-england",
+      "name": "Battle of Shrewsbury Exhibition",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Upper Battlefield",
+      "featureType": "museum",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.720382,
+          52.7525018
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Battle of Shrewsbury Exhibition is a curated museum within the active Upper Battlefield visitor boundary.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/651223471",
+          "sourceUrl": "https://www.openstreetmap.org/way/651223471",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "building=yes; name=Battle of Shrewsbury Exhibition; tourism=museum; visit_score=72"
+        }
+      ],
+      "tags": [
+        "service-context-visitor",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-12.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "attractionGuide": {
+        "headline": "museum",
+        "intro": "Battle of Shrewsbury Exhibition is a curated museum within the active Upper Battlefield visitor boundary.",
+        "motifs": [
+          "museum",
+          "Upper Battlefield"
+        ],
+        "bestFor": [
+          "Local heritage"
+        ],
+        "thingsToDo": [
+          {
+            "name": "Explore Battle of Shrewsbury Exhibition"
+          },
+          {
+            "name": "Notice its museum character"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osm-community:way-651223472",
+      "projectId": "upper-battlefield-shropshire-england",
+      "name": "Battlefield Farm",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Upper Battlefield",
+      "featureType": "attraction",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7198028,
+          52.7531121
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Battlefield Farm is a curated attraction within the active Upper Battlefield visitor boundary.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/651223472",
+          "sourceUrl": "https://www.battlefield1403.com/",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "landuse=retail; name=Battlefield Farm; tourism=attraction; website=https://www.battlefield1403.com/; visit_score=70"
+        }
+      ],
+      "tags": [
+        "service-context-visitor",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-12.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "attractionGuide": {
+        "headline": "attraction",
+        "intro": "Battlefield Farm is a curated attraction within the active Upper Battlefield visitor boundary.",
+        "motifs": [
+          "attraction",
+          "Upper Battlefield"
+        ],
+        "bestFor": [
+          "Local heritage"
+        ],
+        "thingsToDo": [
+          {
+            "name": "Explore Battlefield Farm"
+          },
+          {
+            "name": "Notice its attraction character"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osm-community:node-574698121",
+      "projectId": "upper-battlefield-shropshire-england",
+      "name": "Battlefield 1403 Sparrow's Cafe",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Upper Battlefield",
+      "featureType": "cafe",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7205334,
+          52.7528024
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Battlefield 1403 Sparrow's Cafe is a curated daytime coffee, cake or lunch stop within Upper Battlefield.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "node/574698121",
+          "sourceUrl": "https://www.openstreetmap.org/node/574698121",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "addr:city=Shrewsbury; addr:country=GB; addr:housename=Battlefield Farm; addr:place=Battlefield; addr:postcode=SY4 3DB; amenity=cafe; fhrs:authority=Shropshire; fhrs:id=62785; fhrs:local_authority_id=138904; name=Battlefield 1403 Sparrow's Cafe; source:addr=FHRS Open Data; visit_score=70; price_band=Check current menu"
+        }
+      ],
+      "tags": [
+        "service-context-food",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-12.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    }
+  ],
+  "sources": [
+    {
+      "id": "upper-battlefield-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Upper Battlefield settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/611886739",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Upper Battlefield designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "upper-battlefield-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Upper Battlefield visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

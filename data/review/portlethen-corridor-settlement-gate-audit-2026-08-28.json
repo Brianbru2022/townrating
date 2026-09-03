@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-28",
+  "rule": "Every resolved place remains selectable with its canonical score; only settlements scoring 60 or more publish as town markers. Nearby attractions and neighbouring villages do not inflate settlement scores.",
+  "assessments": [
+    {
+      "requestedName": "Marywell",
+      "resolvedName": "Marywell",
+      "projectId": "marywell-portlethen-scotland",
+      "score": 29,
+      "dogOwnerScore": 27,
+      "publishOnTownMap": false,
+      "rationale": "Marywell remains useful in the regional catalogue, but nearby Cove, Portlethen and Hare Moss are not transferred into its settlement score.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "requestedName": "Hillside",
+      "resolvedName": "Hillside",
+      "projectId": "hillside-portlethen-scotland",
+      "score": 35,
+      "dogOwnerScore": 34,
+      "publishOnTownMap": false,
+      "rationale": "The council Hillside loop supports everyday recreation; it does not turn this Portlethen neighbourhood into a separate tourist destination.",
+      "sourceUrls": [
+        "https://www.aberdeenshire.gov.uk/media/25055/portlethen-cycling.pdf",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "requestedName": "Findon",
+      "resolvedName": "Findon",
+      "projectId": "findon-aberdeenshire-scotland",
+      "score": 61,
+      "dogOwnerScore": 60,
+      "publishOnTownMap": true,
+      "rationale": "Findon narrowly clears 60 on its own historic coastal-village fabric and seaward setting; modern Portlethen services and other fishing villages are not counted.",
+      "sourceUrls": [
+        "https://www.aberdeenshire.gov.uk/media/25055/portlethen-cycling.pdf",
+        "https://www.aberdeenshire.gov.uk/outdoor-access-and-countryside/paths/core-paths-plan",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "requestedName": "Portlethen",
+      "resolvedName": "Portlethen",
+      "projectId": "portlethen-scotland",
+      "score": 57,
+      "dogOwnerScore": 56,
+      "publishOnTownMap": false,
+      "rationale": "The town’s loops, station and services make it useful to visitors, while Findon, Old Portlethen, Downies and the coastal scenery retain their own scores.",
+      "sourceUrls": [
+        "https://www.aberdeenshire.gov.uk/media/25055/portlethen-cycling.pdf",
+        "https://www.aberdeenshire.gov.uk/outdoor-access-and-countryside/paths/core-paths-plan",
+        "https://www.aberdeenshire.gov.uk/leisure-sport-and-culture/parks-and-open-spaces/parks-and-open-spaces/",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "requestedName": "Downies",
+      "resolvedName": "Downies",
+      "projectId": "downies-scotland",
+      "score": 56,
+      "dogOwnerScore": 55,
+      "publishOnTownMap": false,
+      "rationale": "Downies earns credit for its own coastal character and route access; Portlethen facilities and neighbouring villages are not borrowed.",
+      "sourceUrls": [
+        "https://www.aberdeenshire.gov.uk/media/25055/portlethen-cycling.pdf",
+        "https://www.aberdeenshire.gov.uk/outdoor-access-and-countryside/paths/core-paths-plan",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "requestedName": "Newtonhill",
+      "resolvedName": "Newtonhill",
+      "projectId": "newtonhill-scotland",
+      "score": 58,
+      "dogOwnerScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "Newtonhill is a useful local base, but Muchalls, Skateraw and nearby coastal landmarks are kept separate, leaving the town just below publication threshold.",
+      "sourceUrls": [
+        "https://www.aberdeenshire.gov.uk/outdoor-access-and-countryside/paths/core-paths-plan",
+        "https://www.aberdeenshire.gov.uk/leisure-sport-and-culture/parks-and-open-spaces/parks-and-open-spaces/",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "requestedName": "Muchalls",
+      "resolvedName": "Muchalls",
+      "projectId": "muchalls-scotland",
+      "score": 64,
+      "dogOwnerScore": 63,
+      "publishOnTownMap": true,
+      "rationale": "Muchalls clears 60 on its own conserved village character and coast-path setting; Newtonhill services and attractions beyond the village are excluded.",
+      "sourceUrls": [
+        "https://www.aberdeenshire.gov.uk/outdoor-access-and-countryside/paths/core-paths-plan",
+        "https://www.aberdeenshire.gov.uk/leisure-sport-and-culture/parks-and-open-spaces/parks-and-open-spaces/",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "requestedName": "Auchlunies",
+      "resolvedName": "Auchlunies",
+      "projectId": "auchlunies-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "Nearby Blairs, Hare Moss and Deeside attractions are recorded separately and do not inflate the hamlet score.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/copyright"
+      ]
+    }
+  ],
+  "notes": [
+    "Marywell resolves to the AB12 settlement immediately north of Portlethen, not the separate places of the same name elsewhere in Scotland.",
+    "Hillside is retained as the modern Portlethen neighbourhood rather than merged into the town record.",
+    "Findon, Downies and Muchalls are assessed as individual historic coastal villages.",
+    "Auchlunies resolves to the rural locality south of Aberdeen near Banchory-Devenick.",
+    "This catalogue-addition pass does not claim a full practical, clue-trail or dated-HES audit; those remain required before a later full-audit completion claim."
+  ]
+}

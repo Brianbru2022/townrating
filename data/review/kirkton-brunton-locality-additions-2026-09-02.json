@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-02",
+  "threshold": 60,
+  "rule": "All resolved places remain selectable with a score; only independently audited settlements scoring 60 or more appear as town markers.",
+  "additions": [
+    {
+      "requestedName": "Kirkton",
+      "name": "Kirkton (Balmerino)",
+      "projectId": "kirkton-balmerino-scotland",
+      "region": "Fife",
+      "intakeScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "Kirkton is assessed separately from Balmerino Abbey, Gauldry and Bottomcraig, with no neighbouring attraction or service transferred into its score.",
+      "resolutionNote": "Resolved to Kirkton in Balmerino parish at NO362251 and labelled Kirkton (Balmerino) to avoid the other catalogue localities named Kirkton.",
+      "sourceUrl": "https://fife-placenames.glasgow.ac.uk/parish/?id=14"
+    },
+    {
+      "requestedName": "Bottomcraig",
+      "name": "Bottomcraig",
+      "projectId": "bottomcraig-scotland",
+      "region": "Fife",
+      "intakeScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "Bottomcraig remains a distinct selector entry and does not inherit Balmerino Abbey, Gauldry facilities or wider Tay routes.",
+      "sourceUrl": "https://fife-placenames.glasgow.ac.uk/volume/?id=4"
+    },
+    {
+      "requestedName": "Kilmany",
+      "name": "Kilmany",
+      "projectId": "kilmany-scotland",
+      "region": "Fife",
+      "intakeScore": 48,
+      "publishOnTownMap": false,
+      "rationale": "Kilmany is assessed on its own church, memorial, village environment and current facilities, without borrowing Cupar, Rathillet or private nearby properties.",
+      "sourceUrl": "https://fife-placenames.glasgow.ac.uk/placename/?id=2904"
+    },
+    {
+      "requestedName": "Rathilllet",
+      "name": "Rathillet",
+      "projectId": "rathillet-scotland",
+      "region": "Fife",
+      "intakeScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "Rathillet is scored as the present hamlet; documentary medieval history and nearby private estate land do not become visitor attractions without access evidence.",
+      "resolutionNote": "The requested spelling is normalised to Rathillet.",
+      "sourceUrl": "https://fife-placenames.glasgow.ac.uk/placename/?id=2920"
+    },
+    {
+      "requestedName": "Hazelton Walls",
+      "name": "Hazelton Walls",
+      "projectId": "hazelton-walls-scotland",
+      "region": "Fife",
+      "intakeScore": 20,
+      "publishOnTownMap": false,
+      "rationale": "Hazelton Walls is retained as a named rural place and does not inherit Creich Castle, Brunton heritage or distant visitor businesses.",
+      "sourceUrl": "https://fife-placenames.glasgow.ac.uk/volume/?id=4"
+    },
+    {
+      "requestedName": "Creich",
+      "name": "Creich",
+      "projectId": "creich-fife-scotland",
+      "region": "Fife",
+      "intakeScore": 40,
+      "publishOnTownMap": false,
+      "rationale": "Creich is assessed on publicly appreciable in-boundary heritage; Brunton, Luthrie and wider parish attractions remain separate.",
+      "sourceUrl": "https://www.getthedata.com/creich/where-is-creich"
+    },
+    {
+      "requestedName": "Brunton",
+      "name": "Brunton (Creich)",
+      "projectId": "brunton-creich-scotland",
+      "region": "Fife",
+      "intakeScore": 42,
+      "publishOnTownMap": false,
+      "rationale": "Brunton is assessed as a conservation hamlet with its own built heritage; Creich Castle, Luthrie services and wider parish scenery are not transferred.",
+      "resolutionNote": "Resolved to the conservation hamlet in Creich parish and labelled Brunton (Creich), not Brunton near Markinch.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4429679045"
+    }
+  ]
+}

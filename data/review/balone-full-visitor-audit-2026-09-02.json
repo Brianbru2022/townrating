@@ -1,0 +1,128 @@
+{
+  "reviewedAt": "2026-09-02T19:15:00.000Z",
+  "sequence": 4,
+  "sequenceTotal": 13,
+  "projectId": "balone-scotland",
+  "place": "Balone",
+  "townScore": 24,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "Balone is a small residential locality with historic landscape context but no independently visitable attraction, café-led stop, maintained exact-locality trail or public visitor facilities. Nearby St Andrews and Craigtoun remain separate."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0,
+      "note": "No independently visitable attraction verified."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "note": "No qualifying daytime food stop verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "note": "No maintained exact-locality visitor route verified.",
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue searched for the exact locality.",
+        "CuriousAbout": "Current catalogue searched for the exact locality.",
+        "MysteryGuides": "Current catalogue searched for the exact locality.",
+        "GoQuestAdventures": "Current catalogue searched for the exact locality."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "note": "No existing public picnic provision verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "note": "No general public visitor car park verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "note": "No public toilet verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Venue and route access is stated only when a current source supports it; no blanket claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road and available public-transport context checked; volatile timetables are not copied."
+    },
+    "dogs": {
+      "audited": true,
+      "note": "Town adjustment and venue-specific evidence retained; no unsupported dog-friendly claim added."
+    }
+  },
+  "exclusions": [
+    "Craigtoun, St Andrews and nearby golf facilities are not transferred.",
+    "Private accommodation and residential access are not public facilities."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets with locally cached official descriptions",
+    "projectId": "balone-scotland",
+    "totalHesAndNrheRetained": 26,
+    "localRecords": 6,
+    "listedBuildings": 22,
+    "scheduledMonuments": 0,
+    "nrhe": 3,
+    "relatedBufferRecords": 20,
+    "removedOutOfScope": 0,
+    "enriched": 22,
+    "datedLocalRecords": 4,
+    "undatedLocalRecordsRetainedHidden": 2,
+    "visibleHeritagePins": 4,
+    "visiblePinsWithoutDates": 0,
+    "visiblePinNamesContainingDate": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Balone's strict study area count toward the settlement score. Explicit related context may be shown but cannot inflate the town.",
+  "scoreRationale": "Balone is a small residential locality with historic landscape context but no independently visitable attraction, café-led stop, maintained exact-locality trail or public visitor facilities. Nearby St Andrews and Craigtoun remain separate.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 24,
+    "rationale": "Score reconciled after all categories, boundary exclusions and source checks."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.fife.gov.uk/__data/assets/pdf_file/0022/394150/DB_-_NEPC_Agenda_Pack_2022-08-17.pdf",
+        "outcome": "verified",
+        "note": "Council planning evidence was checked for the locality and does not establish public visitor provision.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Balone product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "visibleHeritageLabelsClean": true,
+    "liveBrowserVerifiedAt": "2026-09-02T21:07:29.331Z",
+    "liveChecks": {
+      "fifeSelectorContainsAllRequestedPlaces": true,
+      "auditedScoresRendered": true,
+      "stAndrewsCategoryCountsRendered": true,
+      "kingsbarnsCategoryCountsRendered": true,
+      "exact58SecondPassTownsRendered": true,
+      "heritageDateTextAbsentFromMapLabels": true,
+      "browserConsoleErrors": 0
+    }
+  }
+}

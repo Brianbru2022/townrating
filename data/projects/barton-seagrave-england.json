@@ -1,0 +1,507 @@
+{
+  "project": {
+    "id": "barton-seagrave-england",
+    "name": "Barton Seagrave Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Northamptonshire",
+    "locality": "Barton Seagrave",
+    "centre": [
+      -0.6925942,
+      52.3783814
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated Barton Seagrave visitor boundary",
+        "localityName": "Barton Seagrave",
+        "osmType": "relation",
+        "osmId": 1674646,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [],
+        "name": "Barton Seagrave curated visitor boundary",
+        "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+        "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+        "notAdministrativeBoundary": true,
+        "reviewedAt": "2026-08-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.6995941999987602,
+              52.37355900772464
+            ],
+            [
+              -0.6995327204059907,
+              52.37341893768676
+            ],
+            [
+              -0.6993032845388548,
+              52.3733814168293
+            ],
+            [
+              -0.6858851154611453,
+              52.3733814168293
+            ],
+            [
+              -0.6856556795940094,
+              52.37341893768676
+            ],
+            [
+              -0.6855942000012398,
+              52.37355900772464
+            ],
+            [
+              -0.68559420000124,
+              52.383203814408894
+            ],
+            [
+              -0.6856556820084683,
+              52.383343876506345
+            ],
+            [
+              -0.685885145086836,
+              52.38338141682791
+            ],
+            [
+              -0.6993032549131641,
+              52.38338141682791
+            ],
+            [
+              -0.6995327179915319,
+              52.383343876506345
+            ],
+            [
+              -0.6995941999987602,
+              52.383203814408894
+            ],
+            [
+              -0.6995941999987602,
+              52.37355900772464
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated Barton Seagrave visitor boundary derived from Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "high",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-09T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-09. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 0 directly adjoining public green-space geometries were included in the active visitor boundary.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Useful as a mapped local settlement, but not currently recommended as a tourist destination."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Barton Seagrave",
+      "intro": "Barton Seagrave has a modest visitor offer within its active settlement boundary. The guide records only defensible visitor interest without presenting the place as a destination.",
+      "bestFor": [
+        "Daytime stops"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "A short Barton Seagrave wander",
+        "summary": "Use the planner to find the strongest in-boundary daytime stops."
+      },
+      "dontMiss": [],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/relation/1674646",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-09"
+    },
+    "visitorHighlights": [],
+    "townStudyArea": {
+      "localityName": "Barton Seagrave",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/relation/1674646",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-09",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -0.6995942,
+          52.3733814,
+          -0.6855942,
+          52.383381400000005
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Barton Seagrave",
+          "osmType": "relation",
+          "osmId": 1674646,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.6995942,
+                52.3733814
+              ],
+              [
+                -0.6855942,
+                52.3733814
+              ],
+              [
+                -0.6855942,
+                52.383381400000005
+              ],
+              [
+                -0.6995942,
+                52.383381400000005
+              ],
+              [
+                -0.6995942,
+                52.3733814
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated Barton Seagrave visitor boundary",
+          "localityName": "Barton Seagrave",
+          "osmType": "relation",
+          "osmId": 1674646,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [],
+          "name": "Barton Seagrave curated visitor boundary",
+          "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+          "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+          "notAdministrativeBoundary": true,
+          "reviewedAt": "2026-08-09"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.6995941999987602,
+                52.37355900772464
+              ],
+              [
+                -0.6995327204059907,
+                52.37341893768676
+              ],
+              [
+                -0.6993032845388548,
+                52.3733814168293
+              ],
+              [
+                -0.6858851154611453,
+                52.3733814168293
+              ],
+              [
+                -0.6856556795940094,
+                52.37341893768676
+              ],
+              [
+                -0.6855942000012398,
+                52.37355900772464
+              ],
+              [
+                -0.68559420000124,
+                52.383203814408894
+              ],
+              [
+                -0.6856556820084683,
+                52.383343876506345
+              ],
+              [
+                -0.685885145086836,
+                52.38338141682791
+              ],
+              [
+                -0.6993032549131641,
+                52.38338141682791
+              ],
+              [
+                -0.6995327179915319,
+                52.383343876506345
+              ],
+              [
+                -0.6995941999987602,
+                52.383203814408894
+              ],
+              [
+                -0.6995941999987602,
+                52.37355900772464
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated Barton Seagrave visitor boundary",
+          "localityName": "Barton Seagrave",
+          "osmType": "relation",
+          "osmId": 1674646,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [],
+          "name": "Barton Seagrave curated visitor boundary",
+          "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+          "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+          "notAdministrativeBoundary": true,
+          "reviewedAt": "2026-08-09"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.6995941999987602,
+                52.37355900772464
+              ],
+              [
+                -0.6995327204059907,
+                52.37341893768676
+              ],
+              [
+                -0.6993032845388548,
+                52.3733814168293
+              ],
+              [
+                -0.6858851154611453,
+                52.3733814168293
+              ],
+              [
+                -0.6856556795940094,
+                52.37341893768676
+              ],
+              [
+                -0.6855942000012398,
+                52.37355900772464
+              ],
+              [
+                -0.68559420000124,
+                52.383203814408894
+              ],
+              [
+                -0.6856556820084683,
+                52.383343876506345
+              ],
+              [
+                -0.685885145086836,
+                52.38338141682791
+              ],
+              [
+                -0.6993032549131641,
+                52.38338141682791
+              ],
+              [
+                -0.6995327179915319,
+                52.383343876506345
+              ],
+              [
+                -0.6995941999987602,
+                52.383203814408894
+              ],
+              [
+                -0.6995941999987602,
+                52.37355900772464
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The official locality geometry is preserved unchanged. The active visitor boundary uses a transparent 150 metre morphological closing to include connected parks, river corridors and green spaces omitted by the statistical built-up-area geometry. This is a visitor extent, not an administrative replacement."
+    }
+  },
+  "features": [
+    {
+      "id": "osm-community:way-1273922555",
+      "projectId": "barton-seagrave-england",
+      "name": "The Stirrup Cup",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Northamptonshire",
+      "locality": "Barton Seagrave",
+      "featureType": "pub",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6908706,
+          52.3783693
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "The Stirrup Cup is a curated daytime coffee, cake or lunch stop within Barton Seagrave.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/1273922555",
+          "sourceUrl": "https://www.openstreetmap.org/way/1273922555",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "addr:city=Kettering; addr:country=GB; addr:postcode=NN15 6QR; addr:street=Woodland Avenue; addr:village=Barton Seagrave; amenity=pub; building=yes; fhrs:authority=North Northamptonshire; fhrs:id=946705; fhrs:local_authority_id=20871; name=The Stirrup Cup; opening_hours=Mo-Th 16:00-23:30, Fr 15:00-01:00, Sa 12:00-01:00, Su 12:00-24:00; outdoor_seating=yes; visit_score=68; price_band=Check current menu"
+        }
+      ],
+      "tags": [
+        "service-context-food",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-09T00:00:00Z",
+      "updatedAt": "2026-08-09T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-09.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    },
+    {
+      "id": "osm-community:way-377898645",
+      "projectId": "barton-seagrave-england",
+      "name": "Gray's Field car park",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Northamptonshire",
+      "locality": "Barton Seagrave",
+      "featureType": "parking",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6940964,
+          52.3817583
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Gray's Field car park is a curated public parking option for a Barton Seagrave visit.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/377898645",
+          "sourceUrl": "https://www.openstreetmap.org/way/377898645",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "amenity=parking; parking=street_side; payment_required=unknown; price_display=Check signs"
+        },
+        {
+          "sourceName": "Townscape Guides publication curation",
+          "sourceOrganisation": "Townscape Guides",
+          "sourceRecordId": "osm-community:way-377898645:publication-review:2026-08-09",
+          "sourceUrl": "https://www.openstreetmap.org/way/377898645",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "secondary",
+          "licence": "Original editorial curation derived from the linked source record.",
+          "notes": "Current-place curation: price_display=Check signs; payment_required=unknown; review_note=No defensible current tariff was available; visitors are told to check signs."
+        }
+      ],
+      "tags": [
+        "service-context-parking",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-09T00:00:00Z",
+      "updatedAt": "2026-08-09T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-09.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors."
+    }
+  ],
+  "sources": [
+    {
+      "id": "barton-seagrave-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Barton Seagrave settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/relation/1674646",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Barton Seagrave designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "barton-seagrave-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Barton Seagrave visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

@@ -1,0 +1,67 @@
+{
+  "reviewedAt": "2026-08-31T18:00:00.000Z",
+  "place": "Guardbridge",
+  "townScore": 52,
+  "mapPublished": false,
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 1,
+      "liveStatus": "Indoor centre closed for repairs; outdoor viewing area accessible."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "reason": "Guardbridge Inn is lunch/dinner-led and does not meet the café, coffee-and-cake audit focus."
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "reason": "The council green-network report documents a shortage of local recreational routes and no round route.",
+      "providerChecks": {
+        "TreasureTrails": "No live Guardbridge product",
+        "CuriousAbout": "No Guardbridge route",
+        "MysteryGuides": "No Guardbridge route",
+        "GoQuestAdventures": "No Guardbridge route"
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "reason": "The imported 137 mostly campus/residential OSM parking geometries are not verified public visitor parking; small centre parking lacks current official capacity and access details."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "reason": "No council public toilet is listed and the centre building is closed."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Outdoor access remains; no claim is made for the closed indoor centre."
+    },
+    "transport": {
+      "audited": true
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -6
+    }
+  },
+  "exclusions": [
+    "Eden Campus parking and amenities are not treated as general tourist services.",
+    "Guardbridge Inn excluded from café-led Eat.",
+    "St Andrews and Leuchars services are not borrowed."
+  ],
+  "hes": {
+    "assigned": 7,
+    "visibleDated": 7,
+    "hiddenUndated": 0,
+    "visibleUndated": 0,
+    "missing": 0
+  },
+  "boundaryRule": "The reserve viewpoint stays in See, but does not carry Guardbridge to 60."
+}

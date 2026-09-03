@@ -1,0 +1,135 @@
+{
+  "reviewedAt": "2026-09-02T19:15:00.000Z",
+  "sequence": 1,
+  "sequenceTotal": 13,
+  "projectId": "kincaple-scotland",
+  "place": "Kincaple",
+  "townScore": 38,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "Kincaple is a small historic hamlet with attractive fabric but no independently visitable attraction, qualifying daytime café or public visitor facilities. A documented St Andrews walk passes Easter Kincaple, but it starts outside the hamlet and is route context rather than destination merit."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0,
+      "note": "No independently visitable attraction verified."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "note": "No qualifying café, coffee-and-cake or light-lunch stop verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 1,
+      "note": "One St Andrews local walk is retained as related context; the erroneous Fife Coastal Path label was removed.",
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue searched for the exact locality.",
+        "CuriousAbout": "Current catalogue searched for the exact locality.",
+        "MysteryGuides": "Current catalogue searched for the exact locality.",
+        "GoQuestAdventures": "Current catalogue searched for the exact locality.",
+        "officialRoutes": "A St Andrews local-walk leaflet passes Easter Kincaple; it begins outside the hamlet and is excluded from settlement scoring."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "note": "No public picnic facility verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "note": "No general public visitor car park verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "note": "No public toilet verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Venue and route access is stated only when a current source supports it; no blanket claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road and available public-transport context checked; volatile timetables are not copied."
+    },
+    "dogs": {
+      "audited": true,
+      "note": "Town adjustment and venue-specific evidence retained; no unsupported dog-friendly claim added."
+    }
+  },
+  "exclusions": [
+    "Kincaple House and estate buildings are private historic fabric, not advertised visitor attractions.",
+    "The St Andrews-starting walk and nearby Guardbridge/St Andrews services do not add town points."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets with locally cached official descriptions",
+    "projectId": "kincaple-scotland",
+    "totalHesAndNrheRetained": 19,
+    "localRecords": 18,
+    "listedBuildings": 5,
+    "scheduledMonuments": 0,
+    "nrhe": 14,
+    "relatedBufferRecords": 1,
+    "removedOutOfScope": 0,
+    "enriched": 9,
+    "datedLocalRecords": 12,
+    "undatedLocalRecordsRetainedHidden": 6,
+    "visibleHeritagePins": 12,
+    "visiblePinsWithoutDates": 0,
+    "visiblePinNamesContainingDate": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Kincaple's strict study area count toward the settlement score. Explicit related context may be shown but cannot inflate the town.",
+  "scoreRationale": "Kincaple is a small historic hamlet with attractive fabric but no independently visitable attraction, qualifying daytime café or public visitor facilities. A documented St Andrews walk passes Easter Kincaple, but it starts outside the hamlet and is route context rather than destination merit.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 38,
+    "rationale": "Score reconciled after all categories, boundary exclusions and source checks."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://scotways.com/wp-content/uploads/2021/12/StAndrewsWalksLeaflet.pdf",
+        "outcome": "verified",
+        "note": "The local-walk leaflet documents a route past Easter Kincaple; it is not the Fife Coastal Path and is treated as related route context.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.fife.gov.uk/__data/assets/pdf_file/0030/709644/Agenda-and-Papers-North-East-Planning-Committee-of-5-November-2025.pdf",
+        "outcome": "verified",
+        "note": "Council material confirms Kincaple is a small hamlet north-west of St Andrews.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Kincaple product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "visibleHeritageLabelsClean": true,
+    "liveBrowserVerifiedAt": "2026-09-02T21:07:29.331Z",
+    "liveChecks": {
+      "fifeSelectorContainsAllRequestedPlaces": true,
+      "auditedScoresRendered": true,
+      "stAndrewsCategoryCountsRendered": true,
+      "kingsbarnsCategoryCountsRendered": true,
+      "exact58SecondPassTownsRendered": true,
+      "heritageDateTextAbsentFromMapLabels": true,
+      "browserConsoleErrors": 0
+    }
+  }
+}

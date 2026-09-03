@@ -1,0 +1,92 @@
+{
+  "reviewedAt": "2026-08-30T16:55:00Z",
+  "projectId": "arbroath-scotland",
+  "townScore": 86,
+  "dogOwnerScore": 84,
+  "settlementMerit": {
+    "result": "retain_on_town_map",
+    "rationale": "Arbroath independently clears 60 through nationally important heritage, museums, harbour identity, beaches, cliffs, town trails and substantial daytime provision."
+  },
+  "categoryCounts": {
+    "see": 7,
+    "eat": 7,
+    "trails": 5,
+    "picnic": 3,
+    "parking": 10,
+    "toilets": 6
+  },
+  "heritageDateAudit": {
+    "statutoryDesignations": 112,
+    "visiblePins": 111,
+    "datedVisiblePins": 111,
+    "undatedVisiblePins": [],
+    "hiddenRetained": 1,
+    "localGeometrySource": "Local HES statutory spatial library",
+    "descriptionSource": "Official HES designation descriptions used only where a construction period was stated",
+    "dateRule": "Never use designation or database dates as construction dates."
+  },
+  "trailProviderSearches": [
+    {
+      "provider": "TreasureTrails.co.uk",
+      "result": "Rejected: the apparent Arbroath URL returned HTTP 200 only after redirecting to the Tayport, Fife product."
+    },
+    {
+      "provider": "Visit Angus",
+      "result": "Arbroath Heritage Trail, Smokie Trail and the Arbroath-starting coast and cycle routes verified."
+    },
+    {
+      "provider": "Walkhighlands",
+      "result": "Arbroath to Auchmithie route verified with distance, duration, terrain and start."
+    },
+    {
+      "provider": "Angus Council",
+      "result": "Arbroath–Carnoustie path-network PDF returned HTTP 200."
+    }
+  ],
+  "trailBoundaryReview": {
+    "whollyInTown": [
+      "Arbroath Heritage Trail"
+    ],
+    "crossBoundaryButStartsInTown": [
+      "Arbroath to Auchmithie Coastal Walk",
+      "Arbroath Smokie Trail",
+      "Arbroath, Arbirlot, Ethie Woods and the Coast Cycle",
+      "Arbroath to Carnoustie Coastal Path"
+    ],
+    "scoreRule": "Cross-boundary routes are explicitly labelled and do not transfer the merit of Auchmithie, St Vigeans, Arbirlot or Carnoustie to Arbroath."
+  },
+  "parkingAudit": {
+    "published": 10,
+    "allNamedCouncilSites": true,
+    "unnamedOrPrivateCandidatesPublished": 0,
+    "feeStatus": "Angus Council says off-street charges have been suspended since 26 March 2020.",
+    "coordinateBasis": "Exact OSM car-park polygon centroids cross-checked against the council register."
+  },
+  "foodAudit": {
+    "published": 7,
+    "brief": "Coffee, cake, pastries, bakeries and light lunches; restaurant-led, dinner-led and takeaway-only candidates excluded.",
+    "excluded": [
+      "Restaurant-led harbour venues",
+      "Ordinary pubs and hotel restaurants",
+      "Closed Smithies coffee-shop operation",
+      "Out-of-boundary Ashbrook and other rural cafés"
+    ]
+  },
+  "boundaryReview": {
+    "heritageBoundary": "Original strict study polygon retained for HES assignment.",
+    "visitorBoundary": "Separately curated to include Hospitalfield, West Links and Victoria Park facilities without reaching Auchmithie.",
+    "excludedNearby": [
+      "Auchmithie village",
+      "St Vigeans village",
+      "Ashbrook Nursery",
+      "Arbirlot",
+      "Carnoustie"
+    ]
+  },
+  "verification": {
+    "trailLinksChecked": "2026-08-30",
+    "treasureRedirectTarget": "https://www.treasuretrails.co.uk/products/things-to-do-tayport-fife",
+    "visibleHeritageDated": "111/111",
+    "validationErrors": 0
+  }
+}

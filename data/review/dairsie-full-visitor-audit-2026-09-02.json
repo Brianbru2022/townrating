@@ -1,0 +1,100 @@
+{
+  "reviewedAt": "2026-09-02T14:00:00.000Z",
+  "projectId": "dairsie-scotland",
+  "place": "Dairsie",
+  "townScore": 54,
+  "mapPublished": false,
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 1
+    },
+    "eat": {
+      "audited": true,
+      "published": 0
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue checked; no live place-specific product.",
+        "CuriousAbout": "Provider catalogue checked; no place-specific route.",
+        "MysteryGuides": "Provider catalogue checked; no place-specific route.",
+        "GoQuestAdventures": "Provider catalogue checked; no place-specific route.",
+        "officialRoutes": "No maintained place-specific visitor trail with a reliable route page was found."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 1
+    },
+    "parking": {
+      "audited": true,
+      "published": 0
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessibility is described only where current route, venue or council evidence supports it; no blanket accessible claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Current Fife public-transport and Go-Flexi information was checked; transport access does not add destination points by itself."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -2
+    }
+  },
+  "exclusions": [
+    "Dairsie Castle is private self-catering accommodation and is not promoted as a walk-in attraction.",
+    "Thai Teak at Muirhead of Pitcullo is outside the strict Dairsie boundary.",
+    "War Memorial Hall toilets are available with hall use, not general public toilets."
+  ],
+  "hes": {
+    "assigned": 18,
+    "visibleDated": 16,
+    "hiddenUndated": 2,
+    "visibleUndated": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places physically inside Dairsie's strict study area, or an explicitly related cross-boundary route that genuinely serves it, are published.",
+  "scoreRationale": "Dairsie has an impressive late-medieval public road bridge and a well-equipped picnic park, alongside rich HES fabric. Private Dairsie Castle, a booking-only hall and an out-of-boundary café are excluded, leaving the village below the map threshold.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 54,
+    "rationale": "Score was independently reconciled after all categories and boundary exclusions."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://portal.historicenvironment.scot/designation/LB2607",
+        "outcome": "verified",
+        "note": "Official designation confirms the late-medieval three-arch bridge and material date.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.fife.gov.uk/__data/assets/pdf_file/0026/68246/Open-Space-quality-audit-Examples-of-good-quality-sites-Jan-25.pdf",
+        "outcome": "verified",
+        "note": "Council audit confirms picnic provision and seating at Pitcairn Park.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.dairsiecastle.com/accommodation/",
+        "outcome": "excluded",
+        "note": "Castle is self-catering accommodation, not a general public attraction.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "liveBrowserVerifiedAt": "2026-09-02T15:35:00.000Z"
+  }
+}

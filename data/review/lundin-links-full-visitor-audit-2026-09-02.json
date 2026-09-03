@@ -1,0 +1,134 @@
+{
+  "reviewedAt": "2026-09-02T18:00:00.000Z",
+  "projectId": "lundin-links-scotland",
+  "place": "Lundin Links",
+  "townScore": 78,
+  "mapPublished": true,
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 3
+    },
+    "eat": {
+      "audited": true,
+      "published": 2
+    },
+    "trails": {
+      "audited": true,
+      "published": 3,
+      "providerChecks": {
+        "TreasureTrails": "Live Largo & Lundin Links product verified: 2.5 miles and about 2.5 hours.",
+        "CuriousAbout": "No Lundin Links route.",
+        "MysteryGuides": "No Lundin Links route.",
+        "GoQuestAdventures": "No Lundin Links route.",
+        "officialRoutes": "Fife Discovery Trail and Fife Coastal Path pages verified."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "reason": "No dedicated public picnic facility was verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "reason": "No general public visitor car park was verified inside the boundary."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "reason": "No always-open public toilet was verified inside the boundary."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessibility is described only where current route, venue or council evidence supports it; no blanket accessible claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Current public-transport information was checked; transport access does not add destination points by itself."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -1
+    }
+  },
+  "exclusions": [
+    "Lower Largo car parks and public toilets are not transferred to Lundin Links.",
+    "Golf-club and hotel parking are customer facilities, not published as general public parking."
+  ],
+  "hes": {
+    "assigned": 37,
+    "visibleDated": 21,
+    "hiddenUndated": 16,
+    "visibleUndated": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places physically inside Lundin Links's strict study area, or an explicitly related cross-boundary route that genuinely serves it, are published.",
+  "scoreRationale": "Lundin Links is a strong coastal stop: nationally important standing stones, shoreline, visitor golf, two credible coffee-and-cake options and three verified routes including a live Treasure Trail. The lack of a verified general public car park and public toilet keeps it below the top tier.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 78,
+    "rationale": "Score was independently reconciled after all categories, named-provider checks and boundary exclusions; no final score remains at the provisional exact-58 trigger."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://portal.historicenvironment.scot/designation/SM797",
+        "outcome": "verified",
+        "note": "HES confirms the protected prehistoric standing stones.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/products/things-to-do-lower-largo-fife",
+        "outcome": "verified",
+        "note": "Live product confirms route, format, distance, duration and current price.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://trails.welcometofife.com/levenmouth/leven-to-lower-largo/",
+        "outcome": "verified",
+        "note": "Official trail confirms Lundin Links lies on the 5.4 km route.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://fifecoastandcountrysidetrust.co.uk/walks/fife-coastal-path/buckhaven-to-elie/",
+        "outcome": "verified",
+        "note": "Official coastal route serves the shoreline.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://lundingolfclub.co.uk/societies-and-outings/",
+        "outcome": "verified",
+        "note": "Operator publishes visitor and society booking information.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.theoldmanorhotel.co.uk/menus/",
+        "outcome": "verified",
+        "note": "Operator advertises coffee, homemade scones and afternoon tea.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "liveBrowserVerifiedAt": "2026-09-02T18:54:48.715Z",
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true
+  },
+  "liveVerification": {
+    "url": "http://127.0.0.1:5173/",
+    "verifiedAt": "2026-09-02T18:54:48.715Z",
+    "checks": [
+      "The Fife region selector rendered the settlement name and completed score.",
+      "See, Eat, Trails, Picnic, Parking and Toilets counts matched the saved audit report.",
+      "Every one of the 17 requested entries was selected and checked in sequence.",
+      "Only settlements scoring 60 or more are included in the Home town-map dataset.",
+      "The historic heat layer rendered the dated local HES/NRHE records as dots without date text appended to map labels.",
+      "No browser console warning or error was reported in the clean verification tab."
+    ]
+  }
+}

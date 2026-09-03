@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-29",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers. Attractions never inflate settlement scores.",
+  "namingDecisions": [
+    "Bankhead resolves to the Midmar locality, not the existing Aberdeen City district.",
+    "Comets is corrected to Comers.",
+    "Midmarae is normalised to Midmar."
+  ],
+  "additions": [
+    {
+      "requestedName": "Milton of Corsindae",
+      "resolvedName": "Milton of Corsindae",
+      "projectId": "milton-of-corsindae-scotland",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "Centred on South Milton of Corsindae and its recorded mill. Corsindae House and Midmar remain separately bounded, and heritage does not imply public access.",
+      "sourceUrl": "https://portal.historicenvironment.scot/designation/LB16258",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Bankhead",
+      "resolvedName": "Bankhead",
+      "projectId": "bankhead-midmar-scotland",
+      "score": 22,
+      "dogOwnerScore": 20,
+      "publishOnTownMap": false,
+      "rationale": "This is Bankhead in Midmar, retained separately from the existing Aberdeen City district. The former chapel and farm do not create a destination-scale visit.",
+      "sourceUrl": "https://www.getthedata.com/bankhead/where-is-bankhead",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Corsindae",
+      "resolvedName": "Corsindae",
+      "projectId": "corsindae-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "Corsindae House and its policies are heritage evidence, not an assumption of visitor access. Milton of Corsindae and Midmar remain distinct.",
+      "sourceUrl": "https://www.trove.scot/place/18002",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Comets",
+      "resolvedName": "Comers",
+      "projectId": "comers-midmar-scotland",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling is corrected to Comers. Nearby Tillybirloch, Midmar and Corsindae remain separately bounded.",
+      "sourceUrl": "https://www.openstreetmap.org/relation/15908167",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Drumlasie",
+      "resolvedName": "Drumlasie",
+      "projectId": "drumlasie-scotland",
+      "score": 14,
+      "dogOwnerScore": 12,
+      "publishOnTownMap": false,
+      "rationale": "The locality is retained for geographic completeness; nearby Deeside routes and estates are not borrowed into its score.",
+      "sourceUrl": "https://publications.aberdeenshire.gov.uk/acblobstorage/3792cdd4-5ffe-46fe-89fe-146f9cdf13a1/central-highways-list.pdf",
+      "boundaryConfidence": "low"
+    },
+    {
+      "requestedName": "Tillybirloch",
+      "resolvedName": "Tillybirloch",
+      "projectId": "tillybirloch-scotland",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "Tillybirloch is kept distinct from Comers and Midmar; their facilities, heritage and paths are not automatically transferred.",
+      "sourceUrl": "https://api.postcodes.io/postcodes/AB517PS",
+      "boundaryConfidence": "low"
+    },
+    {
+      "requestedName": "Milton of Campfield",
+      "resolvedName": "Milton of Campfield",
+      "projectId": "milton-of-campfield-scotland",
+      "score": 34,
+      "dogOwnerScore": 33,
+      "publishOnTownMap": false,
+      "rationale": "Torphins, Lumphanan and surrounding attractions remain separately assessed; this score reflects the hamlet itself.",
+      "sourceUrl": "https://api.postcodes.io/postcodes/AB314DJ",
+      "boundaryConfidence": "low"
+    },
+    {
+      "requestedName": "Torphins",
+      "resolvedName": "Torphins",
+      "projectId": "torphins-scotland",
+      "score": 58,
+      "dogOwnerScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "Torphins is likely to merit destination publication, but the 60+ gate requires complete attractions, trails, cafés, practical facilities and dated heritage rather than a guessed promotion.",
+      "sourceUrl": "https://www.openstreetmap.org/node/250256262",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Mid Beltie",
+      "resolvedName": "Mid Beltie",
+      "projectId": "mid-beltie-scotland",
+      "score": 32,
+      "dogOwnerScore": 31,
+      "publishOnTownMap": false,
+      "rationale": "Torphins and wider Deeside visitor features remain separate from this compact hamlet assessment.",
+      "sourceUrl": "https://www.openstreetmap.org/node/6035312555",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Midmarae",
+      "resolvedName": "Midmar",
+      "projectId": "midmar-scotland",
+      "score": 52,
+      "dogOwnerScore": 51,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling is normalised to Midmar. Its surrounding stone circles and private historic properties belong in See coverage and do not automatically promote the village above 60.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5959637167",
+      "boundaryConfidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-30",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers. Nearby attractions are not transferred into settlement scores.",
+  "namingDecisions": [
+    "Rutgven House resolves to Ruthven House.",
+    "Wester Denppn resolves to Wester Denoon.",
+    "The contextual Castleton resolves to Castleton of Eassie, not Castleton near Marywell."
+  ],
+  "additions": [
+    {
+      "requestedName": "Rutgven House",
+      "resolvedName": "Ruthven House",
+      "projectId": "ruthven-house-angus-scotland",
+      "region": "Angus",
+      "score": 18,
+      "dogOwnerScore": 15,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling resolves to Ruthven House. It is retained as a named property rather than promoted as a settlement or assumed public attraction.",
+      "sourceUrl": "https://www.openstreetmap.org/way/373252363",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Leys of Cossans",
+      "resolvedName": "Leys of Cossans",
+      "projectId": "leys-of-cossans-scotland",
+      "region": "Angus",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "A named rural locality without a verified independent visitor offer.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5716366892",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Glamis",
+      "resolvedName": "Glamis",
+      "projectId": "glamis-scotland",
+      "region": "Angus",
+      "score": 56,
+      "dogOwnerScore": 55,
+      "publishOnTownMap": false,
+      "rationale": "Glamis has clear village character and destination potential, but Glamis Castle is a separate attraction and does not by itself justify a 60+ settlement marker. A full audit is required before promotion.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1300032580",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Charleston",
+      "resolvedName": "Charleston",
+      "projectId": "charleston-glamis-scotland",
+      "region": "Angus",
+      "score": 30,
+      "dogOwnerScore": 28,
+      "publishOnTownMap": false,
+      "rationale": "Charleston is retained independently and does not inherit visitor value from Glamis village or castle.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1300032505",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Castleton",
+      "resolvedName": "Castleton of Eassie",
+      "projectId": "castleton-of-eassie-scotland",
+      "region": "Angus",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "The contextual request resolves to Castleton of Eassie, not Castleton near Marywell. It has no verified destination-scale visitor offer.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5276089425",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Balkeerie",
+      "resolvedName": "Balkeerie",
+      "projectId": "balkeerie-scotland",
+      "region": "Angus",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "A recognisable hamlet retained without borrowing interest from nearby Eassie heritage.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5000008574",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Kirkinch",
+      "resolvedName": "Kirkinch",
+      "projectId": "kirkinch-scotland",
+      "region": "Angus",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "Kirkinch remains selectable but lacks a verified independent visitor-town experience.",
+      "sourceUrl": "https://www.openstreetmap.org/node/2775034303",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Eassie",
+      "resolvedName": "Eassie",
+      "projectId": "eassie-scotland",
+      "region": "Angus",
+      "score": 42,
+      "dogOwnerScore": 41,
+      "publishOnTownMap": false,
+      "rationale": "Eassie has genuine historic character, while the Pictish stone is separate attraction evidence and does not alone make the settlement a 60+ destination.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5000008573",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Wester Denppn",
+      "resolvedName": "Wester Denoon",
+      "projectId": "wester-denoon-scotland",
+      "region": "Angus",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling resolves to Wester Denoon, a named rural locality rather than a tourist settlement.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5716178764",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Nether Handwick",
+      "resolvedName": "Nether Handwick",
+      "projectId": "nether-handwick-scotland",
+      "region": "Angus",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "A mapped property locality with no verified independent visitor offer.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5716178769",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Newtyle",
+      "resolvedName": "Newtyle",
+      "projectId": "newtyle-scotland",
+      "region": "Angus",
+      "score": 54,
+      "dogOwnerScore": 53,
+      "publishOnTownMap": false,
+      "rationale": "Newtyle has substantial village character and visitor potential, but remains below the map gate until a full attractions, trails, daytime café and practical-facilities audit is completed.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1042695863",
+      "boundaryConfidence": "high"
+    }
+  ]
+}

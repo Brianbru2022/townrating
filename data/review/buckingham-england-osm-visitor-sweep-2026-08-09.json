@@ -1,0 +1,1883 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T11:11:12.340Z",
+  "boundaryRule": "Exact active project boundary; no nearby places are counted.",
+  "curationRule": "OSM is discovery evidence. See and Eat require names; private, permit-only, customer-only, inactive and no-access places are excluded. Publication still requires editorial review.",
+  "towns": [
+    {
+      "projectId": "buckingham-england",
+      "locality": "Buckingham",
+      "projectFile": "buckingham-england.json",
+      "counts": {
+        "see": {
+          "osm": 7,
+          "eligible": 3,
+          "curated": 0,
+          "uncurated": 3
+        },
+        "eat": {
+          "osm": 36,
+          "eligible": 36,
+          "curated": 13,
+          "uncurated": 24
+        },
+        "picnic": {
+          "osm": 2,
+          "eligible": 2,
+          "curated": 0,
+          "uncurated": 2
+        },
+        "parking": {
+          "osm": 42,
+          "eligible": 30,
+          "curated": 4,
+          "uncurated": 26
+        },
+        "toilets": {
+          "osm": 3,
+          "eligible": 3,
+          "curated": 3,
+          "uncurated": 0
+        }
+      },
+      "candidates": {
+        "see": [
+          {
+            "osmId": "way/361948944",
+            "name": "Buckingham Old Gaol",
+            "coordinates": [
+              -0.9864024,
+              52.0009089
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-361948944",
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:postcode": "MK18 1JX",
+              "addr:street": "Market Hill",
+              "building": "yes",
+              "name": "Buckingham Old Gaol",
+              "opening_hours": "Mo-Sa 10:00-16:00",
+              "operator": "Buckingham Old Gaol Trust",
+              "tourism": "museum",
+              "website": "https://buckinghamoldgaol.org.uk/",
+              "wikidata": "Q15205486",
+              "wikipedia": "en:Buckingham Old Gaol"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/361948944"
+          },
+          {
+            "osmId": "node/12552073120",
+            "name": "Buckinghamshire Military Museum Trust",
+            "coordinates": [
+              -0.9864427,
+              52.0008882
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-12552073120",
+            "curated": false,
+            "tags": {
+              "name": "Buckinghamshire Military Museum Trust",
+              "operator": "Buckinghamshire Military Museum Trust",
+              "tourism": "museum",
+              "website": "https://bmmt.co.uk/",
+              "wikidata": "Q61932556"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/12552073120"
+          },
+          {
+            "osmId": "node/4349953363",
+            "name": "St Rumbold's Well",
+            "coordinates": [
+              -0.9971226,
+              51.9962188
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4349953363",
+            "curated": false,
+            "tags": {
+              "historic": "archaeological_site",
+              "name": "St Rumbold's Well"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4349953363"
+          },
+          {
+            "osmId": "way/523073313",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.9832591,
+              51.9956574
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/523073313"
+          },
+          {
+            "osmId": "way/523073314",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.9832155,
+              51.995726
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/523073314"
+          },
+          {
+            "osmId": "way/523072458",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.9822613,
+              51.996792
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/523072458"
+          },
+          {
+            "osmId": "way/794492101",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.9788615,
+              51.9959983
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "building": "yes",
+              "man_made": "tower",
+              "tower:type": "hose"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/794492101"
+          }
+        ],
+        "eat": [
+          {
+            "osmId": "node/4347797582",
+            "name": "13",
+            "coordinates": [
+              -0.9848897,
+              52.0014443
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "pub",
+              "name": "13"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4347797582"
+          },
+          {
+            "osmId": "way/853023141",
+            "name": "Beefeater",
+            "coordinates": [
+              -0.9774353,
+              51.9885094
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housenumber": "139",
+              "addr:postcode": "MK18 7RA",
+              "addr:street": "Needlepin Way",
+              "amenity": "restaurant",
+              "brand": "Beefeater",
+              "brand:wikidata": "Q4879766",
+              "building": "retail",
+              "cuisine": "british",
+              "fhrs:id": "1215449",
+              "name": "Beefeater",
+              "source:addr": "FHRS Open Data",
+              "website": "https://www.beefeater.co.uk/en-gb/locations/buckinghamshire/buckingham"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/853023141"
+          },
+          {
+            "osmId": "node/4347490176",
+            "name": "Buckingham Tandoori",
+            "coordinates": [
+              -0.9907416,
+              51.9975861
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "fast_food",
+              "delivery": "yes",
+              "drive_through": "no",
+              "fhrs:id": "369473",
+              "name": "Buckingham Tandoori",
+              "takeaway": "only"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4347490176"
+          },
+          {
+            "osmId": "node/6222623585",
+            "name": "Buckingham Tea Room",
+            "coordinates": [
+              -0.9868822,
+              52.0005783
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-6222623585",
+            "curated": true,
+            "tags": {
+              "addr:postcode": "MK18 1JX",
+              "addr:street": "Market Hill",
+              "amenity": "cafe",
+              "cuisine": "tea;cake;breakfast;coffee_shop",
+              "fhrs:id": "370449",
+              "name": "Buckingham Tea Room"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6222623585"
+          },
+          {
+            "osmId": "node/4804010221",
+            "name": "Cheng Du",
+            "coordinates": [
+              -0.9853883,
+              52.0008913
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housename": "Meadow Walk",
+              "addr:housenumber": "8",
+              "addr:postcode": "MK18 1RS",
+              "addr:street": "High Street",
+              "amenity": "restaurant",
+              "cuisine": "chinese",
+              "fhrs:id": "1859982",
+              "name": "Cheng Du",
+              "name:en": "Cheng Du",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4804010221"
+          },
+          {
+            "osmId": "node/4347797794",
+            "name": "Coffee#1",
+            "coordinates": [
+              -0.9869261,
+              52.0002596
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4347797794",
+            "curated": true,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housenumber": "2",
+              "addr:postcode": "MK18 1JX",
+              "addr:street": "Market Hill",
+              "amenity": "cafe",
+              "atm": "yes",
+              "brand": "Coffee#1",
+              "brand:wikidata": "Q22032058",
+              "brand:wikipedia": "en:Coffee 1",
+              "cuisine": "coffee_shop",
+              "fhrs:id": "1208917",
+              "name": "Coffee#1",
+              "outdoor_seating": "no",
+              "source:addr": "FHRS Open Data",
+              "takeaway": "yes",
+              "website": "https://www.coffee1.co.uk/locations/buckingham/"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4347797794"
+          },
+          {
+            "osmId": "node/6222632985",
+            "name": "Costa",
+            "coordinates": [
+              -0.9869439,
+              52.0008714
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-6222632985",
+            "curated": true,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:housenumber": "10",
+              "addr:postcode": "MK18 1JX",
+              "addr:street": "Market Hill",
+              "amenity": "cafe",
+              "brand": "Costa",
+              "brand:wikidata": "Q608845",
+              "brand:wikipedia": "en:Costa Coffee",
+              "cuisine": "coffee_shop",
+              "fhrs:id": "988329",
+              "internet_access": "yes",
+              "internet_access:fee": "no",
+              "name": "Costa",
+              "opening_hours": "Mo-Fr 07:00-18:00; Sa-Su 08:00-17:00",
+              "takeaway": "yes",
+              "toilets": "yes",
+              "website": "https://www.costa.co.uk/stores/buckingham"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6222632985"
+          },
+          {
+            "osmId": "way/853023140",
+            "name": "Costa",
+            "coordinates": [
+              -0.9773276,
+              51.9881863
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-853023140",
+            "curated": true,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:housenumber": "137",
+              "addr:postcode": "MK18 7RA",
+              "addr:street": "Needlepin Way",
+              "amenity": "cafe",
+              "brand": "Costa",
+              "brand:wikidata": "Q608845",
+              "brand:wikipedia": "en:Costa Coffee",
+              "building": "yes",
+              "cuisine": "coffee_shop",
+              "drive_through": "yes",
+              "fhrs:id": "1247172",
+              "name": "Costa",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/853023140"
+          },
+          {
+            "osmId": "node/5966901759",
+            "name": "Domino's",
+            "coordinates": [
+              -0.9878254,
+              51.9995511
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:country": "GB",
+              "addr:county": "Buckinghamshire",
+              "addr:housenumber": "2",
+              "addr:postcode": "MK18 1EL",
+              "addr:street": "Bridge Street",
+              "amenity": "fast_food",
+              "brand": "Domino's",
+              "brand:wikidata": "Q839466",
+              "brand:wikipedia": "en:Domino's Pizza",
+              "contact:website": "https://www.dominos.co.uk/pizza-near-me/buckingham/2-bridge-street",
+              "cuisine": "pizza",
+              "fhrs:id": "946484",
+              "name": "Domino's",
+              "source:addr": "FHRS Open Data",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5966901759"
+          },
+          {
+            "osmId": "node/6222623587",
+            "name": "Esquires Coffee",
+            "coordinates": [
+              -0.9883852,
+              52.0000282
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-6222623587",
+            "curated": true,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housenumber": "30",
+              "addr:postcode": "MK18 1HE",
+              "addr:street": "West Street",
+              "amenity": "cafe",
+              "cuisine": "tea;cake;coffee_shop",
+              "fhrs:id": "902372",
+              "name": "Esquires Coffee",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6222623587"
+          },
+          {
+            "osmId": "node/4347573826",
+            "name": "Fish & Chips",
+            "coordinates": [
+              -0.9879109,
+              51.9984422
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "drive_through": "no",
+              "name": "Fish & Chips"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4347573826"
+          },
+          {
+            "osmId": "node/4350020418",
+            "name": "Gazzeria",
+            "coordinates": [
+              -0.9852115,
+              52.0007655
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4350020418",
+            "curated": true,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housename": "Meadow Walk",
+              "addr:housenumber": "4",
+              "addr:postcode": "MK18 1RS",
+              "addr:street": "High Street",
+              "amenity": "cafe",
+              "fhrs:id": "370388",
+              "name": "Gazzeria",
+              "name:en": "Gazzeria",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4350020418"
+          },
+          {
+            "osmId": "node/6222632686",
+            "name": "Golden Crust",
+            "coordinates": [
+              -0.9879099,
+              52.000349
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-6222632686",
+            "curated": true,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housenumber": "21",
+              "addr:postcode": "MK18 1JX",
+              "addr:street": "Market Hill",
+              "amenity": "cafe",
+              "check_date:opening_hours": "2025-05-03",
+              "cuisine": "sandwich",
+              "fhrs:id": "369952",
+              "name": "Golden Crust",
+              "opening_hours:signed": "no",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6222632686"
+          },
+          {
+            "osmId": "node/6222606885",
+            "name": "Gyre and Gimble",
+            "coordinates": [
+              -0.9849591,
+              52.0008501
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-6222606885",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "cuisine": "coffee_shop",
+              "name": "Gyre and Gimble"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6222606885"
+          },
+          {
+            "osmId": "node/11026039476",
+            "name": "Harris + Hoole",
+            "coordinates": [
+              -0.9807277,
+              51.9894471
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-11026039476",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "brand": "Harris + Hoole",
+              "brand:wikidata": "Q19903306",
+              "cuisine": "coffee_shop",
+              "name": "Harris + Hoole",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/11026039476"
+          },
+          {
+            "osmId": "node/4350020415",
+            "name": "Jia Jiaq Le",
+            "coordinates": [
+              -0.9849622,
+              52.0009504
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "restaurant",
+              "name": "Jia Jiaq Le"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4350020415"
+          },
+          {
+            "osmId": "node/13647690134",
+            "name": "JoJo",
+            "coordinates": [
+              -0.9873292,
+              51.999966
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "fast_food",
+              "cuisine": "sandwich",
+              "name": "JoJo"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/13647690134"
+          },
+          {
+            "osmId": "node/773531288",
+            "name": "Kings Head",
+            "coordinates": [
+              -0.9865969,
+              52.0010719
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housename": "The Kings Head PH",
+              "addr:housenumber": "7",
+              "addr:postcode": "MK18 1JX",
+              "addr:street": "Market Hill",
+              "amenity": "pub",
+              "brewery": "various",
+              "fhrs:id": "1842377",
+              "name": "Kings Head",
+              "source": "survey",
+              "source:addr": "FHRS Open Data",
+              "wikidata": "Q26497109"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/773531288"
+          },
+          {
+            "osmId": "way/1352770127",
+            "name": "Louis'",
+            "coordinates": [
+              -0.9900697,
+              51.9983089
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-1352770127",
+            "curated": true,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housenumber": "53-54",
+              "addr:postcode": "MK18 1BT",
+              "addr:street": "Nelson Street",
+              "amenity": "restaurant",
+              "bar": "yes",
+              "building": "retail",
+              "cuisine": "pizza;mediterranean",
+              "fhrs:id": "405894",
+              "name": "Louis'",
+              "opening_hours": "Tu-Th 12:00-22:30, Fr-Sa 12:00-23:00",
+              "phone": "+441280815556",
+              "website": "https://www.louisplace.co.uk/"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1352770127"
+          },
+          {
+            "osmId": "way/1297778984",
+            "name": "McDonald's",
+            "coordinates": [
+              -0.9795457,
+              51.9896129
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "fast_food",
+              "brand": "McDonald's",
+              "brand:wikidata": "Q38076",
+              "brand:wikipedia": "en:McDonald's",
+              "building": "retail",
+              "check_date": "2024-08-31",
+              "cuisine": "burger",
+              "drive_through": "yes",
+              "fixme": "Trace",
+              "internet_access": "wlan",
+              "name": "McDonald's",
+              "phone": "+44 1280 820541",
+              "self_service": "yes",
+              "takeaway": "yes",
+              "website": "https://www.mcdonalds.com/gb/en-gb/location/milton-keynes/buckingham---tesco-superstore/london-road/8261639.html"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1297778984"
+          },
+          {
+            "osmId": "node/4350020417",
+            "name": "Meadow Row Tea Rooms",
+            "coordinates": [
+              -0.9855522,
+              52.0007935
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4350020417",
+            "curated": true,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housename": "Meadow Row",
+              "addr:housenumber": "5",
+              "addr:postcode": "MK18 1PU",
+              "addr:street": "Meadow Row",
+              "amenity": "cafe",
+              "check_date": "2026-05-06",
+              "cuisine": "burger;sandwich;breakfast;ice_cream;tea;cake;coffee_shop;bagel",
+              "diet:vegetarian": "yes",
+              "fhrs:id": "369470",
+              "name": "Meadow Row Tea Rooms",
+              "name:en": "Meadow Row Tea Rooms",
+              "phone": "+44 1280 814031",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4350020417"
+          },
+          {
+            "osmId": "node/4347573825",
+            "name": "New Inn",
+            "coordinates": [
+              -0.985792,
+              51.9977519
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:postcode": "MK18 1AF",
+              "addr:street": "Bridge Street",
+              "amenity": "pub",
+              "fhrs:id": "636646",
+              "name": "New Inn",
+              "source:addr:postcode": "code-point_open",
+              "wikidata": "Q26499782"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4347573825"
+          },
+          {
+            "osmId": "node/4347797587",
+            "name": "Prego",
+            "coordinates": [
+              -0.985848,
+              52.0010043
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housenumber": "4",
+              "addr:postcode": "MK18 1NT",
+              "addr:street": "High Street",
+              "amenity": "restaurant",
+              "cuisine": "pizza",
+              "fhrs:id": "369936;369936",
+              "name": "Prego",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4347797587"
+          },
+          {
+            "osmId": "node/4347797586",
+            "name": "Prezzo",
+            "coordinates": [
+              -0.9863488,
+              52.0012514
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "restaurant",
+              "brand": "Prezzo",
+              "brand:wikidata": "Q7242489",
+              "brand:wikipedia": "en:Prezzo (restaurant)",
+              "cuisine": "italian",
+              "name": "Prezzo"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4347797586"
+          },
+          {
+            "osmId": "node/4347797585",
+            "name": "Red Cilli Gold",
+            "coordinates": [
+              -0.9852651,
+              52.0013165
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housenumber": "9",
+              "addr:postcode": "MK18 1NT",
+              "addr:street": "High Street",
+              "amenity": "restaurant",
+              "cuisine": "indian",
+              "fhrs:id": "370396",
+              "name": "Red Cilli Gold",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4347797585"
+          },
+          {
+            "osmId": "node/4347547785",
+            "name": "Smarts Fish & Chips",
+            "coordinates": [
+              -0.9867454,
+              52.0009778
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:postcode": "MK18 1JX",
+              "addr:street": "Market Hill",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "drive_through": "no",
+              "fhrs:id": "369462",
+              "name": "Smarts Fish & Chips",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4347547785"
+          },
+          {
+            "osmId": "node/4347547784",
+            "name": "Subway",
+            "coordinates": [
+              -0.9866718,
+              52.0010235
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:housenumber": "8",
+              "addr:postcode": "MK18 1JX",
+              "addr:street": "Market Hill",
+              "amenity": "fast_food",
+              "brand": "Subway",
+              "brand:wikidata": "Q244457",
+              "brand:wikipedia": "en:Subway (restaurant)",
+              "contact:website": "https://restaurants.subway.com/united-kingdom/en/buckingham/8-market-hill",
+              "cuisine": "sandwich",
+              "delivery": "yes",
+              "drive_through": "no",
+              "fhrs:id": "370060",
+              "name": "Subway",
+              "opening_hours": "Mo-Sa 07:30-19:00; Su 09:30-18:00",
+              "phone": "+44 1280 822543",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4347547784"
+          },
+          {
+            "osmId": "node/4350020408",
+            "name": "The Buckingham Fort",
+            "coordinates": [
+              -0.9899255,
+              52.0000587
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housenumber": "17",
+              "addr:postcode": "MK18 1HE",
+              "addr:street": "West Street",
+              "amenity": "restaurant",
+              "cuisine": "indian",
+              "fhrs:id": "369884",
+              "name": "The Buckingham Fort",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4350020408"
+          },
+          {
+            "osmId": "node/6222623586",
+            "name": "The Buckingham Inn",
+            "coordinates": [
+              -0.9872881,
+              52.0006387
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "pub",
+              "name": "The Buckingham Inn"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6222623586"
+          },
+          {
+            "osmId": "node/773523996",
+            "name": "The Mitre",
+            "coordinates": [
+              -0.9926614,
+              51.994439
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:postcode": "MK18 1DW",
+              "addr:street": "Mitre Street",
+              "amenity": "pub",
+              "fhrs:id": "369472",
+              "name": "The Mitre",
+              "source": "survey",
+              "source:addr": "FHRS Open Data",
+              "wikidata": "Q26500435"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/773523996"
+          },
+          {
+            "osmId": "way/1494572298",
+            "name": "The Mitre",
+            "coordinates": [
+              -0.992841,
+              51.9943739
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:housename": "The Mitre",
+              "addr:street": "Mitre Street",
+              "amenity": "pub",
+              "building": "yes",
+              "name": "The Mitre"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1494572298"
+          },
+          {
+            "osmId": "node/5966901757",
+            "name": "The Three Cups",
+            "coordinates": [
+              -0.9875424,
+              51.9995611
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:postcode": "MK18 1EL",
+              "addr:street": "Bridge Street",
+              "amenity": "pub",
+              "fhrs:id": "369439",
+              "name": "The Three Cups",
+              "source:addr": "FHRS Open Data",
+              "wikidata": "Q26570322"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5966901757"
+          },
+          {
+            "osmId": "way/1241285917",
+            "name": "The White Hart",
+            "coordinates": [
+              -0.9873873,
+              51.9996747
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housenumber": "1-2",
+              "addr:postcode": "MK18 1NL",
+              "addr:street": "Market Square",
+              "amenity": "pub",
+              "brand": "Greene King",
+              "brand:wikidata": "Q5564162",
+              "building": "retail",
+              "fhrs:id": "369469",
+              "name": "The White Hart",
+              "source:addr": "FHRS Open Data",
+              "website": "https://www.greeneking.co.uk/pubs/buckinghamshire/white-hart",
+              "wikidata": "Q26570015"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1241285917"
+          },
+          {
+            "osmId": "node/3463630693",
+            "name": "The Woolpack",
+            "coordinates": [
+              -0.9878577,
+              51.9981324
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housename": "The Woolpack Ph",
+              "addr:postcode": "MK18 1EP",
+              "addr:street": "Well Street",
+              "amenity": "pub",
+              "fhrs:id": "1790595",
+              "name": "The Woolpack",
+              "source": "survey",
+              "source:addr": "FHRS Open Data",
+              "survey:date": "2015-04-18"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3463630693"
+          },
+          {
+            "osmId": "node/1843681518",
+            "name": "Verdetto Lounge",
+            "coordinates": [
+              -0.9871528,
+              52.0007459
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Buckingham",
+              "addr:county": "Buckinghamshire",
+              "addr:housenumber": "12-13",
+              "addr:postcode": "MK18 1JX",
+              "addr:street": "Market Hill",
+              "amenity": "restaurant",
+              "brand": "Lounges",
+              "brand:wikidata": "Q114313933",
+              "fhrs:id": "1656783",
+              "name": "Verdetto Lounge",
+              "source:addr": "FHRS Open Data",
+              "website": "https://thelounges.co.uk/verdetto/"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1843681518"
+          },
+          {
+            "osmId": "node/4350020416",
+            "name": "Vibins",
+            "coordinates": [
+              -0.9852625,
+              52.0010875
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4350020416",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "name": "Vibins"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4350020416"
+          }
+        ],
+        "picnic": [
+          {
+            "osmId": "way/1305690445",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.9700931,
+              51.9946332
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "tourism": "picnic_site"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1305690445"
+          },
+          {
+            "osmId": "way/1305690429",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.9743591,
+              51.9950189
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "tourism": "picnic_site"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1305690429"
+          }
+        ],
+        "parking": [
+          {
+            "osmId": "way/436900994",
+            "name": "Cornwalls Meadow Car Park",
+            "coordinates": [
+              -0.9842636,
+              52.0002582
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-436900994",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "capacity": "324",
+              "charge": "£0.70 Up to 3 hours",
+              "fee": "yes",
+              "name": "Cornwalls Meadow Car Park",
+              "operator": "Buckinghamshire Council",
+              "operator:type": "council",
+              "park_ride": "no",
+              "parking": "surface",
+              "payment:ringgo": "yes",
+              "supervised": "no",
+              "surface": "paved"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/436900994"
+          },
+          {
+            "osmId": "way/436900995",
+            "name": "Stratford Fields",
+            "coordinates": [
+              -0.9802114,
+              52.0027901
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-436900995",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "capacity": "38",
+              "fee": "no",
+              "name": "Stratford Fields",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/436900995"
+          },
+          {
+            "osmId": "way/437170267",
+            "name": "Truck Parking",
+            "coordinates": [
+              -0.9782701,
+              51.9894797
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "name": "Truck Parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/437170267"
+          },
+          {
+            "osmId": "node/1131675380",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9915965,
+              51.9898918
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-1131675380",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1131675380"
+          },
+          {
+            "osmId": "node/9216651483",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9756943,
+              51.9929797
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/9216651483"
+          },
+          {
+            "osmId": "node/9216651476",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9770671,
+              51.9931892
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/9216651476"
+          },
+          {
+            "osmId": "node/773537072",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9700622,
+              51.9944212
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "source": "survey"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/773537072"
+          },
+          {
+            "osmId": "node/9216138680",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9735236,
+              51.9976838
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/9216138680"
+          },
+          {
+            "osmId": "node/9216651480",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9761657,
+              51.9930053
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/9216651480"
+          },
+          {
+            "osmId": "node/9216138710",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9725281,
+              52.0003754
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/9216138710"
+          },
+          {
+            "osmId": "way/1432380653",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9961545,
+              51.9970225
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1432380653"
+          },
+          {
+            "osmId": "way/353710695",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9859331,
+              51.9887471
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/353710695"
+          },
+          {
+            "osmId": "way/353710696",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9871723,
+              51.988348
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/353710696"
+          },
+          {
+            "osmId": "way/471834494",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9828092,
+              51.9938088
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-471834494",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "yes",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/471834494"
+          },
+          {
+            "osmId": "way/1286447968",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9896513,
+              51.9988273
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1286447968"
+          },
+          {
+            "osmId": "way/1432380654",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9959229,
+              51.9969335
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1432380654"
+          },
+          {
+            "osmId": "way/1432380655",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9956832,
+              51.997021
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1432380655"
+          },
+          {
+            "osmId": "way/1432380656",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9956696,
+              51.9971515
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1432380656"
+          },
+          {
+            "osmId": "way/1286447969",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9891927,
+              51.9989367
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1286447969"
+          },
+          {
+            "osmId": "way/24311036",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9802783,
+              51.9891803
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface",
+              "source": "survey"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/24311036"
+          },
+          {
+            "osmId": "way/1161029178",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9720556,
+              51.9870269
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1161029178"
+          },
+          {
+            "osmId": "way/1161029179",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9713491,
+              51.986947
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1161029179"
+          },
+          {
+            "osmId": "way/1161029181",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9715335,
+              51.9875461
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1161029181"
+          },
+          {
+            "osmId": "way/1161029185",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9709528,
+              51.9878521
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1161029185"
+          },
+          {
+            "osmId": "way/471834493",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.98072,
+              51.9943277
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/471834493"
+          },
+          {
+            "osmId": "way/746336370",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9723961,
+              51.9968151
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/746336370"
+          },
+          {
+            "osmId": "way/1305690443",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9701164,
+              51.9944756
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1305690443"
+          },
+          {
+            "osmId": "way/1228795104",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9844274,
+              52.0021124
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1228795104"
+          },
+          {
+            "osmId": "way/1228795248",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9858693,
+              52.0013847
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1228795248"
+          },
+          {
+            "osmId": "way/436900316",
+            "name": "Western Avenue Long Stay",
+            "coordinates": [
+              -0.9912712,
+              52.0006599
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "capacity": "42",
+              "fee": "no",
+              "name": "Western Avenue Long Stay",
+              "park_ride": "no",
+              "supervised": "no",
+              "surface": "paved"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/436900316"
+          },
+          {
+            "osmId": "way/353712507",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9901187,
+              51.9888578
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/353712507"
+          },
+          {
+            "osmId": "way/1296750553",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9889999,
+              51.9995313
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1296750553"
+          },
+          {
+            "osmId": "way/1296750554",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9893214,
+              51.9994704
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1296750554"
+          },
+          {
+            "osmId": "way/1362019787",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9896565,
+              51.9935227
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "operator": "University of Buckingham",
+              "operator:type": "private",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1362019787"
+          },
+          {
+            "osmId": "way/746336368",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9905967,
+              51.9988105
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/746336368"
+          },
+          {
+            "osmId": "way/1362019786",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9904905,
+              51.9948713
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "operator": "University of Buckingham",
+              "operator:type": "private",
+              "parking": "surface",
+              "surface": "grass_paver"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1362019786"
+          },
+          {
+            "osmId": "way/1364756303",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9915635,
+              51.9955109
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "capacity": "9",
+              "capacity:disabled": "1",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1364756303"
+          },
+          {
+            "osmId": "way/1297778986",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.98557,
+              51.9969637
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "capacity": "15",
+              "capacity:disabled": "1",
+              "fee": "no",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1297778986"
+          },
+          {
+            "osmId": "way/1434358704",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9869307,
+              51.9973744
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "permit",
+              "amenity": "parking",
+              "operator": "University of Buckingham",
+              "operator:type": "university",
+              "parking": "surface",
+              "surface": "concrete"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1434358704"
+          },
+          {
+            "osmId": "way/1479050149",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9871617,
+              51.9993448
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "capacity": "9",
+              "capacity:disabled": "2",
+              "fee": "yes",
+              "parking": "surface",
+              "payment:credit_cards": "yes",
+              "payment:debit_cards": "yes",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1479050149"
+          },
+          {
+            "osmId": "way/1434359455",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9787634,
+              51.9900895
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "capacity": "6",
+              "capacity:disabled": "2",
+              "fee": "yes",
+              "operator": "Shell",
+              "operator:type": "private",
+              "parking": "carports",
+              "payment:credit_cards": "yes",
+              "payment:debit_cards": "yes",
+              "surface": "concrete"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1434359455"
+          },
+          {
+            "osmId": "way/853023143",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.9773038,
+              51.9890245
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "capacity:disabled": "yes",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/853023143"
+          }
+        ],
+        "toilets": [
+          {
+            "osmId": "node/4347773590",
+            "name": "Unnamed public toilets",
+            "coordinates": [
+              -0.9882596,
+              51.9956771
+            ],
+            "category": "toilets",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4347773590",
+            "curated": true,
+            "tags": {
+              "amenity": "toilets"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4347773590"
+          },
+          {
+            "osmId": "node/339815923",
+            "name": "Unnamed public toilets",
+            "coordinates": [
+              -0.9868056,
+              52.0011854
+            ],
+            "category": "toilets",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-339815923",
+            "curated": true,
+            "tags": {
+              "amenity": "toilets",
+              "check_date": "2023-09-25",
+              "fee": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/339815923"
+          },
+          {
+            "osmId": "node/11587524070",
+            "name": "Unnamed public toilets",
+            "coordinates": [
+              -0.9851123,
+              51.999964
+            ],
+            "category": "toilets",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-11587524070",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "toilets",
+              "changing_table": "yes",
+              "changing_table:location": "female_toilet;male_toilet",
+              "fee": "no",
+              "toilets:handwashing": "yes",
+              "toilets:paper_supplied": "yes",
+              "toilets:position": "seated",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/11587524070"
+          }
+        ]
+      }
+    }
+  ]
+}

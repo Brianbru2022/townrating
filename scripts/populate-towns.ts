@@ -4,9 +4,21 @@ import { existsSync } from 'node:fs';
 const towns = [
   { id: 'alloa-scotland', path: 'data/projects/alloa.json', parish: 'Alloa' },
   { id: 'alva-scotland', path: 'data/projects/alva.json' },
+  { id: 'bathgate-scotland', path: 'data/projects/bathgate.json' },
+  { id: 'broxburn-and-uphall-scotland', path: 'data/projects/broxburn-and-uphall.json' },
+  { id: 'bridge-of-earn-scotland', path: 'data/projects/bridge-of-earn.json' },
   { id: 'culross-scotland', path: 'data/projects/culross.json' },
+  { id: 'dunning-scotland', path: 'data/projects/dunning.json' },
   { id: 'kincardine-on-forth-scotland', path: 'data/projects/kincardine.json' },
+  { id: 'gourock-scotland', path: 'data/projects/gourock.json' },
+  { id: 'kirknewton-scotland', path: 'data/projects/kirknewton.json' },
+  { id: 'kirriemuir-scotland', path: 'data/projects/kirriemuir.json' },
+  { id: 'linlithgow-scotland', path: 'data/projects/linlithgow.json' },
+  { id: 'livingston-scotland', path: 'data/projects/livingston.json' },
+  { id: 'south-queensferry-scotland', path: 'data/projects/south-queensferry.json' },
+  { id: 'torphichen-scotland', path: 'data/projects/torphichen.json' },
   { id: 'tillicoultry-scotland', path: 'data/projects/tillicoultry.json' },
+  { id: 'whitburn-scotland', path: 'data/projects/whitburn.json' },
   { id: 'quarriers-village-scotland', path: 'data/projects/quarriers-village.json' },
   { id: 'biggar-scotland', path: 'data/projects/biggar.json' },
   { id: 'killin-scotland', path: 'data/projects/killin.json' },
@@ -17,7 +29,7 @@ if (!selected.length) throw new Error(`Unknown town '${requested}'.`);
 
 function run(script: string, args: string[] = []): Promise<void> {
   return new Promise((resolveRun, reject) => {
-    const child = spawn('npx', ['tsx', script, ...args], {
+    const child = spawn('tsx', [script, ...args], {
       cwd: process.cwd(),
       stdio: 'inherit',
       shell: process.platform === 'win32',

@@ -1,4 +1,4 @@
-# Historic Town Explorer
+# Townscape Guides
 
 A self-hosted, source-backed public explorer for historical town projects. The repository contains curated public packages for Alloa, Alva, Culross, Kincardine-on-Forth, Tillicoultry, Quarrier's Village, Biggar and Killin, together with the repeatable import and review tooling used to create them.
 

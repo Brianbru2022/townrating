@@ -1,0 +1,730 @@
+{
+  "project": {
+    "id": "cranford-england",
+    "name": "Cranford Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Northamptonshire",
+    "locality": "Cranford",
+    "centre": [
+      -0.6409097,
+      52.3920467
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated Cranford visitor boundary",
+        "localityName": "Cranford",
+        "osmType": "relation",
+        "osmId": 1674649,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [],
+        "name": "Cranford curated visitor boundary",
+        "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+        "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+        "notAdministrativeBoundary": true,
+        "reviewedAt": "2026-08-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.6479096999987602,
+              52.387224307726655
+            ],
+            [
+              -0.6478482013750702,
+              52.38708423768804
+            ],
+            [
+              -0.6476186944881205,
+              52.38704671683227
+            ],
+            [
+              -0.6342007055118796,
+              52.38704671683227
+            ],
+            [
+              -0.6339711986249299,
+              52.38708423768804
+            ],
+            [
+              -0.6339097000012399,
+              52.387224307726655
+            ],
+            [
+              -0.6339097000012399,
+              52.39686911441093
+            ],
+            [
+              -0.6339712010448608,
+              52.39700917650765
+            ],
+            [
+              -0.6342007351725872,
+              52.39704671683091
+            ],
+            [
+              -0.6476186648274129,
+              52.39704671683091
+            ],
+            [
+              -0.6478481989551392,
+              52.39700917650765
+            ],
+            [
+              -0.6479096999987601,
+              52.39686911441093
+            ],
+            [
+              -0.6479096999987602,
+              52.387224307726655
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated Cranford visitor boundary derived from Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "high",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-09T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-09. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 0 directly adjoining public green-space geometries were included in the active visitor boundary.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Useful as a mapped local settlement, but not currently recommended as a tourist destination."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Cranford",
+      "intro": "Cranford has a modest visitor offer within its active settlement boundary. The guide records only defensible visitor interest without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "A short Cranford wander",
+        "summary": "Use the planner to find the strongest in-boundary daytime stops."
+      },
+      "dontMiss": [],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/relation/1674649",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-09"
+    },
+    "visitorHighlights": [],
+    "townStudyArea": {
+      "localityName": "Cranford",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/relation/1674649",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-09",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -0.6479097,
+          52.3870467,
+          -0.6339097,
+          52.397046700000004
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Cranford",
+          "osmType": "relation",
+          "osmId": 1674649,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.6479097,
+                52.3870467
+              ],
+              [
+                -0.6339097,
+                52.3870467
+              ],
+              [
+                -0.6339097,
+                52.397046700000004
+              ],
+              [
+                -0.6479097,
+                52.397046700000004
+              ],
+              [
+                -0.6479097,
+                52.3870467
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated Cranford visitor boundary",
+          "localityName": "Cranford",
+          "osmType": "relation",
+          "osmId": 1674649,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [],
+          "name": "Cranford curated visitor boundary",
+          "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+          "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+          "notAdministrativeBoundary": true,
+          "reviewedAt": "2026-08-09"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.6479096999987602,
+                52.387224307726655
+              ],
+              [
+                -0.6478482013750702,
+                52.38708423768804
+              ],
+              [
+                -0.6476186944881205,
+                52.38704671683227
+              ],
+              [
+                -0.6342007055118796,
+                52.38704671683227
+              ],
+              [
+                -0.6339711986249299,
+                52.38708423768804
+              ],
+              [
+                -0.6339097000012399,
+                52.387224307726655
+              ],
+              [
+                -0.6339097000012399,
+                52.39686911441093
+              ],
+              [
+                -0.6339712010448608,
+                52.39700917650765
+              ],
+              [
+                -0.6342007351725872,
+                52.39704671683091
+              ],
+              [
+                -0.6476186648274129,
+                52.39704671683091
+              ],
+              [
+                -0.6478481989551392,
+                52.39700917650765
+              ],
+              [
+                -0.6479096999987601,
+                52.39686911441093
+              ],
+              [
+                -0.6479096999987602,
+                52.387224307726655
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated Cranford visitor boundary",
+          "localityName": "Cranford",
+          "osmType": "relation",
+          "osmId": 1674649,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [],
+          "name": "Cranford curated visitor boundary",
+          "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+          "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+          "notAdministrativeBoundary": true,
+          "reviewedAt": "2026-08-09"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.6479096999987602,
+                52.387224307726655
+              ],
+              [
+                -0.6478482013750702,
+                52.38708423768804
+              ],
+              [
+                -0.6476186944881205,
+                52.38704671683227
+              ],
+              [
+                -0.6342007055118796,
+                52.38704671683227
+              ],
+              [
+                -0.6339711986249299,
+                52.38708423768804
+              ],
+              [
+                -0.6339097000012399,
+                52.387224307726655
+              ],
+              [
+                -0.6339097000012399,
+                52.39686911441093
+              ],
+              [
+                -0.6339712010448608,
+                52.39700917650765
+              ],
+              [
+                -0.6342007351725872,
+                52.39704671683091
+              ],
+              [
+                -0.6476186648274129,
+                52.39704671683091
+              ],
+              [
+                -0.6478481989551392,
+                52.39700917650765
+              ],
+              [
+                -0.6479096999987601,
+                52.39686911441093
+              ],
+              [
+                -0.6479096999987602,
+                52.387224307726655
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The official locality geometry is preserved unchanged. The active visitor boundary uses a transparent 150 metre morphological closing to include connected parks, river corridors and green spaces omitted by the statistical built-up-area geometry. This is a visitor extent, not an administrative replacement."
+    }
+  },
+  "features": [
+    {
+      "id": "historic-england:nhle:1052065",
+      "projectId": "cranford-england",
+      "name": "6-16, RECTORY HILL",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Northamptonshire",
+      "locality": "Cranford",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.647791208657745,
+          52.3873264800846
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1052065",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1052065",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1052065",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1052065?section=official-list-entry",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: C18"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-09T00:00:00Z",
+      "updatedAt": "2026-08-09T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Cranford visitor boundary. Earliest dated fabric normalised from official Historic England text on 2026-08-09; listing and restoration dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "C18",
+      "earliestPossibleYear": 1700,
+      "latestPossibleYear": 1799,
+      "datePrecision": "century"
+    },
+    {
+      "id": "historic-england:nhle:1052101",
+      "projectId": "cranford-england",
+      "name": "37, DUCK END",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Northamptonshire",
+      "locality": "Cranford",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.641204117476173,
+          52.3879342843267
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "documented_construction",
+      "dateConfidence": "high",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1052101",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1052101",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1052101",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1052101?section=official-list-entry",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: Dated 1593"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-09T00:00:00Z",
+      "updatedAt": "2026-08-09T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Cranford visitor boundary. Earliest dated fabric normalised from official Historic England text on 2026-08-09; listing and restoration dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "Dated 1593",
+      "earliestPossibleYear": 1593,
+      "latestPossibleYear": 1593,
+      "datePrecision": "exact year"
+    },
+    {
+      "id": "historic-england:nhle:1052102",
+      "projectId": "cranford-england",
+      "name": "DUCK END FARMHOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Northamptonshire",
+      "locality": "Cranford",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.638483185137464,
+          52.3870578453014
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1052102",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1052102",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1052102",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1052102?section=official-list-entry",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: Late C17"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-09T00:00:00Z",
+      "updatedAt": "2026-08-09T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Cranford visitor boundary. Earliest dated fabric normalised from official Historic England text on 2026-08-09; listing and restoration dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "Late C17",
+      "earliestPossibleYear": 1660,
+      "latestPossibleYear": 1699,
+      "datePrecision": "part century"
+    },
+    {
+      "id": "historic-england:nhle:1191526",
+      "projectId": "cranford-england",
+      "name": "THE LITTLE HOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Northamptonshire",
+      "locality": "Cranford",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.641724661319007,
+          52.3882099909572
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1191526",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1191526",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1191526",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1191526?section=official-list-entry",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: C17"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-09T00:00:00Z",
+      "updatedAt": "2026-08-09T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Cranford visitor boundary. Earliest dated fabric normalised from official Historic England text on 2026-08-09; listing and restoration dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "C17",
+      "earliestPossibleYear": 1600,
+      "latestPossibleYear": 1699,
+      "datePrecision": "century"
+    },
+    {
+      "id": "historic-england:nhle:1287028",
+      "projectId": "cranford-england",
+      "name": "STANBRIDGE COTTAGE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Northamptonshire",
+      "locality": "Cranford",
+      "featureType": "bridge",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.638465237249188,
+          52.3881185637862
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1287028",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1287028",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1287028",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1287028?section=official-list-entry",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: C18"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-09T00:00:00Z",
+      "updatedAt": "2026-08-09T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Cranford visitor boundary. Earliest dated fabric normalised from official Historic England text on 2026-08-09; listing and restoration dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "C18",
+      "earliestPossibleYear": 1700,
+      "latestPossibleYear": 1799,
+      "datePrecision": "century"
+    }
+  ],
+  "sources": [
+    {
+      "id": "cranford-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Cranford settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/relation/1674649",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Cranford designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "cranford-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Cranford visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

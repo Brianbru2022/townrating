@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-08-11T01:19:18.886Z",
+  "requested": 132,
+  "existing": 3,
+  "created": 4,
+  "failed": 0,
+  "skipped": [
+    {
+      "requested": "Brampton",
+      "existing": {
+        "id": "brampton-huntingdonshire-england",
+        "locality": "Brampton"
+      }
+    },
+    {
+      "requested": "Huntingdon",
+      "existing": {
+        "id": "huntingdon-england",
+        "locality": "Huntingdon"
+      }
+    },
+    {
+      "requested": "Peterborough",
+      "existing": {
+        "id": "peterborough-england",
+        "locality": "Peterborough"
+      }
+    }
+  ],
+  "failures": [],
+  "createdProjects": [
+    {
+      "projectId": "chippenham-england",
+      "locality": "Chippenham",
+      "boundary": {
+        "source": "ONS Built-up Areas (December 2024) with curated adjoining public green spaces",
+        "localityCode": "E63010320",
+        "confidence": "high",
+        "adjoiningGreenSpaces": []
+      },
+      "touristAppeal": {
+        "rating": 0,
+        "label": "Not a tourist town",
+        "summary": "Chippenham has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+      },
+      "counts": {
+        "features": 22,
+        "historicEngland": 22,
+        "see": 1,
+        "eat": 0,
+        "trails": 0,
+        "parking": 0,
+        "toilets": 0,
+        "picnic": 0
+      },
+      "checks": {
+        "allPlannerPointsInsideBoundary": true,
+        "customerOnlyParkingExcluded": true,
+        "dinnerOnlyFoodExcluded": true,
+        "seeAndEatCappedAtTwenty": true,
+        "practicalCategoriesUncapped": true,
+        "treasureTrailsChecked": true,
+        "originalBoundaryPreserved": true
+      }
+    },
+    {
+      "projectId": "kingston-england",
+      "locality": "Kingston",
+      "boundary": {
+        "source": "ONS Built-up Areas (December 2024) with curated adjoining public green spaces",
+        "localityCode": "E63010612",
+        "confidence": "high",
+        "adjoiningGreenSpaces": []
+      },
+      "touristAppeal": {
+        "rating": 0,
+        "label": "Not a tourist town",
+        "summary": "Kingston has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+      },
+      "counts": {
+        "features": 19,
+        "historicEngland": 18,
+        "see": 1,
+        "eat": 0,
+        "trails": 0,
+        "parking": 1,
+        "toilets": 0,
+        "picnic": 0
+      },
+      "checks": {
+        "allPlannerPointsInsideBoundary": true,
+        "customerOnlyParkingExcluded": true,
+        "dinnerOnlyFoodExcluded": true,
+        "seeAndEatCappedAtTwenty": true,
+        "practicalCategoriesUncapped": true,
+        "treasureTrailsChecked": true,
+        "originalBoundaryPreserved": true
+      }
+    },
+    {
+      "projectId": "milton-england",
+      "locality": "Milton",
+      "boundary": {
+        "source": "ONS Built-up Areas (December 2024) with curated adjoining public green spaces",
+        "localityCode": "E63010465",
+        "confidence": "high",
+        "adjoiningGreenSpaces": []
+      },
+      "touristAppeal": {
+        "rating": 0,
+        "label": "Not a tourist town",
+        "summary": "Milton has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+      },
+      "counts": {
+        "features": 38,
+        "historicEngland": 16,
+        "see": 3,
+        "eat": 6,
+        "trails": 0,
+        "parking": 12,
+        "toilets": 1,
+        "picnic": 1
+      },
+      "checks": {
+        "allPlannerPointsInsideBoundary": true,
+        "customerOnlyParkingExcluded": true,
+        "dinnerOnlyFoodExcluded": true,
+        "seeAndEatCappedAtTwenty": true,
+        "practicalCategoriesUncapped": true,
+        "treasureTrailsChecked": true,
+        "originalBoundaryPreserved": true
+      }
+    },
+    {
+      "projectId": "sutton-england",
+      "locality": "Sutton",
+      "boundary": {
+        "source": "ONS Built-up Areas (December 2024) with curated adjoining public green spaces",
+        "localityCode": "E63010127",
+        "confidence": "high",
+        "adjoiningGreenSpaces": []
+      },
+      "touristAppeal": {
+        "rating": 0,
+        "label": "Not a tourist town",
+        "summary": "Sutton has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+      },
+      "counts": {
+        "features": 18,
+        "historicEngland": 15,
+        "see": 1,
+        "eat": 0,
+        "trails": 0,
+        "parking": 3,
+        "toilets": 0,
+        "picnic": 0
+      },
+      "checks": {
+        "allPlannerPointsInsideBoundary": true,
+        "customerOnlyParkingExcluded": true,
+        "dinnerOnlyFoodExcluded": true,
+        "seeAndEatCappedAtTwenty": true,
+        "practicalCategoriesUncapped": true,
+        "treasureTrailsChecked": true,
+        "originalBoundaryPreserved": true
+      }
+    }
+  ],
+  "compliance": {
+    "noDuplicateLocalities": true,
+    "officialOnsBoundaryPreferred": true,
+    "osmSettlementFallbackDocumented": true,
+    "originalBoundariesPreserved": true,
+    "adjoiningPublicGreenSpacesIncluded": true,
+    "allVisitorAndPracticalPointsBoundaryChecked": true,
+    "seeAndEatMaximumTwenty": true,
+    "practicalCategoriesUncapped": true,
+    "customerOnlyParkingExcluded": true,
+    "dinnerOnlyFoodExcluded": true,
+    "treasureTrailsCatalogueChecked": true,
+    "historicEnglandLocalDatasetUsed": true
+  }
+}

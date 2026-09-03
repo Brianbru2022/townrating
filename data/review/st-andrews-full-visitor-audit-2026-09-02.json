@@ -1,0 +1,166 @@
+{
+  "reviewedAt": "2026-09-02T19:15:00.000Z",
+  "sequence": 6,
+  "sequenceTotal": 13,
+  "projectId": "st-andrews-scotland",
+  "place": "St Andrews",
+  "townScore": 96,
+  "mapPublished": true,
+  "settlementMerit": {
+    "result": "retain_on_town_map",
+    "rationale": "St Andrews remains a top-tier destination with major medieval monuments, world-famous golf heritage, beaches, museums, three live Treasure Trails and a broad verified daytime café offer. The audit retains only correctly located public facilities and does not borrow Craigtoun or other surrounding attractions."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 12,
+      "note": "Twelve independently visitable highlights retained."
+    },
+    "eat": {
+      "audited": true,
+      "published": 10,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "note": "Ten verified café, coffee-and-cake or light-lunch choices retained after adding three missed current venues."
+    },
+    "trails": {
+      "audited": true,
+      "published": 6,
+      "note": "Three live Treasure Trails plus three official/self-guided routes retained.",
+      "providerChecks": {
+        "TreasureTrails": "Three live St Andrews products verified.",
+        "CuriousAbout": "Current catalogue searched for the exact locality.",
+        "MysteryGuides": "Current catalogue searched for the exact locality.",
+        "GoQuestAdventures": "Current catalogue searched for the exact locality.",
+        "officialRoutes": "Fife Coastal Path, Fife Pilgrim Way and St Andrews EuroWalk retained."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 3,
+      "note": "Three source-backed public picnic options retained."
+    },
+    "parking": {
+      "audited": true,
+      "published": 4,
+      "note": "Four correctly located public visitor car parks retained."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 3,
+      "note": "Three council-backed public toilet locations retained."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Venue and route access is stated only when a current source supports it; no blanket claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road and available public-transport context checked; volatile timetables are not copied."
+    },
+    "dogs": {
+      "audited": true,
+      "note": "Town adjustment and venue-specific evidence retained; no unsupported dog-friendly claim added."
+    }
+  },
+  "exclusions": [
+    "Craigtoun and other surrounding attractions are not transferred.",
+    "Dinner-led restaurants, hotels, pubs and unverified OSM food records are excluded.",
+    "Private, residential and university-only parking is not published as general visitor parking."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets with locally cached official descriptions",
+    "projectId": "st-andrews-scotland",
+    "totalHesAndNrheRetained": 1319,
+    "localRecords": 1314,
+    "listedBuildings": 380,
+    "scheduledMonuments": 4,
+    "nrhe": 931,
+    "relatedBufferRecords": 5,
+    "removedOutOfScope": 0,
+    "enriched": 644,
+    "datedLocalRecords": 1018,
+    "undatedLocalRecordsRetainedHidden": 296,
+    "visibleHeritagePins": 1018,
+    "visiblePinsWithoutDates": 0,
+    "visiblePinNamesContainingDate": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside St Andrews's strict study area count toward the settlement score. Explicit related context may be shown but cannot inflate the town.",
+  "scoreRationale": "St Andrews remains a top-tier destination with major medieval monuments, world-famous golf heritage, beaches, museums, three live Treasure Trails and a broad verified daytime café offer. The audit retains only correctly located public facilities and does not borrow Craigtoun or other surrounding attractions.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 96,
+    "rationale": "Score reconciled after all categories, boundary exclusions and source checks."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.welcometofife.com/destination/st-andrews",
+        "outcome": "verified",
+        "note": "The official destination page confirms the town’s major visitor offer.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.historicenvironment.scot/visit/all/st-andrews-cathedral/plan-your-visit/",
+        "outcome": "verified",
+        "note": "Current cathedral visitor information checked.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.historicenvironment.scot/visit/all/st-andrews-castle/plan-your-visit/",
+        "outcome": "verified",
+        "note": "Current castle visitor information checked.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "verified",
+        "note": "The current Fife catalogue lists all three St Andrews products.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://thespacehub.co.uk/",
+        "outcome": "verified",
+        "note": "Current operator page verifies coffee, cakes, sandwiches, soup, daily hours and dog welcome.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://northpointcafe.weebly.com/",
+        "outcome": "verified",
+        "note": "Current operator site verifies Northpoint Café.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.standrewsnow.co.uk/business/cafe-in-the-square/",
+        "outcome": "verified",
+        "note": "Current local business directory verifies café, cakes, coffee and light lunches at 4 Church Square.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.fife.gov.uk/facilities/public-toilet",
+        "outcome": "verified",
+        "note": "Council public-toilet directory checked.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "visibleHeritageLabelsClean": true,
+    "liveBrowserVerifiedAt": "2026-09-02T21:07:29.331Z",
+    "liveChecks": {
+      "fifeSelectorContainsAllRequestedPlaces": true,
+      "auditedScoresRendered": true,
+      "stAndrewsCategoryCountsRendered": true,
+      "kingsbarnsCategoryCountsRendered": true,
+      "exact58SecondPassTownsRendered": true,
+      "heritageDateTextAbsentFromMapLabels": true,
+      "browserConsoleErrors": 0
+    }
+  }
+}

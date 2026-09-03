@@ -1,0 +1,130 @@
+{
+  "reviewedAt": "2026-09-02T22:00:00.000Z",
+  "sequence": 14,
+  "sequenceTotal": 15,
+  "projectId": "milton-of-balgonie-scotland",
+  "place": "Milton of Balgonie",
+  "townScore": 50,
+  "mapPublished": false,
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 1
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "reason": "No qualifying café was verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 1,
+      "providerChecks": {
+        "TreasureTrails": "No live place-specific product in the current Fife collection.",
+        "CuriousAbout": "Current provider catalogue checked; no exact place-specific route.",
+        "MysteryGuides": "Current provider catalogue checked; no exact place-specific route.",
+        "GoQuestAdventures": "Current provider catalogue checked; no exact place-specific route.",
+        "officialRoutes": "Markinch Heritage Group Balgonie Castle circular route verified."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "reason": "No dedicated public picnic facility was verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "reason": "No general public visitor car park was verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "reason": "No public toilet was verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessibility is stated only where a current source supports it; no blanket accessible claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road, bus and rail context was checked; transport does not add destination points by itself."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -1
+    }
+  },
+  "exclusions": [
+    "Balgonie Castle is separately related context and does not lift the town score.",
+    "Village-hall parking and toilets are not general public visitor facilities.",
+    "Markinch services are outside the settlement."
+  ],
+  "hes": {
+    "assigned": 12,
+    "visibleDated": 6,
+    "visibleUndated": 0,
+    "missing": 0
+  },
+  "heritage": {
+    "source": "Downloaded local HES listed-building, scheduled-monument and NRHE datasets",
+    "assigned": 19,
+    "local": 14,
+    "visibleDated": 13,
+    "hiddenUndatedOrNonlocal": 6,
+    "visibleUndated": 0,
+    "visibleLabelsContainingDates": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Milton of Balgonie's strict study area count toward the settlement score. Related attractions and cross-boundary routes may appear in See or Trails only when explicitly marked related_context and do not inflate the town.",
+  "scoreRationale": "Milton of Balgonie has a genuine place on a published Balgonie Castle circular walk, but the castle is outside the village, the hall is not a general visitor facility and no café or public practical-services cluster was verified.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 50,
+    "rationale": "Score independently reconciled after all categories, named-provider searches, boundary exclusions and practical checks; no provisional exact-58 town score remains."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.markinchheritage.org.uk/webs/189/documents/Balgonie%20Castle%20Circular%20Walk.pdf",
+        "outcome": "verified",
+        "note": "Published route checked.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.fife.gov.uk/facilities/hall/milton-of-balgonie-village-hall",
+        "outcome": "excluded",
+        "note": "Hall facilities and parking are for booked hall use, not general visitors.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No Milton of Balgonie product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "liveBrowserVerifiedAt": "2026-09-02T18:54:48.715Z"
+  },
+  "liveVerification": {
+    "url": "http://127.0.0.1:5173/",
+    "verifiedAt": "2026-09-02T18:54:48.715Z",
+    "checks": [
+      "The Fife region selector rendered the settlement name and completed score.",
+      "See, Eat, Trails, Picnic, Parking and Toilets counts matched the saved audit report.",
+      "Every one of the 17 requested entries was selected and checked in sequence.",
+      "Only settlements scoring 60 or more are included in the Home town-map dataset.",
+      "The historic heat layer rendered the dated local HES/NRHE records as dots without date text appended to map labels.",
+      "No browser console warning or error was reported in the clean verification tab."
+    ]
+  }
+}

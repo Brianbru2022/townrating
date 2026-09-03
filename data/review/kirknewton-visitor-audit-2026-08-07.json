@@ -1,0 +1,76 @@
+{
+  "projectId": "kirknewton-scotland",
+  "reviewedAt": "2026-08-07T00:00:00Z",
+  "townRating": {
+    "previous": 0,
+    "rating": 0,
+    "rationale": "Zero stars is retained. The old kirkyard, village park and community routes support a useful local guide, but Kirknewton has no destination-scale attraction cluster inside the active locality. Wider-area attractions must not inflate the town score."
+  },
+  "boundary": {
+    "active": "Original NRS 2022 Kirknewton locality S52000377, unchanged.",
+    "rule": "Every public town-planner marker is inside the locality polygon."
+  },
+  "published": {
+    "attractions": [
+      {
+        "name": "Kirknewton Old Parish Church and churchyard",
+        "score": 43,
+        "featureId": "nrhe:50341"
+      }
+    ],
+    "eat": [
+      "visitor-context:marmaris-inn-kirknewton"
+    ],
+    "trails": [
+      "visitor-context:kirknewton-pavilion-walking-routes"
+    ],
+    "picnic": [
+      "osm-community:node-10792942515"
+    ],
+    "parking": [
+      "osm-community:way-294736243",
+      "osm-community:way-1087310541"
+    ],
+    "toilets": [
+      "osm-community:node-10792942512"
+    ]
+  },
+  "excluded": [
+    {
+      "name": "Potter Around at Overton Farm",
+      "reason": "Outside the active locality polygon. It can be considered later as a standalone Home discovery place, but it is not a Kirknewton town-planner attraction."
+    },
+    {
+      "name": "Military Museum Scotland, Jupiter Artland and wider-area countryside attractions",
+      "reason": "Outside the locality and excluded from the town rating and planner."
+    },
+    {
+      "name": "Kirknewton station car park",
+      "reason": "Outside the locality. ScotRail records it as free, but it is not published in the town planner."
+    },
+    {
+      "name": "The Kirknewton Inn",
+      "reason": "A current operating venue could not be established. An old premises licence is not sufficient evidence after the reported 2017 closure."
+    }
+  ],
+  "practicalCorrections": {
+    "parking": "Two in-boundary OSM public-parking records are retained with location-led names. No current tariff evidence was found, so both tell visitors to check signs rather than claiming free parking.",
+    "toilets": "The duplicate pavilion geometries were consolidated into one named Kirknewton Park Pavilion public-toilet record.",
+    "picnic": "Five individual OSM picnic-table nodes were consolidated into one location-level Kirknewton Park picnic area."
+  },
+  "artwork": {
+    "path": "/town-guides/kirknewton-main-street-watercolour-guide.png",
+    "reference": "Main Street, Kirknewton by Richard Webb, Geograph Britain and Ireland / Wikimedia Commons, CC BY-SA 2.0.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Street,_Kirknewton_-_geograph.org.uk_-_2992500.jpg"
+  },
+  "sourceUrls": [
+    "https://www.visitwestlothian.co.uk/explore/kirknewton/",
+    "https://www.trove.scot/place/50341",
+    "https://www.crsbi.ac.uk/view-item?i=2500",
+    "https://www.kirknewton.info/projects-6",
+    "https://www.kirknewton.info/pavilion",
+    "https://www.westlothian.gov.uk/media/61905/Community-Choices-Kirknewton-Play-Area-Report-May-2024/pdf/Kirknewton_Play_Area_-_Community_Choices_Survey_Report_May_2024.pdf",
+    "https://marmarisinn.co.uk/",
+    "https://commons.wikimedia.org/wiki/File:Main_Street,_Kirknewton_-_geograph.org.uk_-_2992500.jpg"
+  ]
+}

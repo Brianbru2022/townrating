@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "description": "Source-backed editorial decisions that supersede ambiguous or stale OSM parking labels.",
+  "reviewedAt": "2026-08-12",
+  "projects": {
+    "daventry-england": {
+      "sourceUrl": "https://www.westnorthants.gov.uk/car-parks-west-northamptonshire/council-car-parks-daventry",
+      "excluded": {
+        "osm-community:way-174335497": "Bowen Square is absent from West Northamptonshire Council's current published list of Daventry council car parks.",
+        "osm-community:way-936647126": "Waterloo is absent from West Northamptonshire Council's current published list of Daventry council car parks."
+      },
+      "included": {
+        "osm-community:way-307424814": {
+          "name": "Chapel Lane",
+          "reason": "West Northamptonshire Council lists Chapel Lane, NN11 4GH, as a current 56-space public Daventry car park; Chapel is the street name rather than evidence of venue-only parking."
+        },
+        "osm-community:way-934857876": {
+          "name": "High Street",
+          "reason": "West Northamptonshire Council lists High Street, NN11 5BX, as a current 20-space public Daventry car park; this OSM geometry is the matching High Street site."
+        }
+      }
+    },
+    "kirriemuir-scotland": {
+      "order": [
+        "osm-community:way-548034700",
+        "osm-community:way-574796677",
+        "osm-community:way-348872934",
+        "osm-community:way-854920533"
+      ]
+    },
+    "south-queensferry-scotland": {
+      "order": [
+        "osm-community:way-52709832",
+        "osm-community:way-102686798",
+        "osm-community:way-435121560",
+        "osm-community:way-260629261"
+      ]
+    },
+    "gourock-scotland": {
+      "order": [
+        "curated-parking:gourock-kempock-street-car-park",
+        "osm-community:way-151830522",
+        "curated-parking:gourock-station-road-south",
+        "curated-parking:gourock-cove-road-car-park",
+        "osm-community:way-761321869"
+      ]
+    }
+  }
+}

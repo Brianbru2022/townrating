@@ -1,0 +1,100 @@
+{
+  "reviewedAt": "2026-08-26T23:00:00.000Z",
+  "townScore": 86,
+  "dogOwnerScore": 81,
+  "publicationRule": "visitor score > 60",
+  "attractions": [
+    {
+      "name": "Elie Harbour and Beach",
+      "score": 88,
+      "published": true
+    },
+    {
+      "name": "Elie Ness, Lady’s Tower and Ruby Bay",
+      "score": 85,
+      "published": true
+    }
+  ],
+  "trails": [
+    {
+      "name": "Fife Coastal Path: Elie to St Monans",
+      "score": 86
+    },
+    {
+      "name": "Elie & Earlsferry – Ruby Bay & Back Treasure Trail",
+      "score": 84
+    },
+    {
+      "name": "Elie Ness and Ruby Bay Circular",
+      "score": 78
+    }
+  ],
+  "facilities": {
+    "eat": [
+      {
+        "name": "The Ship Inn",
+        "score": 92
+      },
+      {
+        "name": "Elie Deli",
+        "score": 84
+      },
+      {
+        "name": "Elie Coffee Hatch",
+        "score": 80
+      },
+      {
+        "name": "G.H. Barnett",
+        "score": 74
+      }
+    ],
+    "parking": [
+      {
+        "name": "Ruby Bay Upper Car Park",
+        "capacity": "General daytime capacity not published; 7 overnight motorhome bays",
+        "price": "First 2 hours free, then £2 daytime; £15 overnight",
+        "payment": "Cash/card daytime; RingGo overnight"
+      },
+      {
+        "name": "Elie Harbour Car Park",
+        "capacity": "Not published",
+        "price": "£3.50 up to 2 hours; £6 day",
+        "payment": "Harbour office or BACS as published"
+      },
+      {
+        "name": "The Vennel Car Park",
+        "capacity": "12 spaces; 1 accessible; 1 EV",
+        "price": "Free / no tariff published",
+        "payment": "None"
+      }
+    ],
+    "toilets": [
+      {
+        "name": "Stenton Row Public Toilets",
+        "hours": "Daily 09:00–17:00",
+        "accessible": "Level access and Radar key"
+      },
+      {
+        "name": "Elie Harbour Public Toilets",
+        "hours": "April–October; times vary",
+        "accessible": "Yes; baby changing"
+      },
+      {
+        "name": "Ruby Bay Public Toilets",
+        "hours": "One cubicle overnight all year; accessible toilet 24/7 by Radar key",
+        "accessible": "Yes"
+      }
+    ]
+  },
+  "dogAudit": {
+    "townAdjustment": -5,
+    "attractionPolicies": "Harbour/beach, Ness and standard walks 2 paws; Treasure Trail 3",
+    "foodPolicies": "Ship Inn and Coffee Hatch 3; Deli and Barnett 1"
+  },
+  "exclusions": [
+    "Earlsferry Pavilion and Chain Walk excluded from Elie",
+    "Coast path removed as a duplicate attraction and retained in Trails",
+    "Unverified parking capacity omitted rather than estimated",
+    "Below-threshold heritage pins remain on the heat map but are not promoted as attractions"
+  ]
+}

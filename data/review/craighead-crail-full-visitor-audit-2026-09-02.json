@@ -1,0 +1,119 @@
+{
+  "reviewedAt": "2026-09-02T23:30:00.000Z",
+  "sequence": 2,
+  "sequenceTotal": 22,
+  "projectId": "craighead-crail-scotland",
+  "place": "Craighead",
+  "townScore": 42,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "Craighead is a small coastal locality with one specialist visitor highlight and access to the Fife Coastal Path, but it lacks a café-led stop and rounded public facilities. Nearby Crail, Balcomie and Kilminning do not support its score."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 1,
+      "note": "One independently presented specialist stop retained."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, bakeries, sweet treats and light lunches; meal-led restaurants, pubs and takeaways excluded.",
+      "note": "No qualifying café, coffee-and-cake or light-lunch stop verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 1,
+      "note": "The official coastal route is retained.",
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue searched; no exact Craighead product found.",
+        "CuriousAbout": "Current catalogue searched; no exact Craighead product found.",
+        "MysteryGuides": "Current Scotland catalogue searched; no exact Craighead product found.",
+        "GoQuestAdventures": "Current catalogue searched; no exact Craighead product found.",
+        "localAndOfficial": [
+          {
+            "url": "https://fifecoastandcountrysidetrust.co.uk/walks/fife-coastal-path/",
+            "note": "Official route evidence checked."
+          }
+        ]
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "note": "No in-boundary public picnic site verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 1,
+      "note": "One public coastal arrival point retained with unsupported details withheld."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "note": "No public toilet verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Access is stated only where a current source supports it; no blanket accessibility claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road and available public-transport context checked; volatile timetables are not copied into the permanent record."
+    },
+    "dogs": {
+      "audited": true,
+      "note": "Town-level adjustment and venue-specific evidence retained; no unsupported dog-friendly claim added."
+    }
+  },
+  "exclusions": [
+    "Golf dining is customer-led and not an independent Craighead café.",
+    "Kilminning picnic provision and Fife Ness attractions remain separate."
+  ],
+  "heritage": {
+    "sourceMode": "Local HES designation extracts and local NRHE/Canmore records first; web used only to resolve construction periods and current visitor context.",
+    "retainedRecords": 37,
+    "localRecords": 28,
+    "visibleDatedPins": 15,
+    "hiddenUndatedOrContextRecords": 13,
+    "visiblePinsWithoutDates": 0,
+    "administrativeDatesUsedAsConstructionDates": 0,
+    "visiblePinNamesContainingDate": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Craighead's strict study area count toward the settlement score. A separate attraction or through-route may be listed without inflating the town score.",
+  "scoreRationale": "Craighead is a small coastal locality with one specialist visitor highlight and access to the Fife Coastal Path, but it lacks a café-led stop and rounded public facilities. Nearby Crail, Balcomie and Kilminning do not support its score.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 42,
+    "rationale": "Score reconciled after all categories, boundary exclusions and current source checks."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://fifecoastandcountrysidetrust.co.uk/walks/fife-coastal-path/",
+        "note": "Official route evidence checked.",
+        "outcome": "verified",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://crailgolfingsociety.co.uk/health-and-safety",
+        "note": "Specialist access guidance checked without transferring customer-only clubhouse facilities.",
+        "outcome": "verified",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "administrativeDateLeakageAbsent": true,
+    "visibleHeritageLabelsClean": true,
+    "liveBrowserVerifiedAt": null
+  }
+}

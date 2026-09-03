@@ -1,0 +1,218 @@
+{
+  "auditDate": "2026-08-01",
+  "scope": "Published Scottish town tourist-appeal ratings after source-backed top-places expansion.",
+  "ratingScale": {
+    "0": "Not a tourist town: local services or minor heritage only, with no strong reason for tourists to visit specifically.",
+    "1": "Niche detour: one or two genuine visitor draws, usually worthwhile only if nearby or already interested in the theme.",
+    "2": "Worth a planned stop: several credible attractions or a strong town story, but not destination-level on its own.",
+    "3": "Destination draw: nationally recognisable or dense visitor appeal that can anchor an itinerary."
+  },
+  "sourcesChecked": [
+    {
+      "name": "VisitScotland - Forth Bridge UNESCO Trail",
+      "url": "https://www.visitscotland.com/things-to-do/unesco-trail/forth-bridge"
+    },
+    {
+      "name": "The Forth Bridges - Forth Bridges Trail",
+      "url": "https://www.theforthbridges.org/visit-the-forth-bridges/forth-bridges-trail/"
+    },
+    {
+      "name": "The Forth Bridges - Cruise Visitors",
+      "url": "https://www.theforthbridges.org/visit-the-forth-bridges/cruise-visitors/"
+    },
+    {
+      "name": "National Trust for Scotland - Culross",
+      "url": "https://www.nts.org.uk/visit/places/culross"
+    },
+    {
+      "name": "My Linlithgow - Places to Visit",
+      "url": "https://mylinlithgow.com/visit-linlithgow/places-to-visit/"
+    },
+    {
+      "name": "Historic Environment Scotland - Linlithgow Palace",
+      "url": "https://www.historicenvironment.scot/visit/all/linlithgow-palace/plan-your-visit/"
+    },
+    {
+      "name": "National Trust for Scotland - Alloa Tower",
+      "url": "https://www.nts.org.uk/visit/places/alloa-tower"
+    },
+    {
+      "name": "Clackmannanshire Council - Alva Glen",
+      "url": "https://www.clacks.gov.uk/visiting/alvaglen/"
+    },
+    {
+      "name": "Historic Environment Scotland - St Serf's Church and Dupplin Cross",
+      "url": "https://www.historicenvironment.scot/visit/all/st-serfs-church-and-dupplin-cross/"
+    },
+    {
+      "name": "Visit West Lothian - Livingston",
+      "url": "https://www.visitwestlothian.co.uk/explore/livingston/"
+    },
+    {
+      "name": "Visit West Lothian - Polkemmet Country Park",
+      "url": "https://www.visitwestlothian.co.uk/things-to-do/country-parks-play-parks/polkemmet-country-park/"
+    },
+    {
+      "name": "Visit West Lothian - The Scottish Owl Centre",
+      "url": "https://www.visitwestlothian.co.uk/things-to-do/family-fun/the-scottish-owl-centre/"
+    },
+    {
+      "name": "Visit West Lothian - Broxburn and Uphall",
+      "url": "https://www.visitwestlothian.co.uk/explore/broxburn-uphall/"
+    },
+    {
+      "name": "Historic Environment Scotland - Torphichen Preceptory",
+      "url": "https://www.historicenvironment.scot/visit/all/torphichen-preceptory/plan-your-visit/"
+    },
+    {
+      "name": "Biggar Museum Trust - Biggar Surrounds",
+      "url": "https://www.biggarmuseumtrust.co.uk/visit-us/biggar-surrounds/"
+    },
+    {
+      "name": "Scottish Owl Centre - Visit Us",
+      "url": "https://www.scottishowlcentre.com/visitus"
+    }
+  ],
+  "decisions": [
+    {
+      "town": "South Queensferry",
+      "previousRating": 2,
+      "auditedRating": 3,
+      "action": "changed",
+      "reason": "UNESCO Forth Bridge setting, Forth Bridges Trail, bridge viewpoints, boat trips, museum, waterfront High Street and Port Edgar are strong enough for destination-level appeal."
+    },
+    {
+      "town": "Whitburn",
+      "previousRating": 0,
+      "auditedRating": 0,
+      "action": "kept",
+      "reason": "Polygon-only sweep excludes Polkemmet Country Park and the Scottish Owl Centre because both mapped visitor points sit outside the Whitburn polygon; without them Whitburn remains local-service/heritage context rather than a tourist town."
+    },
+    {
+      "town": "Linlithgow",
+      "previousRating": 3,
+      "auditedRating": 3,
+      "action": "kept",
+      "reason": "Palace, loch and Peel, St Michael's, museum, canal centre and historic town setting justify destination-level appeal."
+    },
+    {
+      "town": "Culross",
+      "previousRating": 3,
+      "auditedRating": 3,
+      "action": "kept",
+      "reason": "Preserved royal burgh, palace, abbey, town house, Mercat Cross and West Kirk are enough for a destination draw."
+    },
+    {
+      "town": "Killin",
+      "previousRating": 3,
+      "auditedRating": 3,
+      "action": "kept",
+      "reason": "Falls of Dochart, Bridge of Dochart and Finlarig Castle are all inside the polygon and still sustain a destination rating; out-of-polygon Clan MacNab and stone-circle stops are no longer counted as top highlights."
+    },
+    {
+      "town": "Kirriemuir",
+      "previousRating": 2,
+      "auditedRating": 2,
+      "action": "kept",
+      "reason": "J M Barrie's Birthplace, Peter Pan, Bon Scott and Gateway to the Glens are inside the polygon and still make it worth a planned stop; Camera Obscura is no longer counted because its point is outside the polygon."
+    },
+    {
+      "town": "Biggar",
+      "previousRating": 2,
+      "auditedRating": 2,
+      "action": "kept",
+      "reason": "Museums, gasworks, church, Corn Exchange and puppet-theatre context justify a planned stop; the puppet theatre still needs a clean map point before it is added to highlights."
+    },
+    {
+      "town": "Alloa",
+      "previousRating": 1,
+      "auditedRating": 1,
+      "action": "kept",
+      "reason": "Alloa Tower is strong, but the wider visitor offer remains a niche heritage detour rather than a broad tourist town."
+    },
+    {
+      "town": "Alva",
+      "previousRating": 1,
+      "auditedRating": 1,
+      "action": "kept",
+      "reason": "Alva Glen and Silver Glen support a good short nature/heritage detour, not a standalone town destination."
+    },
+    {
+      "town": "Dunning",
+      "previousRating": 1,
+      "auditedRating": 1,
+      "action": "kept",
+      "reason": "St Serf's Church and the Dupplin Cross are a genuine specialist stop, but the offer is compact."
+    },
+    {
+      "town": "Gourock",
+      "previousRating": 1,
+      "auditedRating": 1,
+      "action": "kept",
+      "reason": "Outdoor pool, Clyde views, ferry/pier and Kempock Stone support a pleasant detour, but not a destination rating."
+    },
+    {
+      "town": "Livingston",
+      "previousRating": 1,
+      "auditedRating": 1,
+      "action": "kept",
+      "reason": "Almond Valley, shale museum and shopping are real visitor uses, but the town is still not primarily a tourist destination."
+    },
+    {
+      "town": "Torphichen",
+      "previousRating": 1,
+      "auditedRating": 1,
+      "action": "kept",
+      "reason": "Torphichen Preceptory is a genuine specialist medieval stop, but the broader village offer is limited."
+    },
+    {
+      "town": "Tillicoultry",
+      "previousRating": 1,
+      "auditedRating": 1,
+      "action": "kept",
+      "reason": "Sterling Mills, Tillicoultry Glen and Devon Way improve the visitor case but remain a nearby/niche detour rather than a destination."
+    },
+    {
+      "town": "Quarrier's Village",
+      "previousRating": 1,
+      "auditedRating": 1,
+      "action": "kept",
+      "reason": "Specialist planned-village heritage remains valid, but broad tourist pull is limited."
+    },
+    {
+      "town": "Bathgate",
+      "previousRating": 0,
+      "auditedRating": 1,
+      "action": "changed",
+      "reason": "Polygon-only pass found enough in-town visitor interest for a niche detour: Bennie Museum, Bathgate History Trail, Reconnect Regal Theatre, Kirkton Park and Bathgate Golf Club. Nearby countryside and out-of-polygon attractions were deliberately excluded."
+    },
+    {
+      "town": "Broxburn and Uphall",
+      "previousRating": 0,
+      "auditedRating": 1,
+      "action": "changed",
+      "reason": "Targeted curation confirmed in-polygon Bridge 19-40 canal boat trips, the community museum and the heritage art trail; Almondell and Calderwood is out of polygon and no longer counted. The remaining in-town offer still justifies a one-star niche detour."
+    },
+    {
+      "town": "Bridge of Earn",
+      "previousRating": 0,
+      "auditedRating": 0,
+      "action": "kept",
+      "reason": "Historic village evidence and old bridge context are not enough for a tourist rating; external attraction searches mostly point to Perth or Scone rather than Bridge of Earn itself."
+    },
+    {
+      "town": "Kirknewton",
+      "previousRating": 0,
+      "auditedRating": 0,
+      "action": "kept",
+      "reason": "Search results show local activities and village heritage rather than a coherent tourist-town draw."
+    },
+    {
+      "town": "Kincardine-on-Forth",
+      "previousRating": 1,
+      "auditedRating": 1,
+      "action": "kept",
+      "reason": "Bridge, riverside and historic-townscape interest remain a niche detour rather than a planned-stop or destination draw."
+    }
+  ]
+}

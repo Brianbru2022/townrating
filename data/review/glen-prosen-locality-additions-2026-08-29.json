@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-29",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers. Attractions and private properties never inflate locality scores.",
+  "duplicateRequests": [
+    "Kilburn"
+  ],
+  "namingDecisions": [
+    "Glenprossan Lodge resolves to the established Glenprosen Lodge spelling.",
+    "Glenprossan village resolves to the mapped settlement Prosen Village.",
+    "Dykehead resolves to the Glen Prosen locality at OSM node 4543222807, not the other Angus namesakes."
+  ],
+  "additions": [
+    {
+      "requestedName": "Glenprossan lodge",
+      "resolvedName": "Glenprosen Lodge",
+      "projectId": "glenprosen-lodge-scotland",
+      "region": "Angus",
+      "score": 22,
+      "dogOwnerScore": 20,
+      "publishOnTownMap": false,
+      "rationale": "The lodge is retained by its established Glenprosen spelling. Its historic interest and nearby hill access remain separate heritage and trail propositions and do not create a town score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/6240245541"
+    },
+    {
+      "requestedName": "Kilburn",
+      "resolvedName": "Kilburn",
+      "projectId": "kilburn-angus-scotland",
+      "region": "Angus",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "The duplicated request is represented once, without borrowing Glen Clova scenery or facilities.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4898875849"
+    },
+    {
+      "requestedName": "Balnaboth",
+      "resolvedName": "Balnaboth",
+      "projectId": "balnaboth-scotland",
+      "region": "Angus",
+      "score": 30,
+      "dogOwnerScore": 29,
+      "publishOnTownMap": false,
+      "rationale": "The hostel and cottages support a wider glen visit, but do not make Balnaboth a 60+ destination town.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5326399666"
+    },
+    {
+      "requestedName": "Glenprossan village",
+      "resolvedName": "Prosen Village",
+      "projectId": "prosen-village-scotland",
+      "region": "Angus",
+      "score": 42,
+      "dogOwnerScore": 41,
+      "publishOnTownMap": false,
+      "rationale": "Prosen Village is the mapped settlement name. Glen walks and the Scott-Wilson story remain separately assessed visitor reasons rather than being transferred wholesale into the village score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5407394431"
+    },
+    {
+      "requestedName": "Easter Lednathie",
+      "resolvedName": "Easter Lednathie",
+      "projectId": "easter-lednathie-scotland",
+      "region": "Angus",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "The locality remains selectable for regional reference but has no basis for a tourist-town marker.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5750367537"
+    },
+    {
+      "requestedName": "Rottal",
+      "resolvedName": "Rottal",
+      "projectId": "rottal-scotland",
+      "region": "Angus",
+      "score": 24,
+      "dogOwnerScore": 23,
+      "publishOnTownMap": false,
+      "rationale": "Historic fabric can appear as dated heritage evidence, while wider Angus Glens recreation remains separate from the locality score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4898875873"
+    },
+    {
+      "requestedName": "Clachnabrain",
+      "resolvedName": "Clachnabrain",
+      "projectId": "clachnabrain-scotland",
+      "region": "Angus",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "Clachnabrain is retained without attributing nearby glen scenery or trails to the farm locality.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4898842883"
+    },
+    {
+      "requestedName": "Horniehaugh",
+      "resolvedName": "Horniehaugh",
+      "projectId": "horniehaugh-scotland",
+      "region": "Angus",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "Horniehaugh remains a selector reference and does not qualify as a tourist-town marker.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4898821368"
+    },
+    {
+      "requestedName": "Dykehead",
+      "resolvedName": "Dykehead",
+      "projectId": "dykehead-glen-prosen-scotland",
+      "region": "Angus",
+      "score": 30,
+      "dogOwnerScore": 28,
+      "publishOnTownMap": false,
+      "rationale": "This record is the Glen Prosen Dykehead. Captain Scott and Dr Wilson associations belong in See when fully audited and do not alone justify a 60+ town score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4543222807"
+    }
+  ]
+}

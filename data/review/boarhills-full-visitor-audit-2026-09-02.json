@@ -1,0 +1,148 @@
+{
+  "reviewedAt": "2026-09-02T19:15:00.000Z",
+  "sequence": 9,
+  "sequenceTotal": 13,
+  "projectId": "boarhills-scotland",
+  "place": "Boarhills",
+  "townScore": 58,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "Boarhills offers a restored doocot green, picnic tables, community walking leaflets and access to the Fife Coastal Path, but lacks a qualifying café, dependable general visitor parking and public toilets. It is a worthwhile short stop, not a rounded 60+ town destination."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 1,
+      "note": "The doocot and community green form one coherent stop."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "note": "No qualifying daytime café verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 2,
+      "note": "Community walk leaflets and the coastal path retained.",
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue searched for the exact locality.",
+        "CuriousAbout": "Current catalogue searched for the exact locality.",
+        "MysteryGuides": "Current catalogue searched for the exact locality.",
+        "GoQuestAdventures": "Current catalogue searched for the exact locality.",
+        "officialRoutes": "The Cambo Sands-to-Leuchars Fife Coastal Path section passes Boarhills.",
+        "localProvider": "Two current community walk leaflets verified."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 1,
+      "note": "Public picnic tables at the green retained."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "note": "No dependable general visitor car park verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "note": "No public toilet verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Venue and route access is stated only when a current source supports it; no blanket claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road and available public-transport context checked; volatile timetables are not copied."
+    },
+    "dogs": {
+      "audited": true,
+      "note": "Town adjustment and venue-specific evidence retained; no unsupported dog-friendly claim added."
+    }
+  },
+  "exclusions": [
+    "Doors Open refreshments, toilets and event parking are not dependable daily facilities.",
+    "Cambo, Kingsbarns and St Andrews services are not transferred."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets with locally cached official descriptions",
+    "projectId": "boarhills-scotland",
+    "totalHesAndNrheRetained": 27,
+    "localRecords": 26,
+    "listedBuildings": 10,
+    "scheduledMonuments": 0,
+    "nrhe": 17,
+    "relatedBufferRecords": 1,
+    "removedOutOfScope": 0,
+    "enriched": 11,
+    "datedLocalRecords": 19,
+    "undatedLocalRecordsRetainedHidden": 7,
+    "visibleHeritagePins": 19,
+    "visiblePinsWithoutDates": 0,
+    "visiblePinNamesContainingDate": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Boarhills's strict study area count toward the settlement score. Explicit related context may be shown but cannot inflate the town.",
+  "scoreRationale": "Boarhills offers a restored doocot green, picnic tables, community walking leaflets and access to the Fife Coastal Path, but lacks a qualifying café, dependable general visitor parking and public toilets. It is a worthwhile short stop, not a rounded 60+ town destination.",
+  "scoreReanalysis": {
+    "required": true,
+    "completed": true,
+    "resultScore": 58,
+    "rationale": "A second independent pass again produced 58: genuine short-stop value is present, but there is still no café, dependable visitor car park or public toilet and insufficient visit depth for the 60-point map threshold."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://boarhillsandduninocommunitytrust.org/projects/",
+        "outcome": "verified",
+        "note": "The trust verifies the restored doocot green, picnic provision and local walk leaflets.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://boarhillsandduninocommunitytrust.org/walks-around-boarhills-and-dunino/",
+        "outcome": "verified",
+        "note": "The current community page offers two local walking leaflets.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://fifecoastandcountrysidetrust.co.uk/walks/fife-coastal-path/cambo-sands-to-leuchars/",
+        "outcome": "verified",
+        "note": "The official coastal section explicitly passes Boarhills and records terrain warnings.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.community-council.org.uk/boarhillsanddunino/documents/local-place-plan/bdcc-lpp-final-september-2024.pdf",
+        "outcome": "verified",
+        "note": "The place plan supports withholding unbuilt or unconfirmed visitor parking.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Boarhills product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "visibleHeritageLabelsClean": true,
+    "liveBrowserVerifiedAt": "2026-09-02T21:07:29.331Z",
+    "liveChecks": {
+      "fifeSelectorContainsAllRequestedPlaces": true,
+      "auditedScoresRendered": true,
+      "stAndrewsCategoryCountsRendered": true,
+      "kingsbarnsCategoryCountsRendered": true,
+      "exact58SecondPassTownsRendered": true,
+      "heritageDateTextAbsentFromMapLabels": true,
+      "browserConsoleErrors": 0
+    }
+  }
+}

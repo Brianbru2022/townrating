@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-28",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers. Attractions never inflate settlement scores.",
+  "namingDecisions": [
+    "Jullynessie is normalised to Tullynessle.",
+    "Montgairnie is normalised to Montgarrie.",
+    "Milton fo Cushnie is corrected to Milton of Cushnie.",
+    "Leochel Cushnie is normalised to Leochel-Cushnie.",
+    "Ley resolves to Ley at Glenkindie, AB33 8RS, not Ley of Cushnie.",
+    "Bridgend resolves to the farm locality at Muir of Fowlis, AB33 8JB.",
+    "Auchintoul resolves to the Muir of Alford property in this cluster."
+  ],
+  "additions": [
+    {
+      "requestedName": "Jullynessie",
+      "resolvedName": "Tullynessle",
+      "projectId": "tullynessle-scotland",
+      "score": 44,
+      "dogOwnerScore": 43,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling is normalised to Tullynessle. Montgarrie, Alford and wider Donside attractions remain separate.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1279071637",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Montgairnie",
+      "resolvedName": "Montgarrie",
+      "projectId": "montgarrie-scotland",
+      "score": 42,
+      "dogOwnerScore": 41,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling is normalised to Montgarrie. Alford’s museums, cafés and facilities are not transferred into this score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1280071519",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Bridge of Alford",
+      "resolvedName": "Bridge of Alford",
+      "projectId": "bridge-of-alford-scotland",
+      "score": 38,
+      "dogOwnerScore": 37,
+      "publishOnTownMap": false,
+      "rationale": "The bridge and riverside setting provide local character, while neighbouring Alford and Montgarrie remain distinct destinations.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1280071654",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Auchintoul",
+      "resolvedName": "Auchintoul",
+      "projectId": "auchintoul-alford-scotland",
+      "score": 14,
+      "dogOwnerScore": 12,
+      "publishOnTownMap": false,
+      "rationale": "Resolved to the Auchintoul at Muir of Alford in the requested cluster, not other Aberdeenshire namesakes.",
+      "sourceUrl": "https://www.openstreetmap.org/way/492555716",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Alford",
+      "resolvedName": "Alford",
+      "projectId": "alford-aberdeenshire-scotland",
+      "score": 58,
+      "dogOwnerScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "Alford is likely to merit destination publication, but the 60+ gate requires a full attraction, trail, café, practical-facility and dated-heritage audit rather than a guessed score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/241795518",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Asloun",
+      "resolvedName": "Asloun",
+      "projectId": "asloun-scotland",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "Centred on Castleton of Asloun. Asloun Castle is heritage context and is not assumed to be an accessible town attraction.",
+      "sourceUrl": "https://www.openstreetmap.org/way/638228340",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Hillockhead",
+      "resolvedName": "Hillockhead",
+      "projectId": "hillockhead-glenkindie-scotland",
+      "score": 14,
+      "dogOwnerScore": 12,
+      "publishOnTownMap": false,
+      "rationale": "Resolved to Hillockhead, Glenkindie, AB33 8SE. The postcode centroid requires a cautious boundary and no neighbouring attractions are borrowed.",
+      "sourceUrl": "https://api.postcodes.io/postcodes/AB338SE",
+      "boundaryConfidence": "low"
+    },
+    {
+      "requestedName": "Ley",
+      "resolvedName": "Ley",
+      "projectId": "ley-glenkindie-scotland",
+      "score": 14,
+      "dogOwnerScore": 12,
+      "publishOnTownMap": false,
+      "rationale": "Resolved to Ley, Glenkindie, AB33 8RS, following the west-to-east sequence supplied; it is not Ley of Cushnie. The postcode centroid is intentionally treated with low confidence.",
+      "sourceUrl": "https://api.postcodes.io/postcodes/AB338RS",
+      "boundaryConfidence": "low"
+    },
+    {
+      "requestedName": "Little Lynturk",
+      "resolvedName": "Little Lynturk",
+      "projectId": "little-lynturk-scotland",
+      "score": 12,
+      "dogOwnerScore": 10,
+      "publishOnTownMap": false,
+      "rationale": "Its catalogue entry supports geographic completeness only; nearby Muir of Fowlis and Alford remain separate.",
+      "sourceUrl": "https://www.openstreetmap.org/node/582465923",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Bridgend",
+      "resolvedName": "Bridgend",
+      "projectId": "bridgend-muir-of-fowlis-scotland",
+      "score": 14,
+      "dogOwnerScore": 12,
+      "publishOnTownMap": false,
+      "rationale": "Resolved to the Bridgend farmyard at Muir of Fowlis, AB33 8JB, not other Aberdeenshire places named Bridgend.",
+      "sourceUrl": "https://www.openstreetmap.org/way/561522178",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Tillyfour",
+      "resolvedName": "Tillyfour",
+      "projectId": "tillyfour-tough-scotland",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "Resolved to Tillyfour, Tough, using the official planning coordinate. Aberdeen Angus history is retained as context and does not imply public access.",
+      "sourceUrl": "https://planning.org.uk/app/168/SB2B2ICAMJD00",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Muir of Fowlis",
+      "resolvedName": "Muir of Fowlis",
+      "projectId": "muir-of-fowlis-scotland",
+      "score": 42,
+      "dogOwnerScore": 41,
+      "publishOnTownMap": false,
+      "rationale": "The village retains its own score; Craigievar, Alford and dispersed Cushnie heritage are not borrowed into it.",
+      "sourceUrl": "https://www.openstreetmap.org/node/582465929",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Leochel Cushnie",
+      "resolvedName": "Leochel-Cushnie",
+      "projectId": "leochel-cushnie-scotland",
+      "score": 38,
+      "dogOwnerScore": 37,
+      "publishOnTownMap": false,
+      "rationale": "The official hyphenated form is used. Parish-wide heritage is not treated as if it all belonged to the compact hamlet.",
+      "sourceUrl": "https://www.openstreetmap.org/node/6420971193",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Milton fo Cushnie",
+      "resolvedName": "Milton of Cushnie",
+      "projectId": "milton-of-cushnie-scotland",
+      "score": 30,
+      "dogOwnerScore": 29,
+      "publishOnTownMap": false,
+      "rationale": "The typing error is corrected to Milton of Cushnie. Leochel-Cushnie and wider Cushnie heritage remain separately bounded.",
+      "sourceUrl": "https://www.openstreetmap.org/node/2424623326",
+      "boundaryConfidence": "medium"
+    }
+  ]
+}

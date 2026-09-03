@@ -1,4 +1,5 @@
 import { createHash } from 'node:crypto';
+import { existsSync } from 'node:fs';
 import { access, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
@@ -20,7 +21,10 @@ export const referenceDatasets = {
   },
 } as const;
 
-const defaultLocalHesDirectory = 'D:\\Map Data\\Scotland HES';
+const bundledLocalHesDirectory = resolve('data/reference/scotland-hes');
+const defaultLocalHesDirectory = existsSync(bundledLocalHesDirectory)
+  ? bundledLocalHesDirectory
+  : 'D:\\Map Data\\Scotland HES';
 export const localHesDataDirectory =
   process.env.HES_LOCAL_DATA_DIR?.trim() || defaultLocalHesDirectory;
 const localListedBuildingBase = resolve(localHesDataDirectory, 'lb_scotland', 'Listed_Buildings');

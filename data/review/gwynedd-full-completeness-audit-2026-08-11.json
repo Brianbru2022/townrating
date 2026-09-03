@@ -1,0 +1,3121 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-11T00:00:00Z",
+  "scope": "All 102 towns in the bundled Gwynedd settlement manifest.",
+  "methodology": [
+    "Checked manifest/package completeness, region-safe identities, source provenance and original-versus-active visitor boundaries.",
+    "Checked curated See, daytime Eat, trails and practical categories for unresolved IDs, duplicates, score order, caps and out-of-boundary records.",
+    "Applied the strict 0-3 tourist-town evidence rule; food and practical amenities do not create a town rating.",
+    "Measured heat-map date coverage from defensible Welsh heritage dates already bundled from Cadw and RCAHMW records.",
+    "Research gaps are reported separately and are never converted into invented public facts."
+  ],
+  "compliance": {
+    "hardRulesPassed": true,
+    "editorialResearchComplete": false,
+    "hardFailureCount": 0
+  },
+  "counts": {
+    "requestedTowns": 102,
+    "bundledTowns": 102,
+    "visitorAuditedTowns": 102,
+    "features": 5315,
+    "ratingDistribution": {
+      "0": 83,
+      "1": 19,
+      "2": 0,
+      "3": 0
+    },
+    "categoryTotals": {
+      "see": {
+        "listed": 232,
+        "townsWithNone": [
+          "Aberdyfi",
+          "Abergynolwyn",
+          "Abersoch",
+          "Arthog",
+          "Bethesda",
+          "Bontddu",
+          "Bryncrug",
+          "Brynrefail",
+          "Caeathro",
+          "Chwilog",
+          "Cwm-y-Glo",
+          "Deiniolen",
+          "Dinas Mawddwy",
+          "Dinorwig",
+          "Fairbourne",
+          "Garndolbenmaen",
+          "Groeslon",
+          "Llanfachreth",
+          "Llanrug",
+          "Llithfaen",
+          "Minffordd",
+          "Morfa Bychan",
+          "Morfa Nefyn",
+          "Mynytho",
+          "Nantlle",
+          "Penygroes",
+          "Rhiw",
+          "Rhyd Ddu",
+          "Rhydymain",
+          "Sarn Mellteyrn",
+          "Tal-y-llyn",
+          "Talysarn",
+          "Y Felinheli"
+        ]
+      },
+      "eat": {
+        "listed": 214,
+        "townsWithNone": [
+          "Abererch",
+          "Abergynolwyn",
+          "Arthog",
+          "Betws Garmon",
+          "Bontddu",
+          "Brithdir",
+          "Bryncrug",
+          "Caeathro",
+          "Chwilog",
+          "Clynnog Fawr",
+          "Deiniolen",
+          "Dinas Mawddwy",
+          "Edern",
+          "Ganllwyd",
+          "Garndolbenmaen",
+          "Garreg Llanfrothen",
+          "Groeslon",
+          "Llan Ffestiniog",
+          "Llanaelhaearn",
+          "Llandwrog",
+          "Llanegryn",
+          "Llanelltyd",
+          "Llanengan",
+          "Llanfachreth",
+          "Llanfihangel-y-Pennant",
+          "Llanfor",
+          "Llanfrothen",
+          "Llangian",
+          "Llangybi",
+          "Llanllyfni",
+          "Llanrug",
+          "Llanuwchllyn",
+          "Llithfaen",
+          "Llwyngwril",
+          "Maentwrog",
+          "Minffordd",
+          "Morfa Bychan",
+          "Mynytho",
+          "Nantmor",
+          "Pennal",
+          "Pistyll",
+          "Porthdinllaen",
+          "Rhiw",
+          "Rhosgadfan",
+          "Rhostryfan",
+          "Rhydymain",
+          "Sarn Mellteyrn",
+          "Tal-y-llyn",
+          "Talsarnau",
+          "Talysarn",
+          "Tanygrisiau",
+          "Trawsfynydd",
+          "Tregarth",
+          "Tremadog",
+          "Waunfawr",
+          "Y Fron"
+        ]
+      },
+      "trails": {
+        "listed": 5,
+        "townsWithNone": [
+          "Aberdaron",
+          "Abererch",
+          "Abergwyngregyn",
+          "Abergynolwyn",
+          "Abersoch",
+          "Arthog",
+          "Bala",
+          "Bangor",
+          "Barmouth (Abermaw)",
+          "Bethesda",
+          "Betws Garmon",
+          "Blaenau Ffestiniog",
+          "Bontddu",
+          "Bontnewydd",
+          "Borth-y-Gest",
+          "Brithdir",
+          "Bryncrug",
+          "Brynrefail",
+          "Caeathro",
+          "Chwilog",
+          "Clynnog Fawr",
+          "Corris",
+          "Criccieth",
+          "Croesor",
+          "Cwm-y-Glo",
+          "Deiniolen",
+          "Dinas Dinlle",
+          "Dinas Mawddwy",
+          "Dinorwig",
+          "Dolgellau",
+          "Dyffryn Ardudwy",
+          "Edern",
+          "Fairbourne",
+          "Ganllwyd",
+          "Garndolbenmaen",
+          "Garreg Llanfrothen",
+          "Groeslon",
+          "Harlech",
+          "Llan Ffestiniog",
+          "Llanaelhaearn",
+          "Llanbedr",
+          "Llanbedrog",
+          "Llandwrog",
+          "Llandygai",
+          "Llanegryn",
+          "Llanelltyd",
+          "Llanengan",
+          "Llanfachreth",
+          "Llanfihangel-y-Pennant",
+          "Llanfor",
+          "Llanfrothen",
+          "Llangian",
+          "Llangybi",
+          "Llanllyfni",
+          "Llanrug",
+          "Llanuwchllyn",
+          "Llanystumdwy",
+          "Llithfaen",
+          "Llwyngwril",
+          "Maentwrog",
+          "Mallwyd",
+          "Minffordd",
+          "Morfa Bychan",
+          "Morfa Nefyn",
+          "Mynytho",
+          "Nant Peris",
+          "Nantlle",
+          "Nantmor",
+          "Nefyn",
+          "Penmaenpool",
+          "Pennal",
+          "Penrhyndeudraeth",
+          "Penygroes",
+          "Pistyll",
+          "Porthdinllaen",
+          "Portmeirion",
+          "Pwllheli",
+          "Rhiw",
+          "Rhosgadfan",
+          "Rhostryfan",
+          "Rhyd Ddu",
+          "Rhydymain",
+          "Sarn Mellteyrn",
+          "Tal-y-bont",
+          "Tal-y-llyn",
+          "Talsarnau",
+          "Talysarn",
+          "Tanygrisiau",
+          "Trawsfynydd",
+          "Trefor",
+          "Tregarth",
+          "Tremadog",
+          "Tudweiliog",
+          "Tywyn",
+          "Waunfawr",
+          "Y Felinheli",
+          "Y Fron"
+        ]
+      },
+      "picnic": {
+        "listed": 7,
+        "townsWithNone": [
+          "Aberdyfi",
+          "Abererch",
+          "Abergwyngregyn",
+          "Abergynolwyn",
+          "Abersoch",
+          "Bala",
+          "Bangor",
+          "Barmouth (Abermaw)",
+          "Beddgelert",
+          "Bethesda",
+          "Betws Garmon",
+          "Bontddu",
+          "Bontnewydd",
+          "Borth-y-Gest",
+          "Brithdir",
+          "Bryncrug",
+          "Brynrefail",
+          "Caeathro",
+          "Caernarfon",
+          "Chwilog",
+          "Clynnog Fawr",
+          "Corris",
+          "Criccieth",
+          "Croesor",
+          "Cwm-y-Glo",
+          "Deiniolen",
+          "Dinas Dinlle",
+          "Dinas Mawddwy",
+          "Dinorwig",
+          "Dyffryn Ardudwy",
+          "Edern",
+          "Fairbourne",
+          "Ganllwyd",
+          "Garndolbenmaen",
+          "Garreg Llanfrothen",
+          "Groeslon",
+          "Harlech",
+          "Llan Ffestiniog",
+          "Llanaelhaearn",
+          "Llanbedr",
+          "Llanbedrog",
+          "Llanberis",
+          "Llandwrog",
+          "Llandygai",
+          "Llanegryn",
+          "Llanengan",
+          "Llanfachreth",
+          "Llanfihangel-y-Pennant",
+          "Llanfor",
+          "Llanfrothen",
+          "Llangian",
+          "Llangybi",
+          "Llanllyfni",
+          "Llanrug",
+          "Llanuwchllyn",
+          "Llanystumdwy",
+          "Llithfaen",
+          "Llwyngwril",
+          "Maentwrog",
+          "Mallwyd",
+          "Minffordd",
+          "Morfa Bychan",
+          "Morfa Nefyn",
+          "Mynytho",
+          "Nant Peris",
+          "Nantlle",
+          "Nefyn",
+          "Penmaenpool",
+          "Pennal",
+          "Penrhyndeudraeth",
+          "Penygroes",
+          "Pistyll",
+          "Porthdinllaen",
+          "Porthmadog",
+          "Portmeirion",
+          "Pwllheli",
+          "Rhiw",
+          "Rhosgadfan",
+          "Rhyd Ddu",
+          "Rhydymain",
+          "Sarn Mellteyrn",
+          "Tal-y-bont",
+          "Tal-y-llyn",
+          "Talsarnau",
+          "Talysarn",
+          "Tanygrisiau",
+          "Trawsfynydd",
+          "Trefor",
+          "Tregarth",
+          "Tremadog",
+          "Tudweiliog",
+          "Tywyn",
+          "Waunfawr",
+          "Y Felinheli",
+          "Y Fron"
+        ]
+      },
+      "parking": {
+        "listed": 461,
+        "townsWithNone": [
+          "Abererch",
+          "Betws Garmon",
+          "Brithdir",
+          "Llanegryn",
+          "Llanengan",
+          "Llanfor",
+          "Llanfrothen",
+          "Llangian",
+          "Llangybi",
+          "Llanystumdwy",
+          "Llithfaen",
+          "Mallwyd",
+          "Rhiw",
+          "Sarn Mellteyrn",
+          "Talysarn",
+          "Tregarth",
+          "Y Fron"
+        ]
+      },
+      "toilets": {
+        "listed": 94,
+        "townsWithNone": [
+          "Abererch",
+          "Arthog",
+          "Betws Garmon",
+          "Bontddu",
+          "Bontnewydd",
+          "Brithdir",
+          "Brynrefail",
+          "Caeathro",
+          "Chwilog",
+          "Clynnog Fawr",
+          "Cwm-y-Glo",
+          "Deiniolen",
+          "Dinorwig",
+          "Dyffryn Ardudwy",
+          "Edern",
+          "Garndolbenmaen",
+          "Garreg Llanfrothen",
+          "Groeslon",
+          "Llan Ffestiniog",
+          "Llanaelhaearn",
+          "Llandygai",
+          "Llanelltyd",
+          "Llanengan",
+          "Llanfachreth",
+          "Llanfor",
+          "Llanfrothen",
+          "Llangian",
+          "Llangybi",
+          "Llanllyfni",
+          "Llanrug",
+          "Llithfaen",
+          "Minffordd",
+          "Nantlle",
+          "Pistyll",
+          "Rhiw",
+          "Rhosgadfan",
+          "Rhostryfan",
+          "Rhydymain",
+          "Sarn Mellteyrn",
+          "Tal-y-llyn",
+          "Talsarnau",
+          "Talysarn",
+          "Tanygrisiau",
+          "Tregarth",
+          "Tremadog",
+          "Tudweiliog",
+          "Waunfawr",
+          "Y Fron"
+        ]
+      }
+    },
+    "boundaries": {
+      "officialOrHighConfidence": 43,
+      "lowConfidenceFallbacks": 59,
+      "townsWithAdjoiningPublicGreenSpaces": 73,
+      "adjoiningPublicGreenSpaces": 507
+    },
+    "heatMapDates": {
+      "historicFeatures": 4288,
+      "datedFeatures": 2221,
+      "coveragePercent": 51.8,
+      "townsBelow50Percent": [
+        "Abererch",
+        "Abergynolwyn",
+        "Arthog",
+        "Bala",
+        "Bangor",
+        "Beddgelert",
+        "Bontnewydd",
+        "Bryncrug",
+        "Caeathro",
+        "Dolgellau",
+        "Dyffryn Ardudwy",
+        "Llandwrog",
+        "Llandygai",
+        "Llanegryn",
+        "Llanuwchllyn",
+        "Llanystumdwy",
+        "Maentwrog",
+        "Nant Peris",
+        "Nantlle",
+        "Penmaenpool",
+        "Porthdinllaen",
+        "Portmeirion",
+        "Pwllheli",
+        "Tremadog",
+        "Waunfawr"
+      ],
+      "townsBelow100Percent": [
+        "Aberdaron",
+        "Aberdyfi",
+        "Abererch",
+        "Abergwyngregyn",
+        "Abergynolwyn",
+        "Abersoch",
+        "Arthog",
+        "Bala",
+        "Bangor",
+        "Barmouth (Abermaw)",
+        "Beddgelert",
+        "Bethesda",
+        "Betws Garmon",
+        "Blaenau Ffestiniog",
+        "Bontddu",
+        "Bontnewydd",
+        "Borth-y-Gest",
+        "Brithdir",
+        "Bryncrug",
+        "Brynrefail",
+        "Caeathro",
+        "Caernarfon",
+        "Chwilog",
+        "Clynnog Fawr",
+        "Corris",
+        "Criccieth",
+        "Croesor",
+        "Cwm-y-Glo",
+        "Deiniolen",
+        "Dinas Dinlle",
+        "Dinas Mawddwy",
+        "Dinorwig",
+        "Dolgellau",
+        "Dyffryn Ardudwy",
+        "Edern",
+        "Ganllwyd",
+        "Garndolbenmaen",
+        "Garreg Llanfrothen",
+        "Harlech",
+        "Llan Ffestiniog",
+        "Llanaelhaearn",
+        "Llanbedr",
+        "Llanbedrog",
+        "Llanberis",
+        "Llandwrog",
+        "Llandygai",
+        "Llanegryn",
+        "Llanelltyd",
+        "Llanengan",
+        "Llanfachreth",
+        "Llanfihangel-y-Pennant",
+        "Llanfor",
+        "Llanfrothen",
+        "Llangian",
+        "Llangybi",
+        "Llanllyfni",
+        "Llanrug",
+        "Llanuwchllyn",
+        "Llanystumdwy",
+        "Llithfaen",
+        "Llwyngwril",
+        "Maentwrog",
+        "Mallwyd",
+        "Minffordd",
+        "Morfa Bychan",
+        "Morfa Nefyn",
+        "Mynytho",
+        "Nant Peris",
+        "Nantlle",
+        "Nantmor",
+        "Nefyn",
+        "Penmaenpool",
+        "Pennal",
+        "Penrhyndeudraeth",
+        "Penygroes",
+        "Pistyll",
+        "Porthdinllaen",
+        "Porthmadog",
+        "Portmeirion",
+        "Pwllheli",
+        "Rhiw",
+        "Rhosgadfan",
+        "Rhostryfan",
+        "Rhyd Ddu",
+        "Rhydymain",
+        "Sarn Mellteyrn",
+        "Tal-y-bont",
+        "Tal-y-llyn",
+        "Talsarnau",
+        "Talysarn",
+        "Tanygrisiau",
+        "Trawsfynydd",
+        "Trefor",
+        "Tregarth",
+        "Tremadog",
+        "Tudweiliog",
+        "Tywyn",
+        "Waunfawr",
+        "Y Felinheli",
+        "Y Fron"
+      ]
+    },
+    "dogAccess": {
+      "attractions": {
+        "total": 232,
+        "explicit": 81,
+        "unconfirmed": 151,
+        "towns": [
+          "Aberdaron",
+          "Abererch",
+          "Bala",
+          "Bangor",
+          "Barmouth (Abermaw)",
+          "Beddgelert",
+          "Betws Garmon",
+          "Blaenau Ffestiniog",
+          "Bontnewydd",
+          "Borth-y-Gest",
+          "Caernarfon",
+          "Clynnog Fawr",
+          "Corris",
+          "Criccieth",
+          "Dolgellau",
+          "Dyffryn Ardudwy",
+          "Edern",
+          "Ganllwyd",
+          "Garreg Llanfrothen",
+          "Harlech",
+          "Llan Ffestiniog",
+          "Llanaelhaearn",
+          "Llanbedr",
+          "Llanbedrog",
+          "Llanberis",
+          "Llandwrog",
+          "Llandygai",
+          "Llanegryn",
+          "Llanelltyd",
+          "Llanengan",
+          "Llanfihangel-y-Pennant",
+          "Llanfor",
+          "Llanfrothen",
+          "Llangian",
+          "Llangybi",
+          "Llanllyfni",
+          "Llanuwchllyn",
+          "Llanystumdwy",
+          "Llwyngwril",
+          "Maentwrog",
+          "Mallwyd",
+          "Nant Peris",
+          "Nantmor",
+          "Nefyn",
+          "Pennal",
+          "Penrhyndeudraeth",
+          "Pistyll",
+          "Porthmadog",
+          "Portmeirion",
+          "Pwllheli",
+          "Rhosgadfan",
+          "Rhostryfan",
+          "Tal-y-bont",
+          "Talsarnau",
+          "Tanygrisiau",
+          "Trawsfynydd",
+          "Trefor",
+          "Tregarth",
+          "Tremadog",
+          "Tudweiliog",
+          "Tywyn",
+          "Waunfawr"
+        ]
+      },
+      "eat": {
+        "total": 214,
+        "explicit": 8,
+        "unconfirmed": 206,
+        "towns": [
+          "Aberdaron",
+          "Aberdyfi",
+          "Abergwyngregyn",
+          "Abersoch",
+          "Bala",
+          "Bangor",
+          "Barmouth (Abermaw)",
+          "Beddgelert",
+          "Bethesda",
+          "Blaenau Ffestiniog",
+          "Bontnewydd",
+          "Borth-y-Gest",
+          "Brynrefail",
+          "Caernarfon",
+          "Corris",
+          "Criccieth",
+          "Croesor",
+          "Cwm-y-Glo",
+          "Dinas Dinlle",
+          "Dinorwig",
+          "Dolgellau",
+          "Dyffryn Ardudwy",
+          "Fairbourne",
+          "Harlech",
+          "Llanbedr",
+          "Llanbedrog",
+          "Llanberis",
+          "Llandygai",
+          "Llanystumdwy",
+          "Mallwyd",
+          "Morfa Nefyn",
+          "Nant Peris",
+          "Nantlle",
+          "Nefyn",
+          "Penmaenpool",
+          "Penrhyndeudraeth",
+          "Penygroes",
+          "Porthmadog",
+          "Portmeirion",
+          "Pwllheli",
+          "Rhyd Ddu",
+          "Tal-y-bont",
+          "Trefor",
+          "Tywyn",
+          "Y Felinheli"
+        ]
+      }
+    },
+    "parkingChargeResearch": 347
+  },
+  "hardFailures": {
+    "missingPackages": [],
+    "unexpectedPackages": [],
+    "duplicateProjectIds": [],
+    "duplicateLocalities": [],
+    "missingVisitorAudits": [],
+    "boundaryFailures": [],
+    "sourceFailures": [],
+    "hardVisitorIssues": [],
+    "batchCheckFailures": [],
+    "generatorFailures": 0
+  },
+  "researchQueues": {
+    "lowConfidenceBoundaries": [
+      "Aberdaron",
+      "Aberdyfi",
+      "Abererch",
+      "Abergwyngregyn",
+      "Abergynolwyn",
+      "Arthog",
+      "Bala",
+      "Beddgelert",
+      "Betws Garmon",
+      "Bontddu",
+      "Borth-y-Gest",
+      "Brithdir",
+      "Brynrefail",
+      "Clynnog Fawr",
+      "Corris",
+      "Croesor",
+      "Cwm-y-Glo",
+      "Deiniolen",
+      "Dinas Dinlle",
+      "Dinas Mawddwy",
+      "Dinorwig",
+      "Edern",
+      "Ganllwyd",
+      "Garndolbenmaen",
+      "Garreg Llanfrothen",
+      "Llanaelhaearn",
+      "Llanegryn",
+      "Llanelltyd",
+      "Llanengan",
+      "Llanfachreth",
+      "Llanfihangel-y-Pennant",
+      "Llanfor",
+      "Llanfrothen",
+      "Llangian",
+      "Llangybi",
+      "Llanuwchllyn",
+      "Llanystumdwy",
+      "Llithfaen",
+      "Maentwrog",
+      "Mallwyd",
+      "Minffordd",
+      "Nant Peris",
+      "Nantlle",
+      "Nantmor",
+      "Penmaenpool",
+      "Pennal",
+      "Pistyll",
+      "Porthdinllaen",
+      "Portmeirion",
+      "Rhiw",
+      "Rhosgadfan",
+      "Rhyd Ddu",
+      "Rhydymain",
+      "Sarn Mellteyrn",
+      "Tal-y-llyn",
+      "Talsarnau",
+      "Tanygrisiau",
+      "Tudweiliog",
+      "Y Fron"
+    ],
+    "townsWithoutValidTrails": [
+      "Aberdaron",
+      "Abererch",
+      "Abergwyngregyn",
+      "Abergynolwyn",
+      "Abersoch",
+      "Arthog",
+      "Bala",
+      "Bangor",
+      "Barmouth (Abermaw)",
+      "Bethesda",
+      "Betws Garmon",
+      "Blaenau Ffestiniog",
+      "Bontddu",
+      "Bontnewydd",
+      "Borth-y-Gest",
+      "Brithdir",
+      "Bryncrug",
+      "Brynrefail",
+      "Caeathro",
+      "Chwilog",
+      "Clynnog Fawr",
+      "Corris",
+      "Criccieth",
+      "Croesor",
+      "Cwm-y-Glo",
+      "Deiniolen",
+      "Dinas Dinlle",
+      "Dinas Mawddwy",
+      "Dinorwig",
+      "Dolgellau",
+      "Dyffryn Ardudwy",
+      "Edern",
+      "Fairbourne",
+      "Ganllwyd",
+      "Garndolbenmaen",
+      "Garreg Llanfrothen",
+      "Groeslon",
+      "Harlech",
+      "Llan Ffestiniog",
+      "Llanaelhaearn",
+      "Llanbedr",
+      "Llanbedrog",
+      "Llandwrog",
+      "Llandygai",
+      "Llanegryn",
+      "Llanelltyd",
+      "Llanengan",
+      "Llanfachreth",
+      "Llanfihangel-y-Pennant",
+      "Llanfor",
+      "Llanfrothen",
+      "Llangian",
+      "Llangybi",
+      "Llanllyfni",
+      "Llanrug",
+      "Llanuwchllyn",
+      "Llanystumdwy",
+      "Llithfaen",
+      "Llwyngwril",
+      "Maentwrog",
+      "Mallwyd",
+      "Minffordd",
+      "Morfa Bychan",
+      "Morfa Nefyn",
+      "Mynytho",
+      "Nant Peris",
+      "Nantlle",
+      "Nantmor",
+      "Nefyn",
+      "Penmaenpool",
+      "Pennal",
+      "Penrhyndeudraeth",
+      "Penygroes",
+      "Pistyll",
+      "Porthdinllaen",
+      "Portmeirion",
+      "Pwllheli",
+      "Rhiw",
+      "Rhosgadfan",
+      "Rhostryfan",
+      "Rhyd Ddu",
+      "Rhydymain",
+      "Sarn Mellteyrn",
+      "Tal-y-bont",
+      "Tal-y-llyn",
+      "Talsarnau",
+      "Talysarn",
+      "Tanygrisiau",
+      "Trawsfynydd",
+      "Trefor",
+      "Tregarth",
+      "Tremadog",
+      "Tudweiliog",
+      "Tywyn",
+      "Waunfawr",
+      "Y Felinheli",
+      "Y Fron"
+    ],
+    "townsWithoutSee": [
+      "Aberdyfi",
+      "Abergynolwyn",
+      "Abersoch",
+      "Arthog",
+      "Bethesda",
+      "Bontddu",
+      "Bryncrug",
+      "Brynrefail",
+      "Caeathro",
+      "Chwilog",
+      "Cwm-y-Glo",
+      "Deiniolen",
+      "Dinas Mawddwy",
+      "Dinorwig",
+      "Fairbourne",
+      "Garndolbenmaen",
+      "Groeslon",
+      "Llanfachreth",
+      "Llanrug",
+      "Llithfaen",
+      "Minffordd",
+      "Morfa Bychan",
+      "Morfa Nefyn",
+      "Mynytho",
+      "Nantlle",
+      "Penygroes",
+      "Rhiw",
+      "Rhyd Ddu",
+      "Rhydymain",
+      "Sarn Mellteyrn",
+      "Tal-y-llyn",
+      "Talysarn",
+      "Y Felinheli"
+    ],
+    "townsWithoutDaytimeEat": [
+      "Abererch",
+      "Abergynolwyn",
+      "Arthog",
+      "Betws Garmon",
+      "Bontddu",
+      "Brithdir",
+      "Bryncrug",
+      "Caeathro",
+      "Chwilog",
+      "Clynnog Fawr",
+      "Deiniolen",
+      "Dinas Mawddwy",
+      "Edern",
+      "Ganllwyd",
+      "Garndolbenmaen",
+      "Garreg Llanfrothen",
+      "Groeslon",
+      "Llan Ffestiniog",
+      "Llanaelhaearn",
+      "Llandwrog",
+      "Llanegryn",
+      "Llanelltyd",
+      "Llanengan",
+      "Llanfachreth",
+      "Llanfihangel-y-Pennant",
+      "Llanfor",
+      "Llanfrothen",
+      "Llangian",
+      "Llangybi",
+      "Llanllyfni",
+      "Llanrug",
+      "Llanuwchllyn",
+      "Llithfaen",
+      "Llwyngwril",
+      "Maentwrog",
+      "Minffordd",
+      "Morfa Bychan",
+      "Mynytho",
+      "Nantmor",
+      "Pennal",
+      "Pistyll",
+      "Porthdinllaen",
+      "Rhiw",
+      "Rhosgadfan",
+      "Rhostryfan",
+      "Rhydymain",
+      "Sarn Mellteyrn",
+      "Tal-y-llyn",
+      "Talsarnau",
+      "Talysarn",
+      "Tanygrisiau",
+      "Trawsfynydd",
+      "Tregarth",
+      "Tremadog",
+      "Waunfawr",
+      "Y Fron"
+    ],
+    "townsWithoutPicnic": [
+      "Aberdyfi",
+      "Abererch",
+      "Abergwyngregyn",
+      "Abergynolwyn",
+      "Abersoch",
+      "Bala",
+      "Bangor",
+      "Barmouth (Abermaw)",
+      "Beddgelert",
+      "Bethesda",
+      "Betws Garmon",
+      "Bontddu",
+      "Bontnewydd",
+      "Borth-y-Gest",
+      "Brithdir",
+      "Bryncrug",
+      "Brynrefail",
+      "Caeathro",
+      "Caernarfon",
+      "Chwilog",
+      "Clynnog Fawr",
+      "Corris",
+      "Criccieth",
+      "Croesor",
+      "Cwm-y-Glo",
+      "Deiniolen",
+      "Dinas Dinlle",
+      "Dinas Mawddwy",
+      "Dinorwig",
+      "Dyffryn Ardudwy",
+      "Edern",
+      "Fairbourne",
+      "Ganllwyd",
+      "Garndolbenmaen",
+      "Garreg Llanfrothen",
+      "Groeslon",
+      "Harlech",
+      "Llan Ffestiniog",
+      "Llanaelhaearn",
+      "Llanbedr",
+      "Llanbedrog",
+      "Llanberis",
+      "Llandwrog",
+      "Llandygai",
+      "Llanegryn",
+      "Llanengan",
+      "Llanfachreth",
+      "Llanfihangel-y-Pennant",
+      "Llanfor",
+      "Llanfrothen",
+      "Llangian",
+      "Llangybi",
+      "Llanllyfni",
+      "Llanrug",
+      "Llanuwchllyn",
+      "Llanystumdwy",
+      "Llithfaen",
+      "Llwyngwril",
+      "Maentwrog",
+      "Mallwyd",
+      "Minffordd",
+      "Morfa Bychan",
+      "Morfa Nefyn",
+      "Mynytho",
+      "Nant Peris",
+      "Nantlle",
+      "Nefyn",
+      "Penmaenpool",
+      "Pennal",
+      "Penrhyndeudraeth",
+      "Penygroes",
+      "Pistyll",
+      "Porthdinllaen",
+      "Porthmadog",
+      "Portmeirion",
+      "Pwllheli",
+      "Rhiw",
+      "Rhosgadfan",
+      "Rhyd Ddu",
+      "Rhydymain",
+      "Sarn Mellteyrn",
+      "Tal-y-bont",
+      "Tal-y-llyn",
+      "Talsarnau",
+      "Talysarn",
+      "Tanygrisiau",
+      "Trawsfynydd",
+      "Trefor",
+      "Tregarth",
+      "Tremadog",
+      "Tudweiliog",
+      "Tywyn",
+      "Waunfawr",
+      "Y Felinheli",
+      "Y Fron"
+    ],
+    "townsWithoutParking": [
+      "Abererch",
+      "Betws Garmon",
+      "Brithdir",
+      "Llanegryn",
+      "Llanengan",
+      "Llanfor",
+      "Llanfrothen",
+      "Llangian",
+      "Llangybi",
+      "Llanystumdwy",
+      "Llithfaen",
+      "Mallwyd",
+      "Rhiw",
+      "Sarn Mellteyrn",
+      "Talysarn",
+      "Tregarth",
+      "Y Fron"
+    ],
+    "townsWithoutToilets": [
+      "Abererch",
+      "Arthog",
+      "Betws Garmon",
+      "Bontddu",
+      "Bontnewydd",
+      "Brithdir",
+      "Brynrefail",
+      "Caeathro",
+      "Chwilog",
+      "Clynnog Fawr",
+      "Cwm-y-Glo",
+      "Deiniolen",
+      "Dinorwig",
+      "Dyffryn Ardudwy",
+      "Edern",
+      "Garndolbenmaen",
+      "Garreg Llanfrothen",
+      "Groeslon",
+      "Llan Ffestiniog",
+      "Llanaelhaearn",
+      "Llandygai",
+      "Llanelltyd",
+      "Llanengan",
+      "Llanfachreth",
+      "Llanfor",
+      "Llanfrothen",
+      "Llangian",
+      "Llangybi",
+      "Llanllyfni",
+      "Llanrug",
+      "Llithfaen",
+      "Minffordd",
+      "Nantlle",
+      "Pistyll",
+      "Rhiw",
+      "Rhosgadfan",
+      "Rhostryfan",
+      "Rhydymain",
+      "Sarn Mellteyrn",
+      "Tal-y-llyn",
+      "Talsarnau",
+      "Talysarn",
+      "Tanygrisiau",
+      "Tregarth",
+      "Tremadog",
+      "Tudweiliog",
+      "Waunfawr",
+      "Y Fron"
+    ],
+    "dogAccess": {
+      "attractions": {
+        "total": 232,
+        "explicit": 81,
+        "unconfirmed": 151,
+        "towns": [
+          "Aberdaron",
+          "Abererch",
+          "Bala",
+          "Bangor",
+          "Barmouth (Abermaw)",
+          "Beddgelert",
+          "Betws Garmon",
+          "Blaenau Ffestiniog",
+          "Bontnewydd",
+          "Borth-y-Gest",
+          "Caernarfon",
+          "Clynnog Fawr",
+          "Corris",
+          "Criccieth",
+          "Dolgellau",
+          "Dyffryn Ardudwy",
+          "Edern",
+          "Ganllwyd",
+          "Garreg Llanfrothen",
+          "Harlech",
+          "Llan Ffestiniog",
+          "Llanaelhaearn",
+          "Llanbedr",
+          "Llanbedrog",
+          "Llanberis",
+          "Llandwrog",
+          "Llandygai",
+          "Llanegryn",
+          "Llanelltyd",
+          "Llanengan",
+          "Llanfihangel-y-Pennant",
+          "Llanfor",
+          "Llanfrothen",
+          "Llangian",
+          "Llangybi",
+          "Llanllyfni",
+          "Llanuwchllyn",
+          "Llanystumdwy",
+          "Llwyngwril",
+          "Maentwrog",
+          "Mallwyd",
+          "Nant Peris",
+          "Nantmor",
+          "Nefyn",
+          "Pennal",
+          "Penrhyndeudraeth",
+          "Pistyll",
+          "Porthmadog",
+          "Portmeirion",
+          "Pwllheli",
+          "Rhosgadfan",
+          "Rhostryfan",
+          "Tal-y-bont",
+          "Talsarnau",
+          "Tanygrisiau",
+          "Trawsfynydd",
+          "Trefor",
+          "Tregarth",
+          "Tremadog",
+          "Tudweiliog",
+          "Tywyn",
+          "Waunfawr"
+        ]
+      },
+      "eat": {
+        "total": 214,
+        "explicit": 8,
+        "unconfirmed": 206,
+        "towns": [
+          "Aberdaron",
+          "Aberdyfi",
+          "Abergwyngregyn",
+          "Abersoch",
+          "Bala",
+          "Bangor",
+          "Barmouth (Abermaw)",
+          "Beddgelert",
+          "Bethesda",
+          "Blaenau Ffestiniog",
+          "Bontnewydd",
+          "Borth-y-Gest",
+          "Brynrefail",
+          "Caernarfon",
+          "Corris",
+          "Criccieth",
+          "Croesor",
+          "Cwm-y-Glo",
+          "Dinas Dinlle",
+          "Dinorwig",
+          "Dolgellau",
+          "Dyffryn Ardudwy",
+          "Fairbourne",
+          "Harlech",
+          "Llanbedr",
+          "Llanbedrog",
+          "Llanberis",
+          "Llandygai",
+          "Llanystumdwy",
+          "Mallwyd",
+          "Morfa Nefyn",
+          "Nant Peris",
+          "Nantlle",
+          "Nefyn",
+          "Penmaenpool",
+          "Penrhyndeudraeth",
+          "Penygroes",
+          "Porthmadog",
+          "Portmeirion",
+          "Pwllheli",
+          "Rhyd Ddu",
+          "Tal-y-bont",
+          "Trefor",
+          "Tywyn",
+          "Y Felinheli"
+        ]
+      }
+    },
+    "parkingCharges": [
+      {
+        "projectId": "aberdaron-gwynedd-wales",
+        "featureId": "osm-community:way-125964057",
+        "name": "Becws Islyn Bakery car park"
+      },
+      {
+        "projectId": "aberdyfi-gwynedd-wales",
+        "featureId": "osm-community:way-512398885",
+        "name": "West Aberdyfi car park 2"
+      },
+      {
+        "projectId": "aberdyfi-gwynedd-wales",
+        "featureId": "osm-community:way-1227084602",
+        "name": "Cambrian Line car park"
+      },
+      {
+        "projectId": "aberdyfi-gwynedd-wales",
+        "featureId": "osm-community:way-1468100944",
+        "name": "Coast Deli & Dining car park"
+      },
+      {
+        "projectId": "aberdyfi-gwynedd-wales",
+        "featureId": "osm-community:way-1470015690",
+        "name": "West Aberdyfi car park 6"
+      },
+      {
+        "projectId": "abergwyngregyn-gwynedd-wales",
+        "featureId": "osm-community:way-51070069",
+        "name": "Gwibffordd Gogledd Cymru / North Wales Expressway car park"
+      },
+      {
+        "projectId": "abergynolwyn-gwynedd-wales",
+        "featureId": "osm-community:way-134998784",
+        "name": "Railway Inn car park"
+      },
+      {
+        "projectId": "abersoch-gwynedd-wales",
+        "featureId": "osm-community:way-355250191",
+        "name": "St Tudwals Inn car park"
+      },
+      {
+        "projectId": "abersoch-gwynedd-wales",
+        "featureId": "osm-community:way-355254537",
+        "name": "nwdl car park"
+      },
+      {
+        "projectId": "abersoch-gwynedd-wales",
+        "featureId": "osm-community:way-355254542",
+        "name": "Mañana car park"
+      },
+      {
+        "projectId": "bala-gwynedd-wales",
+        "featureId": "osm-community:way-633945651",
+        "name": "Tomen Y Bala Castle car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:node-324408440",
+        "name": "Blue Sky Café car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:node-601517650",
+        "name": "The Antelope car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-23231136",
+        "name": "Aroy Dee Thai Noodle Bar car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-29435774",
+        "name": "University Car Park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-35682769",
+        "name": "St David's"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-39328635",
+        "name": "Lord Nelson car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-45495317",
+        "name": "Kyffin Square"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-45496134",
+        "name": "Castle Hill"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-51548396",
+        "name": "OliveTreeBakery car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-52603965",
+        "name": "West Bangor car park 19"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-52603979",
+        "name": "North Bangor car park 20"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-105694951",
+        "name": "Victoria Park car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-135665139",
+        "name": "West Bangor car park 24"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-137195188",
+        "name": "West Bangor car park 25"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-137195190",
+        "name": "West Bangor car park 26"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-137197295",
+        "name": "West Bangor car park 27"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-137211823",
+        "name": "West Bangor car park 28"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-137211824",
+        "name": "West Bangor car park 29"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-137211831",
+        "name": "West Bangor car park 30"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-137212431",
+        "name": "West Bangor car park 31"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-137212432",
+        "name": "West Bangor car park 32"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-137212433",
+        "name": "West Bangor car park 33"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-137212435",
+        "name": "West Bangor car park 34"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-137212436",
+        "name": "West Bangor car park 35"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-137216139",
+        "name": "West Bangor car park 36"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-137216143",
+        "name": "West Bangor car park 37"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-145907544",
+        "name": "Cerrig yr Orsedd car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-151146211",
+        "name": "Bangor City F.C."
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-154817500",
+        "name": "South-west Bangor car park 41"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-154817501",
+        "name": "St Peter's Church car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-158556862",
+        "name": "The Castle car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-203516395",
+        "name": "North Bangor car park 49"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-203516397",
+        "name": "North Bangor car park 50"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-203879325",
+        "name": "North Bangor car park 51"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-203879326",
+        "name": "North Bangor car park 52"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-220320356",
+        "name": "University Parking"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-301325461",
+        "name": "West Bangor car park 56"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-305851594",
+        "name": "Capel Berea Newydd car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-326403165",
+        "name": "South-west Bangor car park 61"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-356323915",
+        "name": "North-west Bangor car park 62"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-356323916",
+        "name": "North-west Bangor car park 63"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-356323917",
+        "name": "North-west Bangor car park 64"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-356323918",
+        "name": "North-west Bangor car park 65"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-356521015",
+        "name": "North-east Bangor car park 66"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-356521016",
+        "name": "North-east Bangor car park 67"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-356571993",
+        "name": "East Bangor car park 68"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-356571994",
+        "name": "East Bangor car park 69"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-356574142",
+        "name": "East Bangor car park 70"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-356574143",
+        "name": "East Bangor car park 71"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-356574144",
+        "name": "East Bangor car park 72"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-356574145",
+        "name": "East Bangor car park 73"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-356574146",
+        "name": "East Bangor car park 74"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-356574147",
+        "name": "East Bangor car park 75"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-395885200",
+        "name": "Kingdom Hall car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-395885217",
+        "name": "South-west Bangor car park 77"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-404547304",
+        "name": "South-west Bangor car park 79"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-404547306",
+        "name": "South-west Bangor car park 80"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-404547307",
+        "name": "South-west Bangor car park 81"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-404547308",
+        "name": "South-west Bangor car park 82"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-537517076",
+        "name": "1884 car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-713130567",
+        "name": "West Bangor car park 86"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-713130574",
+        "name": "West Bangor car park 87"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-1053713085",
+        "name": "East Bangor car park 88"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-1069391803",
+        "name": "Kyffin car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-1069397752",
+        "name": "East Bangor car park 90"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-1069398446",
+        "name": "East Bangor car park 91"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-1069669231",
+        "name": "Clena car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-1070001689",
+        "name": "Y Glôb car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-1070792573",
+        "name": "South-west Bangor car park 96"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-1186163565",
+        "name": "Lucky's Diner car park"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-1186240496",
+        "name": "North-east Bangor car park 99"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-1186299033",
+        "name": "North Bangor car park 101"
+      },
+      {
+        "projectId": "bangor-gwynedd-wales",
+        "featureId": "osm-community:way-1375370589",
+        "name": "Cove Rum And Coffee car park"
+      },
+      {
+        "projectId": "barmouth-abermaw-gwynedd-wales",
+        "featureId": "osm-community:way-290055454",
+        "name": "Barmouth Elim Church car park"
+      },
+      {
+        "projectId": "barmouth-abermaw-gwynedd-wales",
+        "featureId": "osm-community:way-290081480",
+        "name": "Capel Parsel car park"
+      },
+      {
+        "projectId": "barmouth-abermaw-gwynedd-wales",
+        "featureId": "osm-community:way-332936458",
+        "name": "East Barmouth (Abermaw) car park 13"
+      },
+      {
+        "projectId": "barmouth-abermaw-gwynedd-wales",
+        "featureId": "osm-community:way-332953701",
+        "name": "Greener's car park"
+      },
+      {
+        "projectId": "barmouth-abermaw-gwynedd-wales",
+        "featureId": "osm-community:way-418660137",
+        "name": "South-east Barmouth (Abermaw) car park 17"
+      },
+      {
+        "projectId": "bethesda-gwynedd-wales",
+        "featureId": "osm-community:way-47439665",
+        "name": "Bethania car park"
+      },
+      {
+        "projectId": "bethesda-gwynedd-wales",
+        "featureId": "osm-community:way-228553126",
+        "name": "North-west Bethesda car park 4"
+      },
+      {
+        "projectId": "bethesda-gwynedd-wales",
+        "featureId": "osm-community:way-395985206",
+        "name": "North Bethesda car park 8"
+      },
+      {
+        "projectId": "bethesda-gwynedd-wales",
+        "featureId": "osm-community:way-395988473",
+        "name": "Llawr y Nant car park"
+      },
+      {
+        "projectId": "bethesda-gwynedd-wales",
+        "featureId": "osm-community:way-404572840",
+        "name": "Caffi Coed Y Brenin car park"
+      },
+      {
+        "projectId": "bethesda-gwynedd-wales",
+        "featureId": "osm-community:way-1524356260",
+        "name": "Tafarn Tryfan car park"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:node-3760036388",
+        "name": "Eglwys Dewi Sant car park"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-143240345",
+        "name": "Lord Street car park"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-230702970",
+        "name": "Newborough Street car park"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-236704854",
+        "name": "Cae Clyd Parking"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-262715057",
+        "name": "The Church of All Saints of Wales car park"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-272200676",
+        "name": "Isallt Bed & Breakfast & Light Lunches car park"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-372075139",
+        "name": "King's Head car park"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-372445883",
+        "name": "Ffestiniog Railway car park"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-372879041",
+        "name": "Oakeley Square car park"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-372887502",
+        "name": "Bala and Festiniog Railway car park"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-372888041",
+        "name": "Conwy Valley Line car park"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-461362610",
+        "name": "The Wynne's Arms car park"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-462126747",
+        "name": "DeNiro's Licensed Café car park"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-462175481",
+        "name": "North Blaenau Ffestiniog car park 26"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-1037435548",
+        "name": "Tan-y-Graig Restaurant car park"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-1149860344",
+        "name": "West Blaenau Ffestiniog car park 31"
+      },
+      {
+        "projectId": "blaenau-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-1503467741",
+        "name": "Glynllifon Street car park"
+      },
+      {
+        "projectId": "bontddu-gwynedd-wales",
+        "featureId": "osm-community:way-536160244",
+        "name": "West Bontddu car park"
+      },
+      {
+        "projectId": "bontddu-gwynedd-wales",
+        "featureId": "osm-community:way-536160261",
+        "name": "East Bontddu car park 2"
+      },
+      {
+        "projectId": "bontddu-gwynedd-wales",
+        "featureId": "osm-community:way-540866903",
+        "name": "North-west Bontddu car park 3"
+      },
+      {
+        "projectId": "bontddu-gwynedd-wales",
+        "featureId": "osm-community:way-540871711",
+        "name": "East Bontddu car park 4"
+      },
+      {
+        "projectId": "bontnewydd-gwynedd-wales",
+        "featureId": "osm-community:way-1033179205",
+        "name": "North Bontnewydd car park 2"
+      },
+      {
+        "projectId": "bryncrug-gwynedd-wales",
+        "featureId": "osm-community:way-952928868",
+        "name": "Yr Ardd Fach car park"
+      },
+      {
+        "projectId": "brynrefail-gwynedd-wales",
+        "featureId": "osm-community:way-403257258",
+        "name": "Caban car park"
+      },
+      {
+        "projectId": "caeathro-gwynedd-wales",
+        "featureId": "osm-community:way-333461030",
+        "name": "Chapel car park"
+      },
+      {
+        "projectId": "caeathro-gwynedd-wales",
+        "featureId": "osm-community:way-1033200705",
+        "name": "West Caeathro car park 2"
+      },
+      {
+        "projectId": "caeathro-gwynedd-wales",
+        "featureId": "osm-community:way-1033200706",
+        "name": "West Caeathro car park 3"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-225185583",
+        "name": "Central Caernarfon car park 3"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-225185593",
+        "name": "North-east Caernarfon car park 4"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-225185594",
+        "name": "North-east Caernarfon car park 5"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-225185608",
+        "name": "North-west Caernarfon car park 6"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-225185609",
+        "name": "Central Caernarfon car park 7"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-225185610",
+        "name": "Central Caernarfon car park 8"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-225185611",
+        "name": "West Caernarfon car park 9"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-242663084",
+        "name": "Caffi Ty Winsh car park"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-263931294",
+        "name": "South-east Caernarfon car park 13"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-263931297",
+        "name": "South-east Caernarfon car park 14"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-265203530",
+        "name": "Caffi Cibyn car park"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-265703719",
+        "name": "South-west Caernarfon car park 16"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-265703729",
+        "name": "South-west Caernarfon car park 17"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-296017001",
+        "name": "South Caernarfon car park 18"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-296082899",
+        "name": "Ty Coz car park"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-296088371",
+        "name": "Yr Harbwr car park"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335363142",
+        "name": "South-east Caernarfon car park 24"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335363149",
+        "name": "South-east Caernarfon car park 25"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335363163",
+        "name": "South-east Caernarfon car park 26"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335369269",
+        "name": "South-east Caernarfon car park 28"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335369271",
+        "name": "South-east Caernarfon car park 29"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335593293",
+        "name": "South-east Caernarfon car park 30"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335593294",
+        "name": "South-east Caernarfon car park 31"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335593299",
+        "name": "South-east Caernarfon car park 32"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335593300",
+        "name": "South-east Caernarfon car park 33"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335593301",
+        "name": "South-east Caernarfon car park 34"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335593302",
+        "name": "South-east Caernarfon car park 35"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335593304",
+        "name": "South-east Caernarfon car park 36"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335593305",
+        "name": "South-east Caernarfon car park 37"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335593306",
+        "name": "South-east Caernarfon car park 38"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-335593307",
+        "name": "South-east Caernarfon car park 39"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-339563578",
+        "name": "South-east Caernarfon car park 40"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-403378985",
+        "name": "Anglesey Arms car park"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-505674803",
+        "name": "Capel Ebeneser car park"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-1256039638",
+        "name": "South Caernarfon car park 54"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-1354655671",
+        "name": "South Caernarfon car park 55"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-1426872049",
+        "name": "Boer War Memorial, Twtil. car park"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-1508257999",
+        "name": "Friction Dynamics Strike car park"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-1509475429",
+        "name": "South Caernarfon car park 61"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-1509475439",
+        "name": "Segontium Roman Fort car park"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-1509827178",
+        "name": "Segontium Visitor Centre car park"
+      },
+      {
+        "projectId": "caernarfon-gwynedd-wales",
+        "featureId": "osm-community:way-1510522726",
+        "name": "Y Twthill car park"
+      },
+      {
+        "projectId": "chwilog-gwynedd-wales",
+        "featureId": "osm-community:node-12553649186",
+        "name": "Glan Y Wern Terrace Parking"
+      },
+      {
+        "projectId": "chwilog-gwynedd-wales",
+        "featureId": "osm-community:way-470459624",
+        "name": "Tafarn Madryn car park"
+      },
+      {
+        "projectId": "corris-gwynedd-wales",
+        "featureId": "osm-community:way-983358179",
+        "name": "The Slaters' Arms car park"
+      },
+      {
+        "projectId": "criccieth-gwynedd-wales",
+        "featureId": "osm-community:way-327480058",
+        "name": "Castell Cricieth car park"
+      },
+      {
+        "projectId": "criccieth-gwynedd-wales",
+        "featureId": "osm-community:way-1298788235",
+        "name": "North-west Criccieth car park 5"
+      },
+      {
+        "projectId": "criccieth-gwynedd-wales",
+        "featureId": "osm-community:way-1298792038",
+        "name": "North-west Criccieth car park 6"
+      },
+      {
+        "projectId": "criccieth-gwynedd-wales",
+        "featureId": "osm-community:way-1429944404",
+        "name": "Tir a Mor car park"
+      },
+      {
+        "projectId": "cwm-y-glo-gwynedd-wales",
+        "featureId": "osm-community:way-230044177",
+        "name": "Morris Bros car park"
+      },
+      {
+        "projectId": "cwm-y-glo-gwynedd-wales",
+        "featureId": "osm-community:way-303203404",
+        "name": "memorial to nitroglycerine explosion 30 Jun 1869 car park"
+      },
+      {
+        "projectId": "deiniolen-gwynedd-wales",
+        "featureId": "osm-community:way-307725962",
+        "name": "Deiniolen War Memorial car park"
+      },
+      {
+        "projectId": "deiniolen-gwynedd-wales",
+        "featureId": "osm-community:way-402825207",
+        "name": "West Deiniolen car park 2"
+      },
+      {
+        "projectId": "dinas-dinlle-gwynedd-wales",
+        "featureId": "osm-community:way-380310079",
+        "name": "North-west Dinas Dinlle car park 4"
+      },
+      {
+        "projectId": "dinas-dinlle-gwynedd-wales",
+        "featureId": "osm-community:way-380449555",
+        "name": "Dinas Dinlle Hillfort car park"
+      },
+      {
+        "projectId": "dinas-mawddwy-gwynedd-wales",
+        "featureId": "osm-community:node-926674998",
+        "name": "Dol-y-Bont Common"
+      },
+      {
+        "projectId": "dinas-mawddwy-gwynedd-wales",
+        "featureId": "osm-community:way-287051156",
+        "name": "The Red Lion car park"
+      },
+      {
+        "projectId": "dinorwig-gwynedd-wales",
+        "featureId": "osm-community:way-477161451",
+        "name": "Lodge Dinorwig car park"
+      },
+      {
+        "projectId": "dolgellau-gwynedd-wales",
+        "featureId": "osm-community:node-229772797",
+        "name": "Dolgellau War Memorial car park"
+      },
+      {
+        "projectId": "dolgellau-gwynedd-wales",
+        "featureId": "osm-community:node-12140852844",
+        "name": "The Unicorn car park"
+      },
+      {
+        "projectId": "dolgellau-gwynedd-wales",
+        "featureId": "osm-community:way-286493379",
+        "name": "DD's Bakery and Sandwich Bar car park"
+      },
+      {
+        "projectId": "dolgellau-gwynedd-wales",
+        "featureId": "osm-community:way-332654382",
+        "name": "East Dolgellau car park 6"
+      },
+      {
+        "projectId": "dolgellau-gwynedd-wales",
+        "featureId": "osm-community:way-463077428",
+        "name": "East Dolgellau car park 9"
+      },
+      {
+        "projectId": "dolgellau-gwynedd-wales",
+        "featureId": "osm-community:way-704394929",
+        "name": "DD's Bakery & Sandwich Bar car park"
+      },
+      {
+        "projectId": "dolgellau-gwynedd-wales",
+        "featureId": "osm-community:way-1127602563",
+        "name": "Pont Yr Arran car park"
+      },
+      {
+        "projectId": "dolgellau-gwynedd-wales",
+        "featureId": "osm-community:way-1312411372",
+        "name": "Ffordd Ty'n Coed car park"
+      },
+      {
+        "projectId": "dyffryn-ardudwy-gwynedd-wales",
+        "featureId": "osm-community:way-289910313",
+        "name": "Capel Horeb car park"
+      },
+      {
+        "projectId": "dyffryn-ardudwy-gwynedd-wales",
+        "featureId": "osm-community:way-289910324",
+        "name": "Caffi Hen Crydd car park"
+      },
+      {
+        "projectId": "dyffryn-ardudwy-gwynedd-wales",
+        "featureId": "osm-community:way-1015814703",
+        "name": "Beddrod Siambr Dyffryn Ardudwy car park"
+      },
+      {
+        "projectId": "dyffryn-ardudwy-gwynedd-wales",
+        "featureId": "osm-community:way-1202616449",
+        "name": "North-east Dyffryn Ardudwy car park 9"
+      },
+      {
+        "projectId": "edern-gwynedd-wales",
+        "featureId": "osm-community:way-56695399",
+        "name": "Woodlands Hotel Car Park"
+      },
+      {
+        "projectId": "fairbourne-gwynedd-wales",
+        "featureId": "osm-community:way-261385966",
+        "name": "Indiana Cuisine car park"
+      },
+      {
+        "projectId": "garndolbenmaen-gwynedd-wales",
+        "featureId": "osm-community:way-385053707",
+        "name": "Horeb Welsh Baptist Church car park"
+      },
+      {
+        "projectId": "garndolbenmaen-gwynedd-wales",
+        "featureId": "osm-community:way-385054802",
+        "name": "South-east Garndolbenmaen car park 2"
+      },
+      {
+        "projectId": "garreg-llanfrothen-gwynedd-wales",
+        "featureId": "osm-community:way-376980213",
+        "name": "East Garreg Llanfrothen car park"
+      },
+      {
+        "projectId": "garreg-llanfrothen-gwynedd-wales",
+        "featureId": "osm-community:way-1504483044",
+        "name": "West Garreg Llanfrothen car park 2"
+      },
+      {
+        "projectId": "groeslon-gwynedd-wales",
+        "featureId": "osm-community:way-444739368",
+        "name": "Tafarn Pennionyn car park"
+      },
+      {
+        "projectId": "groeslon-gwynedd-wales",
+        "featureId": "osm-community:way-959044682",
+        "name": "Central Groeslon car park 3"
+      },
+      {
+        "projectId": "harlech-gwynedd-wales",
+        "featureId": "osm-community:way-331151855",
+        "name": "Ty Capel Moreia car park"
+      },
+      {
+        "projectId": "harlech-gwynedd-wales",
+        "featureId": "osm-community:way-331307886",
+        "name": "Capel Rehoboth car park"
+      },
+      {
+        "projectId": "harlech-gwynedd-wales",
+        "featureId": "osm-community:way-967567294",
+        "name": "West Harlech car park 7"
+      },
+      {
+        "projectId": "llan-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:node-6644820842",
+        "name": "East Llan Ffestiniog car park"
+      },
+      {
+        "projectId": "llan-ffestiniog-gwynedd-wales",
+        "featureId": "osm-community:way-338684653",
+        "name": "Pengwern Arms car park"
+      },
+      {
+        "projectId": "llanaelhaearn-gwynedd-wales",
+        "featureId": "osm-community:way-370647551",
+        "name": "Eglwys Sant Aelhaearn car park"
+      },
+      {
+        "projectId": "llanbedr-gwynedd-wales",
+        "featureId": "osm-community:way-264156010",
+        "name": "North Llanbedr car park"
+      },
+      {
+        "projectId": "llanbedr-gwynedd-wales",
+        "featureId": "osm-community:way-290159081",
+        "name": "The Victoria Inn car park"
+      },
+      {
+        "projectId": "llanbedr-gwynedd-wales",
+        "featureId": "osm-community:way-333691175",
+        "name": "North Llanbedr car park 3"
+      },
+      {
+        "projectId": "llanbedr-gwynedd-wales",
+        "featureId": "osm-community:way-333694908",
+        "name": "North Llanbedr car park 4"
+      },
+      {
+        "projectId": "llanbedrog-gwynedd-wales",
+        "featureId": "osm-community:way-38510823",
+        "name": "Peniel Newydd car park"
+      },
+      {
+        "projectId": "llanbedrog-gwynedd-wales",
+        "featureId": "osm-community:way-355176021",
+        "name": "South-west Llanbedrog car park 4"
+      },
+      {
+        "projectId": "llanbedrog-gwynedd-wales",
+        "featureId": "osm-community:way-355176022",
+        "name": "South-west Llanbedrog car park 5"
+      },
+      {
+        "projectId": "llanbedrog-gwynedd-wales",
+        "featureId": "osm-community:way-1175216750",
+        "name": "East Llanbedrog car park 6"
+      },
+      {
+        "projectId": "llanberis-gwynedd-wales",
+        "featureId": "osm-community:way-330838177",
+        "name": "Platform Grill car park"
+      },
+      {
+        "projectId": "llanberis-gwynedd-wales",
+        "featureId": "osm-community:way-1427162402",
+        "name": "The Heights car park"
+      },
+      {
+        "projectId": "llanberis-gwynedd-wales",
+        "featureId": "osm-community:way-1427162489",
+        "name": "Becws Melyn car park"
+      },
+      {
+        "projectId": "llanberis-gwynedd-wales",
+        "featureId": "osm-community:way-1427162576",
+        "name": "Chloe's car park"
+      },
+      {
+        "projectId": "llanberis-gwynedd-wales",
+        "featureId": "osm-community:way-1427162615",
+        "name": "1085 Bistro car park"
+      },
+      {
+        "projectId": "llanberis-gwynedd-wales",
+        "featureId": "osm-community:way-1506821943",
+        "name": "Church Road car park"
+      },
+      {
+        "projectId": "llandwrog-gwynedd-wales",
+        "featureId": "osm-community:node-12460993649",
+        "name": "Walled Kitchen Garden car park"
+      },
+      {
+        "projectId": "llandwrog-gwynedd-wales",
+        "featureId": "osm-community:way-598334046",
+        "name": "North-east Llandwrog car park 3"
+      },
+      {
+        "projectId": "llandygai-gwynedd-wales",
+        "featureId": "osm-community:way-48472031",
+        "name": "Llandegai Cursus car park"
+      },
+      {
+        "projectId": "llandygai-gwynedd-wales",
+        "featureId": "osm-community:way-362622054",
+        "name": "Llandegai Henge Complex North Henge car park"
+      },
+      {
+        "projectId": "llanfachreth-gwynedd-wales",
+        "featureId": "osm-community:way-383703215",
+        "name": "Central Llanfachreth car park"
+      },
+      {
+        "projectId": "llanfachreth-gwynedd-wales",
+        "featureId": "osm-community:way-383703220",
+        "name": "East Llanfachreth car park 2"
+      },
+      {
+        "projectId": "llanfihangel-y-pennant-gwynedd-wales",
+        "featureId": "osm-community:way-302344065",
+        "name": "Castell y Bere car park"
+      },
+      {
+        "projectId": "llanfihangel-y-pennant-gwynedd-wales",
+        "featureId": "osm-community:way-526569896",
+        "name": "St Michael's Church car park"
+      },
+      {
+        "projectId": "llanllyfni-gwynedd-wales",
+        "featureId": "osm-community:way-278021591",
+        "name": "Eglwys St Rhedyw car park"
+      },
+      {
+        "projectId": "llanllyfni-gwynedd-wales",
+        "featureId": "osm-community:way-287048593",
+        "name": "North Llanllyfni car park 2"
+      },
+      {
+        "projectId": "llanrug-gwynedd-wales",
+        "featureId": "osm-community:way-256241666",
+        "name": "Glyntwrog car park"
+      },
+      {
+        "projectId": "llanrug-gwynedd-wales",
+        "featureId": "osm-community:way-293217876",
+        "name": "West Llanrug car park 3"
+      },
+      {
+        "projectId": "llanrug-gwynedd-wales",
+        "featureId": "osm-community:way-303325664",
+        "name": "West Llanrug car park 4"
+      },
+      {
+        "projectId": "llanrug-gwynedd-wales",
+        "featureId": "osm-community:way-303859439",
+        "name": "West Llanrug car park 5"
+      },
+      {
+        "projectId": "llanrug-gwynedd-wales",
+        "featureId": "osm-community:way-303859444",
+        "name": "West Llanrug car park 6"
+      },
+      {
+        "projectId": "llanrug-gwynedd-wales",
+        "featureId": "osm-community:way-315615761",
+        "name": "West Llanrug car park 7"
+      },
+      {
+        "projectId": "llanrug-gwynedd-wales",
+        "featureId": "osm-community:way-335270557",
+        "name": "Penbont car park"
+      },
+      {
+        "projectId": "llanuwchllyn-gwynedd-wales",
+        "featureId": "osm-community:way-1080923566",
+        "name": "South-east Llanuwchllyn car park 2"
+      },
+      {
+        "projectId": "llanuwchllyn-gwynedd-wales",
+        "featureId": "osm-community:way-1257785963",
+        "name": "South-east Llanuwchllyn car park 3"
+      },
+      {
+        "projectId": "llanuwchllyn-gwynedd-wales",
+        "featureId": "osm-community:way-1257785973",
+        "name": "South-east Llanuwchllyn car park 4"
+      },
+      {
+        "projectId": "llwyngwril-gwynedd-wales",
+        "featureId": "osm-community:way-186132831",
+        "name": "Pont Llwyngwril car park"
+      },
+      {
+        "projectId": "maentwrog-gwynedd-wales",
+        "featureId": "osm-community:way-1508101460",
+        "name": "North-east Maentwrog car park"
+      },
+      {
+        "projectId": "minffordd-gwynedd-wales",
+        "featureId": "osm-community:way-356626774",
+        "name": "South-east Minffordd car park"
+      },
+      {
+        "projectId": "minffordd-gwynedd-wales",
+        "featureId": "osm-community:way-356632028",
+        "name": "High Street car park"
+      },
+      {
+        "projectId": "morfa-bychan-gwynedd-wales",
+        "featureId": "osm-community:way-357911390",
+        "name": "North-west Morfa Bychan car park"
+      },
+      {
+        "projectId": "morfa-bychan-gwynedd-wales",
+        "featureId": "osm-community:way-357911392",
+        "name": "North Morfa Bychan car park 2"
+      },
+      {
+        "projectId": "morfa-bychan-gwynedd-wales",
+        "featureId": "osm-community:way-840527214",
+        "name": "Central Morfa Bychan car park 3"
+      },
+      {
+        "projectId": "morfa-bychan-gwynedd-wales",
+        "featureId": "osm-community:way-840527215",
+        "name": "Central Morfa Bychan car park 4"
+      },
+      {
+        "projectId": "morfa-bychan-gwynedd-wales",
+        "featureId": "osm-community:way-840527216",
+        "name": "Central Morfa Bychan car park 5"
+      },
+      {
+        "projectId": "morfa-nefyn-gwynedd-wales",
+        "featureId": "osm-community:way-1323989209",
+        "name": "St Mary's Church car park"
+      },
+      {
+        "projectId": "mynytho-gwynedd-wales",
+        "featureId": "osm-community:way-38499033",
+        "name": "West Mynytho car park"
+      },
+      {
+        "projectId": "nant-peris-gwynedd-wales",
+        "featureId": "osm-community:way-1426229877",
+        "name": "South-east Nant Peris car park 3"
+      },
+      {
+        "projectId": "nantlle-gwynedd-wales",
+        "featureId": "osm-community:way-1039829150",
+        "name": "Poblado Coffi car park"
+      },
+      {
+        "projectId": "nantlle-gwynedd-wales",
+        "featureId": "osm-community:way-1209793175",
+        "name": "A famous view"
+      },
+      {
+        "projectId": "nefyn-gwynedd-wales",
+        "featureId": "osm-community:way-672056813",
+        "name": "Yr Heliwr car park"
+      },
+      {
+        "projectId": "nefyn-gwynedd-wales",
+        "featureId": "osm-community:way-672056823",
+        "name": "Dwyfor car park"
+      },
+      {
+        "projectId": "nefyn-gwynedd-wales",
+        "featureId": "osm-community:way-672056838",
+        "name": "Eglwys Dewi Sant car park"
+      },
+      {
+        "projectId": "nefyn-gwynedd-wales",
+        "featureId": "osm-community:way-1073254431",
+        "name": "Becws Islyn car park"
+      },
+      {
+        "projectId": "pennal-gwynedd-wales",
+        "featureId": "osm-community:way-1504712189",
+        "name": "St Peter ad Vincula car park"
+      },
+      {
+        "projectId": "penrhyndeudraeth-gwynedd-wales",
+        "featureId": "osm-community:way-200524918",
+        "name": "South-west Penrhyndeudraeth car park 2"
+      },
+      {
+        "projectId": "penrhyndeudraeth-gwynedd-wales",
+        "featureId": "osm-community:way-356631325",
+        "name": "South-west Penrhyndeudraeth car park 4"
+      },
+      {
+        "projectId": "penrhyndeudraeth-gwynedd-wales",
+        "featureId": "osm-community:way-356632028",
+        "name": "South-west Penrhyndeudraeth car park 5"
+      },
+      {
+        "projectId": "penrhyndeudraeth-gwynedd-wales",
+        "featureId": "osm-community:way-371968303",
+        "name": "South-east Penrhyndeudraeth car park 6"
+      },
+      {
+        "projectId": "penrhyndeudraeth-gwynedd-wales",
+        "featureId": "osm-community:way-371968304",
+        "name": "South-east Penrhyndeudraeth car park 7"
+      },
+      {
+        "projectId": "penrhyndeudraeth-gwynedd-wales",
+        "featureId": "osm-community:way-371968323",
+        "name": "Pecwn Bwyd car park"
+      },
+      {
+        "projectId": "penrhyndeudraeth-gwynedd-wales",
+        "featureId": "osm-community:way-371968326",
+        "name": "Royal Oak car park"
+      },
+      {
+        "projectId": "penrhyndeudraeth-gwynedd-wales",
+        "featureId": "osm-community:way-372115405",
+        "name": "Eglwys y Drindod Sanctaidd car park"
+      },
+      {
+        "projectId": "penygroes-gwynedd-wales",
+        "featureId": "osm-community:way-287048193",
+        "name": "Christchurch Penygroes car park"
+      },
+      {
+        "projectId": "penygroes-gwynedd-wales",
+        "featureId": "osm-community:way-306898644",
+        "name": "East Penygroes car park 3"
+      },
+      {
+        "projectId": "penygroes-gwynedd-wales",
+        "featureId": "osm-community:way-475459337",
+        "name": "East Penygroes car park 4"
+      },
+      {
+        "projectId": "penygroes-gwynedd-wales",
+        "featureId": "osm-community:way-475472166",
+        "name": "South-east Penygroes car park 5"
+      },
+      {
+        "projectId": "penygroes-gwynedd-wales",
+        "featureId": "osm-community:way-1498092292",
+        "name": "Deli'r Banc car park"
+      },
+      {
+        "projectId": "pistyll-gwynedd-wales",
+        "featureId": "osm-community:way-297432367",
+        "name": "St Beuno’s Church car park"
+      },
+      {
+        "projectId": "porthdinllaen-gwynedd-wales",
+        "featureId": "osm-community:way-862771486",
+        "name": "North-east Porthdinllaen car park"
+      },
+      {
+        "projectId": "porthdinllaen-gwynedd-wales",
+        "featureId": "osm-community:way-862771487",
+        "name": "North-east Porthdinllaen car park 2"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-35596369",
+        "name": "Catholic Church of the Most Holy Redeemer car park"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-266563054",
+        "name": "Russell Tea Room car park"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-286602172",
+        "name": "North-east Porthmadog car park 5"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-286602173",
+        "name": "North-east Porthmadog car park 6"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-299822067",
+        "name": "High Street car park"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-500278328",
+        "name": "Welsh Highland Railway car park"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-516257117",
+        "name": "Portmeirion Cafe car park"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-516257119",
+        "name": "Neuadd Y Deyrnas Tysion Jehofa car park"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-516257124",
+        "name": "Gelert's Bar car park"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-516266067",
+        "name": "Plas 152 Coffee Room car park"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-516266100",
+        "name": "West Porthmadog car park 16"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-516266101",
+        "name": "West Porthmadog car park 17"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-516266119",
+        "name": "West Porthmadog car park 18"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-516266143",
+        "name": "West Porthmadog car park 19"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-516670469",
+        "name": "Capel Y Porth car park"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-516720301",
+        "name": "Harbour Restaurant car park"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-516775176",
+        "name": "Porthmadog Maritime Museum car park"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-516908831",
+        "name": "Revive car park"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-1298349711",
+        "name": "Bwyd Bendigedig Port / Incredible Edible Porthmadog car park"
+      },
+      {
+        "projectId": "porthmadog-gwynedd-wales",
+        "featureId": "osm-community:way-1306224461",
+        "name": "Ffestiniog and Welsh Highland Railways Porthmadog Car Park"
+      },
+      {
+        "projectId": "portmeirion-gwynedd-wales",
+        "featureId": "osm-community:way-718976944",
+        "name": "North-east Portmeirion car park"
+      },
+      {
+        "projectId": "pwllheli-gwynedd-wales",
+        "featureId": "osm-community:way-38503243",
+        "name": "Capel y Drindod car park"
+      },
+      {
+        "projectId": "pwllheli-gwynedd-wales",
+        "featureId": "osm-community:way-38847151",
+        "name": "Cegin Diego's Kitchen car park"
+      },
+      {
+        "projectId": "pwllheli-gwynedd-wales",
+        "featureId": "osm-community:way-38847152",
+        "name": "Ala Road English Presbyterian Church car park"
+      },
+      {
+        "projectId": "pwllheli-gwynedd-wales",
+        "featureId": "osm-community:way-137241121",
+        "name": "Y Maes"
+      },
+      {
+        "projectId": "pwllheli-gwynedd-wales",
+        "featureId": "osm-community:way-137242472",
+        "name": "The Jewel In The Crown car park"
+      },
+      {
+        "projectId": "pwllheli-gwynedd-wales",
+        "featureId": "osm-community:way-182599100",
+        "name": "Restaurant San Carlo car park"
+      },
+      {
+        "projectId": "pwllheli-gwynedd-wales",
+        "featureId": "osm-community:way-182604210",
+        "name": "Caffi Bistro car park"
+      },
+      {
+        "projectId": "pwllheli-gwynedd-wales",
+        "featureId": "osm-community:way-225974076",
+        "name": "St Joseph's Catholic Church car park"
+      },
+      {
+        "projectId": "pwllheli-gwynedd-wales",
+        "featureId": "osm-community:way-225974077",
+        "name": "South Pwllheli car park 11"
+      },
+      {
+        "projectId": "pwllheli-gwynedd-wales",
+        "featureId": "osm-community:way-1075227569",
+        "name": "Caffi Sol car park"
+      },
+      {
+        "projectId": "pwllheli-gwynedd-wales",
+        "featureId": "osm-community:way-1076644488",
+        "name": "East Pwllheli car park 15"
+      },
+      {
+        "projectId": "pwllheli-gwynedd-wales",
+        "featureId": "osm-community:way-1077006220",
+        "name": "South-west Pwllheli car park 16"
+      },
+      {
+        "projectId": "rhosgadfan-gwynedd-wales",
+        "featureId": "osm-community:way-476739692",
+        "name": "Cae’r Gors car park"
+      },
+      {
+        "projectId": "rhostryfan-gwynedd-wales",
+        "featureId": "osm-community:way-1041829601",
+        "name": "Horeb car park"
+      },
+      {
+        "projectId": "rhydymain-gwynedd-wales",
+        "featureId": "osm-community:node-4477468348",
+        "name": "Pont Rhydymain car park"
+      },
+      {
+        "projectId": "tal-y-bont-gwynedd-wales",
+        "featureId": "osm-community:way-289911537",
+        "name": "Nineteen 57 Restaurant & Bar car park"
+      },
+      {
+        "projectId": "tal-y-bont-gwynedd-wales",
+        "featureId": "osm-community:way-289913513",
+        "name": "Sands Pub car park"
+      },
+      {
+        "projectId": "tal-y-bont-gwynedd-wales",
+        "featureId": "osm-community:way-355805861",
+        "name": "Ysgethin Inn"
+      },
+      {
+        "projectId": "tal-y-bont-gwynedd-wales",
+        "featureId": "osm-community:way-412934301",
+        "name": "Tony's Take-away. Pizza & Pasta car park"
+      },
+      {
+        "projectId": "tal-y-bont-gwynedd-wales",
+        "featureId": "osm-community:way-1204742517",
+        "name": "Ffordd Glan Mor car park"
+      },
+      {
+        "projectId": "tal-y-llyn-gwynedd-wales",
+        "featureId": "osm-community:way-1040009291",
+        "name": "Central Tal-y-llyn car park"
+      },
+      {
+        "projectId": "talsarnau-gwynedd-wales",
+        "featureId": "osm-community:way-1015120331",
+        "name": "Capel Soar car park"
+      },
+      {
+        "projectId": "talsarnau-gwynedd-wales",
+        "featureId": "osm-community:way-1015235692",
+        "name": "Christ Church Talsarnau car park"
+      },
+      {
+        "projectId": "tanygrisiau-gwynedd-wales",
+        "featureId": "osm-community:node-3760802170",
+        "name": "Ffestiniog Railway car park"
+      },
+      {
+        "projectId": "tanygrisiau-gwynedd-wales",
+        "featureId": "osm-community:way-372445883",
+        "name": "Ffordd Cwmorthin car park"
+      },
+      {
+        "projectId": "trawsfynydd-gwynedd-wales",
+        "featureId": "osm-community:way-314046259",
+        "name": "South Trawsfynydd car park"
+      },
+      {
+        "projectId": "trawsfynydd-gwynedd-wales",
+        "featureId": "osm-community:way-428739955",
+        "name": "Cross Foxes car park"
+      },
+      {
+        "projectId": "trefor-gwynedd-wales",
+        "featureId": "osm-community:way-557950622",
+        "name": "Capel Maes-Y-Neuadd car park"
+      },
+      {
+        "projectId": "trefor-gwynedd-wales",
+        "featureId": "osm-community:way-1535040569",
+        "name": "East Trefor car park 4"
+      },
+      {
+        "projectId": "tremadog-gwynedd-wales",
+        "featureId": "osm-community:way-213905038",
+        "name": "Y Sgwâr car park"
+      },
+      {
+        "projectId": "tremadog-gwynedd-wales",
+        "featureId": "osm-community:way-1505792480",
+        "name": "Golden Fleece Inn car park"
+      },
+      {
+        "projectId": "tudweiliog-gwynedd-wales",
+        "featureId": "osm-community:way-1421973410",
+        "name": "Lion Hotel car park"
+      },
+      {
+        "projectId": "tywyn-gwynedd-wales",
+        "featureId": "osm-community:node-1518658098",
+        "name": "Kingdom Hall of Jehovah's Witnesses car park"
+      },
+      {
+        "projectId": "tywyn-gwynedd-wales",
+        "featureId": "osm-community:node-1518728171",
+        "name": "Salt Marsh Kitchen car park"
+      },
+      {
+        "projectId": "tywyn-gwynedd-wales",
+        "featureId": "osm-community:way-129887002",
+        "name": "Pebbles Tea Room car park"
+      },
+      {
+        "projectId": "tywyn-gwynedd-wales",
+        "featureId": "osm-community:way-129887003",
+        "name": "Victorian Slipway car park"
+      },
+      {
+        "projectId": "tywyn-gwynedd-wales",
+        "featureId": "osm-community:way-135175304",
+        "name": "Capel Ebeneser car park"
+      },
+      {
+        "projectId": "tywyn-gwynedd-wales",
+        "featureId": "osm-community:way-136917323",
+        "name": "Tywyn Bakery car park"
+      },
+      {
+        "projectId": "tywyn-gwynedd-wales",
+        "featureId": "osm-community:way-136917327",
+        "name": "Capel Bethel Newydd car park"
+      },
+      {
+        "projectId": "tywyn-gwynedd-wales",
+        "featureId": "osm-community:way-136917328",
+        "name": "Millie & Sid's car park"
+      },
+      {
+        "projectId": "tywyn-gwynedd-wales",
+        "featureId": "osm-community:way-987543880",
+        "name": "Bryn Paderau Memorial Park car park"
+      },
+      {
+        "projectId": "waunfawr-gwynedd-wales",
+        "featureId": "osm-community:way-345679264",
+        "name": "South Waunfawr car park"
+      },
+      {
+        "projectId": "waunfawr-gwynedd-wales",
+        "featureId": "osm-community:way-364575992",
+        "name": "West Waunfawr car park 2"
+      },
+      {
+        "projectId": "waunfawr-gwynedd-wales",
+        "featureId": "osm-community:way-364575998",
+        "name": "West Waunfawr car park 3"
+      },
+      {
+        "projectId": "waunfawr-gwynedd-wales",
+        "featureId": "osm-community:way-728317890",
+        "name": "South-west Waunfawr car park 4"
+      },
+      {
+        "projectId": "waunfawr-gwynedd-wales",
+        "featureId": "osm-community:way-1535087640",
+        "name": "South Waunfawr car park 5"
+      },
+      {
+        "projectId": "waunfawr-gwynedd-wales",
+        "featureId": "osm-community:way-1535087674",
+        "name": "South-east Waunfawr car park 6"
+      },
+      {
+        "projectId": "y-felinheli-gwynedd-wales",
+        "featureId": "osm-community:way-252179299",
+        "name": "Eglwys y Santes Fair car park"
+      },
+      {
+        "projectId": "y-felinheli-gwynedd-wales",
+        "featureId": "osm-community:way-535724991",
+        "name": "Tafarn y Fic car park"
+      },
+      {
+        "projectId": "y-felinheli-gwynedd-wales",
+        "featureId": "osm-community:way-1292824458",
+        "name": "West Y Felinheli car park 8"
+      },
+      {
+        "projectId": "y-felinheli-gwynedd-wales",
+        "featureId": "osm-community:way-1367470560",
+        "name": "The Swellies car park"
+      }
+    ],
+    "heatMapDates": {
+      "townsBelow50Percent": [
+        "Abererch",
+        "Abergynolwyn",
+        "Arthog",
+        "Bala",
+        "Bangor",
+        "Beddgelert",
+        "Bontnewydd",
+        "Bryncrug",
+        "Caeathro",
+        "Dolgellau",
+        "Dyffryn Ardudwy",
+        "Llandwrog",
+        "Llandygai",
+        "Llanegryn",
+        "Llanuwchllyn",
+        "Llanystumdwy",
+        "Maentwrog",
+        "Nant Peris",
+        "Nantlle",
+        "Penmaenpool",
+        "Porthdinllaen",
+        "Portmeirion",
+        "Pwllheli",
+        "Tremadog",
+        "Waunfawr"
+      ],
+      "townsBelow100Percent": [
+        "Aberdaron",
+        "Aberdyfi",
+        "Abererch",
+        "Abergwyngregyn",
+        "Abergynolwyn",
+        "Abersoch",
+        "Arthog",
+        "Bala",
+        "Bangor",
+        "Barmouth (Abermaw)",
+        "Beddgelert",
+        "Bethesda",
+        "Betws Garmon",
+        "Blaenau Ffestiniog",
+        "Bontddu",
+        "Bontnewydd",
+        "Borth-y-Gest",
+        "Brithdir",
+        "Bryncrug",
+        "Brynrefail",
+        "Caeathro",
+        "Caernarfon",
+        "Chwilog",
+        "Clynnog Fawr",
+        "Corris",
+        "Criccieth",
+        "Croesor",
+        "Cwm-y-Glo",
+        "Deiniolen",
+        "Dinas Dinlle",
+        "Dinas Mawddwy",
+        "Dinorwig",
+        "Dolgellau",
+        "Dyffryn Ardudwy",
+        "Edern",
+        "Ganllwyd",
+        "Garndolbenmaen",
+        "Garreg Llanfrothen",
+        "Harlech",
+        "Llan Ffestiniog",
+        "Llanaelhaearn",
+        "Llanbedr",
+        "Llanbedrog",
+        "Llanberis",
+        "Llandwrog",
+        "Llandygai",
+        "Llanegryn",
+        "Llanelltyd",
+        "Llanengan",
+        "Llanfachreth",
+        "Llanfihangel-y-Pennant",
+        "Llanfor",
+        "Llanfrothen",
+        "Llangian",
+        "Llangybi",
+        "Llanllyfni",
+        "Llanrug",
+        "Llanuwchllyn",
+        "Llanystumdwy",
+        "Llithfaen",
+        "Llwyngwril",
+        "Maentwrog",
+        "Mallwyd",
+        "Minffordd",
+        "Morfa Bychan",
+        "Morfa Nefyn",
+        "Mynytho",
+        "Nant Peris",
+        "Nantlle",
+        "Nantmor",
+        "Nefyn",
+        "Penmaenpool",
+        "Pennal",
+        "Penrhyndeudraeth",
+        "Penygroes",
+        "Pistyll",
+        "Porthdinllaen",
+        "Porthmadog",
+        "Portmeirion",
+        "Pwllheli",
+        "Rhiw",
+        "Rhosgadfan",
+        "Rhostryfan",
+        "Rhyd Ddu",
+        "Rhydymain",
+        "Sarn Mellteyrn",
+        "Tal-y-bont",
+        "Tal-y-llyn",
+        "Talsarnau",
+        "Talysarn",
+        "Tanygrisiau",
+        "Trawsfynydd",
+        "Trefor",
+        "Tregarth",
+        "Tremadog",
+        "Tudweiliog",
+        "Tywyn",
+        "Waunfawr",
+        "Y Felinheli",
+        "Y Fron"
+      ]
+    }
+  },
+  "verificationSources": [
+    {
+      "name": "Cyngor Gwynedd public toilets",
+      "url": "https://www.gwynedd.llyw.cymru/en-gb/leisure-country-parks-paths-and-beaches/toilets/public-toilets",
+      "use": "Official facility names, seasonal opening and accessible-toilet indicators."
+    },
+    {
+      "name": "Cyngor Gwynedd community toilets",
+      "url": "https://www.gwynedd.llyw.cymru/en-gb/leisure-country-parks-paths-and-beaches/toilets/community-toilets",
+      "use": "Public-access business facilities reviewed separately from dedicated public toilets."
+    },
+    {
+      "name": "Cyngor Gwynedd car parks",
+      "url": "https://www.gwynedd.llyw.cymru/en-gb/parking-roads-and-travel/parking-and-permits/car-parks",
+      "use": "Council payment policy and ownership research reference."
+    },
+    {
+      "name": "Eryri National Park walks",
+      "url": "https://www.eryri.llyw.cymru/visit/walks/?view=list",
+      "use": "Official route-research reference; mapped paths are not promoted as trails without visitor evidence."
+    }
+  ],
+  "auditLimitations": [
+    "A full live Overpass refresh was attempted for this dated audit but did not complete within the public service timeout. OSM visitor records were therefore checked against the complete cached source snapshot used by the Gwynedd batch generator.",
+    "Open evidence queues are deliberately reported rather than filled with inferred ratings, access claims or opening information."
+  ]
+}

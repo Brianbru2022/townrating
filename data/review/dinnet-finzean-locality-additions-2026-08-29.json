@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-29",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers. Attractions never inflate settlement scores.",
+  "namingDecisions": [
+    "The leading tilde is removed from Birse.",
+    "Kincardine o'neil is normalised to Kincardine O'Neil and kept distinct from Kincardine-on-Forth.",
+    "Marywell resolves to the AB34 Birse settlement and is kept distinct from Marywell near Portlethen.",
+    "Perde is corrected to the recorded Birse locality Percie."
+  ],
+  "additions": [
+    {
+      "requestedName": "dinnet",
+      "resolvedName": "Dinnet",
+      "projectId": "dinnet-scotland",
+      "score": 54,
+      "dogOwnerScore": 54,
+      "publishOnTownMap": false,
+      "rationale": "The village is assessed independently. Muir of Dinnet National Nature Reserve and surrounding estates belong in See coverage and do not automatically promote Dinnet above 60.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5305610907",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Glen Tanar House",
+      "resolvedName": "Glen Tanar House",
+      "projectId": "glen-tanar-house-scotland",
+      "score": 22,
+      "dogOwnerScore": 20,
+      "publishOnTownMap": false,
+      "rationale": "Glen Tanar House is retained in the selector as a named place. The wider estate, reserve, walks and event venue are separate visitor propositions and do not create a town rating.",
+      "sourceUrl": "https://www.trove.scot/place/265080",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Aboyne",
+      "resolvedName": "Aboyne",
+      "projectId": "aboyne-scotland",
+      "score": 58,
+      "dogOwnerScore": 58,
+      "publishOnTownMap": false,
+      "rationale": "Aboyne is likely to qualify after a complete attractions, trails, café, facilities and dated-heritage audit; the catalogue addition does not guess a 60+ result.",
+      "sourceUrl": "https://www.openstreetmap.org/node/2121641372",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Birsemore",
+      "resolvedName": "Birsemore",
+      "projectId": "birsemore-scotland",
+      "score": 32,
+      "dogOwnerScore": 31,
+      "publishOnTownMap": false,
+      "rationale": "Birsemore Hill, Aboyne and the wider Birse landscape remain separately assessed; nearby scenery is not transferred into the locality score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1445437563",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "~Birse",
+      "resolvedName": "Birse",
+      "projectId": "birse-scotland",
+      "score": 42,
+      "dogOwnerScore": 41,
+      "publishOnTownMap": false,
+      "rationale": "The leading tilde is removed from the requested name. Parish heritage and the Forest of Birse are retained as separate evidence rather than used to overstate the hamlet.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1445420089",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Kincardine o'neil",
+      "resolvedName": "Kincardine O'Neil",
+      "projectId": "kincardine-oneil-scotland",
+      "score": 58,
+      "dogOwnerScore": 58,
+      "publishOnTownMap": false,
+      "rationale": "This is distinct from Kincardine-on-Forth. A complete audit must verify its own attractions, trails, cafés, parking, picnic provision, toilets and dated heritage before 60+ publication.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1021347706",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Marywell",
+      "resolvedName": "Marywell",
+      "projectId": "marywell-birse-scotland",
+      "score": 34,
+      "dogOwnerScore": 33,
+      "publishOnTownMap": false,
+      "rationale": "This is the AB34 Marywell in Birse, distinct from the existing Marywell near Portlethen. Nearby Finzean, Birse and Ballogie features are not borrowed into its score.",
+      "sourceUrl": "https://www.getthedata.com/marywell/where-is-marywell",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Finzean",
+      "resolvedName": "Finzean",
+      "projectId": "finzean-scotland",
+      "score": 56,
+      "dogOwnerScore": 56,
+      "publishOnTownMap": false,
+      "rationale": "Finzean may qualify after a full audit of its own trails, cafés, practical facilities, attractions and dated heritage. Estate and wider landscape interest do not justify guessed publication.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5923914723",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Perde",
+      "resolvedName": "Percie",
+      "projectId": "percie-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling is resolved to Percie using Birse parish and gazetteer evidence. Surrounding Finzean and Forest of Birse interest is not transferred to it.",
+      "sourceUrl": "https://streetmap.co.uk/place/Percie_in_Aberdeenshire_460261_802805.htm",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Ballochan",
+      "resolvedName": "Ballochan",
+      "projectId": "ballochan-scotland",
+      "score": 26,
+      "dogOwnerScore": 25,
+      "publishOnTownMap": false,
+      "rationale": "Birse Castle, scheduled archaeology, hill routes and the Forest of Birse belong in See or trail coverage. They do not turn the locality itself into a 60+ town.",
+      "sourceUrl": "https://gazetteer.org.uk/place/Ballochan%2C_Aberdeenshire_2125",
+      "boundaryConfidence": "medium"
+    }
+  ]
+}

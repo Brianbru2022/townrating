@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-29",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers. Attractions never inflate settlement scores.",
+  "existingEntries": [
+    {
+      "requestedName": "Deebank",
+      "projectId": "deebank-scotland"
+    },
+    {
+      "requestedName": "Strachan",
+      "projectId": "strachan-scotland"
+    }
+  ],
+  "namingDecisions": [
+    "Deebank and Strachan already exist and are not duplicated.",
+    "Arbeadie is retained as a historical locality absorbed into Banchory and remains distinct from Woodside of Arbeadie.",
+    "Belts of Collanach is corrected to Belts of Collonach.",
+    "Tillygaemmond is corrected to Tillygarmond.",
+    "East Mains resolves to the Banchory-area hamlet, not the South Lanarkshire namesake."
+  ],
+  "additions": [
+    {
+      "requestedName": "Tillydrine",
+      "resolvedName": "Tillydrine",
+      "projectId": "tillydrine-scotland",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "Kincardine O'Neil and surrounding Deeside attractions remain separately assessed and do not inflate Tillydrine.",
+      "sourceUrl": "https://www.getthedata.com/tillydrine/where-is-tillydrine",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Brathens",
+      "resolvedName": "Brathens",
+      "projectId": "brathens-scotland",
+      "score": 38,
+      "dogOwnerScore": 37,
+      "publishOnTownMap": false,
+      "rationale": "Banchory, Inchmarlo and nearby heritage remain separately bounded; their facilities are not transferred into Brathens.",
+      "sourceUrl": "https://www.getthedata.com/brathens/where-is-brathens",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Backhill of Trustach",
+      "resolvedName": "Backhill of Trustach",
+      "projectId": "backhill-of-trustach-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "The Trustach hills and informal countryside routes are not assumed to be visitor facilities or public attractions for the locality.",
+      "sourceUrl": "https://streetmap.co.uk/map?mapp=map&searchp=ids&st=4&sv=363750%2C797162&tl=Backhill+of+Trustach+in+Aberdeenshire&x=363750&y=797162&z=0",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Bridge of Canny",
+      "resolvedName": "Bridge of Canny",
+      "projectId": "bridge-of-canny-scotland",
+      "score": 32,
+      "dogOwnerScore": 31,
+      "publishOnTownMap": false,
+      "rationale": "The bridge and countryside setting identify the hamlet, but Banchory and Inchmarlo services are not borrowed into its score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/6567890921",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "East Mains",
+      "resolvedName": "East Mains",
+      "projectId": "east-mains-banchory-scotland",
+      "score": 26,
+      "dogOwnerScore": 24,
+      "publishOnTownMap": false,
+      "rationale": "This resolves to East Mains near Banchory and Brathens, not the South Lanarkshire namesake. Banchory attractions and facilities remain with Banchory.",
+      "sourceUrl": "https://www.openstreetmap.org/node/6567945110",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Arbeadie",
+      "resolvedName": "Arbeadie",
+      "projectId": "arbeadie-scotland",
+      "score": 16,
+      "dogOwnerScore": 14,
+      "publishOnTownMap": false,
+      "rationale": "Council evidence says Banchory amalgamated Arbeadie and Upper Arbeadie in the 1800s. This reference entry is distinct from Woodside of Arbeadie and cannot duplicate Banchory’s visitor offer.",
+      "sourceUrl": "https://www.ouraberdeenshire.org.uk/wp-content/uploads/2025/06/2025-BANCHORY-LOCAL-PLACE-PLAN.pdf",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Auchattie",
+      "resolvedName": "Auchattie",
+      "projectId": "auchattie-scotland",
+      "score": 28,
+      "dogOwnerScore": 27,
+      "publishOnTownMap": false,
+      "rationale": "Scolty Hill and Banchory remain separate visitor propositions. Their appeal does not promote Auchattie as a destination.",
+      "sourceUrl": "https://publications.aberdeenshire.gov.uk/acblobstorage/0f690451-9c00-44ff-88fe-78fb9a3357b7/south-highways-list.pdf",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Belts of Collanach",
+      "resolvedName": "Belts of Collonach",
+      "projectId": "belts-of-collonach-scotland",
+      "score": 30,
+      "dogOwnerScore": 29,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling is corrected to Collonach. Strachan, Scolty and nearby archaeology remain separately assessed rather than transferred into this settlement score.",
+      "sourceUrl": "https://aberdeenshire.moderngov.co.uk/Data/Infrastructure%20Services%20Committee/20090430/Agenda/g.%20Settlements%20Marr.pdf",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Tillygaemmond",
+      "resolvedName": "Tillygarmond",
+      "projectId": "tillygarmond-scotland",
+      "score": 22,
+      "dogOwnerScore": 20,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling is normalised to Tillygarmond. Finzean Estate and wider Birse attractions are separate and do not create a town score here.",
+      "sourceUrl": "https://britishplacenames.uk/scotland/aberdeenshire",
+      "boundaryConfidence": "medium"
+    }
+  ]
+}

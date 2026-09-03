@@ -1,0 +1,86 @@
+{
+  "reviewedAt": "2026-09-01T13:10:00.000Z",
+  "place": "Rhynd",
+  "townScore": 36,
+  "mapPublished": false,
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0
+    },
+    "eat": {
+      "audited": true,
+      "published": 1
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "providerChecks": {
+        "TreasureTrails": "No live Rhynd product",
+        "CuriousAbout": "No Rhynd route",
+        "MysteryGuides": "No Rhynd route",
+        "GoQuestAdventures": "No Rhynd route",
+        "WalkFife": "No maintained place-specific Rhynd visitor route verified"
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0
+    },
+    "parking": {
+      "audited": true,
+      "published": 1,
+      "scope": "Venue customers only"
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0
+    },
+    "accessibility": {
+      "audited": true,
+      "withheld": "No current operator specification"
+    },
+    "transport": {
+      "audited": true
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -2
+    }
+  },
+  "hes": {
+    "assigned": 0,
+    "visibleDated": 0,
+    "visibleUndated": 0,
+    "missing": 0
+  },
+  "boundaryRule": "The café is represented in Eat but does not create a visitor-town score.",
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.therhynd.com/caf%C3%A9",
+        "checkedAt": "2026-09-01",
+        "outcome": "verified",
+        "note": "Operator page verifies the café, current weekend hours, local food, coffee and bakes."
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "checkedAt": "2026-09-01",
+        "outcome": "no_result",
+        "note": "No named Rhynd trail product was found."
+      },
+      {
+        "url": "https://www.fife.gov.uk/facilities/public-toilet",
+        "checkedAt": "2026-09-01",
+        "outcome": "no_result",
+        "note": "No public Rhynd toilet is listed."
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "liveBrowserVerifiedAt": "2026-09-01T08:14:40.8330879+01:00"
+  }
+}

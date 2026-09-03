@@ -28,6 +28,10 @@ function needsGeometryReview(feature: HeritageFeature): boolean {
   );
 }
 
+function hasReviewedNoDefensibleDate(feature: HeritageFeature): boolean {
+  return feature.tags.includes('reviewed-no-defensible-date');
+}
+
 export function buildReviewQueue(
   pkg: ProjectPackage,
   filter: ReviewFilter = 'all',
@@ -36,7 +40,7 @@ export function buildReviewQueue(
     .filter((feature) => feature.evidenceScope !== 'out_of_scope')
     .map((feature) => {
       const warnings = pkg.validation.filter((warning) => warning.recordId === feature.id);
-      const missingDate = !hasHistoricTimelineDate(feature);
+      const missingDate = !hasHistoricTimelineDate(feature) && !hasReviewedNoDefensibleDate(feature);
       const geometryReview = needsGeometryReview(feature);
       const reasons = [
         ...(feature.tags.includes('catalogue-general-view')
@@ -53,7 +57,7 @@ export function buildReviewQueue(
       return { feature, reasons, warnings };
     })
     .filter(({ feature, warnings }) => {
-      if (filter === 'date') return !hasHistoricTimelineDate(feature);
+      if (filter === 'date') return !hasHistoricTimelineDate(feature) && !hasReviewedNoDefensibleDate(feature);
       if (filter === 'location') return needsGeometryReview(feature);
       if (filter === 'unreviewed') return !feature.reviewed;
       if (filter === 'validation') return warnings.length > 0;

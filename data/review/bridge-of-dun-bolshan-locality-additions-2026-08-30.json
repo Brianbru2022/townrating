@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-30",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers.",
+  "namingDecisions": [
+    "Bridge of Dun is distinct from the existing Dun entry.",
+    "Braehead of Lunan reuses the existing project rather than creating a duplicate.",
+    "Westerton was supplied twice and is stored once, resolved to Westerton of Rossie.",
+    "Farmwell could not be resolved in the local or online place data and is withheld rather than assigned invented coordinates.",
+    "House of Dun, Lunan Bay and Red Castle remain separate attraction or See evidence and do not inflate settlement scores."
+  ],
+  "existing": [
+    {
+      "requestedName": "Braehead of Lunan",
+      "projectId": "braehead-of-lunan-scotland",
+      "score": 36
+    }
+  ],
+  "unresolved": [
+    {
+      "requestedName": "Farmwell",
+      "reason": "No matching Angus locality found; corrected spelling or map pin required."
+    }
+  ],
+  "additions": [
+    {
+      "name": "Bridge of Dun",
+      "projectId": "bridge-of-dun-scotland",
+      "region": "Angus",
+      "score": 46,
+      "dogOwnerScore": 45,
+      "publishOnTownMap": false,
+      "rationale": "Bridge of Dun is retained separately from Dun. House of Dun and the Caledonian Railway are independently assessed visitor attractions and do not automatically create a tourist-town score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4159783157"
+    },
+    {
+      "name": "Barnhead",
+      "projectId": "barnhead-angus-scotland",
+      "region": "Angus",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "Barnhead is a distinct mapped locality, but nearby basin, railway and estate attractions are not borrowed into its settlement score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4134261872"
+    },
+    {
+      "name": "Bonnyton",
+      "projectId": "bonnyton-barnhead-scotland",
+      "region": "Angus",
+      "score": 22,
+      "dogOwnerScore": 20,
+      "publishOnTownMap": false,
+      "rationale": "This is the Bonnyton south of Barnhead, not another Scottish namesake. It has no verified independent destination-scale visitor offer.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3995530673"
+    },
+    {
+      "name": "Carcary",
+      "projectId": "carcary-scotland",
+      "region": "Angus",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "Carcary remains a regional reference. Private properties and nearby Montrose-area attractions do not inflate its settlement score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4134261878"
+    },
+    {
+      "name": "Westerton",
+      "projectId": "westerton-of-rossie-scotland",
+      "region": "Angus",
+      "score": 22,
+      "dogOwnerScore": 20,
+      "publishOnTownMap": false,
+      "rationale": "The requested Westerton is resolved contextually to Westerton of Rossie and added once despite being supplied twice.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3995512797"
+    },
+    {
+      "name": "Lunan",
+      "projectId": "lunan-scotland",
+      "region": "Angus",
+      "score": 50,
+      "dogOwnerScore": 49,
+      "publishOnTownMap": false,
+      "rationale": "Lunan has genuine coastal and historic character, but Lunan Bay and Red Castle are separate See destinations and cannot alone lift the hamlet onto the tourist-town map.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1449196563"
+    },
+    {
+      "name": "Redcastle",
+      "projectId": "redcastle-angus-scotland",
+      "region": "Angus",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "The locality is retained independently. Red Castle ruin is heritage and See evidence, not a substitute for a worthwhile visitor settlement.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4115297735"
+    },
+    {
+      "name": "Bolshan",
+      "projectId": "bolshan-scotland",
+      "region": "Angus",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "Bolshan remains selectable as a named regional locality but has no verified independent destination-scale visitor offer.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5923036043"
+    }
+  ]
+}

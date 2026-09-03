@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-29",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers. Attractions and private properties never inflate locality scores.",
+  "namingDecisions": [
+    "Auchmui resolves to the mapped Angus locality Auchmull.",
+    "Huntinghill Lodge has no matching Angus record; the coherent local match is Huntlyhill near Brechin, retained with medium boundary confidence.",
+    "Witton resolves specifically to the Angus locality near Dalbog and Gannochy."
+  ],
+  "additions": [
+    {
+      "requestedName": "Clova",
+      "resolvedName": "Clova",
+      "projectId": "clova-angus-scotland",
+      "region": "Angus",
+      "score": 38,
+      "dogOwnerScore": 37,
+      "publishOnTownMap": false,
+      "rationale": "The hotel and wider Glen Clova walking landscape are useful nearby propositions, but the settlement itself has too little independent visitor fabric for a town marker.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4898899226",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Wheen",
+      "resolvedName": "Wheen",
+      "projectId": "wheen-angus-scotland",
+      "region": "Angus",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "Wheen is retained for regional reference without borrowing the appeal of the surrounding glen.",
+      "sourceUrl": "https://www.openstreetmap.org/node/6239866810",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Inchgrundle",
+      "resolvedName": "Inchgrundle",
+      "projectId": "inchgrundle-scotland",
+      "region": "Angus",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "Nearby lochs, estate scenery and hill routes remain separate See or trail propositions.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4006980036",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Tarfside",
+      "resolvedName": "Tarfside",
+      "projectId": "tarfside-scotland",
+      "region": "Angus",
+      "score": 48,
+      "dogOwnerScore": 47,
+      "publishOnTownMap": false,
+      "rationale": "Tarfside has genuine historic fabric and access to the glen, while its limited scale and facilities keep the settlement below the publication threshold.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3649234954",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Huntinghill Lodge",
+      "resolvedName": "Huntlyhill",
+      "projectId": "huntlyhill-scotland",
+      "region": "Angus",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "No Angus place named Huntinghill Lodge was found in the local or mapped evidence; the request is transparently resolved to Huntlyhill rather than creating an unsupported duplicate.",
+      "sourceUrl": "https://www.openstreetmap.org/node/8604177552",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Millden Lodge",
+      "resolvedName": "Millden Lodge",
+      "projectId": "millden-lodge-scotland",
+      "region": "Angus",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "The property is retained as a selector reference; estate character and surrounding scenery do not imply public access or a town score.",
+      "sourceUrl": "https://www.openstreetmap.org/way/428618447",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Auchmui",
+      "resolvedName": "Auchmull",
+      "projectId": "auchmull-scotland",
+      "region": "Angus",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling Auchmui resolves to mapped Auchmull; nearby countryside is not transferred into the locality score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5752073377",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Dalbog",
+      "resolvedName": "Dalbog",
+      "projectId": "dalbog-scotland",
+      "region": "Angus",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "Dalbog remains available for regional reference without borrowing nearby estate or landscape attractions.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4899621742",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Gannochy",
+      "resolvedName": "Gannochy",
+      "projectId": "gannochy-angus-scotland",
+      "region": "Angus",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "Any historic buildings are retained as heritage evidence, but do not by themselves create a worthwhile town visit.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5326451947",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Witton",
+      "resolvedName": "Witton",
+      "projectId": "witton-angus-scotland",
+      "region": "Angus",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "The Angus Witton is retained distinctly from numerous UK namesakes and remains below the town-map threshold.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5750518413",
+      "boundaryConfidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "reviewedAt": "2026-09-02T23:50:00.000Z",
+  "sequence": 5,
+  "sequenceTotal": 6,
+  "projectId": "leuchars-scotland",
+  "place": "Leuchars",
+  "townScore": 68,
+  "mapPublished": true,
+  "settlementMerit": {
+    "result": "retain_on_town_map",
+    "rationale": "Leuchars clears the map threshold through the exceptional Romanesque St Athernase Church, two documented walking routes and unusually strong rail-and-parking access. The audit found no qualifying current café-led stop, picnic facility or public toilet, so the score remains a measured 68."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 1
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "reason": "No current qualifying café, coffee-and-cake or light-lunch stop was verified inside the strict boundary."
+    },
+    "trails": {
+      "audited": true,
+      "published": 2,
+      "providerChecks": {
+        "TreasureTrails": "No live exact place-specific product in the current Fife catalogue.",
+        "CuriousAbout": "Current catalogue searched; no exact place-specific route.",
+        "MysteryGuides": "Current catalogue searched; no exact place-specific route.",
+        "GoQuestAdventures": "Current catalogue searched; no exact place-specific route.",
+        "officialRoutes": "Walk Fife publishes Lucy’s Leuchars Walk and FCCT publishes the official coastal-path stage."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "reason": "No dedicated public picnic facility was verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 1
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "reason": "No public toilet was verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessibility is stated only where a current source supports it; no blanket accessible claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road, bus and rail context was checked; transport does not add destination points by itself."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -1
+    }
+  },
+  "exclusions": [
+    "Earlshall Castle is private and outside the strict village offer.",
+    "Cafe Inc is a community holiday-support programme, not a normal visitor café.",
+    "Historic social-café references without a current operator page are not retained.",
+    "Tentsmuir, Rhynd and Guardbridge attractions are not transferred."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets",
+    "assigned": 101,
+    "local": 94,
+    "visibleDated": 80,
+    "hiddenUndatedOrNonlocal": 21,
+    "visibleUndated": 0,
+    "visibleLabelsContainingDates": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Leuchars's strict study area count toward the settlement score. Related attractions and cross-boundary routes may appear only when explicitly marked related_context and do not inflate the town.",
+  "scoreRationale": "Leuchars clears the map threshold through the exceptional Romanesque St Athernase Church, two documented walking routes and unusually strong rail-and-parking access. The audit found no qualifying current café-led stop, picnic facility or public toilet, so the score remains a measured 68.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 68,
+    "rationale": "Score independently reconciled after every category, named-provider search, boundary exclusion and practical check; no provisional exact-58 town score remains."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.welcometofife.com/location/st-athernase-church",
+        "outcome": "verified",
+        "note": "Official destination page confirms the 1183–87 church and appointment access.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.walkfife.org/maps-routes/lucys-leuchars-walk/",
+        "outcome": "verified",
+        "note": "Current route page verified.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://fifecoastandcountrysidetrust.co.uk/walks/fife-coastal-path/leuchars-to-wormit-bay/",
+        "outcome": "verified",
+        "note": "Official Leuchars-to-Wormit stage verified.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.fife.gov.uk/facilities/car-park/station-car-park-a-b%2C-leuchars",
+        "outcome": "verified",
+        "note": "Current council parking capacity, accessibility, hours and charge verified.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Leuchars product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "liveBrowserVerifiedAt": "2026-09-02T20:44:00.000Z"
+  }
+}

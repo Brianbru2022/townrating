@@ -1,0 +1,155 @@
+{
+  "generatedAt": "2026-08-11T01:20:05.302Z",
+  "requested": 197,
+  "existing": 4,
+  "created": 3,
+  "failed": 0,
+  "skipped": [
+    {
+      "requested": "Crowland",
+      "existing": {
+        "id": "crowland-england",
+        "locality": "Crowland"
+      }
+    },
+    {
+      "requested": "Deeping St James",
+      "existing": {
+        "id": "deeping-st-james-england",
+        "locality": "Deeping St James"
+      }
+    },
+    {
+      "requested": "Market Deeping",
+      "existing": {
+        "id": "market-deeping-england",
+        "locality": "Market Deeping"
+      }
+    },
+    {
+      "requested": "Stamford",
+      "existing": {
+        "id": "stamford-england",
+        "locality": "Stamford"
+      }
+    }
+  ],
+  "failures": [],
+  "createdProjects": [
+    {
+      "projectId": "frampton-england",
+      "locality": "Frampton",
+      "boundary": {
+        "source": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+        "confidence": "low",
+        "adjoiningGreenSpaces": []
+      },
+      "touristAppeal": {
+        "rating": 0,
+        "label": "Not a tourist town",
+        "summary": "Frampton has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+      },
+      "counts": {
+        "features": 20,
+        "historicEngland": 19,
+        "see": 3,
+        "eat": 0,
+        "trails": 0,
+        "parking": 0,
+        "toilets": 0,
+        "picnic": 0
+      },
+      "checks": {
+        "allPlannerPointsInsideBoundary": true,
+        "customerOnlyParkingExcluded": true,
+        "dinnerOnlyFoodExcluded": true,
+        "seeAndEatCappedAtTwenty": true,
+        "practicalCategoriesUncapped": true,
+        "treasureTrailsChecked": true,
+        "originalBoundaryPreserved": true
+      }
+    },
+    {
+      "projectId": "stow-england",
+      "locality": "Stow",
+      "boundary": {
+        "source": "ONS Built-up Areas (December 2024) with curated adjoining public green spaces",
+        "localityCode": "E63008576",
+        "confidence": "high",
+        "adjoiningGreenSpaces": []
+      },
+      "touristAppeal": {
+        "rating": 1,
+        "label": "Local detour",
+        "summary": "Stow qualifies as a local detour through Site of a college and Benedictine Abbey, St Mary's Church and CHURCH OF ST MARY. It is best treated as a shorter stop rather than a half-day destination."
+      },
+      "counts": {
+        "features": 10,
+        "historicEngland": 10,
+        "see": 2,
+        "eat": 0,
+        "trails": 0,
+        "parking": 0,
+        "toilets": 0,
+        "picnic": 0
+      },
+      "checks": {
+        "allPlannerPointsInsideBoundary": true,
+        "customerOnlyParkingExcluded": true,
+        "dinnerOnlyFoodExcluded": true,
+        "seeAndEatCappedAtTwenty": true,
+        "practicalCategoriesUncapped": true,
+        "treasureTrailsChecked": true,
+        "originalBoundaryPreserved": true
+      }
+    },
+    {
+      "projectId": "waltham-england",
+      "locality": "Waltham",
+      "boundary": {
+        "source": "ONS Built-up Areas (December 2024) with curated adjoining public green spaces",
+        "localityCode": "E63008311",
+        "confidence": "high",
+        "adjoiningGreenSpaces": []
+      },
+      "touristAppeal": {
+        "rating": 1,
+        "label": "Local detour",
+        "summary": "Waltham qualifies as a local detour through Waltham Windmill and Mini Railway. It is best treated as a shorter stop rather than a half-day destination."
+      },
+      "counts": {
+        "features": 11,
+        "historicEngland": 4,
+        "see": 3,
+        "eat": 2,
+        "trails": 0,
+        "parking": 3,
+        "toilets": 0,
+        "picnic": 0
+      },
+      "checks": {
+        "allPlannerPointsInsideBoundary": true,
+        "customerOnlyParkingExcluded": true,
+        "dinnerOnlyFoodExcluded": true,
+        "seeAndEatCappedAtTwenty": true,
+        "practicalCategoriesUncapped": true,
+        "treasureTrailsChecked": true,
+        "originalBoundaryPreserved": true
+      }
+    }
+  ],
+  "compliance": {
+    "noDuplicateLocalities": true,
+    "officialOnsBoundaryPreferred": true,
+    "osmSettlementFallbackDocumented": true,
+    "originalBoundariesPreserved": true,
+    "adjoiningPublicGreenSpacesIncluded": true,
+    "allVisitorAndPracticalPointsBoundaryChecked": true,
+    "seeAndEatMaximumTwenty": true,
+    "practicalCategoriesUncapped": true,
+    "customerOnlyParkingExcluded": true,
+    "dinnerOnlyFoodExcluded": true,
+    "treasureTrailsCatalogueChecked": true,
+    "historicEnglandLocalDatasetUsed": true
+  }
+}

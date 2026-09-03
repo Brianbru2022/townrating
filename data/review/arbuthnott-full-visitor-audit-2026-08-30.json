@@ -1,0 +1,83 @@
+{
+  "reviewedAt": "2026-08-30T18:20:00Z",
+  "projectId": "arbuthnott-scotland",
+  "townScore": 54,
+  "dogOwnerScore": 50,
+  "settlementMerit": {
+    "result": "retain_in_selector_but_hide_from_town_map",
+    "rationale": "The centre, church and occasional house access make a focused stop, but the settlement lacks the independent public realm, depth and all-day provision required for 60."
+  },
+  "categoryCounts": {
+    "see": 3,
+    "eat": 1,
+    "trails": 1,
+    "picnic": 0,
+    "parking": 1,
+    "toilets": 1
+  },
+  "heritageDateAudit": {
+    "statutoryDesignations": 10,
+    "visiblePins": 10,
+    "datedVisiblePins": 10,
+    "undatedVisiblePins": [],
+    "hiddenRetained": 0,
+    "localGeometrySource": "Local HES statutory spatial library",
+    "descriptionSource": "Official HES designation descriptions used only where a construction period was stated",
+    "dateRule": "Never use designation or database dates as construction dates."
+  },
+  "trailProviderSearches": [
+    {
+      "provider": "TreasureTrails.co.uk",
+      "result": "No Arbuthnott product found; none published."
+    },
+    {
+      "provider": "Aberdeenshire Council",
+      "result": "Verified regional Stonehaven–Inverbervie cycling map with an optional Arbuthnott/Grassic Gibbon Centre detour."
+    },
+    {
+      "provider": "Grassic Gibbon Centre",
+      "result": "A physical leaflet of linked walks is mentioned, but no current route-specific online link was found; excluded from the planner."
+    }
+  ],
+  "trailBoundaryReview": {
+    "whollyInTown": [],
+    "crossBoundaryButServesTown": [
+      "Stonehaven–Inverbervie Cycle Route: Arbuthnott Detour"
+    ],
+    "scoreRule": "The regional cycle route does not transfer the merit of neighbouring settlements to Arbuthnott."
+  },
+  "parkingAudit": {
+    "published": 1,
+    "feeStatus": "Free visitor parking verified by venue and current event information.",
+    "coordinateBasis": "Co-located Grassic Gibbon Centre OSM site centroid; no separate mapped car-park polygon exists in the local extract."
+  },
+  "foodAudit": {
+    "published": 1,
+    "brief": "Coffee, home baking and light lunches; no restaurant-led filler.",
+    "exclusions": [
+      "No other in-boundary café, tearoom, bakery or farm café verified."
+    ]
+  },
+  "picnicAudit": {
+    "published": 0,
+    "result": "No public picnic site or table in the local OSM extract; Arbuthnott House explicitly prohibits picnics."
+  },
+  "accessibility": {
+    "centre": "VisitAberdeenshire states disabled access; the exact toilet specification is not published.",
+    "houseAndGarden": "Officially not wheelchair accessible because of the historic layout and steep garden."
+  },
+  "boundaryReview": {
+    "result": "All published markers fall within Arbuthnott’s existing settlement boundary.",
+    "excludedNearby": [
+      "Balmakewan Farm Shop",
+      "Auchenblae",
+      "Inverbervie",
+      "Fordoun"
+    ]
+  },
+  "verification": {
+    "linksChecked": "2026-08-30",
+    "visibleHeritageDated": "10/10",
+    "validationErrors": 0
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "reviewedAt": "2026-08-27T22:30:00Z",
+  "townScore": 88,
+  "townBand": "Strong Destination",
+  "dogOwnerScore": 85,
+  "dogAccessRating": 3,
+  "publicationRule": "Town score measures Stonehaven itself. Publish only in-boundary visitor places scoring 60 or more; Dunnottar Castle remains a separate regional See attraction.",
+  "attractions": [
+    "curated-attraction:stonehaven-open-air-pool",
+    "curated-attraction:stonehaven-harbour-auld-toon",
+    "curated-attraction:stonehaven-fireballs-ceremony",
+    "curated-attraction:stonehaven-beach-promenade",
+    "curated-attraction:stonehaven-black-hill-war-memorial",
+    "curated-attraction:stonehaven-paddleboarding",
+    "curated-attraction:stonehaven-tolbooth-museum",
+    "curated-attraction:stonehaven-quay-gallery"
+  ],
+  "eats": [
+    "curated-eat:stonehaven-mollys-cafe-bar",
+    "curated-eat:stonehaven-cool-gourmet",
+    "curated-eat:stonehaven-old-pier-coffee-house",
+    "curated-eat:stonehaven-villa-coffee-shop",
+    "curated-eat:stonehaven-aunty-bettys",
+    "curated-eat:stonehaven-pinky-promise-cafe",
+    "curated-eat:stonehaven-cafe-noir",
+    "curated-eat:stonehaven-graingers-delicatessen",
+    "curated-eat:stonehaven-waterfront-cafe",
+    "curated-eat:stonehaven-drifters-cafe",
+    "curated-eat:stonehaven-red-red-robin"
+  ],
+  "trails": [
+    "curated-trails:stonehaven-dunnottar-castle-coastal-trail",
+    "curated-trails:stonehaven-parks-harbour-treasure-trail",
+    "curated-trails:stonehaven-boardwalk-cowie-geology-walk",
+    "curated-trails:stonehaven-market-square-harbour-loop",
+    "curated-trails:stonehaven-mineralwell-park-cowie-water-loop"
+  ],
+  "parking": [
+    "curated-parking:stonehaven-beach-promenade",
+    "curated-parking:stonehaven-market-square",
+    "curated-parking:stonehaven-railway-station",
+    "curated-parking:stonehaven-backies"
+  ],
+  "toilets": [
+    "curated-toilets:stonehaven-old-pier",
+    "curated-toilets:stonehaven-margaret-street",
+    "curated-toilets:stonehaven-leisure-centre"
+  ],
+  "heritagePins": 3,
+  "datedHeritagePins": 3,
+  "undatedHeritagePinIds": [],
+  "notes": [
+    "Dunnottar Castle remains a separate regional See attraction; the signed coastal route from Stonehaven is published as a trail without adding the castle to the town score.",
+    "The View at Stonehaven Golf Club and the Dunnottar Woods circuit start are outside the strict town boundary. The woods route is retained in the research record but is not published in Stonehaven’s town planner and does not alter the town score.",
+    "Stonehaven Sea Safari and the seasonal land train were assessed but withheld because a sufficiently complete current operator timetable and booking contract could not be verified.",
+    "Two picnic-table clusters are published from the current local OSM extract: two tables at Beach Road and five on Bay Walk.",
+    "All four council car parks now include spaces, disabled bays, charge status, current tariff where applicable, payment methods and mobile-payment codes.",
+    "The former Stonehaven beach toilets remain closed and are not published.",
+    "Heritage-date audit: all 182 HES-designated Stonehaven pins now carry a source-backed construction date or period; 19 are labelled as heritage-buffer context."
+  ],
+  "foodAudit": {
+    "report": "data/review/stonehaven-food-audit-2026-08-27.json",
+    "candidateCount": 29,
+    "publishedCount": 11,
+    "note": "Re-audited under the café-led scope: coffee, cake, tearoom, bakery, ice-cream and genuine light-lunch stops only. Restaurant-, pub-, hotel- and takeaway-led businesses are recorded as exclusions rather than published Eat pins."
+  },
+  "picnic": [
+    "curated-picnic:stonehaven-beach-road-tables",
+    "curated-picnic:stonehaven-bay-walk-tables"
+  ],
+  "categoryCounts": {
+    "see": 8,
+    "eat": 11,
+    "trails": 5,
+    "picnic": 2,
+    "parking": 4,
+    "toilets": 3
+  },
+  "researchedNearbyTrails": [
+    "curated-trails:stonehaven-dunnottar-woods-follies-circuit"
+  ],
+  "heritageDateAudit": {
+    "pins": 182,
+    "dated": 182,
+    "undated": [],
+    "insideLocality": 163,
+    "heritageBufferCandidates": 19,
+    "officialDescriptionDatesNormalised": 166,
+    "individuallyReviewedFallbacks": 15,
+    "mergedDuplicateVisitorPins": [
+      "curated-attraction:stonehaven-open-air-pool",
+      "curated-attraction:stonehaven-harbour-auld-toon",
+      "curated-attraction:stonehaven-tolbooth-museum",
+      "curated-attraction:stonehaven-black-hill-war-memorial"
+    ],
+    "method": "Official HES listed-building spatial register plus construction date or period from each official HES designation description. Exact years retain high confidence; century ranges are normalised conservatively; qualified wording such as probably retains low confidence.",
+    "source": "https://portal.historicenvironment.scot/search"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-30",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its gate score; only independently worthwhile settlements scoring 60 or more after a completed full audit appear as town markers.",
+  "existingRecordsReused": [
+    {
+      "requestedName": "Eliot",
+      "resolvedName": "Elliot",
+      "projectId": "elliot-arbroath-scotland",
+      "auditStatus": "full audit already verified"
+    },
+    {
+      "requestedName": "Balmirmir",
+      "resolvedName": "Balmirmer",
+      "projectId": "balmirmer-scotland"
+    },
+    {
+      "requestedName": "Kirkton of Monikie",
+      "resolvedName": "Kirkton of Monikie",
+      "projectId": "kirkton-of-monikie-scotland"
+    },
+    {
+      "requestedName": "Monikie",
+      "resolvedName": "Monikie",
+      "projectId": "monikie-scotland"
+    }
+  ],
+  "namingDecisions": [
+    "Eliot resolves to the existing Elliot record; Balmirmir resolves to Balmirmer; Carnoustire resolves to Carnoustie.",
+    "Craigton resolves to Craigton of Monikie, not Craigton near Cortachy or Craigton near Peterculter.",
+    "Kellasm Baldovie is interpreted as two requested places: Kellas and Baldovie.",
+    "Baldovie resolves to the Dundee-edge locality on Kellas Road, not the separate Kirriemuir-area hamlet.",
+    "Bucklerhead resolves to the mapped and Angus Council form Bucklerheads."
+  ],
+  "additions": [
+    {
+      "requestedName": "Salmonds Muir",
+      "resolvedName": "Salmond's Muir",
+      "projectId": "salmonds-muir-scotland",
+      "region": "Angus",
+      "gateScore": 28,
+      "dogOwnerGateScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "The apostrophe is restored in Salmond's Muir. It remains below 60 until its independent visitor offer is fully audited.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5286742364"
+    },
+    {
+      "requestedName": "Craigton",
+      "resolvedName": "Craigton of Monikie",
+      "projectId": "craigton-of-monikie-scotland",
+      "region": "Angus",
+      "gateScore": 44,
+      "dogOwnerGateScore": 43,
+      "publishOnTownMap": false,
+      "rationale": "Craigton resolves to Craigton of Monikie, not the separate Cortachy locality. Monikie Country Park is not transferred into its preliminary settlement score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5000008607"
+    },
+    {
+      "requestedName": "Muirdrum",
+      "resolvedName": "Muirdrum",
+      "projectId": "muirdrum-scotland",
+      "region": "Angus",
+      "gateScore": 42,
+      "dogOwnerGateScore": 40,
+      "publishOnTownMap": false,
+      "rationale": "Muirdrum is retained as a distinct village without borrowing Carnoustie or Panbride visitor value.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5000008610"
+    },
+    {
+      "requestedName": "East haven",
+      "resolvedName": "East Haven",
+      "projectId": "east-haven-scotland",
+      "region": "Angus",
+      "gateScore": 58,
+      "dogOwnerGateScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "East Haven has clear coastal character but remains selector-only until its beach, heritage, trails, practical facilities and independent settlement merit are fully verified.",
+      "sourceUrl": "https://www.openstreetmap.org/node/242940462"
+    },
+    {
+      "requestedName": "Panbride",
+      "resolvedName": "Panbride",
+      "projectId": "panbride-scotland",
+      "region": "Angus",
+      "gateScore": 48,
+      "dogOwnerGateScore": 47,
+      "publishOnTownMap": false,
+      "rationale": "Panbride has a coherent historic identity, but nearby Carnoustie facilities and coast are not inherited.",
+      "sourceUrl": "https://www.openstreetmap.org/node/242940523"
+    },
+    {
+      "requestedName": "Carnoustire",
+      "resolvedName": "Carnoustie",
+      "projectId": "carnoustie-scotland",
+      "region": "Angus",
+      "gateScore": 58,
+      "dogOwnerGateScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling is normalised to Carnoustie. Its final score is deliberately withheld below the map threshold until a full audit verifies the complete town offer.",
+      "sourceUrl": "https://www.openstreetmap.org/node/21511355"
+    },
+    {
+      "requestedName": "Newbigging",
+      "resolvedName": "Newbigging",
+      "projectId": "newbigging-monifieth-scotland",
+      "region": "Angus",
+      "gateScore": 46,
+      "dogOwnerGateScore": 45,
+      "publishOnTownMap": false,
+      "rationale": "This resolves to Newbigging by Monifieth, not another Scottish Newbigging. Neighbouring country-park value is excluded.",
+      "sourceUrl": "https://www.openstreetmap.org/node/241788892"
+    },
+    {
+      "requestedName": "Barry",
+      "resolvedName": "Barry",
+      "projectId": "barry-angus-scotland",
+      "region": "Angus",
+      "gateScore": 46,
+      "dogOwnerGateScore": 45,
+      "publishOnTownMap": false,
+      "rationale": "Barry remains distinct from Carnoustie and Barry Buddon; golf, beach and military-land value is not borrowed.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3987033229"
+    },
+    {
+      "requestedName": "Mains of Ardestie",
+      "resolvedName": "Mains of Ardestie",
+      "projectId": "mains-of-ardestie-scotland",
+      "region": "Angus",
+      "gateScore": 30,
+      "dogOwnerGateScore": 28,
+      "publishOnTownMap": false,
+      "rationale": "The locality is kept separate from Ardestie Earth House and wider Monifieth attractions, which must be assessed under See rather than settlement merit.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5715789432"
+    },
+    {
+      "requestedName": "Monifieth",
+      "resolvedName": "Monifieth",
+      "projectId": "monifieth-scotland",
+      "region": "Angus",
+      "gateScore": 58,
+      "dogOwnerGateScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "Monifieth clearly warrants a full audit, but its final score is withheld below 60 until the town offer and Dundee boundary interactions are verified.",
+      "sourceUrl": "https://www.openstreetmap.org/node/21511420"
+    },
+    {
+      "requestedName": "Wellbank",
+      "resolvedName": "Wellbank",
+      "projectId": "wellbank-scotland",
+      "region": "Angus",
+      "gateScore": 46,
+      "dogOwnerGateScore": 45,
+      "publishOnTownMap": false,
+      "rationale": "Wellbank remains a distinct village and does not inherit Monikie Country Park or Dundee attractions.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1297029357"
+    },
+    {
+      "requestedName": "Drumsturdy",
+      "resolvedName": "Drumsturdy",
+      "projectId": "drumsturdy-scotland",
+      "region": "Angus",
+      "gateScore": 28,
+      "dogOwnerGateScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "Drumsturdy is retained from gazetteer evidence with a cautious boundary; nearby Kellas, Kingennie and Monifieth merit is excluded.",
+      "sourceUrl": "https://www.geonames.org/12261947/drumsturdy.html"
+    },
+    {
+      "requestedName": "Kellas",
+      "resolvedName": "Kellas",
+      "projectId": "kellas-angus-scotland",
+      "region": "Angus",
+      "gateScore": 42,
+      "dogOwnerGateScore": 41,
+      "publishOnTownMap": false,
+      "rationale": "Kellas is assessed separately from Wellbank, Baldovie and Dundee suburban services.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1297029358"
+    },
+    {
+      "requestedName": "Baldovie",
+      "resolvedName": "Baldovie",
+      "projectId": "baldovie-dundee-scotland",
+      "region": "Dundee City",
+      "gateScore": 26,
+      "dogOwnerGateScore": 24,
+      "publishOnTownMap": false,
+      "rationale": "This resolves to Baldovie on Kellas Road, not the separate Kirriemuir-area hamlet. Industrial and neighbouring Dundee facilities do not inflate the place score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/11592371127"
+    },
+    {
+      "requestedName": "Barnhill",
+      "resolvedName": "Barnhill",
+      "projectId": "barnhill-dundee-scotland",
+      "region": "Dundee City",
+      "gateScore": 34,
+      "dogOwnerGateScore": 33,
+      "publishOnTownMap": false,
+      "rationale": "Barnhill remains selectable as its own quarter but does not inherit Broughty Ferry Castle, beach or town-centre provision.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1404342183"
+    },
+    {
+      "requestedName": "West Ferry",
+      "resolvedName": "West Ferry",
+      "projectId": "west-ferry-dundee-scotland",
+      "region": "Dundee City",
+      "gateScore": 42,
+      "dogOwnerGateScore": 41,
+      "publishOnTownMap": false,
+      "rationale": "West Ferry has a distinct place identity but Broughty Ferry and Dundee-wide attractions are not transferred into its score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/881888701"
+    },
+    {
+      "requestedName": "Broughty Ferry",
+      "resolvedName": "Broughty Ferry",
+      "projectId": "broughty-ferry-scotland",
+      "region": "Dundee City",
+      "gateScore": 58,
+      "dogOwnerGateScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "Broughty Ferry clearly warrants a full audit, but its final map score is withheld until the complete independent visitor offer is verified.",
+      "sourceUrl": "https://www.openstreetmap.org/relation/18707937"
+    },
+    {
+      "requestedName": "Bucklerhead",
+      "resolvedName": "Bucklerheads",
+      "projectId": "bucklerheads-scotland",
+      "region": "Angus",
+      "gateScore": 38,
+      "dogOwnerGateScore": 36,
+      "publishOnTownMap": false,
+      "rationale": "The requested singular form resolves to the mapped and council form Bucklerheads. Nearby Kellas and Wellbank value is excluded.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5000008602"
+    },
+    {
+      "requestedName": "East march",
+      "resolvedName": "East March",
+      "projectId": "east-march-angus-scotland",
+      "region": "Angus",
+      "gateScore": 22,
+      "dogOwnerGateScore": 20,
+      "publishOnTownMap": false,
+      "rationale": "East March is retained from council mapping with a cautious building-centred reference boundary and no inherited Dundee or Wellbank attractions.",
+      "sourceUrl": "https://www.angus.gov.uk/sites/default/files/Angus%20local%20development%20plan%20adopted%20September%202016.pdf"
+    }
+  ]
+}

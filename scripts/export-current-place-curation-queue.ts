@@ -8,6 +8,10 @@ function currentOsmSource(feature: HeritageFeature): SourceRecord | undefined {
   return feature.sourceRecords.find((source) => source.sourceName === 'OpenStreetMap current community places');
 }
 
+function currentPlaceCurationSource(feature: HeritageFeature): SourceRecord | undefined {
+  return feature.sourceRecords.find((source) => source.sourceName === 'OpenStreetMap current-place curation review');
+}
+
 function osmValue(source: SourceRecord | undefined, key: string): string {
   const notes = source?.notes ?? '';
   return new RegExp(`(?:^|[:;]\\s*)${key}=([^;]+)`).exec(notes)?.[1]?.replace(/\\.$/, '').trim() ?? '';
@@ -28,6 +32,9 @@ const rows = pkg.features
       feature.tags
         .find((tag) => tag.startsWith('osm-community-') && tag !== 'osm-community-place')
         ?.replace('osm-community-', '') ?? '';
+    const curationSource = currentPlaceCurationSource(feature);
+    const curatedSummary =
+      /description=([^;]+)(?:;|\.)/.exec(curationSource?.notes ?? '')?.[1]?.trim() ?? '';
     return [
       feature.id,
       pkg.project.locality,
@@ -38,13 +45,13 @@ const rows = pkg.features
       osmValue(source, 'wikipedia'),
       osmValue(source, 'description'),
       osmValue(source, 'opening_hours'),
+      curatedSummary,
       '',
       '',
       '',
       '',
       '',
-      '',
-      'needs_source_review',
+      curationSource ? 'source_reviewed' : 'needs_source_review',
     ]
       .map(csvCell)
       .join(',');

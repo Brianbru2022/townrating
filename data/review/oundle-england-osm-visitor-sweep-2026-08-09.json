@@ -1,0 +1,1260 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T11:14:03.024Z",
+  "boundaryRule": "Exact active project boundary; no nearby places are counted.",
+  "curationRule": "OSM is discovery evidence. See and Eat require names; private, permit-only, customer-only, inactive and no-access places are excluded. Publication still requires editorial review.",
+  "towns": [
+    {
+      "projectId": "oundle-england",
+      "locality": "Oundle",
+      "projectFile": "oundle.json",
+      "counts": {
+        "see": {
+          "osm": 6,
+          "eligible": 2,
+          "curated": 0,
+          "uncurated": 2
+        },
+        "eat": {
+          "osm": 20,
+          "eligible": 20,
+          "curated": 9,
+          "uncurated": 13
+        },
+        "picnic": {
+          "osm": 2,
+          "eligible": 2,
+          "curated": 0,
+          "uncurated": 2
+        },
+        "parking": {
+          "osm": 29,
+          "eligible": 16,
+          "curated": 4,
+          "uncurated": 13
+        },
+        "toilets": {
+          "osm": 1,
+          "eligible": 1,
+          "curated": 2,
+          "uncurated": 0
+        }
+      },
+      "candidates": {
+        "see": [
+          {
+            "osmId": "node/903992622",
+            "name": "Oundle Museum",
+            "coordinates": [
+              -0.4747971,
+              52.4806398
+            ],
+            "category": "see",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:housename": "The Courthouse",
+              "addr:postcode": "PE8 4BW",
+              "addr:street": "Mill Road",
+              "addr:suburb": "Oundle",
+              "museum": "history",
+              "name": "Oundle Museum",
+              "tourism": "museum",
+              "website": "https://www.oundlemuseum.org.uk/",
+              "wikidata": "Q113370107"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/903992622"
+          },
+          {
+            "osmId": "way/91941038",
+            "name": "The Yarrow",
+            "coordinates": [
+              -0.4709066,
+              52.4834119
+            ],
+            "category": "see",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "building": "yes",
+              "name": "The Yarrow",
+              "operator": "Oundle School",
+              "tourism": "gallery"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/91941038"
+          },
+          {
+            "osmId": "way/143009562",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4700226,
+              52.4798183
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/143009562"
+          },
+          {
+            "osmId": "way/145029190",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4713827,
+              52.4819379
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/145029190"
+          },
+          {
+            "osmId": "way/964691807",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4689646,
+              52.4813353
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/964691807"
+          },
+          {
+            "osmId": "way/964691811",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.4694113,
+              52.4813903
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/964691811"
+          }
+        ],
+        "eat": [
+          {
+            "osmId": "node/3007399749",
+            "name": "Beans Coffee Shop",
+            "coordinates": [
+              -0.4689802,
+              52.480857
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-3007399749",
+            "curated": true,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "1",
+              "addr:postcode": "PE8 4EA",
+              "addr:street": "New Street",
+              "addr:suburb": "Oundle",
+              "amenity": "cafe",
+              "cuisine": "coffee_shop",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "16994",
+              "fhrs:local_authority_id": "05450/0001/0/000",
+              "internet_access": "wlan",
+              "name": "Beans Coffee Shop",
+              "outdoor_seating": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3007399749"
+          },
+          {
+            "osmId": "node/4530507760",
+            "name": "Cafe Bar @ No. 4",
+            "coordinates": [
+              -0.4665748,
+              52.4812575
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4530507760",
+            "curated": true,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "4",
+              "addr:postcode": "PE8 4AL",
+              "addr:street": "North Street",
+              "addr:suburb": "Oundle",
+              "amenity": "cafe",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "17682",
+              "fhrs:local_authority_id": "06/00021/COM",
+              "name": "Cafe Bar @ No. 4"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4530507760"
+          },
+          {
+            "osmId": "node/4530964994",
+            "name": "China Town Restaurant",
+            "coordinates": [
+              -0.4686246,
+              52.4813041
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "6-8",
+              "addr:postcode": "PE8 4EA",
+              "addr:street": "New Street",
+              "addr:suburb": "Oundle",
+              "amenity": "restaurant",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "16999",
+              "fhrs:local_authority_id": "05450/0006/0/000",
+              "name": "China Town Restaurant"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4530964994"
+          },
+          {
+            "osmId": "node/4530507755",
+            "name": "Cookies Bakers & Confectioners Ltd",
+            "coordinates": [
+              -0.4684087,
+              52.4807519
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "2",
+              "addr:postcode": "PE8 4BQ",
+              "addr:street": "Market Place",
+              "addr:suburb": "Oundle",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "16840",
+              "fhrs:local_authority_id": "05340/0002/2/000",
+              "name": "Cookies Bakers & Confectioners Ltd",
+              "shop": "bakery",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4530507755"
+          },
+          {
+            "osmId": "node/4530964995",
+            "name": "Curry Passion",
+            "coordinates": [
+              -0.4637706,
+              52.4834765
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "3",
+              "addr:postcode": "PE8 4DF",
+              "addr:street": "Eastwood Road",
+              "addr:suburb": "Oundle",
+              "amenity": "fast_food",
+              "cuisine": "indian",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "16706",
+              "fhrs:local_authority_id": "05230/0003/0/000",
+              "name": "Curry Passion"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4530964995"
+          },
+          {
+            "osmId": "node/4530507757",
+            "name": "Dexters",
+            "coordinates": [
+              -0.467583,
+              52.4805251
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4530507757",
+            "curated": true,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "2-3",
+              "addr:postcode": "PE8 4BQ",
+              "addr:street": "Market Place",
+              "addr:suburb": "Oundle",
+              "amenity": "cafe",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "16850",
+              "fhrs:local_authority_id": "05340/0020/3/002",
+              "name": "Dexters"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4530507757"
+          },
+          {
+            "osmId": "node/903924317",
+            "name": "Eastern Spices",
+            "coordinates": [
+              -0.4707221,
+              52.4808845
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "23",
+              "addr:postcode": "PE8 4EJ",
+              "addr:street": "West Street",
+              "addr:suburb": "Oundle",
+              "amenity": "fast_food",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "17284",
+              "fhrs:local_authority_id": "05800/0023/1/000",
+              "name": "Eastern Spices"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/903924317"
+          },
+          {
+            "osmId": "node/4530964996",
+            "name": "Hambleton Bakery",
+            "coordinates": [
+              -0.4646054,
+              52.4866735
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:postcode": "PE8 4DE",
+              "addr:street": "Station Road",
+              "addr:substreet": "Oundle Wharf",
+              "addr:suburb": "Oundle",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "861651",
+              "fhrs:local_authority_id": "16/00023/COM",
+              "name": "Hambleton Bakery",
+              "shop": "bakery"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4530964996"
+          },
+          {
+            "osmId": "node/4535762482",
+            "name": "Lantern",
+            "coordinates": [
+              -0.4703656,
+              52.4872965
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "23",
+              "addr:postcode": "PE8 4LB",
+              "addr:street": "New Road",
+              "addr:suburb": "Oundle Wharf",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "name": "Lantern"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4535762482"
+          },
+          {
+            "osmId": "node/903924304",
+            "name": "New Yangtze River",
+            "coordinates": [
+              -0.4735039,
+              52.480997
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "84",
+              "addr:postcode": "PE8 4EF",
+              "addr:street": "West Street",
+              "addr:suburb": "Oundle",
+              "amenity": "fast_food",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "17287",
+              "fhrs:local_authority_id": "05800/0084/0/000",
+              "name": "New Yangtze River",
+              "opening_hours": "Mo 17:00-22:00; Tu-We closed,Fr-Su 17:00-22:00"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/903924304"
+          },
+          {
+            "osmId": "node/903924293",
+            "name": "Onkar",
+            "coordinates": [
+              -0.4708076,
+              52.4807478
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "26",
+              "addr:postcode": "PE8 4EF",
+              "addr:street": "West Street",
+              "addr:suburb": "Oundle",
+              "amenity": "restaurant",
+              "cuisine": "asian",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "17285",
+              "fhrs:local_authority_id": "05800/0026/0/000",
+              "name": "Onkar"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/903924293"
+          },
+          {
+            "osmId": "node/4530964990",
+            "name": "Salerno's",
+            "coordinates": [
+              -0.4691571,
+              52.4807
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4530964990",
+            "curated": true,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "12",
+              "addr:postcode": "PE8 4EF",
+              "addr:street": "West Street",
+              "addr:suburb": "Oundle",
+              "amenity": "cafe",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "770938",
+              "fhrs:local_authority_id": "15/00012/COM",
+              "name": "Salerno's"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4530964990"
+          },
+          {
+            "osmId": "way/143146909",
+            "name": "Tap & Kitchen",
+            "coordinates": [
+              -0.4640295,
+              52.4869676
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-143146909",
+            "curated": true,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:postcode": "PE8 4DE",
+              "addr:street": "Station Road",
+              "addr:substreet": "Oundle Wharf",
+              "addr:suburb": "Oundle",
+              "amenity": "restaurant",
+              "building": "yes",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "752190",
+              "fhrs:local_authority_id": "15/00017/COM",
+              "name": "Tap & Kitchen",
+              "source": "Bing",
+              "website": "https://www.tapandkitchen.com/"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/143146909"
+          },
+          {
+            "osmId": "node/4530507756",
+            "name": "The Blue Marlin",
+            "coordinates": [
+              -0.4679213,
+              52.4807225
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "10",
+              "addr:postcode": "PE8 4BQ",
+              "addr:street": "Market Place",
+              "addr:suburb": "Oundle",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "16846",
+              "fhrs:local_authority_id": "05340/0010/0/000",
+              "name": "The Blue Marlin",
+              "opening_hours": "We-Th 17:00-20:45; Fr 11:30-13:45,16:30-20:45; Sa 12:00-13:45,17:00-20:45"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4530507756"
+          },
+          {
+            "osmId": "node/3007384947",
+            "name": "The Coffee Tavern",
+            "coordinates": [
+              -0.4667392,
+              52.4809568
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-3007384947",
+            "curated": true,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "34",
+              "addr:postcode": "PE8 4BE",
+              "addr:street": "Market Place",
+              "addr:suburb": "Oundle",
+              "amenity": "cafe",
+              "cuisine": "coffee_shop",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "16853",
+              "fhrs:local_authority_id": "05340/0034/0/000",
+              "name": "The Coffee Tavern"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3007384947"
+          },
+          {
+            "osmId": "way/142821837",
+            "name": "The George",
+            "coordinates": [
+              -0.4763207,
+              52.4895564
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:housenumber": "91",
+              "addr:postcode": "PE8 4PR",
+              "addr:street": "Glapthorn Road",
+              "addr:suburb": "Oundle",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1793701",
+              "fhrs:local_authority_id": "24/00149/COM",
+              "name": "The George",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/142821837"
+          },
+          {
+            "osmId": "node/4059843661",
+            "name": "The Hub",
+            "coordinates": [
+              -0.4725174,
+              52.4849494
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:postcode": "PE8 4JA",
+              "addr:street": "Glapthorn Road",
+              "addr:suburb": "Oundle",
+              "amenity": "cafe",
+              "cuisine": "coffee_shop",
+              "name": "The Hub"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4059843661"
+          },
+          {
+            "osmId": "node/4530964991",
+            "name": "The Lemon Tree",
+            "coordinates": [
+              -0.4687709,
+              52.4807418
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4530964991",
+            "curated": true,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "6",
+              "addr:postcode": "PE8 4EF",
+              "addr:street": "West Street",
+              "addr:suburb": "Oundle",
+              "amenity": "cafe",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1716728",
+              "fhrs:local_authority_id": "24/00036/COM",
+              "name": "The Lemon Tree"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4530964991"
+          },
+          {
+            "osmId": "way/551917459",
+            "name": "The Rose And Crown",
+            "coordinates": [
+              -0.4677131,
+              52.4811064
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "11",
+              "addr:postcode": "PE8 4BA",
+              "addr:street": "Market Place",
+              "addr:suburb": "Oundle",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "16848",
+              "fhrs:local_authority_id": "05340/0011/2/000",
+              "name": "The Rose And Crown",
+              "source": "Bing",
+              "wikidata": "Q26291649"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/551917459"
+          },
+          {
+            "osmId": "way/143085975",
+            "name": "The Ship Inn",
+            "coordinates": [
+              -0.4701373,
+              52.4805224
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "accommodation": "yes",
+              "addr:city": "Peterborough",
+              "addr:country": "GB",
+              "addr:housenumber": "18",
+              "addr:postcode": "PE8 4EF",
+              "addr:street": "West Street",
+              "addr:suburb": "Oundle",
+              "amenity": "pub",
+              "building": "yes",
+              "delivery": "no",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1744333",
+              "fhrs:local_authority_id": "24/00088/COM",
+              "food": "yes",
+              "name": "The Ship Inn",
+              "outdoor_seating": "yes",
+              "real_fire": "yes",
+              "takeaway": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/143085975"
+          }
+        ],
+        "picnic": [
+          {
+            "osmId": "node/11233328132",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.4692544,
+              52.4908781
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "leisure": "picnic_table"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/11233328132"
+          },
+          {
+            "osmId": "node/11233328133",
+            "name": "Unnamed picnic place",
+            "coordinates": [
+              -0.4693362,
+              52.490874
+            ],
+            "category": "picnic",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "leisure": "picnic_table"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/11233328133"
+          }
+        ],
+        "parking": [
+          {
+            "osmId": "way/142904592",
+            "name": "Co-op Car Park",
+            "coordinates": [
+              -0.4655512,
+              52.480585
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-142904592",
+            "curated": true,
+            "tags": {
+              "amenity": "parking",
+              "capacity": "65",
+              "maxstay": "2 hours",
+              "name": "Co-op Car Park",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/142904592"
+          },
+          {
+            "osmId": "way/134392572",
+            "name": "Drill Hall Car Park",
+            "coordinates": [
+              -0.4757914,
+              52.4816262
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-134392572",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "name": "Drill Hall Car Park",
+              "opening_hours": "24/7",
+              "operator": "Oundle Town Council",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/134392572"
+          },
+          {
+            "osmId": "way/142904372",
+            "name": "Long Stay Car Park",
+            "coordinates": [
+              -0.4626307,
+              52.4823781
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-142904372",
+            "curated": true,
+            "tags": {
+              "amenity": "parking",
+              "capacity": "70",
+              "fee": "no",
+              "name": "Long Stay Car Park",
+              "park_ride": "no",
+              "supervised": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/142904372"
+          },
+          {
+            "osmId": "way/875523393",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4762848,
+              52.4844811
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/875523393"
+          },
+          {
+            "osmId": "way/875523394",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4765755,
+              52.4840111
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/875523394"
+          },
+          {
+            "osmId": "way/403645131",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4724886,
+              52.48522
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "fee": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/403645131"
+          },
+          {
+            "osmId": "way/403645132",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.472213,
+              52.4851456
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/403645132"
+          },
+          {
+            "osmId": "way/403645133",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4725409,
+              52.484826
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/403645133"
+          },
+          {
+            "osmId": "way/142985039",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4765376,
+              52.492398
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/142985039"
+          },
+          {
+            "osmId": "way/144196032",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4617522,
+              52.4768543
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/144196032"
+          },
+          {
+            "osmId": "way/144196112",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4614821,
+              52.4762769
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/144196112"
+          },
+          {
+            "osmId": "way/961991665",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4679196,
+              52.4807982
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "capacity": "4",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/961991665"
+          },
+          {
+            "osmId": "way/961991666",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4673856,
+              52.4807912
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "capacity": "16",
+              "fee": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/961991666"
+          },
+          {
+            "osmId": "way/142903548",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4688535,
+              52.4896393
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/142903548"
+          },
+          {
+            "osmId": "way/142903560",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4685808,
+              52.4890438
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/142903560"
+          },
+          {
+            "osmId": "way/514235127",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4640935,
+              52.4866382
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/514235127"
+          },
+          {
+            "osmId": "way/145036621",
+            "name": "Gascoigne Car Park",
+            "coordinates": [
+              -0.4670527,
+              52.4829578
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "name": "Gascoigne Car Park"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/145036621"
+          },
+          {
+            "osmId": "way/143146944",
+            "name": "Talbot Car Park",
+            "coordinates": [
+              -0.4699393,
+              52.481506
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "name": "Talbot Car Park",
+              "operator": "Talbot Hotel",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/143146944"
+          },
+          {
+            "osmId": "way/143009544",
+            "name": "The Ship Car Park",
+            "coordinates": [
+              -0.4704551,
+              52.48004
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "name": "The Ship Car Park",
+              "operator": "The Ship Inn",
+              "parking": "surface",
+              "surface": "gravel"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/143009544"
+          },
+          {
+            "osmId": "way/144194982",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4715683,
+              52.4801422
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/144194982"
+          },
+          {
+            "osmId": "way/144994369",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4719085,
+              52.4804035
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/144994369"
+          },
+          {
+            "osmId": "way/140123071",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4765974,
+              52.4833675
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/140123071"
+          },
+          {
+            "osmId": "way/675434857",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4766147,
+              52.4896897
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "operator": "The George"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/675434857"
+          },
+          {
+            "osmId": "way/1212459038",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4643639,
+              52.4845485
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "capacity": "18",
+              "capacity:disabled": "18"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1212459038"
+          },
+          {
+            "osmId": "way/143141301",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4685539,
+              52.4799827
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "operator": "Vincent Sykes",
+              "operator:type": "business"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/143141301"
+          },
+          {
+            "osmId": "way/961991670",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4682443,
+              52.4799608
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "fee": "no",
+              "operator": "Amps",
+              "operator:type": "business"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/961991670"
+          },
+          {
+            "osmId": "way/411702768",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4634125,
+              52.4821521
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "fee": "no",
+              "operator": "Joan Strong Centre",
+              "park_ride": "no",
+              "supervised": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/411702768"
+          },
+          {
+            "osmId": "way/514243877",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4641443,
+              52.4842283
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "operator": "Waitrose"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/514243877"
+          },
+          {
+            "osmId": "way/142903584",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.4693539,
+              52.4903803
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "operator": "Oundle Rugby Club"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/142903584"
+          }
+        ],
+        "toilets": [
+          {
+            "osmId": "way/502096235",
+            "name": "Unnamed public toilets",
+            "coordinates": [
+              -0.4658142,
+              52.480653
+            ],
+            "category": "toilets",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-502096235",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "toilets",
+              "building": "yes",
+              "drinking_water": "no",
+              "fee": "no",
+              "female": "yes",
+              "male": "yes",
+              "opening_hours": "Mo-Su 0700-1800",
+              "source": "local_knowledge",
+              "source:geometry": "bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/502096235"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "reviewedAt": "2026-09-02T19:15:00.000Z",
+  "sequence": 3,
+  "sequenceTotal": 13,
+  "projectId": "newpark-st-andrews-scotland",
+  "place": "Newpark",
+  "townScore": 18,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "Newpark is a catalogue locality on the edge of St Andrews rather than an independent visitor place. Its industrial and mill context is historically interesting, but no public attraction, qualifying café, maintained locality trail or public visitor facility was verified."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0,
+      "note": "No independently visitable attraction verified."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "note": "No qualifying daytime food stop verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "note": "No maintained exact-locality visitor route verified.",
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue searched for the exact locality.",
+        "CuriousAbout": "Current catalogue searched for the exact locality.",
+        "MysteryGuides": "Current catalogue searched for the exact locality.",
+        "GoQuestAdventures": "Current catalogue searched for the exact locality."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "note": "No public picnic facility verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "note": "No general public visitor car park verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "note": "No public toilet verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Venue and route access is stated only when a current source supports it; no blanket claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road and available public-transport context checked; volatile timetables are not copied."
+    },
+    "dogs": {
+      "audited": true,
+      "note": "Town adjustment and venue-specific evidence retained; no unsupported dog-friendly claim added."
+    }
+  },
+  "exclusions": [
+    "St Andrews attractions and services are not transferred.",
+    "Unverified private or residential parking geometries are not published."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets with locally cached official descriptions",
+    "projectId": "newpark-st-andrews-scotland",
+    "totalHesAndNrheRetained": 67,
+    "localRecords": 48,
+    "listedBuildings": 29,
+    "scheduledMonuments": 0,
+    "nrhe": 36,
+    "relatedBufferRecords": 19,
+    "removedOutOfScope": 0,
+    "enriched": 33,
+    "datedLocalRecords": 31,
+    "undatedLocalRecordsRetainedHidden": 17,
+    "visibleHeritagePins": 31,
+    "visiblePinsWithoutDates": 0,
+    "visiblePinNamesContainingDate": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Newpark's strict study area count toward the settlement score. Explicit related context may be shown but cannot inflate the town.",
+  "scoreRationale": "Newpark is a catalogue locality on the edge of St Andrews rather than an independent visitor place. Its industrial and mill context is historically interesting, but no public attraction, qualifying café, maintained locality trail or public visitor facility was verified.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 18,
+    "rationale": "Score reconciled after all categories, boundary exclusions and source checks."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.ladebraes.net/new-mill/",
+        "outcome": "verified",
+        "note": "Local history documents New Mill near Newpark but does not establish an independent visitor attraction.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Newpark product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "visibleHeritageLabelsClean": true,
+    "liveBrowserVerifiedAt": "2026-09-02T21:07:29.331Z",
+    "liveChecks": {
+      "fifeSelectorContainsAllRequestedPlaces": true,
+      "auditedScoresRendered": true,
+      "stAndrewsCategoryCountsRendered": true,
+      "kingsbarnsCategoryCountsRendered": true,
+      "exact58SecondPassTownsRendered": true,
+      "heritageDateTextAbsentFromMapLabels": true,
+      "browserConsoleErrors": 0
+    }
+  }
+}

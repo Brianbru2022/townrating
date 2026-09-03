@@ -1,0 +1,128 @@
+{
+  "reviewedAt": "2026-09-02T19:15:00.000Z",
+  "sequence": 8,
+  "sequenceTotal": 13,
+  "projectId": "brownhills-st-andrews-scotland",
+  "place": "Brownhills",
+  "townScore": 22,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "Brownhills is a minor farmstead locality, not an independent visitor destination. The Rock and Spindle walk passes the Brownhills cottages, but starts at St Andrews East Sands and is therefore related route context rather than town merit."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0,
+      "note": "No independently visitable attraction verified."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "note": "No qualifying daytime food stop verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "note": "The passing route is outside-starting context and is not published as a Brownhills trail.",
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue searched for the exact locality.",
+        "CuriousAbout": "Current catalogue searched for the exact locality.",
+        "MysteryGuides": "Current catalogue searched for the exact locality.",
+        "GoQuestAdventures": "Current catalogue searched for the exact locality."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "note": "No public picnic facility verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "note": "No public visitor car park verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "note": "No public toilet verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Venue and route access is stated only when a current source supports it; no blanket claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road and available public-transport context checked; volatile timetables are not copied."
+    },
+    "dogs": {
+      "audited": true,
+      "note": "Town adjustment and venue-specific evidence retained; no unsupported dog-friendly claim added."
+    }
+  },
+  "exclusions": [
+    "St Andrews, Boarhills and Cambo attractions are not transferred.",
+    "Private farm and residential access is not promoted."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets with locally cached official descriptions",
+    "projectId": "brownhills-st-andrews-scotland",
+    "totalHesAndNrheRetained": 3,
+    "localRecords": 3,
+    "listedBuildings": 0,
+    "scheduledMonuments": 0,
+    "nrhe": 3,
+    "relatedBufferRecords": 0,
+    "removedOutOfScope": 0,
+    "enriched": 3,
+    "datedLocalRecords": 3,
+    "undatedLocalRecordsRetainedHidden": 0,
+    "visibleHeritagePins": 3,
+    "visiblePinsWithoutDates": 0,
+    "visiblePinNamesContainingDate": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Brownhills's strict study area count toward the settlement score. Explicit related context may be shown but cannot inflate the town.",
+  "scoreRationale": "Brownhills is a minor farmstead locality, not an independent visitor destination. The Rock and Spindle walk passes the Brownhills cottages, but starts at St Andrews East Sands and is therefore related route context rather than town merit.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 22,
+    "rationale": "Score reconciled after all categories, boundary exclusions and source checks."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://fifewalking.com/find-a-walk/east-fife/rock-and-spindle/",
+        "outcome": "verified",
+        "note": "The 5.6 km route passes Brownhills cottages but starts and finishes at St Andrews East Sands.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Brownhills product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "visibleHeritageLabelsClean": true,
+    "liveBrowserVerifiedAt": "2026-09-02T21:07:29.331Z",
+    "liveChecks": {
+      "fifeSelectorContainsAllRequestedPlaces": true,
+      "auditedScoresRendered": true,
+      "stAndrewsCategoryCountsRendered": true,
+      "kingsbarnsCategoryCountsRendered": true,
+      "exact58SecondPassTownsRendered": true,
+      "heritageDateTextAbsentFromMapLabels": true,
+      "browserConsoleErrors": 0
+    }
+  }
+}

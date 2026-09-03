@@ -1,17 +1,263 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type CSSProperties } from 'react';
 import { useExplorerStore } from '../app/store';
 import { publishedProjectPackages } from '../data/publishedProjects';
+import type { TownProject } from '../domain/models';
 import { sortPublishedPackages } from '../domain/projects';
+import {
+  touristAppealIndicator,
+  touristAppealLabel,
+  touristAppealSummary,
+  townScoreBand,
+} from '../domain/tourism';
+import { visitorNeedPlaces } from '../domain/visitorExperience';
+import { townCharacterTag } from '../domain/townCharacter';
 
 const hesDesignationsLayerId = 'hes-listed-buildings-by-category';
 const unspecifiedCounty = 'Unspecified county';
 
+function townSelectorLabel(project: TownProject): string {
+  const label = touristAppealLabel(project);
+  const score = project.touristAppeal?.score;
+  return score === undefined ? label : `${label} · ${score}%`;
+}
+
+function TownAccentIllustration({
+  locality,
+  visualIdentity,
+}: {
+  locality: string;
+  visualIdentity?: TownProject['visualIdentity'];
+}) {
+  if (visualIdentity?.badgeImage) {
+    return (
+      <figure className="town-badge-card">
+        <img src={visualIdentity.badgeImage} alt={visualIdentity.badgeAlt} />
+      </figure>
+    );
+  }
+
+  const label = `${locality} visitor illustration`;
+  return (
+    <div className="town-accent-illustration generic" role="img" aria-label={label}>
+      <span className="town-accent-sky" />
+      <span className="town-accent-land" />
+      <span className="town-accent-road" />
+      <span className="town-accent-pin" />
+    </div>
+  );
+}
+
+function TownGuideHero({
+  locality,
+  visualIdentity,
+  score,
+  indicator,
+  ratingLabel,
+  dogOwnerScore,
+  dogAccessRating,
+  characterTag,
+}: {
+  locality: string;
+  visualIdentity?: TownProject['visualIdentity'];
+  score?: number;
+  indicator?: string;
+  ratingLabel?: string;
+  dogOwnerScore?: number;
+  dogAccessRating?: NonNullable<TownProject['touristAppeal']>['dogAccessRating'];
+  characterTag: string;
+}) {
+  const image = visualIdentity?.heroImage ?? visualIdentity?.badgeImage;
+  const ratings = (
+    <TownGuideRatings
+      score={score}
+      indicator={indicator}
+      ratingLabel={ratingLabel}
+      dogOwnerScore={dogOwnerScore}
+      dogAccessRating={dogAccessRating}
+    />
+  );
+  if (!image) {
+    return (
+      <figure className="town-guide-hero town-guide-hero--fallback">
+        <div className="town-guide-hero-media">
+          <TownAccentIllustration locality={locality} visualIdentity={visualIdentity} />
+        </div>
+        <figcaption className="town-guide-hero-copy">
+          <p className="eyebrow">Visitor guide</p>
+          <h1>{locality}</h1>
+          <p className="town-guide-character">{characterTag}</p>
+          {ratings}
+        </figcaption>
+      </figure>
+    );
+  }
+  return (
+    <figure className="town-guide-hero">
+      <div className="town-guide-hero-media">
+        <img
+          src={image}
+          alt={visualIdentity?.heroAlt ?? visualIdentity?.badgeAlt ?? ''}
+          style={
+            visualIdentity?.heroObjectPosition
+              ? ({ objectPosition: visualIdentity.heroObjectPosition } as CSSProperties)
+              : undefined
+          }
+        />
+      </div>
+      <figcaption className="town-guide-hero-copy">
+        <p className="eyebrow">Visitor guide</p>
+        <h1>{locality}</h1>
+        <p className="town-guide-character">{characterTag}</p>
+        {ratings}
+      </figcaption>
+    </figure>
+  );
+}
+
+function TownGuideRatings({
+  score,
+  indicator,
+  ratingLabel,
+  dogOwnerScore,
+  dogAccessRating,
+}: {
+  score?: number;
+  indicator?: string;
+  ratingLabel?: string;
+  dogOwnerScore?: number;
+  dogAccessRating?: NonNullable<TownProject['touristAppeal']>['dogAccessRating'];
+}) {
+  if (score === undefined && dogOwnerScore === undefined) return null;
+  const dogBand = dogOwnerScore === undefined ? undefined : townScoreBand(dogOwnerScore);
+  return (
+    <div className="town-guide-ratings" aria-label="Town ratings">
+      {score !== undefined && (
+        <div className="town-guide-rating-row town-guide-rating-row--town">
+          <span className="town-guide-rating-audience">Town</span>
+          <strong>{score}%</strong>
+          {indicator && <b aria-hidden="true">{indicator}</b>}
+          {ratingLabel && <span className="town-guide-rating-band">{ratingLabel}</span>}
+        </div>
+      )}
+      {dogOwnerScore !== undefined && dogBand && (
+        <div className="town-guide-rating-row town-guide-rating-row--dog">
+          <span className="town-guide-rating-audience">With a dog</span>
+          <strong>{dogOwnerScore}%</strong>
+          {dogBand.indicator && <b aria-hidden="true">{dogBand.indicator}</b>}
+          <span className="town-guide-rating-band">{dogBand.label}</span>
+          {dogAccessRating !== undefined && (
+            <span
+              className="town-guide-dog-paws"
+              aria-label={`Dog access: ${dogAccessRating} out of 3 paws`}
+              title={`Dog access: ${dogAccessRating} out of 3 paws`}
+            >
+              {Array.from({ length: 3 }, (_, paw) => (
+                <i
+                  className={paw < dogAccessRating ? 'filled' : undefined}
+                  key={paw}
+                  aria-hidden="true"
+                >
+                  🐾
+                </i>
+              ))}
+            </span>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function TownMotifStrip({ motifs }: { motifs?: string[] }) {
+  if (!motifs?.length) return null;
+  return (
+    <div className="town-motif-strip" aria-label="Town character">
+      {motifs.slice(0, 4).map((motif) => (
+        <span className={`town-motif town-motif--${motifKind(motif)}`} key={motif}>
+          <span className="town-motif-icon" aria-hidden="true" />
+          <span>{motif}</span>
+        </span>
+      ))}
+    </div>
+  );
+}
+
+type TownMotifKind =
+  | 'art'
+  | 'boat'
+  | 'bridge'
+  | 'food'
+  | 'glens'
+  | 'heritage'
+  | 'hill'
+  | 'industry'
+  | 'music'
+  | 'park'
+  | 'place'
+  | 'route'
+  | 'sport'
+  | 'story'
+  | 'textile'
+  | 'water';
+
+function motifKind(motif: string): TownMotifKind {
+  const normalised = motif.toLocaleLowerCase();
+  if (normalised.includes('story') || normalised.includes('literary')) return 'story';
+  if (normalised.includes('music') || normalised.includes('scott')) return 'music';
+  if (normalised.includes('textile') || normalised.includes('weav')) return 'textile';
+  if (normalised.includes('bridge')) return 'bridge';
+  if (normalised.includes('boat') || normalised.includes('ferry') || normalised.includes('harbour'))
+    return 'boat';
+  if (
+    normalised.includes('waterfall') ||
+    normalised.includes('river') ||
+    normalised.includes('pool') ||
+    normalised.includes('waterfront')
+  )
+    return 'water';
+  if (normalised.includes('park') || normalised.includes('garden')) return 'park';
+  if (normalised.includes('football') || normalised.includes('sport')) return 'sport';
+  if (
+    normalised.includes('brewing') ||
+    normalised.includes('glass') ||
+    normalised.includes('industrial')
+  )
+    return 'industry';
+  if (normalised.includes('art') || normalised.includes('statue')) return 'art';
+  if (normalised.includes('cafe') || normalised.includes('food')) return 'food';
+  if (
+    normalised.includes('cycle') ||
+    normalised.includes('route') ||
+    normalised.includes('walk') ||
+    normalised.includes('avenue')
+  )
+    return 'route';
+  if (
+    normalised.includes('keep') ||
+    normalised.includes('village') ||
+    normalised.includes('zion') ||
+    normalised.includes('faith')
+  )
+    return 'heritage';
+  if (
+    normalised.includes('hill') ||
+    normalised.includes('view') ||
+    normalised.includes('crag') ||
+    normalised.includes('ochil') ||
+    normalised.includes('scenery') ||
+    normalised.includes('coastal')
+  )
+    return 'hill';
+  if (normalised.includes('glen')) return 'glens';
+  return 'place';
+}
+
 export function Sidebar() {
+  const adminToolsAvailable = import.meta.env.DEV;
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [guideMenuOpen, setGuideMenuOpen] = useState(false);
   const [townSearch, setTownSearch] = useState('');
   const pkg = useExplorerStore((state) => state.package);
-  const query = useExplorerStore((state) => state.query);
-  const setQuery = useExplorerStore((state) => state.setQuery);
   const possible = useExplorerStore((state) => state.possible);
   const setPossible = useExplorerStore((state) => state.setPossible);
   const settlementAge = useExplorerStore((state) => state.settlementAge);
@@ -22,8 +268,6 @@ export function Sidebar() {
   const setExcludeUndated = useExplorerStore((state) => state.setExcludeUndated);
   const demolished = useExplorerStore((state) => state.demolished);
   const setDemolished = useExplorerStore((state) => state.setDemolished);
-  const activeMap = useExplorerStore((state) => state.activeMap);
-  const setActiveMap = useExplorerStore((state) => state.setActiveMap);
   const showHesDesignations = useExplorerStore((state) => state.showHesDesignations);
   const setShowHesDesignations = useExplorerStore((state) => state.setShowHesDesignations);
   const showPublicArt = useExplorerStore((state) => state.showPublicArt);
@@ -61,6 +305,9 @@ export function Sidebar() {
   const communityLayersOnly = useExplorerStore((state) => state.communityLayersOnly);
   const setCommunityLayersOnly = useExplorerStore((state) => state.setCommunityLayersOnly);
   const setPackage = useExplorerStore((state) => state.setPackage);
+  const setMode = useExplorerStore((state) => state.setMode);
+  const adminMode = useExplorerStore((state) => state.adminMode);
+  const setAdminMode = useExplorerStore((state) => state.setAdminMode);
   const hasHesDesignations = pkg.historicMaps.some((map) => map.id === hesDesignationsLayerId);
   const publishedPackages = sortPublishedPackages(publishedProjectPackages);
   const countries = [
@@ -79,16 +326,38 @@ export function Sidebar() {
       (projectPackage.project.region ?? unspecifiedCounty) ===
         (pkg.project.region ?? unspecifiedCounty),
   );
-  const matchingTowns = townsInCounty.filter((projectPackage) =>
-    projectPackage.project.locality
-      .toLocaleLowerCase()
-      .includes(townSearch.trim().toLocaleLowerCase()),
+  const townSearchQuery = townSearch.trim().toLocaleLowerCase();
+  const matchingTowns = publishedPackages.filter((projectPackage) =>
+    projectPackage.project.locality.toLocaleLowerCase().includes(townSearchQuery),
   );
-  const townOptions = townSearch ? matchingTowns : townsInCounty;
+  const townOptions = townSearchQuery ? matchingTowns : townsInCounty;
+  const activeTouristAppeal = pkg.project.touristAppeal;
+  const activeVisualIdentity = pkg.project.visualIdentity;
+  const townIdentityStyle = activeVisualIdentity
+    ? ({
+        '--town-identity-primary': activeVisualIdentity.primaryColour,
+        '--town-identity-accent': activeVisualIdentity.accentColour,
+        '--town-identity-bg': activeVisualIdentity.backgroundColour,
+      } as CSSProperties)
+    : undefined;
+  const activeGuide = pkg.project.townGuide;
+  const guideIntro =
+    activeGuide?.intro ??
+    touristAppealSummary(pkg.project) ??
+    'No visitor guide has been written yet.';
+  const perfectFor = activeGuide?.perfectFor ?? [];
+  const firstStop = visitorNeedPlaces(pkg, 'see', 1)[0];
+  const firstStopFeature = firstStop
+    ? pkg.features.find((feature) => feature.id === firstStop.id)
+    : undefined;
+  const selectFeature = useExplorerStore((state) => state.selectFeature);
 
   useEffect(() => {
     const closeOnEscape = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') setSettingsOpen(false);
+      if (event.key === 'Escape') {
+        setSettingsOpen(false);
+        setGuideMenuOpen(false);
+      }
     };
     window.addEventListener('keydown', closeOnEscape);
     return () => window.removeEventListener('keydown', closeOnEscape);
@@ -102,119 +371,231 @@ export function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="sidebar-heading">
-        <div className="brand">
-          <span>HISTORIC</span>
-          <strong>TOWN EXPLORER</strong>
+        <div className="sidebar-guide-label">
+          <span aria-hidden="true" />
+          <strong>Destination guide</strong>
         </div>
-        <button
-          className="settings-button"
-          type="button"
-          aria-label="Open settings"
-          aria-expanded={settingsOpen}
-          title="Explorer settings"
-          onClick={() => setSettingsOpen((open) => !open)}
-        >
-          <span aria-hidden="true">⚙</span>
-        </button>
+        <div className="sidebar-heading-actions">
+          <button
+            className="home-return-button"
+            type="button"
+            aria-label="Back to Home"
+            onClick={() => setMode('home')}
+          >
+            Home
+          </button>
+          <div className="guide-actions-menu">
+            <button
+              className="guide-menu-button"
+              type="button"
+              aria-label="Guide options"
+              aria-expanded={guideMenuOpen}
+              title="Guide options"
+              onClick={() => setGuideMenuOpen((open) => !open)}
+            >
+              <span aria-hidden="true" />
+            </button>
+            {guideMenuOpen && (
+              <div className="guide-menu-popover" role="menu" aria-label="Guide options">
+                <button
+                  type="button"
+                  role="menuitem"
+                  onClick={() => {
+                    setSettingsOpen(true);
+                    setGuideMenuOpen(false);
+                  }}
+                >
+                  Explorer settings
+                </button>
+                {adminToolsAvailable && (
+                  <button
+                    type="button"
+                    role="menuitemcheckbox"
+                    aria-checked={adminMode}
+                    className={adminMode ? 'active' : undefined}
+                    onClick={() => {
+                      setAdminMode(!adminMode);
+                      setGuideMenuOpen(false);
+                    }}
+                  >
+                    {adminMode ? 'Admin mode on' : 'Admin mode'}
+                  </button>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
       </div>
-      <label>
-        Country
-        <select
-          value={pkg.project.country}
-          aria-label="Country"
-          onChange={(event) => {
-            const next = publishedPackages.find(
-              (candidate) => candidate.project.country === event.target.value,
-            );
-            if (next) {
-              setTownSearch('');
-              setPackage(next);
-            }
-          }}
-        >
-          {countries.map((country) => (
-            <option value={country} key={country}>
-              {country}
-            </option>
-          ))}
-        </select>
-      </label>
-      <label>
-        County
-        <select
-          value={pkg.project.region ?? unspecifiedCounty}
-          aria-label="County"
-          onChange={(event) => {
-            const next = publishedPackages.find(
-              (candidate) =>
-                candidate.project.country === pkg.project.country &&
-                (candidate.project.region ?? unspecifiedCounty) === event.target.value,
-            );
-            if (next) {
-              setTownSearch('');
-              setPackage(next);
-            }
-          }}
-        >
-          {counties.map((county) => (
-            <option value={county} key={county}>
-              {county}
-            </option>
-          ))}
-        </select>
-      </label>
-      <label>
-        Search towns
-        <input
-          type="search"
-          value={townSearch}
-          aria-label="Search towns"
-          onChange={(event) => setTownSearch(event.target.value)}
-          placeholder="Start typing a town name…"
+
+      <section
+        className="town-visit-hero"
+        aria-label="Town visitor snapshot"
+        style={townIdentityStyle}
+      >
+        <TownGuideHero
+          locality={pkg.project.locality}
+          visualIdentity={pkg.project.visualIdentity}
+          score={activeTouristAppeal?.score}
+          indicator={touristAppealIndicator(pkg.project)}
+          ratingLabel={activeTouristAppeal?.label}
+          dogOwnerScore={activeTouristAppeal?.dogOwnerScore}
+          dogAccessRating={activeTouristAppeal?.dogAccessRating}
+          characterTag={townCharacterTag(pkg)}
         />
-      </label>
-      <label>
-        Town
-        <select
-          value={
-            townOptions.some((projectPackage) => projectPackage.project.id === pkg.project.id)
-              ? pkg.project.id
-              : ''
-          }
-          aria-label="Town"
-          onChange={(event) => selectPackage(event.target.value)}
-        >
-          {!townOptions.some((projectPackage) => projectPackage.project.id === pkg.project.id) && (
-            <option value="" disabled>
-              {matchingTowns.length ? 'Choose a town' : 'No matching towns'}
-            </option>
+        <TownMotifStrip motifs={activeVisualIdentity?.motifs} />
+        <div className="town-guide-body">
+          {activeGuide?.headline && <h2>{activeGuide.headline}</h2>}
+          <p className="town-guide-intro">{guideIntro}</p>
+          {activeTouristAppeal?.dogAccessSummary && (
+            <p className="town-dog-summary">
+              <strong>With a dog:</strong> {activeTouristAppeal.dogAccessSummary}
+            </p>
           )}
-          {townOptions.map((projectPackage) => (
-            <option value={projectPackage.project.id} key={projectPackage.project.id}>
-              {projectPackage.project.locality}
-            </option>
-          ))}
-        </select>
-      </label>
-      <p className="project-meta">
-        {pkg.project.locality}, {pkg.project.country}
-      </p>
-      <p className="town-summary">
-        Explore source-backed historic places, maps and evidence across {pkg.project.locality}
-        {pkg.project.region ? `, ${pkg.project.region}` : ''}.
-      </p>
-      <label>
-        Search features
-        <input
-          value={query}
-          onChange={(event) => setQuery(event.target.value)}
-          placeholder="Name, type, street…"
-        />
-      </label>
-      <p className="map-key">
-        Historic dot colour shows the earliest evidence century: purple is oldest, then red, orange
-        and amber; blue means no usable historic date.
-      </p>
+          {(activeGuide?.bestFor.length || activeGuide?.suggestedTime) && (
+            <div className="town-guide-facts" aria-label="Visitor guide quick facts">
+              {activeGuide?.suggestedTime && (
+                <span>
+                  <strong>Time</strong>
+                  {activeGuide.suggestedTime}
+                </span>
+              )}
+              {activeGuide?.bestFor.map((item) => (
+                <span key={item}>{item}</span>
+              ))}
+            </div>
+          )}
+        </div>
+        <section className="town-first-stop">
+          <p className="eyebrow">Start here</p>
+          {firstStop ? (
+            <>
+              <h2>{firstStop.name}</h2>
+              {firstStop.reason && <p>{firstStop.reason}</p>}
+              {firstStopFeature && (
+                <button
+                  className="town-first-stop-action"
+                  type="button"
+                  onClick={() => selectFeature(firstStopFeature)}
+                >
+                  Open details
+                </button>
+              )}
+            </>
+          ) : (
+            <p>No first-stop recommendation has been curated yet.</p>
+          )}
+        </section>
+        {activeGuide?.visitorMood && (
+          <section className="town-guide-why" aria-label="Why this town">
+            <p className="eyebrow">Why this town</p>
+            <p className="town-guide-mood">{activeGuide.visitorMood}</p>
+          </section>
+        )}
+        {perfectFor.length > 0 && (
+          <section className="town-guide-perfect" aria-label="Perfect for">
+            <p className="eyebrow">Perfect for</p>
+            <div>
+              {perfectFor.map((item) => (
+                <span key={item}>{item}</span>
+              ))}
+            </div>
+          </section>
+        )}
+        {activeGuide?.suggestedFirstVisit && (
+          <section className="town-guide-suggested" aria-label="Suggested first visit">
+            <p className="eyebrow">Suggested first visit</p>
+            <h2>{activeGuide.suggestedFirstVisit.title}</h2>
+            <p>{activeGuide.suggestedFirstVisit.summary}</p>
+          </section>
+        )}
+      </section>
+
+      <details className="town-picker" aria-label="Choose a town">
+        <summary>Change town</summary>
+        <div className="town-picker-grid">
+          <label>
+            Country
+            <select
+              value={pkg.project.country}
+              aria-label="Country"
+              onChange={(event) => {
+                const next = publishedPackages.find(
+                  (candidate) => candidate.project.country === event.target.value,
+                );
+                if (next) {
+                  setTownSearch('');
+                  setPackage(next);
+                }
+              }}
+            >
+              {countries.map((country) => (
+                <option value={country} key={country}>
+                  {country}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label>
+            County
+            <select
+              value={pkg.project.region ?? unspecifiedCounty}
+              aria-label="County"
+              onChange={(event) => {
+                const next = publishedPackages.find(
+                  (candidate) =>
+                    candidate.project.country === pkg.project.country &&
+                    (candidate.project.region ?? unspecifiedCounty) === event.target.value,
+                );
+                if (next) {
+                  setTownSearch('');
+                  setPackage(next);
+                }
+              }}
+            >
+              {counties.map((county) => (
+                <option value={county} key={county}>
+                  {county}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
+        <label>
+          Find a town
+          <input
+            type="search"
+            value={townSearch}
+            aria-label="Search towns"
+            onChange={(event) => setTownSearch(event.target.value)}
+            placeholder="Start typing a town name..."
+          />
+        </label>
+        <label>
+          Explore town
+          <select
+            value={
+              townOptions.some((projectPackage) => projectPackage.project.id === pkg.project.id)
+                ? pkg.project.id
+                : ''
+            }
+            aria-label="Town"
+            onChange={(event) => selectPackage(event.target.value)}
+          >
+            {!townOptions.some(
+              (projectPackage) => projectPackage.project.id === pkg.project.id,
+            ) && (
+              <option value="" disabled>
+                {matchingTowns.length ? 'Choose a town' : 'No matching towns'}
+              </option>
+            )}
+            {townOptions.map((projectPackage) => (
+              <option value={projectPackage.project.id} key={projectPackage.project.id}>
+                {townSelectorLabel(projectPackage.project)}
+              </option>
+            ))}
+          </select>
+        </label>
+      </details>
       {settingsOpen && (
         <>
           <button
@@ -240,6 +621,23 @@ export function Sidebar() {
                 ×
               </button>
             </div>
+            {adminToolsAvailable && (
+              <fieldset>
+                <legend>Admin tools</legend>
+                <label className="check">
+                  <input
+                    type="checkbox"
+                    checked={adminMode}
+                    onChange={(event) => setAdminMode(event.target.checked)}
+                  />
+                  Enable planner curation
+                </label>
+                <p className="settings-help">
+                  Admin mode turns on all OSM visitor icon categories and the map legend. Untick
+                  individual categories below to hide the ones you do not want to curate.
+                </p>
+              </fieldset>
+            )}
             <fieldset>
               <legend>Timeline visibility</legend>
               <label className="check">
@@ -451,52 +849,6 @@ export function Sidebar() {
           </section>
         </>
       )}
-      <fieldset>
-        <legend>Historic map</legend>
-        <select
-          value={activeMap?.id ?? ''}
-          onChange={(event) =>
-            setActiveMap(pkg.historicMaps.find((map) => map.id === event.target.value))
-          }
-        >
-          <option value="">No historic map selected</option>
-          {pkg.historicMaps
-            .filter(
-              (map) =>
-                map.id !== hesDesignationsLayerId &&
-                Boolean(map.tileUrl) &&
-                (map.layerType === 'xyz' ||
-                  map.layerType === 'wms' ||
-                  map.layerType === 'georeferenced_raster_tiles'),
-            )
-            .map((map) => (
-              <option value={map.id} key={map.id}>
-                {map.displayDate} — {map.title}
-              </option>
-            ))}
-        </select>
-        {activeMap?.id.endsWith('-alignment-review') && (
-          <p className="map-review-notice">
-            Draft local overlay for alignment review only. It is excluded from production and is not
-            approved for digitisation or export.
-          </p>
-        )}
-        {activeMap && (
-          <label>
-            Opacity
-            <input
-              type="range"
-              min="0"
-              max="1"
-              step="0.05"
-              value={activeMap.opacity}
-              onChange={(event) =>
-                setActiveMap({ ...activeMap, opacity: Number(event.target.value) })
-              }
-            />
-          </label>
-        )}
-      </fieldset>
     </aside>
   );
 }

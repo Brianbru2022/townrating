@@ -1,0 +1,3385 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T11:21:35.625Z",
+  "boundaryRule": "Exact active project boundary; no nearby places are counted.",
+  "curationRule": "OSM is discovery evidence. See and Eat require names; private, permit-only, customer-only, inactive and no-access places are excluded. Publication still requires editorial review.",
+  "towns": [
+    {
+      "projectId": "oakham-england",
+      "locality": "Oakham",
+      "projectFile": "oakham-england.json",
+      "counts": {
+        "see": {
+          "osm": 11,
+          "eligible": 3,
+          "curated": 0,
+          "uncurated": 3
+        },
+        "eat": {
+          "osm": 60,
+          "eligible": 55,
+          "curated": 20,
+          "uncurated": 35
+        },
+        "picnic": {
+          "osm": 0,
+          "eligible": 0,
+          "curated": 0,
+          "uncurated": 0
+        },
+        "parking": {
+          "osm": 91,
+          "eligible": 46,
+          "curated": 8,
+          "uncurated": 38
+        },
+        "toilets": {
+          "osm": 2,
+          "eligible": 1,
+          "curated": 1,
+          "uncurated": 0
+        }
+      },
+      "candidates": {
+        "see": [
+          {
+            "osmId": "node/7553550789",
+            "name": "Mini Monsters",
+            "coordinates": [
+              -0.7349575,
+              52.6695626
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-7553550789",
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:postcode": "LE15 6LN",
+              "addr:street": "Long Row",
+              "addr:unit": "Units 1 And 2 Long Row Business Park",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153842",
+              "fhrs:local_authority_id": "104616",
+              "name": "Mini Monsters",
+              "tourism": "theme_park"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7553550789"
+          },
+          {
+            "osmId": "way/417617998",
+            "name": "Oakham Castle",
+            "coordinates": [
+              -0.7274303,
+              52.6709987
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-417617998",
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:postcode": "LE15 6DR",
+              "addr:street": "Castle Lane",
+              "building": "yes",
+              "castle_type": "manor",
+              "historic": "castle",
+              "historic:civilization": "Norman",
+              "name": "Oakham Castle",
+              "operator": "Rutland County Council",
+              "source": "survey",
+              "wikidata": "Q2968294",
+              "wikipedia": "en:Oakham Castle"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/417617998"
+          },
+          {
+            "osmId": "way/101330070",
+            "name": "Rutland County Museum",
+            "coordinates": [
+              -0.725437,
+              52.6678548
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-101330070",
+            "curated": false,
+            "tags": {
+              "building": "yes",
+              "name": "Rutland County Museum",
+              "tourism": "museum",
+              "wikidata": "Q15273877"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/101330070"
+          },
+          {
+            "osmId": "way/1181129825",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7393524,
+              52.6779916
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1181129825"
+          },
+          {
+            "osmId": "way/1455256930",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.732547,
+              52.6651297
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1455256930"
+          },
+          {
+            "osmId": "way/891896355",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7278361,
+              52.6701662
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891896355"
+          },
+          {
+            "osmId": "way/891896356",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7278585,
+              52.670012
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891896356"
+          },
+          {
+            "osmId": "way/891896360",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.728574,
+              52.6705828
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891896360"
+          },
+          {
+            "osmId": "way/891591992",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7270085,
+              52.6728001
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891591992"
+          },
+          {
+            "osmId": "way/893125586",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7270431,
+              52.6735499
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "leisure": "garden",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/893125586"
+          },
+          {
+            "osmId": "way/891591991",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7275782,
+              52.6728991
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "leisure": "garden"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891591991"
+          }
+        ],
+        "eat": [
+          {
+            "osmId": "node/7552386435",
+            "name": "10 Dining Street",
+            "coordinates": [
+              -0.7316476,
+              52.6695382
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "8",
+              "addr:postcode": "LE15 6BA",
+              "addr:street": "New Street",
+              "amenity": "restaurant",
+              "cuisine": "indian",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153550",
+              "fhrs:local_authority_id": "100177",
+              "name": "10 Dining Street",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7552386435"
+          },
+          {
+            "osmId": "way/101810849",
+            "name": "Admiral Hornblower",
+            "coordinates": [
+              -0.7305994,
+              52.6697893
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "accommodation": "yes",
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "64",
+              "addr:postcode": "LE15 6AS",
+              "addr:street": "High Street",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153490",
+              "fhrs:local_authority_id": "100069",
+              "name": "Admiral Hornblower",
+              "source": "Bing",
+              "source:name": "survey",
+              "toilets:wheelchair": "no",
+              "wheelchair": "limited",
+              "wikidata": "Q26331060"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/101810849"
+          },
+          {
+            "osmId": "node/1174852662",
+            "name": "Amigos Pizza",
+            "coordinates": [
+              -0.7270976,
+              52.6686425
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "12",
+              "addr:postcode": "LE15 6EA",
+              "addr:street": "Mill Street",
+              "amenity": "fast_food",
+              "cuisine": "pizza",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1171022",
+              "fhrs:local_authority_id": "53805",
+              "name": "Amigos Pizza",
+              "source": "survey",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1174852662"
+          },
+          {
+            "osmId": "node/2645782064",
+            "name": "Bar.B.Q. House",
+            "coordinates": [
+              -0.7323321,
+              52.670415
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "10",
+              "addr:postcode": "LE15 6AY",
+              "addr:street": "Melton Road",
+              "amenity": "fast_food",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153587",
+              "fhrs:local_authority_id": "100284",
+              "name": "Bar.B.Q. House",
+              "source": "survey",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2645782064"
+          },
+          {
+            "osmId": "node/3028136131",
+            "name": "Bill's",
+            "coordinates": [
+              -0.7314847,
+              52.6702644
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housename": "Grosvenor House",
+              "addr:postcode": "LE15 6AX",
+              "addr:street": "Melton Road",
+              "addr:unit": "4",
+              "amenity": "restaurant",
+              "branch": "Bar Bar",
+              "brand": "Bill's",
+              "brand:wikidata": "Q47012702",
+              "cuisine": "british",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153512",
+              "fhrs:local_authority_id": "100113",
+              "name": "Bill's",
+              "source": "survey",
+              "source:addr": "FHRS Open Data",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3028136131"
+          },
+          {
+            "osmId": "node/1174890142",
+            "name": "Cafe Aroma",
+            "coordinates": [
+              -0.7299085,
+              52.6701187
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-1174890142",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "4",
+              "addr:postcode": "LE15 6AA",
+              "addr:street": "Church Street",
+              "amenity": "cafe",
+              "cuisine": "coffee_shop",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153737",
+              "fhrs:local_authority_id": "102802",
+              "name": "Cafe Aroma",
+              "source": "survey",
+              "source:addr": "FHRS Open Data",
+              "takeaway": "yes",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1174890142"
+          },
+          {
+            "osmId": "way/891591974",
+            "name": "Caffè Nero",
+            "coordinates": [
+              -0.7273551,
+              52.6703847
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-891591974",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "17-17a",
+              "addr:postcode": "LE15 6DT",
+              "addr:street": "Market Place",
+              "amenity": "cafe",
+              "brand": "Caffè Nero",
+              "brand:wikidata": "Q675808",
+              "brand:wikipedia": "en:Caffè Nero",
+              "building": "yes",
+              "check_date": "2024-08-22",
+              "check_date:opening_hours": "2024-08-22",
+              "cuisine": "coffee_shop",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153813",
+              "fhrs:local_authority_id": "103832",
+              "name": "Caffè Nero",
+              "opening_hours": "Mo-Sa 07:30-18:00; Su 08:30-17:30",
+              "source": "survey",
+              "takeaway": "yes",
+              "website": "https://www.caffenero.com/uk/stores/oakham",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891591974"
+          },
+          {
+            "osmId": "node/1482386780",
+            "name": "Castle Cafe",
+            "coordinates": [
+              -0.7282048,
+              52.6707714
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-1482386780",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "name": "Castle Cafe",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1482386780"
+          },
+          {
+            "osmId": "node/11293279632",
+            "name": "Castle Cottage",
+            "coordinates": [
+              -0.7273214,
+              52.6710443
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-11293279632",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "name": "Castle Cottage",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/11293279632"
+          },
+          {
+            "osmId": "way/1099796628",
+            "name": "Costa Drive Thru",
+            "coordinates": [
+              -0.7364773,
+              52.6808583
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-1099796628",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "brand": "Costa",
+              "brand:wikidata": "Q608845",
+              "building": "yes",
+              "cuisine": "coffee_shop",
+              "drive_through": "yes",
+              "name": "Costa Drive Thru",
+              "takeaway": "only"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1099796628"
+          },
+          {
+            "osmId": "node/3027530807",
+            "name": "Curtis",
+            "coordinates": [
+              -0.7271556,
+              52.6700808
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "9",
+              "addr:postcode": "LE15 6DT",
+              "addr:street": "Market Place",
+              "amenity": "fast_food",
+              "cuisine": "sandwich",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153665",
+              "fhrs:local_authority_id": "101818",
+              "name": "Curtis",
+              "source": "survey",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3027530807"
+          },
+          {
+            "osmId": "node/3027997171",
+            "name": "Domino's",
+            "coordinates": [
+              -0.7334803,
+              52.6708127
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "34",
+              "addr:postcode": "LE15 6AY",
+              "addr:street": "Melton Road",
+              "amenity": "fast_food",
+              "brand": "Domino's",
+              "brand:wikidata": "Q839466",
+              "brand:wikipedia": "en:Domino's Pizza",
+              "contact:website": "https://www.dominos.co.uk/pizza-near-me/oakham/34-melton-road",
+              "cuisine": "pizza",
+              "fhrs:id": "1153692",
+              "indoor_seating": "no",
+              "name": "Domino's",
+              "note": "new loos inside bus station waiting room, now in same palce",
+              "old_name": "Croft Bakery",
+              "old_shop": "bakery",
+              "outdoor_seating": "no",
+              "source": "survey",
+              "takeaway": "only",
+              "toilets": "yes",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3027997171"
+          },
+          {
+            "osmId": "node/3027997173",
+            "name": "Eastern Delight",
+            "coordinates": [
+              -0.7325067,
+              52.670581
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "18",
+              "addr:postcode": "LE15 6AY",
+              "addr:street": "Melton Road",
+              "amenity": "fast_food",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153586",
+              "fhrs:local_authority_id": "100283",
+              "name": "Eastern Delight",
+              "source": "survey",
+              "source:addr": "FHRS Open Data",
+              "wheelchair": "no",
+              "wikidata": "Q26472524"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3027997173"
+          },
+          {
+            "osmId": "way/101804054",
+            "name": "Esquires",
+            "coordinates": [
+              -0.7284304,
+              52.6694959
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-101804054",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:housenumber": "28",
+              "addr:postcode": "LE15 6AL",
+              "addr:street": "High Street",
+              "amenity": "cafe",
+              "building": "yes",
+              "cuisine": "coffee_shop",
+              "disused:amenity": "bank",
+              "name": "Esquires",
+              "old_name": "HSBC UK",
+              "operational_status": "closed"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/101804054"
+          },
+          {
+            "osmId": "node/18376347",
+            "name": "Everest Lounge",
+            "coordinates": [
+              -0.7297086,
+              52.6704294
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "12",
+              "addr:postcode": "LE15 6AA",
+              "addr:street": "Church Street",
+              "amenity": "restaurant",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153555",
+              "fhrs:local_authority_id": "100186",
+              "name": "Everest Lounge",
+              "old_name": "The Merry Monk",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/18376347"
+          },
+          {
+            "osmId": "node/1174834460",
+            "name": "Feast",
+            "coordinates": [
+              -0.7271861,
+              52.6690018
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "15",
+              "addr:postcode": "LE15 6EA",
+              "addr:street": "Mill Street",
+              "addr:unit": "4 The Maltings",
+              "amenity": "fast_food",
+              "cuisine": "sandwich",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153673",
+              "fhrs:local_authority_id": "102232",
+              "name": "Feast",
+              "source": "survey",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1174834460"
+          },
+          {
+            "osmId": "node/1174834478",
+            "name": "Fika Oakham",
+            "coordinates": [
+              -0.7270313,
+              52.6687522
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "10d",
+              "addr:postcode": "LE15 6EA",
+              "addr:street": "Mill Street",
+              "amenity": "restaurant",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153746",
+              "fhrs:local_authority_id": "102824",
+              "name": "Fika Oakham",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1174834478"
+          },
+          {
+            "osmId": "way/1352918749",
+            "name": "Fillings Road Cafe",
+            "coordinates": [
+              -0.7328923,
+              52.678539
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-1352918749",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:postcode": "LE15 6QF",
+              "addr:street": "Pillings Road",
+              "amenity": "cafe",
+              "building": "yes",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153849",
+              "fhrs:local_authority_id": "104644",
+              "name": "Fillings Road Cafe"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1352918749"
+          },
+          {
+            "osmId": "node/5122021040",
+            "name": "Fish Tank Sushi",
+            "coordinates": [
+              -0.7302119,
+              52.6702314
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "restaurant",
+              "cuisine": "sushi",
+              "name": "Fish Tank Sushi",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/5122021040"
+          },
+          {
+            "osmId": "node/7552211468",
+            "name": "Hambleton Bakery",
+            "coordinates": [
+              -0.730399,
+              52.6694715
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-7552211468",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "17",
+              "addr:postcode": "LE15 6AQ",
+              "addr:street": "Gaol Street",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153672",
+              "fhrs:local_authority_id": "102226",
+              "name": "Hambleton Bakery",
+              "shop": "bakery",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7552211468"
+          },
+          {
+            "osmId": "node/7552211467",
+            "name": "Hambleton Farms Fine Foods",
+            "coordinates": [
+              -0.7302877,
+              52.6693455
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-7552211467",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:postcode": "LE15 6AQ",
+              "addr:street": "Gaol Street",
+              "addr:unit": "Unit 2-3, Knights Yard",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153631",
+              "fhrs:local_authority_id": "100573",
+              "name": "Hambleton Farms Fine Foods",
+              "shop": "deli",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7552211467"
+          },
+          {
+            "osmId": "node/3027996525",
+            "name": "Happy Wok",
+            "coordinates": [
+              -0.729914,
+              52.6697378
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "48",
+              "addr:postcode": "LE15 6AL",
+              "addr:street": "High Street",
+              "amenity": "fast_food",
+              "cuisine": "chinese",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153720",
+              "fhrs:local_authority_id": "102758",
+              "name": "Happy Wok",
+              "source": "survey",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3027996525"
+          },
+          {
+            "osmId": "way/891591979",
+            "name": "Hitchen's Barn",
+            "coordinates": [
+              -0.7262857,
+              52.670104
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-891591979",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "12",
+              "addr:postcode": "LE15 6DH",
+              "addr:street": "Burley Road",
+              "amenity": "restaurant",
+              "building": "yes",
+              "cuisine": "fine_dining",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153675",
+              "fhrs:local_authority_id": "102366",
+              "name": "Hitchen's Barn",
+              "opening_hours": "Tu-Sa 12:00-13:45,18:30-21:00, Fr 18:30-21:30",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891591979"
+          },
+          {
+            "osmId": "node/3028141249",
+            "name": "Hoagies",
+            "coordinates": [
+              -0.72908,
+              52.6697628
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "31b",
+              "addr:postcode": "LE15 6AH",
+              "addr:street": "High Street",
+              "amenity": "fast_food",
+              "cuisine": "sandwich",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153847",
+              "fhrs:local_authority_id": "104632",
+              "name": "Hoagies",
+              "source": "survey",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3028141249"
+          },
+          {
+            "osmId": "node/1175132787",
+            "name": "Hungry Birds",
+            "coordinates": [
+              -0.7266317,
+              52.6697235
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-1175132787",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "2",
+              "addr:postcode": "LE15 6DH",
+              "addr:street": "Burley Road",
+              "amenity": "cafe",
+              "cuisine": "coffee_shop",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153559",
+              "fhrs:local_authority_id": "100204",
+              "internet_access": "yes",
+              "name": "Hungry Birds",
+              "opening_hours": "Mo-Sa 09:30-17:00",
+              "source": "survey",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1175132787"
+          },
+          {
+            "osmId": "way/1464415469",
+            "name": "Jashir",
+            "coordinates": [
+              -0.7306579,
+              52.6700938
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "restaurant",
+              "building": "yes",
+              "cuisine": "indian",
+              "name": "Jashir"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1464415469"
+          },
+          {
+            "osmId": "node/7552342754",
+            "name": "Jinky's",
+            "coordinates": [
+              -0.7324724,
+              52.6705377
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "14-16",
+              "addr:postcode": "LE15 6AY",
+              "addr:street": "Melton Road",
+              "amenity": "bar",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153604",
+              "fhrs:local_authority_id": "100418",
+              "name": "Jinky's",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7552342754"
+          },
+          {
+            "osmId": "node/4013516408",
+            "name": "Kavanagh's Tea Rooms",
+            "coordinates": [
+              -0.72737,
+              52.6716704
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4013516408",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "1-2",
+              "addr:postcode": "LE15 6DR",
+              "addr:street": "Church Passage",
+              "amenity": "cafe",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153677",
+              "fhrs:local_authority_id": "102516",
+              "name": "Kavanagh's Tea Rooms",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4013516408"
+          },
+          {
+            "osmId": "node/3027534797",
+            "name": "Market Place Cafe",
+            "coordinates": [
+              -0.7271396,
+              52.6698221
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-3027534797",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "name": "Market Place Cafe",
+              "source": "survey",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3027534797"
+          },
+          {
+            "osmId": "way/891690410",
+            "name": "McDonald's",
+            "coordinates": [
+              -0.7365322,
+              52.6812665
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:postcode": "LE15 6RB",
+              "addr:street": "Lands End Way",
+              "amenity": "fast_food",
+              "brand": "McDonald's",
+              "brand:wikidata": "Q38076",
+              "brand:wikipedia": "en:McDonald's",
+              "building": "yes",
+              "changing_table": "yes",
+              "check_date": "2024-08-31",
+              "cuisine": "burger",
+              "drive_through": "yes",
+              "indoor_seating": "yes",
+              "internet_access": "wlan",
+              "name": "McDonald's",
+              "outdoor_seating": "yes",
+              "phone": "+44 1572 723567",
+              "self_service": "yes",
+              "takeaway": "yes",
+              "website": "https://www.mcdonalds.com/gb/en-gb/location/oakham/oakham---lands-end-way/lands-end-way/8261593.html"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891690410"
+          },
+          {
+            "osmId": "node/2645782096",
+            "name": "Mermaid Fish and Chips",
+            "coordinates": [
+              -0.7321149,
+              52.6702719
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "2",
+              "addr:postcode": "LE15 6AY",
+              "addr:street": "Melton Road",
+              "amenity": "fast_food",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153825",
+              "fhrs:local_authority_id": "104292",
+              "name": "Mermaid Fish and Chips",
+              "source": "survey",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2645782096"
+          },
+          {
+            "osmId": "node/1482361876",
+            "name": "Mint",
+            "coordinates": [
+              -0.7300126,
+              52.6711546
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-1482361876",
+            "curated": true,
+            "tags": {
+              "addr:housenumber": "10",
+              "addr:postcode": "LE15 6QS",
+              "addr:street": "Northgate",
+              "name": "Mint",
+              "shop": "confectionery",
+              "source": "Survey",
+              "website": "http://mintofoakham.com/"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1482361876"
+          },
+          {
+            "osmId": "way/893122265",
+            "name": "New Oakham Fish Bar",
+            "coordinates": [
+              -0.7257905,
+              52.6737969
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "20",
+              "addr:postcode": "LE15 6QG",
+              "addr:street": "Ashwell Road",
+              "amenity": "fast_food",
+              "building": "yes",
+              "cuisine": "fish_and_chips",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153806",
+              "fhrs:local_authority_id": "103462",
+              "indoor_seating": "no",
+              "name": "New Oakham Fish Bar",
+              "opening_hours": "Mo-Sa 11:30-14:00, Mo-Sa 16:30-21:00; Su,PH off",
+              "outdoor_seating": "no",
+              "source": "survey",
+              "takeaway": "only",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/893122265"
+          },
+          {
+            "osmId": "node/1174834426",
+            "name": "Oakham Chinese Takeaway",
+            "coordinates": [
+              -0.7270371,
+              52.6691466
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "9",
+              "addr:postcode": "LE15 6EA",
+              "addr:street": "Mill Street",
+              "amenity": "fast_food",
+              "cuisine": "chinese",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153581",
+              "fhrs:local_authority_id": "100278",
+              "name": "Oakham Chinese Takeaway",
+              "source": "survey",
+              "wheelchair": "no",
+              "wikidata": "Q26331027"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1174834426"
+          },
+          {
+            "osmId": "way/1464415472",
+            "name": "Otters fine food",
+            "coordinates": [
+              -0.7297084,
+              52.6696567
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-1464415472",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "building": "yes",
+              "cuisine": "coffee_shop",
+              "name": "Otters fine food"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1464415472"
+          },
+          {
+            "osmId": "node/1174834619",
+            "name": "Otters Smokehouse & Deli",
+            "coordinates": [
+              -0.7274128,
+              52.6686802
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "19",
+              "addr:postcode": "LE15 6EA",
+              "addr:street": "Mill Street",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153655",
+              "fhrs:local_authority_id": "101371",
+              "name": "Otters Smokehouse & Deli",
+              "shop": "deli",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1174834619"
+          },
+          {
+            "osmId": "way/891551775",
+            "name": "Railway Inn",
+            "coordinates": [
+              -0.7332049,
+              52.6720689
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:postcode": "LE15 6QU",
+              "addr:street": "Station Road",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:id": "1153507",
+              "fhrs:local_authority_id": "100101",
+              "name": "Railway Inn",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891551775"
+          },
+          {
+            "osmId": "node/3027997134",
+            "name": "Red India Takeaway",
+            "coordinates": [
+              -0.7329314,
+              52.6705798
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "26",
+              "addr:postcode": "LE15 6AY",
+              "addr:street": "Melton Road",
+              "amenity": "fast_food",
+              "cuisine": "indian",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153812",
+              "fhrs:local_authority_id": "103790",
+              "name": "Red India Takeaway",
+              "source": "survey",
+              "wheelchair": "limited",
+              "wikidata": "Q26331020"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3027997134"
+          },
+          {
+            "osmId": "node/1174847808",
+            "name": "Rutland Balti House",
+            "coordinates": [
+              -0.7273144,
+              52.6683625
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "18",
+              "addr:postcode": "LE15 6EA",
+              "addr:street": "Mill Street",
+              "amenity": "restaurant",
+              "cuisine": "indian",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153521",
+              "fhrs:local_authority_id": "100129",
+              "name": "Rutland Balti House",
+              "source": "survey",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1174847808"
+          },
+          {
+            "osmId": "node/7553550791",
+            "name": "Rutwel cafe at Rutland County Museum",
+            "coordinates": [
+              -0.7253873,
+              52.6677035
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-7553550791",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housename": "Rutland County Museum",
+              "addr:postcode": "LE15 6HW",
+              "addr:street": "Catmos Street",
+              "amenity": "cafe",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153607",
+              "fhrs:local_authority_id": "100427",
+              "name": "Rutwel cafe at Rutland County Museum"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7553550791"
+          },
+          {
+            "osmId": "node/3883592691",
+            "name": "San Giorgio",
+            "coordinates": [
+              -0.7296496,
+              52.6706099
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:county": "Rutland",
+              "addr:housenumber": "14",
+              "addr:postcode": "LE15 6AA",
+              "addr:street": "Church Street",
+              "addr:unit": "Unit 2 Ground Floor",
+              "amenity": "restaurant",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153622",
+              "fhrs:local_authority_id": "100516",
+              "name": "San Giorgio",
+              "phone": "+44 1572 759656",
+              "source:unit": "FHRS Open Data",
+              "wheelchair": "limited",
+              "wikidata": "Q26331052",
+              "wikimedia_commons": "File:14, Church Street, Oakham.jpg"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3883592691"
+          },
+          {
+            "osmId": "node/1175132855",
+            "name": "Sarpech",
+            "coordinates": [
+              -0.7268712,
+              52.6697167
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:postcode": "LE15 6DU",
+              "addr:street": "Market Place",
+              "addr:unit": "4 Burley Corner",
+              "amenity": "restaurant",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153583",
+              "fhrs:local_authority_id": "100280",
+              "name": "Sarpech",
+              "source": "survey",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1175132855"
+          },
+          {
+            "osmId": "node/3027997167",
+            "name": "Shanghai",
+            "coordinates": [
+              -0.7336198,
+              52.6708468
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "38",
+              "addr:postcode": "LE15 6AY",
+              "addr:street": "Melton Road",
+              "amenity": "fast_food",
+              "cuisine": "chinese",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153721",
+              "fhrs:local_authority_id": "102759",
+              "indoor_seating": "no",
+              "name": "Shanghai",
+              "outdoor_seating": "no",
+              "source": "survey",
+              "source:addr": "FHRS Open Data",
+              "takeaway": "only",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3027997167"
+          },
+          {
+            "osmId": "node/1175132817",
+            "name": "Stray's",
+            "coordinates": [
+              -0.7269107,
+              52.6694502
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-1175132817",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "name": "Stray's",
+              "source": "survey",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1175132817"
+          },
+          {
+            "osmId": "way/1464415468",
+            "name": "Thai Up",
+            "coordinates": [
+              -0.7307785,
+              52.6701109
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "restaurant",
+              "building": "yes",
+              "cuisine": "thai",
+              "name": "Thai Up"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1464415468"
+          },
+          {
+            "osmId": "way/101330056",
+            "name": "The Angler",
+            "coordinates": [
+              -0.7267721,
+              52.6689897
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "6",
+              "addr:postcode": "LE15 6EA",
+              "addr:street": "Mill Street",
+              "amenity": "bar",
+              "building": "yes",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153520",
+              "fhrs:local_authority_id": "100127",
+              "name": "The Angler",
+              "smoking": "no",
+              "source": "survey",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/101330056"
+          },
+          {
+            "osmId": "way/1352918774",
+            "name": "The Captain Noel Newton",
+            "coordinates": [
+              -0.731198,
+              52.6702756
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "55",
+              "addr:postcode": "LE15 6AJ",
+              "addr:street": "High Street",
+              "amenity": "pub",
+              "brand": "Wetherspoon",
+              "brand:wikidata": "Q6109362",
+              "building": "yes",
+              "dog": "no",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153497",
+              "fhrs:local_authority_id": "100084",
+              "name": "The Captain Noel Newton",
+              "operator": "JD Wetherspoon",
+              "source:addr": "FHRS Open Data",
+              "website": "https://www.jdwetherspoon.com/pubs/all-pubs/england/rutland/the-captain-noel-newton-oakham",
+              "website:menu": "https://order.jdwetherspoon.com/venue/jdw/7122/menus",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1352918774"
+          },
+          {
+            "osmId": "node/1170862323",
+            "name": "The Golden Dragon",
+            "coordinates": [
+              -0.7362807,
+              52.6708058
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "2",
+              "addr:postcode": "LE15 6LU",
+              "addr:street": "West Road",
+              "amenity": "fast_food",
+              "cuisine": "chinese",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153689",
+              "fhrs:local_authority_id": "102647",
+              "name": "The Golden Dragon",
+              "source": "survey",
+              "source:addr": "FHRS Open Data",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1170862323"
+          },
+          {
+            "osmId": "node/7552796378",
+            "name": "The Larder Oakham",
+            "coordinates": [
+              -0.7267647,
+              52.669221
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-7552796378",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "2c",
+              "addr:postcode": "LE15 6EA",
+              "addr:street": "Mill Street",
+              "amenity": "cafe",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153579",
+              "fhrs:local_authority_id": "100270",
+              "name": "The Larder Oakham",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7552796378"
+          },
+          {
+            "osmId": "way/891591976",
+            "name": "The Lord Nelson",
+            "coordinates": [
+              -0.726944,
+              52.6702225
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "11",
+              "addr:postcode": "LE15 6DT",
+              "addr:street": "Market Place",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153527",
+              "fhrs:local_authority_id": "100141",
+              "name": "The Lord Nelson",
+              "source": "survey",
+              "wheelchair": "limited",
+              "wikidata": "Q26331011"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891591976"
+          },
+          {
+            "osmId": "node/1170862332",
+            "name": "The Royal Duke",
+            "coordinates": [
+              -0.7362582,
+              52.6705699
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "8",
+              "addr:postcode": "LE15 6LU",
+              "addr:street": "West Road",
+              "amenity": "pub",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1175706",
+              "fhrs:local_authority_id": "100131",
+              "name": "The Royal Duke",
+              "source": "survey",
+              "source:addr": "FHRS Open Data",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1170862332"
+          },
+          {
+            "osmId": "node/8752931495",
+            "name": "The Waffle Bowl",
+            "coordinates": [
+              -0.7275472,
+              52.6689596
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-8752931495",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "7",
+              "addr:postcode": "LE15 6EA",
+              "addr:street": "The Maltings",
+              "amenity": "cafe",
+              "cuisine": "ice_cream;coffee;waffle",
+              "name": "The Waffle Bowl",
+              "outdoor_seating": "yes",
+              "website": "https://www.thewafflebowl.co.uk/",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/8752931495"
+          },
+          {
+            "osmId": "node/1170862316",
+            "name": "West End Fish Bar",
+            "coordinates": [
+              -0.7357062,
+              52.6708188
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "28",
+              "addr:postcode": "LE15 6NT",
+              "addr:street": "Cold Overton Road",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153698",
+              "fhrs:local_authority_id": "102693",
+              "name": "West End Fish Bar",
+              "source": "survey",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1170862316"
+          },
+          {
+            "osmId": "node/1585554847",
+            "name": "Wheatsheaf",
+            "coordinates": [
+              -0.7296978,
+              52.6709973
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "2-4",
+              "addr:postcode": "LE15 6QS",
+              "addr:street": "Northgate",
+              "amenity": "pub",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153475",
+              "fhrs:local_authority_id": "100022",
+              "name": "Wheatsheaf",
+              "source:addr": "FHRS Open Data",
+              "toilets:wheelchair": "no",
+              "wheelchair": "limited",
+              "wikidata": "Q26583044"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1585554847"
+          },
+          {
+            "osmId": "node/3206538234",
+            "name": "Wild Bean Cafe",
+            "coordinates": [
+              -0.7365488,
+              52.6821654
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-3206538234",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "brand": "Wild Bean Cafe",
+              "brand:wikidata": "Q61804826",
+              "cuisine": "coffee_shop",
+              "name": "Wild Bean Cafe",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3206538234"
+          },
+          {
+            "osmId": "way/101330093",
+            "name": "Catmose Club",
+            "coordinates": [
+              -0.7290712,
+              52.6691481
+            ],
+            "category": "eat",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "27",
+              "addr:postcode": "LE15 6BG",
+              "addr:street": "South Street",
+              "amenity": "bar",
+              "bar": "yes",
+              "building": "yes",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153596",
+              "fhrs:local_authority_id": "100307",
+              "name": "Catmose Club",
+              "source": "Bing;survey"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/101330093"
+          },
+          {
+            "osmId": "node/3028141234",
+            "name": "Thai Up",
+            "coordinates": [
+              -0.7310475,
+              52.6701198
+            ],
+            "category": "eat",
+            "eligible": false,
+            "exclusionReason": "inactive-or-no-access",
+            "curated": false,
+            "tags": {
+              "amenity": "restaurant",
+              "cuisine": "thai",
+              "disused": "restaurant",
+              "name": "Thai Up",
+              "source": "survey",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3028141234"
+          },
+          {
+            "osmId": "node/1174834570",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7267322,
+              52.6691803
+            ],
+            "category": "eat",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "addr:street": "Mill Street",
+              "amenity": "fast_food",
+              "source": "survey",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1174834570"
+          },
+          {
+            "osmId": "way/178280136",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7341302,
+              52.6726419
+            ],
+            "category": "eat",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:postcode": "LE15 6RE",
+              "amenity": "pub",
+              "building": "yes",
+              "craft": "brewery",
+              "fhrs:authority": "Rutland",
+              "floor:material": "wood",
+              "outdoor_seating": "yes",
+              "real_ale": "yes (at least 5 own beers)",
+              "source": "Bing",
+              "toilets:wheelchair": "yes",
+              "tourism": "attraction",
+              "website": "https://www.grainstorebrewery.com/",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/178280136"
+          },
+          {
+            "osmId": "way/1464415470",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.7299244,
+              52.6697189
+            ],
+            "category": "eat",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "amenity": "fast_food",
+              "building": "yes",
+              "cuisine": "chinese"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1464415470"
+          }
+        ],
+        "picnic": [],
+        "parking": [
+          {
+            "osmId": "node/2135253046",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7272932,
+              52.6699663
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2135253046"
+          },
+          {
+            "osmId": "way/682621945",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7375325,
+              52.6603203
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/682621945"
+          },
+          {
+            "osmId": "way/943315554",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7429712,
+              52.6679142
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943315554"
+          },
+          {
+            "osmId": "way/259218129",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7409653,
+              52.6641192
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/259218129"
+          },
+          {
+            "osmId": "way/943311931",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7482363,
+              52.6694873
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943311931"
+          },
+          {
+            "osmId": "way/943311933",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7480997,
+              52.6701316
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943311933"
+          },
+          {
+            "osmId": "way/943329317",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7482653,
+              52.6686252
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943329317"
+          },
+          {
+            "osmId": "way/943329318",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7476043,
+              52.6689777
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943329318"
+          },
+          {
+            "osmId": "way/943249490",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7452745,
+              52.6694543
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943249490"
+          },
+          {
+            "osmId": "way/943311926",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7458507,
+              52.6698493
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943311926"
+          },
+          {
+            "osmId": "way/943311928",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7467561,
+              52.6695399
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943311928"
+          },
+          {
+            "osmId": "way/943315558",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7468622,
+              52.6699055
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943315558"
+          },
+          {
+            "osmId": "way/943326916",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7433705,
+              52.6702902
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943326916"
+          },
+          {
+            "osmId": "way/943329310",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7449212,
+              52.6705253
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943329310"
+          },
+          {
+            "osmId": "way/943329314",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7449952,
+              52.6697941
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943329314"
+          },
+          {
+            "osmId": "way/316798529",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7373802,
+              52.668321
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/316798529"
+          },
+          {
+            "osmId": "way/895322010",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.736019,
+              52.6715241
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "note": "parking for hospital",
+              "source": "GPS waypoint"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/895322010"
+          },
+          {
+            "osmId": "way/895322013",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7384142,
+              52.6717768
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "note": "parking for hospital",
+              "source": "GPS waypoint"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/895322013"
+          },
+          {
+            "osmId": "way/895322014",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7378425,
+              52.6716666
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "note": "parking for hospital",
+              "source": "GPS waypoint"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/895322014"
+          },
+          {
+            "osmId": "way/943633344",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7350329,
+              52.6682046
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943633344"
+          },
+          {
+            "osmId": "way/943633334",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7403297,
+              52.6705106
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943633334"
+          },
+          {
+            "osmId": "way/547075312",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7350783,
+              52.6839601
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface",
+              "source": "EsriWorldImagery"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/547075312"
+          },
+          {
+            "osmId": "way/145016741",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7260244,
+              52.6681055
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "operator": "South Street Car Park"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/145016741"
+          },
+          {
+            "osmId": "way/152091774",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7276634,
+              52.6678416
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-152091774",
+            "curated": true,
+            "tags": {
+              "amenity": "parking",
+              "fee": "yes",
+              "operator": "Brooke Road Car Park"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/152091774"
+          },
+          {
+            "osmId": "way/417618002",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7243673,
+              52.6679032
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "access": "destination",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/417618002"
+          },
+          {
+            "osmId": "way/892401130",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7265913,
+              52.6649332
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/892401130"
+          },
+          {
+            "osmId": "way/145110905",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7294624,
+              52.6714439
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-145110905",
+            "curated": true,
+            "tags": {
+              "amenity": "parking",
+              "operator": "Church Street Car Park",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/145110905"
+          },
+          {
+            "osmId": "way/178280397",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7334601,
+              52.6728069
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/178280397"
+          },
+          {
+            "osmId": "way/891398784",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7335965,
+              52.6722377
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891398784"
+          },
+          {
+            "osmId": "way/891896351",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7287325,
+              52.6730445
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-891896351",
+            "curated": true,
+            "tags": {
+              "access": "permissive",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891896351"
+          },
+          {
+            "osmId": "way/892426841",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.729956,
+              52.6722848
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "access": "permissive",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/892426841"
+          },
+          {
+            "osmId": "way/943321879",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7325005,
+              52.6695123
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943321879"
+          },
+          {
+            "osmId": "way/943321880",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7325012,
+              52.6691596
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943321880"
+          },
+          {
+            "osmId": "way/943321883",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.732641,
+              52.6693921
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/943321883"
+          },
+          {
+            "osmId": "way/152093030",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7258729,
+              52.6708848
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-152093030",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/152093030"
+          },
+          {
+            "osmId": "way/1107350239",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7256415,
+              52.6702555
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1107350239"
+          },
+          {
+            "osmId": "way/890509482",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7302651,
+              52.6747222
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-890509482",
+            "curated": true,
+            "tags": {
+              "access": "permissive",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/890509482"
+          },
+          {
+            "osmId": "way/178281991",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7299232,
+              52.6760937
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-178281991",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "description": "Coaches only",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/178281991"
+          },
+          {
+            "osmId": "way/893169368",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7188398,
+              52.6741767
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-893169368",
+            "curated": true,
+            "tags": {
+              "access": "permissive",
+              "amenity": "parking",
+              "surface": "gravel"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/893169368"
+          },
+          {
+            "osmId": "way/636133125",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7187883,
+              52.692245
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/636133125"
+          },
+          {
+            "osmId": "way/636133126",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7175516,
+              52.6916195
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/636133126"
+          },
+          {
+            "osmId": "way/636133143",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7172139,
+              52.690511
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/636133143"
+          },
+          {
+            "osmId": "way/636133145",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7189268,
+              52.6907066
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/636133145"
+          },
+          {
+            "osmId": "way/636133149",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7181775,
+              52.6911303
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/636133149"
+          },
+          {
+            "osmId": "relation/16602274",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7273869,
+              52.6707385
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "type": "multipolygon",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/relation/16602274"
+          },
+          {
+            "osmId": "way/152091775",
+            "name": "Westgate Car Park",
+            "coordinates": [
+              -0.7336236,
+              52.670169
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-152091775",
+            "curated": true,
+            "tags": {
+              "amenity": "parking",
+              "fee": "yes",
+              "name": "Westgate Car Park",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/152091775"
+          },
+          {
+            "osmId": "way/895050861",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7408131,
+              52.6666334
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/895050861"
+          },
+          {
+            "osmId": "way/152094108",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7345657,
+              52.6722482
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/152094108"
+          },
+          {
+            "osmId": "way/891228632",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7354291,
+              52.6702983
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891228632"
+          },
+          {
+            "osmId": "way/891535561",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7344282,
+              52.6703843
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "operator": "Tim Norton"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891535561"
+          },
+          {
+            "osmId": "way/152094106",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7340577,
+              52.6722834
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/152094106"
+          },
+          {
+            "osmId": "way/634183539",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7351441,
+              52.6805254
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "operator": "Lands' End Customer and Staff Parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/634183539"
+          },
+          {
+            "osmId": "way/641829602",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.735818,
+              52.6750773
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/641829602"
+          },
+          {
+            "osmId": "way/1204502928",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7370205,
+              52.6813094
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1204502928"
+          },
+          {
+            "osmId": "way/1099796629",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7367841,
+              52.6807638
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "capacity:disabled": "3"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1099796629"
+          },
+          {
+            "osmId": "way/1181129823",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7392942,
+              52.6777709
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1181129823"
+          },
+          {
+            "osmId": "way/1181129824",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7395567,
+              52.6781967
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1181129824"
+          },
+          {
+            "osmId": "way/547076618",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7372772,
+              52.6823296
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "source": "EsriWorldImagery"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/547076618"
+          },
+          {
+            "osmId": "way/298173733",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7309484,
+              52.66776
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "source": "Bing",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/298173733"
+          },
+          {
+            "osmId": "way/969547206",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7238826,
+              52.6670406
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/969547206"
+          },
+          {
+            "osmId": "way/152091783",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7329115,
+              52.6704474
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "fee": "yes",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/152091783"
+          },
+          {
+            "osmId": "way/259212077",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7336635,
+              52.6698348
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/259212077"
+          },
+          {
+            "osmId": "way/891551782",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7336373,
+              52.67335
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891551782"
+          },
+          {
+            "osmId": "way/891591972",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7278777,
+              52.670574
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "inactive-or-no-access",
+            "curated": false,
+            "tags": {
+              "access": "no",
+              "amenity": "parking",
+              "operator": "Royal Mail",
+              "operator:type": "business"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891591972"
+          },
+          {
+            "osmId": "way/891591982",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.729385,
+              52.6717662
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891591982"
+          },
+          {
+            "osmId": "way/891896352",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7284761,
+              52.6730553
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891896352"
+          },
+          {
+            "osmId": "way/891896353",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7283894,
+              52.6732963
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891896353"
+          },
+          {
+            "osmId": "way/891896354",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7287165,
+              52.6703518
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891896354"
+          },
+          {
+            "osmId": "way/892426840",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7325014,
+              52.6710884
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/892426840"
+          },
+          {
+            "osmId": "way/893111194",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7323985,
+              52.6699935
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "operator": "Wilko",
+              "operator:type": "business",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/893111194"
+          },
+          {
+            "osmId": "way/893712500",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7292159,
+              52.6692923
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "operator": "Catmose Club",
+              "operator:type": "community"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/893712500"
+          },
+          {
+            "osmId": "way/891399587",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7261868,
+              52.6727766
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891399587"
+          },
+          {
+            "osmId": "way/893122267",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7256685,
+              52.6738322
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/893122267"
+          },
+          {
+            "osmId": "way/893169438",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7215628,
+              52.6725634
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/893169438"
+          },
+          {
+            "osmId": "way/893712498",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7266152,
+              52.668852
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/893712498"
+          },
+          {
+            "osmId": "way/894031303",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7261802,
+              52.6739574
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/894031303"
+          },
+          {
+            "osmId": "way/894360207",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7246371,
+              52.6732227
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/894360207"
+          },
+          {
+            "osmId": "way/891535556",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7265028,
+              52.6744554
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891535556"
+          },
+          {
+            "osmId": "way/891594016",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7328273,
+              52.675999
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891594016"
+          },
+          {
+            "osmId": "way/891856748",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7308479,
+              52.6787024
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891856748"
+          },
+          {
+            "osmId": "way/314612292",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7219242,
+              52.6800414
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/314612292"
+          },
+          {
+            "osmId": "way/891896342",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7253038,
+              52.6754795
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/891896342"
+          },
+          {
+            "osmId": "way/890196593",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7174529,
+              52.6742099
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/890196593"
+          },
+          {
+            "osmId": "way/890196588",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7185251,
+              52.6745565
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/890196588"
+          },
+          {
+            "osmId": "way/890196592",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.718005,
+              52.6745621
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/890196592"
+          },
+          {
+            "osmId": "way/890196579",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7177319,
+              52.6748902
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/890196579"
+          },
+          {
+            "osmId": "way/890196580",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7183666,
+              52.6751549
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/890196580"
+          },
+          {
+            "osmId": "way/890196581",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.718181,
+              52.6749199
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/890196581"
+          },
+          {
+            "osmId": "way/890196585",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7177825,
+              52.6751478
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/890196585"
+          },
+          {
+            "osmId": "way/890196590",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7184411,
+              52.6746422
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/890196590"
+          },
+          {
+            "osmId": "way/890211768",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7193261,
+              52.6751974
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/890211768"
+          }
+        ],
+        "toilets": [
+          {
+            "osmId": "node/2690815444",
+            "name": "Unnamed public toilets",
+            "coordinates": [
+              -0.7292256,
+              52.6714139
+            ],
+            "category": "toilets",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-2690815444",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "toilets",
+              "fee": "no",
+              "toilets:disposal": "flush",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2690815444"
+          },
+          {
+            "osmId": "node/10202291639",
+            "name": "Unnamed public toilets",
+            "coordinates": [
+              -0.7242036,
+              52.6662779
+            ],
+            "category": "toilets",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "toilets"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/10202291639"
+          }
+        ]
+      }
+    }
+  ]
+}

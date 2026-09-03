@@ -1,0 +1,561 @@
+{
+  "project": {
+    "id": "temple-bruer-england",
+    "name": "Temple Bruer Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Lincolnshire",
+    "locality": "Temple Bruer",
+    "centre": [
+      -0.494459,
+      53.0695446
+    ],
+    "boundary": {
+      "type": "Feature",
+      "bbox": [
+        -0.501459,
+        53.0645446,
+        -0.487459,
+        53.0745446
+      ],
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Temple Bruer",
+        "osmType": "node",
+        "osmId": 29457990,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.501459,
+              53.0645446
+            ],
+            [
+              -0.487459,
+              53.0645446
+            ],
+            [
+              -0.487459,
+              53.0745446
+            ],
+            [
+              -0.501459,
+              53.0745446
+            ],
+            [
+              -0.501459,
+              53.0645446
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-10T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-10. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 0 directly adjoining public green-space geometries were included in the active visitor boundary.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Temple Bruer has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Temple Bruer",
+      "intro": "Temple Bruer has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "Temple Bruer Preceptory",
+        "summary": "Start with Temple Bruer Preceptory, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "Temple Bruer Preceptory"
+      ],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/29457990",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-10"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "osm-community:way-252913752",
+        "name": "Temple Bruer Preceptory",
+        "reason": "Temple Bruer Preceptory is a curated tower within the active Temple Bruer visitor boundary.",
+        "tagline": "tower",
+        "visitorScore": 46,
+        "freeAdmission": false,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "tower",
+          "intro": "Temple Bruer Preceptory is a curated tower within the active Temple Bruer visitor boundary.",
+          "motifs": [
+            "tower",
+            "Temple Bruer"
+          ],
+          "bestFor": [
+            "Local heritage"
+          ],
+          "thingsToDo": [
+            {
+              "name": "Explore Temple Bruer Preceptory"
+            },
+            {
+              "name": "Notice its tower character"
+            }
+          ]
+        },
+        "sourceName": "OpenStreetMap current community places",
+        "sourceUrl": "https://www.openstreetmap.org/way/252913752",
+        "verifiedInBoundaryAt": "2026-08-10"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Temple Bruer",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/29457990",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-10",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -0.501459,
+          53.0645446,
+          -0.487459,
+          53.0745446
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Temple Bruer",
+          "osmType": "node",
+          "osmId": 29457990,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.501459,
+                53.0645446
+              ],
+              [
+                -0.487459,
+                53.0645446
+              ],
+              [
+                -0.487459,
+                53.0745446
+              ],
+              [
+                -0.501459,
+                53.0745446
+              ],
+              [
+                -0.501459,
+                53.0645446
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -0.501459,
+          53.0645446,
+          -0.487459,
+          53.0745446
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Temple Bruer",
+          "osmType": "node",
+          "osmId": 29457990,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.501459,
+                53.0645446
+              ],
+              [
+                -0.487459,
+                53.0645446
+              ],
+              [
+                -0.487459,
+                53.0745446
+              ],
+              [
+                -0.501459,
+                53.0745446
+              ],
+              [
+                -0.501459,
+                53.0645446
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -0.501459,
+          53.0645446,
+          -0.487459,
+          53.0745446
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Temple Bruer",
+          "osmType": "node",
+          "osmId": 29457990,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.501459,
+                53.0645446
+              ],
+              [
+                -0.487459,
+                53.0645446
+              ],
+              [
+                -0.487459,
+                53.0745446
+              ],
+              [
+                -0.501459,
+                53.0745446
+              ],
+              [
+                -0.501459,
+                53.0645446
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes only directly adjoining mapped public green spaces: none."
+    }
+  },
+  "features": [
+    {
+      "id": "historic-england:nhle:1254328",
+      "projectId": "temple-bruer-england",
+      "name": "CHURCH TOWER TO THE NORTH OF TEMPLE FARMHOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Temple Bruer",
+      "featureType": "church",
+      "designationType": "listed_building",
+      "designationCategory": "I",
+      "significance": "highest_national",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.496205951051561,
+          53.0711293434227
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade I.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1254328",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1254328",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Temple Bruer visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1261359",
+      "projectId": "temple-bruer-england",
+      "name": "TEMPLE FARMHOUSE",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Temple Bruer",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.496125821848401,
+          53.0708586322926
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1261359",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1261359",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Temple Bruer visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1007686",
+      "projectId": "temple-bruer-england",
+      "name": "Remains of preceptory church, Temple Bruer",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Temple Bruer",
+      "featureType": "church",
+      "designationType": "scheduled_monument",
+      "significance": "highest_national",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.49636957882584,
+          53.071172445700654
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "scheduled monument recorded by Historic England.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1007686",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1007686",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "scheduled-monument"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Temple Bruer visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "osm-community:way-252913752",
+      "projectId": "temple-bruer-england",
+      "name": "Temple Bruer Preceptory",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Lincolnshire",
+      "locality": "Temple Bruer",
+      "featureType": "tower",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4961783,
+          53.0711396
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Temple Bruer Preceptory is a curated tower within the active Temple Bruer visitor boundary.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/252913752",
+          "sourceUrl": "https://www.openstreetmap.org/way/252913752",
+          "accessedAt": "2026-08-10T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "building=tower; building:material=stone; ele=40; he:inscription_date=1929; heritage=2; heritage:operator=he; heritage:website=https://historicengland.org.uk/listing/the-list/list-entry/1007686; historic=tower; man_made=tower; name=Temple Bruer Preceptory; official_name=Remains of preceptory church, Temple Bruer; ref:he=485917; start_date=~1150; tower:construction=freestanding; tower:function=preceptory; tower:type=defensive; wikidata=Q2400137; wikipedia=en:Temple Bruer Preceptory; visit_score=46"
+        }
+      ],
+      "tags": [
+        "service-context-visitor",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-10T00:00:00Z",
+      "updatedAt": "2026-08-10T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-10.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "attractionGuide": {
+        "headline": "tower",
+        "intro": "Temple Bruer Preceptory is a curated tower within the active Temple Bruer visitor boundary.",
+        "motifs": [
+          "tower",
+          "Temple Bruer"
+        ],
+        "bestFor": [
+          "Local heritage"
+        ],
+        "thingsToDo": [
+          {
+            "name": "Explore Temple Bruer Preceptory"
+          },
+          {
+            "name": "Notice its tower character"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "temple-bruer-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Temple Bruer settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/29457990",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Temple Bruer designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "temple-bruer-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Temple Bruer visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

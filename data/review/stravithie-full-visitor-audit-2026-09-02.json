@@ -1,0 +1,129 @@
+{
+  "reviewedAt": "2026-09-02T19:15:00.000Z",
+  "sequence": 13,
+  "sequenceTotal": 13,
+  "projectId": "stravithie-scotland",
+  "place": "Stravithie",
+  "townScore": 30,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "Stravithie is a private country-estate/accommodation locality rather than a public visitor destination. Its historic fabric remains in the heritage layer, but guest-only grounds, food, parking and toilets do not qualify as town facilities."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0,
+      "note": "No independently visitable attraction verified."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "note": "No qualifying public daytime food stop verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "note": "No maintained exact-locality visitor route verified.",
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue searched for the exact locality.",
+        "CuriousAbout": "Current catalogue searched for the exact locality.",
+        "MysteryGuides": "Current catalogue searched for the exact locality.",
+        "GoQuestAdventures": "Current catalogue searched for the exact locality."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "note": "No public picnic facility verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "note": "No general public visitor car park verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "note": "No public toilet verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Venue and route access is stated only when a current source supports it; no blanket claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road and available public-transport context checked; volatile timetables are not copied."
+    },
+    "dogs": {
+      "audited": true,
+      "note": "Town adjustment and venue-specific evidence retained; no unsupported dog-friendly claim added."
+    }
+  },
+  "exclusions": [
+    "Private estate accommodation is not a general-admission attraction.",
+    "Guest-only breakfast, grounds, parking and toilets are not public facilities.",
+    "Dunino Den and church remain in the Dunino audit."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets with locally cached official descriptions",
+    "projectId": "stravithie-scotland",
+    "totalHesAndNrheRetained": 21,
+    "localRecords": 15,
+    "listedBuildings": 11,
+    "scheduledMonuments": 0,
+    "nrhe": 10,
+    "relatedBufferRecords": 6,
+    "removedOutOfScope": 0,
+    "enriched": 13,
+    "datedLocalRecords": 13,
+    "undatedLocalRecordsRetainedHidden": 2,
+    "visibleHeritagePins": 13,
+    "visiblePinsWithoutDates": 0,
+    "visiblePinNamesContainingDate": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Stravithie's strict study area count toward the settlement score. Explicit related context may be shown but cannot inflate the town.",
+  "scoreRationale": "Stravithie is a private country-estate/accommodation locality rather than a public visitor destination. Its historic fabric remains in the heritage layer, but guest-only grounds, food, parking and toilets do not qualify as town facilities.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 30,
+    "rationale": "Score reconciled after all categories, boundary exclusions and source checks."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.welcometofife.com/view-accommodation/Stravithie-Country-Estate-and-Castle",
+        "outcome": "verified",
+        "note": "The official destination listing presents Stravithie as accommodation, not a general-admission attraction.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Stravithie product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "visibleHeritageLabelsClean": true,
+    "liveBrowserVerifiedAt": "2026-09-02T21:07:29.331Z",
+    "liveChecks": {
+      "fifeSelectorContainsAllRequestedPlaces": true,
+      "auditedScoresRendered": true,
+      "stAndrewsCategoryCountsRendered": true,
+      "kingsbarnsCategoryCountsRendered": true,
+      "exact58SecondPassTownsRendered": true,
+      "heritageDateTextAbsentFromMapLabels": true,
+      "browserConsoleErrors": 0
+    }
+  }
+}

@@ -6,13 +6,28 @@ import type { DataSourceDefinition, ProjectPackage, SourceRecord } from '../src/
 import { validateFeatures } from '../src/domain/validation';
 
 const projectPath = resolve(process.argv[2] ?? 'data/projects/alloa.json');
-const osmMapUrl = 'https://api.openstreetmap.org/api/0.6/map';
+const overpassUrls = [
+  'https://maps.mail.ru/osm/tools/overpass/api/interpreter',
+  'https://z.overpass-api.de/api/interpreter',
+  'https://overpass-api.de/api/interpreter',
+  'https://overpass.kumi.systems/api/interpreter',
+  'https://overpass.private.coffee/api/interpreter',
+];
 const accessedAt = new Date().toISOString();
 
 interface OsmWay {
   id: number;
   tags?: Record<string, string>;
   geometry: Array<[number, number]>;
+}
+interface OverpassElement {
+  type: 'way' | 'node' | 'relation';
+  id: number;
+  tags?: Record<string, string>;
+  geometry?: Array<{ lat: number; lon: number }>;
+}
+interface OverpassResponse {
+  elements?: OverpassElement[];
 }
 
 function bounds(pkg: ProjectPackage): [number, number, number, number] {
@@ -35,54 +50,59 @@ function normalise(value: string): string {
   return value.toLocaleLowerCase().replaceAll(/[^a-z0-9]+/g, ' ').trim();
 }
 
-function decodeXml(value: string): string {
-  return value
-    .replaceAll('&amp;', '&')
-    .replaceAll('&quot;', '"')
-    .replaceAll('&apos;', "'")
-    .replaceAll('&lt;', '<')
-    .replaceAll('&gt;', '>');
+function query(south: number, west: number, north: number, east: number): string {
+  const area = `(${south},${west},${north},${east})`;
+  return `[out:json][timeout:60];(
+    way["name"]["leisure"~"^(park|garden)$"]${area};
+    way["name"]["landuse"="recreation_ground"]${area};
+  );out geom tags;`;
 }
 
-function attribute(markup: string, name: string): string | undefined {
-  const match = new RegExp(`\\b${name}="([^"]*)"`).exec(markup);
-  return match ? decodeXml(match[1]) : undefined;
-}
-
-function parseOsmWays(xml: string): OsmWay[] {
-  const nodes = new Map<string, [number, number]>();
-  for (const match of xml.matchAll(/<node\b([^>]*)\/?>(?:<\/node>)?/g)) {
-    const id = attribute(match[1], 'id');
-    const latitude = Number(attribute(match[1], 'lat'));
-    const longitude = Number(attribute(match[1], 'lon'));
-    if (id && Number.isFinite(latitude) && Number.isFinite(longitude))
-      nodes.set(id, [longitude, latitude]);
-  }
-  const ways: OsmWay[] = [];
-  for (const match of xml.matchAll(/<way\b([^>]*)>([\s\S]*?)<\/way>/g)) {
-    const id = Number(attribute(match[1], 'id'));
-    const tags = Object.fromEntries(
-      [...match[2].matchAll(/<tag\b([^>]*)\/?>(?:<\/tag>)?/g)]
-        .map((tag) => [attribute(tag[1], 'k'), attribute(tag[1], 'v')] as const)
-        .filter((tag): tag is [string, string] => Boolean(tag[0] && tag[1])),
-    );
-    if (
-      !Number.isFinite(id) ||
-      !tags.name ||
-      !(
-        tags.leisure === 'park' ||
-        tags.leisure === 'garden' ||
-        tags.landuse === 'recreation_ground'
-      )
-    )
+async function fetchOverpass(queryText: string): Promise<OverpassResponse> {
+  let lastStatus = 'no response';
+  for (const endpoint of overpassUrls) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 60_000);
+    let response: Response;
+    try {
+      response = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/x-www-form-urlencoded;charset=UTF-8',
+          'user-agent': 'Historic Town Explorer local curation/1.0 (read-only current-park import)',
+        },
+        body: new URLSearchParams({ data: queryText }),
+        signal: controller.signal,
+      });
+    } catch (error) {
+      lastStatus = `${endpoint}: ${error instanceof Error ? error.name : 'request failed'}`;
       continue;
-    const geometry = [...match[2].matchAll(/<nd\b([^>]*)\/?>(?:<\/nd>)?/g)]
-      .map((node) => attribute(node[1], 'ref'))
-      .map((reference) => (reference ? nodes.get(reference) : undefined));
-    if (geometry.every((position): position is [number, number] => Boolean(position)))
-      ways.push({ id, tags, geometry });
+    } finally {
+      clearTimeout(timeout);
+    }
+    if (response.ok) return (await response.json()) as OverpassResponse;
+    lastStatus = `${endpoint}: ${response.status}`;
+    if (!([429, 502, 503, 504] as number[]).includes(response.status)) break;
   }
-  return ways;
+  throw new Error(`OpenStreetMap current-context query failed (${lastStatus}).`);
+}
+
+function parseOsmWays(response: OverpassResponse): OsmWay[] {
+  return (response.elements ?? [])
+    .filter(
+      (element) =>
+        element.type === 'way' &&
+        element.tags?.name &&
+        element.geometry?.length &&
+        (element.tags.leisure === 'park' ||
+          element.tags.leisure === 'garden' ||
+          element.tags.landuse === 'recreation_ground'),
+    )
+    .map((element) => ({
+      id: element.id,
+      tags: element.tags,
+      geometry: element.geometry!.map((position) => [position.lon, position.lat] as [number, number]),
+    }));
 }
 
 function sourceRecord(way: OsmWay): SourceRecord {
@@ -99,13 +119,8 @@ function sourceRecord(way: OsmWay): SourceRecord {
 }
 
 const pkg = JSON.parse(await readFile(projectPath, 'utf8')) as ProjectPackage;
-const townArea = pkg.project.townStudyArea?.bufferedBoundary ?? pkg.project.boundary;
-const [west, south, east, north] = bounds({ ...pkg, project: { ...pkg.project, boundary: townArea } });
-const response = await fetch(`${osmMapUrl}?${new URLSearchParams({ bbox: `${west},${south},${east},${north}` })}`, {
-  headers: { 'user-agent': 'Historic Town Explorer local curator/1.0' },
-});
-if (!response.ok) throw new Error(`OpenStreetMap current-context query failed: ${response.status}`);
-const elements = parseOsmWays(await response.text());
+const [west, south, east, north] = bounds(pkg);
+const elements = parseOsmWays(await fetchOverpass(query(south, west, north, east)));
 let added = 0;
 let linked = 0;
 let outsideBoundary = 0;

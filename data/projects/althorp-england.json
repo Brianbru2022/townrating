@@ -1,0 +1,535 @@
+{
+  "project": {
+    "id": "althorp-england",
+    "name": "Althorp Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Northamptonshire",
+    "locality": "Althorp",
+    "centre": [
+      -0.9839502,
+      52.2823152
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated Althorp visitor boundary",
+        "localityName": "Althorp",
+        "osmType": "node",
+        "osmId": 25717162,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [],
+        "name": "Althorp curated visitor boundary",
+        "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+        "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+        "notAdministrativeBoundary": true,
+        "reviewedAt": "2026-08-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.9909501999987602,
+              52.27749280771031
+            ],
+            [
+              -0.9908888537621429,
+              52.2773527376776
+            ],
+            [
+              -0.9906599155548991,
+              52.27731521680828
+            ],
+            [
+              -0.977240484445101,
+              52.27731521680828
+            ],
+            [
+              -0.9770115462378575,
+              52.2773527376776
+            ],
+            [
+              -0.9769502000012399,
+              52.27749280771031
+            ],
+            [
+              -0.9769502000012401,
+              52.28713761439457
+            ],
+            [
+              -0.9770115486140913,
+              52.2872776764972
+            ],
+            [
+              -0.9772405138258192,
+              52.28731521680692
+            ],
+            [
+              -0.9906598861741809,
+              52.28731521680692
+            ],
+            [
+              -0.9908888513859087,
+              52.2872776764972
+            ],
+            [
+              -0.99095019999876,
+              52.28713761439457
+            ],
+            [
+              -0.9909501999987602,
+              52.27749280771031
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated Althorp visitor boundary derived from Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "high",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-09T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-09. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 0 directly adjoining public green-space geometries were included in the active visitor boundary.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Useful as a mapped local settlement, but not currently recommended as a tourist destination."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Althorp",
+      "intro": "Althorp has a modest visitor offer within its active settlement boundary. The guide records only defensible visitor interest without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "A short Althorp wander",
+        "summary": "Use the planner to find the strongest in-boundary daytime stops."
+      },
+      "dontMiss": [],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/25717162",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-09"
+    },
+    "visitorHighlights": [],
+    "townStudyArea": {
+      "localityName": "Althorp",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/25717162",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-09",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -0.9909502,
+          52.2773152,
+          -0.9769502,
+          52.2873152
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Althorp",
+          "osmType": "node",
+          "osmId": 25717162,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.9909502,
+                52.2773152
+              ],
+              [
+                -0.9769502,
+                52.2773152
+              ],
+              [
+                -0.9769502,
+                52.2873152
+              ],
+              [
+                -0.9909502,
+                52.2873152
+              ],
+              [
+                -0.9909502,
+                52.2773152
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated Althorp visitor boundary",
+          "localityName": "Althorp",
+          "osmType": "node",
+          "osmId": 25717162,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [],
+          "name": "Althorp curated visitor boundary",
+          "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+          "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+          "notAdministrativeBoundary": true,
+          "reviewedAt": "2026-08-09"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.9909501999987602,
+                52.27749280771031
+              ],
+              [
+                -0.9908888537621429,
+                52.2773527376776
+              ],
+              [
+                -0.9906599155548991,
+                52.27731521680828
+              ],
+              [
+                -0.977240484445101,
+                52.27731521680828
+              ],
+              [
+                -0.9770115462378575,
+                52.2773527376776
+              ],
+              [
+                -0.9769502000012399,
+                52.27749280771031
+              ],
+              [
+                -0.9769502000012401,
+                52.28713761439457
+              ],
+              [
+                -0.9770115486140913,
+                52.2872776764972
+              ],
+              [
+                -0.9772405138258192,
+                52.28731521680692
+              ],
+              [
+                -0.9906598861741809,
+                52.28731521680692
+              ],
+              [
+                -0.9908888513859087,
+                52.2872776764972
+              ],
+              [
+                -0.99095019999876,
+                52.28713761439457
+              ],
+              [
+                -0.9909501999987602,
+                52.27749280771031
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated Althorp visitor boundary",
+          "localityName": "Althorp",
+          "osmType": "node",
+          "osmId": 25717162,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [],
+          "name": "Althorp curated visitor boundary",
+          "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+          "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+          "notAdministrativeBoundary": true,
+          "reviewedAt": "2026-08-09"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.9909501999987602,
+                52.27749280771031
+              ],
+              [
+                -0.9908888537621429,
+                52.2773527376776
+              ],
+              [
+                -0.9906599155548991,
+                52.27731521680828
+              ],
+              [
+                -0.977240484445101,
+                52.27731521680828
+              ],
+              [
+                -0.9770115462378575,
+                52.2773527376776
+              ],
+              [
+                -0.9769502000012399,
+                52.27749280771031
+              ],
+              [
+                -0.9769502000012401,
+                52.28713761439457
+              ],
+              [
+                -0.9770115486140913,
+                52.2872776764972
+              ],
+              [
+                -0.9772405138258192,
+                52.28731521680692
+              ],
+              [
+                -0.9906598861741809,
+                52.28731521680692
+              ],
+              [
+                -0.9908888513859087,
+                52.2872776764972
+              ],
+              [
+                -0.99095019999876,
+                52.28713761439457
+              ],
+              [
+                -0.9909501999987602,
+                52.27749280771031
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The official locality geometry is preserved unchanged. The active visitor boundary uses a transparent 150 metre morphological closing to include connected parks, river corridors and green spaces omitted by the statistical built-up-area geometry. This is a visitor extent, not an administrative replacement."
+    }
+  },
+  "features": [
+    {
+      "id": "historic-england:nhle:1067642",
+      "projectId": "althorp-england",
+      "name": "ALTHORP, EAST LODGES (SOUTH)",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Northamptonshire",
+      "locality": "Althorp",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.988837513407691,
+          52.283874358127
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1067642",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1067642",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1067642",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1067642?section=official-list-entry",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: c.1810"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-09T00:00:00Z",
+      "updatedAt": "2026-08-09T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Althorp visitor boundary. Earliest dated fabric normalised from official Historic England text on 2026-08-09; listing and restoration dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "c.1810",
+      "earliestPossibleYear": 1810,
+      "latestPossibleYear": 1810,
+      "datePrecision": "approximate year"
+    },
+    {
+      "id": "historic-england:nhle:1356627",
+      "projectId": "althorp-england",
+      "name": "ALTHORP, EAST LODGES (NORTH)",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Northamptonshire",
+      "locality": "Althorp",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.989097649794869,
+          52.2840384145332
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "estimated_from_authoritative_source",
+      "dateConfidence": "medium",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1356627",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1356627",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        },
+        {
+          "sourceName": "Historic England official list entry date evidence",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1356627",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1356627?section=official-list-entry",
+          "accessedAt": "2026-08-09T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Earliest dated fabric or historic component normalised from the official list-entry wording: c.1810"
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building",
+        "historic-england-date-enriched"
+      ],
+      "createdAt": "2026-08-09T00:00:00Z",
+      "updatedAt": "2026-08-09T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Althorp visitor boundary. Earliest dated fabric normalised from official Historic England text on 2026-08-09; listing and restoration dates were excluded.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data.",
+      "documentedDateText": "c.1810",
+      "earliestPossibleYear": 1810,
+      "latestPossibleYear": 1810,
+      "datePrecision": "approximate year"
+    }
+  ],
+  "sources": [
+    {
+      "id": "althorp-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Althorp settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/25717162",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Althorp designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "althorp-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Althorp visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

@@ -1,0 +1,87 @@
+{
+  "projectId": "bathgate-scotland",
+  "reviewedAt": "2026-08-07T00:00:00Z",
+  "townRating": {
+    "previous": 1,
+    "rating": 1,
+    "rationale": "One star is retained. Bathgate offers a credible short local-history visit through the Bennie Museum, official one-hour history trail and active Art Deco Regal, but it does not have enough destination-scale attractions inside the NRS locality for two stars. Nearby landscape and prehistoric attractions were deliberately excluded."
+  },
+  "boundary": {
+    "active": "Original NRS 2022 Bathgate locality S52000060, unchanged.",
+    "rule": "All attraction, food and practical markers must fall inside the active locality polygon. The history-trail start marker is inside the town; nearby attractions beyond the polygon do not count towards Bathgate."
+  },
+  "published": {
+    "attractions": [
+      {
+        "name": "Bennie Museum",
+        "score": 66,
+        "featureId": "osm-community:way-361177184"
+      },
+      {
+        "name": "Reconnect Regal Theatre",
+        "score": 60,
+        "featureId": "hes-listed-building:LB45918"
+      },
+      {
+        "name": "Bathgate Old Parish Kirk",
+        "score": 47,
+        "featureId": "nrhe:47770"
+      }
+    ],
+    "eat": [
+      "osm-community:node-8093619631",
+      "osm-community:way-460358425",
+      "osm-community:node-9239060140",
+      "osm-community:node-6832316244",
+      "osm-community:way-460356765",
+      "osm-community:node-8093619618"
+    ],
+    "trails": [
+      "visitor-context:bathgate-history-trail"
+    ],
+    "parking": [
+      "osm-community:way-252930532",
+      "osm-community:way-266711457",
+      "osm-community:way-729110761",
+      "osm-community:way-248061057"
+    ],
+    "toilets": [
+      "osm-community:way-277546451",
+      "osm-community:way-270477508",
+      "osm-community:node-1595571280"
+    ],
+    "picnic": []
+  },
+  "excluded": [
+    {
+      "name": "Kirkton Park and Bathgate Golf Club",
+      "reason": "Both remain useful local amenities and trail context, but neither is strong enough to pad Bathgate's leading attraction list."
+    },
+    {
+      "name": "Bathgate Castle mound",
+      "reason": "The official trail reaches the golf-club entrance plaque, but the archaeological remains do not provide a clear, accessible standalone visitor experience."
+    },
+    {
+      "name": "Cairnpapple Hill, Beecraigs, Lin's Mill Aqueduct, Ravencraig and the Bathgate Hills",
+      "reason": "Outside the active Bathgate locality polygon and excluded from the town rating and planner."
+    },
+    {
+      "name": "Retail, school, residential, staff and customer-only car parks",
+      "reason": "Only named central public car parks with supported capacity information are published."
+    }
+  ],
+  "practicalCorrections": {
+    "parking": "Four named central public car parks are published. The Regal rear car park is venue parking and is not presented as a general public car park.",
+    "toilets": "Generic OpenStreetMap toilet names were replaced with Engine Lane/Acredale, Jim Walker Partnership Centre and King Street/station location-led names. Xcite Bathgate was excluded because its point falls outside the active locality polygon.",
+    "picnic": "No defensible dedicated public picnic site was found inside the town boundary, so the category is intentionally empty."
+  },
+  "sourceUrls": [
+    "https://www.visitwestlothian.co.uk/explore/bathgate/",
+    "https://www.benniemuseum.org.uk/",
+    "https://www.visitwestlothian.co.uk/things-to-do/history-heritage/bathgate-history-trail/",
+    "https://www.visitwestlothian.co.uk/media/3518/bathgate-history-trail-lo.pdf",
+    "https://www.reconnecttheatres.com/regal-theatre/",
+    "https://www.westlothian.gov.uk/toilets",
+    "https://bathgatecdt.org/news/f/bathgate-solar-project-2025"
+  ]
+}

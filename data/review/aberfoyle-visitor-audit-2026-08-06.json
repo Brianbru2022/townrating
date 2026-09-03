@@ -1,0 +1,76 @@
+{
+  "projectId": "aberfoyle-scotland",
+  "reviewedAt": "2026-08-06T00:00:00Z",
+  "townRating": {
+    "previous": 3,
+    "rating": 2,
+    "rationale": "Two stars are appropriate for a strong gateway village with Doon Hill folklore, a bike park, the Scottish Wool Centre and a notably useful food cluster. The Lodge, Go Ape and Three Lochs Forest Drive are nearby standalone attractions outside the town boundary and cannot justify a three-star town rating."
+  },
+  "boundary": {
+    "previous": "Supplied rectangular study extent from longitude -4.418 to -4.358 and latitude 56.1715 to 56.2205.",
+    "active": "A 100-metre envelope around OpenStreetMap residential landuse way 166576344.",
+    "rule": "Town planner items must be inside the active visitor boundary. Trail markers may represent routes continuing outward, but their published start point must be inside. Nearby forest attractions remain Home-only standalone discoveries."
+  },
+  "published": {
+    "townAttractions": [
+      "curated-attraction:aberfoyle-scottish-wool-centre",
+      "osm-community:way-307345455"
+    ],
+    "homeOnlyAttractions": [
+      "curated-attraction:aberfoyle-lodge-forest-visitor-centre",
+      "three-lochs-drive",
+      "go-ape"
+    ],
+    "eat": [
+      "osm-community:node-9412972204",
+      "osm-community:node-9388927746",
+      "osm-community:node-5801241398",
+      "osm-community:node-10879342147",
+      "osm-community:node-4981925908",
+      "osm-community:node-4280069594"
+    ],
+    "trails": [
+      "curated-trail:aberfoyle-doon-hill"
+    ],
+    "parking": [
+      "osm-community:way-184629108"
+    ],
+    "toilets": [
+      "osm-community:node-271932462"
+    ],
+    "picnic": [
+      "osm-community:node-9388927753"
+    ]
+  },
+  "excluded": [
+    {
+      "name": "The Lodge Forest Visitor Centre, Go Ape and Three Lochs Forest Drive",
+      "reason": "Outside the active OSM-derived town boundary. Retained as Home-map standalone discoveries, not Aberfoyle planner items."
+    },
+    {
+      "name": "Lodge trails, Statute Labour Road and Old Military Road",
+      "reason": "Outside the town boundary or insufficiently town-centred for the public planner. The official Doon Hill Trail is the single curated town-start trail."
+    },
+    {
+      "name": "Customer-only and unnamed parking or toilets",
+      "reason": "Only the named free public Riverside car park and council-verified Main Street toilets are published."
+    }
+  ],
+  "artwork": {
+    "asset": "/town-guides/aberfoyle-main-street-watercolour-guide.png",
+    "referenceSource": "Businesses on Main Street, Aberfoyle by Richard Sutcliffe",
+    "referenceUrl": "https://www.geograph.org.uk/photo/7492996",
+    "referenceLicence": "CC BY-SA 2.0",
+    "treatment": "Text-free original light ink-and-watercolour visitor-guide illustration."
+  },
+  "sourceUrls": [
+    "https://www.lochlomond-trossachs.org/discover-the-park/towns-villages/aberfoyle/",
+    "https://forestryandland.gov.scot/visit/destinations/aberfoyle/visitor-information",
+    "https://forestryandland.gov.scot/media/kzhfrgp3/fls-routecard-qefp-aberfoyle.pdf",
+    "https://www.ewm.co.uk/store-finder",
+    "https://www.lochlomond-trossachs.org/things-to-do/cycling/aberfoyle-bike-park/",
+    "https://www.goaberfoyle.co.uk/food-drink/",
+    "https://www.stirling.gov.uk/community-life-and-leisure/public-toilets/list-of-the-public-toilets-in-stirling/aberfoyle/",
+    "https://www.geograph.org.uk/photo/7492996"
+  ]
+}

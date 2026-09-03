@@ -1,0 +1,140 @@
+{
+  "reviewedAt": "2026-09-02T23:50:00.000Z",
+  "sequence": 6,
+  "sequenceTotal": 6,
+  "projectId": "guardbridge-scotland",
+  "place": "Guardbridge",
+  "townScore": 74,
+  "mapPublished": true,
+  "settlementMerit": {
+    "result": "retain_on_town_map",
+    "rationale": "Guardbridge is a worthwhile stop through the new Eden Mill visitor experience, internationally important Eden Estuary viewing, a visitor-welcoming café, the official coastal path and two accurately classified parking options. The visitor-centre repair closure prevents a public-toilet claim."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 2
+    },
+    "eat": {
+      "audited": true,
+      "published": 1,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded."
+    },
+    "trails": {
+      "audited": true,
+      "published": 1,
+      "providerChecks": {
+        "TreasureTrails": "No live exact place-specific product in the current Fife catalogue.",
+        "CuriousAbout": "Current catalogue searched; no exact place-specific route.",
+        "MysteryGuides": "Current catalogue searched; no exact place-specific route.",
+        "GoQuestAdventures": "Current catalogue searched; no exact place-specific route.",
+        "officialRoutes": "The official Fife Coastal Path passes through Guardbridge and Coble Shore."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "reason": "No dedicated public picnic facility was verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 1,
+      "reason": "The public estuary arrival area is published; Eden Mill customer parking remains documented on the attraction but is not misrepresented as a general car park."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "reason": "The estuary centre is currently closed for repairs; venue/customer toilets are not general public toilets."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessibility is stated only where a current source supports it; no blanket accessible claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road, bus and rail context was checked; transport does not add destination points by itself."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -1
+    }
+  },
+  "exclusions": [
+    "A venue bar and full meals do not create extra café entries.",
+    "University and distillery customer toilets are not represented as general public toilets.",
+    "The Eden Campus large car park is not shown as unrestricted weekday public parking.",
+    "St Andrews, Leuchars and Rhynd visitor offers are outside the strict settlement."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets",
+    "assigned": 36,
+    "local": 33,
+    "visibleDated": 20,
+    "hiddenUndatedOrNonlocal": 16,
+    "visibleUndated": 0,
+    "visibleLabelsContainingDates": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Guardbridge's strict study area count toward the settlement score. Related attractions and cross-boundary routes may appear only when explicitly marked related_context and do not inflate the town.",
+  "scoreRationale": "Guardbridge is a worthwhile stop through the new Eden Mill visitor experience, internationally important Eden Estuary viewing, a visitor-welcoming café, the official coastal path and two accurately classified parking options. The visitor-centre repair closure prevents a public-toilet claim.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 74,
+    "rationale": "Score independently reconciled after every category, named-provider search, boundary exclusion and practical check; no provisional exact-58 town score remains."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.edenmill.com/pages/distillery-bookings",
+        "outcome": "verified",
+        "note": "Current tour products, durations, prices and visitor parking verified.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.edenmill.com/pages/distilleryfaqs",
+        "outcome": "verified",
+        "note": "Current hours, access, public transport, parking and dog restrictions verified.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://catering.wp.st-andrews.ac.uk/tindals-cafe/",
+        "outcome": "verified",
+        "note": "Current visitor access, café offer and weekday hours verified.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://fifecoastandcountrysidetrust.co.uk/walks/local-nature-reserves-others/eden-estuary-nature-reserve/",
+        "outcome": "verified",
+        "note": "Official reserve page verifies the visitor centre, parking and normal facilities.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://fifecoastandcountrysidetrust.co.uk/eden-estuary-newsletter-july-2026/",
+        "outcome": "verified",
+        "note": "Latest explicit repair notice confirms the indoor centre is closed while outdoor viewing remains available.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://fifecoastandcountrysidetrust.co.uk/walks/fife-coastal-path/cambo-sands-to-leuchars/",
+        "outcome": "verified",
+        "note": "Official path stage through Guardbridge and Coble Shore verified.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Guardbridge product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "liveBrowserVerifiedAt": "2026-09-02T20:44:00.000Z"
+  }
+}

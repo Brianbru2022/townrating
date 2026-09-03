@@ -1,0 +1,147 @@
+{
+  "reviewedAt": "2026-09-02T19:15:00.000Z",
+  "sequence": 12,
+  "sequenceTotal": 13,
+  "projectId": "dunino-scotland",
+  "place": "Dunino",
+  "townScore": 58,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "Dunino has two worthwhile integrated visitor points—the Den and the regularly accessible church—plus a community walk resource and modest arrival parking. With no café, public toilet or verified picnic provision, it remains a compact attraction cluster rather than a rounded 60+ town experience."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 2,
+      "note": "Dunino Den and Dunino Church retained separately."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "note": "No qualifying café or light-lunch stop verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 1,
+      "note": "Community walk resource retained.",
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue searched for the exact locality.",
+        "CuriousAbout": "Current catalogue searched for the exact locality.",
+        "MysteryGuides": "Current catalogue searched for the exact locality.",
+        "GoQuestAdventures": "Current catalogue searched for the exact locality.",
+        "localProvider": "Current Boarhills and Dunino community walk leaflets verified."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "note": "No source-backed public picnic table verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 1,
+      "note": "The modest church/Den arrival area retained conservatively."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "note": "No public toilet verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Venue and route access is stated only when a current source supports it; no blanket claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road and available public-transport context checked; volatile timetables are not copied."
+    },
+    "dogs": {
+      "audited": true,
+      "note": "Town adjustment and venue-specific evidence retained; no unsupported dog-friendly claim added."
+    }
+  },
+  "exclusions": [
+    "Church facilities are not assumed to be general public toilets.",
+    "Nearby Boarhills, St Andrews and Stravithie services are not transferred."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets with locally cached official descriptions",
+    "projectId": "dunino-scotland",
+    "totalHesAndNrheRetained": 32,
+    "localRecords": 29,
+    "listedBuildings": 12,
+    "scheduledMonuments": 0,
+    "nrhe": 20,
+    "relatedBufferRecords": 3,
+    "removedOutOfScope": 0,
+    "enriched": 19,
+    "datedLocalRecords": 25,
+    "undatedLocalRecordsRetainedHidden": 4,
+    "visibleHeritagePins": 25,
+    "visiblePinsWithoutDates": 0,
+    "visiblePinNamesContainingDate": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Dunino's strict study area count toward the settlement score. Explicit related context may be shown but cannot inflate the town.",
+  "scoreRationale": "Dunino has two worthwhile integrated visitor points—the Den and the regularly accessible church—plus a community walk resource and modest arrival parking. With no café, public toilet or verified picnic provision, it remains a compact attraction cluster rather than a rounded 60+ town experience.",
+  "scoreReanalysis": {
+    "required": true,
+    "completed": true,
+    "resultScore": 58,
+    "rationale": "A second independent pass again produced 58: two genuine See entries and modest route/arrival support are offset by no café, public toilet or verified picnic provision, leaving too little rounded town depth for 60+ publication."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.welcometofife.com/view-business/dunino-den",
+        "outcome": "verified",
+        "note": "The official destination page verifies the free outdoor Den.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.scotlandschurchestrust.org.uk/church/dunino-church/",
+        "outcome": "verified",
+        "note": "The church trust verifies the 1826–27 building, carved stone and visitor opening.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://boarhillsandduninocommunitytrust.org/walks-around-boarhills-and-dunino/",
+        "outcome": "verified",
+        "note": "Two local walking leaflets remain available.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.tafac.org.uk/wp-content/uploads/2023/11/TAFAJv8-p125-137.pdf",
+        "outcome": "verified",
+        "note": "Archaeological research supports the church/Den setting and unsurfaced arrival area.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Dunino product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "visibleHeritageLabelsClean": true,
+    "liveBrowserVerifiedAt": "2026-09-02T21:07:29.331Z",
+    "liveChecks": {
+      "fifeSelectorContainsAllRequestedPlaces": true,
+      "auditedScoresRendered": true,
+      "stAndrewsCategoryCountsRendered": true,
+      "kingsbarnsCategoryCountsRendered": true,
+      "exact58SecondPassTownsRendered": true,
+      "heritageDateTextAbsentFromMapLabels": true,
+      "browserConsoleErrors": 0
+    }
+  }
+}

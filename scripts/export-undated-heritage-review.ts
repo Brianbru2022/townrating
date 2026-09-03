@@ -7,9 +7,21 @@ const projectPaths = process.argv.slice(2);
 const defaultProjects = [
   'data/projects/alloa.json',
   'data/projects/alva.json',
+  'data/projects/bathgate.json',
+  'data/projects/broxburn-and-uphall.json',
+  'data/projects/bridge-of-earn.json',
   'data/projects/culross.json',
+  'data/projects/dunning.json',
   'data/projects/kincardine.json',
+  'data/projects/gourock.json',
+  'data/projects/kirknewton.json',
+  'data/projects/kirriemuir.json',
+  'data/projects/linlithgow.json',
+  'data/projects/livingston.json',
+  'data/projects/south-queensferry.json',
+  'data/projects/torphichen.json',
   'data/projects/tillicoultry.json',
+  'data/projects/whitburn.json',
   'data/projects/quarriers-village.json',
   'data/projects/biggar.json',
   'data/projects/killin.json',
@@ -111,6 +123,7 @@ for (const pkg of packages) {
         feature.evidenceScope !== 'out_of_scope' &&
         feature.evidenceScope !== 'related_context' &&
         !hasHistoricTimelineDate(feature) &&
+        !feature.tags.includes('reviewed-no-defensible-date') &&
         !feature.tags.includes('current-context'),
     )
     .sort(

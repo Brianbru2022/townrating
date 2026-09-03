@@ -56,7 +56,18 @@ describe('review queue', () => {
       dateConfidence: 'unknown',
       reviewed: false,
     });
-    const pkg = project([dated, undated, location, excluded], [
+    const reviewedNoDate = feature({
+      id: 'feature:5',
+      name: 'Undateable record',
+      documentedDateText: undefined,
+      earliestPossibleYear: undefined,
+      latestPossibleYear: undefined,
+      dateBasis: 'unknown',
+      dateConfidence: 'unknown',
+      reviewed: true,
+      tags: ['reviewed-no-defensible-date'],
+    });
+    const pkg = project([dated, undated, location, excluded, reviewedNoDate], [
       { recordId: 'feature:3', severity: 'warning', field: 'geometry', message: 'Check point.' },
     ]);
 

@@ -1,0 +1,134 @@
+{
+  "reviewedAt": "2026-09-02T19:15:00.000Z",
+  "sequence": 7,
+  "sequenceTotal": 13,
+  "projectId": "prior-muir-scotland",
+  "place": "Prior Muir",
+  "townScore": 24,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "Prior Muir is a dispersed rural locality whose archaeological record adds historical context but not a public visitor experience. No independent attraction, café-led stop, maintained locality trail or public facilities were verified."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0,
+      "note": "No independently presented attraction verified."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "note": "No qualifying daytime food stop verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "note": "No maintained exact-locality visitor route verified.",
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue searched for the exact locality.",
+        "CuriousAbout": "Current catalogue searched for the exact locality.",
+        "MysteryGuides": "Current catalogue searched for the exact locality.",
+        "GoQuestAdventures": "Current catalogue searched for the exact locality."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "note": "No public picnic facility verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "note": "No general public visitor car park verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "note": "No public toilet verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Venue and route access is stated only when a current source supports it; no blanket claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road and available public-transport context checked; volatile timetables are not copied."
+    },
+    "dogs": {
+      "audited": true,
+      "note": "Town adjustment and venue-specific evidence retained; no unsupported dog-friendly claim added."
+    }
+  },
+  "exclusions": [
+    "Archaeological records are heat evidence, not automatically See attractions.",
+    "Nearby St Andrews, Dunino and coastal services are not transferred."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets with locally cached official descriptions",
+    "projectId": "prior-muir-scotland",
+    "totalHesAndNrheRetained": 6,
+    "localRecords": 4,
+    "listedBuildings": 2,
+    "scheduledMonuments": 0,
+    "nrhe": 4,
+    "relatedBufferRecords": 2,
+    "removedOutOfScope": 0,
+    "enriched": 3,
+    "datedLocalRecords": 1,
+    "undatedLocalRecordsRetainedHidden": 3,
+    "visibleHeritagePins": 1,
+    "visiblePinsWithoutDates": 0,
+    "visiblePinNamesContainingDate": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Prior Muir's strict study area count toward the settlement score. Explicit related context may be shown but cannot inflate the town.",
+  "scoreRationale": "Prior Muir is a dispersed rural locality whose archaeological record adds historical context but not a public visitor experience. No independent attraction, café-led stop, maintained locality trail or public facilities were verified.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 24,
+    "rationale": "Score reconciled after all categories, boundary exclusions and source checks."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.trove.scot/place/34471",
+        "outcome": "verified",
+        "note": "The local ring-ditch is an NRHE record, not a presented public attraction.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://standrewspreservationtrust.com/wp-content/uploads/2022/06/2015.pdf",
+        "outcome": "verified",
+        "note": "Historical context checked without treating it as current visitor provision.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Prior Muir product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "visibleHeritageLabelsClean": true,
+    "liveBrowserVerifiedAt": "2026-09-02T21:07:29.331Z",
+    "liveChecks": {
+      "fifeSelectorContainsAllRequestedPlaces": true,
+      "auditedScoresRendered": true,
+      "stAndrewsCategoryCountsRendered": true,
+      "kingsbarnsCategoryCountsRendered": true,
+      "exact58SecondPassTownsRendered": true,
+      "heritageDateTextAbsentFromMapLabels": true,
+      "browserConsoleErrors": 0
+    }
+  }
+}

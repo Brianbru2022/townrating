@@ -1,0 +1,127 @@
+{
+  "reviewedAt": "2026-09-02T23:50:00.000Z",
+  "sequence": 3,
+  "sequenceTotal": 6,
+  "projectId": "rhynd-fife-scotland",
+  "place": "Rhynd",
+  "townScore": 48,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "The Rhynd has a genuine bookable activity centre and an excellent seasonal café, both at one diversified farm venue. The offer is correctly published under See and Eat, but it does not turn the otherwise tiny hamlet into an independently worthwhile 60+ town, so Rhynd remains selector-only."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 1
+    },
+    "eat": {
+      "audited": true,
+      "published": 1,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded."
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "providerChecks": {
+        "TreasureTrails": "No live exact place-specific product in the current Fife catalogue.",
+        "CuriousAbout": "Current catalogue searched; no exact place-specific route.",
+        "MysteryGuides": "Current catalogue searched; no exact place-specific route.",
+        "GoQuestAdventures": "Current catalogue searched; no exact place-specific route.",
+        "officialRoutes": "No maintained public place-specific walking route was verified inside the strict hamlet boundary."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "reason": "No dedicated public picnic facility was verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "reason": "Customer parking is documented on the activity and café records but is not published as a general public car park."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "reason": "No public toilet independent of the private venue was verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessibility is stated only where a current source supports it; no blanket accessible claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road, bus and rail context was checked; transport does not add destination points by itself."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -1
+    }
+  },
+  "exclusions": [
+    "One multi-use farm venue is not treated as a broad settlement-level visitor cluster.",
+    "Private estate, event and accommodation functions do not add town points.",
+    "Venue toilets and parking are not represented as unrestricted public facilities."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets",
+    "assigned": 5,
+    "local": 5,
+    "visibleDated": 3,
+    "hiddenUndatedOrNonlocal": 2,
+    "visibleUndated": 0,
+    "visibleLabelsContainingDates": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Rhynd's strict study area count toward the settlement score. Related attractions and cross-boundary routes may appear only when explicitly marked related_context and do not inflate the town.",
+  "scoreRationale": "The Rhynd has a genuine bookable activity centre and an excellent seasonal café, both at one diversified farm venue. The offer is correctly published under See and Eat, but it does not turn the otherwise tiny hamlet into an independently worthwhile 60+ town, so Rhynd remains selector-only.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 48,
+    "rationale": "Score independently reconciled after every category, named-provider search, boundary exclusion and practical check; no provisional exact-58 town score remains."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.therhynd.com/",
+        "outcome": "verified",
+        "note": "Current diversified venue, activity and café offer verified.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.therhynd.com/activities",
+        "outcome": "verified",
+        "note": "Clay shooting, archery and axe throwing verified.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.scottishclayshootingcentre.co.uk/clay-shooting",
+        "outcome": "verified",
+        "note": "Current bookable experiences, durations and prices verified.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.therhynd.com/caf%C3%A9",
+        "outcome": "verified",
+        "note": "Current café days, hours and local-food focus verified.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Rhynd product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "liveBrowserVerifiedAt": "2026-09-02T20:44:00.000Z"
+  }
+}

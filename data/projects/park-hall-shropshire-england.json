@@ -1,0 +1,503 @@
+{
+  "project": {
+    "id": "park-hall-shropshire-england",
+    "name": "Park Hall Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Shropshire",
+    "locality": "Park Hall",
+    "centre": [
+      -3.0284576,
+      52.8762785
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Park Hall",
+        "osmType": "node",
+        "osmId": 10233706632,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [
+          "Granville Park (Oswestry Rugby Club)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.0344575999999996,
+              52.8717785
+            ],
+            [
+              -3.0224576,
+              52.8717785
+            ],
+            [
+              -3.0224576,
+              52.8807785
+            ],
+            [
+              -3.0344575999999996,
+              52.8807785
+            ],
+            [
+              -3.0344575999999996,
+              52.8717785
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-12T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-12. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 1 directly adjoining public green-space geometries were included in the active visitor boundary. Historic England official list-entry date enrichment reviewed 2026-08-12: 0 of 0 statutory records now carry defensible date evidence; uncaptured or unresolved entries are retained as unknown and listed in the county audit.",
+    "touristAppeal": {
+      "rating": 1,
+      "label": "Local detour",
+      "summary": "Park Hall qualifies as a local detour through WWII Museum and Park Hall Farm. It is best treated as a shorter stop rather than a half-day destination."
+    },
+    "townGuide": {
+      "headline": "Park Hall: local heritage, daytime stops and an easy settlement wander",
+      "intro": "Park Hall offers WWII Museum, Park Hall Farm within a compact settlement visit, supported by curated daytime food and practical facilities where mapped.",
+      "bestFor": [
+        "Local heritage",
+        "Short settlement walks",
+        "Daytime stops"
+      ],
+      "perfectFor": [
+        "A short local detour",
+        "Visitors exploring Shropshire"
+      ],
+      "suggestedFirstVisit": {
+        "title": "WWII Museum",
+        "summary": "Start with WWII Museum and Park Hall Farm, then use the planner for an in-boundary daytime stop."
+      },
+      "dontMiss": [
+        "WWII Museum",
+        "Park Hall Farm"
+      ],
+      "suggestedTime": "One to three hours",
+      "visitorMood": "A low-key, evidence-led local visit.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/10233706632",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-12"
+    },
+    "visitorHighlights": [
+      {
+        "rank": 1,
+        "featureId": "osm-community:way-1119224382",
+        "name": "WWII Museum",
+        "reason": "WWII Museum is a curated museum within the active Park Hall visitor boundary.",
+        "tagline": "museum",
+        "visitorScore": 72,
+        "timeToSpend": "Allow 60-120 minutes",
+        "freeAdmission": false,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "museum",
+          "intro": "WWII Museum is a curated museum within the active Park Hall visitor boundary.",
+          "motifs": [
+            "museum",
+            "Park Hall"
+          ],
+          "bestFor": [
+            "Local heritage"
+          ],
+          "thingsToDo": [
+            {
+              "name": "Explore WWII Museum"
+            },
+            {
+              "name": "Notice its museum character"
+            }
+          ]
+        },
+        "sourceName": "OpenStreetMap current community places",
+        "sourceUrl": "https://www.openstreetmap.org/way/1119224382",
+        "verifiedInBoundaryAt": "2026-08-12"
+      },
+      {
+        "rank": 2,
+        "featureId": "osm-community:way-1119224383",
+        "name": "Park Hall Farm",
+        "reason": "Park Hall Farm is a curated attraction within the active Park Hall visitor boundary.",
+        "tagline": "attraction",
+        "visitorScore": 70,
+        "timeToSpend": "Allow 45-90 minutes",
+        "freeAdmission": false,
+        "organisationPills": [],
+        "attractionGuide": {
+          "headline": "attraction",
+          "intro": "Park Hall Farm is a curated attraction within the active Park Hall visitor boundary.",
+          "motifs": [
+            "attraction",
+            "Park Hall"
+          ],
+          "bestFor": [
+            "Local heritage"
+          ],
+          "thingsToDo": [
+            {
+              "name": "Explore Park Hall Farm"
+            },
+            {
+              "name": "Notice its attraction character"
+            }
+          ]
+        },
+        "sourceName": "OpenStreetMap current community places",
+        "sourceUrl": "https://www.parkhallfarm.co.uk/",
+        "verifiedInBoundaryAt": "2026-08-12"
+      }
+    ],
+    "townStudyArea": {
+      "localityName": "Park Hall",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/10233706632",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-12",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -3.0344575999999996,
+          52.8717785,
+          -3.0224576,
+          52.8807785
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Park Hall",
+          "osmType": "node",
+          "osmId": 10233706632,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.0344575999999996,
+                52.8717785
+              ],
+              [
+                -3.0224576,
+                52.8717785
+              ],
+              [
+                -3.0224576,
+                52.8807785
+              ],
+              [
+                -3.0344575999999996,
+                52.8807785
+              ],
+              [
+                -3.0344575999999996,
+                52.8717785
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -3.0344575999999996,
+          52.8717785,
+          -3.0224576,
+          52.8807785
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Park Hall",
+          "osmType": "node",
+          "osmId": 10233706632,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.0344575999999996,
+                52.8717785
+              ],
+              [
+                -3.0224576,
+                52.8717785
+              ],
+              [
+                -3.0224576,
+                52.8807785
+              ],
+              [
+                -3.0344575999999996,
+                52.8807785
+              ],
+              [
+                -3.0344575999999996,
+                52.8717785
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Park Hall",
+          "osmType": "node",
+          "osmId": 10233706632,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [
+            "Granville Park (Oswestry Rugby Club)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.0344575999999996,
+                52.8717785
+              ],
+              [
+                -3.0224576,
+                52.8717785
+              ],
+              [
+                -3.0224576,
+                52.8807785
+              ],
+              [
+                -3.0344575999999996,
+                52.8807785
+              ],
+              [
+                -3.0344575999999996,
+                52.8717785
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes only directly adjoining mapped public green spaces: Granville Park (Oswestry Rugby Club)."
+    }
+  },
+  "features": [
+    {
+      "id": "osm-community:way-1119224382",
+      "projectId": "park-hall-shropshire-england",
+      "name": "WWII Museum",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Park Hall",
+      "featureType": "museum",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0342591,
+          52.8774114
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "WWII Museum is a curated museum within the active Park Hall visitor boundary.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/1119224382",
+          "sourceUrl": "https://www.openstreetmap.org/way/1119224382",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "building=yes; museum=history; name=WWII Museum; tourism=museum; visit_score=72"
+        }
+      ],
+      "tags": [
+        "service-context-visitor",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-12.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "attractionGuide": {
+        "headline": "museum",
+        "intro": "WWII Museum is a curated museum within the active Park Hall visitor boundary.",
+        "motifs": [
+          "museum",
+          "Park Hall"
+        ],
+        "bestFor": [
+          "Local heritage"
+        ],
+        "thingsToDo": [
+          {
+            "name": "Explore WWII Museum"
+          },
+          {
+            "name": "Notice its museum character"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osm-community:way-1119224383",
+      "projectId": "park-hall-shropshire-england",
+      "name": "Park Hall Farm",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Shropshire",
+      "locality": "Park Hall",
+      "featureType": "attraction",
+      "significance": "local",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0340193,
+          52.8784799
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "substantially_intact",
+      "shortDescription": "Park Hall Farm is a curated attraction within the active Park Hall visitor boundary.",
+      "sourceRecords": [
+        {
+          "sourceName": "OpenStreetMap current community places",
+          "sourceOrganisation": "OpenStreetMap contributors",
+          "sourceRecordId": "way/1119224383",
+          "sourceUrl": "https://www.parkhallfarm.co.uk/",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "discovery_only",
+          "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+          "notes": "landuse=farmyard; name=Park Hall Farm; tourism=attraction; website=https://www.parkhallfarm.co.uk/; visit_score=70"
+        }
+      ],
+      "tags": [
+        "service-context-visitor",
+        "osm-current-place"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Current visitor place audited and boundary-checked 2026-08-12.",
+      "evidenceScope": "related_context",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "attractionGuide": {
+        "headline": "attraction",
+        "intro": "Park Hall Farm is a curated attraction within the active Park Hall visitor boundary.",
+        "motifs": [
+          "attraction",
+          "Park Hall"
+        ],
+        "bestFor": [
+          "Local heritage"
+        ],
+        "thingsToDo": [
+          {
+            "name": "Explore Park Hall Farm"
+          },
+          {
+            "name": "Notice its attraction character"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "park-hall-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Park Hall settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/10233706632",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Park Hall designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "park-hall-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Park Hall visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

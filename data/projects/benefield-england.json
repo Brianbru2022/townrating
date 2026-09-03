@@ -1,0 +1,404 @@
+{
+  "project": {
+    "id": "benefield-england",
+    "name": "Benefield Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Northamptonshire",
+    "locality": "Benefield",
+    "centre": [
+      -0.5633919,
+      52.4857636
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated Benefield visitor boundary",
+        "localityName": "Benefield",
+        "osmType": "relation",
+        "osmId": 6584216,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [],
+        "name": "Benefield curated visitor boundary",
+        "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+        "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+        "notAdministrativeBoundary": true,
+        "reviewedAt": "2026-08-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5703918999987602,
+              52.48094120774059
+            ],
+            [
+              -0.5703302704478995,
+              52.48080113769694
+            ],
+            [
+              -0.5701002749654962,
+              52.480763616852684
+            ],
+            [
+              -0.5566835250345037,
+              52.480763616852684
+            ],
+            [
+              -0.5564535295521004,
+              52.48080113769694
+            ],
+            [
+              -0.5563919000012397,
+              52.48094120774059
+            ],
+            [
+              -0.5563919000012398,
+              52.49058601442485
+            ],
+            [
+              -0.5564535320097801,
+              52.49072607651652
+            ],
+            [
+              -0.5566835549366351,
+              52.4907636168513
+            ],
+            [
+              -0.5701002450633648,
+              52.4907636168513
+            ],
+            [
+              -0.5703302679902198,
+              52.49072607651652
+            ],
+            [
+              -0.57039189999876,
+              52.49058601442485
+            ],
+            [
+              -0.5703918999987602,
+              52.48094120774059
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated Benefield visitor boundary derived from Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "high",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-09T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-09. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 0 directly adjoining public green-space geometries were included in the active visitor boundary.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Useful as a mapped local settlement, but not currently recommended as a tourist destination."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Benefield",
+      "intro": "Benefield has a modest visitor offer within its active settlement boundary. The guide records only defensible visitor interest without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "A short Benefield wander",
+        "summary": "Use the planner to find the strongest in-boundary daytime stops."
+      },
+      "dontMiss": [],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/relation/6584216",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-09"
+    },
+    "visitorHighlights": [],
+    "townStudyArea": {
+      "localityName": "Benefield",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/relation/6584216",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-09",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -0.5703919,
+          52.480763599999996,
+          -0.5563918999999999,
+          52.4907636
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Benefield",
+          "osmType": "relation",
+          "osmId": 6584216,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.5703919,
+                52.480763599999996
+              ],
+              [
+                -0.5563918999999999,
+                52.480763599999996
+              ],
+              [
+                -0.5563918999999999,
+                52.4907636
+              ],
+              [
+                -0.5703919,
+                52.4907636
+              ],
+              [
+                -0.5703919,
+                52.480763599999996
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated Benefield visitor boundary",
+          "localityName": "Benefield",
+          "osmType": "relation",
+          "osmId": 6584216,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [],
+          "name": "Benefield curated visitor boundary",
+          "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+          "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+          "notAdministrativeBoundary": true,
+          "reviewedAt": "2026-08-09"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.5703918999987602,
+                52.48094120774059
+              ],
+              [
+                -0.5703302704478995,
+                52.48080113769694
+              ],
+              [
+                -0.5701002749654962,
+                52.480763616852684
+              ],
+              [
+                -0.5566835250345037,
+                52.480763616852684
+              ],
+              [
+                -0.5564535295521004,
+                52.48080113769694
+              ],
+              [
+                -0.5563919000012397,
+                52.48094120774059
+              ],
+              [
+                -0.5563919000012398,
+                52.49058601442485
+              ],
+              [
+                -0.5564535320097801,
+                52.49072607651652
+              ],
+              [
+                -0.5566835549366351,
+                52.4907636168513
+              ],
+              [
+                -0.5701002450633648,
+                52.4907636168513
+              ],
+              [
+                -0.5703302679902198,
+                52.49072607651652
+              ],
+              [
+                -0.57039189999876,
+                52.49058601442485
+              ],
+              [
+                -0.5703918999987602,
+                52.48094120774059
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated Benefield visitor boundary",
+          "localityName": "Benefield",
+          "osmType": "relation",
+          "osmId": 6584216,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [],
+          "name": "Benefield curated visitor boundary",
+          "originalSourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+          "methodology": "Morphological closing of the preserved official built-up-area geometry using a 150 metre outward and inward buffer. This fills internal omissions for connected parks, river corridors and visitor green spaces without applying a general outward town buffer.",
+          "notAdministrativeBoundary": true,
+          "reviewedAt": "2026-08-09"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -0.5703918999987602,
+                52.48094120774059
+              ],
+              [
+                -0.5703302704478995,
+                52.48080113769694
+              ],
+              [
+                -0.5701002749654962,
+                52.480763616852684
+              ],
+              [
+                -0.5566835250345037,
+                52.480763616852684
+              ],
+              [
+                -0.5564535295521004,
+                52.48080113769694
+              ],
+              [
+                -0.5563919000012397,
+                52.48094120774059
+              ],
+              [
+                -0.5563919000012398,
+                52.49058601442485
+              ],
+              [
+                -0.5564535320097801,
+                52.49072607651652
+              ],
+              [
+                -0.5566835549366351,
+                52.4907636168513
+              ],
+              [
+                -0.5701002450633648,
+                52.4907636168513
+              ],
+              [
+                -0.5703302679902198,
+                52.49072607651652
+              ],
+              [
+                -0.57039189999876,
+                52.49058601442485
+              ],
+              [
+                -0.5703918999987602,
+                52.48094120774059
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The official locality geometry is preserved unchanged. The active visitor boundary uses a transparent 150 metre morphological closing to include connected parks, river corridors and green spaces omitted by the statistical built-up-area geometry. This is a visitor extent, not an administrative replacement."
+    }
+  },
+  "features": [],
+  "sources": [
+    {
+      "id": "benefield-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Benefield settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/relation/6584216",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Benefield designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "benefield-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Benefield visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

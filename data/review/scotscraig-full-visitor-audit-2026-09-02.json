@@ -1,0 +1,129 @@
+{
+  "reviewedAt": "2026-09-02T23:50:00.000Z",
+  "sequence": 1,
+  "sequenceTotal": 6,
+  "projectId": "scotscraig-scotland",
+  "place": "Scotscraig",
+  "townScore": 42,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "Scotscraig has nationally important estate archaeology and a published route through the estate, but the historic fabric is private rather than an advertised public attraction and no café-led stop or independent visitor facilities were verified. It remains selector-only."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0,
+      "reason": "No independently visitable attraction was verified inside the strict hamlet boundary."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "reason": "No qualifying café, coffee-and-cake or light-lunch stop was verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 1,
+      "providerChecks": {
+        "TreasureTrails": "No live exact place-specific product in the current Fife catalogue.",
+        "CuriousAbout": "Current catalogue searched; no exact place-specific route.",
+        "MysteryGuides": "Current catalogue searched; no exact place-specific route.",
+        "GoQuestAdventures": "Current catalogue searched; no exact place-specific route.",
+        "officialRoutes": "Fife Walking publishes the 6 km Scotscraig Exploration; it starts outside the hamlet and is retained as related route context."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "reason": "No dedicated public picnic facility was verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "reason": "No general public visitor car park was verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "reason": "No public toilet was verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessibility is stated only where a current source supports it; no blanket accessible claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road, bus and rail context was checked; transport does not add destination points by itself."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -1
+    }
+  },
+  "exclusions": [
+    "Scotscraig Golfing Club is about 1.7 km east at Golf Road, Tayport and lies outside this strict hamlet boundary.",
+    "Private Scotscraig House, farm buildings, dovecot and scheduled remains are historic heat evidence, not assumed public attractions.",
+    "Morton Lochs and Tayport facilities are outside the hamlet."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets",
+    "assigned": 14,
+    "local": 13,
+    "visibleDated": 8,
+    "hiddenUndatedOrNonlocal": 6,
+    "visibleUndated": 0,
+    "visibleLabelsContainingDates": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Scotscraig's strict study area count toward the settlement score. Related attractions and cross-boundary routes may appear only when explicitly marked related_context and do not inflate the town.",
+  "scoreRationale": "Scotscraig has nationally important estate archaeology and a published route through the estate, but the historic fabric is private rather than an advertised public attraction and no café-led stop or independent visitor facilities were verified. It remains selector-only.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 42,
+    "rationale": "Score independently reconciled after every category, named-provider search, boundary exclusion and practical check; no provisional exact-58 town score remains."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.openstreetmap.org/node/13795964523",
+        "outcome": "verified",
+        "note": "Mapped hamlet resolved at the historic estate core.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://fife-placenames.glasgow.ac.uk/volume/?id=4",
+        "outcome": "verified",
+        "note": "Fife Place-name Data identifies Scotscraig at NO444282.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://portal.historicenvironment.scot/designation/SM5180",
+        "outcome": "verified",
+        "note": "HES confirms the 15th-century mansion remains, 1667 gateway and later gardens; designation is not public visitor access.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://fifewalking.com/find-a-walk/north-fife/scotscraig-and-morton-lochs/",
+        "outcome": "verified",
+        "note": "Current route page supplies distance, terrain, start and access cautions.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Scotscraig product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "liveBrowserVerifiedAt": "2026-09-02T20:44:00.000Z"
+  }
+}

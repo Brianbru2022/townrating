@@ -1,0 +1,141 @@
+{
+  "reviewedAt": "2026-09-01T19:00:00.000Z",
+  "place": "Cauldcots",
+  "townScore": 22,
+  "mapPublished": false,
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0
+    },
+    "eat": {
+      "audited": true,
+      "published": 0
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "providerChecks": {
+        "TreasureTrails": "Current Treasure Trails catalogue searched; no exact place-specific result was retained.",
+        "CuriousAbout": "Current CuriousAbout catalogue searched; no exact place-specific result was retained.",
+        "MysteryGuides": "Current Mystery Guides catalogue searched; no exact place-specific result was retained.",
+        "GoQuest / Go Quest Adventures": "Current GoQuest Adventures catalogue searched; no exact place-specific result was retained.",
+        "OfficialOrConventional": "VisitAngus, council, trust and conventional walking sources were searched; no qualifying in-boundary named route was retained."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0
+    },
+    "parking": {
+      "audited": true,
+      "published": 0
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0
+    }
+  },
+  "practicalAudit": {
+    "see": "No independently publishable See place was verified for this strict settlement.",
+    "eat": "No dependable current café, coffee shop, tearoom, bakery stop, farm café or light-lunch venue was verified inside the strict boundary.",
+    "trails": "All named providers and conventional route sources were searched; no qualifying local trail remains published.",
+    "picnic": "No dedicated or responsibly evidenced public picnic provision was verified.",
+    "parking": "No visitor parking provision with adequate current location evidence was verified.",
+    "toilets": "No dependable public or visitor toilet provision was verified."
+  },
+  "exclusions": [
+    "Nearby attractions do not contribute to the settlement score; where useful they remain explicitly labelled related See context.",
+    "Private houses, community-only buildings, accommodation and full-meal venues are not promoted without a relevant public visitor offer.",
+    "Undated heritage records remain intact in the local catalogue but hidden from the dated heat layer until a material date can be supported.",
+    "The failed county-wide Overpass request was not interpreted as evidence that amenities are absent."
+  ],
+  "hes": {
+    "assigned": 0,
+    "visibleDated": 0,
+    "visibleUndated": 0,
+    "missing": 0
+  },
+  "heritageCompleteness": {
+    "statutoryRecords": 0,
+    "nrheRecords": 2,
+    "allVisibleHeritagePinsDated": true,
+    "datesStoredWithoutChangingMapNames": true,
+    "localDatasetFirst": true
+  },
+  "boundaryRule": "The saved project visitor boundary governs settlement scoring. Related attractions may appear in See but are not transferred into town merit.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 22,
+    "rationale": "The complete county category, source, heritage and boundary pass produced a score other than 58."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://visitangus.com/wp-json/wp/v2/search?search=Cauldcots&per_page=40",
+        "checkedAt": "2026-09-01T19:00:00.000Z",
+        "outcome": "no_result",
+        "note": "Current VisitAngus catalogue searched; no exact place-specific result was retained."
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/search/suggest.json?q=Cauldcots&resources%5Btype%5D=product",
+        "checkedAt": "2026-09-01T19:00:00.000Z",
+        "outcome": "no_result",
+        "note": "Current Treasure Trails catalogue searched; no exact place-specific result was retained."
+      },
+      {
+        "url": "https://www.mysteryguides.co.uk/search/suggest.json?q=Cauldcots&resources%5Btype%5D=product",
+        "checkedAt": "2026-09-01T19:00:00.000Z",
+        "outcome": "no_result",
+        "note": "Current Mystery Guides catalogue searched; no exact place-specific result was retained."
+      },
+      {
+        "url": "https://curiousabout.co.uk/sitemap.xml",
+        "checkedAt": "2026-09-01T19:00:00.000Z",
+        "outcome": "no_result",
+        "note": "Current CuriousAbout catalogue searched; no exact place-specific result was retained."
+      },
+      {
+        "url": "https://goquestadventures.com/sitemap.xml",
+        "checkedAt": "2026-09-01T19:00:00.000Z",
+        "outcome": "no_result",
+        "note": "Current GoQuest Adventures catalogue searched; no exact place-specific result was retained."
+      },
+      {
+        "url": "https://www.angus.gov.uk/directories/public_toilets_and_radar_keys/all_public_toilets_listed_by_location",
+        "checkedAt": "2026-09-01T19:00:00.000Z",
+        "outcome": "no_result",
+        "note": "The current council toilet directory was checked; no exact locality result was found."
+      },
+      {
+        "url": "https://www.angus.gov.uk/roads_parking_and_travel/parking/changes_to_parking_and_parking_review",
+        "checkedAt": "2026-09-01T19:00:00.000Z",
+        "outcome": "no_result",
+        "note": "The official council car-park dataset was checked spatially; no in-boundary candidate was found."
+      },
+      {
+        "url": "https://www.nrscotland.gov.uk/media/im2nqu55/censuslocality2022_mhw.zip",
+        "checkedAt": "2026-09-01T19:00:00.000Z",
+        "outcome": "verified",
+        "note": "The strict project boundary was checked; official NRS 2022 locality geometry is used where the settlement has a published locality polygon."
+      }
+    ]
+  },
+  "sourceOutcome": {
+    "visitAngusExactResults": 0,
+    "treasureTrailsExactResults": 0,
+    "mysteryGuidesExactResults": 0,
+    "curiousAboutExactResults": 0,
+    "goQuestExactResults": 0,
+    "councilToiletMention": false,
+    "councilParkingCandidates": 0,
+    "overpassStatus": 200
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "liveBrowserVerifiedAt": "2026-09-01T18:49:49.7236521Z"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "reviewedAt": "2026-09-01T12:00:00.000Z",
+  "place": "Leuchars",
+  "townScore": 64,
+  "mapPublished": true,
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 1
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "reason": "The Rhynd café is assigned to Rhynd, not Leuchars; no dependable current visitor café was verified inside the strict settlement."
+    },
+    "trails": {
+      "audited": true,
+      "published": 1,
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue checked; no live Leuchars product",
+        "CuriousAbout": "No Leuchars route",
+        "MysteryGuides": "No Leuchars route",
+        "GoQuestAdventures": "No Leuchars route",
+        "WalkFife": "Lucy’s Leuchars Walk verified with working route page, GPX/KML, distance, duration and cautions"
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "reason": "Play-space evidence does not establish a public picnic facility."
+    },
+    "parking": {
+      "audited": true,
+      "published": 1
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "reason": "Fife Council current public-toilet directory does not list Leuchars."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "The church visit requires current access confirmation; the walk is explicitly unsuitable for walkers with limited ability."
+    },
+    "transport": {
+      "audited": true,
+      "station": "Approximately 300 spaces, bus interchange, taxi rank and cycle storage verified."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -4
+    }
+  },
+  "exclusions": [
+    "Earlshall Castle is private and outside the strict village visitor boundary.",
+    "Tentsmuir Forest and The Rhynd café are not transferred into Leuchars.",
+    "RAF heritage inside the operational military estate is retained as HES evidence, not presented as public attractions."
+  ],
+  "hes": {
+    "assigned": 24,
+    "visibleDated": 24,
+    "hiddenUndated": 0,
+    "visibleUndated": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only the church, settlement context, Leuchars-starting circular walk and station access contribute to the score.",
+  "scoreReanalysis": {
+    "required": true,
+    "completed": true,
+    "resultScore": 64,
+    "rationale": "The mandatory second pass found a real 8.8 km Leuchars-starting circular route omitted from the first audit. Church, walk and rail access justify 64; absent café, toilets and picnic provision cap the breadth."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.welcometofife.com/location/st-athernase-church",
+        "checkedAt": "2026-09-01",
+        "outcome": "verified",
+        "note": "Official destination page confirms the Romanesque church and 1183–1187 construction."
+      },
+      {
+        "url": "https://www.walkfife.org/maps-routes/lucys-leuchars-walk/",
+        "checkedAt": "2026-09-01",
+        "outcome": "verified",
+        "note": "Working Walk Fife route page confirms start/end, distance, duration, grade and downloads."
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "checkedAt": "2026-09-01",
+        "outcome": "no_result",
+        "note": "Current Fife catalogue checked with no Leuchars product."
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "liveBrowserVerifiedAt": "2026-09-01T08:14:40.8330879+01:00"
+  }
+}

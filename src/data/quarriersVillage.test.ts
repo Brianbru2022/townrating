@@ -1,6 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import { hasHistoricTimelineDate } from '../domain/timeline';
 import { validateFeatures } from '../domain/validation';
+import { topVisitPlaces } from '../domain/visiting';
+import { visitorNeedPlaces } from '../domain/visitorExperience';
+import { publishedPlannerCurationForProject } from './visitorPlannerCuration';
 import { quarriersVillagePackage } from './quarriersVillage';
 
 describe("Quarrier's Village published package", () => {
@@ -10,7 +13,7 @@ describe("Quarrier's Village published package", () => {
     );
     expect(quarriersVillagePackage.project.boundary.properties?.localityCode).toBe('S52000531');
     expect(quarriersVillagePackage.project.region).toBe('Inverclyde');
-    expect(quarriersVillagePackage.features).toHaveLength(53);
+    expect(quarriersVillagePackage.features).toHaveLength(57);
     const listedBuildings = quarriersVillagePackage.features.filter((feature) =>
       feature.tags.includes('hes-listed-building'),
     );
@@ -76,5 +79,60 @@ describe("Quarrier's Village published package", () => {
     expect(
       validateFeatures(quarriersVillagePackage.project, quarriersVillagePackage.features),
     ).not.toContainEqual(expect.objectContaining({ severity: 'error' }));
+  });
+
+  it('has a restrained visitor-guide identity and curated planner places', () => {
+    expect(quarriersVillagePackage.project.touristAppeal).toMatchObject({
+      rating: 0,
+      label: 'Not a tourist town',
+    });
+    expect(quarriersVillagePackage.project.visualIdentity).toMatchObject({
+      theme: 'planned-village',
+      heroImage: '/town-guides/quarriers-village-watercolour-guide.png',
+      primaryColour: '#153A3F',
+    });
+    expect(quarriersVillagePackage.project.townGuide).toMatchObject({
+      headline: 'A quiet model village of sandstone homes, gardens and social history',
+      suggestedTime: 'One to two hours',
+    });
+    expect(
+      quarriersVillagePackage.project.townGuide?.intro.toLocaleLowerCase(),
+    ).not.toMatch(/\b(parking|toilet|toilets)\b/);
+
+    expect(topVisitPlaces(quarriersVillagePackage, 5).map((place) => place.name)).toEqual([
+      'Mount Zion Church',
+      "Quarrier's Village heritage walk",
+      'Homelea and Faith Avenue cottage homes',
+      "Quarriers' War Memorial",
+    ]);
+
+    const curation = publishedPlannerCurationForProject('quarriers-village-scotland');
+    expect(
+      visitorNeedPlaces(quarriersVillagePackage, 'eat', 5, {
+        curatedFeatureIds: curation.eat,
+      }).map((place) => [place.name, place.visitorScore, place.priceBand]),
+    ).toEqual([['Three Sisters Bake', 62, '££']]);
+    expect(
+      visitorNeedPlaces(quarriersVillagePackage, 'trails', 5, {
+        curatedFeatureIds: curation.trails,
+      }).map((place) => [place.name, place.externalUrl]),
+    ).toEqual([
+      [
+        "Quarrier's Village Avenues and Church Treasure Trail",
+        'https://www.treasuretrails.co.uk/products/things-to-do-quarriers-village-glasgow-lanarkshire',
+      ],
+      [
+        "Quarrier's Village heritage walk",
+        'https://main.carers.quarriers.org.uk/latest/resources/',
+      ],
+    ]);
+    expect(
+      visitorNeedPlaces(quarriersVillagePackage, 'parking', 5, {
+        curatedFeatureIds: curation.parking,
+      }).map((place) => place.name),
+    ).toEqual(['Faith Avenue parking']);
+    expect(visitorNeedPlaces(quarriersVillagePackage, 'picnic', 5, {
+      curatedFeatureIds: curation.picnic,
+    })).toEqual([]);
   });
 });

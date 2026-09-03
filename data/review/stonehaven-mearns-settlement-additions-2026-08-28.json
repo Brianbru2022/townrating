@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-28",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers. Attractions never inflate settlement scores.",
+  "namingDecisions": [
+    "Barras resolves to the existing Midtown of Barras project.",
+    "Drumlithir is normalised to the mapped village Drumlithie.",
+    "New Mill is normalised to the mapped Carmont-area hamlet Newmill, not the separate Moray village.",
+    "Glenfarquar Lodge is normalised to Glenfarquhar Lodge; historic sources also show the spelling Glenfarguhar.",
+    "Rickarton is distinct from the existing Union Cottage near Rickarton and from Mains of Rickarton."
+  ],
+  "existingReaudited": [
+    "stonehaven-scotland",
+    "kirktown-of-fetteresso-scotland",
+    "crawton-scotland",
+    "mill-of-uras-scotland",
+    "midtown-of-barras-scotland"
+  ],
+  "additions": [
+    {
+      "requestedName": "Rickarton",
+      "resolvedName": "Rickarton",
+      "projectId": "rickarton-scotland",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "Rickarton is distinct from Union Cottage and Mains of Rickarton. Private houses and nearby Stonehaven attractions do not create a town-scale visit.",
+      "sourceUrl": "https://www.openstreetmap.org/node/12106624175"
+    },
+    {
+      "requestedName": "Cowie",
+      "resolvedName": "Cowie",
+      "projectId": "cowie-stonehaven-scotland",
+      "score": 38,
+      "dogOwnerScore": 37,
+      "publishOnTownMap": false,
+      "rationale": "Cowie remains separately selectable, while Stonehaven promenade, cafés and facilities stay with Stonehaven and are not duplicated.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5500042041"
+    },
+    {
+      "requestedName": "Fiddes",
+      "resolvedName": "Fiddes",
+      "projectId": "fiddes-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "Bridge of Fiddes services and neighbouring Glenbervie or Drumlithie are not transferred into the locality score.",
+      "sourceUrl": "https://www.openstreetmap.org/?mlat=56.91833&mlon=-2.32241#map=16/56.91833/-2.32241"
+    },
+    {
+      "requestedName": "Carmont",
+      "resolvedName": "Carmont",
+      "projectId": "carmont-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "The railway history is retained as context, not treated as an open attraction or complete settlement visit.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5497020481"
+    },
+    {
+      "requestedName": "Tewel",
+      "resolvedName": "Tewel",
+      "projectId": "tewel-scotland",
+      "score": 16,
+      "dogOwnerScore": 14,
+      "publishOnTownMap": false,
+      "rationale": "Nearby estates, paths and Stonehaven services remain outside Tewel’s score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/10172538870"
+    },
+    {
+      "requestedName": "Mergie",
+      "resolvedName": "Mergie",
+      "projectId": "mergie-scotland",
+      "score": 16,
+      "dogOwnerScore": 14,
+      "publishOnTownMap": false,
+      "rationale": "The catalogue records the place without borrowing attractions from Stonehaven or the wider Mearns.",
+      "sourceUrl": "https://www.openstreetmap.org/node/10161999311"
+    },
+    {
+      "requestedName": "Tannachie",
+      "resolvedName": "Tannachie",
+      "projectId": "tannachie-scotland",
+      "score": 16,
+      "dogOwnerScore": 14,
+      "publishOnTownMap": false,
+      "rationale": "Historic-map interest alone does not make the settlement a tourist destination.",
+      "sourceUrl": "https://www.openstreetmap.org/node/10161999299"
+    },
+    {
+      "requestedName": "New Mill",
+      "resolvedName": "Newmill",
+      "projectId": "newmill-carmont-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "Normalised to the mapped Newmill at Carmont. The former station and signal-box story is context rather than an independently visitable attraction.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5497020475"
+    },
+    {
+      "requestedName": "Mains of Dellavaird",
+      "resolvedName": "Mains of Dellavaird",
+      "projectId": "mains-of-dellavaird-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "Glenbervie House, Auchenblae and Drumlithie remain separate places and do not inflate this score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/10161999270"
+    },
+    {
+      "requestedName": "Glenbervie",
+      "resolvedName": "Glenbervie",
+      "projectId": "glenbervie-scotland",
+      "score": 47,
+      "dogOwnerScore": 46,
+      "publishOnTownMap": false,
+      "rationale": "Glenbervie’s own historic fabric earns recognition, while private estate buildings and Drumlithie services are not counted as a complete visitor offer.",
+      "sourceUrl": "https://www.openstreetmap.org/node/1463055040"
+    },
+    {
+      "requestedName": "Drumlithir",
+      "resolvedName": "Drumlithie",
+      "projectId": "drumlithie-scotland",
+      "score": 56,
+      "dogOwnerScore": 55,
+      "publishOnTownMap": false,
+      "rationale": "Normalised from Drumlithir to Drumlithie. The preliminary gate keeps it off the town map until a full audit verifies visitor attractions, trails, café-led food and practical facilities.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4770205813"
+    },
+    {
+      "requestedName": "Glenfarquar Lodge",
+      "resolvedName": "Glenfarquhar Lodge",
+      "projectId": "glenfarquhar-lodge-scotland",
+      "score": 14,
+      "dogOwnerScore": 12,
+      "publishOnTownMap": false,
+      "rationale": "The 1898–99 shooting lodge is retained in the selector for geographic completeness, but private architectural interest does not create a town rating.",
+      "sourceUrl": "https://www.openstreetmap.org/?mlat=56.91667&mlon=-2.45#map=16/56.91667/-2.45"
+    }
+  ]
+}

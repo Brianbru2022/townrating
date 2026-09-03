@@ -1,0 +1,97 @@
+{
+  "reviewedAt": "2026-08-29T23:15:00Z",
+  "townScore": 78,
+  "dogOwnerScore": 76,
+  "settlementMerit": {
+    "result": "retain_on_town_map",
+    "rationale": "Forfar independently clears 60 through the Meffan, loch, town trails, historic fabric and visitor services; nearby rural attractions contribute no score."
+  },
+  "categoryCounts": {
+    "see": 6,
+    "eat": 9,
+    "trails": 9,
+    "picnic": 2,
+    "parking": 8,
+    "toilets": 4
+  },
+  "localOsmCandidateAudit": {
+    "foodCandidates": 26,
+    "parkingGeometries": 55,
+    "toiletGeometries": 2,
+    "picnicAndSeatingCandidates": 25,
+    "publicationRule": "Public visitor facilities and cafe-led places scoring 60+ only; private shop, staff, residential, lay-by and duplicate parking geometries excluded."
+  },
+  "parkingAudit": {
+    "councilCarParksPublished": 7,
+    "countryParkCarParksPublished": 1,
+    "exactCoordinates": 8,
+    "approximateCoordinates": 0,
+    "currentPolicy": "Council off-street parking is free; short stay maximum 4 hours and long stay maximum 72 hours.",
+    "capacityDiscrepancies": [
+      "East Greens: live council map 219 bays; directory table 210.",
+      "Myre: live council map 187 bays; directory table 210."
+    ]
+  },
+  "heritageDateAudit": {
+    "localSources": [
+      "HES Listed Buildings",
+      "HES Scheduled Monuments",
+      "HES Canmore/NRHE points"
+    ],
+    "imported": 374,
+    "visiblePins": 121,
+    "dated": 121,
+    "undated": [],
+    "hiddenRetained": 253,
+    "dateRule": "Construction or material-period dates only; never designation, entry or database-update dates."
+  },
+  "trailProviderSearches": [
+    {
+      "provider": "TreasureTrails.co.uk",
+      "result": "Exact Forfar – Peel Memorial & Park Spy Mission verified: 2.4 miles, 2+ hours, accessible, dog friendly, £10.99, Myre Road start; product and landing-page links returned HTTP 200."
+    },
+    {
+      "provider": "Curious About",
+      "result": "No exact Forfar product found; none published."
+    },
+    {
+      "provider": "Mystery Guides",
+      "result": "No exact Forfar product found; none published."
+    },
+    {
+      "provider": "Go Quest Adventures",
+      "result": "No exact Forfar product found; none published."
+    },
+    {
+      "provider": "Visit Angus",
+      "result": "Forfar Heritage Trail, Forfar Murals Trail, Round Forfar Loch, A Walk up Balmashanner and four exact Forfar-start cycling routes verified with working visitor links."
+    }
+  ],
+  "boundaryExclusions": [
+    "Murton Farm and Nature Reserve",
+    "Newton Farm",
+    "Restenneth Priory",
+    "The Mill on Dundee Road",
+    "Forfar Golf Range",
+    "Foster’s Farm Shop & Cafe",
+    "Bakery 79 and other out-of-town or edge-of-bypass food candidates"
+  ],
+  "foodCandidateExclusions": [
+    "Generic chain cafes below the 60-point publication threshold",
+    "Restaurants and takeaway-only businesses outside the cafe, coffee, cake and light-lunch brief",
+    "The Wee Bake Shop pending improvement after its October 2025 food-hygiene result"
+  ],
+  "art": {
+    "sourceInspiration": "User-supplied Little Causeway fountain street photograph",
+    "generatedFile": "/town-guides/forfar-little-causeway-fountain-watercolour-guide-v1.png",
+    "mode": "Built-in image generation"
+  },
+  "verification": {
+    "trailLinksChecked": "2026-08-29",
+    "trailLinksHttp200": "9/9",
+    "treasureTrailHttpStatus": 200,
+    "parkingCoordinateBasis": "Angus Council live car parks map plus OSM polygon for the separate Country Park car park",
+    "toiletCoordinateBasis": "Angus Council individual toilet pages",
+    "visibleHeritageDated": "121/121"
+  }
+}

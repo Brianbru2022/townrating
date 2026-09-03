@@ -1,0 +1,109 @@
+{
+  "reviewedAt": "2026-09-02T18:00:00.000Z",
+  "projectId": "wester-newburn-scotland",
+  "place": "Wester Newburn",
+  "townScore": 14,
+  "mapPublished": false,
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0
+    },
+    "eat": {
+      "audited": true,
+      "published": 0
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue checked; no live place-specific product.",
+        "CuriousAbout": "Provider catalogue checked; no place-specific route.",
+        "MysteryGuides": "Provider catalogue checked; no place-specific route.",
+        "GoQuestAdventures": "Provider catalogue checked; no place-specific route.",
+        "officialRoutes": "No conventional place-specific visitor route was found."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0
+    },
+    "parking": {
+      "audited": true,
+      "published": 0
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessibility is described only where current route, venue or council evidence supports it; no blanket accessible claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Current public-transport information was checked; transport access does not add destination points by itself."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -2
+    }
+  },
+  "exclusions": [
+    "Newburn Old Parish Church and Drumeldrie services are outside Wester Newburn and do not support this score."
+  ],
+  "hes": {
+    "assigned": 0,
+    "visibleDated": 0,
+    "hiddenUndated": 0,
+    "visibleUndated": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places physically inside Wester Newburn's strict study area, or an explicitly related cross-boundary route that genuinely serves it, are published.",
+  "scoreRationale": "Wester Newburn resolves to a farm locality rather than a visitor village. No public attraction, café, trailhead, picnic site, visitor car park or public toilet was found inside its strict boundary.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 14,
+    "rationale": "Score was independently reconciled after all categories, named-provider checks and boundary exclusions; no final score remains at the provisional exact-58 trigger."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://mapcarta.com/W516494991",
+        "outcome": "verified",
+        "note": "Current OSM-linked record resolves Wester Newburn as the farm locality.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://fife-placenames.glasgow.ac.uk/placename/?id=1585",
+        "outcome": "verified",
+        "note": "Academic record supplies wider Newburn name context only.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No Wester Newburn product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "liveBrowserVerifiedAt": "2026-09-02T18:45:00.000Z"
+  },
+  "liveVerification": {
+    "url": "http://127.0.0.1:5173/",
+    "verifiedAt": "2026-09-02T18:45:00.000Z",
+    "checks": [
+      "Fife selector entry and audited score rendered",
+      "See, Eat, Trails, Picnic, Parking and Toilets counts matched the saved audit",
+      "60-point publication threshold matched the selector rating and home-map data test",
+      "heritage heat layer rendered without dates appended to map labels",
+      "clean restarted browser session reported no console warnings or errors"
+    ]
+  }
+}

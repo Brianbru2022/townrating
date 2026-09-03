@@ -1,0 +1,331 @@
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { dirname, resolve } from 'node:path';
+import type { HeritageFeature, ProjectPackage, Reliability, SourceRecord } from '../src/domain/models';
+import { validateFeatures } from '../src/domain/validation';
+
+const projectPath = resolve(process.argv[2] ?? 'data/projects/south-queensferry.json');
+const reviewPath = resolve(process.argv[3] ?? 'data/review/south-queensferry-visitor-context-review.json');
+const curationPath = resolve('data/curation/south-queensferry-visitor-context-curation.json');
+const pkg = JSON.parse(await readFile(projectPath, 'utf8')) as ProjectPackage;
+const reviewedAt = new Date().toISOString();
+const reviewedDate = reviewedAt.slice(0, 10);
+
+interface VisitorCurationEntry {
+  featureId: string;
+  summary: string;
+  group: 'food' | 'toilets' | 'viewpoint' | 'parking' | 'bridge-ferry' | 'museum' | 'park';
+  sourceName: string;
+  sourceOrganisation: string;
+  sourceUrl: string;
+  reliability: Reliability;
+  openingHours?: string;
+  notes?: string;
+}
+
+const entries: VisitorCurationEntry[] = [
+  {
+    featureId: 'osm-community:node-2661485251',
+    group: 'museum',
+    summary: 'Queensferry Museum covers historic Queensferry, Dalmeny, the Forth bridges and local traditions from a High Street visitor stop.',
+    sourceName: 'Queensferry Museum listing',
+    sourceOrganisation: 'City of Edinburgh Council',
+    sourceUrl: 'https://www.edinburgh.gov.uk/directory-record/1086070/queensferry-museum',
+    reliability: 'local_authority',
+    openingHours: 'Council listing checked; verify current venue notices before visiting.',
+  },
+  {
+    featureId: 'osm-community:node-3791535268',
+    group: 'bridge-ferry',
+    summary: 'Maid of the Forth is the Hawes Pier boat-trip operator for sightseeing cruises under the bridges and towards Inchcolm.',
+    sourceName: 'Maid of the Forth homepage',
+    sourceOrganisation: 'Maid of the Forth',
+    sourceUrl: 'https://www.maidoftheforth.co.uk/',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:node-3356785113',
+    group: 'viewpoint',
+    summary: 'Forth Bridges Viewpoint is a signed trail stop for broad views of the three Forth crossings and the Firth of Forth.',
+    sourceName: 'Forth Bridges Trail visitor guide',
+    sourceOrganisation: 'Forth Bridges Forum',
+    sourceUrl: 'https://www.theforthbridges.org/visit-the-forth-bridges/forth-bridges-trail/',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:node-5393391364',
+    group: 'viewpoint',
+    summary: 'Forth Railway Bridge Viewpoint is a waterfront stop for close views of the World Heritage rail bridge.',
+    sourceName: 'Forth Bridge World Heritage Site trip-planning guide',
+    sourceOrganisation: 'VisitScotland',
+    sourceUrl: 'https://www.visitscotland.com/things-to-do/unesco-trail/forth-bridge',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:node-10300135753',
+    group: 'viewpoint',
+    summary: 'Forth Bridges is a current viewpoint marker for seeing the three crossings together from South Queensferry.',
+    sourceName: 'Forth Bridges Trail visitor guide',
+    sourceOrganisation: 'Forth Bridges Forum',
+    sourceUrl: 'https://www.theforthbridges.org/visit-the-forth-bridges/forth-bridges-trail/',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:node-10557250199',
+    group: 'bridge-ferry',
+    summary: 'Port Edgar is the marina stop west of the historic core, with bridge views, boat activity, food and marina visitor services.',
+    sourceName: 'Port Edgar Marina visitor information',
+    sourceOrganisation: 'Port Edgar Marina',
+    sourceUrl: 'https://www.portedgar.co.uk/visit',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:node-10557250207',
+    group: 'bridge-ferry',
+    summary: 'Hawes is a Forth Bridges Trail stop by Hawes Pier, useful for cruises, bridge views and boat-trip boarding.',
+    sourceName: 'Forth Bridges cruise visitor guide',
+    sourceOrganisation: 'Forth Bridges Forum',
+    sourceUrl: 'https://www.theforthbridges.org/visit-the-forth-bridges/cruise-visitors/',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:node-10557250204',
+    group: 'bridge-ferry',
+    summary: 'The Harbour is a signed trail stop linking the historic High Street, waterfront and bridge-view route.',
+    sourceName: 'Forth Bridges Trail visitor guide',
+    sourceOrganisation: 'Forth Bridges Forum',
+    sourceUrl: 'https://www.theforthbridges.org/visit-the-forth-bridges/forth-bridges-trail/',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:node-10557250205',
+    group: 'bridge-ferry',
+    summary: 'High Street is the main historic visitor spine, with museum, independent shops, food stops and bridge-trail signs.',
+    sourceName: 'Forth Bridges cruise visitor guide',
+    sourceOrganisation: 'Forth Bridges Forum',
+    sourceUrl: 'https://www.theforthbridges.org/visit-the-forth-bridges/cruise-visitors/',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:node-10557250203',
+    group: 'bridge-ferry',
+    summary: 'The Binks is a signed Forth Bridges Trail stop on the South Queensferry waterfront route.',
+    sourceName: 'Forth Bridges Trail visitor guide',
+    sourceOrganisation: 'Forth Bridges Forum',
+    sourceUrl: 'https://www.theforthbridges.org/visit-the-forth-bridges/forth-bridges-trail/',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:node-10300195913',
+    group: 'toilets',
+    summary: 'Public toilets near Queensferry High Street, useful for the historic core, museum and waterfront walk.',
+    sourceName: 'Forth Bridges cruise visitor guide',
+    sourceOrganisation: 'Forth Bridges Forum',
+    sourceUrl: 'https://www.theforthbridges.org/visit-the-forth-bridges/cruise-visitors/',
+    reliability: 'secondary',
+    notes: 'Forth Bridges guide lists Queensferry High Street public toilets.',
+  },
+  {
+    featureId: 'osm-community:node-13088892512',
+    group: 'toilets',
+    summary: 'Accessible public toilets at the Hawes Pier and bridge-view end of the waterfront.',
+    sourceName: 'Forth Bridges cruise visitor guide',
+    sourceOrganisation: 'Forth Bridges Forum',
+    sourceUrl: 'https://www.theforthbridges.org/visit-the-forth-bridges/cruise-visitors/',
+    reliability: 'secondary',
+    notes: 'Forth Bridges guide lists Hawes Pier car park public toilets; OSM records wheelchair=yes.',
+  },
+  {
+    featureId: 'osm-community:node-14003506933',
+    group: 'toilets',
+    summary: 'Public toilets by the Forth Bridges Viewpoint and south-tower trail area, mapped with wheelchair access and daytime hours.',
+    sourceName: 'OpenStreetMap current-place curation review',
+    sourceOrganisation: 'OpenStreetMap contributors',
+    sourceUrl: 'https://www.openstreetmap.org/node/14003506933',
+    reliability: 'discovery_only',
+    openingHours: 'OSM: 07:00-18:00',
+  },
+  {
+    featureId: 'osm-community:node-2661485248',
+    group: 'food',
+    summary: 'The Little Bakery is a High Street bakery/cafe stop for breakfast, brunch, cakes, coffee and afternoon tea.',
+    sourceName: 'The Little Bakery homepage',
+    sourceOrganisation: 'The Little Bakery',
+    sourceUrl: 'https://littlebakery.co.uk/',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:node-2661485246',
+    group: 'food',
+    summary: 'Manna House Bakery is a High Street bakery and cafe known for in-house baking and views towards the Three Bridges.',
+    sourceName: 'Manna House Bakery homepage',
+    sourceOrganisation: 'Manna House Bakery',
+    sourceUrl: 'https://themannahousebakery.com/',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:node-6017919651',
+    group: 'food',
+    summary: 'Scotts of Port Edgar is a marina restaurant with bridge views and visitor-friendly food service.',
+    sourceName: 'Scotts South Queensferry homepage',
+    sourceOrganisation: 'Buzzworks Holdings',
+    sourceUrl: 'https://www.scotts-southqueensferry.co.uk/',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:way-1083846163',
+    group: 'food',
+    summary: 'Outboard by Scotts is a Port Edgar cafe beside the marina, useful for casual food during a bridge or harbour visit.',
+    sourceName: 'Outboard by Scotts homepage',
+    sourceOrganisation: 'Buzzworks Holdings',
+    sourceUrl: 'https://www.outboardbyscotts.co.uk/',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:node-1529914813',
+    group: 'food',
+    summary: 'The Railbridge Bistro is a bridge-view waterfront restaurant near Hawes Pier.',
+    sourceName: 'Railbridge Bistro homepage',
+    sourceOrganisation: 'The Railbridge Bistro',
+    sourceUrl: 'https://www.railbridge.co.uk/',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:way-304559325',
+    group: 'food',
+    summary: 'The Crab and Lobster Fish Shack is a casual fish-and-chip and seafood stop near the A90/Ferrymuir visitor approach.',
+    sourceName: 'The Crab and Lobster Fish Shack homepage',
+    sourceOrganisation: 'The Crab and Lobster Fish Shack',
+    sourceUrl: 'https://www.thecrabandlobsterfishshack.com/',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:node-4006159812',
+    group: 'food',
+    summary: 'Down the Hatch is a North American-style food stop on Port Edgar Road, better paired with marina or bridge visits than the historic core.',
+    sourceName: 'Down the Hatch South Queensferry page',
+    sourceOrganisation: 'Down the Hatch',
+    sourceUrl: 'https://www.downthehatchcafe.co.uk/south-queensferry/',
+    reliability: 'secondary',
+  },
+  {
+    featureId: 'osm-community:way-102686798',
+    group: 'parking',
+    summary: 'Hawes Pier parking is the most useful mapped parking cluster for bridge views, cruises and the east waterfront.',
+    sourceName: 'OpenStreetMap current-place curation review',
+    sourceOrganisation: 'OpenStreetMap contributors',
+    sourceUrl: 'https://www.openstreetmap.org/way/102686798',
+    reliability: 'discovery_only',
+  },
+  {
+    featureId: 'osm-community:way-260629261',
+    group: 'parking',
+    summary: 'High Street surface parking supports short visits to Queensferry Museum, cafes and the historic waterfront core.',
+    sourceName: 'OpenStreetMap current-place curation review',
+    sourceOrganisation: 'OpenStreetMap contributors',
+    sourceUrl: 'https://www.openstreetmap.org/way/260629261',
+    reliability: 'discovery_only',
+  },
+  {
+    featureId: 'osm-community:way-52709832',
+    group: 'parking',
+    summary: 'Forth Bridges Viewpoint parking supports the south-tower viewpoint, bridge-trail signs and public toilets.',
+    sourceName: 'OpenStreetMap current-place curation review',
+    sourceOrganisation: 'OpenStreetMap contributors',
+    sourceUrl: 'https://www.openstreetmap.org/way/52709832',
+    reliability: 'discovery_only',
+  },
+  {
+    featureId: 'osm-community:way-435121560',
+    group: 'parking',
+    summary: 'Port Edgar parking supports marina visits, boat activity, food stops and bridge views west of the historic core.',
+    sourceName: 'OpenStreetMap current-place curation review',
+    sourceOrganisation: 'OpenStreetMap contributors',
+    sourceUrl: 'https://www.openstreetmap.org/way/435121560',
+    reliability: 'discovery_only',
+  },
+  {
+    featureId: 'osm-park:way-671840110',
+    group: 'park',
+    summary: 'Ferry Glen and Back Braes is the key green walking context behind the waterfront, linking village routes with bridge-view approaches.',
+    sourceName: 'OpenStreetMap current-park curation review',
+    sourceOrganisation: 'OpenStreetMap contributors',
+    sourceUrl: 'https://www.openstreetmap.org/way/671840110',
+    reliability: 'discovery_only',
+  },
+  {
+    featureId: 'osm-park:way-122012283',
+    group: 'park',
+    summary: 'King George V Park is the main current recreation ground context for South Queensferry.',
+    sourceName: 'OpenStreetMap current-park curation review',
+    sourceOrganisation: 'OpenStreetMap contributors',
+    sourceUrl: 'https://www.openstreetmap.org/way/122012283',
+    reliability: 'discovery_only',
+  },
+];
+
+function addTags(feature: HeritageFeature, ...tags: string[]): void {
+  feature.tags = [...new Set([...feature.tags, ...tags])];
+}
+
+for (const entry of entries) {
+  const feature = pkg.features.find((candidate) => candidate.id === entry.featureId);
+  if (!feature) throw new Error(`Missing visitor-context target ${entry.featureId}.`);
+  const notes = [
+    `description=${entry.summary}`,
+    entry.openingHours ? `opening_hours=${entry.openingHours}` : undefined,
+    entry.notes,
+  ]
+    .filter(Boolean)
+    .join('; ');
+  const source: SourceRecord = {
+    sourceName: entry.sourceName,
+    sourceOrganisation: entry.sourceOrganisation,
+    sourceRecordId: `visitor-context-curation:${entry.featureId}`,
+    sourceUrl: entry.sourceUrl,
+    accessedAt: reviewedAt,
+    reliability: entry.reliability,
+    notes: `South Queensferry visitor-context curation: ${notes}.`,
+  };
+  feature.shortDescription = entry.summary;
+  feature.sourceRecords = [
+    ...feature.sourceRecords.filter((record) => record.sourceRecordId !== source.sourceRecordId),
+    source,
+  ];
+  feature.updatedAt = reviewedAt;
+  feature.reviewed = true;
+  addTags(feature, 'south-queensferry-visitor-context-curated', `visitor-context-${entry.group}`);
+  feature.reviewNotes =
+    `${feature.reviewNotes ?? ''} South Queensferry visitor-context curation reviewed against ${entry.sourceOrganisation} on ${reviewedDate}.`.trim();
+}
+
+pkg.validation = validateFeatures(pkg.project, pkg.features);
+const errors = pkg.validation.filter((item) => item.severity === 'error');
+if (errors.length) throw new Error(`Refusing to write ${errors.length} validation error(s).`);
+
+await mkdir(dirname(reviewPath), { recursive: true });
+await mkdir(dirname(curationPath), { recursive: true });
+await writeFile(
+  reviewPath,
+  `${JSON.stringify(
+    {
+      projectId: pkg.project.id,
+      reviewedAt,
+      policy:
+        'Curated a practical visitor-context subset for food, toilets, viewpoints, parking and ferry/bridge orientation. Records remain current context, not historic date evidence.',
+      curated: entries.map(({ featureId, group, summary, sourceOrganisation, sourceUrl }) => ({
+        featureId,
+        group,
+        summary,
+        sourceOrganisation,
+        sourceUrl,
+      })),
+    },
+    null,
+    2,
+  )}\n`,
+  'utf8',
+);
+await writeFile(curationPath, `${JSON.stringify(entries, null, 2)}\n`, 'utf8');
+await writeFile(projectPath, `${JSON.stringify(pkg, null, 2)}\n`, 'utf8');
+
+console.log(`Curated ${entries.length} South Queensferry visitor-context record(s).`);

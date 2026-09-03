@@ -1,0 +1,128 @@
+{
+  "reviewedAt": "2026-09-02T23:50:00.000Z",
+  "sequence": 4,
+  "sequenceTotal": 6,
+  "projectId": "carrick-leuchars-scotland",
+  "place": "Carrick",
+  "townScore": 22,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "Carrick remains a useful mapped locality but has no independently visitable attraction, café-led stop, named public trail or visitor facilities inside its strict boundary. Statutory and NRHE records remain available on the historic layer and do not inflate the settlement score."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0,
+      "reason": "No publicly visitable attraction was verified."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "reason": "No qualifying café was verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "providerChecks": {
+        "TreasureTrails": "No live exact place-specific product in the current Fife catalogue.",
+        "CuriousAbout": "Current catalogue searched; no exact place-specific route.",
+        "MysteryGuides": "Current catalogue searched; no exact place-specific route.",
+        "GoQuestAdventures": "Current catalogue searched; no exact place-specific route.",
+        "officialRoutes": "No maintained place-specific visitor route was verified."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "reason": "No dedicated public picnic facility was verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "reason": "No general public visitor car park was verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "reason": "No public toilet was verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessibility is stated only where a current source supports it; no blanket accessible claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road, bus and rail context was checked; transport does not add destination points by itself."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -2
+    }
+  },
+  "exclusions": [
+    "Leuchars, Guardbridge, Tentsmuir and wider estate attractions are outside the strict locality.",
+    "Private historic buildings and archaeological designations are not assumed to have public access."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets",
+    "assigned": 11,
+    "local": 7,
+    "visibleDated": 6,
+    "hiddenUndatedOrNonlocal": 5,
+    "visibleUndated": 0,
+    "visibleLabelsContainingDates": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Carrick's strict study area count toward the settlement score. Related attractions and cross-boundary routes may appear only when explicitly marked related_context and do not inflate the town.",
+  "scoreRationale": "Carrick remains a useful mapped locality but has no independently visitable attraction, café-led stop, named public trail or visitor facilities inside its strict boundary. Statutory and NRHE records remain available on the historic layer and do not inflate the settlement score.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 22,
+    "rationale": "Score independently reconciled after every category, named-provider search, boundary exclusion and practical check; no provisional exact-58 town score remains."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://fife-placenames.glasgow.ac.uk/parish/?id=53",
+        "outcome": "verified",
+        "note": "Academic place-name data identifies Carrick as a rural place in Leuchars parish.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Carrick product.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://curiousabout.co.uk/",
+        "outcome": "no_result",
+        "note": "No exact Carrick route.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.mysteryguides.co.uk/",
+        "outcome": "no_result",
+        "note": "No exact Carrick route.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://goquestadventures.com/",
+        "outcome": "no_result",
+        "note": "No exact Carrick route.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "liveBrowserVerifiedAt": "2026-09-02T20:44:00.000Z"
+  }
+}

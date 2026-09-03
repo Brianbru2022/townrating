@@ -1,0 +1,134 @@
+{
+  "reviewedAt": "2026-09-02T22:00:00.000Z",
+  "sequence": 2,
+  "sequenceTotal": 15,
+  "projectId": "balmalcolm-scotland",
+  "place": "Balmalcolm",
+  "townScore": 66,
+  "mapPublished": true,
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 1
+    },
+    "eat": {
+      "audited": true,
+      "published": 1,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded."
+    },
+    "trails": {
+      "audited": true,
+      "published": 1,
+      "providerChecks": {
+        "TreasureTrails": "No live place-specific product in the current Fife collection.",
+        "CuriousAbout": "Current provider catalogue checked; no exact place-specific route.",
+        "MysteryGuides": "Current provider catalogue checked; no exact place-specific route.",
+        "GoQuestAdventures": "Current provider catalogue checked; no exact place-specific route.",
+        "officialRoutes": "The operator publishes a usable 1.9-mile Ladybank-station approach walk."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "reason": "No dedicated public picnic facility was verified."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "reason": "No independent public toilet was verified; customer toilets are venue facilities."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessibility is stated only where a current source supports it; no blanket accessible claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road, bus and rail context was checked; transport does not add destination points by itself."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": 0
+    }
+  },
+  "exclusions": [
+    "The closed Muddy Boots offer is not retained as current.",
+    "Customer parking is not misrepresented as a general public car park.",
+    "Full-meal value is not used to pad the Eat category."
+  ],
+  "hes": {
+    "assigned": 20,
+    "visibleDated": 3,
+    "visibleUndated": 0,
+    "missing": 0
+  },
+  "heritage": {
+    "source": "Downloaded local HES listed-building, scheduled-monument and NRHE datasets",
+    "assigned": 25,
+    "local": 10,
+    "visibleDated": 8,
+    "hiddenUndatedOrNonlocal": 17,
+    "visibleUndated": 0,
+    "visibleLabelsContainingDates": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Balmalcolm's strict study area count toward the settlement score. Related attractions and cross-boundary routes may appear in See or Trails only when explicitly marked related_context and do not inflate the town.",
+  "scoreRationale": "Balmalcolm earns a modest map place through a current speciality café, a distinctive community brewery taproom, a signed public-transport connection and a published 1.9-mile approach walk. Its customer parking is clearly labelled and no neighbouring attraction is borrowed.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 66,
+    "rationale": "Score independently reconciled after all categories, named-provider searches, boundary exclusions and practical checks; no provisional exact-58 town score remains."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://ratings.food.gov.uk/business/1823922",
+        "outcome": "verified",
+        "note": "Official record confirms Eden Café at Unit 1 and a 14 May 2025 inspection.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.findglocal.com/GB/Cupar/614035968452929/Eden-Balmalcolm-Den",
+        "outcome": "verified",
+        "note": "Current 2026 operator reposts confirm coffee, cakes, light lunches and hours.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.howebeerproject.co.uk/",
+        "outcome": "verified",
+        "note": "Operator confirms taproom hours, parking, bus stop and 1.9-mile station walk.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No Balmalcolm product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "liveBrowserVerifiedAt": "2026-09-02T18:54:48.715Z"
+  },
+  "liveVerification": {
+    "url": "http://127.0.0.1:5173/",
+    "verifiedAt": "2026-09-02T18:54:48.715Z",
+    "checks": [
+      "The Fife region selector rendered the settlement name and completed score.",
+      "See, Eat, Trails, Picnic, Parking and Toilets counts matched the saved audit report.",
+      "Every one of the 17 requested entries was selected and checked in sequence.",
+      "Only settlements scoring 60 or more are included in the Home town-map dataset.",
+      "The historic heat layer rendered the dated local HES/NRHE records as dots without date text appended to map labels.",
+      "No browser console warning or error was reported in the clean verification tab."
+    ]
+  }
+}

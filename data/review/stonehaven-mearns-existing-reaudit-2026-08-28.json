@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-28",
+  "threshold": 60,
+  "rule": "A settlement is scored only for its own coherent visitor experience. Nearby attractions remain standalone See entries and do not support the town score.",
+  "results": [
+    {
+      "projectId": "stonehaven-scotland",
+      "name": "Stonehaven",
+      "score": 88,
+      "mapPublished": true,
+      "decision": "Retain",
+      "auditCoverage": { "see": 8, "eat": 11, "trails": 5, "picnic": 2, "parking": 4, "toilets": 3 },
+      "heritage": { "records": 182, "dated": 182, "visibleUndated": 0 },
+      "notes": "Full visitor, café-led Eat, verified-trail, practical-facility and heritage-date audit remains complete. Dunnottar Castle is a standalone See attraction and is not counted in the town score."
+    },
+    {
+      "projectId": "kirktown-of-fetteresso-scotland",
+      "name": "Kirktown of Fetteresso",
+      "score": 32,
+      "mapPublished": false,
+      "decision": "Retain in selector only",
+      "heritage": { "visibleRecords": 5, "visibleUndated": 0 },
+      "notes": "The settlement has no town-scale visitor offer. St Ciaran's Old Church and Churchyard remains a standalone See attraction."
+    },
+    {
+      "projectId": "crawton-scotland",
+      "name": "Crawton",
+      "score": 24,
+      "mapPublished": false,
+      "decision": "Retain in selector only",
+      "heritage": { "visibleRecords": 0, "visibleUndated": 0 },
+      "notes": "The hamlet is not independently worth a town marker. RSPB Fowlsheugh remains a standalone See attraction."
+    },
+    {
+      "projectId": "mill-of-uras-scotland",
+      "name": "Mill of Uras",
+      "score": 18,
+      "mapPublished": false,
+      "decision": "Retain in selector only",
+      "heritage": { "visibleRecords": 0, "visibleUndated": 0 },
+      "notes": "No coherent public visitor offer was found within the settlement."
+    },
+    {
+      "projectId": "midtown-of-barras-scotland",
+      "requestedAlias": "Barras",
+      "name": "Midtown of Barras",
+      "score": 16,
+      "mapPublished": false,
+      "decision": "Retain in selector only",
+      "heritage": { "visibleRecords": 0, "visibleUndated": 0 },
+      "notes": "Barras resolves to this existing locality. It remains a scattered agricultural place without a coherent public visitor offer."
+    }
+  ]
+}

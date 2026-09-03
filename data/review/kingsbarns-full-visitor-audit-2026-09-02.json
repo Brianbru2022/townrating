@@ -1,0 +1,147 @@
+{
+  "reviewedAt": "2026-09-02T19:15:00.000Z",
+  "sequence": 10,
+  "sequenceTotal": 13,
+  "projectId": "kingsbarns-scotland",
+  "place": "Kingsbarns",
+  "townScore": 72,
+  "mapPublished": true,
+  "settlementMerit": {
+    "result": "retain_on_town_map",
+    "rationale": "Kingsbarns remains a genuine 72-point visit: the historic village has a qualifying daytime inn and five usable route downloads, while the named walkable beach cluster adds a strong shore, seasonal food, picnic space, public parking and toilets. Cambo, the distillery and golf remain separate."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 1,
+      "note": "The named, walkable Kingsbarns beach is retained as related destination context."
+    },
+    "eat": {
+      "audited": true,
+      "published": 2,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "note": "The Inn and current beach food stop retained."
+    },
+    "trails": {
+      "audited": true,
+      "published": 5,
+      "note": "Five current village route downloads retained.",
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue searched for the exact locality.",
+        "CuriousAbout": "Current catalogue searched for the exact locality.",
+        "MysteryGuides": "Current catalogue searched for the exact locality.",
+        "GoQuestAdventures": "Current catalogue searched for the exact locality.",
+        "localProvider": "Five direct Inn at Kingsbarns walking downloads verified."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 1,
+      "note": "The beach picnic facility retained."
+    },
+    "parking": {
+      "audited": true,
+      "published": 1,
+      "note": "The managed beach car park retained with its own restrictions."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 1,
+      "note": "The public beach toilet retained."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Venue and route access is stated only when a current source supports it; no blanket claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road and available public-transport context checked; volatile timetables are not copied."
+    },
+    "dogs": {
+      "audited": true,
+      "note": "Town adjustment and venue-specific evidence retained; no unsupported dog-friendly claim added."
+    }
+  },
+  "exclusions": [
+    "Kingsbarns Distillery, Cambo Gardens and Kingsbarns Golf Links remain separate attractions.",
+    "Their customer facilities do not inflate the village score."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets with locally cached official descriptions",
+    "projectId": "kingsbarns-scotland",
+    "totalHesAndNrheRetained": 156,
+    "localRecords": 151,
+    "listedBuildings": 61,
+    "scheduledMonuments": 1,
+    "nrhe": 92,
+    "relatedBufferRecords": 5,
+    "removedOutOfScope": 0,
+    "enriched": 83,
+    "datedLocalRecords": 134,
+    "undatedLocalRecordsRetainedHidden": 17,
+    "visibleHeritagePins": 134,
+    "visiblePinsWithoutDates": 0,
+    "visiblePinNamesContainingDate": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Kingsbarns's strict study area count toward the settlement score. Explicit related context may be shown but cannot inflate the town.",
+  "scoreRationale": "Kingsbarns remains a genuine 72-point visit: the historic village has a qualifying daytime inn and five usable route downloads, while the named walkable beach cluster adds a strong shore, seasonal food, picnic space, public parking and toilets. Cambo, the distillery and golf remain separate.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 72,
+    "rationale": "Score reconciled after all categories, boundary exclusions and source checks."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.theinnatkingsbarns.co.uk/dining",
+        "outcome": "verified",
+        "note": "The operator currently publishes breakfast, light bites and daytime service, so the Inn qualifies under the café/light-lunch brief.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.theinnatkingsbarns.co.uk/activities",
+        "outcome": "verified",
+        "note": "Five village-starting walking downloads remain available.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://fifecoastandcountrysidetrust.co.uk/walks/fife-beaches/kingsbarns-cambo-sands/",
+        "outcome": "verified",
+        "note": "The official beach page confirms the named Kingsbarns visitor cluster.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.fife.gov.uk/facilities/beaches-and-harbours/kingsbarns-beach",
+        "outcome": "verified",
+        "note": "Council beach and facility information checked.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Kingsbarns Treasure Trail product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "visibleHeritageLabelsClean": true,
+    "liveBrowserVerifiedAt": "2026-09-02T21:07:29.331Z",
+    "liveChecks": {
+      "fifeSelectorContainsAllRequestedPlaces": true,
+      "auditedScoresRendered": true,
+      "stAndrewsCategoryCountsRendered": true,
+      "kingsbarnsCategoryCountsRendered": true,
+      "exact58SecondPassTownsRendered": true,
+      "heritageDateTextAbsentFromMapLabels": true,
+      "browserConsoleErrors": 0
+    }
+  }
+}

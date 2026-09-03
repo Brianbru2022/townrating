@@ -1,0 +1,13 @@
+import { describe,expect,it } from 'vitest';
+import pkg from '../../data/projects/carmyllie.json';
+import planner from '../../data/cairn-o-mount-visitor-planner-curation.json';
+import report from '../../data/review/carmyllie-full-visitor-audit-2026-08-30.json';
+import { visitorNeedPlaces } from '../domain/visitorExperience';
+import { topVisitPlaces } from '../domain/visiting';
+import { homeTownOverviews } from '../map/homeOverview';
+describe('Carmyllie full visitor audit',()=>{const c=(planner as any).projects['carmyllie-scotland'];
+  it('publishes the independently worthwhile 64% settlement on the home map',()=>{expect((pkg.project as any).touristAppeal).toMatchObject({score:64,rating:1,label:'Worth a Stop'});expect(homeTownOverviews([pkg as any])).toHaveLength(1);expect(report.publishOnTownMap).toBe(true);});
+  it('publishes the verified café, trails and practical facilities',()=>{expect(topVisitPlaces(pkg as any,20)).toHaveLength(0);expect(visitorNeedPlaces(pkg as any,'eat',20,{curatedFeatureIds:c.eat})).toHaveLength(1);expect(visitorNeedPlaces(pkg as any,'trails',20,{curatedFeatureIds:c.trails})).toHaveLength(2);expect(visitorNeedPlaces(pkg as any,'picnic',20,{curatedFeatureIds:c.picnic})).toHaveLength(0);expect(visitorNeedPlaces(pkg as any,'parking',20,{curatedFeatureIds:c.parking})).toHaveLength(1);expect(visitorNeedPlaces(pkg as any,'toilets',20,{curatedFeatureIds:c.toilets})).toHaveLength(1);expect(report.publication).toEqual({see:0,eat:1,trails:2,picnic:0,parking:1,toilets:1});});
+  it('restores all six statutory HES records with dates and unchanged map names',()=>{const s=(pkg.features as any[]).filter(f=>f.tags.includes('hes-listed-building'));expect(s).toHaveLength(6);expect(s.every(f=>!f.tags.includes('map-hidden')&&f.documentedDateText&&f.earliestPossibleYear!=null&&f.latestPossibleYear!=null)).toBe(true);expect(s.find(f=>f.id==='hes-listed-building:LB4577')?.documentedDateText).toContain('1609');expect(s.find(f=>f.id==='hes-listed-building:LB4582')?.documentedDateText).toBe('1789');expect(s.find(f=>f.id==='hes-listed-building:LB4587')?.documentedDateText).toBe('1804');expect(s.every(f=>!f.name.includes(f.documentedDateText))).toBe(true);expect(report.heritage).toMatchObject({visibleDatedStatutoryPins:6,visibleUndatedStatutoryPins:0,hiddenStatutoryPins:0});});
+  it('records trail, picnic and parking limitations',()=>{expect(report.namedTrailSearch.TreasureTrails).toContain('No dedicated Carmyllie');expect(report.practicalAudit.picnic).toContain('No managed');expect(report.practicalAudit.parking).toContain('fee and capacity not published');});
+});

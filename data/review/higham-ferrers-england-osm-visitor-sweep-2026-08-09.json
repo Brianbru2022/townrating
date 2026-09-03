@@ -1,0 +1,703 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T11:12:00.090Z",
+  "boundaryRule": "Exact active project boundary; no nearby places are counted.",
+  "curationRule": "OSM is discovery evidence. See and Eat require names; private, permit-only, customer-only, inactive and no-access places are excluded. Publication still requires editorial review.",
+  "towns": [
+    {
+      "projectId": "higham-ferrers-england",
+      "locality": "Higham Ferrers",
+      "projectFile": "higham-ferrers-england.json",
+      "counts": {
+        "see": {
+          "osm": 2,
+          "eligible": 1,
+          "curated": 0,
+          "uncurated": 1
+        },
+        "eat": {
+          "osm": 19,
+          "eligible": 19,
+          "curated": 5,
+          "uncurated": 14
+        },
+        "picnic": {
+          "osm": 0,
+          "eligible": 0,
+          "curated": 0,
+          "uncurated": 0
+        },
+        "parking": {
+          "osm": 5,
+          "eligible": 5,
+          "curated": 2,
+          "uncurated": 3
+        },
+        "toilets": {
+          "osm": 1,
+          "eligible": 1,
+          "curated": 1,
+          "uncurated": 0
+        }
+      },
+      "candidates": {
+        "see": [
+          {
+            "osmId": "way/963356448",
+            "name": "Chichele College",
+            "coordinates": [
+              -0.5935143,
+              52.307637
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-963356448",
+            "curated": false,
+            "tags": {
+              "heritage": "2",
+              "heritage:operator": "he",
+              "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1013829",
+              "historic": "ruins",
+              "name": "Chichele College",
+              "ref:he": "1013829",
+              "site:type": "heritage",
+              "type": "site",
+              "website": "https://www.english-heritage.org.uk/visit/places/chichele-college/",
+              "wikidata": "Q17662106"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/963356448"
+          },
+          {
+            "osmId": "node/3127824302",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.5928333,
+              52.3062097
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "historic": "monument",
+              "memorial": "war_memorial",
+              "memorial:conflict": "WW1",
+              "source": "survey"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3127824302"
+          }
+        ],
+        "eat": [
+          {
+            "osmId": "node/6165490158",
+            "name": "Bewiched Coffee",
+            "coordinates": [
+              -0.5941275,
+              52.3052397
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-6165490158",
+            "curated": true,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "20",
+              "addr:postcode": "NN10 8BL",
+              "addr:street": "High Street",
+              "addr:town": "Higham Ferrers",
+              "amenity": "cafe",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1070084",
+              "fhrs:local_authority_id": "18/00040/COM",
+              "name": "Bewiched Coffee"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6165490158"
+          },
+          {
+            "osmId": "node/2434320938",
+            "name": "Coffee Barn",
+            "coordinates": [
+              -0.5926795,
+              52.3064981
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-2434320938",
+            "curated": true,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "2",
+              "addr:postcode": "NN10 8DZ",
+              "addr:street": "College Street",
+              "addr:town": "Higham Ferrers",
+              "amenity": "cafe",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "6559",
+              "fhrs:local_authority_id": "02290/0002/0/000",
+              "name": "Coffee Barn"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/2434320938"
+          },
+          {
+            "osmId": "node/4509467085",
+            "name": "Flames Grill",
+            "coordinates": [
+              -0.5948525,
+              52.3055489
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "3",
+              "addr:postcode": "NN10 8BB",
+              "addr:street": "Westfields Terrace",
+              "addr:town": "Higham Ferrers",
+              "amenity": "fast_food",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "770940",
+              "fhrs:local_authority_id": "15/00031/COM",
+              "name": "Flames Grill"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4509467085"
+          },
+          {
+            "osmId": "node/4509467086",
+            "name": "Georgia's Fish Bar",
+            "coordinates": [
+              -0.5948793,
+              52.3054833
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "4",
+              "addr:postcode": "NN10 8BB",
+              "addr:street": "Westfields Terrace",
+              "addr:town": "Higham Ferrers",
+              "amenity": "fast_food",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1854469",
+              "fhrs:local_authority_id": "25/00072/COM",
+              "name": "Georgia's Fish Bar"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4509467086"
+          },
+          {
+            "osmId": "node/4510694288",
+            "name": "Golden Pavillion",
+            "coordinates": [
+              -0.5929292,
+              52.30566
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "15",
+              "addr:postcode": "NN10 8DJ",
+              "addr:street": "Market Square",
+              "addr:town": "Higham Ferrers",
+              "amenity": "fast_food",
+              "cuisine": "chinese",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "21495",
+              "fhrs:local_authority_id": "07/00030/COM",
+              "name": "Golden Pavillion"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4510694288"
+          },
+          {
+            "osmId": "way/454390835",
+            "name": "Higham Ferrers Working Mens Club",
+            "coordinates": [
+              -0.5953058,
+              52.3053009
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "6",
+              "addr:postcode": "NN10 8BB",
+              "addr:street": "Westfields Terrace",
+              "addr:town": "Higham Ferrers",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "7287",
+              "fhrs:local_authority_id": "02910/0006/0/000",
+              "name": "Higham Ferrers Working Mens Club",
+              "polling_station": "2021"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/454390835"
+          },
+          {
+            "osmId": "node/4509467087",
+            "name": "Higham Fish And Chips",
+            "coordinates": [
+              -0.5956437,
+              52.3033889
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "82",
+              "addr:postcode": "NN10 8BJ",
+              "addr:street": "High Street",
+              "addr:town": "Higham Ferrers",
+              "amenity": "fast_food",
+              "name": "Higham Fish And Chips"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4509467087"
+          },
+          {
+            "osmId": "way/454515953",
+            "name": "Higham Sports And Social Club",
+            "coordinates": [
+              -0.5927711,
+              52.304732
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:postcode": "NN10 8DE",
+              "addr:street": "Linnetts Lane",
+              "addr:town": "Higham Ferrers",
+              "amenity": "pub",
+              "building": "yes",
+              "club": "social_club",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "6798",
+              "fhrs:local_authority_id": "02520/0020/2/000",
+              "name": "Higham Sports And Social Club"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/454515953"
+          },
+          {
+            "osmId": "way/454398259",
+            "name": "Higham Town Band Club",
+            "coordinates": [
+              -0.5953966,
+              52.3057305
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "7",
+              "addr:postcode": "NN10 8BQ",
+              "addr:street": "Wharf Road",
+              "addr:town": "Higham Ferrers",
+              "amenity": "pub",
+              "building": "yes",
+              "name": "Higham Town Band Club"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/454398259"
+          },
+          {
+            "osmId": "node/4509588719",
+            "name": "Hong Kong Chinese Take Away",
+            "coordinates": [
+              -0.5937477,
+              52.3051697
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "5a",
+              "addr:postcode": "NN10 8BW",
+              "addr:street": "High Street",
+              "addr:town": "Higham Ferrers",
+              "amenity": "fast_food",
+              "cuisine": "chinese",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "6714",
+              "fhrs:local_authority_id": "02440/0005/A/000",
+              "name": "Hong Kong Chinese Take Away",
+              "opening_hours": "Su-Mo, We-Th 16:30-22:00; Fr-Sa 16:30-22:30",
+              "phone": "+44 1933 411328"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4509588719"
+          },
+          {
+            "osmId": "way/553637221",
+            "name": "Joes bar",
+            "coordinates": [
+              -0.5959027,
+              52.303
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "98",
+              "addr:postcode": "NN10 8BJ",
+              "addr:street": "High Street",
+              "addr:town": "Higham Ferrers",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "202760",
+              "fhrs:local_authority_id": "02440/0098/0/000",
+              "internet_access": "wlan",
+              "internet_access:fee": "no",
+              "name": "Joes bar"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/553637221"
+          },
+          {
+            "osmId": "node/3127824287",
+            "name": "Market Square Bakery",
+            "coordinates": [
+              -0.5933169,
+              52.3059212
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-3127824287",
+            "curated": true,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "2",
+              "addr:postcode": "NN10 8BP",
+              "addr:street": "Market Square",
+              "addr:town": "Higham Ferrers",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "6820",
+              "fhrs:local_authority_id": "02550/0002/0/000",
+              "name": "Market Square Bakery",
+              "shop": "bakery",
+              "source": "survey"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3127824287"
+          },
+          {
+            "osmId": "node/3127824286",
+            "name": "Queen's Head",
+            "coordinates": [
+              -0.5939273,
+              52.3055245
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "8",
+              "addr:postcode": "NN10 8BN",
+              "addr:street": "High Street",
+              "addr:town": "Higham Ferrers",
+              "amenity": "pub",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "6716",
+              "fhrs:local_authority_id": "02440/0008/2/000",
+              "name": "Queen's Head",
+              "source": "survey",
+              "source:addr": "FHRS Open Data"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3127824286"
+          },
+          {
+            "osmId": "node/4509467088",
+            "name": "Red Cafes Ltd",
+            "coordinates": [
+              -0.5948096,
+              52.3055997
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4509467088",
+            "curated": true,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "2",
+              "addr:postcode": "NN10 8BB",
+              "addr:street": "Westfields Terrace",
+              "addr:town": "Higham Ferrers",
+              "amenity": "cafe",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "370755",
+              "fhrs:local_authority_id": "12/00018/COM",
+              "name": "Red Cafes Ltd"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4509467088"
+          },
+          {
+            "osmId": "node/4300922398",
+            "name": "Savour the Flavour",
+            "coordinates": [
+              -0.5945026,
+              52.3048371
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4300922398",
+            "curated": true,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "32",
+              "addr:postcode": "NN10 8BL",
+              "addr:street": "High Street",
+              "addr:town": "Higham Ferrers",
+              "amenity": "cafe",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "21344",
+              "fhrs:local_authority_id": "07/00011/COM",
+              "name": "Savour the Flavour"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4300922398"
+          },
+          {
+            "osmId": "node/4510694287",
+            "name": "Tandoori Takeaway",
+            "coordinates": [
+              -0.5928541,
+              52.3056567
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "14",
+              "addr:postcode": "NN10 8DJ",
+              "addr:street": "Market Square",
+              "addr:town": "Higham Ferrers",
+              "amenity": "fast_food",
+              "cuisine": "indian",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "708120",
+              "fhrs:local_authority_id": "14/00046/COM",
+              "name": "Tandoori Takeaway"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4510694287"
+          },
+          {
+            "osmId": "way/454515950",
+            "name": "The Carriage House",
+            "coordinates": [
+              -0.5926683,
+              52.3055636
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "13",
+              "addr:postcode": "NN10 8DJ",
+              "addr:street": "Market Square",
+              "addr:town": "Higham Ferrers",
+              "amenity": "pub",
+              "building": "yes",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1274823",
+              "fhrs:local_authority_id": "20/00033/COM",
+              "name": "The Carriage House"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/454515950"
+          },
+          {
+            "osmId": "node/3127824307",
+            "name": "The Green Dragon",
+            "coordinates": [
+              -0.59263,
+              52.3068082
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-3127824307",
+            "curated": false,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "4",
+              "addr:postcode": "NN10 8DZ",
+              "addr:street": "College Street",
+              "addr:town": "Higham Ferrers",
+              "amenity": "pub",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "6560",
+              "fhrs:local_authority_id": "02290/0004/2/000",
+              "name": "The Green Dragon",
+              "source": "survey",
+              "source:addr": "FHRS Open Data",
+              "tourism": "hotel",
+              "wikidata": "Q26292186"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3127824307"
+          },
+          {
+            "osmId": "node/4509507691",
+            "name": "The Spice Lounge",
+            "coordinates": [
+              -0.5941766,
+              52.3051667
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Rushden",
+              "addr:country": "GB",
+              "addr:housenumber": "22",
+              "addr:postcode": "NN10 8BL",
+              "addr:street": "High Street",
+              "addr:town": "Higham Ferrers",
+              "amenity": "restaurant",
+              "cuisine": "indian",
+              "delivery": "yes",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1933376",
+              "fhrs:local_authority_id": "26/00042/COM",
+              "menu:url": "https://www.chefonline.co.uk/the-spice-lounge-rushden-northampton-nn10/menu",
+              "name": "The Spice Lounge",
+              "opening_hours": "Mo-Su 16:30-22:00",
+              "phone": "+441933412000",
+              "takeaway": "yes",
+              "website": "https://www.the-spice-lounge.co.uk/"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4509507691"
+          }
+        ],
+        "picnic": [],
+        "parking": [
+          {
+            "osmId": "way/235364872",
+            "name": "Market Square",
+            "coordinates": [
+              -0.5928121,
+              52.3061571
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-235364872",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "name": "Market Square",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/235364872"
+          },
+          {
+            "osmId": "node/1075205233",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6044949,
+              52.3083836
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "capacity": "6"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1075205233"
+          },
+          {
+            "osmId": "way/659728278",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5940105,
+              52.3067642
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-659728278",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/659728278"
+          },
+          {
+            "osmId": "way/553637160",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5897468,
+              52.3073002
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/553637160"
+          },
+          {
+            "osmId": "way/553637145",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5886122,
+              52.3043977
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/553637145"
+          }
+        ],
+        "toilets": [
+          {
+            "osmId": "node/6165462311",
+            "name": "Unnamed public toilets",
+            "coordinates": [
+              -0.5943429,
+              52.3056556
+            ],
+            "category": "toilets",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-6165462311",
+            "curated": true,
+            "tags": {
+              "amenity": "toilets",
+              "fee": "no",
+              "fixme": "toilets still in use? Was closed at 17:55 on 2023-04-29",
+              "opening_hours": "Mo-Su 07:30-18:00"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6165462311"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+{
+  "project": {
+    "id": "chorley-cheshire-england",
+    "name": "Chorley Townscape Guide",
+    "countryCode": "GB-ENG",
+    "country": "England",
+    "region": "Cheshire East",
+    "locality": "Chorley",
+    "centre": [
+      -2.261966,
+      53.3084928
+    ],
+    "boundary": {
+      "type": "Feature",
+      "properties": {
+        "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+        "localityName": "Chorley",
+        "osmType": "node",
+        "osmId": 476304182,
+        "boundaryMethod": "clamped_settlement_envelope",
+        "visitorBoundary": true,
+        "adjoiningPublicGreenSpaces": [
+          "Lindow Cricket Club",
+          "Wilmslow Sports JFC",
+          "OSM way 1172895369",
+          "OSM way 1215646103"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.267966,
+              53.3039928
+            ],
+            [
+              -2.2559660000000004,
+              53.3039928
+            ],
+            [
+              -2.2559660000000004,
+              53.310513966298664
+            ],
+            [
+              -2.2559651,
+              53.3105147
+            ],
+            [
+              -2.2558966,
+              53.3105767
+            ],
+            [
+              -2.2558353,
+              53.310626
+            ],
+            [
+              -2.2556547,
+              53.3107562
+            ],
+            [
+              -2.2555036,
+              53.3108643
+            ],
+            [
+              -2.2552932,
+              53.311022
+            ],
+            [
+              -2.255072,
+              53.3111755
+            ],
+            [
+              -2.2546499,
+              53.3110625
+            ],
+            [
+              -2.2542091,
+              53.311832
+            ],
+            [
+              -2.2546158,
+              53.3120948
+            ],
+            [
+              -2.2550252,
+              53.3123497
+            ],
+            [
+              -2.2553867,
+              53.3121649
+            ],
+            [
+              -2.2559660000000004,
+              53.3118687581126
+            ],
+            [
+              -2.2559660000000004,
+              53.3129928
+            ],
+            [
+              -2.267966,
+              53.3129928
+            ],
+            [
+              -2.267966,
+              53.3039928
+            ]
+          ]
+        ]
+      }
+    },
+    "boundarySource": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+    "boundaryConfidence": "low",
+    "sourceLanguage": "English",
+    "preferredBasemap": "osm",
+    "createdAt": "2026-08-12T00:00:00Z",
+    "timelineStart": 1066,
+    "timelineEnd": 2026,
+    "methodology": {
+      "age": {
+        "before_1700": 1,
+        "1700_1799": 0.9,
+        "1800_1849": 0.8,
+        "1850_1899": 0.65,
+        "1900_1918": 0.5,
+        "1919_1945": 0.4,
+        "1946_1960": 0.25,
+        "after_1960": 0.15,
+        "unknown": 0.2
+      },
+      "significance": {
+        "highest_national": 1,
+        "national": 0.85,
+        "regional": 0.65,
+        "local": 0.45,
+        "recognised": 0.3
+      },
+      "confidence": {
+        "high": 1,
+        "medium": 0.75,
+        "low": 0.5,
+        "unknown": 0.35
+      },
+      "survival": {
+        "substantially_intact": 1,
+        "altered_recognisable": 0.75,
+        "heavily_altered": 0.45,
+        "site_only_or_demolished": 0.2,
+        "unknown": 0.6
+      }
+    },
+    "researchNotes": "Townscape Guides batch audit completed 2026-08-12. Historic England and current public OpenStreetMap records were filtered point-in-polygon. The original settlement boundary is preserved in townStudyArea; 4 directly adjoining public green-space geometries were included in the active visitor boundary. Historic England official list-entry date enrichment reviewed 2026-08-12: 0 of 3 statutory records now carry defensible date evidence; uncaptured or unresolved entries are retained as unknown and listed in the county audit.",
+    "touristAppeal": {
+      "rating": 0,
+      "label": "Not a tourist town",
+      "summary": "Chorley has recorded local interest, but its current in-boundary visitor offer does not meet the threshold for a tourist-town rating."
+    },
+    "townGuide": {
+      "headline": "A practical local guide to Chorley",
+      "intro": "Chorley has a modest visitor offer within its active settlement boundary. The guide records defensible heritage and practical stops without presenting the place as a destination.",
+      "bestFor": [
+        "Local orientation"
+      ],
+      "perfectFor": [
+        "Visitors already nearby"
+      ],
+      "suggestedFirstVisit": {
+        "title": "Chorley centre",
+        "summary": "Use the map to understand the settlement and its currently curated public facilities."
+      },
+      "dontMiss": [],
+      "suggestedTime": "As part of a wider local journey",
+      "visitorMood": "A local settlement rather than a tourist destination.",
+      "sourceUrls": [
+        "https://www.openstreetmap.org/node/476304182",
+        "https://historicengland.org.uk/listing/the-list/data-downloads/",
+        "https://www.openstreetmap.org/"
+      ],
+      "lastReviewedAt": "2026-08-12"
+    },
+    "visitorHighlights": [],
+    "townStudyArea": {
+      "localityName": "Chorley",
+      "sourceName": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "sourceUrl": "https://www.openstreetmap.org/node/476304182",
+      "sourceVersion": "OpenStreetMap reviewed 2026-08-12",
+      "bufferMetres": 0,
+      "localityBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.267966,
+          53.3039928,
+          -2.2559660000000004,
+          53.3129928
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Chorley",
+          "osmType": "node",
+          "osmId": 476304182,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.267966,
+                53.3039928
+              ],
+              [
+                -2.2559660000000004,
+                53.3039928
+              ],
+              [
+                -2.2559660000000004,
+                53.3129928
+              ],
+              [
+                -2.267966,
+                53.3129928
+              ],
+              [
+                -2.267966,
+                53.3039928
+              ]
+            ]
+          ]
+        }
+      },
+      "bufferedBoundary": {
+        "type": "Feature",
+        "bbox": [
+          -2.267966,
+          53.3039928,
+          -2.2559660000000004,
+          53.3129928
+        ],
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Chorley",
+          "osmType": "node",
+          "osmId": 476304182,
+          "boundaryMethod": "clamped_settlement_envelope"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.267966,
+                53.3039928
+              ],
+              [
+                -2.2559660000000004,
+                53.3039928
+              ],
+              [
+                -2.2559660000000004,
+                53.3129928
+              ],
+              [
+                -2.267966,
+                53.3129928
+              ],
+              [
+                -2.267966,
+                53.3039928
+              ]
+            ]
+          ]
+        }
+      },
+      "visitorBoundary": {
+        "type": "Feature",
+        "properties": {
+          "sourceDataset": "Curated visitor envelope derived from the OpenStreetMap settlement point",
+          "localityName": "Chorley",
+          "osmType": "node",
+          "osmId": 476304182,
+          "boundaryMethod": "clamped_settlement_envelope",
+          "visitorBoundary": true,
+          "adjoiningPublicGreenSpaces": [
+            "Lindow Cricket Club",
+            "Wilmslow Sports JFC",
+            "OSM way 1172895369",
+            "OSM way 1215646103"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -2.267966,
+                53.3039928
+              ],
+              [
+                -2.2559660000000004,
+                53.3039928
+              ],
+              [
+                -2.2559660000000004,
+                53.310513966298664
+              ],
+              [
+                -2.2559651,
+                53.3105147
+              ],
+              [
+                -2.2558966,
+                53.3105767
+              ],
+              [
+                -2.2558353,
+                53.310626
+              ],
+              [
+                -2.2556547,
+                53.3107562
+              ],
+              [
+                -2.2555036,
+                53.3108643
+              ],
+              [
+                -2.2552932,
+                53.311022
+              ],
+              [
+                -2.255072,
+                53.3111755
+              ],
+              [
+                -2.2546499,
+                53.3110625
+              ],
+              [
+                -2.2542091,
+                53.311832
+              ],
+              [
+                -2.2546158,
+                53.3120948
+              ],
+              [
+                -2.2550252,
+                53.3123497
+              ],
+              [
+                -2.2553867,
+                53.3121649
+              ],
+              [
+                -2.2559660000000004,
+                53.3118687581126
+              ],
+              [
+                -2.2559660000000004,
+                53.3129928
+              ],
+              [
+                -2.267966,
+                53.3129928
+              ],
+              [
+                -2.267966,
+                53.3039928
+              ]
+            ]
+          ]
+        }
+      },
+      "notes": "The original OSM settlement geometry is preserved. The active visitor boundary additionally includes only directly adjoining mapped public green spaces: Lindow Cricket Club, Wilmslow Sports JFC, OSM way 1172895369, OSM way 1215646103."
+    }
+  },
+  "features": [
+    {
+      "id": "historic-england:nhle:1139589",
+      "projectId": "chorley-cheshire-england",
+      "name": "DAVENPORT HOUSE FARM",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Cheshire East",
+      "locality": "Chorley",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.26168396830119,
+          53.3072754034259
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1139589",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1139589",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Chorley visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1139590",
+      "projectId": "chorley-cheshire-england",
+      "name": "ROW OF TREES FARM",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Cheshire East",
+      "locality": "Chorley",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.26160201522269,
+          53.3085969120296
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1139590",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1139590",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Chorley visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    },
+    {
+      "id": "historic-england:nhle:1229634",
+      "projectId": "chorley-cheshire-england",
+      "name": "GATE PIERS TO FORECOURT AT DAVENPORT HOUSE FARM",
+      "alternativeNames": [],
+      "countryCode": "GB-ENG",
+      "region": "Cheshire East",
+      "locality": "Chorley",
+      "featureType": "other",
+      "designationType": "listed_building",
+      "designationCategory": "II",
+      "significance": "regional",
+      "statutoryStatus": "National Heritage List for England",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.26174498839608,
+          53.307437064722
+        ]
+      },
+      "locationType": "representative_point",
+      "locationConfidence": "high",
+      "dateBasis": "unknown",
+      "dateConfidence": "unknown",
+      "survival": "unknown",
+      "shortDescription": "listed building recorded by Historic England, Grade II.",
+      "sourceRecords": [
+        {
+          "sourceName": "National Heritage List for England",
+          "sourceOrganisation": "Historic England",
+          "sourceRecordId": "1229634",
+          "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1229634",
+          "accessedAt": "2026-08-12T00:00:00Z",
+          "reliability": "official_statutory",
+          "licence": "Open Government Licence v3.0; contains Historic England data.",
+          "notes": "Official statutory designation. The construction date is enriched separately from the official list-entry text."
+        }
+      ],
+      "tags": [
+        "historic-england",
+        "nhle",
+        "listed-building"
+      ],
+      "createdAt": "2026-08-12T00:00:00Z",
+      "updatedAt": "2026-08-12T00:00:00Z",
+      "reviewed": true,
+      "reviewNotes": "Imported from the bundled Historic England download and filtered against the active Chorley visitor boundary.",
+      "evidenceScope": "parish_evidence",
+      "licence": "Open Government Licence v3.0; contains Historic England data."
+    }
+  ],
+  "sources": [
+    {
+      "id": "chorley-boundary",
+      "name": "Curated visitor envelope derived from the OpenStreetMap settlement point, with adjoining public green spaces",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Chorley settlement and active visitor boundary",
+      "accessMethod": "Nominatim GeoJSON",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/node/476304182",
+      "reliability": "discovery_only",
+      "limitations": "OSM settlement geometry is used where no exact ONS built-up area exists."
+    },
+    {
+      "id": "historic-england-nhle-local",
+      "name": "National Heritage List for England",
+      "organisation": "Historic England",
+      "coverage": "Chorley designations inside the active boundary",
+      "accessMethod": "Bundled national GeoJSON download",
+      "licence": "Open Government Licence v3.0",
+      "sourceUrl": "https://historicengland.org.uk/listing/the-list/data-downloads/",
+      "reliability": "official_statutory",
+      "limitations": "Dates are enriched separately from official list-entry text."
+    },
+    {
+      "id": "chorley-osm-current",
+      "name": "OpenStreetMap current community places",
+      "organisation": "OpenStreetMap contributors",
+      "coverage": "Chorley visitor and practical places",
+      "accessMethod": "Overpass API and point-in-polygon filtering",
+      "licence": "Open Database Licence (ODbL) v1.0; © OpenStreetMap contributors.",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "reliability": "discovery_only",
+      "limitations": "Current community mapping is curated and may be incomplete."
+    }
+  ],
+  "historicMaps": [],
+  "settlementPolygons": [],
+  "validation": []
+}

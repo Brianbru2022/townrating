@@ -1,0 +1,906 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T11:11:14.078Z",
+  "boundaryRule": "Exact active project boundary; no nearby places are counted.",
+  "curationRule": "OSM is discovery evidence. See and Eat require names; private, permit-only, customer-only, inactive and no-access places are excluded. Publication still requires editorial review.",
+  "towns": [
+    {
+      "projectId": "irthlingborough-england",
+      "locality": "Irthlingborough",
+      "projectFile": "irthlingborough-england.json",
+      "counts": {
+        "see": {
+          "osm": 0,
+          "eligible": 0,
+          "curated": 0,
+          "uncurated": 0
+        },
+        "eat": {
+          "osm": 24,
+          "eligible": 24,
+          "curated": 3,
+          "uncurated": 21
+        },
+        "picnic": {
+          "osm": 0,
+          "eligible": 0,
+          "curated": 0,
+          "uncurated": 0
+        },
+        "parking": {
+          "osm": 13,
+          "eligible": 13,
+          "curated": 3,
+          "uncurated": 10
+        },
+        "toilets": {
+          "osm": 1,
+          "eligible": 1,
+          "curated": 1,
+          "uncurated": 0
+        }
+      },
+      "candidates": {
+        "see": [],
+        "eat": [
+          {
+            "osmId": "node/4518252457",
+            "name": "Anita's Deli",
+            "coordinates": [
+              -0.6120533,
+              52.3264076
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "5",
+              "addr:postcode": "NN9 5TE",
+              "addr:street": "High Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "fast_food",
+              "name": "Anita's Deli"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4518252457"
+          },
+          {
+            "osmId": "way/455420187",
+            "name": "Cafe @ 25",
+            "coordinates": [
+              -0.6129467,
+              52.3259657
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-455420187",
+            "curated": true,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "25",
+              "addr:postcode": "NN9 5TE",
+              "addr:street": "High Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "cafe",
+              "building": "commercial",
+              "building:levels": "2",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "21361",
+              "fhrs:local_authority_id": "07/00013/COM",
+              "name": "Cafe @ 25"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/455420187"
+          },
+          {
+            "osmId": "node/4518252501",
+            "name": "Captain Cook's Chippy",
+            "coordinates": [
+              -0.6176966,
+              52.3238601
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "122",
+              "addr:postcode": "NN9 5PX",
+              "addr:street": "High Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "fast_food",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1831946",
+              "fhrs:local_authority_id": "24/00045/COM",
+              "name": "Captain Cook's Chippy"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4518252501"
+          },
+          {
+            "osmId": "node/4518252449",
+            "name": "Favourite Chicken & Ribs",
+            "coordinates": [
+              -0.6137444,
+              52.3258765
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "50a",
+              "addr:postcode": "NN9 5TN",
+              "addr:street": "High Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "fast_food",
+              "brand:wikidata": "Q120070660",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "555164",
+              "fhrs:local_authority_id": "13/00025/COM",
+              "name": "Favourite Chicken & Ribs",
+              "website": "https://favorite.co.uk/store-finder/favorite-chicken-ribs-irthlingborough.html"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4518252449"
+          },
+          {
+            "osmId": "node/4518252503",
+            "name": "Food Glorious Food",
+            "coordinates": [
+              -0.6167793,
+              52.3243339
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "96",
+              "addr:postcode": "NN9 5PX",
+              "addr:street": "High Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "restaurant",
+              "name": "Food Glorious Food"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4518252503"
+          },
+          {
+            "osmId": "node/4518252452",
+            "name": "G & P Coffee House",
+            "coordinates": [
+              -0.6142741,
+              52.3253364
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4518252452",
+            "curated": true,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "43",
+              "addr:postcode": "NN9 5TE",
+              "addr:street": "High Street",
+              "addr:town": "Irthlingborough",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "415861",
+              "fhrs:local_authority_id": "03410/0043/0/000",
+              "name": "G & P Coffee House",
+              "shop": "coffee"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4518252452"
+          },
+          {
+            "osmId": "node/624354951",
+            "name": "Golden Harvest",
+            "coordinates": [
+              -0.6119175,
+              52.3264535
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "3",
+              "addr:postcode": "NN9 5TE",
+              "addr:street": "High Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "fast_food",
+              "cuisine": "chinese",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "8866",
+              "fhrs:local_authority_id": "03410/0003/0/000",
+              "name": "Golden Harvest"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/624354951"
+          },
+          {
+            "osmId": "node/4518252451",
+            "name": "Hero Ji",
+            "coordinates": [
+              -0.6140274,
+              52.325747
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "56-60",
+              "addr:postcode": "NN9 5TN",
+              "addr:street": "High Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "restaurant",
+              "cuisine": "indian",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1780957",
+              "fhrs:local_authority_id": "24/00106/COM",
+              "name": "Hero Ji"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4518252451"
+          },
+          {
+            "osmId": "node/4521951468",
+            "name": "Irthlingborough Conservative Club Ltd",
+            "coordinates": [
+              -0.6108114,
+              52.3269633
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "3",
+              "addr:postcode": "NN9 5UQ",
+              "addr:street": "Station Road",
+              "addr:town": "Irthlingborough",
+              "amenity": "pub",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "9232",
+              "fhrs:local_authority_id": "03860/0003/0/000",
+              "name": "Irthlingborough Conservative Club Ltd"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4521951468"
+          },
+          {
+            "osmId": "node/4521951467",
+            "name": "Irthlingborough Kebab & Pizza",
+            "coordinates": [
+              -0.610684,
+              52.3269821
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "5a",
+              "addr:postcode": "NN9 5UQ",
+              "addr:street": "Station Road",
+              "addr:town": "Irthlingborough",
+              "amenity": "fast_food",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1853690",
+              "fhrs:local_authority_id": "25/00074/COM",
+              "name": "Irthlingborough Kebab & Pizza"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4521951467"
+          },
+          {
+            "osmId": "way/455420192",
+            "name": "Irthlingborough Town Band Club",
+            "coordinates": [
+              -0.6196668,
+              52.3237092
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:postcode": "NN9 5RG",
+              "addr:street": "Victoria Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "pub",
+              "building": "commercial",
+              "building:levels": "1",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "9264",
+              "fhrs:local_authority_id": "03900/0104/0/000",
+              "name": "Irthlingborough Town Band Club"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/455420192"
+          },
+          {
+            "osmId": "way/455420185",
+            "name": "Irthlingborough Working Mens Club",
+            "coordinates": [
+              -0.615561,
+              52.325833
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "1",
+              "addr:postcode": "NN9 5TT",
+              "addr:street": "Scarborough Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "pub",
+              "building": "commercial",
+              "building:levels": "2",
+              "name": "Irthlingborough Working Mens Club"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/455420185"
+          },
+          {
+            "osmId": "node/4521951471",
+            "name": "Jumbo Chinese Take Away",
+            "coordinates": [
+              -0.6115222,
+              52.3270518
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "6",
+              "addr:postcode": "NN9 5TZ",
+              "addr:street": "Finedon Road",
+              "addr:town": "Irthlingborough",
+              "amenity": "fast_food",
+              "cuisine": "chinese",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "8837",
+              "fhrs:local_authority_id": "03350/0006/0/000",
+              "name": "Jumbo Chinese Take Away"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4521951471"
+          },
+          {
+            "osmId": "node/4518252505",
+            "name": "King Man House",
+            "coordinates": [
+              -0.6155174,
+              52.3245716
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "69",
+              "addr:postcode": "NN9 5PU",
+              "addr:street": "High Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "fast_food",
+              "cuisine": "chinese",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "8880",
+              "fhrs:local_authority_id": "03410/0069/0/000",
+              "name": "King Man House"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4518252505"
+          },
+          {
+            "osmId": "way/455420189",
+            "name": "Masala",
+            "coordinates": [
+              -0.6085235,
+              52.3273203
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "48",
+              "addr:postcode": "NN9 5SN",
+              "addr:street": "Station Road",
+              "addr:town": "Irthlingborough",
+              "amenity": "restaurant",
+              "building": "commercial",
+              "building:levels": "1",
+              "cuisine": "indian",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1719433",
+              "fhrs:local_authority_id": "24/00043/COM",
+              "name": "Masala",
+              "ref:GB:uprn": "100032156344"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/455420189"
+          },
+          {
+            "osmId": "node/4521951470",
+            "name": "Mayflower Chinese Restaurant",
+            "coordinates": [
+              -0.6113935,
+              52.327001
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "2",
+              "addr:postcode": "NN9 5TZ",
+              "addr:street": "Finedon Road",
+              "addr:town": "Irthlingborough",
+              "amenity": "restaurant",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "8836",
+              "fhrs:local_authority_id": "03350/0002/2/000",
+              "name": "Mayflower Chinese Restaurant"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4521951470"
+          },
+          {
+            "osmId": "node/4518252447",
+            "name": "Munchbox",
+            "coordinates": [
+              -0.6124302,
+              52.3264371
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-4518252447",
+            "curated": true,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "26",
+              "addr:postcode": "NN9 5TN",
+              "addr:street": "High Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "cafe",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "8871",
+              "fhrs:local_authority_id": "03410/0026/0/000",
+              "name": "Munchbox"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4518252447"
+          },
+          {
+            "osmId": "way/926880915",
+            "name": "Rumbles Fish and Chips",
+            "coordinates": [
+              -0.6102729,
+              52.3265617
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Irthlingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "3A",
+              "addr:postcode": "NN9 5FT",
+              "addr:street": "Church Street",
+              "amenity": "fast_food",
+              "building": "commercial",
+              "building:levels": "1",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1933377",
+              "fhrs:local_authority_id": "26/00043/COM",
+              "name": "Rumbles Fish and Chips"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/926880915"
+          },
+          {
+            "osmId": "node/1139217354",
+            "name": "Spot On",
+            "coordinates": [
+              -0.6156082,
+              52.3245458
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "71",
+              "addr:postcode": "NN9 5PU",
+              "addr:street": "High Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "840353",
+              "fhrs:local_authority_id": "10/00001/COM",
+              "name": "Spot On",
+              "opening_hours": "Mo-Sa 11:30-23:00; Su 11:00-23:00",
+              "phone": "+44 1933653011"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1139217354"
+          },
+          {
+            "osmId": "way/926880910",
+            "name": "The Artlenock Inn",
+            "coordinates": [
+              -0.6108195,
+              52.3266289
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "6",
+              "addr:postcode": "NN9 5SN",
+              "addr:street": "Station Road",
+              "addr:town": "Irthlingborough",
+              "amenity": "pub",
+              "building": "commercial",
+              "building:levels": "2",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1858377",
+              "fhrs:local_authority_id": "25/00088/COM",
+              "name": "The Artlenock Inn"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/926880910"
+          },
+          {
+            "osmId": "node/1139216259",
+            "name": "The Horseshoe Inn",
+            "coordinates": [
+              -0.6152482,
+              52.3247098
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "67",
+              "addr:postcode": "NN9 5PU",
+              "addr:street": "High Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "pub",
+              "name": "The Horseshoe Inn",
+              "phone": "+44 1933 652 283"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1139216259"
+          },
+          {
+            "osmId": "way/952147687",
+            "name": "The Leather Bottle",
+            "coordinates": [
+              -0.6152844,
+              52.3226878
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "60",
+              "addr:postcode": "NN9 5PR",
+              "addr:street": "Baker Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "pub",
+              "building": "commercial",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1787439",
+              "fhrs:local_authority_id": "24/00063/COM",
+              "name": "The Leather Bottle"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/952147687"
+          },
+          {
+            "osmId": "node/1139219125",
+            "name": "The Oliver Twist",
+            "coordinates": [
+              -0.6168642,
+              52.3242885
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "96",
+              "addr:postcode": "NN9 5PX",
+              "addr:street": "High Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "pub",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "8883",
+              "fhrs:local_authority_id": "03410/0096/2/000",
+              "name": "The Oliver Twist"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1139219125"
+          },
+          {
+            "osmId": "node/4518252454",
+            "name": "Toppingz",
+            "coordinates": [
+              -0.6134119,
+              52.3258322
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Wellingborough",
+              "addr:country": "GB",
+              "addr:housenumber": "33",
+              "addr:postcode": "NN9 5TE",
+              "addr:street": "High Street",
+              "addr:town": "Irthlingborough",
+              "amenity": "fast_food",
+              "cuisine": "indian",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1733153",
+              "fhrs:local_authority_id": "24/00051/COM",
+              "name": "Toppingz"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4518252454"
+          }
+        ],
+        "picnic": [],
+        "parking": [
+          {
+            "osmId": "way/109446933",
+            "name": "Nene Park Stadium",
+            "coordinates": [
+              -0.6008498,
+              52.3273772
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "name": "Nene Park Stadium",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/109446933"
+          },
+          {
+            "osmId": "way/109446935",
+            "name": "Nene Park Stadium",
+            "coordinates": [
+              -0.6016879,
+              52.3279378
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "name": "Nene Park Stadium",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/109446935"
+          },
+          {
+            "osmId": "way/316949127",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6178843,
+              52.3197012
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-316949127",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/316949127"
+          },
+          {
+            "osmId": "way/316949222",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6115153,
+              52.3262263
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-316949222",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/316949222"
+          },
+          {
+            "osmId": "way/1206229263",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6106078,
+              52.326331
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface",
+              "surface": "asphalt"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1206229263"
+          },
+          {
+            "osmId": "way/1362854238",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6119139,
+              52.3258007
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-1362854238",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1362854238"
+          },
+          {
+            "osmId": "way/109446937",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.598995,
+              52.3257355
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/109446937"
+          },
+          {
+            "osmId": "way/109446934",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5988442,
+              52.3286934
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/109446934"
+          },
+          {
+            "osmId": "way/109446936",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5980629,
+              52.3292041
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/109446936"
+          },
+          {
+            "osmId": "way/109446939",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5970866,
+              52.3298597
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/109446939"
+          },
+          {
+            "osmId": "way/109447477",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5982011,
+              52.3281301
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/109447477"
+          },
+          {
+            "osmId": "way/646099851",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.6003266,
+              52.3294013
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/646099851"
+          },
+          {
+            "osmId": "way/109446940",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5961532,
+              52.3297875
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/109446940"
+          }
+        ],
+        "toilets": [
+          {
+            "osmId": "node/362372627",
+            "name": "Unnamed public toilets",
+            "coordinates": [
+              -0.6117364,
+              52.3264281
+            ],
+            "category": "toilets",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-362372627",
+            "curated": true,
+            "tags": {
+              "amenity": "toilets",
+              "fee": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/362372627"
+          }
+        ]
+      }
+    }
+  ]
+}

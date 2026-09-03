@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-30",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers.",
+  "namingDecisions": [
+    "Caterline is interpreted as the already-published Catterline and is not duplicated.",
+    "Arbuthnott and Roadside of Kinneff are already published catalogue entries and are not duplicated.",
+    "Pitforthie represents the Nether, Upper and Hillhead cluster near Fordoun.",
+    "Roadside of Catterline remains separate from Catterline village.",
+    "Mains of Allardice remains separate from the private Allardice estate.",
+    "Gourdon is qualified by Aberdeenshire in its project identifier to avoid namesake collisions."
+  ],
+  "existing": [
+    {
+      "name": "Catterline",
+      "projectId": "catterline-scotland"
+    },
+    {
+      "name": "Roadside of Kinneff",
+      "projectId": "roadside-of-kinneff-scotland"
+    },
+    {
+      "name": "Arbuthnott",
+      "projectId": "arbuthnott-scotland"
+    }
+  ],
+  "additions": [
+    {
+      "name": "Pitforthie",
+      "projectId": "pitforthie-fordoun-scotland",
+      "region": "Aberdeenshire",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "Pitforthie represents the Nether, Upper and Hillhead farm cluster near Fordoun. Agricultural and private equestrian uses do not establish a public tourist destination.",
+      "sourceUrl": "https://www.openstreetmap.org/way/946127329"
+    },
+    {
+      "name": "Roadside of Catterline",
+      "projectId": "roadside-of-catterline-scotland",
+      "region": "Aberdeenshire",
+      "score": 26,
+      "dogOwnerScore": 24,
+      "publishOnTownMap": false,
+      "rationale": "Roadside of Catterline is retained separately from the coastal village. Catterline Bay, harbour and Joan Eardley associations remain with Catterline and do not inflate this roadside locality.",
+      "sourceUrl": "https://www.openstreetmap.org/node/6842020811"
+    },
+    {
+      "name": "Kinneff",
+      "projectId": "kinneff-scotland",
+      "region": "Aberdeenshire",
+      "score": 48,
+      "dogOwnerScore": 47,
+      "publishOnTownMap": false,
+      "rationale": "Kinneff has a genuine historic identity and Old Kirk association, but remains below the map gate until a full visitor audit establishes access, facilities and a complete visit independent of nearby Inverbervie.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3075532052"
+    },
+    {
+      "name": "Mains of Allardice",
+      "projectId": "mains-of-allardice-scotland",
+      "region": "Aberdeenshire",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "Mains of Allardice is a rural farm locality. Nearby private estate heritage is recorded but is not treated as public access or borrowed tourist value.",
+      "sourceUrl": "https://www.openstreetmap.org/node/10172532519"
+    },
+    {
+      "name": "Inverbervie",
+      "projectId": "inverbervie-scotland",
+      "region": "Aberdeenshire",
+      "score": 58,
+      "dogOwnerScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "Inverbervie has clear town identity, coastal setting and local services, but remains just below 60 until a full audit verifies its complete See, Eat, trails, picnic, parking and toilet offer.",
+      "sourceUrl": "https://www.openstreetmap.org/node/370784626"
+    },
+    {
+      "name": "Gourdon",
+      "projectId": "gourdon-aberdeenshire-scotland",
+      "region": "Aberdeenshire",
+      "score": 58,
+      "dogOwnerScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "Gourdon has an attractive working-harbour identity, but remains below the map gate until a full audit verifies the village offer and keeps nearby Inverbervie evidence separate.",
+      "sourceUrl": "https://www.openstreetmap.org/node/413734161"
+    }
+  ]
+}

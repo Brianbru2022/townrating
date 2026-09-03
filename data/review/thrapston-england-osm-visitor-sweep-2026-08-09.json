@@ -1,0 +1,892 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T11:20:47.057Z",
+  "boundaryRule": "Exact active project boundary; no nearby places are counted.",
+  "curationRule": "OSM is discovery evidence. See and Eat require names; private, permit-only, customer-only, inactive and no-access places are excluded. Publication still requires editorial review.",
+  "towns": [
+    {
+      "projectId": "thrapston-england",
+      "locality": "Thrapston",
+      "projectFile": "thrapston.json",
+      "counts": {
+        "see": {
+          "osm": 1,
+          "eligible": 0,
+          "curated": 0,
+          "uncurated": 0
+        },
+        "eat": {
+          "osm": 19,
+          "eligible": 19,
+          "curated": 4,
+          "uncurated": 18
+        },
+        "picnic": {
+          "osm": 0,
+          "eligible": 0,
+          "curated": 1,
+          "uncurated": 0
+        },
+        "parking": {
+          "osm": 19,
+          "eligible": 18,
+          "curated": 2,
+          "uncurated": 18
+        },
+        "toilets": {
+          "osm": 1,
+          "eligible": 1,
+          "curated": 1,
+          "uncurated": 0
+        }
+      },
+      "candidates": {
+        "see": [
+          {
+            "osmId": "node/6550171872",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.5394432,
+              52.3970649
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "man_made": "tower",
+              "tower:type": "communication"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/6550171872"
+          }
+        ],
+        "eat": [
+          {
+            "osmId": "node/4515867134",
+            "name": "Bengal Brasserie",
+            "coordinates": [
+              -0.5373788,
+              52.3971065
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "10",
+              "addr:postcode": "NN14 4NP",
+              "addr:street": "The Bullring",
+              "addr:town": "Thrapston",
+              "amenity": "restaurant",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "46910",
+              "fhrs:local_authority_id": "11/00093/COM",
+              "name": "Bengal Brasserie"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4515867134"
+          },
+          {
+            "osmId": "node/4515867131",
+            "name": "Bens Chippy",
+            "coordinates": [
+              -0.5352946,
+              52.3968152
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "4",
+              "addr:postcode": "NN14 4PD",
+              "addr:street": "Oundle Road",
+              "addr:town": "Thrapston",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "51736",
+              "fhrs:local_authority_id": "11610/0004/0/000",
+              "name": "Bens Chippy"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4515867131"
+          },
+          {
+            "osmId": "way/79513643",
+            "name": "Burger King",
+            "coordinates": [
+              -0.5255069,
+              52.3918956
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:postcode": "NN14 4UR",
+              "addr:street": "Huntingdon Road",
+              "addr:town": "Thrapston",
+              "amenity": "fast_food",
+              "brand": "Burger King",
+              "brand:wikidata": "Q177054",
+              "brand:wikipedia": "en:Burger King",
+              "building": "yes",
+              "contact:website": "https://locations.burgerking.co.uk/northampton/a14-thrapston",
+              "cuisine": "burger",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "51301",
+              "fhrs:local_authority_id": "11480/0190/3/001",
+              "name": "Burger King",
+              "source": "Bing",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/79513643"
+          },
+          {
+            "osmId": "node/4514543316",
+            "name": "Casa Suena",
+            "coordinates": [
+              -0.5412787,
+              52.3964208
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Thrapston",
+              "addr:country": "GB",
+              "addr:housenumber": "13",
+              "addr:postcode": "NN14 4JW",
+              "addr:street": "Bridge Street",
+              "addr:town": "Thrapston",
+              "amenity": "cafe",
+              "name": "Casa Suena",
+              "phone": "+44 1536 856694"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4514543316"
+          },
+          {
+            "osmId": "node/4514543342",
+            "name": "Delicious Kebab And Pizza",
+            "coordinates": [
+              -0.5391476,
+              52.3966532
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "2",
+              "addr:postcode": "NN14 4JH",
+              "addr:street": "High Street",
+              "addr:town": "Thrapston",
+              "amenity": "fast_food",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1854468",
+              "fhrs:local_authority_id": "17/00018/COM",
+              "name": "Delicious Kebab And Pizza"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4514543342"
+          },
+          {
+            "osmId": "node/7824329113",
+            "name": "Domino's",
+            "coordinates": [
+              -0.5370346,
+              52.3968112
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Thrapston",
+              "addr:country": "GB",
+              "addr:housenumber": "50",
+              "addr:postcode": "NN14 4JH",
+              "addr:street": "High Street",
+              "amenity": "fast_food",
+              "brand": "Domino's",
+              "brand:wikidata": "Q839466",
+              "brand:wikipedia": "en:Domino's Pizza",
+              "contact:website": "https://www.dominos.co.uk/pizza-near-me/thrapston/50-high-street",
+              "cuisine": "pizza",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "950728",
+              "fhrs:local_authority_id": "17/00010/COM",
+              "name": "Domino's",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7824329113"
+          },
+          {
+            "osmId": "way/67360458",
+            "name": "Greggs",
+            "coordinates": [
+              -0.5254505,
+              52.3917476
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "411",
+              "addr:postcode": "NN14 4UR",
+              "addr:street": "Huntingdon Road",
+              "addr:town": "Thrapston",
+              "amenity": "fast_food",
+              "brand": "Greggs",
+              "brand:wikidata": "Q3403981",
+              "brand:wikipedia": "en:Greggs",
+              "building": "yes",
+              "contact:website": "https://www.greggs.co.uk/shop-finder?shop-code=5133",
+              "cuisine": "sandwich;bakery",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1129202",
+              "fhrs:local_authority_id": "19/00021/COM",
+              "name": "Greggs",
+              "source": "Bing",
+              "takeaway": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/67360458"
+          },
+          {
+            "osmId": "node/14046167501",
+            "name": "Haven Cafe/Haven Play Cafe",
+            "coordinates": [
+              -0.5360559,
+              52.3967339
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-14046167501",
+            "curated": true,
+            "tags": {
+              "addr:housenumber": "71-75",
+              "addr:postcode": "NN14 4JJ",
+              "addr:street": "High Street",
+              "amenity": "cafe",
+              "indoor_seating": "yes",
+              "name": "Haven Cafe/Haven Play Cafe",
+              "opening_hours": "Mo-Su 08:00-17:00",
+              "outdoor_seating": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/14046167501"
+          },
+          {
+            "osmId": "node/4514543326",
+            "name": "Pisces Fish And Chips",
+            "coordinates": [
+              -0.5386555,
+              52.3970263
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "21",
+              "addr:postcode": "NN14 4JJ",
+              "addr:street": "High Street",
+              "addr:town": "Thrapston",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "1897197",
+              "fhrs:local_authority_id": "25/00118/COM",
+              "name": "Pisces Fish And Chips"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4514543326"
+          },
+          {
+            "osmId": "node/4514543333",
+            "name": "Spot On Takeaway",
+            "coordinates": [
+              -0.5365472,
+              52.3966737
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "64a",
+              "addr:postcode": "NN14 4JH",
+              "addr:street": "High Street",
+              "addr:town": "Thrapston",
+              "amenity": "fast_food",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "51140",
+              "fhrs:local_authority_id": "11430/0064/A/000",
+              "name": "Spot On Takeaway"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4514543333"
+          },
+          {
+            "osmId": "node/4514543337",
+            "name": "Tasty Bite",
+            "coordinates": [
+              -0.5376342,
+              52.3968995
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "34",
+              "addr:postcode": "NN14 4JH",
+              "addr:street": "High Street",
+              "addr:town": "Thrapston",
+              "amenity": "cafe",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "51135",
+              "fhrs:local_authority_id": "11430/0034/0/000",
+              "fhrs:rating": "5",
+              "name": "Tasty Bite"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4514543337"
+          },
+          {
+            "osmId": "node/4514543338",
+            "name": "The Bread Basket",
+            "coordinates": [
+              -0.5377556,
+              52.3969032
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "32",
+              "addr:postcode": "NN14 4JH",
+              "addr:street": "High Street",
+              "addr:town": "Thrapston",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "51134",
+              "fhrs:local_authority_id": "11430/0032/0/000",
+              "name": "The Bread Basket",
+              "shop": "bakery"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4514543338"
+          },
+          {
+            "osmId": "node/4514543330",
+            "name": "The Fox Inn",
+            "coordinates": [
+              -0.5363702,
+              52.3968267
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "69",
+              "addr:postcode": "NN14 4JJ",
+              "addr:street": "High Street",
+              "addr:town": "Thrapston",
+              "amenity": "pub",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "51141",
+              "fhrs:local_authority_id": "11430/0069/0/000",
+              "name": "The Fox Inn"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4514543330"
+          },
+          {
+            "osmId": "node/4514543340",
+            "name": "The Golden Rings",
+            "coordinates": [
+              -0.5384389,
+              52.3968107
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "18",
+              "addr:postcode": "NN14 4JH",
+              "addr:street": "High Street",
+              "addr:town": "Thrapston",
+              "amenity": "fast_food",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "51131",
+              "fhrs:local_authority_id": "11430/0018/0/000",
+              "name": "The Golden Rings"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4514543340"
+          },
+          {
+            "osmId": "node/4514543332",
+            "name": "The Kings Arms",
+            "coordinates": [
+              -0.5368222,
+              52.3969437
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "59",
+              "addr:postcode": "NN14 4JJ",
+              "addr:street": "High Street",
+              "addr:town": "Thrapston",
+              "amenity": "pub",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "51139",
+              "fhrs:local_authority_id": "11430/0059/0/000",
+              "name": "The Kings Arms"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4514543332"
+          },
+          {
+            "osmId": "node/4514543331",
+            "name": "The Kings Arms Thrapston Restaurant",
+            "coordinates": [
+              -0.5369415,
+              52.396974
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:housenumber": "59",
+              "addr:postcode": "NN14 4JJ",
+              "addr:street": "High Street",
+              "addr:town": "Thrapston",
+              "amenity": "restaurant",
+              "name": "The Kings Arms Thrapston Restaurant"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4514543331"
+          },
+          {
+            "osmId": "node/4515867136",
+            "name": "The Mason Arms",
+            "coordinates": [
+              -0.5354073,
+              52.3966319
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:postcode": "NN14 4NF",
+              "addr:street": "Huntingdon Road",
+              "addr:town": "Thrapston",
+              "amenity": "pub",
+              "fhrs:authority": "North Northamptonshire",
+              "fhrs:id": "51292",
+              "fhrs:local_authority_id": "11480/0001/0/000",
+              "name": "The Mason Arms",
+              "not:addr:postcode": "NN14 4NJ"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4515867136"
+          },
+          {
+            "osmId": "node/12760419390",
+            "name": "The Way Station",
+            "coordinates": [
+              -0.5401662,
+              52.3970958
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Thrapston",
+              "addr:housenumber": "5",
+              "addr:postcode": "NN14 4PS",
+              "addr:street": "Cosy Nook",
+              "amenity": "pub",
+              "brewery": "various",
+              "name": "The Way Station"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/12760419390"
+          },
+          {
+            "osmId": "node/4515867137",
+            "name": "Touch Of Class",
+            "coordinates": [
+              -0.5369093,
+              52.3930802
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Kettering",
+              "addr:country": "GB",
+              "addr:postcode": "NN14 4JY",
+              "addr:street": "Cedar Drive",
+              "addr:town": "Thrapston",
+              "amenity": "cafe",
+              "fhrs:authority": "East Northamptonshire",
+              "fhrs:id": "28649",
+              "fhrs:local_authority_id": "09/00016/COM",
+              "fhrs:rating": "5",
+              "name": "Touch Of Class"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/4515867137"
+          }
+        ],
+        "picnic": [],
+        "parking": [
+          {
+            "osmId": "way/354600364",
+            "name": "Co-op Food Car Park",
+            "coordinates": [
+              -0.5343936,
+              52.3970241
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "name": "Co-op Food Car Park",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/354600364"
+          },
+          {
+            "osmId": "way/697584268",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5373534,
+              52.3927845
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/697584268"
+          },
+          {
+            "osmId": "way/697584265",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5377709,
+              52.392428
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/697584265"
+          },
+          {
+            "osmId": "way/697584266",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5376583,
+              52.3921338
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/697584266"
+          },
+          {
+            "osmId": "way/697584267",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5368187,
+              52.3923435
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/697584267"
+          },
+          {
+            "osmId": "way/67361015",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5259554,
+              52.3921855
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/67361015"
+          },
+          {
+            "osmId": "way/697544780",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.540921,
+              52.3968607
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/697544780"
+          },
+          {
+            "osmId": "way/697620589",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.537624,
+              52.3991199
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/697620589"
+          },
+          {
+            "osmId": "way/697610547",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.537626,
+              52.3996221
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/697610547"
+          },
+          {
+            "osmId": "way/354605550",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.534455,
+              52.3971847
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/354605550"
+          },
+          {
+            "osmId": "way/697584264",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5367604,
+              52.3929157
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/697584264"
+          },
+          {
+            "osmId": "way/1056916252",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5370057,
+              52.3974192
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1056916252"
+          },
+          {
+            "osmId": "way/354580482",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5292548,
+              52.395848
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/354580482"
+          },
+          {
+            "osmId": "way/697610546",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5370866,
+              52.3994083
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/697610546"
+          },
+          {
+            "osmId": "way/697610545",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5367783,
+              52.3998619
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/697610545"
+          },
+          {
+            "osmId": "way/333289019",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5219357,
+              52.3937902
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/333289019"
+          },
+          {
+            "osmId": "way/333289026",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5148601,
+              52.3932141
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/333289026"
+          },
+          {
+            "osmId": "way/1437029979",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5214037,
+              52.4011334
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1437029979"
+          },
+          {
+            "osmId": "way/697547063",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.5367655,
+              52.3953759
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/697547063"
+          }
+        ],
+        "toilets": [
+          {
+            "osmId": "way/697545120",
+            "name": "Unnamed public toilets",
+            "coordinates": [
+              -0.5349833,
+              52.3973461
+            ],
+            "category": "toilets",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-697545120",
+            "curated": true,
+            "tags": {
+              "amenity": "toilets",
+              "building": "yes",
+              "source": "Bing"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/697545120"
+          }
+        ]
+      }
+    }
+  ]
+}

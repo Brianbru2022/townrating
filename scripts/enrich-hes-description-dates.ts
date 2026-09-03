@@ -64,16 +64,35 @@ function descriptionFromHtml(html: string): string | undefined {
 }
 
 const candidates = pkg.features.filter(
-  (feature) =>
-    feature.id.startsWith('hes-listed-building:') &&
-    !feature.tags.includes('date-reviewed') &&
-    !feature.documentedDateText,
+  (feature) => {
+    const hasAdministrativeDate = /^date:\s*\d{4}(?:-\d{2})?$/i.test(
+      feature.documentedDateText?.trim() ?? '',
+    );
+    const isLocalCandidate =
+      feature.evidenceScope !== 'out_of_scope' &&
+      !feature.tags.includes('town-selection-heritage-buffer');
+    return feature.id.startsWith('hes-listed-building:') &&
+      (hasAdministrativeDate ||
+        (isLocalCandidate && !feature.tags.includes('date-reviewed') && !feature.documentedDateText));
+  },
 );
 const failures: Array<{ id: string; sourceUrl?: string; reason: string }> = [];
 let enriched = 0;
 
 async function enrich(feature: HeritageFeature): Promise<void> {
-  const reference = feature.id.split(':').at(-1);
+  const hasAdministrativeDate = /^date:\s*\d{4}(?:-\d{2})?$/i.test(
+    feature.documentedDateText?.trim() ?? '',
+  );
+  const shouldRemainHidden = feature.evidenceScope === 'related_context' ||
+    feature.evidenceScope === 'out_of_scope' ||
+    feature.tags.includes('town-selection-heritage-buffer');
+  const reference =
+    feature.sourceRecords.find((record) => /^LB\d+$/i.test(record.sourceRecordId ?? ''))
+      ?.sourceRecordId ?? feature.id.match(/lb\d+$/i)?.[0]?.toUpperCase();
+  if (!reference) {
+    failures.push({ id: feature.id, reason: 'No HES LB reference found.' });
+    return;
+  }
   const sourceUrl = `https://portal.historicenvironment.scot/designation/${reference}`;
   try {
     const response = await fetch(sourceUrl, {
@@ -110,12 +129,33 @@ async function enrich(feature: HeritageFeature): Promise<void> {
         ...feature.sourceRecords.filter((record) => record.sourceName !== source.sourceName),
         source,
       ],
-      tags: [...new Set([...feature.tags, 'hes-date-extracted'])],
+      tags: [
+        ...new Set([
+          ...feature.tags.filter((tag) => tag !== 'map-hidden'),
+          ...(shouldRemainHidden ? ['map-hidden'] : []),
+          'hes-date-extracted',
+          'hes-date-reviewed',
+          'date-reviewed',
+        ]),
+      ],
       updatedAt: accessedAt,
       reviewNotes: `${feature.reviewNotes ? `${feature.reviewNotes} ` : ''}Date normalised from the opening HES listing description; curator review remains required.`,
     });
     enriched += 1;
   } catch (error) {
+    if (hasAdministrativeDate) {
+      Object.assign(feature, {
+        documentedDateText: undefined,
+        earliestPossibleYear: undefined,
+        latestPossibleYear: undefined,
+        datePrecision: undefined,
+        dateBasis: 'unknown',
+        dateConfidence: 'unknown',
+        tags: [...new Set([...feature.tags, 'map-hidden', 'heritage-record-retained'])],
+        updatedAt: accessedAt,
+        reviewNotes: `${feature.reviewNotes ? `${feature.reviewNotes} ` : ''}The imported HES listing administration date was removed; no defensible construction date was extracted, so the retained record remains hidden from the heat map.`,
+      });
+    }
     failures.push({
       id: feature.id,
       sourceUrl,

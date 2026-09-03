@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-30",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers.",
+  "namingDecisions": [
+    "Redford resolves to the already-published Redford Farm near Garvock and is not duplicated.",
+    "Ecclesgreig represents the current mapped rural locality; its historical use as a name for St Cyrus does not create a duplicate village.",
+    "Lochside is retained separately from the adjoining St Cyrus settlement.",
+    "Pathhead resolves to the DD10 0AG Aberdeenshire locality near St Cyrus and Morphie, not Midlothian or Fife."
+  ],
+  "existing": [
+    {
+      "name": "Redford",
+      "projectId": "redford-garvock-scotland",
+      "score": 24
+    }
+  ],
+  "additions": [
+    {
+      "name": "Dykelands",
+      "projectId": "dykelands-scotland",
+      "region": "Aberdeenshire",
+      "score": 24,
+      "dogOwnerScore": 22,
+      "publishOnTownMap": false,
+      "rationale": "Dykelands is retained as a distinct rural locality and does not inherit Marykirk, Laurencekirk or nearby estate attractions.",
+      "sourceUrl": "https://www.openstreetmap.org/node/12152154252"
+    },
+    {
+      "name": "Benholm",
+      "projectId": "benholm-scotland",
+      "region": "Aberdeenshire",
+      "score": 46,
+      "dogOwnerScore": 45,
+      "publishOnTownMap": false,
+      "rationale": "Benholm has a coherent historic identity, but remains below the map gate until a full audit verifies current public access, trails and visitor facilities without borrowing neighbouring Johnshaven.",
+      "sourceUrl": "https://www.openstreetmap.org/node/2383642143"
+    },
+    {
+      "name": "Johnshaven",
+      "projectId": "johnshaven-scotland",
+      "region": "Aberdeenshire",
+      "score": 58,
+      "dogOwnerScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "Johnshaven has strong harbour and village character but remains just below 60 pending a complete See, Eat, trails and practical visitor audit.",
+      "sourceUrl": "https://www.openstreetmap.org/node/495236262"
+    },
+    {
+      "name": "St Cyrus",
+      "projectId": "st-cyrus-scotland",
+      "region": "Aberdeenshire",
+      "score": 58,
+      "dogOwnerScore": 57,
+      "publishOnTownMap": false,
+      "rationale": "St Cyrus warrants a full audit but remains below the town-map threshold until the settlement itself is separated from the independently scored National Nature Reserve and its practical visitor offer is checked.",
+      "sourceUrl": "https://www.openstreetmap.org/node/408887964"
+    },
+    {
+      "name": "Ecclesgreig",
+      "projectId": "ecclesgreig-scotland",
+      "region": "Aberdeenshire",
+      "score": 22,
+      "dogOwnerScore": 20,
+      "publishOnTownMap": false,
+      "rationale": "Although Ecclesgreig is also the historic name associated with St Cyrus, this entry represents the present mapped rural locality and does not duplicate the village or imply access to private estate property.",
+      "sourceUrl": "https://www.openstreetmap.org/node/14029842142"
+    },
+    {
+      "name": "Lochside",
+      "projectId": "lochside-st-cyrus-scotland",
+      "region": "Aberdeenshire",
+      "score": 36,
+      "dogOwnerScore": 35,
+      "publishOnTownMap": false,
+      "rationale": "Lochside is retained as the separately named adjoining settlement. St Cyrus services and the National Nature Reserve are not automatically transferred into its score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/6855158423"
+    },
+    {
+      "name": "Morphie",
+      "projectId": "morphie-scotland",
+      "region": "Aberdeenshire",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "Morphie has genuine historic and archaeological context, but the Stone of Morphie and private properties remain separate See or heritage records rather than creating a tourist settlement.",
+      "sourceUrl": "https://www.openstreetmap.org/node/8138039473"
+    },
+    {
+      "name": "Pathhead",
+      "projectId": "pathhead-st-cyrus-scotland",
+      "region": "Aberdeenshire",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "This resolves to the Pathhead locality near St Cyrus and Morphie, not the better-known Midlothian or Fife settlements. A postcode centroid requires a cautious boundary and no neighbouring attractions are borrowed.",
+      "sourceUrl": "https://api.postcodes.io/postcodes/DD100AG"
+    }
+  ]
+}

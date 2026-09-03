@@ -1,0 +1,115 @@
+{
+  "projectId": "linlithgow-scotland",
+  "reviewedAt": "2026-08-07T00:00:00Z",
+  "townRating": {
+    "previous": 3,
+    "rating": 3,
+    "rationale": "Three stars is retained. Linlithgow Palace, the loch and Peel, St Michael's, the High Street, museum and canal make a coherent full-day destination with unusually easy rail access."
+  },
+  "boundary": {
+    "active": "Original NRS 2022 Linlithgow locality, unchanged.",
+    "rule": "Every public town-planner marker is inside the active locality polygon."
+  },
+  "published": {
+    "attractions": [
+      {
+        "name": "Linlithgow Palace",
+        "score": 93,
+        "featureId": "nrhe:49261"
+      },
+      {
+        "name": "Linlithgow Loch and the Peel",
+        "score": 89,
+        "featureId": "nrhe:293918"
+      },
+      {
+        "name": "St Michael's Parish Church",
+        "score": 83,
+        "featureId": "hes-listed-building:LB37499"
+      },
+      {
+        "name": "Linlithgow Canal Centre and boat trips",
+        "score": 82,
+        "featureId": "hes-listed-building:LB37479"
+      },
+      {
+        "name": "Linlithgow Museum",
+        "score": 78,
+        "featureId": "osm-community:node-192309908"
+      },
+      {
+        "name": "Linlithgow Burgh Halls and Rose Garden",
+        "score": 72,
+        "featureId": "hes-listed-building:LB37362"
+      }
+    ],
+    "eat": [
+      "osm-community:node-4592926618",
+      "osm-community:node-549303928",
+      "curated-food:linlithgow-cafebar-1807",
+      "osm-community:node-3644699531",
+      "osm-community:node-192347019",
+      "osm-community:node-5126658386",
+      "osm-community:node-4592926619"
+    ],
+    "trails": [
+      "visitor-context:linlithgow-heritage-trail",
+      "visitor-context:linlithgow-loch-circular",
+      "visitor-context:linlithgow-perambulation"
+    ],
+    "picnic": [
+      "osm-community:node-11265111759",
+      "osm-community:node-2058518872"
+    ],
+    "parking": [
+      "osm-community:way-32087630",
+      "osm-community:way-195407103",
+      "osm-community:way-18751664",
+      "osm-community:way-209064143"
+    ],
+    "toilets": [
+      "osm-community:node-2425689741",
+      "visitor-context:linlithgow-burgh-halls-toilets",
+      "visitor-context:linlithgow-tam-dalyell-house-toilets"
+    ]
+  },
+  "excluded": [
+    {
+      "name": "House of the Binns, Blackness Castle and Beecraigs Country Park",
+      "reason": "Official visitor sources present them as nearby excursions, but they are outside the active Linlithgow locality and excluded from the town planner and rating."
+    },
+    {
+      "name": "Avon Aqueduct and the longer Visit West Lothian canal walk",
+      "reason": "The route leaves the town polygon. The canal centre remains in-town, but the aqueduct is not counted as a Linlithgow town attraction."
+    },
+    {
+      "name": "Former Vennel and unverified palace toilet markers",
+      "reason": "Replaced by the current official West Lothian list: Water Yett, Burgh Halls and Tam Dalyell House."
+    },
+    {
+      "name": "Private, residents-only and customer-only parking",
+      "reason": "Excluded unless current visitor access and restrictions were defensible."
+    }
+  ],
+  "practicalCorrections": {
+    "parking": "Four useful public visitor car parks are named and explicitly marked free or paid, with restrictions where known.",
+    "toilets": "Stale and duplicate OSM records are replaced by the three currently listed West Lothian public facilities.",
+    "picnic": "Individual OSM table nodes are consolidated into two location-led picnic areas."
+  },
+  "artwork": {
+    "path": "/town-guides/linlithgow-palace-loch-watercolour-guide.png",
+    "method": "Generated as a text-free editorial ink-and-watercolour town guide illustration using the established Townscape Guides visual style."
+  },
+  "sourceUrls": [
+    "https://www.visitwestlothian.co.uk/explore/linlithgow/",
+    "https://www.historicenvironment.scot/visit-a-place/places/linlithgow-palace/plan-your-visit/",
+    "https://www.stmichaelsparish.org.uk/visit/opening-hours/",
+    "https://www.linlithgowmuseum.org/visit",
+    "https://www.lucs.org.uk/opening-times-and-dates/",
+    "https://www.linlithgowburghhalls.co.uk/",
+    "https://linlithgow.co.uk/heritagetrail/",
+    "https://linlithgow.co.uk/perambulation/",
+    "https://www.westlothian.gov.uk/toilets",
+    "https://linlithgow.co.uk/parking/"
+  ]
+}

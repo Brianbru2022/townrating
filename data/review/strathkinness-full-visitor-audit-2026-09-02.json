@@ -1,0 +1,100 @@
+{
+  "reviewedAt": "2026-09-02T14:00:00.000Z",
+  "projectId": "strathkinness-scotland",
+  "place": "Strathkinness",
+  "townScore": 45,
+  "mapPublished": false,
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0
+    },
+    "eat": {
+      "audited": true,
+      "published": 0
+    },
+    "trails": {
+      "audited": true,
+      "published": 0,
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue checked; no live place-specific product.",
+        "CuriousAbout": "Provider catalogue checked; no place-specific route.",
+        "MysteryGuides": "Provider catalogue checked; no place-specific route.",
+        "GoQuestAdventures": "Provider catalogue checked; no place-specific route.",
+        "officialRoutes": "ScotWays Bishop’s Road starts at Bishop’s Wood south of the strict settlement and is not reassigned as an in-village trail."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0
+    },
+    "parking": {
+      "audited": true,
+      "published": 0
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Accessibility is described only where current route, venue or council evidence supports it; no blanket accessible claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Current Fife public-transport and Go-Flexi information was checked; transport access does not add destination points by itself."
+    },
+    "dogs": {
+      "audited": true,
+      "adjustment": -2
+    }
+  },
+  "exclusions": [
+    "The Strathkinness Tavern is pub-led and not a café-category entry.",
+    "Bishop’s Wood trailhead lies outside the strict settlement boundary.",
+    "Community hall and school parking are not general visitor parking."
+  ],
+  "hes": {
+    "assigned": 1,
+    "visibleDated": 1,
+    "hiddenUndated": 0,
+    "visibleUndated": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places physically inside Strathkinness's strict study area, or an explicitly related cross-boundary route that genuinely serves it, are published.",
+  "scoreRationale": "Strathkinness has a coherent community identity, garden, orchard and woodland activity, but no independently visitable attraction, qualifying daytime café, in-boundary maintained visitor trail or public visitor facility was verified. Its earlier 45 remains evidence-led rather than a placeholder.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 45,
+    "rationale": "Score was independently reconciled after all categories and boundary exclusions."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://www.strathkinnesscommunity.org.uk/Index.asp?MainID=34511",
+        "outcome": "verified",
+        "note": "Current community source confirms the garden, orchard, village green and Bishop’s Wood stewardship.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://scotways.com/heritage-path/HP201/",
+        "outcome": "excluded",
+        "note": "Bishop’s Road starts south of the village boundary and is not used to inflate the settlement score.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No current Strathkinness product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "liveBrowserVerifiedAt": "2026-09-02T15:35:00.000Z"
+  }
+}

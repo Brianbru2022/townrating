@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T11:23:17.243Z",
+  "boundaryRule": "Exact active project boundary; no nearby places are counted.",
+  "curationRule": "OSM is discovery evidence. See and Eat require names; private, permit-only, customer-only, inactive and no-access places are excluded. Publication still requires editorial review.",
+  "towns": [
+    {
+      "projectId": "sawtry-england",
+      "locality": "Sawtry",
+      "projectFile": "sawtry.json",
+      "counts": {
+        "see": {
+          "osm": 1,
+          "eligible": 0,
+          "curated": 0,
+          "uncurated": 0
+        },
+        "eat": {
+          "osm": 5,
+          "eligible": 4,
+          "curated": 2,
+          "uncurated": 4
+        },
+        "picnic": {
+          "osm": 0,
+          "eligible": 0,
+          "curated": 1,
+          "uncurated": 0
+        },
+        "parking": {
+          "osm": 23,
+          "eligible": 19,
+          "curated": 1,
+          "uncurated": 18
+        },
+        "toilets": {
+          "osm": 0,
+          "eligible": 0,
+          "curated": 0,
+          "uncurated": 0
+        }
+      },
+      "candidates": {
+        "see": [
+          {
+            "osmId": "node/1395317721",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.2846955,
+              52.4370098
+            ],
+            "category": "see",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "man_made": "tower"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1395317721"
+          }
+        ],
+        "eat": [
+          {
+            "osmId": "way/909182174",
+            "name": "Rumbles",
+            "coordinates": [
+              -0.2845288,
+              52.4372651
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "fast_food",
+              "building": "yes",
+              "cuisine": "fish_and_chips",
+              "name": "Rumbles"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/909182174"
+          },
+          {
+            "osmId": "node/1133629971",
+            "name": "Sawtry Takeaway",
+            "coordinates": [
+              -0.2850106,
+              52.4387521
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Huntingdon",
+              "addr:postcode": "PE28 5UR",
+              "addr:street": "Greenways",
+              "amenity": "fast_food",
+              "cuisine": "fish_and_chips",
+              "name": "Sawtry Takeaway",
+              "source:addr": "interpolation"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1133629971"
+          },
+          {
+            "osmId": "way/127772874",
+            "name": "The Bell Inn",
+            "coordinates": [
+              -0.2802497,
+              52.433826
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "pub",
+              "building": "yes",
+              "name": "The Bell Inn"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/127772874"
+          },
+          {
+            "osmId": "way/124953467",
+            "name": "The Greystones",
+            "coordinates": [
+              -0.2840746,
+              52.438869
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Huntingdon",
+              "addr:country": "GB",
+              "addr:postcode": "PE28 5ST",
+              "addr:suburb": "Sawtry",
+              "amenity": "pub",
+              "building": "yes",
+              "name": "The Greystones",
+              "wikidata": "Q26423244"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/124953467"
+          },
+          {
+            "osmId": "node/1395393372",
+            "name": "Unnamed visitor place",
+            "coordinates": [
+              -0.2839174,
+              52.4391959
+            ],
+            "category": "eat",
+            "eligible": false,
+            "exclusionReason": "unnamed",
+            "curated": false,
+            "tags": {
+              "amenity": "fast_food",
+              "cuisine": "kebab"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1395393372"
+          }
+        ],
+        "picnic": [],
+        "parking": [
+          {
+            "osmId": "way/1314060277",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2911145,
+              52.4354892
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1314060277"
+          },
+          {
+            "osmId": "way/1314060278",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2914138,
+              52.4354853
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/1314060278"
+          },
+          {
+            "osmId": "way/127787597",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.277433,
+              52.4321767
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/127787597"
+          },
+          {
+            "osmId": "way/93660267",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2802841,
+              52.4314523
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-93660267",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/93660267"
+          },
+          {
+            "osmId": "way/126976629",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2845529,
+              52.4354491
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/126976629"
+          },
+          {
+            "osmId": "way/126976636",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2841982,
+              52.4359381
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/126976636"
+          },
+          {
+            "osmId": "way/126976638",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2846519,
+              52.4355487
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/126976638"
+          },
+          {
+            "osmId": "way/168183115",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2823186,
+              52.4363393
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/168183115"
+          },
+          {
+            "osmId": "way/127772875",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2807382,
+              52.4341991
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/127772875"
+          },
+          {
+            "osmId": "way/127784208",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2787808,
+              52.433021
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/127784208"
+          },
+          {
+            "osmId": "way/127787600",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2776925,
+              52.4322907
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "parking": "street_side"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/127787600"
+          },
+          {
+            "osmId": "way/127950153",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2784619,
+              52.4355464
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/127950153"
+          },
+          {
+            "osmId": "way/135350692",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2790754,
+              52.4359127
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/135350692"
+          },
+          {
+            "osmId": "way/135350693",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2810324,
+              52.4375284
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/135350693"
+          },
+          {
+            "osmId": "way/31266544",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2847388,
+              52.4386514
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/31266544"
+          },
+          {
+            "osmId": "way/124953465",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2837791,
+              52.4385911
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/124953465"
+          },
+          {
+            "osmId": "way/168183119",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.282075,
+              52.4367996
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/168183119"
+          },
+          {
+            "osmId": "way/124953468",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2862468,
+              52.4393697
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/124953468"
+          },
+          {
+            "osmId": "way/227028999",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2851312,
+              52.4410354
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/227028999"
+          },
+          {
+            "osmId": "way/127772877",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2802392,
+              52.4340037
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/127772877"
+          },
+          {
+            "osmId": "way/135350691",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2791848,
+              52.4371216
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/135350691"
+          },
+          {
+            "osmId": "way/909182172",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2817735,
+              52.434687
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/909182172"
+          },
+          {
+            "osmId": "way/296525848",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.2857676,
+              52.4430553
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/296525848"
+          }
+        ],
+        "toilets": []
+      }
+    }
+  ]
+}

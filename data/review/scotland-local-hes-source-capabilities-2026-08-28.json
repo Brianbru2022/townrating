@@ -1,0 +1,116 @@
+{
+  "reviewedAt": "2026-08-28T17:30:00Z",
+  "policy": "Use local HES spatial and descriptive snapshots first. Administrative DESIGNATED, ENTRYDATE and LASTUPDATE values are provenance dates and must never be used as construction dates. Internet fallback is permitted only for references emitted by the unresolved-date audit.",
+  "datasets": [
+    {
+      "id": "hes-listed-buildings",
+      "localFiles": {
+        "shp": "E:\\Apps\\Heatmap\\data\\reference\\scotland-hes\\lb_scotland\\Listed_Buildings.shp",
+        "dbf": "E:\\Apps\\Heatmap\\data\\reference\\scotland-hes\\lb_scotland\\Listed_Buildings.dbf",
+        "prj": "E:\\Apps\\Heatmap\\data\\reference\\scotland-hes\\lb_scotland\\Listed_Buildings.prj",
+        "cpg": "E:\\Apps\\Heatmap\\data\\reference\\scotland-hes\\lb_scotland\\Listed_Buildings.cpg"
+      },
+      "records": 67476,
+      "fields": [
+        "Shape",
+        "ACCURACY",
+        "CATEGORY",
+        "CLASS",
+        "COMPILER",
+        "LOCAL_AUTH",
+        "DES_REF",
+        "DES_TITLE",
+        "DES_TYPE",
+        "ENT_TITLE",
+        "GROUPCAT",
+        "LEGISLATIO",
+        "NAT_PARK",
+        "PARBUR",
+        "PRECISION",
+        "LINK",
+        "DESIGNATED",
+        "AMENDED",
+        "CREATED",
+        "UPDATED",
+        "ENTITY_REF",
+        "ENTITY_SEQ",
+        "X",
+        "Y"
+      ],
+      "historicDateCapability": "The spatial DBF has no construction-period or description field. Historic dates come from the formal local official-description snapshot."
+    },
+    {
+      "id": "hes-scheduled-monuments",
+      "localFiles": {
+        "shp": "E:\\Apps\\Heatmap\\data\\reference\\scotland-hes\\sam_scotland\\Scheduled_Monuments.shp",
+        "dbf": "E:\\Apps\\Heatmap\\data\\reference\\scotland-hes\\sam_scotland\\Scheduled_Monuments.dbf",
+        "prj": "E:\\Apps\\Heatmap\\data\\reference\\scotland-hes\\sam_scotland\\Scheduled_Monuments.prj",
+        "cpg": "E:\\Apps\\Heatmap\\data\\reference\\scotland-hes\\sam_scotland\\Scheduled_Monuments.cpg"
+      },
+      "records": 8072,
+      "fields": [
+        "SHAPE",
+        "ACCURACY",
+        "CATEGORY",
+        "CAP_SCALE",
+        "CLASS",
+        "COMPILER",
+        "LOCAL_AUTH",
+        "DES_REF",
+        "DES_TITLE",
+        "DES_TYPE",
+        "LEGISLATIO",
+        "PARISH",
+        "PRECISION",
+        "LINK",
+        "DESIGNATED",
+        "AMENDED",
+        "CREATED",
+        "UPDATED",
+        "AREA",
+        "X",
+        "Y"
+      ],
+      "historicDateCapability": "The spatial DBF has no monument-period or description field. DESIGNATED and AMENDED are administrative dates only."
+    },
+    {
+      "id": "hes-canmore-points",
+      "localFiles": {
+        "shp": "E:\\Apps\\Heatmap\\data\\reference\\scotland-hes\\Canmore_Points\\Canmore_Points.shp",
+        "dbf": "E:\\Apps\\Heatmap\\data\\reference\\scotland-hes\\Canmore_Points\\Canmore_Points.dbf",
+        "prj": "E:\\Apps\\Heatmap\\data\\reference\\scotland-hes\\Canmore_Points\\Canmore_Points.prj",
+        "cpg": "E:\\Apps\\Heatmap\\data\\reference\\scotland-hes\\Canmore_Points\\Canmore_Points.cpg"
+      },
+      "records": 313491,
+      "fields": [
+        "SHAPE",
+        "CANMOREID",
+        "SITENUMBER",
+        "NMRSNAME",
+        "ALTNAME",
+        "BROADCLASS",
+        "SITETYPE",
+        "COUNTY",
+        "COUNCIL",
+        "PARISH",
+        "ARCHITECTU",
+        "ARCHAEOLOG",
+        "FORM",
+        "GRIDREF",
+        "ACCURACY",
+        "URL",
+        "ENTRYDATE",
+        "LASTUPDATE",
+        "XCOORD",
+        "YCOORD",
+        "COMPILER",
+        "LICENCE"
+      ],
+      "historicDateCapability": "The local export supplies names, broad classes and site types but no historic period field. ENTRYDATE and LASTUPDATE are database-administration dates, so no construction date is inferred from them."
+    }
+  ],
+  "localOfficialDescriptions": {
+    "path": "E:\\Apps\\Heatmap\\data\\reference\\scotland-hes\\hes-listed-building-descriptions.json",
+    "records": 3361
+  }
+}

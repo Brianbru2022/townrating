@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-29",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers. Attractions never inflate settlement scores.",
+  "existingEntries": [
+    {
+      "requestedName": "Leochnel Cushnie",
+      "resolvedName": "Leochel-Cushnie",
+      "projectId": "leochel-cushnie-scotland",
+      "score": 38,
+      "action": "Retained existing entry; no duplicate created."
+    }
+  ],
+  "namingDecisions": [
+    "Leochnel Cushnie resolves to the existing Leochel-Cushnie entry.",
+    "Findrack Ho is expanded to Findrack House.",
+    "Milton of Auchinlobe is corrected to Milton of Auchinhove."
+  ],
+  "additions": [
+    {
+      "requestedName": "Kintocher",
+      "resolvedName": "Kintocher",
+      "projectId": "kintocher-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "The study point covers Mill of Kintocher and East Kintocher. Nearby Craigievar and wider Howe of Alford attractions do not raise its settlement score.",
+      "sourceUrl": "https://www.openstreetmap.org/way/697418320",
+      "boundaryConfidence": "low"
+    },
+    {
+      "requestedName": "Findrack Ho",
+      "resolvedName": "Findrack House",
+      "projectId": "findrack-house-scotland",
+      "score": 12,
+      "dogOwnerScore": 10,
+      "publishOnTownMap": false,
+      "rationale": "The abbreviated request is expanded to Findrack House. The house, walled garden and dovecot are heritage records, not evidence of a town destination or general public access.",
+      "sourceUrl": "https://her.aberdeenshire.gov.uk/Monument/MAB15163/",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Lumphanan",
+      "resolvedName": "Lumphanan",
+      "projectId": "lumphanan-scotland",
+      "score": 56,
+      "dogOwnerScore": 55,
+      "publishOnTownMap": false,
+      "rationale": "Lumphanan may merit destination publication, but Peel of Lumphanan and dispersed parish heritage cannot substitute for a complete attraction, trail, café and practical-facility audit.",
+      "sourceUrl": "https://www.openstreetmap.org/node/250256257",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Craskins",
+      "resolvedName": "Craskins",
+      "projectId": "craskins-scotland",
+      "score": 14,
+      "dogOwnerScore": 12,
+      "publishOnTownMap": false,
+      "rationale": "The farm establishes geographic identity only; surrounding Cromar landscape and estates are not borrowed into its score.",
+      "sourceUrl": "https://www.openstreetmap.org/relation/18570431",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Milton of Auchinlobe",
+      "resolvedName": "Milton of Auchinhove",
+      "projectId": "milton-of-auchinhove-scotland",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "The requested name is corrected to Milton of Auchinhove using the official local heritage record. Historic buildings remain heritage evidence and do not imply public access.",
+      "sourceUrl": "https://her.aberdeenshire.gov.uk/Monument/MAB12112",
+      "boundaryConfidence": "high"
+    },
+    {
+      "requestedName": "Auchlossan",
+      "resolvedName": "Auchlossan",
+      "projectId": "auchlossan-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "Auchlossan House and steading provide historic context only; the former loch, railway history and nearby Lumphanan attractions are not transferred into the score.",
+      "sourceUrl": "https://api.postcodes.io/postcodes/AB314SR",
+      "boundaryConfidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "reviewedAt": "2026-09-02T19:15:00.000Z",
+  "sequence": 5,
+  "sequenceTotal": 13,
+  "projectId": "denhead-st-andrews-scotland",
+  "place": "Denhead",
+  "townScore": 40,
+  "mapPublished": false,
+  "settlementMerit": {
+    "result": "selector_only",
+    "rationale": "Denhead is a rural hamlet crossed by the final Fife Pilgrim Way stage, but it has no independent visitor attraction, qualifying café or public facilities. The route is useful context without turning the hamlet into a 60+ destination."
+  },
+  "categories": {
+    "see": {
+      "audited": true,
+      "published": 0,
+      "note": "No independent attraction verified."
+    },
+    "eat": {
+      "audited": true,
+      "published": 0,
+      "focus": "Cafés, coffee and cake, tearooms, farm cafés, breakfast and light lunches; full-meal restaurants excluded.",
+      "note": "No qualifying daytime food stop verified."
+    },
+    "trails": {
+      "audited": true,
+      "published": 1,
+      "note": "The Fife Pilgrim Way is retained as a through-route.",
+      "providerChecks": {
+        "TreasureTrails": "Current Fife catalogue searched for the exact locality.",
+        "CuriousAbout": "Current catalogue searched for the exact locality.",
+        "MysteryGuides": "Current catalogue searched for the exact locality.",
+        "GoQuestAdventures": "Current catalogue searched for the exact locality.",
+        "officialRoutes": "The Ceres-to-St Andrews Fife Pilgrim Way stage crosses the locality."
+      }
+    },
+    "picnic": {
+      "audited": true,
+      "published": 0,
+      "note": "Craigtoun picnic provision is outside the locality."
+    },
+    "parking": {
+      "audited": true,
+      "published": 0,
+      "note": "No public visitor car park verified."
+    },
+    "toilets": {
+      "audited": true,
+      "published": 0,
+      "note": "No public toilet verified."
+    },
+    "accessibility": {
+      "audited": true,
+      "note": "Venue and route access is stated only when a current source supports it; no blanket claim is made."
+    },
+    "transport": {
+      "audited": true,
+      "note": "Road and available public-transport context checked; volatile timetables are not copied."
+    },
+    "dogs": {
+      "audited": true,
+      "note": "Town adjustment and venue-specific evidence retained; no unsupported dog-friendly claim added."
+    }
+  },
+  "exclusions": [
+    "Craigtoun Country Park café, toilets, picnic tables and attractions are outside Denhead.",
+    "St Andrews services are not transferred."
+  ],
+  "heritage": {
+    "source": "Downloaded local HES Listed Buildings, Scheduled Monuments and NRHE datasets with locally cached official descriptions",
+    "projectId": "denhead-st-andrews-scotland",
+    "totalHesAndNrheRetained": 6,
+    "localRecords": 6,
+    "listedBuildings": 0,
+    "scheduledMonuments": 0,
+    "nrhe": 5,
+    "relatedBufferRecords": 0,
+    "removedOutOfScope": 0,
+    "enriched": 1,
+    "datedLocalRecords": 1,
+    "undatedLocalRecordsRetainedHidden": 5,
+    "visibleHeritagePins": 1,
+    "visiblePinsWithoutDates": 0,
+    "visiblePinNamesContainingDate": 0,
+    "missing": 0
+  },
+  "boundaryRule": "Only visitor places inside Denhead's strict study area count toward the settlement score. Explicit related context may be shown but cannot inflate the town.",
+  "scoreRationale": "Denhead is a rural hamlet crossed by the final Fife Pilgrim Way stage, but it has no independent visitor attraction, qualifying café or public facilities. The route is useful context without turning the hamlet into a 60+ destination.",
+  "scoreReanalysis": {
+    "required": false,
+    "completed": true,
+    "resultScore": 40,
+    "rationale": "Score reconciled after all categories, boundary exclusions and source checks."
+  },
+  "research": {
+    "currentWebResearch": true,
+    "strictBoundaryChecked": true,
+    "sourceChecks": [
+      {
+        "url": "https://fifecoastandcountrysidetrust.co.uk/walks/fife-pilgrim-way/ceres-to-st-andrews/",
+        "outcome": "verified",
+        "note": "The official final stage supplies the route and terrain information through the Denhead area.",
+        "checkedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.treasuretrails.co.uk/collections/fife",
+        "outcome": "no_result",
+        "note": "No exact Denhead product.",
+        "checkedAt": "2026-09-02"
+      }
+    ]
+  },
+  "certification": {
+    "publicationCountsReconciled": true,
+    "localHeritageComplete": true,
+    "visibleHeritageDatesComplete": true,
+    "visibleHeritageLabelsClean": true,
+    "liveBrowserVerifiedAt": "2026-09-02T21:07:29.331Z",
+    "liveChecks": {
+      "fifeSelectorContainsAllRequestedPlaces": true,
+      "auditedScoresRendered": true,
+      "stAndrewsCategoryCountsRendered": true,
+      "kingsbarnsCategoryCountsRendered": true,
+      "exact58SecondPassTownsRendered": true,
+      "heritageDateTextAbsentFromMapLabels": true,
+      "browserConsoleErrors": 0
+    }
+  }
+}

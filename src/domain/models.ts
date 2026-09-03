@@ -19,6 +19,171 @@ export type DateBasis =
   | 'unknown';
 export type EvidenceScope = 'parish_evidence' | 'related_context' | 'out_of_scope';
 export type Significance = 'highest_national' | 'national' | 'regional' | 'local' | 'recognised';
+export type TouristAppealRating = 0 | 1 | 2 | 3;
+export interface TouristAppeal {
+  /** Canonical settlement tourism score. Public badges are derived from this 0-100 value. */
+  score?: number;
+  /** Town appeal for dog owners on the same 0-100 scale; it must never exceed score. */
+  dogOwnerScore?: number;
+  /** Dog access may reduce dogOwnerScore by up to three points, but must never increase it. */
+  dogAccessScoreAdjustment?: number;
+  rating: TouristAppealRating;
+  label: string;
+  summary?: string;
+  /** Dog-access quality only; this paw scale is separate from destination appeal. */
+  dogAccessRating?: TouristAppealRating;
+  dogAccessSummary?: string;
+  methodVersion?: string;
+  reviewedAt?: string;
+  sourceUrls?: string[];
+}
+export interface TownVisualIdentity {
+  theme: string;
+  badgeImage: string;
+  badgeAlt: string;
+  heroImage?: string;
+  heroAlt?: string;
+  heroObjectPosition?: string;
+  motifs?: string[];
+  primaryColour: string;
+  accentColour: string;
+  backgroundColour: string;
+}
+export interface TownGuide {
+  /** A concise editorial description shown directly beneath the town name. */
+  characterTag?: string;
+  headline: string;
+  intro: string;
+  bestFor: string[];
+  perfectFor?: string[];
+  suggestedFirstVisit?: {
+    title: string;
+    summary: string;
+  };
+  dontMiss: string[];
+  suggestedTime: string;
+  visitorMood: string;
+  currentAdvisory?: {
+    title: string;
+    summary: string;
+    sourceUrl: string;
+    linkLabel: string;
+  };
+  sourceUrls: string[];
+  lastReviewedAt: string;
+}
+export interface AttractionGuideFoodOption {
+  name: string;
+  visitorScore: number;
+  summary?: string;
+  openingTimes?: string;
+  priceBand?: string;
+  externalUrl?: string;
+}
+export interface AttractionGuideActivity {
+  name: string;
+  summary?: string;
+}
+export interface AttractionGuideTrail {
+  name: string;
+  summary?: string;
+  routeType?: string;
+  distance?: string;
+  duration?: string;
+  difficulty?: string;
+  /** Official or responsible-body route information for planning the walk. */
+  externalUrl: string;
+}
+export interface AttractionGuide {
+  /** Text-free editorial artwork used by standalone attraction guides on Home. */
+  heroImage?: string;
+  heroAlt?: string;
+  heroObjectPosition?: string;
+  /** Visitor-first copy for the standalone attraction guide pane. */
+  headline?: string;
+  intro?: string;
+  motifs?: string[];
+  bestFor?: string[];
+  /** Confirmed parking provision at the attraction itself. */
+  parking?: string;
+  /** Confirmed toilets at the attraction itself, not nearby town facilities. */
+  toilets?: string;
+  /** Confirmed picnic provision at the attraction itself. */
+  picnic?: string;
+  /** Visitor-facing food status when no individually scored on-site option is listed. */
+  foodNote?: string;
+  /** Curated, scored food options available at the attraction itself. */
+  food?: AttractionGuideFoodOption[];
+  /** Named, source-backed walks available at or directly from the attraction. */
+  trails?: AttractionGuideTrail[];
+  /** The strongest on-site things to see or do, in visitor priority order. */
+  thingsToDo?: AttractionGuideActivity[];
+}
+export type AttractionVisitability =
+  | 'full_visitor_experience'
+  | 'substantial_visible_remains'
+  | 'fragmentary_remains'
+  | 'earthworks_or_site'
+  | 'no_visible_remains'
+  | 'not_applicable';
+
+export interface AttractionEditorialAssessment {
+  experienceDepth: number;
+  distinctiveness: number;
+  presentation: number;
+  journeyWorth: number;
+  accessAndReliability: number;
+  evidenceConfidence: number;
+  visitability: AttractionVisitability;
+}
+
+export interface FoodEditorialAssessment {
+  foodAndDrinkQuality: number;
+  daytimeRelevance: number;
+  distinctiveness: number;
+  consistency: number;
+  visitorFit: number;
+  evidenceConfidence: number;
+}
+
+export interface EditorialRecordReview {
+  status: 'editorially_researched';
+  category: 'attraction' | 'food' | 'trail';
+  /** Allows scores to be recalculated when the editorial method changes. */
+  methodVersion: string;
+  reviewedAt: string;
+  /** Concise explanation of why the saved score is justified for visitors. */
+  scoreRationale: string;
+  /** Opened sources used for the assessment, not search-result snippets. */
+  evidenceUrls: string[];
+  /** Required for historic sites whose name does not establish what survives. */
+  visitability?: AttractionVisitability;
+  attractionAssessment?: AttractionEditorialAssessment;
+  foodAssessment?: FoodEditorialAssessment;
+}
+export interface VisitorHighlight {
+  rank: number;
+  featureId: string;
+  name: string;
+  reason: string;
+  tagline?: string;
+  visitorScore?: number;
+  timeToSpend?: string;
+  openingTimes?: string;
+  admission?: string;
+  freeAdmission?: boolean;
+  organisationPills?: string[];
+  attractionGuide?: AttractionGuide;
+  /** Explicitly remove an otherwise qualifying place from the national discovery map. */
+  homeMapEligible?: boolean;
+  /** Public planning page. Evidence/register URLs remain in sourceUrl/source records. */
+  visitorWebsiteUrl?: string;
+  /** Saved editorial sign-off for the public score and recommendation. */
+  editorialReview?: EditorialRecordReview;
+  sourceName: string;
+  sourceUrl: string;
+  verifiedInBoundaryAt: string;
+}
 export type FeatureType =
   | 'castle'
   | 'tower'
@@ -119,6 +284,8 @@ export interface HeritageFeature {
     | 'unknown';
   shortDescription?: string;
   fullDescription?: string;
+  /** Normalised key=value facts for researched current visitor places. */
+  details?: string;
   sourceRecords: SourceRecord[];
   licence?: string;
   tags: string[];
@@ -127,6 +294,14 @@ export interface HeritageFeature {
   reviewed: boolean;
   reviewNotes?: string;
   evidenceScope?: EvidenceScope;
+  /** Optional visitor guide for a specific attraction, including on-site facilities. */
+  attractionGuide?: AttractionGuide;
+  /** Explicitly remove an otherwise qualifying place from the national discovery map. */
+  homeMapEligible?: boolean;
+  /** Public planning page; evidence and map URLs stay in sourceRecords. */
+  visitorWebsiteUrl?: string;
+  /** Saved editorial sign-off for public scores on feature-backed cards. */
+  editorialReview?: EditorialRecordReview;
 }
 
 export interface HistoricMapLayer {
@@ -210,6 +385,10 @@ export interface TownProject {
   timelineEnd?: number;
   methodology: ScoringMethodology;
   researchNotes?: string;
+  touristAppeal?: TouristAppeal;
+  visualIdentity?: TownVisualIdentity;
+  townGuide?: TownGuide;
+  visitorHighlights?: VisitorHighlight[];
   /**
    * A modern statistical locality used only to make a transparent town-level
    * statutory-register extract. It never replaces the project's study boundary.
@@ -226,6 +405,12 @@ export interface TownStudyArea {
   bufferMetres: number;
   localityBoundary: Feature<Polygon | MultiPolygon>;
   bufferedBoundary: Feature<Polygon | MultiPolygon>;
+  /**
+   * Optional visitor-facing boundary for directly adjoining places that are
+   * experienced as part of the town but fall beyond the statistical locality.
+   * The original locality boundary remains unchanged for provenance.
+   */
+  visitorBoundary?: Feature<Polygon | MultiPolygon>;
   notes: string;
 }
 

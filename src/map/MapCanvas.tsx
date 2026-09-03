@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import maplibregl, { type Map } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { useExplorerStore } from '../app/store';
+import { useExplorerStore, type PlannerMapNeed } from '../app/store';
 import { historicCharacterScore } from '../domain/scoring';
 import { featureTimelineState, hasHistoricTimelineDate } from '../domain/timeline';
 import {
@@ -9,22 +9,26 @@ import {
   isMapCatalogueRecord,
   isPublicTownFeature,
 } from '../domain/presentation';
-import type { HeritageFeature, ScoringMethodology, SettlementAgePolygon } from '../domain/models';
-import type { LineString, MultiPolygon, Point, Polygon } from 'geojson';
-
-const openStreetMapFallbackStyle = {
-  version: 8,
-  sources: {
-    openstreetmap: {
-      type: 'raster',
-      tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
-      tileSize: 256,
-      maxzoom: 19,
-      attribution: 'OpenStreetMap contributors',
-    },
-  },
-  layers: [{ id: 'openstreetmap', type: 'raster', source: 'openstreetmap' }],
-};
+import type {
+  HeritageFeature,
+  ProjectPackage,
+  ScoringMethodology,
+  SettlementAgePolygon,
+} from '../domain/models';
+import type { FeatureCollection, LineString, MultiPolygon, Point, Polygon } from 'geojson';
+import { freeMapAttribution, freeMapStyle, freeMapStyleLabels } from './styles';
+import { historicHeatmapMaxZoom, historicHeatmapPaint } from './heatmapStyle';
+import { visitorHighlightGeoJson } from './visitorHighlights';
+import {
+  foodRecommendation,
+  foodRecommendationColour,
+  isMappableVisitFeature,
+  visitRecommendation,
+  visitRecommendationColour,
+} from '../domain/visiting';
+import { parkingPriceStatus, visitorNeedPlaces } from '../domain/visitorExperience';
+import { publishedPlannerCurationForProject } from '../data/visitorPlannerCuration';
+import { curatedFeatureIds } from '../domain/plannerCuration';
 const hesDesignationsLayerId = 'hes-listed-buildings-by-category';
 // A clear blue keeps records with no usable historic evidence year distinct
 // from both the dated-century palette and the OSM raster's dark POI symbols.
@@ -57,6 +61,19 @@ interface OsmCommunityMarker {
   variant: string;
   colour: string;
 }
+
+interface OsmCommunityPlaceProperties {
+  id: string;
+  name: string;
+  markerIcon: string;
+  markerCategory: OsmCommunityCategory;
+  markerColour: string;
+  markerInk: string;
+  markerImage: string;
+  recommendationClass?: string;
+}
+
+type OsmCommunityPlaceCollection = FeatureCollection<Point, OsmCommunityPlaceProperties>;
 
 function osmCommunityCategory(feature: HeritageFeature): OsmCommunityCategory | undefined {
   // A current OSM feature can be merged into an authoritative historic record
@@ -231,7 +248,12 @@ function osmCommunityMarker(feature: HeritageFeature): OsmCommunityMarker | unde
     const key = amenity ?? tourism ?? osmTagValue(feature, 'parking') ?? shop;
     return { category, ...(variants[key ?? ''] ?? { variant: 'visitor', colour: '#50679c' }) };
   }
-  if (category === 'parking') return { category, variant: 'parking', colour: '#3d5e91' };
+  if (category === 'parking') {
+    const priceStatus = parkingPriceStatus(feature);
+    if (priceStatus === 'paid')
+      return { category, variant: 'parking-paid', colour: '#b53f38' };
+    return { category, variant: 'parking-free', colour: '#2d748c' };
+  }
   if (category === 'nature') {
     const natural = osmTagValue(feature, 'natural');
     const waterway = osmTagValue(feature, 'waterway');
@@ -288,10 +310,56 @@ function osmCommunityMarker(feature: HeritageFeature): OsmCommunityMarker | unde
   return { category, variant: 'historic-place', colour: '#4b5795' };
 }
 
+function plannerNeedCommunityMarker(need: PlannerMapNeed): OsmCommunityMarker | undefined {
+  if (need === 'see') return { category: 'art', variant: 'artwork', colour: '#c98722' };
+  if (need === 'eat') return { category: 'food', variant: 'cafe', colour: '#8a5635' };
+  if (need === 'trails') return { category: 'visitor', variant: 'map-board', colour: '#6c5b9d' };
+  if (need === 'picnic') return { category: 'picnic', variant: 'picnic', colour: '#b67a24' };
+  if (need === 'parking') return { category: 'parking', variant: 'parking', colour: '#2d748c' };
+  if (need === 'toilets') return { category: 'amenities', variant: 'toilets', colour: '#2d8f96' };
+  if (need === 'walk') return { category: 'nature', variant: 'nature', colour: '#57825e' };
+  if (need === 'parks') return { category: 'nature', variant: 'nature', colour: '#57825e' };
+  if (need === 'photo') return { category: 'visitor', variant: 'viewpoint', colour: '#a34868' };
+  return undefined;
+}
+
+function plannerNeedCommunityMarkerForFeature(
+  feature: HeritageFeature,
+  need?: PlannerMapNeed,
+): OsmCommunityMarker | undefined {
+  if (!need) return undefined;
+  if (need === 'parking') {
+    const priceStatus = parkingPriceStatus(feature);
+    if (priceStatus === 'paid')
+      return { category: 'parking', variant: 'parking-paid', colour: '#b53f38' };
+    return { category: 'parking', variant: 'parking-free', colour: '#2d748c' };
+  }
+  return plannerNeedCommunityMarker(need);
+}
+
+const defaultPlannerCommunityMarkers = [
+  'see',
+  'eat',
+  'trails',
+  'picnic',
+  'parking',
+  'toilets',
+  'walk',
+  'parks',
+  'photo',
+]
+  .map((need) => plannerNeedCommunityMarker(need as PlannerMapNeed))
+  .filter((marker): marker is OsmCommunityMarker => Boolean(marker));
+defaultPlannerCommunityMarkers.push(
+  { category: 'parking', variant: 'parking-free', colour: '#2d748c' },
+  { category: 'parking', variant: 'parking-paid', colour: '#b53f38' },
+);
+
 function communityMarkerImage(
   category: OsmCommunityCategory,
   colour: string,
   variant: string,
+  ink = '#fff',
 ): ImageData {
   const size = 48;
   const canvas = document.createElement('canvas');
@@ -325,7 +393,7 @@ function communityMarkerImage(
   }
   context.fill();
   context.lineWidth = 3;
-  context.strokeStyle = '#fff';
+  context.strokeStyle = ink;
   context.lineCap = 'round';
   context.lineJoin = 'round';
   if (category === 'food') {
@@ -430,7 +498,7 @@ function communityMarkerImage(
       if (variant !== 'map-board') {
         context.beginPath();
         context.arc(24, 14, 1.8, 0, Math.PI * 2);
-        context.fillStyle = '#fff';
+        context.fillStyle = ink;
         context.fill();
       }
     }
@@ -442,7 +510,7 @@ function communityMarkerImage(
     context.bezierCurveTo(32, 24, 31, 19, 24, 10);
     context.stroke();
   } else if (category === 'parking') {
-    context.fillStyle = '#fff';
+    context.fillStyle = ink;
     context.font = '700 27px system-ui, sans-serif';
     context.textAlign = 'center';
     context.textBaseline = 'middle';
@@ -461,12 +529,37 @@ function communityMarkerImage(
   return context.getImageData(0, 0, size, size);
 }
 
+function communityMarkerImageId(marker: OsmCommunityMarker, colourKey = 'category'): string {
+  return `osm-community-${marker.category}-${marker.variant}-${colourKey}-icon`;
+}
+
+function ensureCommunityMarkerImages(map: Map, data: OsmCommunityPlaceCollection): void {
+  for (const feature of data.features) {
+    const { markerCategory, markerColour, markerInk, markerIcon, markerImage } = feature.properties;
+    if (map.hasImage(markerImage)) continue;
+    map.addImage(
+      markerImage,
+      communityMarkerImage(markerCategory, markerColour, markerIcon, markerInk),
+      { pixelRatio: 2 },
+    );
+  }
+}
+
+function recommendationMarkerInk(
+  need: PlannerMapNeed | undefined,
+  recommendationClass?: string,
+): string {
+  if (need === 'see' && recommendationClass === 'score-exceptional') return '#604800';
+  if (need === 'see' && recommendationClass === 'score-high') return '#684b00';
+  return '#fffdf8';
+}
+
 function isCuratedHesDesignation(feature: HeritageFeature): boolean {
   return feature.id.startsWith('hes-');
 }
 
 function matchesFeatureQuery(feature: HeritageFeature, query: string): boolean {
-  const searchable = `${feature.name} ${feature.alternativeNames.join(' ')} ${feature.featureType} ${feature.tags.join(' ')}`;
+  const searchable = `${feature.name} ${(feature.alternativeNames ?? []).join(' ')} ${feature.featureType} ${(feature.tags ?? []).join(' ')}`;
   return searchable.toLocaleLowerCase().includes(query.trim().toLocaleLowerCase());
 }
 
@@ -537,7 +630,7 @@ function isVisibleFeature(
 }
 
 function mapOsmCommunityPlaces(
-  features: HeritageFeature[],
+  pkg: ProjectPackage,
   showFood: boolean,
   showPicnic: boolean,
   showArt: boolean,
@@ -548,7 +641,9 @@ function mapOsmCommunityPlaces(
   showAmenities: boolean,
   showParking: boolean,
   showNature: boolean,
-) {
+  curatedIds?: string[],
+  fallbackNeed?: PlannerMapNeed,
+): OsmCommunityPlaceCollection {
   const visibleCategories: Record<OsmCommunityCategory, boolean> = {
     food: showFood,
     picnic: showPicnic,
@@ -561,29 +656,158 @@ function mapOsmCommunityPlaces(
     parking: showParking,
     nature: showNature,
   };
+  const curatedIdSet = curatedIds ? new Set(curatedIds) : undefined;
+  const scoreByFeatureId = new globalThis.Map<string, number | undefined>();
+  if (fallbackNeed === 'see' || fallbackNeed === 'eat') {
+    for (const place of visitorNeedPlaces(pkg, fallbackNeed, Number.MAX_SAFE_INTEGER, {
+      curatedFeatureIds: curatedIds,
+    })) {
+      scoreByFeatureId.set(place.id, place.visitorScore);
+    }
+  }
   return {
     type: 'FeatureCollection' as const,
-    features: features
+    features: pkg.features
       .filter((feature): feature is HeritageFeature & { geometry: Point } => {
-        const category = osmCommunityCategory(feature);
+        const marker =
+          osmCommunityMarker(feature) ?? plannerNeedCommunityMarkerForFeature(feature, fallbackNeed);
+        const category = marker?.category;
         return (
-          feature.geometry?.type === 'Point' &&
-          !feature.tags.includes('map-hidden') &&
-          isPublicTownFeature(feature) &&
+          (!curatedIdSet || curatedIdSet.has(feature.id)) &&
+          isMappableVisitFeature(pkg, feature) &&
           Boolean(category && visibleCategories[category])
         );
       })
-      .map((feature) => ({
-        type: 'Feature' as const,
-        geometry: feature.geometry,
-        properties: {
-          id: feature.id,
-          name: feature.name,
-          markerIcon: osmCommunityMarker(feature)?.variant,
-          markerCategory: osmCommunityCategory(feature),
-        },
-      })),
+      .map((feature) => {
+        const marker =
+          osmCommunityMarker(feature) ?? plannerNeedCommunityMarkerForFeature(feature, fallbackNeed);
+        if (!marker) return undefined;
+        const score = scoreByFeatureId.get(feature.id);
+        const recommendation =
+          fallbackNeed === 'eat'
+            ? foodRecommendation(score)
+            : fallbackNeed === 'see'
+              ? visitRecommendation(score)
+              : undefined;
+        const markerColour =
+          (fallbackNeed === 'eat'
+            ? foodRecommendationColour(recommendation)
+            : visitRecommendationColour(recommendation)) ?? marker.colour;
+        const markerInk = recommendationMarkerInk(fallbackNeed, recommendation?.className);
+        return {
+          type: 'Feature' as const,
+          geometry: feature.geometry,
+          properties: {
+            id: feature.id,
+            name: feature.name,
+            markerIcon: marker.variant,
+            markerCategory: marker.category,
+            markerColour,
+            markerInk,
+            markerImage: communityMarkerImageId(marker, recommendation?.className),
+            recommendationClass: recommendation?.className,
+          },
+        };
+      })
+      .filter((feature): feature is NonNullable<typeof feature> => Boolean(feature)),
   };
+}
+
+function plannerOsmCategoryVisibility(need: PlannerMapNeed): Record<OsmCommunityCategory, boolean> {
+  const off = {
+    food: false,
+    picnic: false,
+    art: false,
+    memorial: false,
+    historic: false,
+    leisure: false,
+    visitor: false,
+    amenities: false,
+    parking: false,
+    nature: false,
+  };
+  if (need === 'eat') return { ...off, food: true };
+  if (need === 'walk') {
+    return { ...off, visitor: true, nature: true };
+  }
+  if (need === 'trails') {
+    return { ...off, historic: true, visitor: true, nature: true };
+  }
+  if (need === 'parks') {
+    return { ...off, leisure: true, nature: true };
+  }
+  if (need === 'picnic') return { ...off, picnic: true };
+  if (need === 'photo') {
+    return { ...off, art: true, memorial: true, historic: true, visitor: true, nature: true };
+  }
+  if (need === 'parking') return { ...off, parking: true };
+  if (need === 'toilets') return { ...off, amenities: true };
+  return {
+    ...off,
+    art: true,
+    memorial: true,
+    historic: true,
+    leisure: true,
+    visitor: true,
+    nature: true,
+  };
+}
+
+function allOsmCategoryVisibility(): Record<OsmCommunityCategory, boolean> {
+  return {
+    food: true,
+    picnic: true,
+    art: true,
+    memorial: true,
+    historic: true,
+    leisure: true,
+    visitor: true,
+    amenities: true,
+    parking: true,
+    nature: true,
+  };
+}
+
+function plannerMapCuratedFeatureIds(
+  pkg: ProjectPackage,
+  need: PlannerMapNeed,
+): string[] {
+  const bundledIds = curatedFeatureIds(publishedPlannerCurationForProject(pkg.project.id), need);
+  if (need === 'see' || need === 'eat') {
+    return visitorNeedPlaces(pkg, need, Number.MAX_SAFE_INTEGER, {
+      ...(bundledIds.length ? { curatedFeatureIds: bundledIds } : {}),
+    }).map((place) => place.id);
+  }
+  if (bundledIds.length) return bundledIds;
+  return [];
+}
+
+function plannerHoverIconMarkup(need: PlannerMapNeed): string {
+  if (need === 'eat') {
+    return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h10v6a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4z"/><path d="M15 9h2.2a2.3 2.3 0 0 1 0 4.6H15"/><path d="M7 3v2"/><path d="M11 3v2"/><path d="M5 21h12"/></svg>`;
+  }
+  if (need === 'walk') {
+    return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 4.5a1.8 1.8 0 1 1-3.6 0 1.8 1.8 0 0 1 3.6 0z"/><path d="M10.8 7.5 8.6 12l3.4 2 1.2 5"/><path d="M9 12l-2.6 7"/><path d="m12 8.8 2.2 2.2 2.8-.8"/></svg>`;
+  }
+  if (need === 'trails') {
+    return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 18.5c3.8 0 3.8-4 7-4s3.2 4 7 4"/><path d="M5 5.5c3.8 0 3.8 4 7 4s3.2-4 7-4"/><circle cx="5" cy="18.5" r="1.5"/><circle cx="19" cy="5.5" r="1.5"/></svg>`;
+  }
+  if (need === 'parks') {
+    return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20v-5"/><path d="M8.2 15.5h7.6"/><path d="M7.8 15.5 12 4l4.2 11.5z"/></svg>`;
+  }
+  if (need === 'picnic') {
+    return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 10h14"/><path d="M8 10 5.5 19"/><path d="M16 10l2.5 9"/><path d="M7 15h10"/><path d="M10 6h4"/><path d="M12 6v4"/></svg>`;
+  }
+  if (need === 'photo') {
+    return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8.5h3l1.5-2h7l1.5 2h3v10H4z"/><circle cx="12" cy="13.5" r="3.2"/></svg>`;
+  }
+  if (need === 'parking') {
+    return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 20V4h5.4a4.3 4.3 0 0 1 0 8.6H7.5"/><path d="M7.5 12.6h5.2"/></svg>`;
+  }
+  if (need === 'toilets') {
+    return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/><path d="M6 21v-6H4.5l1.2-6h5.6l1.2 6H11v6"/><path d="M15.5 4v17"/><path d="M18.8 8v13"/><path d="M15.5 8h3.3"/></svg>`;
+  }
+  return `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3.4 2.5 5.1 5.6.8-4 3.9.9 5.5-5-2.7-5 2.7.9-5.5-4-3.9 5.6-.8z"/></svg>`;
 }
 
 function mapFeatures(
@@ -607,6 +831,7 @@ function mapFeatures(
       .filter((feature): feature is HeritageFeature & { geometry: Point } => {
         return (
           feature.geometry?.type === 'Point' &&
+          hasHistoricTimelineDate(feature) &&
           isVisibleFeature(
             feature,
             year,
@@ -754,6 +979,10 @@ function mapSettlementAge(polygons: SettlementAgePolygon[], year: number) {
   };
 }
 
+function mapVisitorHighlights(pkg: ProjectPackage) {
+  return visitorHighlightGeoJson(pkg);
+}
+
 function resolvedTileUrl(tileUrl: string): string | undefined {
   const localTileServer = import.meta.env.VITE_HISTORIC_TILE_SERVER_URL;
   if (tileUrl.includes('{VITE_HISTORIC_TILE_SERVER_URL}') && !localTileServer) return undefined;
@@ -763,14 +992,25 @@ function resolvedTileUrl(tileUrl: string): string | undefined {
 export function MapCanvas() {
   const container = useRef<HTMLDivElement>(null);
   const mapRef = useRef<Map | null>(null);
+  const hoverMarkerRef = useRef<maplibregl.Marker | null>(null);
+  const hoverMarkerElementRef = useRef<HTMLDivElement | null>(null);
   const [mapReady, setMapReady] = useState(false);
   const [overlayError, setOverlayError] = useState<string | null>(null);
+  const [mapOptionsOpen, setMapOptionsOpen] = useState(false);
   const pkg = useExplorerStore((state) => state.package);
   const year = useExplorerStore((state) => state.selectedYear);
   const possible = useExplorerStore((state) => state.possible);
   const excludeUndated = useExplorerStore((state) => state.excludeUndated);
   const query = useExplorerStore((state) => state.query);
   const demolished = useExplorerStore((state) => state.demolished);
+  const showHistoricHeatmap = useExplorerStore((state) => state.showHistoricHeatmap);
+  const setShowHistoricHeatmap = useExplorerStore((state) => state.setShowHistoricHeatmap);
+  const showHistoricPlaces = useExplorerStore((state) => state.showHistoricPlaces);
+  const setShowHistoricPlaces = useExplorerStore((state) => state.setShowHistoricPlaces);
+  const showOsmPoints = useExplorerStore((state) => state.showOsmPoints);
+  const setShowOsmPoints = useExplorerStore((state) => state.setShowOsmPoints);
+  const showHistoryTimeline = useExplorerStore((state) => state.showHistoryTimeline);
+  const setShowHistoryTimeline = useExplorerStore((state) => state.setShowHistoryTimeline);
   const showHesDesignations = useExplorerStore((state) => state.showHesDesignations);
   const showPublicArt = useExplorerStore((state) => state.showPublicArt);
   const showPlaquesAndMemorials = useExplorerStore((state) => state.showPlaquesAndMemorials);
@@ -785,6 +1025,10 @@ export function MapCanvas() {
   const showOsmAmenities = useExplorerStore((state) => state.showOsmAmenities);
   const showOsmParking = useExplorerStore((state) => state.showOsmParking);
   const showOsmNature = useExplorerStore((state) => state.showOsmNature);
+  const activePlannerNeed = useExplorerStore((state) => state.activePlannerNeed);
+  const adminMode = useExplorerStore((state) => state.adminMode);
+  const exploreMapStyle = useExplorerStore((state) => state.exploreMapStyle);
+  const setExploreMapStyle = useExplorerStore((state) => state.setExploreMapStyle);
   const showHistoricLegend = useExplorerStore((state) => state.showHistoricLegend);
   const showOsmLegend = useExplorerStore((state) => state.showOsmLegend);
   const archaeologyOnly = useExplorerStore((state) => state.archaeologyOnly);
@@ -792,6 +1036,9 @@ export function MapCanvas() {
   const settlementAge = useExplorerStore((state) => state.settlementAge);
   const showAreaPolygons = useExplorerStore((state) => state.showAreaPolygons);
   const select = useExplorerStore((state) => state.selectFeature);
+  const setHoveredFeature = useExplorerStore((state) => state.setHoveredFeature);
+  const hoveredFeatureId = useExplorerStore((state) => state.hoveredFeatureId);
+  const hoveredFeatureSource = useExplorerStore((state) => state.hoveredFeatureSource);
   const activeMap = useExplorerStore((state) => state.activeMap);
   const visibleData = mapFeatures(
     pkg.features,
@@ -839,44 +1086,90 @@ export function MapCanvas() {
   const visibleSettlementAge = communityLayersOnly
     ? mapSettlementAge([], year)
     : mapSettlementAge(pkg.settlementPolygons, year);
+  const plannerOsmVisibility = adminMode
+    ? allOsmCategoryVisibility()
+    : plannerOsmCategoryVisibility(activePlannerNeed);
+  const activePlannerCuratedIds = adminMode
+    ? undefined
+    : plannerMapCuratedFeatureIds(pkg, activePlannerNeed);
   const visibleOsmCommunityPlaces = mapOsmCommunityPlaces(
-    pkg.features,
-    showOsmFood,
-    showOsmPicnic,
-    showOsmArt,
-    showOsmMemorials,
-    showOsmHistoricPlaces,
-    showOsmLeisure,
-    showOsmVisitor,
-    showOsmAmenities,
-    showOsmParking,
-    showOsmNature,
+    pkg,
+    showOsmFood && plannerOsmVisibility.food,
+    showOsmPicnic && plannerOsmVisibility.picnic,
+    showOsmArt && plannerOsmVisibility.art,
+    showOsmMemorials && plannerOsmVisibility.memorial,
+    showOsmHistoricPlaces && plannerOsmVisibility.historic,
+    showOsmLeisure && plannerOsmVisibility.leisure,
+    showOsmVisitor && plannerOsmVisibility.visitor,
+    showOsmAmenities && plannerOsmVisibility.amenities,
+    showOsmParking && plannerOsmVisibility.parking,
+    showOsmNature && plannerOsmVisibility.nature,
+    activePlannerCuratedIds,
+    adminMode ? undefined : activePlannerNeed,
   );
+  const hoveredOsmCommunityPlace = visibleOsmCommunityPlaces.features.find(
+    (feature) => feature.properties.id === hoveredFeatureId,
+  );
+  const activePlannerPlaces = visitorNeedPlaces(
+    pkg,
+    activePlannerNeed,
+    Number.MAX_SAFE_INTEGER,
+    { curatedFeatureIds: activePlannerCuratedIds },
+  );
+  const hoveredPlannerPlace = activePlannerPlaces.find((place) => place.id === hoveredFeatureId);
+  const hoveredPlannerRecommendation =
+    activePlannerNeed === 'eat'
+      ? foodRecommendation(hoveredPlannerPlace?.visitorScore)
+      : activePlannerNeed === 'see'
+        ? visitRecommendation(hoveredPlannerPlace?.visitorScore)
+        : undefined;
+  const hoveredPlannerMarkerColour =
+    (activePlannerNeed === 'eat'
+      ? foodRecommendationColour(hoveredPlannerRecommendation)
+      : activePlannerNeed === 'see'
+        ? visitRecommendationColour(hoveredPlannerRecommendation)
+        : undefined) ?? hoveredOsmCommunityPlace?.properties.markerColour;
+  const hoveredPlannerMarkerInk = hoveredPlannerRecommendation
+    ? recommendationMarkerInk(activePlannerNeed, hoveredPlannerRecommendation.className)
+    : hoveredOsmCommunityPlace?.properties.markerInk;
+  const visibleVisitorHighlights = mapVisitorHighlights(pkg);
   const visibleDataRef = useRef(visibleData);
   const visiblePolygonsRef = useRef(visiblePolygons);
   const visibleLinesRef = useRef(visibleLines);
   const visibleSettlementAgeRef = useRef(visibleSettlementAge);
   const visibleOsmCommunityPlacesRef = useRef(visibleOsmCommunityPlaces);
+  const showHistoricHeatmapRef = useRef(showHistoricHeatmap);
+  const showHistoricPlacesRef = useRef(showHistoricPlaces);
+  const showOsmPointsRef = useRef(showOsmPoints);
   const settlementAgeRef = useRef(settlementAge);
+  const showAreaPolygonsRef = useRef(showAreaPolygons);
   const featuresRef = useRef(pkg.features);
   const selectRef = useRef(select);
+  const setHoveredFeatureRef = useRef(setHoveredFeature);
   visibleDataRef.current = visibleData;
   visiblePolygonsRef.current = visiblePolygons;
   visibleLinesRef.current = visibleLines;
   visibleSettlementAgeRef.current = visibleSettlementAge;
   visibleOsmCommunityPlacesRef.current = visibleOsmCommunityPlaces;
+  showHistoricHeatmapRef.current = showHistoricHeatmap;
+  showHistoricPlacesRef.current = showHistoricPlaces;
+  showOsmPointsRef.current = showOsmPoints;
   settlementAgeRef.current = settlementAge;
+  showAreaPolygonsRef.current = showAreaPolygons;
   featuresRef.current = pkg.features;
   selectRef.current = select;
+  setHoveredFeatureRef.current = setHoveredFeature;
   useEffect(() => {
     if (!container.current || mapRef.current) return;
+    const mapContainer = container.current;
     const map = new maplibregl.Map({
-      container: container.current,
-      style: import.meta.env.VITE_MAP_STYLE_URL || openStreetMapFallbackStyle,
+      container: mapContainer,
+      style: import.meta.env.VITE_MAP_STYLE_URL || freeMapStyle(exploreMapStyle),
       center: pkg.project.centre,
       zoom: 13,
       attributionControl: false,
     });
+    (mapContainer as HTMLDivElement & { __exploreMap?: Map }).__exploreMap = map;
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
     map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-right');
     map.on('error', (event) => {
@@ -893,12 +1186,15 @@ export function MapCanvas() {
       }
     });
     map.on('load', () => {
-      map.addSource('project-boundary', { type: 'geojson', data: pkg.project.boundary });
+      map.addSource('project-boundary', {
+        type: 'geojson',
+        data: pkg.project.townStudyArea?.visitorBoundary ?? pkg.project.boundary,
+      });
       map.addLayer({
         id: 'project-boundary-fill',
         type: 'fill',
         source: 'project-boundary',
-        paint: { 'fill-color': '#0d5c63', 'fill-opacity': 0.08 },
+        paint: { 'fill-color': '#2f7778', 'fill-opacity': 0.045 },
       });
       for (const feature of pkg.features) {
         const marker = osmCommunityMarker(feature);
@@ -911,6 +1207,16 @@ export function MapCanvas() {
             { pixelRatio: 2 },
           );
       }
+      for (const marker of defaultPlannerCommunityMarkers) {
+        const imageId = `osm-community-${marker.category}-${marker.variant}-icon`;
+        if (!map.hasImage(imageId))
+          map.addImage(
+            imageId,
+            communityMarkerImage(marker.category, marker.colour, marker.variant),
+            { pixelRatio: 2 },
+          );
+      }
+      ensureCommunityMarkerImages(map, visibleOsmCommunityPlacesRef.current);
       map.addSource('osm-community-places', {
         type: 'geojson',
         data: visibleOsmCommunityPlacesRef.current,
@@ -919,7 +1225,11 @@ export function MapCanvas() {
         id: 'project-boundary-line',
         type: 'line',
         source: 'project-boundary',
-        paint: { 'line-color': '#0d5c63', 'line-width': 2 },
+        paint: {
+          'line-color': '#1d696c',
+          'line-width': ['interpolate', ['linear'], ['zoom'], 11, 1, 15, 1.45],
+          'line-opacity': 0.64,
+        },
       });
       map.addSource('settlement-age', { type: 'geojson', data: visibleSettlementAgeRef.current });
       map.addLayer({
@@ -959,28 +1269,9 @@ export function MapCanvas() {
         id: 'historic-character-heatmap',
         type: 'heatmap',
         source: 'heritage-features',
-        maxzoom: 17,
-        paint: {
-          'heatmap-weight': ['get', 'score'],
-          'heatmap-intensity': ['interpolate', ['linear'], ['zoom'], 8, 0.7, 15, 2],
-          'heatmap-radius': ['interpolate', ['linear'], ['zoom'], 8, 18, 15, 45],
-          'heatmap-opacity': 0.72,
-          'heatmap-color': [
-            'interpolate',
-            ['linear'],
-            ['heatmap-density'],
-            0,
-            'rgba(0,0,0,0)',
-            0.2,
-            '#f1e3a3',
-            0.45,
-            '#e9a552',
-            0.7,
-            '#cc5b24',
-            1,
-            '#772f1f',
-          ],
-        },
+        maxzoom: historicHeatmapMaxZoom,
+        layout: { visibility: showHistoricHeatmapRef.current ? 'visible' : 'none' },
+        paint: historicHeatmapPaint(),
       });
       map.addLayer({
         id: 'heritage-features',
@@ -990,6 +1281,7 @@ export function MapCanvas() {
         // source-backed features at a normal town-scale zoom without bringing
         // back the numbered cluster markers.
         minzoom: 13,
+        layout: { visibility: showHistoricPlacesRef.current ? 'visible' : 'none' },
         paint: {
           'circle-radius': 6,
           'circle-color': ['get', 'historicDotColour'],
@@ -1007,6 +1299,10 @@ export function MapCanvas() {
           id: 'heritage-polygons-fill',
           type: 'fill',
           source: 'heritage-polygons',
+          layout: {
+            visibility:
+              showHistoricPlacesRef.current && showAreaPolygonsRef.current ? 'visible' : 'none',
+          },
           paint: {
             'fill-color': ['match', ['get', 'state'], 'definite', '#176b87', '#4e8fa8'],
             'fill-opacity': 0.22,
@@ -1019,6 +1315,10 @@ export function MapCanvas() {
           id: 'heritage-polygons-line',
           type: 'line',
           source: 'heritage-polygons',
+          layout: {
+            visibility:
+              showHistoricPlacesRef.current && showAreaPolygonsRef.current ? 'visible' : 'none',
+          },
           paint: { 'line-color': '#12536b', 'line-width': 2 },
         },
         'heritage-features',
@@ -1028,6 +1328,7 @@ export function MapCanvas() {
         id: 'heritage-lines',
         type: 'line',
         source: 'heritage-lines',
+        layout: { visibility: showHistoricPlacesRef.current ? 'visible' : 'none' },
         paint: {
           'line-color': ['match', ['get', 'state'], 'definite', '#714b22', '#a87931'],
           'line-width': 5,
@@ -1042,17 +1343,11 @@ export function MapCanvas() {
         source: 'osm-community-places',
         minzoom: 13,
         layout: {
-          'icon-image': [
-            'concat',
-            'osm-community-',
-            ['get', 'markerCategory'],
-            '-',
-            ['get', 'markerIcon'],
-            '-icon',
-          ],
-          // The source image is rendered at a high pixel ratio; 0.8 produces
-          // a clearly readable 19px on-map symbol.
-          'icon-size': 0.8,
+          visibility: showOsmPointsRef.current ? 'visible' : 'none',
+          'icon-image': ['get', 'markerImage'],
+          // Keep public POI icons quiet; right-panel hover/focus provides the
+          // larger pulsing marker when a visitor is actively inspecting a place.
+          'icon-size': 0.55,
           // Current-place icons must not disappear behind base-map labels or
           // one another. Their smaller size limits visual crowding instead.
           'icon-allow-overlap': true,
@@ -1067,6 +1362,19 @@ export function MapCanvas() {
         const id = event.features?.[0]?.properties?.id;
         selectRef.current(featuresRef.current.find((feature) => feature.id === id));
       });
+      for (const layerId of ['heritage-features', 'osm-community-places']) {
+        map.on('mousemove', layerId, (event) => {
+          const id = event.features?.[0]?.properties?.id;
+          if (typeof id === 'string') setHoveredFeatureRef.current(id, 'map');
+        });
+        map.on('mouseenter', layerId, () => {
+          map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', layerId, () => {
+          map.getCanvas().style.cursor = '';
+          setHoveredFeatureRef.current(undefined);
+        });
+      }
       // Evidence/designation fills are intentionally non-interactive, so they
       // never replace a point selection where the two overlap.
       map.on('click', 'heritage-lines', (event) => {
@@ -1077,21 +1385,98 @@ export function MapCanvas() {
     });
     mapRef.current = map;
     return () => {
+      hoverMarkerRef.current?.remove();
+      hoverMarkerRef.current = null;
+      hoverMarkerElementRef.current = null;
+      delete (mapContainer as HTMLDivElement & { __exploreMap?: Map }).__exploreMap;
       map.remove();
       mapRef.current = null;
       setMapReady(false);
     };
-  }, [pkg.project, pkg.features]);
+  }, [exploreMapStyle, pkg.project, pkg.features]);
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !mapReady) return;
+    if (hoveredFeatureSource !== 'visitor-list') {
+      hoverMarkerRef.current?.remove();
+      return;
+    }
+    const visitorHighlight = visibleVisitorHighlights.features.find(
+      (highlight) => highlight.properties.id === hoveredFeatureId,
+    );
+    const feature = pkg.features.find(
+      (candidate): candidate is HeritageFeature & { geometry: Point } =>
+        candidate.id === hoveredFeatureId && candidate.geometry?.type === 'Point',
+    );
+    const coordinates = visitorHighlight?.geometry.coordinates ?? feature?.geometry.coordinates;
+    if (!coordinates) {
+      hoverMarkerRef.current?.remove();
+      return;
+    }
+
+    if (!hoverMarkerElementRef.current) {
+      hoverMarkerElementRef.current = document.createElement('div');
+    }
+    const element = hoverMarkerElementRef.current;
+    element.className = 'map-hover-marker';
+    let bounceElement = element.firstElementChild as HTMLDivElement | null;
+    if (!bounceElement) {
+      bounceElement = document.createElement('div');
+      element.append(bounceElement);
+    }
+    bounceElement.className = `map-hover-bounce map-hover-bounce--visitor map-hover-bounce--${activePlannerNeed}`;
+    bounceElement.dataset.category = activePlannerNeed;
+    bounceElement.innerHTML = plannerHoverIconMarkup(activePlannerNeed);
+    if (hoveredPlannerMarkerColour) {
+      bounceElement.style.setProperty('--hover-marker-colour', hoveredPlannerMarkerColour);
+    } else {
+      bounceElement.style.removeProperty('--hover-marker-colour');
+    }
+    if (hoveredPlannerMarkerInk) {
+      bounceElement.style.setProperty('--hover-marker-ink', hoveredPlannerMarkerInk);
+    } else {
+      bounceElement.style.removeProperty('--hover-marker-ink');
+    }
+
+    if (!hoverMarkerRef.current) {
+      hoverMarkerRef.current = new maplibregl.Marker({
+        element,
+        anchor: 'center',
+        offset: [0, 0],
+      });
+    }
+    hoverMarkerRef.current.setLngLat(coordinates as [number, number]).addTo(map);
+  }, [
+    activePlannerNeed,
+    hoveredFeatureId,
+    hoveredFeatureSource,
+    hoveredPlannerMarkerColour,
+    hoveredPlannerMarkerInk,
+    visibleVisitorHighlights,
+    pkg.features,
+    mapReady,
+  ]);
   useEffect(() => {
     const map = mapRef.current;
     const source = map?.getSource('heritage-features') as maplibregl.GeoJSONSource | undefined;
     if (source) source.setData(visibleData);
   }, [visibleData]);
   useEffect(() => {
-    const source = mapRef.current?.getSource('osm-community-places') as
-      maplibregl.GeoJSONSource | undefined;
+    const map = mapRef.current;
+    const source = map?.getSource('osm-community-places') as maplibregl.GeoJSONSource | undefined;
+    if (map) ensureCommunityMarkerImages(map, visibleOsmCommunityPlaces);
     if (source) source.setData(visibleOsmCommunityPlaces);
   }, [visibleOsmCommunityPlaces]);
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !mapReady) return;
+    if (map.getLayer('osm-community-places'))
+      map.setLayoutProperty(
+        'osm-community-places',
+        'visibility',
+        showOsmPoints ? 'visible' : 'none',
+      );
+  }, [showOsmPoints, mapReady]);
   useEffect(() => {
     const map = mapRef.current;
     const source = map?.getSource('heritage-polygons') as maplibregl.GeoJSONSource | undefined;
@@ -1112,9 +1497,17 @@ export function MapCanvas() {
     if (!map || !mapReady) return;
     const boundarySource = map.getSource('project-boundary') as
       maplibregl.GeoJSONSource | undefined;
-    boundarySource?.setData(pkg.project.boundary);
+    boundarySource?.setData(
+      pkg.project.townStudyArea?.visitorBoundary ?? pkg.project.boundary,
+    );
     map.flyTo({ center: pkg.project.centre, zoom: 13, essential: true });
-  }, [pkg.project.id, pkg.project.centre, pkg.project.boundary, mapReady]);
+  }, [
+    pkg.project.id,
+    pkg.project.centre,
+    pkg.project.boundary,
+    pkg.project.townStudyArea?.visitorBoundary,
+    mapReady,
+  ]);
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
@@ -1126,11 +1519,37 @@ export function MapCanvas() {
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !mapReady) return;
+    if (map.getLayer('historic-character-heatmap'))
+      map.setLayoutProperty(
+        'historic-character-heatmap',
+        'visibility',
+        showHistoricHeatmap ? 'visible' : 'none',
+      );
+  }, [showHistoricHeatmap, mapReady]);
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !mapReady) return;
+    if (map.getLayer('heritage-features'))
+      map.setLayoutProperty(
+        'heritage-features',
+        'visibility',
+        showHistoricPlaces ? 'visible' : 'none',
+      );
+    if (map.getLayer('heritage-lines'))
+      map.setLayoutProperty(
+        'heritage-lines',
+        'visibility',
+        showHistoricPlaces ? 'visible' : 'none',
+      );
     for (const layer of ['heritage-polygons-fill', 'heritage-polygons-line']) {
       if (map.getLayer(layer))
-        map.setLayoutProperty(layer, 'visibility', showAreaPolygons ? 'visible' : 'none');
+        map.setLayoutProperty(
+          layer,
+          'visibility',
+          showHistoricPlaces && showAreaPolygons ? 'visible' : 'none',
+        );
     }
-  }, [showAreaPolygons, mapReady]);
+  }, [showHistoricPlaces, showAreaPolygons, mapReady]);
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !mapReady) return;
@@ -1187,14 +1606,80 @@ export function MapCanvas() {
   return (
     <div className="map-wrap">
       <div ref={container} className="map" aria-label="Historic map" />
+      <div className="map-options">
+        <button
+          type="button"
+          className="map-options-trigger"
+          aria-expanded={mapOptionsOpen}
+          onClick={() => setMapOptionsOpen((open) => !open)}
+        >
+          Map options
+        </button>
+        {mapOptionsOpen && (
+          <div className="map-layer-controls" aria-label="Map layer controls">
+            <label className="map-style-control">
+              <span>Map style</span>
+              <select
+                value={exploreMapStyle}
+                aria-label="Map style"
+                onChange={(event) => setExploreMapStyle(event.target.value as typeof exploreMapStyle)}
+              >
+                {Object.entries(freeMapStyleLabels).map(([id, label]) => (
+                  <option key={id} value={id}>
+                    {label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="map-layer-switch">
+              <input
+                type="checkbox"
+                checked={showHistoricHeatmap}
+                onChange={(event) => setShowHistoricHeatmap(event.target.checked)}
+              />
+              <span aria-hidden="true" />
+              <strong>Heritage glow</strong>
+            </label>
+            <label className="map-layer-switch">
+              <input
+                type="checkbox"
+                checked={showHistoricPlaces}
+                onChange={(event) => setShowHistoricPlaces(event.target.checked)}
+              />
+              <span aria-hidden="true" />
+              <strong>Heritage pins</strong>
+            </label>
+            <label className="map-layer-switch">
+              <input
+                type="checkbox"
+                checked={showOsmPoints}
+                onChange={(event) => setShowOsmPoints(event.target.checked)}
+              />
+              <span aria-hidden="true" />
+              <strong>Visitor pins</strong>
+            </label>
+            <label className="map-layer-switch">
+              <input
+                type="checkbox"
+                checked={showHistoryTimeline}
+                onChange={(event) => setShowHistoryTimeline(event.target.checked)}
+              />
+              <span aria-hidden="true" />
+              <strong>Timeline</strong>
+            </label>
+          </div>
+        )}
+      </div>
       <div className="attribution">
         <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">
-          {import.meta.env.VITE_MAP_ATTRIBUTION || 'OpenStreetMap contributors'}
+          {import.meta.env.VITE_MAP_ATTRIBUTION || freeMapAttribution(exploreMapStyle)}
         </a>
       </div>
-      {(showHistoricLegend || showHesDesignations || showOsmLegend) && (
+      {((showHistoricLegend && showHistoricPlaces) ||
+        showHesDesignations ||
+        (showOsmLegend && showOsmPoints)) && (
         <aside className="map-legend" aria-label="Map key">
-          {showHistoricLegend && (
+          {showHistoricLegend && showHistoricPlaces && (
             <section>
               <h2>Historic dots</h2>
               <p>Earliest evidence century</p>
@@ -1244,7 +1729,7 @@ export function MapCanvas() {
               <p>Turn off “Show current HES designations” in Settings to hide them.</p>
             </section>
           )}
-          {showOsmLegend && (
+          {showOsmLegend && showOsmPoints && (
             <section
               className={
                 showHistoricLegend || showHesDesignations ? 'osm-legend-section' : undefined

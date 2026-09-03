@@ -1,0 +1,827 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T11:19:23.313Z",
+  "boundaryRule": "Exact active project boundary; no nearby places are counted.",
+  "curationRule": "OSM is discovery evidence. See and Eat require names; private, permit-only, customer-only, inactive and no-access places are excluded. Publication still requires editorial review.",
+  "towns": [
+    {
+      "projectId": "uppingham-england",
+      "locality": "Uppingham",
+      "projectFile": "uppingham-england.json",
+      "counts": {
+        "see": {
+          "osm": 1,
+          "eligible": 1,
+          "curated": 0,
+          "uncurated": 1
+        },
+        "eat": {
+          "osm": 17,
+          "eligible": 17,
+          "curated": 5,
+          "uncurated": 12
+        },
+        "picnic": {
+          "osm": 0,
+          "eligible": 0,
+          "curated": 0,
+          "uncurated": 0
+        },
+        "parking": {
+          "osm": 16,
+          "eligible": 13,
+          "curated": 3,
+          "uncurated": 10
+        },
+        "toilets": {
+          "osm": 1,
+          "eligible": 1,
+          "curated": 1,
+          "uncurated": 0
+        }
+      },
+      "candidates": {
+        "see": [
+          {
+            "osmId": "node/1895900850",
+            "name": "Forest Framing and Gallery",
+            "coordinates": [
+              -0.7232164,
+              52.5879961
+            ],
+            "category": "see",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-1895900850",
+            "curated": false,
+            "tags": {
+              "addr:housename": "Forest Framing and Gallery",
+              "addr:housenumber": "7",
+              "addr:postcode": "LE15 9QB",
+              "addr:street": "High Street West",
+              "building": "retail",
+              "name": "Forest Framing and Gallery",
+              "tourism": "gallery",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/1895900850"
+          }
+        ],
+        "eat": [
+          {
+            "osmId": "node/7567561721",
+            "name": "5 Elements Cafe",
+            "coordinates": [
+              -0.7228486,
+              52.5883572
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-7567561721",
+            "curated": true,
+            "tags": {
+              "amenity": "cafe",
+              "check_date": "2021-12-30",
+              "name": "5 Elements Cafe",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7567561721"
+          },
+          {
+            "osmId": "node/7567434865",
+            "name": "Baines Bakery",
+            "coordinates": [
+              -0.7230538,
+              52.5879963
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-7567434865",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "3",
+              "addr:postcode": "LE15 9QB",
+              "addr:street": "High Street West",
+              "addr:town": "Uppingham",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153859",
+              "fhrs:local_authority_id": "104816",
+              "name": "Baines Bakery",
+              "shop": "bakery",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7567434865"
+          },
+          {
+            "osmId": "way/417854766",
+            "name": "Choi's Restaurant",
+            "coordinates": [
+              -0.722151,
+              52.5890732
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "3",
+              "addr:postcode": "LE15 9QJ",
+              "addr:street": "North Street East",
+              "addr:town": "Uppingham",
+              "amenity": "restaurant",
+              "building": "yes",
+              "cuisine": "chinese",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153575",
+              "fhrs:local_authority_id": "100260",
+              "name": "Choi's Restaurant",
+              "source": "survey",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/417854766"
+          },
+          {
+            "osmId": "node/7567434861",
+            "name": "Costa",
+            "coordinates": [
+              -0.7230592,
+              52.5881315
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-7567434861",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "2",
+              "addr:postcode": "LE15 9QD",
+              "addr:street": "High Street West",
+              "addr:town": "Uppingham",
+              "amenity": "cafe",
+              "brand": "Costa",
+              "brand:wikidata": "Q608845",
+              "brand:wikipedia": "en:Costa Coffee",
+              "cuisine": "coffee_shop",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153856",
+              "fhrs:local_authority_id": "104799",
+              "name": "Costa",
+              "takeaway": "yes",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7567434861"
+          },
+          {
+            "osmId": "node/272074117",
+            "name": "Don Paddy Sanchez Restaurant",
+            "coordinates": [
+              -0.721955,
+              52.5877905
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "8",
+              "addr:postcode": "LE15 9QH",
+              "addr:street": "Market Place",
+              "addr:town": "Uppingham",
+              "amenity": "restaurant",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153584",
+              "fhrs:local_authority_id": "100281",
+              "name": "Don Paddy Sanchez Restaurant",
+              "phone": "+44 1572 822 255",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/272074117"
+          },
+          {
+            "osmId": "node/18668511",
+            "name": "Exeter Arms",
+            "coordinates": [
+              -0.7273651,
+              52.5884992
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "3",
+              "addr:postcode": "LE15 9SB",
+              "addr:street": "Leicester Road",
+              "addr:town": "Uppingham",
+              "amenity": "pub",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1175713",
+              "fhrs:local_authority_id": "53191",
+              "name": "Exeter Arms",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/18668511"
+          },
+          {
+            "osmId": "node/3429134910",
+            "name": "Fortune Corner",
+            "coordinates": [
+              -0.7219686,
+              52.5876325
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "5",
+              "addr:postcode": "LE15 9QH",
+              "addr:street": "Market Place",
+              "addr:town": "Uppingham",
+              "amenity": "fast_food",
+              "cuisine": "chinese",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153585",
+              "fhrs:local_authority_id": "100282",
+              "name": "Fortune Corner",
+              "source": "survey",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3429134910"
+          },
+          {
+            "osmId": "node/7567561717",
+            "name": "Hannan's Spicy Cuisine",
+            "coordinates": [
+              -0.7226233,
+              52.5898189
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "4a",
+              "addr:postcode": "LE15 9RL",
+              "addr:street": "Ayston Road",
+              "addr:town": "Uppingham",
+              "amenity": "fast_food",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153734",
+              "fhrs:local_authority_id": "102792",
+              "name": "Hannan's Spicy Cuisine",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7567561717"
+          },
+          {
+            "osmId": "node/7570835824",
+            "name": "Red Indiia",
+            "coordinates": [
+              -0.7273185,
+              52.5882619
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "2",
+              "addr:postcode": "LE15 9UD",
+              "addr:street": "Stockerston Road",
+              "addr:town": "Uppingham",
+              "amenity": "restaurant",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153736",
+              "fhrs:local_authority_id": "102801",
+              "name": "Red Indiia",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7570835824"
+          },
+          {
+            "osmId": "node/3429134905",
+            "name": "Scandimania Coffee House",
+            "coordinates": [
+              -0.7226123,
+              52.5880969
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-3429134905",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "3",
+              "addr:postcode": "LE15 9PZ",
+              "addr:street": "High Street East",
+              "addr:town": "Uppingham",
+              "amenity": "cafe",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153697",
+              "fhrs:local_authority_id": "102691",
+              "name": "Scandimania Coffee House",
+              "source": "survey",
+              "wheelchair": "limited"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3429134905"
+          },
+          {
+            "osmId": "node/7567434870",
+            "name": "Scandimania Coffee House",
+            "coordinates": [
+              -0.7216725,
+              52.5879987
+            ],
+            "category": "eat",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-7567434870",
+            "curated": true,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "10b",
+              "addr:postcode": "LE15 9PZ",
+              "addr:street": "High Street East",
+              "addr:town": "Uppingham",
+              "amenity": "cafe",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153841",
+              "fhrs:local_authority_id": "104611",
+              "name": "Scandimania Coffee House"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7567434870"
+          },
+          {
+            "osmId": "way/417854768",
+            "name": "Silver Fish Bar",
+            "coordinates": [
+              -0.7220321,
+              52.5890723
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "5A",
+              "addr:postcode": "LE15 9QJ",
+              "addr:street": "North Street East",
+              "addr:town": "Uppingham",
+              "amenity": "fast_food",
+              "building": "yes",
+              "cuisine": "fish_and_chips",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153820",
+              "fhrs:local_authority_id": "104205",
+              "name": "Silver Fish Bar",
+              "source": "survey",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/417854768"
+          },
+          {
+            "osmId": "node/7567249771",
+            "name": "The Crown Inn",
+            "coordinates": [
+              -0.7213157,
+              52.5881869
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "19",
+              "addr:postcode": "LE15 9PY",
+              "addr:street": "High Street East",
+              "addr:town": "Uppingham",
+              "amenity": "pub",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153540",
+              "fhrs:local_authority_id": "100166",
+              "name": "The Crown Inn",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7567249771"
+          },
+          {
+            "osmId": "node/18668512",
+            "name": "The Royal Oak",
+            "coordinates": [
+              -0.7205138,
+              52.587848
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:postcode": "LE15 9QR",
+              "addr:street": "Queen Street",
+              "addr:town": "Uppingham",
+              "amenity": "pub",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153471",
+              "fhrs:local_authority_id": "100009",
+              "name": "The Royal Oak"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/18668512"
+          },
+          {
+            "osmId": "node/18337815",
+            "name": "The Vaults",
+            "coordinates": [
+              -0.7221169,
+              52.5875688
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "4",
+              "addr:postcode": "LE15 9QH",
+              "addr:street": "Market Place",
+              "addr:town": "Uppingham",
+              "amenity": "pub",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1201171",
+              "fhrs:local_authority_id": "53201",
+              "name": "The Vaults",
+              "note": "Good for lunch - steak baguettes etc.",
+              "source": "GPS waypoint",
+              "upload_tag": "ojw_rutland",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/18337815"
+          },
+          {
+            "osmId": "way/417854771",
+            "name": "Wings",
+            "coordinates": [
+              -0.7218174,
+              52.5891053
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "9",
+              "addr:postcode": "LE15 9QJ",
+              "addr:street": "North Street East",
+              "addr:town": "Uppingham",
+              "amenity": "fast_food",
+              "building": "yes",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153592",
+              "fhrs:local_authority_id": "100300",
+              "name": "Wings",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/417854771"
+          },
+          {
+            "osmId": "node/7567561716",
+            "name": "Zorba 6",
+            "coordinates": [
+              -0.722618,
+              52.5896006
+            ],
+            "category": "eat",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "addr:city": "Oakham",
+              "addr:country": "GB",
+              "addr:housenumber": "2a",
+              "addr:postcode": "LE15 9RL",
+              "addr:street": "Ayston Road",
+              "addr:town": "Uppingham",
+              "amenity": "restaurant",
+              "fhrs:authority": "Rutland",
+              "fhrs:id": "1153626",
+              "fhrs:local_authority_id": "100534",
+              "name": "Zorba 6",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/7567561716"
+          }
+        ],
+        "picnic": [],
+        "parking": [
+          {
+            "osmId": "way/417857933",
+            "name": "Mercers Yard",
+            "coordinates": [
+              -0.7220085,
+              52.5886171
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-417857933",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "yes",
+              "name": "Mercers Yard",
+              "operator": "Rutland District Council",
+              "parking": "long_stay",
+              "source": "GPS waypoint"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/417857933"
+          },
+          {
+            "osmId": "way/417856409",
+            "name": "North Street East",
+            "coordinates": [
+              -0.7210516,
+              52.5886643
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-417856409",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "yes",
+              "name": "North Street East",
+              "operator": "Rutland District Council",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/417856409"
+          },
+          {
+            "osmId": "node/3510468538",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7210016,
+              52.5876739
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3510468538"
+          },
+          {
+            "osmId": "way/138926713",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7222938,
+              52.5878035
+            ],
+            "category": "parking",
+            "eligible": true,
+            "existingFeatureId": "osm-community:way-138926713",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "parking",
+              "fee": "no",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/138926713"
+          },
+          {
+            "osmId": "way/590451206",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7165681,
+              52.5881555
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/590451206"
+          },
+          {
+            "osmId": "way/590451135",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7123783,
+              52.586396
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/590451135"
+          },
+          {
+            "osmId": "way/256767648",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7283114,
+              52.5929108
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/256767648"
+          },
+          {
+            "osmId": "way/591272660",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.730683,
+              52.5901604
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/591272660"
+          },
+          {
+            "osmId": "way/231765643",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7239857,
+              52.594994
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/231765643"
+          },
+          {
+            "osmId": "way/590451202",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7233998,
+              52.5956592
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/590451202"
+          },
+          {
+            "osmId": "way/590451306",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.725474,
+              52.5917451
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/590451306"
+          },
+          {
+            "osmId": "way/713659764",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7225076,
+              52.590461
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "capacity": "12",
+              "wheelchair": "yes"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/713659764"
+          },
+          {
+            "osmId": "way/231765647",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7241616,
+              52.5957442
+            ],
+            "category": "parking",
+            "eligible": true,
+            "curated": false,
+            "tags": {
+              "amenity": "parking",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/231765647"
+          },
+          {
+            "osmId": "way/181308111",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7252706,
+              52.5834901
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/181308111"
+          },
+          {
+            "osmId": "way/181308115",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7240608,
+              52.5839756
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "private-or-permit-only",
+            "curated": false,
+            "tags": {
+              "access": "private",
+              "amenity": "parking",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/181308115"
+          },
+          {
+            "osmId": "way/417856404",
+            "name": "Unnamed car park",
+            "coordinates": [
+              -0.7214835,
+              52.5887798
+            ],
+            "category": "parking",
+            "eligible": false,
+            "exclusionReason": "customers-only",
+            "curated": false,
+            "tags": {
+              "access": "customers",
+              "amenity": "parking",
+              "fee": "no",
+              "operator": "The Crown Hotel",
+              "parking": "surface"
+            },
+            "osmUrl": "https://www.openstreetmap.org/way/417856404"
+          }
+        ],
+        "toilets": [
+          {
+            "osmId": "node/3311905445",
+            "name": "Uppingham Town Centre",
+            "coordinates": [
+              -0.722494,
+              52.5877531
+            ],
+            "category": "toilets",
+            "eligible": true,
+            "existingFeatureId": "osm-community:node-3311905445",
+            "curated": true,
+            "tags": {
+              "access": "yes",
+              "amenity": "toilets",
+              "name": "Uppingham Town Centre",
+              "toilets:disposal": "flush",
+              "wheelchair": "no"
+            },
+            "osmUrl": "https://www.openstreetmap.org/node/3311905445"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-30",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers.",
+  "namingDecisions": [
+    "Kinsmuir resolves to Kingsmuir.",
+    "Lownie Moor resolves to Muir of Lownie.",
+    "Gallowfaul resolves to Gallowfauld.",
+    "Imverarity resolves to Inverarity.",
+    "Foffarty resolves to Wester Foffarty.",
+    "Gateside resolves to the Inverarity locality; Kirkton and Thornton resolve to the Glamis-area places."
+  ],
+  "additions": [
+    {
+      "requestedName": "Caldhame",
+      "resolvedName": "Caldhame",
+      "projectId": "caldhame-scotland",
+      "region": "Angus",
+      "score": 26,
+      "dogOwnerScore": 24,
+      "publishOnTownMap": false,
+      "rationale": "Caldhame is retained as a distinct mapped hamlet without inheriting Forfar or Kingsmuir visitor interest.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3524633822"
+    },
+    {
+      "requestedName": "Kinsmuir",
+      "resolvedName": "Kingsmuir",
+      "projectId": "kingsmuir-scotland",
+      "region": "Angus",
+      "score": 40,
+      "dogOwnerScore": 39,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling resolves to Kingsmuir. It has genuine village identity but insufficient verified visitor depth for a 60+ town marker.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3524604372"
+    },
+    {
+      "requestedName": "Lownie Moor",
+      "resolvedName": "Muir of Lownie",
+      "projectId": "muir-of-lownie-scotland",
+      "region": "Angus",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "The contextual request resolves to Muir of Lownie, a named rural locality rather than an independent visitor destination.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3524599658"
+    },
+    {
+      "requestedName": "Craichie",
+      "resolvedName": "Craichie",
+      "projectId": "craichie-scotland",
+      "region": "Angus",
+      "score": 32,
+      "dogOwnerScore": 30,
+      "publishOnTownMap": false,
+      "rationale": "Craichie remains selectable without borrowing attraction value from Forfar or neighbouring estates.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3524582668"
+    },
+    {
+      "requestedName": "Whigstreet",
+      "resolvedName": "Whigstreet",
+      "projectId": "whigstreet-scotland",
+      "region": "Angus",
+      "score": 34,
+      "dogOwnerScore": 32,
+      "publishOnTownMap": false,
+      "rationale": "Whigstreet has a distinct mapped identity but no verified complete visitor-town offer.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3922238270"
+    },
+    {
+      "requestedName": "Kirkbuddo",
+      "resolvedName": "Kirkbuddo",
+      "projectId": "kirkbuddo-scotland",
+      "region": "Angus",
+      "score": 34,
+      "dogOwnerScore": 32,
+      "publishOnTownMap": false,
+      "rationale": "Kirkbuddo remains a regional reference and does not inherit the value of attractions elsewhere in the parish.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3922238269"
+    },
+    {
+      "requestedName": "Gallowfaul",
+      "resolvedName": "Gallowfauld",
+      "projectId": "gallowfauld-scotland",
+      "region": "Angus",
+      "score": 20,
+      "dogOwnerScore": 18,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling resolves to Gallowfauld near Inverarity and Gateside; it is not an independently visitable settlement.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5285130182"
+    },
+    {
+      "requestedName": "Imverarity",
+      "resolvedName": "Inverarity",
+      "projectId": "inverarity-scotland",
+      "region": "Angus",
+      "score": 46,
+      "dogOwnerScore": 45,
+      "publishOnTownMap": false,
+      "rationale": "The requested spelling resolves to Inverarity. The village has historic character but remains below 60 pending a complete destination audit.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3922238271"
+    },
+    {
+      "requestedName": "Gateside",
+      "resolvedName": "Gateside",
+      "projectId": "gateside-inverarity-scotland",
+      "region": "Angus",
+      "score": 28,
+      "dogOwnerScore": 26,
+      "publishOnTownMap": false,
+      "rationale": "This resolves to Gateside beside Inverarity and Gallowfauld, not Gateside near Careston or Bowriefauld.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3922238272"
+    },
+    {
+      "requestedName": "Foffarty",
+      "resolvedName": "Wester Foffarty",
+      "projectId": "wester-foffarty-scotland",
+      "region": "Angus",
+      "score": 22,
+      "dogOwnerScore": 20,
+      "publishOnTownMap": false,
+      "rationale": "The contextual request resolves to Wester Foffarty, a named rural locality rather than a tourist settlement.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4173565606"
+    },
+    {
+      "requestedName": "Kirkton",
+      "resolvedName": "Kirkton",
+      "projectId": "kirkton-glamis-scotland",
+      "region": "Angus",
+      "score": 32,
+      "dogOwnerScore": 30,
+      "publishOnTownMap": false,
+      "rationale": "This resolves to Kirkton beside Foffarty and Douglastown, not the other Angus Kirktons. Nearby Glamis attractions do not inflate its score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3911825747"
+    },
+    {
+      "requestedName": "Thornton",
+      "resolvedName": "Thornton",
+      "projectId": "thornton-glamis-scotland",
+      "region": "Angus",
+      "score": 22,
+      "dogOwnerScore": 20,
+      "publishOnTownMap": false,
+      "rationale": "This resolves to Thornton near Glamis and is retained independently from Glamis village and castle.",
+      "sourceUrl": "https://www.openstreetmap.org/node/4173564439"
+    },
+    {
+      "requestedName": "Douglastown",
+      "resolvedName": "Douglastown",
+      "projectId": "douglastown-angus-scotland",
+      "region": "Angus",
+      "score": 42,
+      "dogOwnerScore": 41,
+      "publishOnTownMap": false,
+      "rationale": "Douglastown has a distinct planned-village character, but not enough independently verified visitor infrastructure for a town marker.",
+      "sourceUrl": "https://www.openstreetmap.org/node/3911825746"
+    }
+  ]
+}

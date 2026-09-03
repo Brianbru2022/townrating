@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-28",
+  "threshold": 60,
+  "rule": "Every resolved place remains selectable with its canonical score; only independently worthwhile settlements scoring 60 or more appear as town markers. Attractions never inflate settlement scores.",
+  "namingDecisions": [
+    "Milton of Towie is normalised to the gazetteered Milltown of Towie.",
+    "Kildrummy Castle remains a separate See attraction and is not counted towards the Kildrummy settlement score."
+  ],
+  "additions": [
+    {
+      "requestedName": "Mossat",
+      "resolvedName": "Mossat",
+      "projectId": "mossat-scotland",
+      "score": 36,
+      "dogOwnerScore": 35,
+      "publishOnTownMap": false,
+      "rationale": "Mossat remains distinct from Bridge of Alford and nearby private or commercial properties; those do not inflate its settlement score.",
+      "sourceUrl": "https://api.postcodes.io/postcodes/AB338PL",
+      "boundaryConfidence": "low"
+    },
+    {
+      "requestedName": "Rinmore",
+      "resolvedName": "Rinmore",
+      "projectId": "rinmore-glenkindie-scotland",
+      "score": 14,
+      "dogOwnerScore": 13,
+      "publishOnTownMap": false,
+      "rationale": "The landscape and Kindie Burn route are wider-area context; no complete settlement visit or public facilities are assumed.",
+      "sourceUrl": "https://api.postcodes.io/postcodes/AB338TD",
+      "boundaryConfidence": "low"
+    },
+    {
+      "requestedName": "Kildrummy",
+      "resolvedName": "Kildrummy",
+      "projectId": "kildrummy-scotland",
+      "score": 48,
+      "dogOwnerScore": 47,
+      "publishOnTownMap": false,
+      "rationale": "Kildrummy Castle is a separate See attraction and is deliberately excluded from the settlement rating; a later full audit may reassess the village itself.",
+      "sourceUrl": "https://her.aberdeenshire.gov.uk/Monument/MAB51882",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Sinnahard",
+      "resolvedName": "Sinnahard",
+      "projectId": "sinnahard-scotland",
+      "score": 16,
+      "dogOwnerScore": 14,
+      "publishOnTownMap": false,
+      "rationale": "Heritage records and countryside setting are retained as local context without implying public access or a complete visit.",
+      "sourceUrl": "https://api.postcodes.io/postcodes/AB338SH",
+      "boundaryConfidence": "low"
+    },
+    {
+      "requestedName": "Milton of Towie",
+      "resolvedName": "Milltown of Towie",
+      "projectId": "milltown-of-towie-scotland",
+      "score": 18,
+      "dogOwnerScore": 16,
+      "publishOnTownMap": false,
+      "rationale": "The requested Milton form is normalised to the gazetteered Milltown of Towie. Towie village and parish-wide heritage remain separately bounded.",
+      "sourceUrl": "https://api.postcodes.io/postcodes/AB338SJ",
+      "boundaryConfidence": "low"
+    },
+    {
+      "requestedName": "Towie",
+      "resolvedName": "Towie",
+      "projectId": "towie-scotland",
+      "score": 42,
+      "dogOwnerScore": 41,
+      "publishOnTownMap": false,
+      "rationale": "The settlement receives its own preliminary score; dispersed Towie parish heritage and neighbouring Glenkindie are not borrowed into it.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5923943784",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Glenkindie",
+      "resolvedName": "Glenkindie",
+      "projectId": "glenkindie-scotland",
+      "score": 40,
+      "dogOwnerScore": 39,
+      "publishOnTownMap": false,
+      "rationale": "Glenkindie is assessed as a settlement in its own right; estate, riverside and wider parish attractions do not automatically raise the score.",
+      "sourceUrl": "https://www.openstreetmap.org/node/5923923306",
+      "boundaryConfidence": "medium"
+    },
+    {
+      "requestedName": "Boultenstone",
+      "resolvedName": "Boultenstone",
+      "projectId": "boultenstone-scotland",
+      "score": 14,
+      "dogOwnerScore": 12,
+      "publishOnTownMap": false,
+      "rationale": "Boultenstone Bridge provides geographic identity but is not treated as a complete visitor destination or as evidence for a town rating above the publication threshold.",
+      "sourceUrl": "https://aberdeenshire.moderngov.co.uk/documents/s32124/Appendix%20G%20Bridges%20Prioritised%20List.pdf",
+      "boundaryConfidence": "medium"
+    }
+  ]
+}

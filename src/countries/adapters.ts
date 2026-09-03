@@ -39,6 +39,27 @@ const baseSources: DataSourceDefinition[] = [
     sourceUrl: 'https://maps.nls.uk/',
   },
 ];
+const englandSources: DataSourceDefinition[] = [
+  {
+    id: 'historic-england-nhle',
+    name: 'National Heritage List for England',
+    organisation: 'Historic England',
+    coverage: 'England',
+    accessMethod: 'local national dataset import',
+    reliability: 'official_statutory',
+    sourceUrl: 'https://historicengland.org.uk/listing/the-list/data-downloads/',
+  },
+  {
+    id: 'ons-built-up-areas-2024',
+    name: 'Built-up Areas (December 2024)',
+    organisation: 'Office for National Statistics',
+    coverage: 'England and Wales',
+    accessMethod: 'ArcGIS Feature Service',
+    reliability: 'official_statutory',
+    sourceUrl:
+      'https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/main_ONS_BUA_2024_EW_V2/FeatureServer',
+  },
+];
 function normalise(record: unknown, projectId: string): HeritageFeature {
   return { ...(record as Omit<HeritageFeature, 'projectId'>), projectId };
 }
@@ -51,6 +72,18 @@ export const scotlandAdapter: CountryAdapter = {
   dateTerminology: { present_by: 'Present by' },
   designationTerminology: { highest_national: 'Category A' },
 };
+export const englandAdapter: CountryAdapter = {
+  countryCode: 'GB-ENG',
+  countryName: 'England',
+  availableSources: englandSources,
+  discoverSources: async () => englandSources,
+  normaliseRecord: normalise,
+  dateTerminology: { present_by: 'Present by' },
+  designationTerminology: {
+    highest_national: 'Grade I / scheduled monument',
+    national: 'Grade II*',
+  },
+};
 export const genericAdapter: CountryAdapter = {
   countryCode: '*',
   countryName: 'Generic international',
@@ -61,5 +94,7 @@ export const genericAdapter: CountryAdapter = {
   designationTerminology: {},
 };
 export function adapterFor(countryCode: string): CountryAdapter {
-  return countryCode === 'GB-SCT' ? scotlandAdapter : genericAdapter;
+  if (countryCode === 'GB-SCT') return scotlandAdapter;
+  if (countryCode === 'GB-ENG') return englandAdapter;
+  return genericAdapter;
 }
