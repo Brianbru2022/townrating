@@ -17,6 +17,8 @@ import { eastNeukInlandPackages } from './eastNeukInland';
 import { gourockPackage } from './gourock';
 import { kincardinePackage } from './kincardine';
 import { killinPackage } from './killin';
+import { kettinsCollacePackages } from './kettinsCollace';
+import { carseGowriePackages } from './carseGowrie';
 import { kirknewtonPackage } from './kirknewton';
 import { linlithgowPackage } from './linlithgow';
 import { livingstonPackage } from './livingston';
@@ -49,6 +51,8 @@ const rawPublishedProjectPackages: ProjectPackage[] = [
   ...eastNeukInlandPackages,
   gourockPackage,
   killinPackage,
+  ...kettinsCollacePackages,
+  ...carseGowriePackages,
   kincardinePackage,
   kirknewtonPackage,
   linlithgowPackage,

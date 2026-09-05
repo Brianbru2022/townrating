@@ -4,6 +4,7 @@ import crailDogAccessLibrary from '../../data/crail-dog-access-curation.json';
 import cairnOMountDogAccessLibrary from '../../data/cairn-o-mount-dog-access-curation.json';
 import stonehavenCoastDogAccessLibrary from '../../data/stonehaven-coast-dog-access-curation.json';
 import aberdeenNorthDogAccessLibrary from '../../data/aberdeen-north-dog-access-curation.json';
+import carseGowrieDogAccessLibrary from '../../data/carse-gowrie-dog-access-curation.json';
 import type { DogAccessInfo } from '../domain/dogAccess';
 
 export type DogAccessPlaceKind = 'attraction' | 'eat';
@@ -25,6 +26,7 @@ const parsedCrailLibrary = crailDogAccessLibrary as DogAccessLibraryJson;
 const parsedCairnOMountLibrary = cairnOMountDogAccessLibrary as DogAccessLibraryJson;
 const parsedStonehavenCoastLibrary = stonehavenCoastDogAccessLibrary as DogAccessLibraryJson;
 const parsedAberdeenNorthLibrary = aberdeenNorthDogAccessLibrary as DogAccessLibraryJson;
+const parsedCarseGowrieLibrary = carseGowrieDogAccessLibrary as DogAccessLibraryJson;
 
 const crailBase = parsedEastNeukLibrary.projects['crail-scotland'] ?? {};
 const crailDeep = parsedCrailLibrary.projects['crail-scotland'] ?? {};
@@ -35,6 +37,7 @@ export const publishedDogAccess: Record<string, ProjectDogAccess> = {
   ...parsedCairnOMountLibrary.projects,
   ...parsedStonehavenCoastLibrary.projects,
   ...parsedAberdeenNorthLibrary.projects,
+  ...parsedCarseGowrieLibrary.projects,
   'crail-scotland': {
     ...crailBase,
     ...crailDeep,
